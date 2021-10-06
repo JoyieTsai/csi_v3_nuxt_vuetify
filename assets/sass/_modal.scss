@@ -1,0 +1,56 @@
+.ant-modal {
+  &-mask {
+    background-color: rgba($white, 0.8);
+  }
+}
+
+.v-dialog {
+  width: 100%;
+  max-width: 1280px;
+  
+}
+
+.dialog-primary {
+  padding: 2rem 3rem;
+  background-color: $primary-light-color;
+}
+
+.card-primary {
+  .ant-modal {
+    &-mask {
+      background-color: rgba($white, 0.8);
+    }
+    &-content {
+      background-color: $primary-light-color;
+    }
+    &-header {
+      background-color: transparent;
+      border-color: transparent;
+      padding: 24px 24px 0;
+    }
+    &-title {
+      text-align: center;
+      font-size: $heading-2-size;
+      font-weight: 600;
+      line-height: inherit;
+      color: $white;
+    }
+    &-body {
+      color: $white;
+    }
+    &-close {
+      color: $white;
+      .anticon {
+        font-size: 1.5rem;
+      }
+    }
+  }
+}
+
+.modal-video {
+  .ant-modal {
+    &-body {
+      padding: 0;
+    }
+  }
+}

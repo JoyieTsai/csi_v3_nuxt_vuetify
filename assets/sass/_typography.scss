@@ -1,0 +1,50 @@
+%all-font-family {
+  font-family: $heading-font-family;
+}
+
+.header {
+  &-1 {
+    @extend %all-font-family;
+    font-size: $heading-1-size;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  &-2 {
+    @extend %all-font-family;
+    font-size: $heading-2-size;
+    font-weight: 800;
+    margin-bottom: 1rem;
+  }
+  &-3 {
+    @extend %all-font-family;
+    font-size: $heading-3-size;
+  }
+  &-4 {
+    @extend %all-font-family;
+    font-size: $heading-4-size;
+  }
+  &-5 {
+    @extend %all-font-family;
+    font-size: $heading-5-size;
+  }
+}
+
+.title {
+  font-size: $title-size;
+}
+
+.body-text {
+  &-1 {
+    font-size: $body-1-size;
+  }
+  &-2 {
+    font-size: $body-2-size;
+  }
+  &-3 {
+    font-size: $body-3-size;
+  }
+}
+
+.tips {
+  font-size: $tips-size;
+}

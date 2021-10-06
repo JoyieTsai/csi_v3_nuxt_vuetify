@@ -1,0 +1,53 @@
+.v-app-bar {
+  width: 100%;
+  z-index: 100 !important;
+}
+
+.ant-menu {
+  font-size: $body-3-size;
+  font-weight: 600;
+  color: $font-color-base;
+
+  &-horizontal {
+    border-bottom: 0;
+    & > .ant-menu-item:hover,
+    & > .ant-menu-item-active,
+    & > .ant-menu-item-selected {
+      color: $primary-color;
+      border-bottom-color: transparent;
+    }
+  }
+}
+
+.ant-menu-vertical {
+  border: 0;
+  .ant-menu-item {
+    height: 2rem;
+    & > a {
+      line-height: 1;
+    }
+    &:not(:last-child) {
+      margin-bottom: 2px;
+    }
+    &:last-child {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.ant-menu-item {
+  & > a:hover {
+    color: $primary-color;
+    background-color: rgba($primary-light-color, 0.12);
+  }
+}
+
+.ant-menu-item-selected {
+  & > a {
+    color: rgba(0, 0, 0, 0.65);
+  }
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: transparent;
+}

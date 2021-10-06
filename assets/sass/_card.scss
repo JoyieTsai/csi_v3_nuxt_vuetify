@@ -1,0 +1,13 @@
+.ant-card {
+  font-size: 1rem;
+  color: $grey-dark-color;
+
+  &-head {
+    border-bottom: 1px solid $primary-light-color;
+  }
+
+  &-head-title {
+    font-size: $body-2-size;
+    padding-top: 0;
+  }
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="169px" height="173px" viewBox="0 0 169 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>testimonial-vector</title>
+    <g id="Overall" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V3-Resource-Detail" transform="translate(-1090.000000, -1962.000000)">
+            <g id="Group-16-Copy" transform="translate(462.000000, 1648.000000)">
+                <g id="Group-14">
+                    <g id="testimonial-vector" transform="translate(628.000000, 314.000000)">
+                        <polygon id="Polygon-Copy-5" fill="#317AC4" transform="translate(53.500000, 120.000000) rotate(-360.000000) translate(-53.500000, -120.000000) " points="53.5 79 88.5740289 99.5 88.5740289 140.5 53.5 161 18.4259711 140.5 18.4259711 99.5"></polygon>
+                        <polygon id="Polygon-Copy-7" fill="#317AC4" transform="translate(145.500000, 90.000000) rotate(-360.000000) translate(-145.500000, -90.000000) " points="145.5 72 160.655445 81 160.655445 99 145.5 108 130.344555 99 130.344555 81"></polygon>
+                        <polygon id="Polygon-Copy-9" fill="#317AC4" transform="translate(107.500000, 37.000000) rotate(-360.000000) translate(-107.500000, -37.000000) " points="107.5 8 132.181724 22.5 132.181724 51.5 107.5 66 82.818276 51.5 82.818276 22.5"></polygon>
+                        <path d="M53.5,67.1547005 L8.1676409,93.3273503 L8.1676409,145.67265 L53.5,171.845299 L98.8323591,145.67265 L98.8323591,93.3273503 L53.5,67.1547005 Z" id="Polygon-Copy-6" stroke="#317AC4" stroke-width="2" transform="translate(53.500000, 119.500000) rotate(-360.000000) translate(-53.500000, -119.500000) "></path>
+                        <path d="M145.5,68.1486078 L126.148403,79.0835416 L126.148403,100.916458 L145.5,111.851392 L164.851597,100.916458 L164.851597,79.0835416 L145.5,68.1486078 Z" id="Polygon-Copy-8" stroke="#317AC4" stroke-width="2" transform="translate(145.500000, 90.000000) rotate(-360.000000) translate(-145.500000, -90.000000) "></path>
+                        <path d="M107,1.15092098 L75.0910347,19.3311674 L75.0910347,55.6688326 L107,73.849079 L138.908965,55.6688326 L138.908965,19.3311674 L107,1.15092098 Z" id="Polygon-Copy-10" stroke="#317AC4" stroke-width="2" transform="translate(107.000000, 37.500000) rotate(-360.000000) translate(-107.000000, -37.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

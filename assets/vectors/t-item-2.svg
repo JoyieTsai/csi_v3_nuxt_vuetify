@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="580px" height="201px" viewBox="0 0 580 201" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>t-item-2</title>
+    <defs>
+        <filter color-interpolation-filters="auto" id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="t-item-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="453" y1="238.148371" x2="453" y2="-13.8516295" id="Stroke-10-Copy" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(453.000000, 112.500000) rotate(-270.000000) translate(-453.000000, -112.500000) "></line>
+        <line x1="424.5" y1="114" x2="424.5" y2="-80.5" id="Stroke-19-Copy" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(424.500000, 16.500000) rotate(-270.000000) translate(-424.500000, -16.500000) "></line>
+        <text id="InfoScan-Copy" transform="translate(212.000000, 110.000000) rotate(-360.000000) translate(-212.000000, -110.000000) " font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="170.048" y="118">InfoScan</tspan>
+        </text>
+        <text id="Full-Text-Search-Copy" transform="translate(201.500000, 187.000000) rotate(-360.000000) translate(-201.500000, -187.000000) " font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="126" y="195">Full Text Search</tspan>
+        </text>
+        <path d="M304,178.5 C306.899478,178.5 309.524483,179.675258 311.424617,181.575391 C313.32474,183.475515 314.5,186.100508 314.5,189 C314.5,191.899492 313.32474,194.524485 311.424617,196.424609 C309.524483,198.324742 306.899478,199.5 304,199.5 C301.100501,199.5 298.475501,198.32475 296.575375,196.424624 C294.67525,194.524499 293.5,191.899499 293.5,189 C293.5,186.100501 294.67525,183.475501 296.575375,181.575376 C298.475501,179.67525 301.100501,178.5 304,178.5 Z" id="Fill-46-Copy-28" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF" transform="translate(304.000000, 189.000000) rotate(-360.000000) translate(-304.000000, -189.000000) "></path>
+        <text id="Template-Generator" transform="translate(178.000000, 14.000000) rotate(-360.000000) translate(-178.000000, -14.000000) " font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="79" y="22">Template Generator </tspan>
+        </text>
+        <path d="M304,5.5 C306.899478,5.5 309.524483,6.67525779 311.424617,8.57539131 C313.32474,10.4755147 314.5,13.1005078 314.5,16 C314.5,18.8994922 313.32474,21.5244853 311.424617,23.4246087 C309.524483,25.3247422 306.899478,26.5 304,26.5 C301.100501,26.5 298.475501,25.3247501 296.575375,23.4246244 C294.67525,21.5244994 293.5,18.8994995 293.5,16 C293.5,13.1005005 294.67525,10.4755006 296.575375,8.57537558 C298.475501,6.67524988 301.100501,5.5 304,5.5 Z" id="Fill-46-Copy-17" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF" transform="translate(304.000000, 16.000000) rotate(-360.000000) translate(-304.000000, -16.000000) "></path>
+        <polyline id="Path-2" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="394 112 394 189 327 189"></polyline>
+        <polygon id="Polygon-Copy-4" fill="#317AC4" transform="translate(304.000000, 112.000000) rotate(-360.000000) translate(-304.000000, -112.000000) " points="304 72 338.641016 92 338.641016 132 304 152 269.358984 132 269.358984 92"></polygon>
+        <g id="solid/info_scan" transform="translate(288.000000, 95.000000)" filter="url(#filter-1)">
+            <g>
+                <path d="M29.3270548,3.575 L29.3270548,29.7 L3.20205479,29.7 L3.20205479,3.575 L29.3270548,3.575 Z M25.5175824,19.2398148 L24.7115995,19.2398148 L24.7118298,24.1340192 L19.8181319,24.1340192 L19.8181319,24.9401235 L25.5175824,24.9401235 L25.5175824,19.2398148 Z M7.73809279,19.2402439 L6.93198854,19.2402439 L6.93198854,24.9396944 L12.6322972,24.9396944 L12.6322972,24.1337115 L7.73809279,24.1339418 L7.73809279,19.2402439 Z M10.2121526,18.4962963 L9.41043956,18.4962963 L9.41043956,21.7182099 L23.0395604,21.7182099 L23.0395604,18.4962963 L22.2378474,18.4962963 L22.2380765,20.8980864 L10.2123816,20.8980864 L10.2121526,18.4962963 Z M24.2,16.3625 L7.975,16.3625 L7.975,17.325 L24.2,17.325 L24.2,16.3625 Z M23.0395604,11.8046296 L9.41043956,11.8046296 L9.41043956,15.0265432 L10.2121526,15.0265432 L10.2121526,12.6247531 L22.2378474,12.6247531 L22.2378474,15.0265432 L23.0395604,15.0265432 L23.0395604,11.8046296 Z M12.6318681,8.33487654 L6.93241758,8.33487654 L6.93241758,14.0351852 L7.73840049,14.0351852 L7.73840049,9.1409808 L12.6318681,9.1409808 L12.6318681,8.33487654 Z M25.5180115,8.33530559 L19.8177028,8.33530559 L19.8177028,9.1412885 L24.7121375,9.1412885 L24.7119072,14.0347561 L25.5180115,14.0347561 L25.5180115,8.33530559 Z" id="Combined-Shape" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,145 @@
+.btn {
+  &-lg {
+    padding: 0.55rem 2rem;
+    font-size: $body-2-size;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: uppercase;
+    min-width: 200px;
+    @include ripple($primary-light-color);
+  }
+
+  &-primary {
+    color: $white;
+    background-color: $primary-color;
+    border: 1px solid $primary-color;
+  }
+
+  &-primary-inverse {
+    background-color: $white;
+    color: $primary-color;
+    border: 1px solid $primary-light-color;
+  }
+
+  &-primary-dark {
+    color: $white;
+    background-color: $primary-dark-color;
+  }
+
+  &-link {
+    background-color: transparent;
+    color: $primary-color;
+    border-bottom: 1px solid $primary-light-color;
+
+    &:hover {
+      color: lighten($primary-color, 15);
+    }
+  }
+
+  &-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    border: 1px solid $white;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+
+  &-play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 66px;
+    height: 66px;
+    border: 2px solid $white;
+    border-radius: 50%;
+    background-color: transparent;
+
+    &.primary {
+      border: 2px solid $primary-color;
+      background-color: $primary-color;
+    }
+
+    &:hover {
+      background-color: rgba($primary-color, 0.85);
+      box-shadow: 0 8px 15px 0 rgba($black, 0.5);
+    }
+  }
+
+  &-close {
+    width: 56px;
+    height: 56px;
+    border-radius: 0;
+    border: 1px solid $primary-light-color;
+    background: url('../assets/icons/icon-close.svg') center no-repeat;
+  }
+}
+
+.fb-color {
+  background-color: #1877f2;
+  border-color: #1877f2;
+}
+.twitter-color {
+  background-color: #1da1f2;
+  border-color: #1da1f2;
+}
+.linkedin-color {
+  background-color: #007bb5;
+  border-color: #007bb5;
+}
+
+.primary-link {
+  color: $primary-color;
+  text-decoration: underline;
+
+  &:hover {
+    color: $primary-light-color;
+  }
+
+  &.no-underline {
+    text-decoration: none;
+  }
+}
+
+.v-btn {
+  font-size: $body-3-size !important;
+  letter-spacing: $btn-letter-spacing !important;
+  &-primary {
+    background-color: $primary-color;
+    border-color: $primary-color;
+    &:hover,
+    &:focus {
+      background-color: $primary-light-color;
+      border-color: $primary-light-color;
+    }
+  }
+
+  &--text,&--icon {
+    color: $grey-dark-color;
+    &:hover {
+      color: $primary-color !important;
+    }
+  }
+
+  &::before {
+    background-color: transparent !important;
+  }
+
+  &.capitalize {
+    text-transform: capitalize;
+  }
+}
+
+.bg-primary-light {
+  a {
+    color: white;
+    text-decoration: underline;
+  }
+}
+
+.v-btn.v-size--large {
+  font-size: $body-3-size !important;
+  font-weight: 600;
+}

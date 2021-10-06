@@ -1,0 +1,818 @@
+[
+  {
+    "id": "county-prosecution",
+    "title": "County Prosecution",
+    "subtitle": "coming soon...",
+    "icon": "prosecution.svg",
+    "coverImg": "",
+    "brochure": "Prosecutor.pdf",
+    "descHeading": "",
+    "descContent": "",
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "justice-courts/public-defender"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "justice-courts/attorney-ethics"
+      },
+      {
+        "title": "Municipal Attorney",
+        "icon": "icon-justice_court_solid",
+        "link": "justice-courts/municipal-attorney"
+      }
+    ],
+    "quote": {
+      "content": ""
+    }
+  },
+  {
+    "id": "attorney-general",
+    "title": "Attorney General",
+    "subtitle": "coming soon...",
+    "icon": "attorney_general.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "justice-courts/public-defender"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "justice-courts/attorney-ethics"
+      },
+      {
+        "title": "Municipal Attorney",
+        "icon": "icon-justice_court_solid",
+        "link": "justice-courts/municipal-attorney"
+      }
+    ],
+    "quote": {
+      "content": ""
+    }
+  },
+  {
+    "id": "courts",
+    "title": "Courts",
+    "subtitle": "A Complete Case and Document Management Solution",
+    "icon": "court.svg",
+    "coverImg": "courts.jpg",
+    "brochure": "",
+    "descHeading": "Comprehensive case handling system from docketing to disposition",
+    "descContent": "InfoShare™ Courts is a case and document management tool offering court staff a workflow-based case handling platform. Docketing, assignments, document handling, notifications, calendaring, and dispositions are all recorded clearly and conveniently. Online order generation and opinion publishing along with extensive search capabilities, reporting, notifications, and analytics are all built in.",
+    "highlightVideo": "Courts_highlight.mp4",
+    "highlightImg": "CAD_thumb.jpg",
+    "highlights": [
+      "Efficient case intake and document management tool",
+      "Designed to handle all case types",
+      "Built-in case workflow and reporting capability",
+      "Full search features including ad hoc searching",
+      "Integration of all case artifacts"
+    ],
+    "sysTitle": {
+      "title": "Case management, simplified.",
+      "img": "courts.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Case Management",
+        "desc": "Efficient case processing allows staff to focus on important tasks. Cases can transfer electronically between courts, eliminating redundant data entry. Complexities such as calendaring, disqualifications, case and document sealing, and opinion handling are all accommodated.",
+        "list": [
+          "Auto-numbering and auto-assignment",
+          "Handling of all case types",
+          "Configurable support files and business rules",
+          "Role-based permission settings restrict access to sensitive cases",
+          "Electronic document management including file stamping",
+          "Judge, vicinage, and party contact management"
+        ],
+        "img": "courts-1.jpg"
+      },
+      {
+        "title": "Streamlined Workflow",
+        "desc": "A workflow-optimized user interface improves investigative staff productivity. Users can quickly locate caseload information, add case events, create reports, or view assignments and active cases from a single window.",
+        "list": [
+          "User inbox assignment tracking ",
+          "Event scheduling calendar service",
+          "Template generation tool",
+          "Role-based inbox view"
+        ],
+        "img": "courts-2.jpg"
+      },
+      {
+        "title": "Extensive Search Capabilities",
+        "desc": "Given the wealth of cases, documents, multimedia files, and reports, investigative staff need powerful search capabilities to quickly and easily find the necessary information.",
+        "list": [
+          "Extensive global and local search options",
+          "Permission- and security-based search restrictions",
+          "Ad hoc searches",
+          "Full-text search engine"
+        ],
+        "img": "courts-3.jpg"
+      },
+      {
+        "title": "Template Generation and Reporting",
+        "desc": "Customizable templates generated with one click for a wide variety of reports. Users can create and export reports in PDF or Excel formats. Moreover, InfoShare™ Courts supports templates for automated notifications, orders, and more.",
+        "list": [
+          "Paperless reports for electronic distribution ",
+          "Multiple report formats (PDF, Excel)",
+          "Bookmarking features for report customization",
+          "Incorporation of digital signatures",
+          "Permission levels restrict access to sensitive reports"
+        ],
+        "img": "courts-4.jpg"
+      },
+      {
+        "title": "Document Archiving",
+        "desc": "InfoShare™ Courts also includes the option of archiving case materials, providing substantial savings on costly paper storage. Case jackets can be uploaded and retained for any length of time mandated by the state.",
+        "list": [
+          "Bulk upload capability",
+          "Off-site transport and warehousing cost savings",
+          "Convenient and easy document retrieval",
+          "Integrated document handling"
+        ],
+        "img": "courts-5.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Courts eFiling",
+        "icon": "icon-efiling_solid",
+        "link": "justice-courts/courts-efiling"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "justice-courts/attorney-ethics"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "justice-courts/public-defender"
+      },
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      }
+    ],
+    "quote": {
+      "content": "The goal is to turn data into information and information into insight"
+    }
+  },
+  {
+    "id": "courts-efiling",
+    "title": "Courts eFiling",
+    "subtitle": "Secure Portal for Electronic Case Handling",
+    "icon": "efiling.svg",
+    "coverImg": "courts_efiling.jpg",
+    "brochure": "",
+    "descHeading": "Process submitted cases, documents, communications, and filing fees electronically",
+    "descContent": "Fully integrated with InfoShare™ Court Case Management, the Courts eFiling module provides an easy to use and convenient 24x7 system for filers of all case types. Carefully crafted to guide filers through case creation, supplemental document filing, attorney substitutions, and all aspects of today’s cases. Electronic notifications and communications are provided, and filing fees are handled through a secure online payment process.",
+    "sysFeatures": [
+      {
+        "title": "Electronic Document Filing",
+        "desc": "A fully synchronized portal allowing filers to create or upload documents online anytime, anywhere. Documents are submitted to the Court for review immediately after filing and date/time stamped with the status. Parties have access to case documents filed by other parties.",
+        "list": [
+          "Document status updates for filers",
+          "Other parties served electronically",
+          "No delivery delays",
+          "Integrated document management system"
+        ],
+        "img": "ce-1.jpg"
+      },
+      {
+        "title": "Ease of Case Processing for Court Staff",
+        "desc": "eFiled documents are pre-sorted into staff inboxes allowing for efficient case processing. Case and document statuses are automatically updated for the filer. Electronic document transfer and storage minimizes physical file handling.",
+        "list": [
+          "Streamlined case workflow",
+          "Immediate document review and status assignment",
+          "Electronic file stamping and synchronization",
+          "Built-in electronic communications"
+        ],
+        "img": "ce-2.jpg"
+      },
+      {
+        "title": "Credit Card Payment Handling",
+        "desc": "Allow filers to easily pay fees by credit card, eliminating time consuming check handling done by court staff. Comprehensive audit trail records allow for easy tracing of any payment. A full suite of reports is included for accounting purposes.",
+        "list": [
+          "Detailed audit trail records",
+          "QuickBooks interface",
+          "Financial reporting"
+        ],
+        "img": "ce-3.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Courts",
+        "icon": "icon-court_solid",
+        "link": "courts"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "attorney-ethics"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "attorney_general"
+      },
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "prosecution"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "public_defender"
+      }
+    ],
+    "quote": {
+      "content": "Happiness is a satisfied client"
+    }
+  },
+  {
+    "id": "public-defender",
+    "title": "Public Defender",
+    "subtitle": "coming soon...",
+    "icon": "public_defender.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "justice-courts/public-defender"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "justice-courts/attorney-ethics"
+      },
+      {
+        "title": "Municipal Attorney",
+        "icon": "icon-justice_court_solid",
+        "link": "justice-courts/municipal-attorney"
+      }
+    ],
+    "quote": {
+      "content": ""
+    }
+  },
+  {
+    "id": "attorney-ethics",
+    "title": "Attorney Ethics",
+    "subtitle": "Enforcing Good Attorney Standards",
+    "icon": "attorney_ethics.svg",
+    "coverImg": "attorney_ethics.jpg",
+    "brochure": "",
+    "descHeading": "Full application suite to maintain ethical attorney behavior",
+    "descContent": "In certain circumstances, attorney actions may be challenged by clients, and InfoShare™ Attorney Ethics provides a way of adjudicating these matters. For attorneys found to have contravened ethical practices, or to have committed felonies, disciplinary action can be taken. Additionally, fee disputes can be reviewed and settled. A random audit system reviews attorney accounting to make sure that client funds are managed properly.",
+    "sysFeatures": [
+      {
+        "title": "Disciplinary Hearings with Portal",
+        "desc": "Schedule disciplinary hearings; assign disciplinary board members, presenters, and attorney counsel; and record board determinations. Discipline or reinstatement decisions can be viewed by the public via the Portal.",
+        "list": [
+          "Multi-stage review process",
+          "Inter-Court transfer option",
+          "Confidential case sealing",
+          "Public disciplinary decisions via Portal",
+          "Attorney disciplinary history via Portal"
+        ],
+        "img": "ae-1.jpg"
+      },
+      {
+        "title": "Fee Arbitration and Fee/Ethics Appeals",
+        "desc": "Seamless fee arbitration process to handle fee disputes from appealing a determination. Similarly, ethics appeals can be processed, with original hearing documents transferred from the original hearing agency.",
+        "list": [
+          "Public and attorney appeals",
+          "Data retrieval from inter-Court agency",
+          "Full vote of board members and recusals",
+          "Appeal documents available electronically"
+        ],
+        "img": "ae-2.jpg"
+      },
+      {
+        "title": "Random Audits",
+        "desc": "Random audits of attorney firms to ensure maximum accountability. Generate pre-audit template checklists and data sheets, assign auditors, and schedule assignments and follow up visits where necessary.",
+        "list": [
+          "Field and mail audits",
+          "No repeats in random audit selection",
+          "Tablet support for field audits",
+          "Electronic notifications and follow ups",
+          "Simple audit rescheduling",
+          "Full report suite"
+        ],
+        "img": "ae-3.jpg"
+      },
+      {
+        "title": "eFiling",
+        "desc": "Enable district offices to docket matters and make staff assignments remotely, saving on paper, postage, and time. Costs assessed and other penalties can be paid electronically, and appeals can also be filed.",
+        "list": [
+          "Fast access for field offices",
+          "Electronic document transfer",
+          "Online payment of fees or fines",
+          "Smooth case processing"
+        ],
+        "img": "ae-4.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Courts",
+        "icon": "icon-court_solid",
+        "link": "courts"
+      },
+      {
+        "title": "Courts eFiling",
+        "icon": "icon-efiling_solid",
+        "link": "courts-efiling"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "attorney-general"
+      },
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "prosecution"
+      },
+      {
+        "title": "eDiscovery with Portal",
+        "icon": "icon-ediscovery_solid",
+        "link": "justice-courts/ediscovery-with-portal"
+      }
+    ],
+    "quote": {
+      "content": "Happiness is a satisfied client"
+    }
+  },
+  {
+    "id": "municipal-attorney",
+    "title": "Municipal Attorney",
+    "subtitle": "coming soon...",
+    "icon": "justice_court.svg",
+    "coverImg": "",
+    "brochure": "Municipal Portal.pdf",
+    "descHeading": "",
+    "descContent": "",
+
+    
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "justice-courts/public-defender"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "justice-courts/attorney-ethics"
+      },
+      {
+        "title": "Municipal Attorney",
+        "icon": "icon-justice_court_solid",
+        "link": "justice-courts/municipal-attorney"
+      }
+    ],
+    "quote": {
+      "content": ""
+    }
+  },
+  {
+    "id": "ediscovery-with-portal",
+    "title": "eDiscovery with Portal",
+    "subtitle": "Efficient Preparation and Delivery of Discovery Files",
+    "icon": "ediscovery.svg",
+    "coverImg": "e-discovery.jpg",
+    "brochure": "Discovery with Portal.pdf",
+    "descHeading": "Reduce time spent on discovery preparation by up to 75%",
+    "descContent": "A strategic and tactical approach in this evolving world for the creation, viewing, transmission, and delivery of Discovery documents. Manually copying, redacting, and sending documents is a thing of the past. Now, agencies can do all those tasks electronically. Staff can be more effective and productive in other assignments needed in the office. And registered attorneys can use the Portal to securely request and receive discovery files.",
+    "carousels": [
+      {
+        "title": "PDF Conversion",
+        "img": "eDiscovery-1.jpg",
+        "desc": "Convert all discoverable documents that are scanned, uploaded, or generated in the system into a PDF  file to ensure the document(s) integrity."
+      },
+      {
+        "title": "Discovery Packages",
+        "img": "eDiscovery-2.jpg",
+        "desc": "Organize documents and other multimedia files into discovery packages quickly and easily, saving valuable time and money."
+      },
+      {
+        "title": "Redaction & Bates Numbering",
+        "img": "eDiscovery-3.jpg",
+        "desc": "Protect privileged information with redaction and add bates numbers for easy identification and retrieval. Original documents can be viewed next to redacted copies."
+      },
+      {
+        "title": "Multimedia Files & Billing",
+        "img": "eDiscovery-4.jpg",
+        "desc": "Manage all discovery files, documents, images, and audio/video recordings together with billing in one central, secure location."
+      },
+      {
+        "title": "eDiscovery Portal",
+        "img": "eDiscovery-5.jpg",
+        "desc": "Efficient delivery of discovery packages to registered attorneys for Public Defender's Offices, Private Attorneys, and District Attorneys via the Portal."
+      },
+      {
+        "title": "Video Discovery",
+        "img": "eDiscovery-6.jpg",
+        "desc": "Handle massive video data with third-party cloud integration (Evidence.com, Wasabi). APIs enable user access to video footage without impacting existing bandwidth."
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "justice-courts/public-defender"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "justice-courts/attorney-ethics"
+      },
+      {
+        "title": "Municipal Attorney",
+        "icon": "icon-justice_court_solid",
+        "link": "justice-courts/municipal-attorney"
+      }
+    ],
+    "quote": {
+      "content": "It’s not IF I can, It’s HOW I can"
+    }
+  },
+  {
+    "id": "vw-portal",
+    "title": "Victim Witness Suite with Portal",
+    "subtitle": "A Full Service Suite for Victim Advocates and Crime Victims",
+    "icon": "vw.svg",
+    "coverImg": "vw_portal.jpg",
+    "brochure": "VW Portal.pdf",
+    "descHeading": "Expedite services and communication for victims",
+    "descContent": "The Victims of Crime Act (VOCA) of 1984 was established to ensure victims are treated with fairness, compassion, and respect. The Victim Witness Suite with Portal serves as an invaluable resource for Victim Advocates and Crime Victims. Benefits include helping monitor and manage advocate caseloads, meeting the needs of victims, educating victims of their rights, enhancing communication, complying with state and federal regulations, and many more. Ultimately, advocates spend less time on paperwork and more time focusing on victim support.",
+    "sysFeatures": [
+      {
+        "title": "Customizable Automated Letter Generation",
+        "desc": "The Victim Witness Suite is seamlessly integrated with InfoShare™. Case information only needs to be entered once to become available for use in forms, reports, and other documents. Letters can be customized and automatically generated based on court events and their outcomes.",
+        "list": [
+          "Initial Contact Letters",
+          "Victim Impact Statements",
+          "Court Event Letters",
+          "Subpoenas",
+          "Disposition Letters"
+        ],
+        "img": "vw-1.jpg"
+      },
+      {
+        "title": "Court Events and Trigger Settings",
+        "desc": "Victim Witness letters are generated daily based on trigger settings and court events/outcomes. Advocates can set specific triggers and review the letters generated for the day. Letters can be mailed, emailed, or sent to the Portal.",
+        "list": [
+          "Court events and disposition triggers",
+          "Receiver type (victim, victim survivor, secondary victim)",
+          "Notification type (mail, email, portal)",
+          "Attachment settings"
+        ],
+        "img": "vw-2.jpg"
+      },
+      {
+        "title": "Victim Services Tab",
+        "desc": "Easily track services provided to victims of crime. Services provided include supporting victims’ needs, educating victims of their rights, assisting with forms, and navigating the criminal justice proceedings. All information is confidential and populated into VOCA reports.",
+        "list": [
+          "Victim Services tracking",
+          "Case information management",
+          "Case letter logs",
+          "Important case notes"
+        ],
+        "img": "vw-3.jpg"
+      },
+      {
+        "title": "Stat Tracker",
+        "desc": "Statistics tracker is designed to simplify state and federal reporting and statistical requirements. Forms and reports are automatically updated when information is added to a case, streamlining the reporting process and saving valuable time. ",
+        "list": [
+          "VOCA report",
+          "Sexual assault response and referrals report",
+          "Sexual assault nurse (SANE) examiner PMT report",
+          "VAWA muskie report",
+          "Victim Service time tracker"
+        ],
+        "img": "vw-4.jpg"
+      },
+      {
+        "title": "Victim Witness Portal",
+        "desc": "A secure website for Victims and Witnesses to receive court notifications, instantly access forms and letters, check the status of a case, and securely communicate with Advocates using the portal note feature. ",
+        "list": [
+          "Automated notification service",
+          "Quick access to victim contact letters and court proceedings",
+          "Instant access to forms (victim impact statement, sentencing, plea, etc.)",
+          "Resources for victim needs",
+          "Communication with advocates via portal note"
+        ],
+        "img": "vw-5.jpg"
+      },
+      {
+        "title": "InfoVNS Mobile App",
+        "desc": "Allows access via any mobile device so that Victims and Witnesses can get vital information on cases, court events, and resources anywhere, anytime. The app shares all the same functions as the portal plus mapping and navigation for quick access to resources. ",
+        "list": [
+          "Anytime, anywhere mobility",
+          "Quick and easy access to case information",
+          "Services and resources search options",
+          "Mapping and navigation features "
+        ],
+        "img": "vw-6.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Courts",
+        "icon": "icon-justice_court_solid",
+        "link": "justice-courts/courts"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      }
+    ],
+    "quote": {
+      "content": "The secret of getting ahead is getting started.",
+      "author": "Mark Twain"
+    }
+  },
+  {
+    "id": "interview-recording",
+    "title": "Interview Recording",
+    "subtitle": "Interview Room A/V Recording Software",
+    "icon": "info_recording.svg",
+    "coverImg": "interview_recording.jpg",
+    "brochure": "InfoRecording.pdf",
+    "descHeading": "Conduct remote interviews and store recordings directly in the case file",
+    "descContent": "Equipped with comprehensive features for managing interview recordings, the application seamlessly integrates with InfoShare™ so recordings are stored directly in the case file after the interview is completed. The Windows-based application launches right from the user’s computer, requires no special housing/recording system, and is compatible with most HD cameras and high-quality synchronized audio. Live interviews can also be viewed from the web and from iOS-supported smartphones and tablets.",
+    "sysFeatures": [
+      {
+        "title": "One System Recording",
+        "desc": "Efficiently manage multiple interrogations and interview rooms from one recording station. The system accommodates up to four channels, allowing up to four video input devices from different locations. ",
+        "list": [
+          "Multi-room management on one station",
+          "HD camera compatibility",
+          "Audio and video synchronization",
+          "Direct storage to case file"
+        ],
+        "img": "ir-1.jpg"
+      },
+      {
+        "title": "Viewing/Recording Features",
+        "desc": "Users can quickly launch a recording session, manage the interview with recording features, review annotations, and control remote live broadcasting for authorized users (desktop, web, iOS-compatible devices).",
+        "list": [
+          "Push button recording",
+          "Bookmarks with annotations",
+          "Visual sound bar indicator",
+          "Mute/unmute speakers for attorney-client privilege",
+          "Watermark with date, time, and case number"
+        ],
+        "img": "ir-2.jpg"
+      },
+      {
+        "title": "Storage/Playback of Interview",
+        "desc": "With CSI’s patented <a href='/capabilities/infoShare-engine' class='primary-link'>InfoShare Engine®</a>, all applications and modules benefit from seamless integration. Interview recordings are linked directly to an agency’s case file or discovery package. They can also be burned to a disc or saved on the local system.",
+        "list": [
+          "Direct link to case file",
+          "Burn to disc",
+          "Intuitive search functions",
+          "MP4 video and audio recording",
+          "MP3 audio recording for transcription"
+        ],
+        "img": "ir-3.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "eDiscovery with Portal",
+        "icon": "icon-ediscovery_solid",
+        "link": "justice-courts/ediscovery-with-portal"
+      }
+    ],
+    "quote": {
+      "content": "Sapere Aude"
+    }
+  },
+  {
+    "id": "online-transcription-service",
+    "title": "Online Transcription Service",
+    "subtitle": "Transcription with minimal effort and complete integration",
+    "icon": "online_trans.svg",
+    "coverImg": "online_transcription_service.jpg",
+    "brochure": "InfoScrIbe.pdf",
+    "descHeading": "Save thousands of hours with automated audio and video transcriptions",
+    "descContent": "A voice-to-text transcription module utilizing the latest innovations in transcription technology reduces the amount of work in transcribing evidence by at least 50%. Because this module is fully integrated into the InfoShare™ platform, transcription tasks can be directly executed for multimedia files stored in eDiscovery folders. Finished transcripts are reviewable, searchable, and linked to their corresponding files.",
+    "sysFeatures": [
+      {
+        "title": "Rapid First Draft",
+        "desc": "Produce a rough transcript in minutes using cloud-based speech translation powered by machine learning. First drafts are up to 80% accurate. Government cloud infrastructure offers enterprise-grade security and CJIS compliance.",
+        "list": [
+          "Accurate, high-quality rough drafts",
+          "Searchable and reviewable transcripts",
+          "Azure Artificial Intelligence and Government Cloud",
+          "Voice recognition with probability index",
+          "Support for multiple languages"
+        ],
+        "img": "ots-1.jpg"
+      },
+      {
+        "title": "Transcriber Efficiency and Editing",
+        "desc": "Designed with quality-focused editing tools and functions. Each line is timestamped with a confidence level, and lines below a certain confidence level are automatically highlighted for review. Integrated keyboard and foot pedal controls maximize transcriber efficiency.",
+        "list": [
+          "Real-time playback",
+          "Time stamps with confidence levels",
+          "Color-coded speaker identifier",
+          "Integrated transcriber keyboard and foot pedal controls",
+          "Search, jump, rollback, flag, last review, and spell-check functions"
+        ],
+        "img": "ots-2.jpg"
+      },
+      {
+        "title": "Seamless Integration",
+        "desc": "Users can execute transcription tasks, review, correct, and view transcripts directly from eDiscovery folders within a case file. Finished transcripts are searchable and automatically linked to audio, video, or interview recordings uploaded to the system in a compatible format.",
+        "list": [
+          "Launch, review, and correct directly from case files",
+          "Unlimited corrections and reviews",
+          "MP3/MP4 format conversion",
+          "Multiple output formats (Word, PDF)"
+        ],
+        "img": "ots-3.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Courts",
+        "icon": "icon-court_solid",
+        "link": "justice-courts/courts"
+      },
+      {
+        "title": "Interview Recording",
+        "icon": "icon-info_recording_solid",
+        "link": "justice-courts/interview-recording"
+      }
+    ],
+    "quote": {
+      "content": "Sapere Aude (Dare to Know)"
+    }
+  },
+  {
+    "id": "interfaces",
+    "title": "Interfaces",
+    "subtitle": "coming soon...",
+    "icon": "interfaces.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Attorney General",
+        "icon": "icon-attorney_general_solid",
+        "link": "justice-courts/attorney-general"
+      },
+      {
+        "title": "Public Defender",
+        "icon": "icon-public_defender_solid",
+        "link": "justice-courts/public-defender"
+      },
+      {
+        "title": "Attorney Ethics",
+        "icon": "icon-attorney_ethics_solid",
+        "link": "justice-courts/attorney-ethics"
+      },
+      {
+        "title": "Municipal Attorney",
+        "icon": "icon-justice_court_solid",
+        "link": "justice-courts/municipal-attorney"
+      }
+    ],
+    "quote": {
+      "content": ""
+    }
+  }
+]

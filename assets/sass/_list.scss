@@ -1,0 +1,32 @@
+.dot-list {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+
+  li {
+    position: relative;
+    line-height: 2rem;
+  }
+
+  li::before {
+    content: '';
+    position: absolute;
+    display: flex;
+    width: 10px;
+    height: 10px;
+    background-color: $primary-color;
+    border-radius: 5px;
+    top: 10px;
+    left: -1.85rem;
+  }
+}
+
+.v-list {
+  overflow-y: auto;
+}
+
+.v-list--flat .v-list-item {
+  &:hover {
+    background-color: $light-color;
+  }
+}

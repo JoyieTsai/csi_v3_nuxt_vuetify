@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="580px" height="154px" viewBox="0 0 580 154" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>t-item-3</title>
+    <g id="t-item-3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Report-Engine-Copy" transform="translate(350.500000, 14.000000) rotate(-360.000000) translate(-350.500000, -14.000000) " font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="281.5" y="22">Report Engine</tspan>
+        </text>
+        <text id="Intake-Form-Engine-Copy" transform="translate(374.500000, 101.000000) rotate(-360.000000) translate(-374.500000, -101.000000) " font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="281.5" y="109">Intake Form Engine</tspan>
+        </text>
+        <path d="M254.5,92.5 C257.399478,92.5 260.024483,93.6752578 261.924617,95.5753913 C263.82474,97.4755147 265,100.100508 265,103 C265,105.899492 263.82474,108.524485 261.924617,110.424609 C260.024483,112.324742 257.399478,113.5 254.5,113.5 C251.600501,113.5 248.975501,112.32475 247.075375,110.424624 C245.17525,108.524499 244,105.899499 244,103 C244,100.100501 245.17525,97.4755006 247.075375,95.5753756 C248.975501,93.6752499 251.600501,92.5 254.5,92.5 Z" id="Fill-46-Copy-26" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF" transform="translate(254.500000, 103.000000) rotate(-360.000000) translate(-254.500000, -103.000000) "></path>
+        <path d="M254.499,5.5 L254.846591,5.50561241 C257.608318,5.59518042 260.100489,6.75126313 261.924617,8.57539131 C263.82474,10.4755147 265,13.1005078 265,16 C265,18.8994922 263.82474,21.5244853 261.924617,23.4246087 C260.024483,25.3247422 257.399478,26.5 254.5,26.5 C251.600501,26.5 248.975501,25.3247501 247.075375,23.4246244 C245.17525,21.5244994 244,18.8994995 244,16 C244,13.1005005 245.17525,10.4755006 247.075375,8.57537558 C248.975501,6.67524988 251.600501,5.5 254.5,5.5 L254.499,5.5 Z" id="Fill-46-Copy-18" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF" transform="translate(254.500000, 16.000000) rotate(-360.000000) translate(-254.500000, -16.000000) "></path>
+        <g id="Group-Copy" transform="translate(281.500000, 126.000000)">
+            <rect id="Rectangle-Copy-5" fill="#ED3434" x="0" y="0" width="160" height="28" rx="12.8"></rect>
+            <text id="Patent-Protected-Copy" font-family="Lato-Regular, Lato" font-size="18" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+                <tspan x="10.882" y="19.8">Patent Protected</tspan>
+            </text>
+        </g>
+        <line x1="139.5" y1="191" x2="139.5" y2="14.5" id="Stroke-41-Copy-3" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(139.500000, 103.000000) rotate(-270.000000) translate(-139.500000, -103.000000) "></line>
+        <line x1="114.5" y1="130" x2="114.5" y2="-98.5" id="Stroke-41-Copy-2" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(114.500000, 16.000000) rotate(-270.000000) translate(-114.500000, -16.000000) "></line>
+    </g>
+</svg>

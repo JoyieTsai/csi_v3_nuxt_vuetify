@@ -1,0 +1,106 @@
+.bg {
+  &-primary {
+    background-color: $primary-color;
+  }
+  &-primary-light {
+    background-color: $primary-light-color;
+  }
+  &-primary-dark {
+    background-color: $primary-dark-color;
+  }
+  &-blue-light {
+    background-color: rgba($primary-color, 0.1);
+  }
+  &-grey {
+    background-color: $grey-color;
+  }
+  &-grey-light {
+    background-color: $grey-light-color;
+  }
+  &-light {
+    background-color: $light-color;
+  }
+  &-gradient {
+    background: url('../static/images/bg-gradient.jpg') center no-repeat;
+  }
+  &-contact {
+    background-image: url('../assets/vectors/getintouch-vector.svg');
+    background-repeat: no-repeat;
+    background-position: center right;
+  }
+  &-contact-full {
+    background-image: url('../assets/vectors/getintouch-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+  &-solution {
+    background: url('../assets/vectors/bg-solution.svg') top center no-repeat;
+  }
+  &-hud-vertical {
+    background: url('../assets/vectors/bg-hud-vertical.svg') top center
+      no-repeat;
+    background-size: contain;
+  }
+  &-hud-horizontal {
+    background: url('../assets/vectors/bg-hud-horizontal.svg') center no-repeat;
+    background-size: contain;
+  }
+  // &-sysfeature {
+  //   background: url('../assets/vectors/bg-sysfeature.svg') top center no-repeat;
+  //   background-size: contain;
+  // }
+  &-about {
+    background-image: url('../static/images/bg-about.jpg');
+  }
+  &-mission {
+    background: url('../static/images/bg-mission.jpg') top center no-repeat;
+  }
+}
+
+.deco-hexagon {
+  &-1 {
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 42%;
+      left: -10rem;
+      width: 487px;
+      height: 462px;
+      background: url('../assets/vectors/hexagon-1.svg');
+      z-index: 0;
+    }
+  }
+  &-2 {
+    position: relative;
+
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      top: 40%;
+      right: -13rem;
+      width: 438px;
+      height: 416px;
+      background: url('../assets/vectors/hexagon-2.svg');
+    }
+  }
+}
+
+.deco-vertical {
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    left: -2px;
+    top: 1.5rem;
+    display: block;
+    width: 4px;
+    height: 3rem;
+    background-color: $primary-light-color;
+  }
+}

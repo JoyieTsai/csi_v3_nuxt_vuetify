@@ -1,0 +1,48 @@
+<template>
+  <div class="main-container tw-mx-auto">
+    <div class="header-2 tw-text-center">Extending</div>
+    <div
+      class="
+        tw-mt-8
+        lg:tw-mt-16
+        tw-pb-3 tw-grid
+        2xl:tw-grid-cols-5
+        lg:tw-grid-cols-4
+        md:tw-grid-cols-3
+        sm:tw-grid-cols-2
+        tw-gap-5
+      "
+    >
+      <div
+        v-for="(item, index) in data"
+        :key="index"
+        class="tw-bg-white shadow-1 tw-text-center tw-p-7 zoomin"
+      >
+        <img
+          class="tw-mx-auto tw-my-3 tw-w-20"
+          :src="require('~/assets/duotone/' + item.icon)"
+          :alt="item.title"
+        />
+        <div class="body-text-1 tw-font-semibold tw-my-3">{{ item.title }}</div>
+        <div class="tw-opacity-70">{{ item.desc }}</div>
+        <div class="tw-mt-3">
+          <nuxt-link
+            v-if="item.link"
+            :to="'/products/' + item.link"
+            class="primary-link no-underline"
+            >Learn more</nuxt-link
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ['data'],
+  data: () => ({}),
+}
+</script>
+
+<style lang="scss"></style>

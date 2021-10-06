@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="580px" height="67px" viewBox="0 0 580 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>t-item-6</title>
+    <g id="t-item-6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <line x1="453.5" y1="141.648371" x2="454" y2="-109" id="Stroke-10-Copy-3" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(453.500000, 16.500000) rotate(-270.000000) translate(-453.500000, -16.500000) "></line>
+        <text id="Mobile-Engine-Copy" transform="translate(209.000000, 14.000000) rotate(-360.000000) translate(-209.000000, -14.000000) " font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="140" y="22">Mobile Engine</tspan>
+        </text>
+        <path d="M305,5.5 C307.899478,5.5 310.524483,6.67525779 312.424617,8.57539131 C314.32474,10.4755147 315.5,13.1005078 315.5,16 C315.5,18.8994922 314.32474,21.5244853 312.424617,23.4246087 C310.524483,25.3247422 307.899478,26.5 305,26.5 C302.100501,26.5 299.475501,25.3247501 297.575375,23.4246244 C295.67525,21.5244994 294.5,18.8994995 294.5,16 C294.5,13.1005005 295.67525,10.4755006 297.575375,8.57537558 C299.475501,6.67524988 302.100501,5.5 305,5.5 Z" id="Fill-46-Copy-29" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF" transform="translate(305.000000, 16.000000) rotate(-360.000000) translate(-305.000000, -16.000000) "></path>
+        <g id="Group-Copy-2" transform="translate(118.000000, 39.000000)">
+            <rect id="Rectangle-Copy-5" fill="#ED3434" x="0" y="0" width="160" height="28" rx="12.8"></rect>
+            <text id="Patent-Protected-Copy" font-family="Lato-Regular, Lato" font-size="18" font-weight="normal" line-spacing="22" fill="#FFFFFF">
+                <tspan x="10.882" y="19.8">Patent Protected</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,304 @@
+[
+    {
+        "title": "Public Safety",
+        "category": "public-safety",
+        "links": [
+            {
+                "tabs": [
+                    {
+                        "title": "Overview"
+                    }
+                ]
+            },
+            {
+                "sub": "Core Solutions",
+                "tabs": [
+                    {
+                        "id": "/cad",
+                        "title": "Computer Aided Dispatch (CAD)"
+                    },
+                    {
+                        "id": "/rms",
+                        "title": "Law Enforcement Records Management (RMS)"
+                    },
+                    {
+                        "id": "/fire-ems",
+                        "title": "Fire & EMS"
+                    },
+                    {
+                        "id": "/mobile-operations",
+                        "title": "Mobile Operations"
+                    }
+                ]
+            },
+            {
+                "sub": "Other Modules",
+                "tabs": [
+                    {
+                        "id": "/citation-management",
+                        "title": "Citation Management"
+                    },
+                    {
+                        "id": "/evidence",
+                        "title": "Evidence"
+                    },
+                    {
+                        "id": "/personnel-scheduling",
+                        "title": "Personnel & Scheduling"
+                    },
+                    {
+                        "title": "Warrant",
+                        "id": "/warrant"
+                    },
+                    {
+                        "id": "/analytics-crime-mapping",
+                        "title": "Analytics & Crime Mapping"
+                    },
+                    {
+                        "id": "/internal-affairs",
+                        "title": "Internal Affairs"
+                    },
+                    {
+                        "id": "/municipal-solutions",
+                        "title": "Municipal Solutions"
+                    },
+                    {
+                        "id": "/interfaces",
+                        "title": "Interfaces"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Justice & Courts",
+        "category": "justice-courts",
+        "links": [
+            {
+                "tabs": [
+                    {
+                        "id": "/county-prosecution",
+                        "title": "County Prosecution"
+                    },
+                    {
+                        "id": "/attorney-general",
+                        "title": "Attorney General"
+                    },
+                    {
+                        "id": "/courts",
+                        "title": "Courts"
+                    },
+                    {
+                        "id": "/courts-efiling",
+                        "title": "Courts eFiling"
+                    },
+                    {
+                        "id": "/public-defender",
+                        "title": "Public Defender"
+                    },
+                    {
+                        "id": "/attorney-ethics",
+                        "title": "Attorney Ethics"
+                    },
+                    {
+                        "id": "/municipal-attorney",
+                        "title": "Municipal Attorney"
+                    },
+                    {
+                        "id": "/ediscovery-with-portal",
+                        "title": "eDiscovery with Portal"
+                    },
+                    {
+                        "id": "/vw-portal",
+                        "title": "Victim/Witness with Portal"
+                    },
+                    {
+                        "id": "/interview-recording",
+                        "title": "Interview Recording"
+                    },
+                    {
+                        "id": "/online-transcription-service",
+                        "title": "Online Transcription Service"
+                    },
+                    {
+                        "id": "/interfaces",
+                        "title": "Interfaces"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Crime & Intelligence",
+        "category": "crime-intelligence",
+        "links": [
+            {
+                "tabs": [
+                    {
+                        "id": "/investigation",
+                        "title": "Investigation"
+                    },
+                    {
+                        "id": "/intelligence",
+                        "title": "Intelligence"
+                    },
+                    {
+                        "id": "/sars",
+                        "title": "Suspicious Activity Reporting"
+                    },
+                    {
+                        "id": "/fusion-center",
+                        "title": "Fusion Center(iLog)"
+                    },
+                    {
+                        "id": "/analytics",
+                        "title": "Analytics"
+                    },
+                    {
+                        "id": "/alpr",
+                        "title": "ALPR Dashboard"
+                    },
+                    {
+                        "id": "/global-search",
+                        "title": "Global Search Broker"
+                    },
+                    {
+                        "id": "/major-incident-management",
+                        "title": "Major Incident Management"
+                    },
+                    {
+                        "id": "/high-tech-crime",
+                        "title": "High-Tech Crime"
+                    },
+                    {
+                        "id": "/csi",
+                        "title": "Crime Scene Investigation"
+                    },
+                    {
+                        "id": "/interfaces",
+                        "title": "Interfaces"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Capabilities",
+        "category": "capabilities",
+        "links": [
+            {
+                "tabs": [
+                    {
+                        "title": "Overview"
+                    },
+                    {
+                        "id": "/data-sharing",
+                        "title": "Data Sharing"
+                    },
+                    {
+                        "id": "/data-migration",
+                        "title": "Data Migration"
+                    },
+                    {
+                        "id": "/data-analytics",
+                        "title": "Data Analytics"
+                    },
+                    {
+                        "id": "/data-mapping",
+                        "title": "Data Mapping"
+                    },
+                    {
+                        "id": "/cloud-integration",
+                        "title": "Cloud Integration"
+                    },
+                    {
+                        "id": "/low-code-development",
+                        "title": "Low Code Development"
+                    },
+                    {
+                        "id": "/vertical-integration",
+                        "title": "Vertical Integration"
+                    },
+                    {
+                        "id": "/infoShare-engine",
+                        "title": "InfoShare Engine®"
+                    },
+                    {
+                        "id": "/security",
+                        "title": "Security"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "Resources",
+        "category": "resources",
+        "links": [
+            {
+                "tabs": [
+                    {
+                        "title": "Overview"
+                    },
+                    {
+                        "id": "#success-stories",
+                        "title": "Success Stories"
+                    },
+                    {
+                        "id": "#news",
+                        "title": "News"
+                    },
+                    {
+                        "id": "#events",
+                        "title": "Events"
+                    },
+                    {
+                        "id": "#videos",
+                        "title": "Videos"
+                    },
+                    {
+                        "id": "#testimonials",
+                        "title": "Testimonials"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "title": "About",
+        "category": "about",
+        "links": [
+            {
+                "tabs": [
+                    {
+                        "title": "Our Story"
+                    },
+                    {
+                        "id": "#team",
+                        "title": "Our Team"
+                    },
+                    {
+                        "id": "#customers",
+                        "title": "Our Customers"
+                    },
+                    {
+                        "id": "#partners",
+                        "title": "Our Partners"
+                    },
+                    {
+                        "id": "#patents",
+                        "title": "Patents"
+                    },
+                    {
+                        "id": "#careers",
+                        "title": "Careers"
+                    },
+                    {
+                        "id": "#contact",
+                        "title": "Contact Us"
+                    }
+                ]
+            }
+        ]
+    }
+]

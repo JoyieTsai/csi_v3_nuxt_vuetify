@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="438px" height="416px" viewBox="0 0 438 416" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>hexagon-2</title>
+    <g id="Overall--Done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V2-Contact-Us" transform="translate(-684.000000, -774.000000)">
+            <g id="hexagon-2" transform="translate(903.000000, 982.000000) scale(-1, 1) translate(-903.000000, -982.000000) translate(684.000000, 774.000000)">
+                <polygon id="Polygon" fill="#F5F5F5" transform="translate(192.600000, 223.200000) rotate(80.000000) translate(-192.600000, -223.200000) " points="192.6 57.6 336.013807 140.4 336.013807 306 192.6 388.8 49.1861931 306 49.1861931 140.4"></polygon>
+                <polygon id="Polygon-Copy" fill="#317AC4" opacity="0.154134115" transform="translate(320.020697, 201.979303) rotate(99.000000) translate(-320.020697, -201.979303) " points="320.020697 98.9293028 409.264615 150.454303 409.264615 253.504303 320.020697 305.029303 230.776779 253.504303 230.776779 150.454303"></polygon>
+                <path d="M320.020697,102.046994 L406.564615,152.013149 L406.564615,251.945457 L320.020697,301.911611 L233.476779,251.945457 L233.476779,152.013149 L320.020697,102.046994 Z" id="Polygon-Copy" stroke="#FFFFFF" stroke-width="5.4" transform="translate(320.020697, 201.979303) rotate(99.000000) translate(-320.020697, -201.979303) "></path>
+                <polygon id="Polygon-Copy-2" fill="#0D63BA" opacity="0.151320685" transform="translate(359.550000, 39.150000) rotate(157.000000) translate(-359.550000, -39.150000) " points="359.55 9.9 384.881243 24.525 384.881243 53.775 359.55 68.4 334.218757 53.775 334.218757 24.525"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,26 @@
+@mixin primary-border {
+  border-bottom: 2px solid $primary-light-color;
+}
+
+@mixin ripple($ripple-color) {
+  position: relative;
+  overflow: hidden;
+  &:before {
+    border-radius: 50%;
+    background-color: $ripple-color;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+  }
+  &:focus:before {
+    transition: all 0.5s ease-out;
+    opacity: 0;
+    width: 200px;
+    height: 200px;
+    margin-top: -100px;
+    margin-left: -100px;
+  }
+}

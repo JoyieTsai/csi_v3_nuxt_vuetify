@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="487px" height="462px" viewBox="0 0 487 462" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="Overall" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <polygon id="Polygon" fill="#F5F5F5" transform="translate(214.000000, 248.000000) rotate(80.000000) translate(-214.000000, -248.000000) " points="214 64 373.348674 156 373.348674 340 214 432 54.6513257 340 54.6513257 156"></polygon>
+            <polygon id="Polygon-Copy" fill="#317AC4" opacity="0.154134115" transform="translate(355.578552, 224.421448) rotate(99.000000) translate(-355.578552, -224.421448) " points="355.578552 109.921448 454.738461 167.171448 454.738461 281.671448 355.578552 338.921448 256.418644 281.671448 256.418644 167.171448"></polygon>
+            <path d="M355.578552,113.385549 L259.418644,168.903498 L259.418644,279.939397 L355.578552,335.457346 L451.738461,279.939397 L451.738461,168.903498 L355.578552,113.385549 Z" id="Polygon-Copy" stroke="#FFFFFF" stroke-width="6" transform="translate(355.578552, 224.421448) rotate(99.000000) translate(-355.578552, -224.421448) "></path>
+            <polygon id="Polygon-Copy-2" fill="#0D63BA" opacity="0.151320685" transform="translate(399.500000, 43.500000) rotate(157.000000) translate(-399.500000, -43.500000) " points="399.5 11 427.645826 27.25 427.645826 59.75 399.5 76 371.354174 59.75 371.354174 27.25"></polygon>
+        </g>
+    </g>
+</svg>

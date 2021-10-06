@@ -1,0 +1,254 @@
+$x9: 0.9;
+$x8: 0.8;
+$x7: 0.7;
+$x6: 0.65;
+$x5: 0.6;
+
+@media only screen and (max-width: $breakpoints-2xl) {
+  // Layout
+  .hero {
+    &-section {
+      height: ceil($hero-xl * $x9);
+      &.md {
+        height: ceil($hero-md * $x9);
+      }
+      &.sm {
+        height: ceil($hero-sm * $x9);
+      }
+    }
+  }
+  // Font size
+  .ant-dropdown-link,
+  .ant-btn-link {
+    font-size: ceil($body-3-size * $x9);
+  }
+  .header {
+    &-1 {
+      font-size: ceil($heading-1-size * $x9);
+    }
+    &-2 {
+      font-size: ceil($heading-2-size * $x9);
+    }
+    &-3 {
+      font-size: ceil($heading-3-size * $x9);
+    }
+    &-4 {
+      font-size: ceil($heading-4-size * $x9);
+    }
+    &-5 {
+      font-size: ceil($heading-5-size * $x9);
+    }
+  }
+  .title {
+    font-size: ceil($title-size * $x9);
+  }
+  .body {
+    &-1 {
+      font-size: ceil($body-1-size * $x9);
+    }
+    &-2 {
+      font-size: ceil($body-2-size * $x9);
+    }
+    &-3 {
+      font-size: ceil($body-3-size * $x9);
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoints-xl) {
+  // Layout
+  .hero {
+    &-section {
+      height: ceil($hero-xl * $x8);
+      &.lg {
+        height: ceil($hero-lg * $x8);
+      }
+      &.md {
+        height: ceil($hero-md * $x8);
+      }
+      &.sm {
+        height: ceil($hero-sm * $x8);
+      }
+    }
+  }
+  // Font size
+  .header {
+    &-1 {
+      font-size: ceil($heading-1-size * $x8);
+    }
+    &-2 {
+      font-size: ceil($heading-2-size * $x8);
+    }
+    &-3 {
+      font-size: ceil($heading-3-size * $x8);
+    }
+    &-4 {
+      font-size: ceil($heading-4-size * $x8);
+    }
+    &-5 {
+      font-size: ceil($heading-5-size * $x8);
+    }
+  }
+  .title {
+    font-size: ceil($title-size * $x8);
+  }
+  .body {
+    &-1 {
+      font-size: ceil($body-1-size * $x8);
+    }
+    &-2 {
+      font-size: ceil($body-2-size * $x8);
+    }
+    &-3 {
+      font-size: ceil($body-3-size * $x8);
+    }
+  }
+  .ant-dropdown-link,
+  .ant-btn-link {
+    font-size: ceil($body-3-size * $x8);
+  }
+}
+
+@media only screen and (max-width: $breakpoints-lg) {
+  // Layout
+  .hero {
+    &-section {
+      height: ceil($hero-xl * $x7);
+      &.md {
+        height: ceil($hero-md * $x7);
+      }
+      &.sm {
+        height: ceil($hero-sm * $x7);
+      }
+    }
+  }
+  .layout {
+    margin-top: ceil($navbar-height * $x8);
+  }
+
+  // Font size
+  .header {
+    &-1 {
+      font-size: ceil($heading-1-size * $x7);
+    }
+    &-2 {
+      font-size: ceil($heading-2-size * $x7);
+    }
+    &-3 {
+      font-size: ceil($heading-3-size * $x7);
+    }
+    &-4 {
+      font-size: ceil($heading-4-size * $x7);
+    }
+    &-5 {
+      font-size: ceil($heading-5-size * $x7);
+    }
+  }
+  .title {
+    font-size: ceil($title-size * $x7);
+  }
+  .btn {
+    &-lg {
+      font-size: ceil($body-3-size * $x9);
+      padding: 0.5rem 1rem;
+      min-width: 180px;
+    }
+  }
+}
+@media only screen and (max-width: $breakpoints-md) {
+  // Layout
+  .hero {
+    &-section {
+      background-position: 40% bottom;
+    }
+  }
+  // Font size
+  .header {
+    &-1 {
+      font-size: ceil($heading-1-size * $x6);
+    }
+    &-2 {
+      font-size: ceil($heading-2-size * $x6);
+    }
+    &-3 {
+      font-size: ceil($heading-3-size * $x6);
+    }
+    &-4 {
+      font-size: ceil($heading-4-size * $x6);
+    }
+    &-5 {
+      font-size: ceil($heading-5-size * $x6);
+    }
+  }
+
+  .btn {
+    &-play {
+      min-width: 44px;
+      height: 44px;
+    }
+  }
+  .absolute-center {
+    top: 40%;
+  }
+  .w-quotes {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: $breakpoints-sm) {
+  // Layout
+  .hero {
+    &-section {
+      height: 700px;
+      background-position: 70% bottom;
+      background-size: 1350px;
+    }
+  }
+  // Font size
+  .header {
+    &-1 {
+      font-size: ceil($heading-1-size * $x5);
+    }
+    &-2 {
+      font-size: ceil($heading-2-size * $x5);
+    }
+    &-3 {
+      font-size: ceil($heading-3-size * $x5);
+    }
+    &-4 {
+      font-size: ceil($heading-4-size * $x5);
+    }
+    &-5 {
+      font-size: ceil($heading-5-size * $x5);
+    }
+  }
+  .title {
+    font-size: ceil($title-size * $x6);
+  }
+  .body {
+    &-1 {
+      font-size: ceil($body-1-size * $x7);
+    }
+    &-2 {
+      font-size: ceil($body-2-size * $x7);
+    }
+    &-3 {
+      font-size: ceil($body-3-size * $x7);
+    }
+  }
+  .btn {
+    &-lg {
+      font-size: ceil($body-3-size * $x8);
+      min-width: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: $breakpoints-xs) {
+  .btn {
+    &-lg {
+      font-size: ceil($body-3-size * $x7);
+      min-width: 120px;
+    }
+  }
+}

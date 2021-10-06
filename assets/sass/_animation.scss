@@ -1,0 +1,25 @@
+.ani-transition {
+    transition: all 0.2s ease;
+}
+
+.translateY {
+    &:hover {
+        transform: translateY(-10px);
+    }
+}
+
+.zoomin {
+    overflow: hidden;
+    transition: all 0.3s;
+    &:hover {
+      transform: scale(1.05);
+    }
+}
+  
+.slow-zoom {
+    transition: all 8s cubic-bezier(0.3, 1, 0.3, 1);
+
+    &:hover {
+        transform: scale(1.15);
+    }
+}

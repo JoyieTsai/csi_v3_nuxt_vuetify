@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="180px" height="180px" viewBox="0 0 180 180" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>effectbg_3</title>
+    <defs>
+        <linearGradient x1="6.593215%" y1="6.81713911%" x2="90.5035014%" y2="82.8317291%" id="linearGradient-1">
+            <stop stop-color="#0CCCEE" offset="0%"></stop>
+            <stop stop-color="#317AC4" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="180" height="180" rx="9"></rect>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-4">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#DFEAF5" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-5">
+            <stop stop-color="#DFEAF5" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#317AC4" offset="0%"></stop>
+            <stop stop-color="#69B4FF" offset="100%"></stop>
+        </linearGradient>
+        <path d="M239.515164,302.47073 C239.515164,300.641578 238.030865,299.15728 236.201713,299.15728 C234.370972,299.15728 232.888262,300.641578 232.888262,302.47073 C232.888262,304.299883 234.370972,305.784181 236.201713,305.784181 C238.030865,305.784181 239.515164,304.299883 239.515164,302.47073" id="path-7"></path>
+        <filter x="-271.6%" y="-271.6%" width="643.2%" height="643.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0470588235   0 0 0 0 0.8   0 0 0 0 0.933333333  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M145.791839,405.661058 C145.791839,403.830317 144.309129,402.347607 142.478388,402.347607 C140.649236,402.347607 139.164937,403.830317 139.164937,405.661058 C139.164937,407.49021 140.649236,408.974509 142.478388,408.974509 C144.309129,408.974509 145.791839,407.49021 145.791839,405.661058" id="path-9"></path>
+        <filter x="-271.6%" y="-271.6%" width="643.2%" height="643.2%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0470588235   0 0 0 0 0.8   0 0 0 0 0.933333333  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M286.850176,275.963123 C286.850176,274.133971 285.365877,272.649673 283.536725,272.649673 C281.707573,272.649673 280.223275,274.133971 280.223275,275.963123 C280.223275,277.792275 281.707573,279.276574 283.536725,279.276574 C285.365877,279.276574 286.850176,277.792275 286.850176,275.963123" id="path-11"></path>
+        <filter x="-271.6%" y="-271.6%" width="643.2%" height="643.2%" filterUnits="objectBoundingBox" id="filter-12">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.0470588235   0 0 0 0 0.8   0 0 0 0 0.933333333  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Capabilities" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V2-Capabilities---Low-Code" transform="translate(-1285.000000, -4622.000000)">
+            <g id="Group" transform="translate(142.000000, 4423.000000)">
+                <g id="effectbg_3" transform="translate(1143.000000, 199.000000)">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Rectangle" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    <g id="Group-29-Copy-2" opacity="0.452508109" mask="url(#mask-3)">
+                        <g transform="translate(-100.900000, -242.100000)">
+                            <polygon id="Fill-19" stroke="none" fill="url(#linearGradient-4)" fill-rule="evenodd" opacity="0.502162388" points="236.675063 359.643933 284.010076 387.200403 331.345088 359.643933 331.345088 303.991288 284.010076 276.436474 236.675063 303.991288"></polygon>
+                            <polygon id="Fill-21" stroke="none" fill="url(#linearGradient-5)" fill-rule="evenodd" points="47.3350126 359.643933 94.6708541 387.200403 142.005038 359.643933 142.005038 303.991288 94.6708541 276.436474 47.3350126 303.991288"></polygon>
+                            <polygon id="Stroke-29" stroke="url(#linearGradient-6)" stroke-width="0.63902267" fill="none" opacity="0.25" points="236.675063 359.643933 284.010076 387.200403 331.345088 359.643933 331.345088 303.991288 284.010076 276.436474 236.675063 303.991288"></polygon>
+                            <polygon id="Stroke-31" stroke="url(#linearGradient-6)" stroke-width="0.63902267" fill="none" opacity="0.25" points="94.6700252 276.335555 142.005038 303.890781 189.34005 276.335555 189.34005 220.682077 142.005038 193.126851 94.6700252 220.682077"></polygon>
+                            <polygon id="Stroke-33" stroke="url(#linearGradient-6)" stroke-width="0.63902267" fill="none" opacity="0.25" points="48.2817128 247.933304 95.6167254 275.489773 142.951738 247.933304 142.951738 192.280658 95.6167254 164.725844 48.2817128 192.280658"></polygon>
+                            <polygon id="Stroke-35" stroke="url(#linearGradient-6)" stroke-width="0.63902267" fill="none" opacity="0.25" points="189.34005 276.335555 236.675063 303.890781 284.010076 276.335555 284.010076 220.682077 236.675063 193.126851 189.34005 220.682077"></polygon>
+                            <line x1="142.478388" y1="99.4035264" x2="142.478388" y2="406.134408" id="Stroke-256" stroke="#69B4FF" stroke-width="0.946700252" fill="none" opacity="0.25"></line>
+                            <g id="Fill-246" stroke="none" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            </g>
+                            <g id="Fill-259" stroke="none" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            </g>
+                            <g id="Fill-93" stroke="none" fill="none">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-12)" xlink:href="#path-11"></use>
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

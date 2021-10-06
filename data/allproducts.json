@@ -1,0 +1,162 @@
+[
+    {
+        "id": "cad",
+        "icon": "cad.svg",
+        "title": "Computer Aided Dispatch (CAD)"
+    },
+    {
+        "id": "rms",
+        "icon": "rms.svg",
+        "title": "Law Enforcement Records Management (RMS)"
+    },
+    {
+        "id": "fire-ems",
+        "icon": "fire_ems.svg",
+        "title": "Fire & EMS"
+    },
+    {
+        "id": "mobile-operations",
+        "icon": "mobile_operations.svg",
+        "title": "Mobile Operations"
+    },
+    {
+        "id": "citation-management",
+        "icon": "crash.svg",
+        "title": "Citation Management"
+    },
+    {
+        "id": "evidence",
+        "icon": "evidence.svg",
+        "title": "Evidence"
+    },
+    {
+        "id": "personnel-scheduling",
+        "icon": "personnel.svg",
+        "title": "Personnel & Scheduling"
+    },
+    {
+        "title": "Warrant",
+        "icon": "warrants.svg",
+        "id": "warrant"
+    },
+    {
+        "id": "analytics-crime-mapping",
+        "icon": "analytics.svg",
+        "title": "Analytics & Crime Mapping"
+    },
+    {
+        "id": "internal-affairs",
+        "icon": "internal_affairs.svg",
+        "title": "Internal Affairs"
+    },
+    {
+        "id": "municipal-solutions",
+        "icon": "municipal.svg",
+        "title": "Municipal Solutions"
+    },
+    {
+        "id": "county-prosecution",
+        "icon": "prosecution.svg",
+        "title": "County Prosecution"
+    },
+    {
+        "id": "attorney-general",
+        "icon": "attorney_general.svg",
+        "title": "Attorney General"
+    },
+    {
+        "id": "courts",
+        "icon": "court.svg",
+        "title": "Courts"
+    },
+    {
+        "id": "courts-efiling",
+        "icon": "efiling.svg",
+        "title": "Courts eFiling"
+    },
+    {
+        "id": "public-defender",
+        "icon": "public_defender.svg",
+        "title": "Public Defender"
+    },
+    {
+        "id": "attorney-ethics",
+        "icon": "attorney_ethics.svg",
+        "title": "Attorney Ethics"
+    },
+    {
+        "id": "municipal-attorney",
+        "icon": "justice_court.svg",
+        "title": "Municipal Attorney"
+    },
+    {
+        "id": "ediscovery-with-portal",
+        "icon": "ediscovery.svg",
+        "title": "eDiscovery with Portal"
+    },
+    {
+        "id": "vw-portal",
+        "icon": "vw.svg",
+        "title": "Victim/Witness with Portal"
+    },
+    {
+        "id": "interview-recording",
+        "icon": "info_recording.svg",
+        "title": "Interview Recording"
+    },
+    {
+        "id": "online-transcription-service",
+        "icon": "online_trans.svg",
+        "title": "Online Transcription Service"
+    },
+    {
+        "id": "investigation",
+        "icon": "investigation.svg",
+        "title": "Investigation"
+    },
+    {
+        "id": "intelligence",
+        "icon": "intelligence.svg",
+        "title": "Intelligence"
+    },
+    {
+        "id": "sars",
+        "icon": "sars.svg",
+        "title": "Suspicious Activity Reporting"
+    },
+    {
+        "id": "fusion-center",
+        "icon": "fusion_center.svg",
+        "title": "Fusion Center(iLog)"
+    },
+    {
+        "id": "analytics",
+        "icon": "analytics.svg",
+        "title": "Analytics"
+    },
+    {
+        "id": "alpr",
+        "icon": "alpr.svg",
+        "title": "ALPR Dashboard"
+    },
+    {
+        "id": "global-search",
+        "icon": "global_search.svg",
+        "title": "Global Search Broker"
+    },
+    {
+        "id": "major-incident-management",
+        "icon": "mim.svg",
+        "title": "Major Incident Management"
+    },
+    {
+        "id": "high-tech-crime",
+        "icon": "hecker.svg",
+        "title": "High-Tech Crime"
+    },
+    {
+        "id": "csi",
+        "icon": "csi.svg",
+        "title": "Crime Scene Investigation"
+    }
+]

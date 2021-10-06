@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1990px" height="2370px" viewBox="0 0 1990 2370" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>lines</title>
+    <g id="lines" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Polygon-Copy-12" stroke="#FFFFFF" stroke-width="3" transform="translate(1824.500000, 1302.500000) rotate(-180.000000) translate(-1824.500000, -1302.500000) " points="1824.5 1136 1966.96118 1219.25 1966.96118 1385.75 1824.5 1469 1682.03882 1385.75 1682.03882 1219.25"></polygon>
+        <line x1="217.5" y1="199" x2="648.5" y2="-54" id="Line-9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square"></line>
+        <line x1="1254.4998" y1="1214.32352" x2="1681.63205" y2="974.201346" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" transform="translate(1468.499804, 1094.527327) scale(-1, 1) rotate(-1.000000) translate(-1468.499804, -1094.527327) "></line>
+        <line x1="488.729762" y1="773.505181" x2="929.123498" y2="526.589105" id="Path" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" transform="translate(708.926630, 650.047143) scale(-1, 1) rotate(-1.000000) translate(-708.926630, -650.047143) "></line>
+        <line x1="632.176547" y1="2052.28954" x2="1652.36551" y2="1339.18555" id="Line-9-Copy-5" stroke="#FFFFFF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" transform="translate(1142.271028, 1695.737543) rotate(5.000000) translate(-1142.271028, -1695.737543) "></line>
+        <line x1="64.5" y1="443.5" x2="251.75" y2="333.25" id="Line-9-Copy" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" transform="translate(158.000000, 388.500000) scale(1, -1) translate(-158.000000, -388.500000) "></line>
+        <line x1="214.5" y1="2302.5" x2="401.75" y2="2192.25" id="Line-9-Copy-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" transform="translate(308.000000, 2247.500000) scale(1, -1) translate(-308.000000, -2247.500000) "></line>
+    </g>
+</svg>

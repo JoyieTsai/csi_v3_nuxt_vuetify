@@ -1,0 +1,1064 @@
+[
+  {
+    "id": "cad",
+    "title": "Computer Aided Dispatch (CAD)",
+    "subtitle": "Advanced Public Safety Communication and Response",
+    "icon": "cad.svg",
+    "coverImg": "cad.jpg",
+    "brochure": "CAD.pdf",
+    "descHeading": "Powerful CAD software to promote swift response and accurate information sharing",
+    "descContent": "Built in compliance with National Law Enforcement Information Technology Standards Council (LEITSC) specifications and designed to meet the updated Unified CAD Functional Requirements (UCADFR) integrating Fire and EMS. The solution enables communication centers and dispatchers to receive emergency calls, pinpoint the location of the emergency, and then quickly send the appropriate resources to the scene, while  first responders—police, fire, EMS personnel—receive accurate, real-time information for enhanced and shared situational awareness. ",
+    "highlightVideo": "CAD_highlight.mp4",
+    "highlightImg": "CAD_thumb.jpg",
+    "highlights": [
+      "Support Law Enforcement, Fire, and EMS Dispatch",
+      "Integrate with InfoShare™ MDT and RMS",
+      "Real-time information sharing for situational awareness and collaboration",
+      "Cloud-ready solution with robust security features",
+      "Configurable for single, regional, or multi-jurisdictional call centers"
+    ],
+    "capabilities": [
+      {
+        "title": "Total Solution",
+        "icon": "icon-total_solution_outline",
+        "img": "TotalSolution.jpg",
+        "desc": "CSI solutions are powered by the <a class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be scalable (single, regional, or multi-jurisdictional) and extensible. All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+      },
+      {
+        "title": "Interoperability",
+        "icon": "icon-interoperability_outline",
+        "img": "Interoperability.jpg",
+        "desc": "InfoShare™ solutions feature end-to-end interoperability for enhanced coordination and collaboration among multiple jurisdictions, departments, and agencies. Linking disparate systems and external data sources including radio, voice recorders, traffic cameras, and records management solutions facilitates interagency sharing of mission-critical information."
+      },
+      {
+        "title": "Mobile Operations",
+        "icon": "icon-mobile_operations_outline",
+        "img": "MobileOperations.jpg",
+        "desc": "The integrated <a class='primary-link'>MDT application</a> is specifically optimized for mobile operations and workflow. Streamlined functions in one place offer a better experience on mobile data terminals and tablets. First responders receive real-time information and alerts in the field for enhanced situational awareness. "
+      },
+      {
+        "title": "Cloud Compatibility",
+        "icon": "icon-cloud_integration_outline",
+        "img": "CloudCompatibility.jpg",
+        "desc": "<a class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+      },
+      {
+        "title": "Security",
+        "icon": "icon-security_force_outline",
+        "img": "Security.jpg",
+        "desc": "Our CJIS-compliant CAD system ensures stringent security measures on data encryption, wireless networking, and system access. Users can log in to multiple applications with a single ID (SSO) combined with two-factor authentication. Data access privileges are established through role- or case-based safeguards, making sure that only authorized individuals have access to relevant functions or data."
+      }
+    ],
+    "sysTitle": {
+      "title": "Call handling and dispatch with speed and accuracy, because every second counts",
+      "img": "cad.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Automated Call Handling & Event Creation",
+        "desc": "Dispatchers can effectively answer emergency calls, manage resources, and provide real-time updates to responders. Units are automatically assigned according to incident type, and the closest available unit(s) are recommended for dispatch.",
+        "list": [
+          "E911 ANI/ALI interface and NG911 integration",
+          "Link analysis (NCIC, DMV, Warrants, etc.)",
+          "Priority dispatch and GPS-based unit recommendation",
+          "Duplicate incident detection",
+          "Pre-assignment for auto-dispatching",
+          "Multi-agency and multi-jurisdiction dispatch"
+        ],
+        "img": "cad-1.jpg"
+      },
+      {
+        "title": "Streamlined Workflow",
+        "desc": "An intuitive user interface enhances workflow, allowing users to quickly access system functions, modify events, and locate mission-critical information. Given that each agency has different requirements and SOPs, InfoShare™ CAD is designed to be easily configurable.",
+        "list": [
+          "Automatic and manual status setting",
+          "Command line entry, shortcut keys, and ribbon menu",
+          "Pre-arrival instructions following EMD guidecards",
+          "In-App, CAD-to-Mobile, and CAD-to-RMS messaging",
+          "Multiple window display (call status, unit status, map)"
+        ],
+        "img": "cad-2.jpg"
+      },
+      {
+        "title": "Tactical Mapping",
+        "desc": "Multi-layer mapping with Google Maps and Bing. Dispatchers gain a tactical view of the city and dispatch area. Integration with third-party location services is also supported.",
+        "list": [
+          "Immediate display and centering",
+          "Address verification by location or area",
+          "Real-time unit location tracking (AVL/ARL)",
+          "Unit, status, and incident labeling",
+          "User-definable and system-generated map layers",
+          "Layer filtering (roads, fire hydrants, flow rates, evacuation routes)"
+        ],
+        "img": "cad-3.jpg"
+      },
+      {
+        "title": "Mission-critical Information",
+        "desc": "All related information pertaining to the CFS location/premise is transferred automatically from the RMS database or other client-specific data sources. Flags call attention to potential warnings, hazards, and/or other mission-critical information.",
+        "list": [
+          "Prominent cautions, alerts, and notifications",
+          "Flags (address, gun permits, warrants)",
+          "Medical and HazMat alerts",
+          "Visual information (floor maps, points of interest)",
+          "Emergency contact information"
+        ],
+        "img": "cad-4.jpg"
+      },
+      {
+        "title": "RMS Integration & Report Generation",
+        "desc": "Seamless two-way integration with InfoShare™ RMS or an existing RMS. CAD incident data from the initial call to event disposition is synced with the RMS for management, reporting, and auditing. Other benefits include information sharing and enhanced workflow capabilities.",
+        "list": [
+          "Master Name Index & Lookup",
+          "Seamless RMS report generation</li><li>Time/date stamps of events (incident history)",
+          "Integrated NCIC and multi-search functions",
+          "BOLO alerts"
+        ],
+        "img": "cad-5.jpg"
+      },
+      {
+        "title": "Admin Components & Software Architecture",
+        "desc": "System administrators can manage resources, connected devices, interfaced servers, support files, and other settings to maintain the system as requirements demand. The CAD system is developed on a multi-tier architecture, resulting in improved security, resilience, and disaster recovery.",
+        "list": [
+          "Open API for third-party integration",
+          "Vendor-free configurations and user/role permissions",
+          "Web-based and installed application architecture",
+          "ESRI and other GIS shape file import wizard",
+          "Audit logs for post-incident analysis",
+          "Multi-tiered, clustered, and replicate server environments"
+        ],
+        "img": "cad-6.jpg"
+      },
+      {
+        "title": "Expert Interfacing",
+        "desc": "CSI Technology Group specializes in interfacing its solutions to a range of internal and external systems for added functionality. To overcome the information gap inherent in public safety, we leverage our technology to enable a high level of <a class='primary-link'>data sharing</a> across systems and jurisdictions.",
+        "list": [
+          "NCIC/DMV/NLETS interface",
+          "UCR/NIBRS interface",
+          "Messaging subsystems",
+          "Traffic cam interface",
+          "GIS mapping interface",
+          "<span class='primary-link'>And many more</span>"
+        ],
+        "img": "cad-7.jpg",
+        "zoomoff": true
+      }
+    ],
+    "extending": [
+      {
+        "title": "eTicket Gateway",
+        "icon": "eticket.svg",
+        "desc": "Modernize the ticketing process with automated form filling and data capture following a simple swipe of the driver’s license.",
+        "link": "public-safety/eTicketing"
+      },
+      {
+        "title": "NCIC Gateway",
+        "icon": "ncic_gateway.svg",
+        "desc": "Attach NCIC data to CFS information for quick reference and improved situational awareness."
+      },
+      {
+        "title": "Mapping with Real Time Traffic ",
+        "icon": "map.svg",
+        "desc": "Observe detailed geographic context in real-time during emergencies to improve agility and response time. "
+      },
+      {
+        "title": "Q&A",
+        "icon": "qa.svg",
+        "desc": "Receive pre-arrival instructions following emergency management dispatch guidecards and scripts set according to each agency’s SOP."
+      },
+      {
+        "title": "Master Location & Data Import",
+        "icon": "data_import.svg",
+        "desc": "Connect mission-critical address and location information to the case or person for enhanced situational awareness."
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Mobile Operations",
+        "icon": "icon-mdt_solid",
+        "link": "public-safety/mobile-operations"
+      },
+      {
+        "title": "Fire & EMS",
+        "icon": "icon-fire_ems_solid",
+        "link": "public-safety/fire-ems"
+      },
+      {
+        "title": "Evidence",
+        "icon": "icon-evidence_solid",
+        "link": "public-safety/evidence"
+      },
+      {
+        "title": "Crime Mapping",
+        "icon": "icon-mapping_solid",
+        "link": "public-safety/analytics-crime-mapping"
+      }
+    ],
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "rms",
+    "title": "Law Enforcement Records Management (RMS)",
+    "subtitle": "Revolutionize Public Safety Data Collection, Management, and Reporting",
+    "icon": "rms.svg",
+    "coverImg": "rms.jpg",
+    "brochure": "RMS.pdf",
+    "descHeading": "Complete record/case management tool with extensive data sharing and powerful modules",
+    "descContent": "Designed to meet the National Law Enforcement Information Technology Standards Council (LEITSC) specifications. The solution supports all aspects of records development from the initial CFS to case disposition, providing agencies with a system for storage, retrieval, management, archiving, and viewing of information, records, documents, and files.",
+    "highlightVideo": "RMS_highlight.mp4",
+    "highlightImg": "RMS_thumb.jpg",
+    "highlights": [
+      "Support each agency’s workflow and reporting requirements",
+      "Configurable for a regional or single agency",
+      "Reduce training time (user training sessions typically don’t exceed half a day)",
+      "Integrate with CAD, mobile systems, eTicket, investigation, and prosecutor modules",
+      "Manage all department activities from records to personnel to scheduling to fleet in one system"
+    ],
+    "capabilities": [
+      {
+        "title": "Data Migration",
+        "icon": "icon-data_migration_outline",
+        "img": "DataMigration.jpg",
+        "desc": "We offer the most comprehensive, structured data conversion services on the market. Legacy data, including Master Indices, is converted to our native RMS data, whereby the original data is not simply copied, but also cleansed, condensed, and standardized. No re-entering old data, no accessing old systems, no removing duplicate entries."
+      },
+      {
+        "title": "Multi-Agency Coverage",
+        "icon": "icon-agencies_outline",
+        "img": "Multi-agencyCoverage.jpg",
+        "desc": "A regional approach with a local feel. Each agency participating in a regional RMS has access to shared resources but retains control of its own data and its own identity—logos, report formats, protocols, approval process, workflow, and so on. Moreover, each agency can choose to deploy specific modules on a need/affordability basis."
+      },
+      {
+        "title": "Platform Independence",
+        "icon": "icon-mobile_operations_outline",
+        "img": "PlatformIndependence.jpg",
+        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare™ RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
+      },
+      {
+        "title": "Total Solution",
+        "icon": "icon-total_solution_outline",
+        "img": "TotalSolution.jpg",
+        "desc": "CSI solutions are powered by the <a class='primary-link' href='/capabilities/infoShare-engine'>InfoShare™ Engine</a>, a low-code development platform for government ERP application designed to be scalable (single, regional, or multi-jurisdictional) and extensible. All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+      },
+      {
+        "title": "Cloud Compatibility",
+        "icon": "icon-cloud_integration_outline",
+        "img": "CloudCompatibility.jpg",
+        "desc": "<a class='primary-link' href='/capabilities/cloud-integration'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+      }
+    ],
+    "sysTitle": {
+      "title": "Next-generation records management system organizes all case records and multimedia files in one central, secure location",
+      "img": "rms.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Data Collection & Record-keeping",
+        "desc": "Streamlined data collection and storage to help responders meet the ongoing need for accurate, reliable information. All incident information and artifacts, including related follow-up, narratives, and investigation reports, are compiled in a single record for easy access. ",
+        "list": [
+          "Automatic UCR/NIBRS code mapping",
+          "No duplicate entries",
+          "User inbox assignment tracking",
+          "Bi-directional CAD integration",
+          "Centralized document and multimedia depository",
+          "Redaction and bates numbering tools"
+        ],
+        "img": "rms-1.jpg"
+      },
+      {
+        "title": "Master Indices",
+        "desc": "Simplify data entry, reduce errors, eliminate redundancy, and facilitate the linking of cases and events with a unified Master database, ensuring that a subject’s pedigree information is only entered once in the system. ",
+        "list": [
+          "Master Name Index",
+          "Master Vehicle Index",
+          "Master Organization Index",
+          "Master Location Index",
+          "Master Property Index"
+        ],
+        "img": "rms-2.jpg"
+      },
+      {
+        "title": "Reporting & Approval",
+        "desc": "Reduce administrative burdens and time spent writing reports. With a few clicks, users can select the existing data to be populated, enter new information, and electronically send the report to supervisors for approval. Reports are physically stored in the system for efficient archiving and viewing.",
+        "list": [
+          "Auto-fill templates for aggregated, standardized, and AdHoc reporting",
+          "Paperless reporting and approval with digital signature",
+          "Custom or standardized CFS coding",
+          "Patented intake form technology",
+          "Narrative function with AdHoc search and reporting service",
+          "Multiple output formats (PDF, HTML, Excel, Word)"
+        ],
+        "img": "rms-3.jpg"
+      },
+      {
+        "title": "Advanced Search & Crime Analysis",
+        "desc": "Robust search capabilities allow authorized users to efficiently retrieve data and generate reports. In addition, InfoShare™ RMS comes embedded with advanced crime analysis tools, enabling users to run multidimensional crime analysis and advanced queries across disparate datasets.",
+        "list": [
+          "Preloaded search pages",
+          "AdHoc reporting and search",
+          "CompStat reports",
+          "Crime mapping",
+          "Link analysis",
+          "Incident and unit activity analysis"
+        ],
+        "img": "rms-4.jpg"
+      },
+      {
+        "title": "Admin, Auditing & Security",
+        "desc": "System administrators have access to extensive functions such as unit control, user group setups, permissions, and password policy. Furthermore, agencies can modify support files and business rules to accommodate changes in regulations or business requirements.",
+        "list": [
+          "Customizable workflow",
+          "Form template generation",
+          "Configurable support files and business rules",
+          "Flexible group-, role-, or case-based permission settings",
+          "Robust password policy configurations & single sign-on setup",
+          "Extensive auditing functions for maximum accountability"
+        ],
+        "img": "rms-5.jpg"
+      },
+      {
+        "title": "Expert Interfacing & Third-party Integration",
+        "desc": "CSI Technology Group has considerable experience in interfacing its solutions with internal and external systems to promote data sharing and exchange on multiple levels—local, regional, state, and federal.",
+        "list": [
+          "UCR/NIBRS interface",
+          "Live Scan interface",
+          "NJ MVC and NCIC interface",
+          "CLEAN interface",
+          "ALPR Search interface",
+          "<span class='primary-link'>And many more</span>"
+        ],
+        "img": "rms-6.jpg",
+        "zoomoff": true
+      }
+    ],
+    "extending": [
+      {
+        "title": "Evidence",
+        "icon": "evidence.svg",
+        "desc": "Comprehensive evidence management across cases and agencies for evidence tracking and information sharing."
+      },
+      {
+        "title": "Permits and Licenses",
+        "icon": "permits.svg",
+        "desc": "Enter and maintain firearm permits, alarm permits, taxi and limousine licenses, and other municipal permits or licenses."
+      },
+      {
+        "title": "Fleet Management",
+        "icon": "fleet.svg",
+        "desc": "Track and manage fleet performance, maintenance, and service with automatic reminders."
+      },
+      {
+        "title": "Personnel & Scheduling",
+        "icon": "personnel.svg",
+        "desc": "Support all aspects of personnel management such as training, time off, overtime, document tracking, and scheduling."
+      },
+      {
+        "title": "Policy and Procedure",
+        "icon": "policy.svg",
+        "desc": "Promote compliance and understanding of organizational policies."
+      },
+      {
+        "title": "Warrants",
+        "icon": "warrants.svg",
+        "desc": "Link active and expired warrants plus relevant information to RMS records."
+      },
+      {
+        "title": "eTicket Gateway",
+        "icon": "eticket.svg",
+        "desc": "Modernize the ticketing process with automated form filling and data capture following a simple  swipe of the driver’s license."
+      },
+      {
+        "title": "Contractor/Billing",
+        "icon": "billing.svg",
+        "desc": "Streamline customer billing, account tracking, and agency assignments."
+      },
+      {
+        "title": "Equipment and Asset Management",
+        "icon": "equipment_asset.svg",
+        "desc": "Inventory management with automatic alerts to track status, assignment, history, expiration date, and other information."
+      },
+      {
+        "title": "K9",
+        "icon": "k9.svg",
+        "desc": "Track K-9 unit information such as service calls, training, equipment, food/water intake, narcotics, and medical records."
+      },
+      {
+        "title": "Analytics",
+        "icon": "analytics.svg",
+        "desc": "Integrate with GIS and GEO mapping to visual data to reveal relationships, trends, and patterns of criminal activity."
+      },
+      {
+        "title": "Crime Mapping",
+        "icon": "mapping.svg",
+        "desc": "Help agencies provide the public with information on the magnitude and trend of recent criminal activity by neighborhood."
+      },
+      {
+        "title": "ABC",
+        "icon": "abc.svg",
+        "desc": "Support the Alcoholic Beverage licensing process: documentation, inspection, renewal, revocation, education, compliance, etc."
+      },
+      {
+        "title": "SPCA",
+        "icon": "spca.svg",
+        "desc": "Record-keeping to investigate cases of animal abuse, neglect, and cruelty."
+      },
+      {
+        "title": "Internal Affairs",
+        "icon": "internal_affairs.svg",
+        "desc": "Store all information related to internal affairs investigations with robust security and data encryption."
+      },
+      {
+        "title": "Interview Recording",
+        "icon": "info_recording.svg",
+        "desc": "Interview room audio-visual recording to conduct remote interviews and store recordings directly in the case file."
+      },
+      {
+        "title": "OPRA",
+        "icon": "opra.svg",
+        "desc": "Manage open records requests in compliance with OPRA regulations."
+      },
+      {
+        "title": "Intelligence",
+        "icon": "intelligence.svg",
+        "desc": "Forward data and reports to RISS-inclusive intelligence module for crime activity analysis and investigation support."
+      },
+      {
+        "title": "Major Incident",
+        "icon": "mim.svg",
+        "desc": "Facilitate major incident investigations involving multiple operations, jurisdictions, and/or leads."
+      },
+      {
+        "title": "Security Force",
+        "icon": "security_force.svg",
+        "desc": "Document incident reports, parking tickets, and other minor offenses for civilian security forces."
+      },
+      {
+        "title": "School Security",
+        "icon": "school_alert.svg",
+        "desc": "Enhance school security, administration, and communication to keep students and staff safe and informed."
+      },
+      {
+        "title": "Rolmes",
+        "icon": "rolmes.svg",
+        "desc": "Innovative robotic technology with case management integration to revolutionize crime analysis and evidence gathering."
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "CAD",
+        "icon": "icon-cad_solid",
+        "link": "public-safety/cad"
+      },
+      {
+        "title": "Mobile Operations",
+        "icon": "icon-mdt_solid",
+        "link": "public-safety/mobile-operations"
+      },
+      {
+        "title": "Fire & EMS",
+        "icon": "icon-fire_ems_solid",
+        "link": "public-safety/fire-ems"
+      },
+      {
+        "title": "Evidence",
+        "icon": "icon-evidence_solid",
+        "link": "public-safety/evidence"
+      },
+      {
+        "title": "Crime Mapping",
+        "icon": "icon-mapping_solid",
+        "link": "public-safety/analytics-crime-mapping"
+      }
+    ],
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "fire-ems",
+    "title": "Fire & EMS",
+    "subtitle": "Integrated Fire & EMS Solutions in a Single Platform",
+    "icon": "fire_ems.svg",
+    "coverImg": "fire_ems.jpg",
+    "brochure": "Total Fire Solution.pdf",
+    "descHeading": "Total solution for Fire & EMS response, administration, communication, prevention, and reporting",
+    "descContent": "Designed to be the most integrated all-in-one application suite on the market, our <a href='https://www.usfa.fema.gov/nfirs/vendors/active-vendors.html' target='_blank'>NFIRS 5.0 compliant</a> system supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
+    "highlightVideo": "FireEMS_highlight.mp4",
+    "highlightImg": "FireEMS_thumb.jpg",
+    "highlights": [
+      "Automatic NFIRS validation and report submission to the State",
+      "Total vertical integration between CAD, MDT, and RMS",
+      "Store all incident information in a single Master location",
+      "Streamline fire inspections to maintain up-to-date premise records",
+      "Extend system functionality with powerful modules"
+    ],
+    "capabilities": [
+      {
+        "title": "Total Solution",
+        "icon": "icon-total_solution_outline",
+        "img": "TotalSolution.jpg",
+        "desc": "CSI solutions are powered by the <a class='primary-link' href='/capabilities/infoShare-engine'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be scalable (single, regional, or multi-jurisdictional) and extensible. All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+      },
+      {
+        "title": "Cloud Compatibility",
+        "icon": "icon-cloud_integration_outline",
+        "img": "CloudCompatibility.jpg",
+        "desc": "<a class='primary-link' href='/capabilities/cloud-integration'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+      },
+      {
+        "title": "Data Migration",
+        "icon": "icon-data_migration_outline",
+        "img": "DataMigration.jpg",
+        "desc": "We offer the most comprehensive, structured data conversion services on the market. NFIRS and non-NFIRS data is converted to our native RMS data whereby the original data is not simply copied, but also cleansed, condensed, and standardized. No re-entering old data, no accessing old systems, no removing duplicate entries."
+      },
+      {
+        "title": "Platform Independence",
+        "icon": "icon-mobile_operations_outline",
+        "img": "PlatformIndependence.jpg",
+        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare™ RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
+      },
+      {
+        "title": "Multi-Agency Coverage",
+        "icon": "icon-agencies_outline",
+        "img": "Multi-agencyCoverage.jpg",
+        "desc": "A regional approach with a local feel. Each agency participating in a regional RMS has access to shared resources but retains control of its own data and its own identity—logos, report formats, protocols, approval process, workflow, and so on. Moreover, each agency can choose to deploy specific modules on a need/affordability basis."
+      }
+    ],
+    "sysTitle": {
+      "title": "Integrated all-in-one CAD, RMS, and MDT solution for Fire and EMS departments",
+      "img": "fire_ems.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Fire & EMS CAD",
+        "desc": "Support dispatchers in processing incident information and allocating resources efficiently with the dispatcher assistance system. Agencies can configure the system to fulfill their specific needs including setting built-in pre-plans and response plans.",
+        "list": [
+          "Pre-plan assignment for auto-dispatching",
+          "Dispatcher assistance system (Fire/EMS alarm, response plan, run card)",
+          "Color-coded unit and apparatus dispatching",
+          "Dynamic, GPS-based unit recommendation",
+          "Real-time unit location tracking (AVL/ARL)",
+          "Master Location index (flags, floor plans, HazMat, prior incidents)"
+        ],
+        "img": "fireems-1.jpg"
+      },
+      {
+        "title": "Fire & EMS MDT",
+        "desc": "All mission-critical information pertaining to the CFS is shared with responders in real-time from the Master Location database. Firefighters and EMS personnel arrive on the scene better prepared with enhanced situational awareness.",
+        "list": [
+          "Unit monitoring and tracking",
+          "Flexible event escalation (add units, raise alarm level)",
+          "Integrated mapping with detailed information (hydrant, driveway, obstruction)",
+          "Status monitoring (timer, log, incident history)",
+          "Color-coded static display boards ",
+          "Real-time location information (flags, floor plans, photos, HazMat, recent CFS)"
+        ],
+        "img": "fireems-2.jpg"
+      },
+      {
+        "title": "Fire & EMS Records Management",
+        "desc": "Support all aspects of records management including data collection, storage, investigation, reporting, as well as department activities such as scheduling-rostering, personnel, training/certifications, permits, inspections, apparatus, inventory, hydrants, and more.",
+        "list": [
+          "Bi-directional CAD, RMS, and MDT integration",
+          "Automatic NFIRS code mapping ",
+          "Incident intake via CAD or RMS",
+          "Apparatus, asset, inventory, and hydrant management",
+          "Occupancy, permit, and inspection management",
+          "Fire & Arson Investigation Reports"
+        ],
+        "img": "fireems-3.jpg"
+      },
+      {
+        "title": "NFIRS & ePCR Reporting",
+        "desc": "Paperless reporting and approval with digital signatures, followed by case disposition. Event details are pre-populated in NFIRS and ePCR reports, eliminating duplicate data entry and errors. Reports are physically stored in the system for efficient archiving and viewing.",
+        "list": [
+          "NFIRS with validation and error reporting",
+          "Field validation checks (mandatory fields, data type, format, range)",
+          "NFIRS & ePCR Mobile reporting",
+          "Auto-route reports for approval",
+          "Narrative and multimedia attachment functions",
+          "User-definable fields and labels"
+        ],
+        "img": "fireems-4.jpg"
+      },
+      {
+        "title": "Active Response App",
+        "desc": "Designed to help both professional firefighters and volunteer firefighters to communicate effectively. Users receive real-time notifications, status updates, and instructions on compatible mobile devices to actively respond to emergent scenarios.",
+        "list": [
+          "iOS/Android device compatibility",
+          "Bi-directional CAD integration",
+          "Notifications and alerts",
+          "CFS notice and information",
+          "Member status and list display",
+          "Unit recall and status assignment"
+        ],
+        "img": "fireems-5.jpg"
+      },
+      {
+        "title": "Fire Inspection with Portal",
+        "desc": "Streamline inspections, create customizable worksheets/checklists, and manage permits within an integrated environment involving fire inspection, records management, smartphone app, and portal. Comprehensive billing and invoicing services for inspections and permits.",
+        "list": [
+          "Inspection assignment, scheduling, and recording",
+          "User-defined fire inspection checklist/worksheet",
+          "Statistical Report (summary, year-end, invoice status, receipt ledger)",
+          "Occupancy and hydrant inspections",
+          "Billing and invoicing services",
+          "Web-based fire inspection portal"
+        ],
+        "img": "fireems-6.jpg"
+      }
+    ],
+    "extending": [
+      {
+        "title": "Personnel and Scheduling",
+        "icon": "personnel.svg",
+        "desc": "Support all aspects of personnel management such as training, time off, overtime, document tracking, and scheduling.",
+        "link": "public-safety/personnel-scheduling"
+      },
+      {
+        "title": "Policy and Procedure",
+        "icon": "policy.svg",
+        "desc": "Promote compliance and understanding of organizational policies."
+      },
+      {
+        "title": "Fire Arson Investigation",
+        "icon": "arson.svg",
+        "desc": "Manage case data, documents, and evidence for fire and arson investigations in compliance with NFPA 921 standards."
+      },
+      {
+        "title": "Rapid SOS Interface",
+        "icon": "sos.svg",
+        "desc": "Access contextual data from information systems such as smartphones, wearable devices, smart buildings, etc. in emergencies."
+      },
+      {
+        "title": "Image Trend Interface",
+        "icon": "image_trend.svg",
+        "desc": "Interface with ImageTrend report systems for maximum interoperability and data sharing."
+      },
+      {
+        "title": "Fire Inspection Billing Module",
+        "icon": "fire_inspection.svg",
+        "desc": "Maintain accounting and invoice/billing services for permits or inspections in the Fire Inspection Application."
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "CAD",
+        "icon": "icon-cad_solid",
+        "link": "public-safety/cad"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Mobile Operations",
+        "icon": "icon-mdt_solid",
+        "link": "public-safety/mobile-operations"
+      },
+      {
+        "title": "Personnel & Scheduling",
+        "icon": "icon-personnel_solid",
+        "link": "public-safety/personnel-scheduling"
+      },
+      {
+        "title": "Citation Management",
+        "icon": "icon-doc_management_solid",
+        "link": "public-safety/citation-management"
+      }
+    ],
+    "quote": {
+      "content": "First In. Last Out."
+    }
+  },
+  {
+    "id": "mobile-operations",
+    "title": "Mobile Operations",
+    "subtitle": "coming soon...",
+    "icon": "mobile_operations.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "citation-management",
+    "title": "Citation Management",
+    "subtitle": "Modern Ticketing Process in an Integrated CAD/RMS System",
+    "icon": "doc_management.svg",
+    "coverImg": "citation_management.jpg",
+    "brochure": "",
+    "descHeading": "Create professional electronic citations with accurate and automated data entry",
+    "descContent": "With the ease of a MDT, license scanner, and printer, users create, print, and issue eTickets for motor vehicle violations on the go. Our citation management solution simplifies and automates the ticketing process, issuing citations in minutes. An intuitive workflow guides users every step of the way. All data and eTickets can be sent to InfoShare™ RMS case for permanent documentation.",
+    "sysFeatures": [
+      {
+        "title": "Streamlined Data Input & Workflow",
+        "desc": "Seamless transition from the MDT Call for Service or Motor Vehicle Stop to the issuance of citations or warnings. Multiple fields are auto-populated, and each step is validated, ensuring data accuracy and eliminating data entry errors.",
+        "list": [
+          "Intuitive user interface",
+          "Simple Q&A workflow",
+          "Auto-populate driver information",
+          "Autofill vehicle information from DMV lookups",
+          "State DMV and NCIC interface",
+          "Form validation checks (mandatory fields, data type, format, range)"
+        ],
+        "img": "citation-1.jpg"
+      },
+      {
+        "title": "Mobile Ticketing with Advanced Features",
+        "desc": "MDT eTicketing begins with the choice of a moving violation, parking violation, or warning ticket. Then, the application guides users step by step through inputting driver, vehicle, and offense information. Tickets can be instantly printed and issued to violators on scene.",
+        "list": [
+          "In-car printer and license scanner support",
+          "Electronic signature support",
+          "AVL/GPS incorporation for location of stops",
+          "Offense and statute search",
+          "Multiple citation per violator option"
+        ],
+        "img": "citation-2.jpg"
+      },
+      {
+        "title": "eTicket Management and Tracking",
+        "desc": "All eTickets and related DMV information are pushed from CAD & MDT to RMS for tracking and permanent documentation in the case file. Tracking issuances enable assurance and auditing of transactions.",
+        "list": [
+          "User inbox ticket tracking",
+          "CAD & MDT-to-RMS integration",
+          "Searchable, printable eTicket PDF copy",
+          "Notes section for concerns and observations",
+          "Automatic electronic delivery to local and state courts"
+        ],
+        "img": "citation-3.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "CAD",
+        "icon": "icon-cad_solid",
+        "link": "public-safety/cad"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Fire & EMS",
+        "icon": "icon-fire_ems_solid",
+        "link": "public-safety/fire-ems"
+      },
+      {
+        "title": "Personnel & Scheduling",
+        "icon": "icon-personnel_solid",
+        "link": "public-safety/personnel-scheduling"
+      },
+      {
+        "title": "Evidence",
+        "icon": "icon-evidence_solid",
+        "link": "public-safety/evidence"
+      }
+    ],
+    "quote": {
+      "content": "Informed decisions are made from education, experience, and hard work"
+    }
+  },
+  {
+    "id": "evidence",
+    "title": "Evidence",
+    "subtitle": "coming soon...",
+    "icon": "evidence.svg",
+    "coverImg": "",
+    "brochure": "Evidence.pdf",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "personnel-scheduling",
+    "title": "Personnel & Scheduling",
+    "subtitle": "Comprehensive Paperless Solution to Streamline HR Functions",
+    "icon": "personnel.svg",
+    "coverImg": "personnel_scheduling.jpg",
+    "brochure": "Personnel.pdf",
+    "descHeading": "Support all aspects of personnel management—training, leave, inventory, scheduling, and more",
+    "descContent": "InfoShare™ Personnel & Scheduling module is a fully customizable and paperless application for HR administrators to manage all HR functions such as leave, overtime/compensatory time, training requests, firearms qualifications, and policy and procedures documents. Extensive searching and analytical reporting for both attendance and payroll purposes provide an easy way to manage any contractual rules agencies may have.",
+    "highlightVideo": "Personnel_highlight.mp4",
+    "highlightImg": "Personnel_thumb.jpg",
+    "highlights": [
+      "Paperless HR management system",
+      "Eliminate lost or mislaid requests",
+      "Powerful search capabilities and permission settings",
+      "Streamlined and customizable approval workflow",
+      "Advanced searching and analytical attendance and payroll reports"
+    ],
+    "sysTitle": {
+      "title": "Robust HR software built for agencies of any size",
+      "img": "personnel_scheduling.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Multi-Level Approval Workflow Process",
+        "desc": "Fully customizable approval process for multiple groups (divisions, units, squads) with multi-level approval based upon each agency’s requirements for leave, overtime, and training submissions.",
+        "list": [
+          "Configurable, paperless approval workflow",
+          "Inbox approval tracking with mail notifications",
+          "OT/CT, leave, and schedule switch/substitute electronic requests",
+          "Leave and overtime searching and management reporting"
+        ],
+        "img": "personnel-1.jpg"
+      },
+      {
+        "title": "Employee Scheduling",
+        "desc": "Easy access to calendar views from any device connected to the internet such as a desktop, tablet, or smartphone. Staff members can be scheduled up to two years in advance and receive notifications of any schedule changes via email or text.",
+        "list": [
+          "Schedule template generator",
+          "Time management and scheduling calendar views",
+          "Calendar entries with color-coded status indicators",
+          "Minimum staffing permissions and indicators",
+          "Color-coded daily line up roster",
+          "Mobile application for scheduling, overtime, and notifications"
+        ],
+        "img": "personnel-2.jpg"
+      },
+      {
+        "title": "Extensive Search Capabilities & Reporting",
+        "desc": "Comprehensive search options allow users to quickly retrieve the necessary information on all aspects of personnel management. HR management reporting is easily accomplished with analytical reports such as leave, overtime, and comp time.",
+        "list": [
+          "Analytical reports for staffing management",
+          "Search by staff overtime source",
+          "Search by staff leave source",
+          "Yearly budgeting assistance"
+        ],
+        "img": "personnel-3.jpg"
+      },
+      {
+        "title": "Training Sub-Module",
+        "desc": "Track all mandatory training and alerts for training deficiencies. Training administrators can view all staff training records and initiatives for additional and specialized training. Furthermore, the system alerts staff when training rescheduling is required.",
+        "list": [
+          "Customizable approval workflow",
+          "Staff training records tracking",
+          "Scheduling staff and admin calendar integration",
+          "Department and specialized training tracking",
+          "Alert management for recertification training",
+          "Mobile application for training schedule tracking"
+        ],
+        "img": "personnel-4.jpg"
+      },
+      {
+        "title": "Inventory Management",
+        "desc": "Customizable and support file-driven inventory management system to track status, assignment, history, expiration date, and other information. Fully integrated with Firearms Qualification Management reporting.",
+        "list": [
+          "Robust agency inventory tracking",
+          "Inventory assignment by location, staff, or team",
+          "Integrated with Firearms Qualification Reporting",
+          "Staff bulk inventory assignment",
+          "Equipment expiration alerts"
+        ],
+        "img": "personnel-5.jpg"
+      },
+      {
+        "title": "Policy and Procedure Module (Info P&P)",
+        "desc": "Promote compliance and understanding of organizational policies. Agencies can author, approve, and disseminate electronic policy and procedure documents across an organization. Staff can read and sign off on documents to indicate agreement.",
+        "list": [
+          "Agency-specific policy and procedure template generation",
+          "Document version control, testing, and surveys",
+          "Integrated accreditation document management process",
+          "Fully customizable review and approval workflow ",
+          "Management alerts for reviewing past due documents",
+          "Full text search and robust permission settings"
+        ],
+        "img": "personnel-6.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "CAD",
+        "icon": "icon-cad_solid",
+        "link": "public-safety/cad"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Fire & EMS",
+        "icon": "icon-fire_ems_solid",
+        "link": "public-safety/fire-ems"
+      },
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      }
+    ],
+    "quote": {
+      "content": "The goal is to turn data into information and information into insight"
+    }
+  },
+  {
+    "id": "warrant",
+    "title": "Warrant",
+    "subtitle": "coming soon...",
+    "icon": "warrants.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "analytics-crime-mapping",
+    "title": "Analytics & Crime Mapping",
+    "subtitle": "coming soon...",
+    "icon": "analytics.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "internal-affairs",
+    "title": "Internal Affairs",
+    "subtitle": "Case Management for Allegations of Employee Misconduct",
+    "icon": "internal_affairs.svg",
+    "coverImg": "internal_affairs.jpg",
+    "brochure": "",
+    "descHeading": "Manage and document investigations of alleged employee misconduct to maintain agency integrity",
+    "descContent": "Thoroughly investigating complaints of employee misconduct is essential in maintaining the integrity and transparency of any law enforcement agency. The process is necessary not only to discipline officers, but to protect them as well. A reputable Internal Affairs function is partially dependent upon the system used to document the investigations. This module is designed to record the entire process, from the time the complaint is received by the agency through its final disposition.",
+    "sysFeatures": [
+      {
+        "title": "Complete Case Management",
+        "desc": "The Internal Affairs module chronicles the entire IA process from the time the complaint is received to the conclusion of the investigation. Personnel can generate reports and prepare related documents within the case, both of which are organized in a file folder design. ",
+        "list": [
+          "User inbox assignment tracking for efficient case management",
+          "Individual task assignment function",
+          "Integrated document templates",
+          "Complete search capabilities for statistical reporting",
+          "Customizable to the agency’s process"
+        ],
+        "img": "ia-1.jpg"
+      },
+      {
+        "title": "Local Agency Access",
+        "desc": "Internal Affairs modules managed by the County Prosecutor’s or District Attorney’s Office can be opened by  other law enforcement agencies in their jurisdiction to facilitate the local IA function and provide oversight.",
+        "list": [
+          "Secure, permission-controlled access",
+          "Prosecutor’s Office/District Attorney maintains all access",
+          "Cooperative investigation functionality",
+          "Local cases can be forwarded to Prosecutor’s/DA’s Office for review"
+        ],
+        "img": "ia-2.jpg"
+      },
+      {
+        "title": "Early Intervention Component",
+        "desc": "A standard built-in early intervention mechanism to help identify at-risk officers triggers an automated alert for the officer when the pre-set conditions are satisfied. Alerts can be programmed to notify the local agency, the Prosecutor’s/DA’s Office, or both.",
+        "list": [
+          "Behavioral intervention before conduct deteriorates",
+          "Customizable case count and rolling calendar conditions",
+          "Individual performance indicators, not complaints, trigger the alerts",
+          "Alerts can be opened as a case to conduct a non-punitive review"
+        ],
+        "img": "ia-3.jpg"
+      },
+      {
+        "title": "Drug Screening Randomizer",
+        "desc": "When applied, the Drug Screening Randomizer will generate a list of randomly selected personnel who are eligible for drug screening and ensures that every employee in the agency has an equal chance of being selected each and every time a selection takes place.",
+        "list": [
+          "Permission-based access to both Prosecutor/DA and local agencies",
+          "“Replace” function for on-leave/inaccessible personnel",
+          "Drug screening documents can be saved to the system",
+          "Drug screening packages are archived for future reference"
+        ],
+        "img": "ia-4.jpg"
+      },
+      {
+        "title": "Brady-Giglio Component",
+        "desc": "Designed to assist law enforcement agencies in complying with the United States Supreme Court decision in Brady v. Maryland, 373 U.S. 83, 87 (1963), the Brady-Giglio component provides a mechanism to classify and track police officers subject to Brady-Giglio reporting. ",
+        "list": [
+          "Permission-based access control",
+          "Flag system alerts permissioned users to potential issues of credibility",
+          "Dedicated search function provides review of Brady-Giglio records",
+          "View log provides a historical account of staff activity",
+          "Full integration with the InfoShare™ application suite"
+        ],
+        "img": "ia-5.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Interview Recording",
+        "icon": "icon-info_recording_solid",
+        "link": "justice-courts/interview-recording"
+      },
+      {
+        "title": "Evidence",
+        "icon": "icon-evidence_solid",
+        "link": "public-safety/evidence"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      }
+    ],
+    "quote": {
+      "content": "For every minute you are angry, you lose sixty seconds of happiness."
+    }
+  },
+  {
+    "id": "municipal-solutions",
+    "title": "Municipal Solutions",
+    "subtitle": "coming soon...",
+    "icon": "internal_affairs.svg",
+    "coverImg": "",
+    "brochure": "Municipal Management System.pdf",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "interfaces",
+    "title": "Interfaces",
+    "subtitle": "coming soon...",
+    "icon": "interfaces.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  }
+]

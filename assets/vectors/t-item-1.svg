@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="580px" height="135px" viewBox="0 0 580 135" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>t-item-1</title>
+    <g id="t-item-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <text id="Document-Management" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="281" y="22">Document Management</tspan>
+        </text>
+        <text id="Document-Viewer-&amp;-Re" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="281" y="74">Document Viewer &amp; Redaction</tspan>
+        </text>
+        <text id="Image-Management" font-family="Lato-Regular, Lato" font-size="22" font-weight="normal" line-spacing="28" fill="#323232">
+            <tspan x="281" y="128">Image Management</tspan>
+        </text>
+        <path d="M254,112.5 C256.899478,112.5 259.524483,113.675258 261.424617,115.575391 C263.32474,117.475515 264.5,120.100508 264.5,123 C264.5,125.899492 263.32474,128.524485 261.424617,130.424609 C259.524483,132.324742 256.899478,133.5 254,133.5 C251.100501,133.5 248.475501,132.32475 246.575375,130.424624 C244.67525,128.524499 243.5,125.899499 243.5,123 C243.5,120.100501 244.67525,117.475501 246.575375,115.575376 C248.475501,113.67525 251.100501,112.5 254,112.5 L254,112.5 Z" id="Fill-46-Copy-16" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF"></path>
+        <path d="M254,57.5 C256.899478,57.5 259.524483,58.6752578 261.424617,60.5753913 C263.32474,62.4755147 264.5,65.1005078 264.5,68 C264.5,70.8994922 263.32474,73.5244853 261.424617,75.4246087 C259.524483,77.3247422 256.899478,78.5 254,78.5 C251.100501,78.5 248.475501,77.3247501 246.575375,75.4246244 C244.67525,73.5244994 243.5,70.8994995 243.5,68 C243.5,65.1005005 244.67525,62.4755006 246.575375,60.5753756 C248.475501,58.6752499 251.100501,57.5 254,57.5 L254,57.5 Z" id="Fill-46-Copy-30" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF"></path>
+        <path d="M254,5.5 C256.899478,5.5 259.524483,6.67525779 261.424617,8.57539131 C263.32474,10.4755147 264.5,13.1005078 264.5,16 C264.5,18.8994922 263.32474,21.5244853 261.424617,23.4246087 C259.524483,25.3247422 256.899478,26.5 254,26.5 C251.100501,26.5 248.475501,25.3247501 246.575375,23.4246244 C244.67525,21.5244994 243.5,18.8994995 243.5,16 C243.5,13.1005005 244.67525,10.4755006 246.575375,8.57537558 C248.475501,6.67524988 251.100501,5.5 254,5.5 Z" id="Fill-46-Copy-31" stroke="#0D63BA" stroke-width="3" fill="#FFFFFF"></path>
+        <line x1="114" y1="130" x2="113.5" y2="-98" id="Stroke-41-Copy" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(114.000000, 16.000000) rotate(-270.000000) translate(-114.000000, -16.000000) "></line>
+        <polyline id="Path-2-Copy-2" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(196.500000, 42.000000) scale(-1, 1) translate(-196.500000, -42.000000) " points="230 15 230 69 163 69"></polyline>
+        <polyline id="Path-2-Copy-3" stroke="#EBEBEB" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" transform="translate(196.500000, 96.000000) scale(-1, 1) translate(-196.500000, -96.000000) " points="230 69 230 123 163 123"></polyline>
+    </g>
+</svg>

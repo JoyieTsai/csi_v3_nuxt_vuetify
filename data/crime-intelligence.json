@@ -1,0 +1,948 @@
+[
+  {
+    "id": "investigation",
+    "title": "Investigation",
+    "subtitle": "Manage Investigative Case Data, Documents, and Evidence",
+    "icon": "investigation.svg",
+    "coverImg": "investigation.jpg",
+    "brochure": "Investigation.pdf",
+    "descHeading": "Complete case management system to support the investigation process",
+    "descContent": "Collect, store, edit, view, and archive case subject recordsets with an extensive range of information variables such as evidence, warrants, arrests, drugs, and more. InfoShare™ Investigation also includes advanced analytics tools, extensive search capabilities, and investigative reporting features.  With mobile features embedded in the application, users can now access caseloads from any smartphone or tablet.",
+    "highlightVideo": "Investigation_highlight.mp4",
+    "highlightImg": "Investigation_thumb.jpg",
+    "highlights": [
+      "Efficient case intake and document management tool",
+      "Handle specialized investigation case types",
+      "Powerful search capabilities and permission settings",
+      "Streamlined investigative reporting and approval",
+      "Advanced investigative analytics tools"
+    ],
+    "sysTitle": {
+      "title": "Spend more time on investigation, less time on paperwork.",
+      "img": "investigation.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Case Intake & Data Management",
+        "desc": "Efficient case intake and organization of investigation information such as incident, location, investigation case type, suspect, police officer, organization, event, staff assignment, and disposition. Submodules contain crime-specific fields to assist investigative staff with a special type of investigation.",
+        "list": [
+          "Auto search Master Index database",
+          "Customized special investigation submodules",
+          "Configurable support files and business rules",
+          "Flexible region-, role-, or case-based permission settings",
+          "Folder-based file management (discovery, LIMS, non-discovery, post-conviction)",
+          "Evidence and case contact management"
+        ],
+        "img": "investigation-1.jpg"
+      },
+      {
+        "title": "Streamlined Workflow",
+        "desc": "A workflow-optimized user interface improves investigative staff productivity. Users can quickly locate caseload information, add case events, create reports, or view assignments and active cases from a single window.",
+        "list": [
+          "User inbox assignment tracking",
+          "Time management and scheduling calendar service",
+          "Internal messaging system",
+          "Multi-purpose investigation tab",
+          "Template generation tool"
+        ],
+        "img": "investigation-2.jpg"
+      },
+      {
+        "title": "Extensive Search Capabilities",
+        "desc": "Given the wealth of cases, documents, multimedia files, and reports, investigative staff need powerful search capabilities to quickly and easily find the necessary information.",
+        "list": [
+          "Extensive global and local search options",
+          "Permission- and security-based search restrictions",
+          "Full-text search engine"
+        ],
+        "img": "investigation-3.jpg"
+      },
+      {
+        "title": "Investigative Reporting & Approval",
+        "desc": "With CSI’s patented intake form technology, users can create, customize, and re-use reports and send them to supervisors for approval. Robust permission settings ensure only authorized staff members can access and update a case.",
+        "list": [
+          "Prepopulated investigation, arrest, and supplemental reports",
+          "Chief reports (unit monthly, time frame)",
+          "Paperless reporting and approval with digital signature",
+          "Patented intake form technology",
+          "One-click subpoena/warrant generation"
+        ],
+        "img": "investigation-4.jpg"
+      },
+      {
+        "title": "Investigative Analytics tools",
+        "desc": "Analytics tools leverage data for investigative insights, enabling users to run multidimensional crime analysis and advanced queries across disparate datasets. Users can visualize crime trends and the relationships between people, vehicles, organizations, and more.",
+        "list": [
+          "Crime mapping",
+          "Link analysis",
+          "Wildcard search"
+        ],
+        "img": "investigation-5.jpg"
+      }
+    ],
+    "benefits": {
+      "title": "Special Investigation",
+      "desc": "Enhance investigation capabilities with specialized case types",
+      "items": [
+        {
+          "icon": "icon-arson_outline",
+          "name": "Arson"
+        },
+        {
+          "icon": "icon-bias_outline",
+          "name": "Bias"
+        },
+        {
+          "icon": "icon-burglary_outline",
+          "name": "Burglary"
+        },
+        {
+          "icon": "icon-computer_crime_outline",
+          "name": "Computer Crime"
+        },
+        {
+          "icon": "icon-crime_against_children_outline",
+          "name": "Crime Against Children"
+        },
+        {
+          "icon": "icon-death_outline",
+          "name": "Death"
+        },
+        {
+          "icon": "icon-fatal_accident_outline",
+          "name": "Fatal Accident"
+        },
+        {
+          "icon": "icon-internal_affairs_outline",
+          "name": "Internal Affairs"
+        },
+        {
+          "icon": "icon-robbery_outline",
+          "name": "Robbery"
+        },
+        {
+          "icon": "icon-sex_crime_outline",
+          "name": "Sex Crime"
+        },
+        {
+          "icon": "icon-task_force_outline",
+          "name": "Task Force"
+        },
+        {
+          "icon": "icon-others_outline",
+          "name": "Others"
+        }
+      ]
+    },
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Major Incident Management",
+        "icon": "icon-mim_solid",
+        "link": "crime-intelligence/major-incident-management"
+      },
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "crime-intelligence/analytics"
+      },
+      {
+        "title": "Crime Scene Investigation",
+        "icon": "icon-crime_solid",
+        "link": "crime-intelligence/csi"
+      }
+    ],
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "intelligence",
+    "title": "Intelligence",
+    "subtitle": "Manage Intelligence Data in a 28 CFR Part 23 Database",
+    "icon": "intelligence.svg",
+    "coverImg": "intelligence.jpg",
+    "brochure": "Intelligence.pdf",
+    "descHeading": "Intelligence data management, reporting, and analytics for intelligence-led policing",
+    "descContent": "A criminal intelligence system developed to easily create, manage, and use permission-based settings to share data for investigation support and crime activity analysis. Other features include crime mapping, link analysis, robust search capabilities, streamlined reporting, and configurable interactive dashboard to provide a quantitative and strategic overview of intelligence data.",
+    "highlightVideo": "Intelligence_highlight.mp4",
+    "highlightImg": "Intelligence_thumb.jpg",
+    "highlights": [
+      "Gather, organize, and analyze intelligence data in a 28 CFR Part 23 compliant application.",
+      "Exchange and disseminate information across agencies.",
+      "Powerful search capabilities and permission-based settings.",
+      "Interactive graph of new intelligence reports in the dashboard.",
+      "Complete integration with other InfoShare™ applications to receive Push-to-Intelligence feature."
+    ],
+    "sysTitle": {
+      "title": "Spend less time creating intelligence reports, more time conducting investigations",
+      "img": "intelligence.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Criminal Intelligence System",
+        "desc": "Efficiently manage intelligence data and generate reports in a 28 CFR Part 23 compliant application. Maintain all documents, notes, images, sources, and permissions in separate tabs. The dissemination sensitivity and security setting of each report ensures only authorized individuals have access.",
+        "list": [
+          "Streamlined intelligence reporting and approval",
+          "Source and information reliability documentation",
+          "Link chart for overview of collected intelligence",
+          "Intelligence-led policing with link analysis and crime mapping",
+          "Data sharing with robust security and permission settings",
+          "Dissemination logs to maintain audit trails"
+        ],
+        "img": "intelligence-1.jpg"
+      },
+      {
+        "title": "Intelligence Priorities",
+        "desc": "Intelligence Priority identifies information gaps that will provide tactical and strategic information related to criminal activity, disrupt criminal networks, and protect the homeland.",
+        "list": [
+          "Configurable support files",
+          "Intelligence gaps documentation",
+          "Intelligence dissemination for collaboration and information exchange",
+          "Criminal activity trend identification and analysis",
+          "Linked Reports"
+        ],
+        "img": "intelligence-2.jpg"
+      },
+      {
+        "title": "Configurable Dashboard",
+        "desc": "The Dashboard displays intelligence reports, analytics, and provides interactive graphs of new reports. Administratively, view which members are creating reports and identify approved reports by week. Fully customizable to present data that is important to each agency.",
+        "list": [
+          "Agency-specific reports and analytics",
+          "Multiple datasets and graphs displayed in one window",
+          "Interactive graph of new reports for visualizing activity",
+          "Expandable segments to explore data in detail",
+          "Multi-tab function to group analytical data"
+        ],
+        "img": "intelligence-3.jpg"
+      },
+      {
+        "title": "Global Search",
+        "desc": "<a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a> searches state, county, local agencies, and participating InfoShare™ systems. Search results allow for sharing confidential information based on permission levels, and the search results themselves can be searched to find specific results.",
+        "list": [
+          "Advanced filtering and Boolean search",
+          "Interagency database search (participating agencies)",
+          "Permission-based search results",
+          "Documents repository full text and keyword search",
+          "Interfaces with federal, state, and county Law Enforcement partners"
+        ],
+        "img": "intelligence-4.jpg"
+      },
+      {
+        "title": "ALPR Search",
+        "desc": "More and more agencies are seeing the value in leveraging ALPR technology to solve crimes, identify suspects, recover stolen vehicles, and create hot lists to assist in investigations. A clean interface allows users to quickly search the CSI ALPR Warehouse and return results.",
+        "list": [
+          "Investigative lead generation",
+          "Hot lists for real-time vehicle identification and tracking",
+          "Interagency ALPR database search (participating agencies)"
+        ],
+        "img": "intelligence-5.jpg"
+      },
+      {
+        "title": "Robust Search Capability",
+        "desc": "AdHoc search capability of cyber, criminal organization, person, person details, vehicle, location, phone, activity type, by source, and agency to name a few. Ability to search your Master Name Index against connected databases, and person search by criminal activity type.",
+        "list": [
+          "Customized canned reports",
+          "Multiple field search",
+          "Output formats (Excel, PDF)"
+        ],
+        "img": "intelligence-6.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "crime-intelligence/analytics"
+      },
+      {
+        "title": "Global Search",
+        "icon": "icon-global_search_solid",
+        "link": "crime-intelligence/global-search"
+      },
+      {
+        "title": "ALPR Dashboard",
+        "icon": "icon-alpr_solid",
+        "link": "crime-intelligence/alpr"
+      },
+      {
+        "title": "Fusion Center (iLog)",
+        "icon": "icon-fusion_center_solid",
+        "link": "crime-intelligence/fusion-center"
+      }
+    ],
+    "quote": {
+      "content": "Contact our dedicated, experienced account managers"
+    }
+  },
+  {
+    "id": "sar",
+    "title": "Suspicious Activity Reporting",
+    "subtitle": "Reporting Function of the Suspicious Activity Reporting (SAR) Initiative",
+    "icon": "sars.svg",
+    "coverImg": "sars.jpg",
+    "brochure": "",
+    "descHeading": "Standardized process for reporting, verifying, and sharing SAR information in one platform",
+    "descContent": "Enable Law Enforcement partners from local, state, and federal agencies to collect, verify, and share information under the same data sharing platform. Integration with FBI’s eGuardian system and specialized workflow provides checks and balances to ensure information is reviewed and acted upon accordingly.",
+    "sysFeatures": [
+      {
+        "title": "Suspicious Activity Reporting",
+        "desc": "The National SAR Initiative (NSI) is a collaborative effort led by the U.S. Dept of Justice (DOJ), Bureau of Justice Assistance, in partnership with the U.S. Dept of Homeland Security, the FBI, and state, local, tribal, and territorial law enforcement partners.",
+        "list": [
+          "Suspicious persons of interest, locations, and vehicles investigation",
+          "Critical infrastructure and soft targets incident tracking",
+          "argeted population incident monitoring",
+          "Identification, tracking, and search of extremist ideologies",
+          "Robust Ad Hoc search and Actionable Report generation"
+        ],
+        "img": "sars-1.jpg"
+      },
+      {
+        "title": "Global Search",
+        "desc": "<a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a> searches state, county, local agencies, and participating InfoShare™ systems. Search results allow for sharing confidential information based on permission levels, and the search results themselves can be searched to find specific results.",
+        "list": [
+          "Advanced filtering and Boolean search",
+          "Interagency database search (participating agencies)",
+          "Permission-based search results",
+          "Documents Repository full text and keyword search",
+          "Interfaces with federal, state, and county Law Enforcement partners"
+        ],
+        "img": "sars-2.jpg"
+      },
+      {
+        "title": "Targeted Populations",
+        "desc": "Track a targeted population based on the threat to an individual’s ethnicity, national origin, gender/sexual orientation, race, or religion. The SAR platform can be configured to produce customized Target Population reports based on agency needs.",
+        "list": [
+          "Individual targeted population impacted tab",
+          "Targeted population linkage to specific types of incidents",
+          "Domestic and international extremist group data gathering",
+          "Threat type and infrastructure trend identification",
+          "Configurable support files and business rules"
+        ],
+        "img": "sars-3.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Fusion Center (iLog)",
+        "icon": "icon-fusion_center_solid",
+        "link": "crime-intelligence/fusion-center"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "crime-intelligence/analytics"
+      },
+      {
+        "title": "Global Search",
+        "icon": "icon-global_search_solid",
+        "link": "crime-intelligence/global-search"
+      }
+    ],
+    "quote": {
+      "content": "Vincit Omnia Veritas"
+    }
+  },
+  {
+    "id": "fusion-center",
+    "title": "Fusion Center (iLog)",
+    "subtitle": "Comprehensive toolkit for information sharing and intelligence production",
+    "icon": "fusion_center.svg",
+    "coverImg": "fc_ilog.jpg",
+    "brochure": "",
+    "descHeading": "Track SIN/SARs, manage cases, link documents, and exchange plus disseminate information",
+    "descContent": "Uniquely developed applications to efficiently handle any type of incident. Tracking, documenting, and disseminating  are performed under a single application tailored to user workflows. Moreover, Fusion Center iLog comes equipped with advanced analytical tools to identify crime trends and patterns, allowing agencies to produce actionable intelligence and prioritize their investigations.",
+    "highlightVideo": "FC_highlight.mp4",
+    "highlightImg": "FC_thumb.jpg",
+    "highlights": [
+      "Maintain situational awareness of any type of incident.",
+      "Identify locations and infrastructure involved and assets deployed.",
+      "Incidents are easily pushed to InfoShare™ Intelligence for further analysis and investigation.",
+      "Control and document information sharing with the Dissemination feature.",
+      "Customizable levels of incident severity, security setting, and incident priority."
+    ],
+    "sysTitle": {
+      "title": "All-inclusive fusion center suite for intelligence gathering, sharing, production, and policing",
+      "img": "fc.jpg"
+    },
+    "sysFeatures": [
+      {
+        "title": "Incident/Event Intake",
+        "desc": "A complete toolkit for fusion centers to capture the details of any incident/event and document the resources deployed. Incidents are color coded by severity and can be pushed to Intelligence for further analysis and investigation.",
+        "list": [
+          "Color-coded incident status levels",
+          "Resources deployed documentation",
+          "Success story feature captures outstanding work",
+          "Dissemination logs",
+          "Folder-based document management (source, draft, and final, maps)",
+          "Pre-planned incidents with auto-scheduling"
+        ],
+        "img": "fc-1.jpg"
+      },
+      {
+        "title": "Master Project Tracking Log",
+        "desc": "A workflow-optimized user interface streamlines reporting, so users can spend more time doing the actual work. All documents, files, images, and dissemination documentation can be stored in one application and robustly searched.",
+        "list": [
+          "Multi-parameter search",
+          "Dynamically linked fields for customization by multiple units",
+          "Standing Information Needs (SINs) documentation",
+          "Master Name Index linking",
+          "Paperless supervisor review and approval"
+        ],
+        "img": "fc-2.jpg"
+      },
+      {
+        "title": "Request For Information",
+        "desc": "Quickly allow users to create and document Requests for Information in a workflow configured to the needs of each agency. Specific databases can be searched to support investigations, enhance intelligence cycles, and provide situational awareness.",
+        "list": [
+          "Unified RFI tracking and analysis",
+          "Federal, state, local agencies or fusion centers request identification",
+          "Crime trend analysis for actionable intelligence",
+          "Workload analysis for peak resource allocation",
+          "Configurable support files and business rules"
+        ],
+        "img": "fc-3.jpg"
+      },
+      {
+        "title": "Push To Intelligence",
+        "desc": "Incidents entered into the fusion center can easily be sent to Intelligence for further investigation, analysis, research, and documentation. In addition, any actionable intelligence can be quickly disseminated to the appropriate agencies.",
+        "list": [
+          "Push incidents to Intelligence",
+          "Auto populate intelligence report fields",
+          "Clear origin of information documentation ",
+          "No re-entering information"
+        ],
+        "img": "fc-4.jpg"
+      },
+      {
+        "title": "Security",
+        "desc": "High level security measures begin with users needing to be the connected to state-level security networks to access intelligence servers. All users must be vetted and complete online training modules dealing with need to know vs. right to know, privacy, and dissemination.",
+        "list": [
+          "Unique username and password",
+          "User vetting process",
+          "Online training modules",
+          "Staff activity tracking"
+        ],
+        "img": "fc-5.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "crime-intelligence/analytics"
+      },
+      {
+        "title": "SAR",
+        "icon": "icon-sars_solid",
+        "link": "crime-intelligence/sar"
+      },
+      {
+        "title": "Global Search",
+        "icon": "icon-global_search_solid",
+        "link": "crime-intelligence/global-search"
+      }
+    ],
+    "quote": {
+      "content": "Vincit Omnia Veritas"
+    }
+  },
+  {
+    "id": "analytics",
+    "title": "Analytics",
+    "subtitle": "Transform Raw Data into Meaningful Insight and Actionable Intelligence",
+    "icon": "analytics.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "Visualize data to reveal relationships, trends, and patterns of criminal activity",
+    "descContent": "Leverage advanced data collection and analytics to transform vast amounts of stored data into meaningful and insightful information, revealing crime trends and hidden patterns. Visualize data to draw connections to and between crimes, people, places, and vehicles. Analytics help agencies make better decisions, allocate resources more efficiently, and provide intelligence-led policing.",
+    "sysFeatures": [
+      {
+        "title": "Intelligence Dashboard",
+        "desc": "Provide a visual snapshot of selected data including intelligence reports, analytics, and interactive graphs, customized to user preferences. Each segment can be expanded and explored in detail. Administratively, view which members are creating reports, and identify approved reports by week.",
+        "list": [
+          "Customizable display of reports and analytics",
+          "Multiple datasets and graphs displayed in one window",
+          "Interactive graph of new reports",
+          "Expandable segments",
+          "Multi-tab analytics data grouping"
+        ],
+        "img": "analytics-1.jpg"
+      },
+      {
+        "title": "Visual Links",
+        "desc": "Create exportable visual link charts showing relationships between key objects. Simplify complexity, see context, and uncover hidden links or anomalies to provide insight for better decision-making.",
+        "list": [
+          "People",
+          "Locations",
+          "Vehicles",
+          "Phones",
+          "Establishments",
+          "Criminal Organizations"
+        ],
+        "img": "analytics-2.jpg"
+      },
+      {
+        "title": "Crime Mapping",
+        "desc": "Visualize criminal activity patterns, identify crime hot spots, and deploy proactive policing efforts. Drill down on individual incidents and easily access any linked reports. Configurable search features ensure users find the needed data as quickly as possible.",
+        "list": [
+          "Multidimensional incident analysis",
+          "Interactive crime mapping",
+          "Hot spot and heat mapping",
+          "Incident clustering",
+          "Robust search configurations",
+          "Polygon map search"
+        ],
+        "img": "analytics-3.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Fusion Center (iLog)",
+        "icon": "icon-fusion_center_solid",
+        "link": "crime-intelligence/fusion-center"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "SAR",
+        "icon": "icon-sars_solid",
+        "link": "crime-intelligence/sar"
+      },
+      {
+        "title": "Global Search",
+        "icon": "icon-global_search_solid",
+        "link": "crime-intelligence/global-search"
+      }
+    ],
+    "quote": {
+      "content": "Vincit Omnia Veritas"
+    }
+  },
+  {
+    "id": "alpr",
+    "title": "Automated License Plate Reader",
+    "subtitle": "Leverage ALPR data for real-time crime and historical investigations",
+    "icon": "alpr.svg",
+    "coverImg": "alpr.jpg",
+    "brochure": "",
+    "descHeading": "ALPR data is a force multiplier and valuable tool to solve crimes and deter criminal activity",
+    "descContent": "Every day more and more ALPR cameras are coming online, storing thousands of plates in ALPR databases. Efficient ALPR searches allow agencies to pinpoint the exact location of where a vehicle may have been or wasn’t, which can either corroborate or refute an individual’s statement as to their whereabouts. CSI’s ALPR is designed for regional interagency data sharing and currently used in Law Enforcement fusion and real-time crime centers, as well as in state, county, and local agencies.",
+    "sysFeatures": [
+      {
+        "title": "ALPR Search",
+        "desc": "Streamlined search process: simply enter the full or partial license plate number and click search.  Results are returned in row format, alongside a map with each numbered read. Each read can be expanded to reveal additional actionable data.",
+        "list": [
+          "Clean user interface",
+          "Complete and partial plate search",
+          "Open API of ALPR vendor databases",
+          "Federated data search on regional ALPR system"
+        ],
+        "img": "alpr-1.jpg"
+      },
+      {
+        "title": "Search Results",
+        "desc": "Results returned on the map can be viewed down to the street level, providing a contextual view of the location. Non-relevant reads can be removed and then mapped and exported for more detailed analysis.",
+        "list": [
+          "Search results with interactive mapping",
+          "Thumbnail and full view photos for visual plate verification",
+          "Mobile and desktop compatibility",
+          "Multiple output formats (Excel, PDF)"
+        ],
+        "img": "alpr-2.jpg"
+      },
+      {
+        "title": "ALPR Warehouse",
+        "desc": "CSI can create an agency-specific ALPR Warehouse, which receives and stores ALPR reads from other agencies, allowing all associated agencies to search across databases.",
+        "list": [
+          "Agency ALPR database",
+          "Agency-managed data sharing and access",
+          "Regional ALPR collection and sharing network"
+        ],
+        "img": "alpr-3.jpg"
+      },
+      {
+        "title": "ALPR Administrative Dashboard",
+        "desc": "The main page of the ALPR Administrative Dashboard provides a visual, color-coded description of the current operational status of all agency ALPRs that are feeding the ALPR Warehouse. Any participating agency’s camera can be analyzed to identify possible bad reads.",
+        "list": [
+          "Visual identification of overall operational status",
+          "Email notifications for incidents needing review and attention",
+          "Camera health check across various time periods",
+          "Service alerts for issues and duration of incidents",
+          "Daily report of all cameras with configurable alerts in Excel format"
+        ],
+        "img": "alpr-4.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Fusion Center (iLog)",
+        "icon": "icon-fusion_center_solid",
+        "link": "crime-intelligence/fusion-center"
+      },
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Global Search",
+        "icon": "icon-global_search_solid",
+        "link": "crime-intelligence/global-search"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "crime-intelligence/analytics"
+      }
+    ],
+    "quote": {
+      "content": "Vincit Omnia Veritas"
+    }
+  },
+  {
+    "id": "global-search",
+    "title": "Global Search Broker",
+    "subtitle": "Power-Packed Search Engine with Advanced Features",
+    "icon": "global_search.svg",
+    "coverImg": "gsb.jpg",
+    "brochure": "",
+    "descHeading": "Quickly search all of your connected databases and return specific results to aid your investigation",
+    "descContent": "Global Search has been developed to search all connected sources, by up to eight objects. Users can opt for a standard keyword search or switch to advanced search or person search. Search results are grouped into multiple categories split by local/remote, source, database, and object to allow for a comprehensive overview of the results. Furthermore, results themselves can be searched so that users can find the desired information as quickly as possible.",
+    "sysFeatures": [
+      {
+        "title": "Search Features",
+        "desc": "<a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a> can connect to an unlimited number of sources including local, county, state, federal, Homeland Security, and participating agencies. Users can search as many or as few databases, with simple keywords or advanced search options.",
+        "list": [
+          "Local and remote sources",
+          "Advanced filtering and Boolean search",
+          "Interagency search (participating agencies)",
+          "Multiple data types/object search",
+          "Wildcard search"
+        ],
+        "img": "gsb-1.jpg"
+      },
+      {
+        "title": "Search Results",
+        "desc": "Search results are grouped by local/remote, source, database, and object. The number of results for each object is clearly identified, allowing users to focus on the information to move their investigations forward.",
+        "list": [
+          "Agency-specific search results",
+          "Object-specific search results",
+          "Cross-object search results",
+          "Permission-based search results"
+        ],
+        "img": "gsb-2.jpg"
+      },
+      {
+        "title": "Narrow Search Results",
+        "desc": "Drill-down filtering allows users to refine search results at a more granular level. Users can use specific keywords to narrow down search results in order to find the desired information.",
+        "list": [
+          "Drill-down filtering with keywords",
+          "Full text and keyword search",
+          "Report preview and author details on hover"
+        ],
+        "img": "gsb-3.jpg"
+      },
+      {
+        "title": "Advanced Search",
+        "desc": "Access advanced search functions to narrow the search scope with Boolean operators (AND, OR, and NOT), date ranges, and structured person search incorporating unique identifiers.",
+        "list": [
+          "Boolean search",
+          "Date range search",
+          "Structured person search"
+        ],
+        "img": "gsb-4.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Fusion Center (iLog)",
+        "icon": "icon-fusion_center_solid",
+        "link": "crime-intelligence/fusion-center"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "crime-intelligence/analytics"
+      },
+      {
+        "title": "SAR",
+        "icon": "icon-sars_solid",
+        "link": "crime-intelligence/sar"
+      }
+    ],
+    "quote": {
+      "content": "Vincit Omnia Veritas"
+    }
+  },
+  {
+    "id": "major-incident-management",
+    "title": "Major Incident Management",
+    "subtitle": "Interagency Collaboration for Complex Investigations",
+    "icon": "mim.svg",
+    "coverImg": "mim.jpg",
+    "brochure": "",
+    "descHeading": "Facilitate major incident investigations involving multiple operations, jurisdictions, and/or leads.",
+    "descContent": "Due to the nature of major incident operations, the command staff has to quickly bring together a body of law enforcement officers from a variety of agencies to manage investigative leads and tasks. There is no time to hesitate, no time for training, and even less time for miscommunication. This module is designed for quick response in these types of emergencies.",
+    "sysFeatures": [
+      {
+        "title": "Complex Investigations",
+        "desc": "Complete personnel management and tracking tool to facilitate an organized approach to major incident investigations in one uniform application. Establish a clear chain of command and work collaboratively with agencies (within or across jurisdictions) towards common objectives.",
+        "list": [
+          "Multi-jurisdiction staff assignment ",
+          "Investigation module integration ",
+          "Intelligence module integration ",
+          "Incident & event timeline"
+        ],
+        "img": "mim-1.jpg"
+      },
+      {
+        "title": "Preloaded Operation Type",
+        "desc": "The command staff can simply select specific operation types for preloaded leads and workflow. Moreover, the module allows system administrators to change support files to add, edit, or remove preloaded information.",
+        "list": [
+          "Terrorist incident ",
+          "Mass casualty incident ",
+          "Major incident investigations ",
+          "Crime spree investigation ",
+          "Task force management"
+        ],
+        "img": "mim-2.jpg"
+      },
+      {
+        "title": "Lead Management",
+        "desc": "Enhance multiple lead investigations across agencies and jurisdictions with lead tracking, assignment, prioritization, and linking. Link analysis visually maps the relationships between leads.",
+        "list": [
+          "Color-coded lead assignment ",
+          "Crime mapping ",
+          "Link analysis ",
+          "Canned statistical reports ",
+          "Ad hoc reporting"
+        ],
+        "img": "mim-3.jpg"
+      },
+      {
+        "title": "Security",
+        "desc": "Law enforcement, prosecutor offices, and other agencies can share the same operation whilst keeping sensitive data secure and separated. Flexible workgroup access permissions ensure data privacy.",
+        "list": [
+          "Supervisor ",
+          "Legal Advisor ",
+          "Investigator ",
+          "Read-only access ",
+          "Entry-only access"
+        ],
+        "img": "mim-4.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "County Prosecution",
+        "icon": "icon-prosecution_solid",
+        "link": "justice-courts/county-prosecution"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "crime-intelligence/analytics"
+      },
+      {
+        "title": "Crime Scene Investigation",
+        "icon": "icon-csi_solid",
+        "link": "crime-intelligence/csi"
+      }
+    ],
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "high-tech-crime",
+    "title": "High-Tech Crime",
+    "subtitle": "coming soon...",
+    "icon": "hacker.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "csi",
+    "title": "Crime Scene Investigation",
+    "subtitle": "Rolmes™ Revolutionizes Crime Scene Investigations",
+    "icon": "csi.svg",
+    "coverImg": "csi.jpg",
+    "brochure": "",
+    "descHeading": "Integrate crime scene findings with criminal case management",
+    "descContent": "Named after the master detective Sherlock Holmes, Rolmes™ short for Robotic Holmes is an innovative integration of hardware, software, and robotic technology to modernize crime scene investigations. It is accessible on scene and guarantees accurate evidence and data collection, providing a knowledge base for crime scene processing and offering crime scene technicians tools that meet the highest standards for identifying, processing, and collecting evidence. Rolmes™ was conceived in collaboration with world-renowned forensic scientist, Dr. Henry Lee.",
+    "sysFeatures": [
+      {
+        "title": "Physical Evidence Record Collection",
+        "desc": "Maintain an ongoing repository of crime scene data linked to cases and chain of custody, keeping all data organized and updated for quick access.",
+        "list": [
+          "Data collection",
+          "Evidence log",
+          "Evidence management",
+          "Case management"
+        ],
+        "img": "csi-1.jpg"
+      },
+      {
+        "title": "Crime Scene Data Recording",
+        "desc": "Collect photo and video evidence from built-in cameras or digital cameras, with tagging functions and deleted items recovery. In addition, log information and contacts can be recorded and linked to evidence along with related sub-evidence items.",
+        "list": [
+          "Photograph management",
+          "Video management",
+          "Contact information management",
+          "Log information",
+          "Relationships of elements"
+        ],
+        "img": "csi-2.jpg"
+      },
+      {
+        "title": "Information Sharing",
+        "desc": "Real-time synchronization of crime scene data with the criminal case management system enables authorized staff to immediately access the data. With offline mode, evidence collected during offline period can be synchronized to the server when the user is back online.",
+        "list": [
+          "Offline mode",
+          "Data synchronization mechanism",
+          "Expert real-time collaboration",
+          "Information searching"
+        ],
+        "img": "csi-3.jpg"
+      },
+      {
+        "title": "Hardware Integration & Evidence Process",
+        "desc": "With hardware integration, users can generate barcode labels of evidence, print them with a barcode printer, and mail the evidence receipts together with digital signatures. Besides, Crime Scene Log reports and PPT reports can be generated with a single click.",
+        "list": [
+          "Hardware integration",
+          "Barcode label",
+          "Digital evidence receipt",
+          "Report generator"
+        ],
+        "img": "csi-4.jpg"
+      },
+      {
+        "title": "SOP Checklist & Knowledge Base",
+        "desc": "Investigate crime in an effective, efficient manner with embedded SOPs to eliminate problems resulting from inadmissible evidence or failure in gathering evidence. Rolmes™ builds a knowledge base to facilitate crime analysis and intelligence gathering.",
+        "list": [
+          "SOP checklist",
+          "Knowledge base",
+          "Crime scene investigation procedures",
+          "Keyword search"
+        ],
+        "img": "csi-5.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      },
+      {
+        "title": "Mobile Operations",
+        "icon": "icon-mobile_data_terminal_solid",
+        "link": "public-safety/mobile-operations"
+      },
+      {
+        "title": "Evidence",
+        "icon": "icon-evidence_solid",
+        "link": "public-safety/evidence"
+      },
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      }
+    ],
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
+    "id": "interfaces",
+    "title": "Interfaces",
+    "subtitle": "coming soon...",
+    "icon": "interfaces.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  }
+]

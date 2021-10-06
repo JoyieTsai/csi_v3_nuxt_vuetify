@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>duotone/unit_support</title>
+    <g id="duotone/unit_support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M78,42 L78,78 L42,78 L42,42 L78,42 Z M74.5,45.5 L45.5,45.5 L45.5,74.5 L74.5,74.5 L74.5,45.5 Z M66,54 L66,66 L54,66 L54,54 L66,54 Z" id="Shape" fill="#0D63BA" fill-rule="nonzero"></path>
+        <polygon id="Line-10" fill="#0D63BA" fill-rule="nonzero" points="43 13 43 27 39 27 39 13"></polygon>
+        <polygon id="Line-10-Copy-8" fill="#0D63BA" fill-rule="nonzero" points="27 78 27 82 13 82 13 78"></polygon>
+        <polygon id="Line-10-Copy-4" fill="#0D63BA" fill-rule="nonzero" points="43 93 43 107 39 107 39 93"></polygon>
+        <polygon id="Line-10-Copy-9" fill="#0D63BA" fill-rule="nonzero" points="107 78 107 82 93 82 93 78"></polygon>
+        <polygon id="Line-10-Copy" fill="#0D63BA" fill-rule="nonzero" points="83 13 83 27 79 27 79 13"></polygon>
+        <polygon id="Line-10-Copy-10" fill="#0D63BA" fill-rule="nonzero" points="27 38 27 42 13 42 13 38"></polygon>
+        <polygon id="Line-10-Copy-5" fill="#0D63BA" fill-rule="nonzero" points="83 93 83 107 79 107 79 93"></polygon>
+        <polygon id="Line-10-Copy-11" fill="#0D63BA" fill-rule="nonzero" points="107 38 107 42 93 42 93 38"></polygon>
+        <polygon id="Line-10-Copy-2" fill="#0D63BA" fill-rule="nonzero" points="70 13 70 27 66 27 66 13"></polygon>
+        <polygon id="Line-10-Copy-12" fill="#0D63BA" fill-rule="nonzero" points="27 51 27 55 13 55 13 51"></polygon>
+        <polygon id="Line-10-Copy-6" fill="#0D63BA" fill-rule="nonzero" points="70 93 70 107 66 107 66 93"></polygon>
+        <polygon id="Line-10-Copy-13" fill="#0D63BA" fill-rule="nonzero" points="107 51 107 55 93 55 93 51"></polygon>
+        <polygon id="Line-10-Copy-3" fill="#0D63BA" fill-rule="nonzero" points="56 13 56 27 52 27 52 13"></polygon>
+        <polygon id="Line-10-Copy-14" fill="#0D63BA" fill-rule="nonzero" points="27 65 27 69 13 69 13 65"></polygon>
+        <polygon id="Line-10-Copy-7" fill="#0D63BA" fill-rule="nonzero" points="56 93 56 107 52 107 52 93"></polygon>
+        <polygon id="Line-10-Copy-15" fill="#0D63BA" fill-rule="nonzero" points="107 65 107 69 93 69 93 65"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.298155285" points="93 27 93 93 27 93 27 27"></polygon>
+    </g>
+</svg>

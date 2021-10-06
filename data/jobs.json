@@ -1,0 +1,153 @@
+[
+    {
+        "id": 1,
+        "position": "Software Engineer ",
+        "location": "Keasbey, NJ",
+        "functions": [
+            {
+                "title": "Objectives",
+                "content": [
+                    "Understand company and client challenges and how integrating Low-Code Development Platform capabilities can help create solutions.",
+                    "Assist cross-functional teams to identify and prioritize key areas of the partner’s business where A Low-Code Development Platform and Big Data solutions can drive significant business benefit.",
+                    "Analyze and explain Low-Code Development Platform and Big Data solutions while setting and maintaining high ethical standards."
+                ]
+            },
+            {
+                "title": "Responsibilities",
+                "content": [
+                    "Work on functional design, process design (including scenario design, flow mapping), prototyping, testing, training, and defining support procedures, working with an advanced engineering team and executive leadership.",
+                    "Document and articulate solution architecture and lessons learned for each exploration and accelerated incubation.",
+                    "Customize and manage integration tools, databases, and analytical systems.",
+                    "Manage and structure data.",
+                    "Serve as liaison between management and project teams, delivering feedback and enabling them to make necessary changes to product performance or presentation."
+                ]
+            },
+            {
+                "title": "Required Skills and Qualifications",
+                "content": [
+                    "Solid skill on MS SQL.",
+                    "Knowledge of basic algorithms, object-oriented and functional design principles, and best practice patterns.",
+                    "Experience in following web development languages is a plus: C#, JavaScript, HTML, DHTML, XML, etc.",
+                    "Experience with program leadership, governance, and change enablement is a plus.",
+                    "Strong interests in project management skills.",
+                    "Good communication skills.",
+                    "Ability to solve complex networking, data, and software issues."
+                ]
+            },
+            {
+                "title": "Preferred Qualifications",
+                "content": [
+                    "Bachelor or MS’s degree in MIS or Computer Science preferred.",
+                    "Experience with Cloud environments."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "position": "Assistant Account Manager ",
+        "location": "Keasbey, NJ",
+        "functions": [
+            {
+                "title": "Objectives",
+                "content": [
+                    "We are looking for a passionate <b>Assistant Account Manager</b> to join our team and help all types of public sector agencies with our complete technology solutions to revolutionize their workflow and document management and increase services, public safety, and efficiency.",
+                    "You will be ensuring that our clients launch InfoShare™ product successfully, adopt it widely, and are continually driving business value from our total solutions. This role is perfect for a mission-driven person who is great at creative problem solving and building authentic relationships with clients."
+                ]
+            },
+            {
+                "title": "Responsibilities",
+                "content": [
+                    "Develop knowledge of CSI’s public safety products and services to gain a thorough understanding as they relate to targeted audiences.",
+                    "Consult with clients on business processes and software modifications.",
+                    "Document and advise clients on best practices.",
+                    "Develop and execute plans to increase client software usage and increase efficiencies for assigned client accounts.",
+                    "Promote client satisfaction and loyalty by demonstrating an understanding of their critical business issues and delivering services that help meet their business objectives.",
+                    "Assist in follow-up items discovered during onsite visits by Account Manager and/or Client Executive.",
+                    "Participate and/or lead on-site visits/meetings with assigned clients.",
+                    "Participate in team meetings regarding departmental status, procedures, action items, and goals.",
+                    "Assist Account Manager to successfully build relationships with prospective clients to sell products and services.",
+                    "Travel to customer locations and applicable trade shows or on-site demonstrations.",
+                    "Assist Account Manager in managing the sales cycle to respond/act in a timely manner.",
+                    "Assist with preparation of RFP responses and website articles."
+                ]
+            },
+            {
+                "title": "Required Skills and Qualifications",
+                "content": [
+                    "Superb structured and analytical thinking skills to break down problems, reason through uncertainty, and investigate root causes.",
+                    "Proficiency in using computers and exposure to IT infrastructure required components.",
+                    "Readiness to learn new product functions at lightning speed.",
+                    "Ability to communicate effectively with a wide range of technical and non-technical audiences.",
+                    "Demonstrated ability to work and solve client needs in a remote environment.",
+                    "Commitment to CSI’s core values and adoption of CSI’s processes and procedures.",
+                    "Flexibility in schedule in order to meet commitments and project deadlines.",
+                    "Ability to travel 50% of the time.",
+                    "Excellent interpersonal skills including verbal and written communication, teamwork, and customer service skills.",
+                    "Excellent planning, organizational skills, and ability to follow-through until process are completed."
+                ]
+            },
+            {
+                "title": "Preferred Qualifications",
+                "content": [
+                    "Bachelor or MS degree in Criminal Justice, Public Safety, Public Administration, or Business Management related domain.",
+                    "Have customer experience (customer service, program management, consulting or sales) that includes issue resolution and escalation management at both the business owner and executive levels.",
+                    "Previous public safety/law enforcement experience and/or working in IT company is a plus.",
+                    "Experience with software solution service/sales is a plus.",
+                    "Commuting time between your residency and CSI’s Keasbey office is within 45 minutes.",
+                    "Valid US driver license."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "position": "Associate Technology Support Specialist ",
+        "location": "Concord, New Hampshire / Remote & On-Site",
+        "functions": [
+            {
+                "title": "Objectives",
+                "content": [
+                    "We are looking for a passionate <b>Associate Technology Support Specialist</b> to join our team and help all types of public sector agencies <u>in New Hampshire area</u> with our complete technology solutions to revolutionize their workflow and document management and increase services, public safety, and efficiency.",
+                    "Provide basic-level software support for CSI clients in the use, functionality, and understanding of our products and databases for issues that are easily solved. The <b>Associate Technology Support Specialist</b> is an entry-level position, learning how to ensure timely resolution of client software issues through data analysis and functionality troubleshooting using multiple development tools, best practice communication, team coordinated testing, and other available tools for resolving issues. The <b>Associate Technology Support Specialist</b> is expected to continually grow and expand knowledge of the product.",
+                    "You will be ensuring that our clients launch InfoShare™ product successfully, adopt it widely, and are continually driving business value from our total solutions. This role is perfect for a mission-driven person who is great at creative problem solving and building authentic relationships with clients."
+                ]
+            },
+            {
+                "title": "Responsibilities",
+                "content": [
+                    "Serve as the first point of contact 24/7 for Infoshare customers seeking technical assistance over the phone or email.",
+                    "Provide Infoshare new user training.",
+                    "Perform remote troubleshooting through diagnostic techniques and pertinent questions.",
+                    "Provide the level 1 support of Microsoft windows server, network, and cloud services.",
+                    "Determine the best solution based on the issue and details provided by customers.",
+                    "Walk the customer through the problem-solving process.",
+                    "Direct unresolved issues to the next level of support personnel.",
+                    "Provide on-site hardware and software installation and support such as MDT and station support at fire houses or GPS and barcode scanners setup.",
+                    "Record events and problems and their resolution in the company’s internal management system.",
+                    "Follow-up and update customer status and information.",
+                    "Pass on any feedback or sales opportunities from customers to the management team.",
+                    "Identify and suggest possible improvements on procedures."
+                ]
+            },
+            {
+                "title": "Required Skills and Qualifications",
+                "content": [
+                    "Proven experience as a help desk technician or other customer support role.",
+                    "Tech savvy with working knowledge of office automation products, databases and remote control.",
+                    "Good understanding of computer systems, mobile devices and other tech products.",
+                    "Ability to diagnose and resolve basic technical issues.",
+                    "Proficiency in English.",
+                    "Excellent communication skills.",
+                    "Customer-oriented and cool-tempered."
+                ]
+            },
+            {
+                "title": "Preferred Qualifications",
+                "content": [
+                    "Bachelor in IT, Computer Science or relevant field."
+                ]
+            }
+        ]
+    }
+]

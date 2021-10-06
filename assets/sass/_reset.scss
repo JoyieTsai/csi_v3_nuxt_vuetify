@@ -1,0 +1,90 @@
+body {
+  font-family: $body-font-family;
+  font-size: $font-size-base;
+  color: $font-color-base;
+}
+
+:target {
+  padding-top: 65px;
+  margin-top: -65px;
+}
+
+button {
+  cursor: pointer;
+  &:focus {
+    outline: 0;
+  }
+}
+
+p {
+  margin-bottom: 0.85em;
+}
+
+a {
+  &:hover {
+    color: $primary-color;
+  }
+
+  &.text-white {
+    color: white;
+  }
+}
+
+.html5-video-player:not(.ytp-transparent),
+.html5-video-player.unstarted-mode,
+.html5-video-player.ad-showing,
+.html5-video-player.ended-mode,
+.html5-video-player.ytp-fullscreen {
+  background-color: #fff;
+}
+
+.layout {
+  margin-top: $navbar-height;
+}
+
+.v-application {
+  font-family: $body-font-family !important;
+}
+.ant-modal {
+  padding: 0;
+  color: $grey-dark-color;
+
+  &-body {
+    padding: 2rem 3rem;
+  }
+}
+
+.ant-tooltip-inner {
+  background-color: $white;
+  color: $dark-color;
+}
+
+.ant-tooltip-arrow::before {
+  background-color: $white;
+}
+
+.ant-collapse {
+  border: none;
+  background-color: $white;
+
+  & > .ant-collapse-item {
+    border-bottom-color: $primary-light-color;
+
+    & > .ant-collapse-header {
+      color: $primary-color;
+      font-size: $body-3-size;
+    }
+  }
+
+  .ant-collapse-content {
+    border-top: 1px solid $primary-light-color;
+  }
+}
+
+.ant-collapse-borderless > .ant-collapse-item {
+  border: 0;
+}
+
+.ant-collapse-content > .ant-collapse-content-box {
+  padding: 5px 0 0 40px;
+}

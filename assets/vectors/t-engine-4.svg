@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="286px" height="250px" viewBox="0 0 286 250" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>t-engine4</title>
+    <g id="Overall--Done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V6-Capabilities---Overview" transform="translate(-821.000000, -3542.000000)">
+            <g id="t-engine4" transform="translate(839.000000, 3542.000000)">
+                <path d="M124.84326,-8.66025404 L240.460695,58.0915031 L240.460695,191.595017 L124.84326,258.346774 L9.22582537,191.595017 L9.22582537,58.0915031 L124.84326,-8.66025404 Z" id="Polygon-Copy-13" stroke="#0B539D" stroke-width="15" fill="#FFFFFF" transform="translate(124.843260, 124.843260) rotate(90.000000) translate(-124.843260, -124.843260) "></path>
+                <text id="Engine-3.5" font-family="OpenSans-Semibold, Open Sans" font-size="36" font-weight="500" fill="#323232">
+                    <tspan x="69.2021484" y="119">Engine</tspan>
+                    <tspan x="102.00293" y="168">3.5</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

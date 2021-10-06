@@ -1,0 +1,110 @@
+<template>
+  <div class="main-container tw-m-auto">
+    <v-card flat :class="$vuetify.breakpoint.smAndDown ? 'tw-pa-0' : ''">
+      <v-tabs
+        v-model="tabIndex"
+        background-color="transparent"
+        fixed-tabs
+        :height="$vuetify.breakpoint.xsOnly ? 65 : 110"
+      >
+        <v-tab v-for="(item, i) in data" :key="i" class="tw-capabilities">
+          <div class="tw-flex tw-flex-col tw-items-center">
+            <span :class="['tabicon', item.icon]"></span>
+            <div
+              :class="[
+                $vuetify.breakpoint.mdAndDown ? 'body-text-1' : 'title',
+                'tw-my-3 tw-capitalize',
+              ]"
+            >
+              {{ item.title }}
+            </div>
+          </div>
+        </v-tab>
+      </v-tabs>
+
+      <v-tabs-items v-model="tabIndex">
+        <v-tab-item v-for="(item, j) in data" :key="j">
+          <div class="tw-my-8">
+            <v-row>
+              <v-col
+                xs="12"
+                sm="6"
+                cols="12"
+                class="tw-flex tw-items-center tw-justify-center"
+              >
+                <div
+                  :class="[
+                    $vuetify.breakpoint.mdAndDown ? 'tw-p-5' : 'tw-p-10',
+                    'tw-flex tw-flex-col body-text-2 tw-opacity-2',
+                  ]"
+                >
+                  <div class="display-1 tw-font-weight-medium">
+                    {{ item.title }}
+                  </div>
+                  <div class="border-primary tw-my-5"></div>
+                  <div
+                    :class="
+                      $vuetify.breakpoint.mdAndDown
+                        ? ''
+                        : 'tw-mr-10 tw-leading-normal'
+                    "
+                    v-html="item.desc"
+                  ></div>
+                </div>
+              </v-col>
+              <v-col xs="12" sm="6" cols="12">
+                <div class="img-shadow zoomin">
+                  <v-img
+                    :src="require('@/assets/images/capabilities/' + item.img)"
+                    :lazy-src="
+                      require('@/assets/images/capabilities/lazy/' + item.img)
+                    "
+                    :alt="item.title"
+                    aspect-ratio="1.5"
+                    center
+                    cover
+                    class="slow-zoom"
+                  ></v-img>
+                </div>
+              </v-col>
+            </v-row>
+          </div>
+        </v-tab-item>
+      </v-tabs-items>
+    </v-card>
+  </div>
+</template>
+
+<script>
+export default {
+  props: ['data'],
+  data: () => ({
+    tabIndex: 0,
+  }),
+}
+</script>
+
+<style lang="scss">
+.tabicon {
+  color: inherit;
+  font-size: 3rem;
+  @media only screen and (max-width: $breakpoints-sm) {
+    font-size: 2.2rem;
+  }
+}
+.h-capabilities {
+  height: 500px;
+  @media (max-width: $breakpoints-2xl) {
+    height: 450px;
+  }
+  @media (max-width: $breakpoints-xl) {
+    height: 375px;
+  }
+  @media (max-width: $breakpoints-md) {
+    height: 425px;
+  }
+  @media (max-width: $breakpoints-sm) {
+    height: 265px;
+  }
+}
+</style>

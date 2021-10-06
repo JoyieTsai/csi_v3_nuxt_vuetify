@@ -1,0 +1,65 @@
+.v-application {
+  overflow: hidden;
+}
+
+.main-container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+
+  @media (max-width: $breakpoints-xs - 1) {
+    max-width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  @media (min-width: $breakpoints-sm) {
+    max-width: 100%;
+  }
+  @media (min-width: $breakpoints-md) {
+    max-width: $breakpoints-md;
+  }
+  @media (min-width: $breakpoints-lg) {
+    max-width: $breakpoints-lg;
+  }
+  @media (min-width: $breakpoints-xl) {
+    max-width: $breakpoints-xl;
+  }
+  @media (min-width: $breakpoints-2xl) {
+    max-width: 1635px;
+  }
+}
+
+.hero {
+  &-section {
+    height: $hero-xl;
+    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    &.lg {
+      height: $hero-lg;
+      background-position: center;
+      background-size: cover;
+    }
+    &.md {
+      height: $hero-md;
+      align-items: flex-end;
+    }
+    &.sm {
+      height: $hero-sm;
+    }
+  }
+}
+
+.terms {
+  &-body {
+    .header-5 {
+      margin-bottom: 0.8rem;
+      font-weight: bold;
+    }
+    li {
+      margin-bottom: 0.8rem;
+    }
+  }
+}

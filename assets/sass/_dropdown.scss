@@ -1,0 +1,13 @@
+.ant-dropdown {
+    position: fixed;
+}
+
+.ant-dropdown-link,.ant-btn-link {
+    font-size: $body-3-size;
+    color: $font-color-base;
+    
+    &:hover {
+        color: $primary-light-color;
+    }
+}
+

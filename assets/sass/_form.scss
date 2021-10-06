@@ -1,0 +1,103 @@
+.ant-input {
+  font-size: 16px;
+  height: 44px;
+  padding: 4px 10px;
+  border-radius: 3px;
+  color: $dark-color;
+
+  &.lined {
+    border-radius: 0;
+    border-bottom: 1px solid $grey-color;
+    background-color: transparent;
+  }
+
+  &.bg-light {
+    background-color: #eaf1f9;
+    border-color: #eaf1f9;
+  }
+}
+
+.ant-input-search {
+  .ant-input-group .ant-input {
+    font-size: $body-3-size;
+    border-radius: 0;
+    border-width: 0;
+    border-bottom: 1px solid rgba($grey-color, 0.5);
+    background-color: transparent;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+  .ant-input-group-addon {
+    background-color: transparent;
+    .ant-btn-primary {
+      background-color: transparent;
+      border-color: transparent;
+      text-shadow: none;
+      box-shadow: none;
+      i {
+        font-size: 24px;
+        color: $primary-light-color;
+      }
+    }
+  }
+  &.dark {
+    ::placeholder {
+      /* Chrome, Firefox, Opera, Safari 10.1+ */
+      color: #fff;
+      opacity: 0.5; /* Firefox */
+    }
+
+    .ant-input-group .ant-input {
+      border-bottom: 1px solid rgba($white, 0.5);
+      color: $white;
+    }
+    .ant-input-group-addon {
+      .ant-btn-primary {
+        background-color: $primary-light-color;
+        border-color: $primary-light-color;
+        i {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+.ant-radio-button-wrapper {
+  min-width: 80px;
+  margin-right: 1rem;
+  margin-top: 1rem;
+
+  &:first-child,
+  &:last-child {
+    border-radius: 0;
+  }
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.ant-radio-group-solid
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background: $primary-color;
+  border-color: $primary-color;
+}
+
+.ant-radio-group-solid
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled):hover {
+  background: $primary-light-color;
+  border-color: $primary-light-color;
+}
+
+.input-light {
+  .v-input__slot, .v-text-field__slot {
+    background-color: #eaf1f9 !important;
+  }
+}
+
+.v-input__slot, .v-text-field__slot {
+  box-shadow: none !important;
+}

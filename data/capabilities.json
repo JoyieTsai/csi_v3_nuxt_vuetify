@@ -1,0 +1,488 @@
+[
+  {
+    "id": "data-sharing",
+    "title": "Data Sharing",
+    "subtitle": "coming soon...",
+    "icon": "data_share.svg",
+    "coverImg": "data-sharing.jpg",
+    "descHeading": "",
+    "descContent": ""
+  },
+  {
+    "id": "data-migration",
+    "title": "Data Migration",
+    "subtitle": "Comprehensive, Structured Data Conversion Services",
+    "icon": "data_migration.svg",
+    "coverImg": "data-migration.jpg",
+    "descHeading": "Fully searchable, cleansed, condensed, and standardized legacy data",
+    "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. There’s no need to access a separate database or system to find the legacy data. Everything is unified under one database and platform. Over the years, we have used our systematic method to successfully convert legacy data for more than thirty different systems.",
+    "diagram": {
+      "img": "data_migration.jpg",
+      "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare™, a unique person exists a single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Migration Content",
+          "Data Applicability",
+          "Data Integrity",
+          "Structure",
+          "Duplicate Entries",
+          "Conversion",
+          "Accessibility",
+          "Stability"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "Typical Data Migration",
+        "content": [
+          "Limited to case, person involved and note",
+          "Legacy data incompatible with the new system",
+          "Lack of data integrity",
+          "Separated system and/or database to host legacy data",
+          "Common",
+          "Limited vendors only",
+          "Lack of integration Special function to access legacy data only",
+          "One-time work No consistent method"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "High Quality Data Migration",
+        "content": [
+          "Master concept data, case, case-related data, evidence, document",
+          "Legacy data appears as it was entered directly in the new system",
+          "Data is cleansed and normalized",
+          "One database, one system",
+          "None",
+          "Various vendors",
+          "Full integration Legacy data is searchable along with new data",
+          "Time-tested systematic approach"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "master_name_index.svg",
+        "title": "Single Master Index"
+      },
+      {
+        "icon": "modules_package.svg",
+        "title": "Maximum Use of Legacy Data"
+      },
+      {
+        "icon": "empowerment.svg",
+        "title": "Data Integrity"
+      },
+      {
+        "icon": "enterprise_application.svg",
+        "title": "Data Continuity"
+      },
+      {
+        "icon": "online_trans.svg",
+        "title": "One System Access"
+      },
+      {
+        "icon": "sars.svg",
+        "title": "Fully Searchable Legacy Data"
+      }
+    ],
+    "relatedCapabilities": [
+      {
+        "title": "Data Analytics",
+        "desc": "Transforming data and analysis into actionable insights",
+        "icon": "icon-analytics_solid",
+        "link": "data-analytics"
+      },
+      {
+        "title": "Data Mapping",
+        "desc": "Visualizing data to reveal relationships, trends, and patterns",
+        "icon": "icon-mapping_solid",
+        "link": "data-mapping"
+      },
+      {
+        "title": "Data Sharing",
+        "desc": "Break down information silos to promote interagency collaboration",
+        "icon": "icon-data_share_solid",
+        "link": "data-sharing"
+      }
+    ]
+  },  
+  {
+    "id": "data-analytics",
+    "title": "Data Analytics",
+    "subtitle": "coming soon...",
+    "icon": "analytics.svg",
+    "coverImg": "",
+    "descHeading": "",
+    "descContent": ""
+  },
+  {
+    "id": "data-mapping",
+    "title": "Data Mapping",
+    "subtitle": "coming soon...",
+    "icon": "mapping.svg",
+    "coverImg": "data-mapping.jpg",
+    "descHeading": "",
+    "descContent": ""
+  },
+  {
+    "id": "cloud-integration",
+    "title": "Cloud Integration",
+    "subtitle": "coming soon...",
+    "icon": "cloud_integration.svg",
+    "coverImg": "cloud-integration.jpg",
+    "descHeading": "",
+    "descContent": ""
+  },
+  {
+    "id": "low-code-development",
+    "title": "Low Code Development",
+    "subtitle": "Proprietary low-code technology to facilitate application development",
+    "icon": "lowcode.svg",
+    "coverImg": "low-code.jpg",
+    "descHeading": "Rapid application development with high customization and quick deployment",
+    "descContent": "U.S. Patent 10,649,743 B2 entitled \"Application Developing Method and System\" was designed to facilitate and streamline application development for government agencies and beyond. With a low-code development solution, users don't need any expertise in programming or software architecture. The patent removes complexity from building modern applications that can be easily and quickly adapted to fulfill each agency’s missions and requirements.",
+    "diagram": {
+      "img": "low-code.jpg",
+      "desc": "A low-code development platform enables developers—and anyone with simple database knowledge—to create applications with minimal coding, exponentially accelerating the development lifecycle. This frees up significant time to focus on responsibilities that really matter. Traditional coding is complex, time-consuming, and not to mention, expensive. In the long run, CSI's low-code proprietary technology significantly lowers training, deployment, modification, and maintenance costs."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Cost",
+          "Expertise",
+          "Implementation",
+          "Customization",
+          "Adaptability",
+          "Testing",
+          "Maintenance",
+          "Deployment"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "Traditional Coding",
+        "content": [
+          "High cost",
+          "Programming knowledge required",
+          "Developers spend a lot of time coding the application",
+          "Changes are restricted by the underlying software architecture",
+          "Difficult to change the system when requirements change",
+          "Lengthy testing periods Prone to testing delays",
+          "Expensive to support Requires additional development",
+          "Slow and complex Multiple steps required"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Low Code Development",
+        "content": [
+          "Low cost",
+          "Simple database knowledge sufficient",
+          "Reduced coding period allows developers to focus on high-level activities",
+          "Change database table fields to update the application",
+          "Easy to change the system when requirements change",
+          "Live debugging Automated unit testing",
+          "Easy to update and extend",
+          "One-touch deployment"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "quick_deployment.svg",
+        "title": "Quick Setup and Deployment"
+      },
+      {
+        "icon": "cost_reduce.svg",
+        "title": "Lower Costs"
+      },
+      {
+        "icon": "reduce_complexity.svg",
+        "title": "Reduced Complexity"
+      },
+      {
+        "icon": "increase_agility.svg",
+        "title": "Increased Agility & Flexibility"
+      },
+      {
+        "icon": "customization.svg",
+        "title": "High Customization"
+      },
+      {
+        "icon": "limited_expertise.svg",
+        "title": "Limited Expertise Necessary"
+      }
+    ],
+    "steps": {
+      "clip": "infoshare-engine_clip.gif",
+      "desc": "Simple application development keeps admin teams small, agile, and focused on higher-level, value-adding activities. ",
+      "items": [
+        {
+          "title": "Define Requirement",
+          "body": "The development lifecycle starts with defining the requirements for the application. Even if the requirements change, a low code development platform allows users to quickly and easily update the system."
+        },
+        {
+          "title": "Copy Application",
+          "body": "Find an optimal application template from the database and copy it as the base application. Each base application is an actual working application with various functions and pages."
+        },
+        {
+          "title": "Modify Application",
+          "body": "Configure the application by simply changing database table fields. The application further supports automated unit testing and a debugging mode that guides users through application logic errors. Quickly develop a working prototype that can be improved with each iteration."
+        }
+      ]
+    },
+    "relatedCapabilities": [
+      {
+        "title": "InfoShare Engine®",
+        "desc": "Low Code Development Platform for Government ERP Application",
+        "icon": "icon-engine_solid",
+        "link": "infoShare-engine"
+      },
+      {
+        "title": "Vertical Integration",
+        "desc": "From public safety to municipal services to judiciary and regulatory agencies",
+        "icon": "icon-total_solution_solid",
+        "link": "vertical-integration"
+      },
+      {
+        "title": "Cloud Integration",
+        "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
+        "icon": "icon-cloud_integration_solid",
+        "link": "cloud-integration"
+      }
+    ]
+  },
+  {
+    "id": "vertical-integration",
+    "title": "Vertical Integration",
+    "subtitle": "coming soon...",
+    "icon": "vertical_integration.svg",
+    "coverImg": "vertical-integration.jpg",
+    "descHeading": "",
+    "descContent": ""
+  },
+  {
+    "id": "infoShare-engine",
+    "title": "InfoShare Engine®",
+    "subtitle": "Low Code Development Platform for Government ERP Application",
+    "icon": "engine.svg",
+    "coverImg": "infoshare-engine.jpg",
+    "descHeading": "Patented total solution software architecture for maximum integration",
+    "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare™ Engine benefit from seamless integration, scalability, and adaptability. ",
+    "diagram": {
+      "img": "infoshare-engine.jpg",
+      "desc": "InfoShare Engine® is a <span class='primary-link'>low code development</span> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Cost",
+          "Scalability",
+          "Integration",
+          "Adaptability",
+          "Cross-Platform",
+          "Delays",
+          "Security",
+          "Permission"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "Individual Applications",
+        "content": [
+          "High cost",
+          "Low scalability",
+          "Require additional resources to provide integration",
+          "Customization is time-consuming and requires traditional coding",
+          "Build apps only for specific platforms and devices",
+          "Frequent",
+          "Coding required for security fixes and applied",
+          "Complex Permissions settings need to be individually set up"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Single Development Platform",
+        "content": [
+          "Low cost",
+          "Single, regional, or multi-jurisdictional",
+          "Seamless vertical integration across all product lines",
+          "Quickly adapt to changes in requirements or needs",
+          "Build apps that can be run on all core platforms and devices",
+          "Minimal",
+          "Patch or security upgrades applied to all applications",
+          "Simple Flexible permissions settings at different levels"
+        ]
+      }
+    ],
+    "features": {
+      "title": "Single Development Platform",
+      "subtitle": "9 PRINCIPLES OF THE INFOSHARE ENGINE®",
+      "desc": "All CSI applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies. The following nine principles guide our application development to ensure we’re delivering the maximum value to our clients.",
+      "items": [
+        {
+          "icon": "icon-lowcode_outline",
+          "title": "Low Code Development"
+        },
+        {
+          "icon": "icon-cost_reduce_outline",
+          "title": "High Speed, Low Cost"
+        },
+        {
+          "icon": "icon-cloud_integration_outline",
+          "title": "Maximum Integration"
+        },
+        {
+          "icon": "icon-mobile_operations_outline",
+          "title": "Cross-Platform"
+        },
+        {
+          "icon": "icon-cloud_hosting_outline",
+          "title": "Cloud Compatibility"
+        },
+        {
+          "icon": "icon-relationship_outline",
+          "title": "Client Collaboration"
+        },
+        {
+          "icon": "icon-security_force_outline",
+          "title": "Robust Security"
+        },
+        {
+          "icon": "icon-components_outline",
+          "title": "Agility & Flexibility"
+        },
+        {
+          "icon": "icon-empowerment_outline",
+          "title": "Empowerment"
+        }
+      ]
+    },
+    "relatedCapabilities": [
+      {
+        "title": "Vertical Integration",
+        "desc": "From public safety to municipal services to judiciary and regulatory agencies",
+        "icon": "icon-total_solution_solid",
+        "link": "vertical-integration"
+      },
+      {
+        "title": "Low Code Development",
+        "desc": "Proprietary low-code technology to facilitate application development",
+        "icon": "icon-lowcode_solid",
+        "link": "low-code"
+      },
+      {
+        "title": "Cloud Integration",
+        "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
+        "icon": "icon-cloud_integration_solid",
+        "link": "cloud-integration"
+      }
+    ]
+  },
+  {
+    "id": "security",
+    "title": "Security",
+    "subtitle": "Robust data encryption, permission, and protection",
+    "icon": "permission_security.svg",
+    "coverImg": "security.jpg",
+    "descHeading": "Integrated security methodology compliant with industry security standards",
+    "descContent": "CSI’s security policy ensures continuity of criminal justice information protection, from creation through dissemination, at rest or in transit and passes the stringent third-party penetration test. Integrated GovCloud security features are fully compliant with CJIS (Criminal Justice Information Services), FIPS (Federal Information Processing Standards), IRS Safeguards Audit, and other government security standards.",
+    "diagram": {
+      "img": "security.jpg",
+      "desc": "Effective security methodology eliminates security risks and vulnerabilities defined in Open Web Application Security Project (OWASP) Top 10 to ensure that sensitive criminal justice information is fully protected. Traditional applications lack robust security controls and are vulnerable to SQL injection, XSS, and other attacks. With integrated government cloud security features and strict authority control, CSI’s security mechanism is fully compliant with CJIS rules, FIPS, IRS Safeguards Audit Requirements, and other national security requirements."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Security Mechanism",
+          "Data Protection",
+          "Authority Control",
+          "Log and Audit",
+          "Testing",
+          "Media Protection"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "Traditional Security",
+        "content": [
+          "Vendor-specific security policies",
+          "Lack of protection, vulnerable to SQL injection, XSS, and other attacks/data breaches",
+          "Complex coding required to change roles and permission",
+          "Lack of system logs for security traceability",
+          "Security test may not be professional",
+          "Lack of permission control or security mechanism in storage"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Government-ready Security",
+        "content": [
+          "Integrated, secure ecosystem from GovCloud security services",
+          "Eliminate OWASP Top 10 security vulnerabilities Sensitive data is fully encrypted",
+          "Manage user roles and data access permission through InfoShare Engine®",
+          "Comprehensive system event/log for formal security audit",
+          "Professional security test and third-party penetration test passed",
+          "Strict permission control and safe storage location/cloud"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "data_storage.svg",
+        "title": "Strong Data Protection"
+      },
+      {
+        "icon": "benefits.svg",
+        "title": "Highly Customized Authority Control"
+      },
+      {
+        "icon": "compliance.svg",
+        "title": "Comprehensive Security Log"
+      },
+      {
+        "icon": "data_integration.svg",
+        "title": "Cloud Security Service Integration"
+      },
+      {
+        "icon": "workflow.svg",
+        "title": "Complete Testing Process"
+      },
+      {
+        "icon": "defense.svg",
+        "title": "Secure Media Protection"
+      }
+    ],
+    "relatedCapabilities": [
+      {
+        "title": "InfoShare Engine®",
+        "desc": "Low Code Development Platform for Government ERP Application",
+        "icon": "icon-engine_solid",
+        "link": "infoShare-engine"
+      },
+      {
+        "title": "Cloud Integration",
+        "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
+        "icon": "icon-cloud_integration_solid",
+        "link": "cloud-integration"
+      },
+      {
+        "title": "Data Sharing",
+        "desc": "Break down information silos to promote interagency collaboration",
+        "icon": "icon-data_share_solid",
+        "link": "data-sharing"
+      }
+    ]
+  }
+]
