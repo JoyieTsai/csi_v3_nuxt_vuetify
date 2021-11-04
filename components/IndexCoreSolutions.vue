@@ -32,7 +32,7 @@
               'tw-text-white tw-text-3xl md:tw-text-4xl lg:tw-text-5xl tw-leading-none',
             ]"
           ></v-icon>
-          <div class="body-text-2 tw-text-white tw-hidden md:tw-block">
+          <div class="tw-text-xl tw-text-white tw-hidden md:tw-block">
             {{ solution.title }}
           </div>
         </div>

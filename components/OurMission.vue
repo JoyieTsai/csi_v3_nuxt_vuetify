@@ -1,56 +1,83 @@
 <template>
   <div>
-    <div class="tw-flex tw-flex-col lg:tw-flex-row">
-      <div class="tw-flex-1 bg-mission"></div>
-      <div class="tw-flex-1 bg-blue-light">
+    <div
+      class="
+        bg-mission
+        tw-pt-6
+        md:tw-pt-12
+        xl:tw-pt-20
+        tw-pb-28
+        md:tw-pb-40
+        xl:tw-pb-48
+      "
+    >
+      <div class="lg:tw-w-3/5 tw-ml-16 md:tw-ml-36 xl:tw-ml-56 2xl:tw-ml-80">
+        <div class="tw-pt-16 header-2">{{ missions.title }}</div>
         <div
           class="
-            tw-mt-8 tw-mx-8
-            md:tw-mt-16 md:tw-mx-20
-            tw-mb-48
-            lg:tw-mb-56
-            md:tw-w-3/4
+            tw-text-2xl
+            sm:tw-text-3xl
+            xl:tw-text-4xl
+            2xl:tw-text-5xl
+            text-primary
           "
+          data-aos="fade-left"
+          data-aos-duration="1500"
         >
-          <div class="header-2">{{ data.title }}</div>
-          <div class="body-text-2">{{ data.desc }}</div>
+          {{ missions.desc }}
         </div>
       </div>
     </div>
-    <div class="main-container tw-mx-auto tw--mt-20">
-      <div class="tw-grid tw-grid-cols-2 md:tw-grid-cols-4 tw-gap-8">
+    <div class="tw-flex tw-flex-col xl:tw-flex-row">
+      <div
+        class="
+          xl:tw-flex-shrink-0 xl:tw-w-1/4
+          2xl:tw-w-1/3
+          tw-flex
+          xl:tw-justify-end
+        "
+      >
         <div
-          v-for="(item, index) in data.items"
-          :key="index"
           class="
-            tw-bg-white
-            tw-shadow-lg
-            tw-relative
-            tw-flex
-            tw-flex-col
-            tw-items-center
-            tw-justify-center
-            tw-rounded
-            tw-p-3
-            tw-mb-10
+            tw-mx-auto
+            xl:tw-mr-10
+            2xl:tw-mr-20
+            xl:tw-w-48
+            2xl:tw-w-52
+            tw-text-center
+            xl:tw-text-right xl:tw-pt-12
+            tw-pb-5
+            header-2
           "
         >
+          {{ benefits.title }}
+        </div>
+      </div>
+      <div
+        class="tw-grid tw-grid-cols-1 sm:tw-grid-cols-2"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
+        <div v-for="(item, index) in benefits.items" :key="index">
           <div
-            class="
-              hexagon-primary
-              tw-absolute
-              tw-text-white
-              tw-text-center
-              tw-text-6xl
-              tw--top-8
-              tw-transform
-              tw-scale-90
-              lg:tw-scale-100
-            "
+            :class="[
+              index == 0 ? 'bg-gradient-1' : 'bg-gradient-0',
+              index == 3 ? 'bg-gradient-2' : 'bg-gradient-0',
+              'tw-p-8 lg:tw-p-12 tw-h-full tw-text-white tw-relative zoomin tw-transform hover:tw--translate-y-1 hover:tw-scale-105 hover:tw-shadow-2xl',
+            ]"
           >
-            <i :class="item.icon"></i>
+            <span
+              :class="[item.icon, 'tw-text-5xl xl:tw-text-6xl text-highlight']"
+            ></span>
+            <div class="tw-text-2xl xl:tw-text-2.5xl tw-font-semibold tw-my-2">
+              {{ item.title }}
+            </div>
+            <div
+              class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-leading-sung"
+            >
+              {{ item.desc }}
+            </div>
           </div>
-          <div class="title tw-my-5 md:tw-my-10">{{ item.title }}</div>
         </div>
       </div>
     </div>
@@ -59,7 +86,7 @@
 
 <script>
 export default {
-  props: ['data'],
+  props: ['missions', 'benefits'],
   data: () => ({}),
 }
 </script>

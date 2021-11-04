@@ -24,9 +24,9 @@
     "sysFeatures": [
       {
         "title": "Case Intake & Data Management",
-        "desc": "Efficient case intake and organization of investigation information such as incident, location, investigation case type, suspect, police officer, organization, event, staff assignment, and disposition. Submodules contain crime-specific fields to assist investigative staff with a special type of investigation.",
+        "desc": "Efficient case intake and organization of investigation information such as incident, location, investigation case type, suspect, police officer, organization, event, staff assignment, and disposition. Submodules contain crime-specific fields to assist investigative staff with special investigations.",
         "list": [
-          "Auto search Master Index database",
+          "Auto-search Master Index database",
           "Customized special investigation submodules",
           "Configurable support files and business rules",
           "Flexible region-, role-, or case-based permission settings",
@@ -70,8 +70,8 @@
         "img": "investigation-4.jpg"
       },
       {
-        "title": "Investigative Analytics tools",
-        "desc": "Analytics tools leverage data for investigative insights, enabling users to run multidimensional crime analysis and advanced queries across disparate datasets. Users can visualize crime trends and the relationships between people, vehicles, organizations, and more.",
+        "title": "Investigative Analytics Tools",
+        "desc": "<a class='primary-link' href='/capabilities/data-analytics'>Analytics</a> tools leverage data for investigative insights, enabling users to run multidimensional crime analysis and advanced queries across disparate datasets. Users can visualize crime trends and the relationships between people, vehicles, organizations, and more.",
         "list": [
           "Crime mapping",
           "Link analysis",
@@ -97,11 +97,11 @@
           "name": "Burglary"
         },
         {
-          "icon": "icon-computer_crime_outline",
+          "icon": "icon-hacker_outline",
           "name": "Computer Crime"
         },
         {
-          "icon": "icon-crime_against_children_outline",
+          "icon": "icon-crime_children_outline",
           "name": "Crime Against Children"
         },
         {
@@ -177,14 +177,14 @@
     "highlightVideo": "Intelligence_highlight.mp4",
     "highlightImg": "Intelligence_thumb.jpg",
     "highlights": [
-      "Gather, organize, and analyze intelligence data in a 28 CFR Part 23 compliant application.",
-      "Exchange and disseminate information across agencies.",
-      "Powerful search capabilities and permission-based settings.",
-      "Interactive graph of new intelligence reports in the dashboard.",
-      "Complete integration with other InfoShare™ applications to receive Push-to-Intelligence feature."
+      "Gather, organize, and analyze intelligence data in a 28 CFR Part 23 compliant application",
+      "Exchange and disseminate information across agencies",
+      "Powerful search capabilities and permission-based settings",
+      "Interactive graph of new intelligence reports in the dashboard",
+      "Complete integration with other InfoShare™ applications to receive Push-to-Intelligence feature"
     ],
     "sysTitle": {
-      "title": "Spend less time creating intelligence reports, more time conducting investigations",
+      "title": "Intelligence analysis and reporting with efficiency and speed",
       "img": "intelligence.jpg"
     },
     "sysFeatures": [
@@ -203,42 +203,42 @@
       },
       {
         "title": "Intelligence Priorities",
-        "desc": "Intelligence Priority identifies information gaps that will provide tactical and strategic information related to criminal activity, disrupt criminal networks, and protect the homeland.",
+        "desc": "Identifie information gaps that will provide tactical and strategic information related to criminal activity, disrupt criminal networks, and protect the homeland.",
         "list": [
           "Configurable support files",
           "Intelligence gaps documentation",
           "Intelligence dissemination for collaboration and information exchange",
           "Criminal activity trend identification and analysis",
-          "Linked Reports"
+          "Linked reports"
         ],
         "img": "intelligence-2.jpg"
       },
       {
         "title": "Configurable Dashboard",
-        "desc": "The Dashboard displays intelligence reports, analytics, and provides interactive graphs of new reports. Administratively, view which members are creating reports and identify approved reports by week. Fully customizable to present data that is important to each agency.",
+        "desc": "Display intelligence reports, analytics, and provide interactive graphs of new reports. Administratively, view which members are creating reports and identify approved reports by week. Fully customizable to present data that is important to each agency.",
         "list": [
           "Agency-specific reports and analytics",
           "Multiple datasets and graphs displayed in one window",
-          "Interactive graph of new reports for visualizing activity",
-          "Expandable segments to explore data in detail",
-          "Multi-tab function to group analytical data"
+          "Interactive graph of new reports",
+          "Expandable segments",
+          "Multi-tab data grouping"
         ],
         "img": "intelligence-3.jpg"
       },
       {
-        "title": "Global Search",
-        "desc": "<a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a> searches state, county, local agencies, and participating InfoShare™ systems. Search results allow for sharing confidential information based on permission levels, and the search results themselves can be searched to find specific results.",
+        "title": "<a href='/crime-intelligence/global-search' class='title-link'>Global Search</a>",
+        "desc": "Search state, county, local agencies, and participating InfoShare™ systems. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
         "list": [
           "Advanced filtering and Boolean search",
-          "Interagency database search (participating agencies)",
+          "Inter-agency database search (participating agencies)",
           "Permission-based search results",
-          "Documents repository full text and keyword search",
-          "Interfaces with federal, state, and county Law Enforcement partners"
+          "Document repository full-text and keyword search",
+          "Interfaces with federal, state, and county law enforcement partners"
         ],
         "img": "intelligence-4.jpg"
       },
       {
-        "title": "ALPR Search",
+        "title": "<a href='/crime-intelligence/alpr' class='title-link'>ALPR</a> Search",
         "desc": "More and more agencies are seeing the value in leveraging ALPR technology to solve crimes, identify suspects, recover stolen vehicles, and create hot lists to assist in investigations. A clean interface allows users to quickly search the CSI ALPR Warehouse and return results.",
         "list": [
           "Investigative lead generation",
@@ -249,7 +249,7 @@
       },
       {
         "title": "Robust Search Capability",
-        "desc": "AdHoc search capability of cyber, criminal organization, person, person details, vehicle, location, phone, activity type, by source, and agency to name a few. Ability to search your Master Name Index against connected databases, and person search by criminal activity type.",
+        "desc": "Ad hoc search fields include cyber, criminal organization, person, person details, vehicle, location, phone, activity type, source, and agency to name a few. Search the Master Name Index against connected databases, and person search by criminal activity type.",
         "list": [
           "Customized canned reports",
           "Multiple field search",
@@ -305,21 +305,21 @@
         "list": [
           "Suspicious persons of interest, locations, and vehicles investigation",
           "Critical infrastructure and soft targets incident tracking",
-          "argeted population incident monitoring",
+          "Targeted population incident monitoring",
           "Identification, tracking, and search of extremist ideologies",
-          "Robust Ad Hoc search and Actionable Report generation"
+          "Robust ad hoc search and Actionable Report generation"
         ],
         "img": "sars-1.jpg"
       },
       {
-        "title": "Global Search",
-        "desc": "<a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a> searches state, county, local agencies, and participating InfoShare™ systems. Search results allow for sharing confidential information based on permission levels, and the search results themselves can be searched to find specific results.",
+        "title": "<a class='title-link' href='/crime-intelligence/global-search'>Global Search</a>",
+        "desc": "Search state, county, local agencies, and participating InfoShare™ systems. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
         "list": [
           "Advanced filtering and Boolean search",
-          "Interagency database search (participating agencies)",
+          "Inter-agency database search (participating agencies)",
           "Permission-based search results",
-          "Documents Repository full text and keyword search",
-          "Interfaces with federal, state, and county Law Enforcement partners"
+          "Document repository full-text and keyword search",
+          "Interfaces with federal, state, and county law enforcement partners"
         ],
         "img": "sars-2.jpg"
       },
@@ -370,7 +370,7 @@
   {
     "id": "fusion-center",
     "title": "Fusion Center (iLog)",
-    "subtitle": "Comprehensive toolkit for information sharing and intelligence production",
+    "subtitle": "Comprehensive Toolkit for Information Sharing and Intelligence Production",
     "icon": "fusion_center.svg",
     "coverImg": "fc_ilog.jpg",
     "brochure": "",
@@ -379,11 +379,11 @@
     "highlightVideo": "FC_highlight.mp4",
     "highlightImg": "FC_thumb.jpg",
     "highlights": [
-      "Maintain situational awareness of any type of incident.",
-      "Identify locations and infrastructure involved and assets deployed.",
-      "Incidents are easily pushed to InfoShare™ Intelligence for further analysis and investigation.",
-      "Control and document information sharing with the Dissemination feature.",
-      "Customizable levels of incident severity, security setting, and incident priority."
+      "Maintain situational awareness of any type of incident",
+      "Identify locations and infrastructure involved and assets deployed",
+      "Incidents are easily pushed to <a class='primary-link' href='/crime-intelligence/intelligence'>InfoShare™ Intelligence</a> for further analysis and investigation",
+      "Control and document information sharing with the Dissemination feature",
+      "Customizable levels of incident severity, security setting, and incident priority"
     ],
     "sysTitle": {
       "title": "All-inclusive fusion center suite for intelligence gathering, sharing, production, and policing",
@@ -429,10 +429,10 @@
       },
       {
         "title": "Push To Intelligence",
-        "desc": "Incidents entered into the fusion center can easily be sent to Intelligence for further investigation, analysis, research, and documentation. In addition, any actionable intelligence can be quickly disseminated to the appropriate agencies.",
+        "desc": "Incidents entered into the fusion center can easily be sent to <a class='primary-link' href='/crime-intelligence/intelligence'> Intelligence</a> for further investigation, analysis, research, and documentation. In addition, any actionable intelligence can be quickly disseminated to the appropriate agencies.",
         "list": [
           "Push incidents to Intelligence",
-          "Auto populate intelligence report fields",
+          "Auto-populate intelligence report fields",
           "Clear origin of information documentation ",
           "No re-entering information"
         ],
@@ -486,14 +486,14 @@
     "title": "Analytics",
     "subtitle": "Transform Raw Data into Meaningful Insight and Actionable Intelligence",
     "icon": "analytics.svg",
-    "coverImg": "",
+    "coverImg": "analytics.jpg",
     "brochure": "",
     "descHeading": "Visualize data to reveal relationships, trends, and patterns of criminal activity",
     "descContent": "Leverage advanced data collection and analytics to transform vast amounts of stored data into meaningful and insightful information, revealing crime trends and hidden patterns. Visualize data to draw connections to and between crimes, people, places, and vehicles. Analytics help agencies make better decisions, allocate resources more efficiently, and provide intelligence-led policing.",
     "sysFeatures": [
       {
         "title": "Intelligence Dashboard",
-        "desc": "Provide a visual snapshot of selected data including intelligence reports, analytics, and interactive graphs, customized to user preferences. Each segment can be expanded and explored in detail. Administratively, view which members are creating reports, and identify approved reports by week.",
+        "desc": "Provide a visual snapshot of selected data including intelligence reports, analytics, and interactive graphs, customized to user preferences. Each segment can be expanded and explored in detail. Administratively, view which members are creating report, and identify approved reports by week.",
         "list": [
           "Customizable display of reports and analytics",
           "Multiple datasets and graphs displayed in one window",
@@ -564,7 +564,7 @@
   {
     "id": "alpr",
     "title": "Automated License Plate Reader",
-    "subtitle": "Leverage ALPR data for real-time crime and historical investigations",
+    "subtitle": "Leverage ALPR Data for Real-Time Crime and Historical Investigations",
     "icon": "alpr.svg",
     "coverImg": "alpr.jpg",
     "brochure": "",
@@ -659,11 +659,11 @@
     "sysFeatures": [
       {
         "title": "Search Features",
-        "desc": "<a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a> can connect to an unlimited number of sources including local, county, state, federal, Homeland Security, and participating agencies. Users can search as many or as few databases, with simple keywords or advanced search options.",
+        "desc": "Connect to an unlimited number of sources including local, county, state, federal, Homeland Security, and participating agencies. Users can search as many or as few databases, with simple keywords or advanced search options.",
         "list": [
           "Local and remote sources",
           "Advanced filtering and Boolean search",
-          "Interagency search (participating agencies)",
+          "Inter-agency search (participating agencies)",
           "Multiple data types/object search",
           "Wildcard search"
         ],
@@ -685,7 +685,7 @@
         "desc": "Drill-down filtering allows users to refine search results at a more granular level. Users can use specific keywords to narrow down search results in order to find the desired information.",
         "list": [
           "Drill-down filtering with keywords",
-          "Full text and keyword search",
+          "Full-text and keyword search",
           "Report preview and author details on hover"
         ],
         "img": "gsb-3.jpg"
@@ -735,7 +735,7 @@
   {
     "id": "major-incident-management",
     "title": "Major Incident Management",
-    "subtitle": "Interagency Collaboration for Complex Investigations",
+    "subtitle": "Inter-Agency Collaboration for Complex Investigations",
     "icon": "mim.svg",
     "coverImg": "mim.jpg",
     "brochure": "",
@@ -754,8 +754,8 @@
         "img": "mim-1.jpg"
       },
       {
-        "title": "Preloaded Operation Type",
-        "desc": "The command staff can simply select specific operation types for preloaded leads and workflow. Moreover, the module allows system administrators to change support files to add, edit, or remove preloaded information.",
+        "title": "Preloaded Operation Types",
+        "desc": "Command staff can simply select specific operation types for preloaded leads and workflow. Allow system administrators to change support files to add, edit, or remove preloaded information.",
         "list": [
           "Terrorist incident ",
           "Mass casualty incident ",
@@ -857,7 +857,7 @@
       },
       {
         "title": "Crime Scene Data Recording",
-        "desc": "Collect photo and video evidence from built-in cameras or digital cameras, with tagging functions and deleted items recovery. In addition, log information and contacts can be recorded and linked to evidence along with related sub-evidence items.",
+        "desc": "Collect photo and video evidence from built-in cameras or digital cameras, with tagging functions and deleted items recovery. Log information and contacts can be recorded and linked to evidence along with related sub-evidence items.",
         "list": [
           "Photograph management",
           "Video management",
@@ -880,7 +880,7 @@
       },
       {
         "title": "Hardware Integration & Evidence Process",
-        "desc": "With hardware integration, users can generate barcode labels of evidence, print them with a barcode printer, and mail the evidence receipts together with digital signatures. Besides, Crime Scene Log reports and PPT reports can be generated with a single click.",
+        "desc": "With hardware integration, users can generate barcode labels of evidence, print them with a barcode printer, and mail the evidence receipts together with digital signatures. Crime Scene Log reports and PPT reports can be generated with a single click.",
         "list": [
           "Hardware integration",
           "Barcode label",
@@ -914,7 +914,7 @@
       },
       {
         "title": "Mobile Operations",
-        "icon": "icon-mobile_data_terminal_solid",
+        "icon": "icon-mdt_solid",
         "link": "public-safety/mobile-operations"
       },
       {

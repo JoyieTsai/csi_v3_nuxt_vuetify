@@ -22,7 +22,7 @@
           "
         >
           <div class="title">{{ index + 1 }}. {{ item.title }}</div>
-          <div class="tw-mt-3 body-text-3">{{ item.body }}</div>
+          <div class="tw-mt-3 tw-text-lg">{{ item.body }}</div>
         </div>
       </div>
     </div>

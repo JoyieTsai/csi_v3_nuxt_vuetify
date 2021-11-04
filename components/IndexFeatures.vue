@@ -1,7 +1,9 @@
 <template>
   <div class="main-container tw-mx-auto tw-text-center">
     <div class="header-2">InfoShare Engine®</div>
-    <div class="title tw-mb-10">Patented Application Development Platform</div>
+    <div class="tw-text-2xl tw-mb-10">
+      Patented Application Development Platform
+    </div>
 
     <div class="tw-mt-10">
       <div class="tw-flex tw-flex-col tw-flex-col-reverse">
@@ -21,12 +23,14 @@
             class="tw-flex tw-flex-col tabs line hover:tw-shadow-lg"
             @click="toggleFeature(i)"
           >
-            <div class="title tw-mb-2">{{ feature.title }}</div>
-            <div class="body-text-3 tw-opacity-80">{{ feature.desc }}</div>
+            <div class="tw-text-2xl tw-font-semibold tw-mb-2">
+              {{ feature.title }}
+            </div>
+            <div class="tw-text-lg tw-opacity-80">{{ feature.desc }}</div>
           </li>
         </ul>
 
-        <ul class="tabs-content tw-mx-auto">
+        <ul class="tabs-content tw-mx-auto tw-my-3">
           <li
             v-for="(feature, j) in features"
             :id="'panelContent-' + j"

@@ -3,10 +3,16 @@
     <div class="tw-flex tw-items-start tw-justify-center tw-flex-wrap">
       <div class="w-teambox tw-text-center">
         <img :src="'images/team/' + getMember[0].src" />
-        <div class="title tw-font-semibold tw-mt-4 tw-mb-1">
+        <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
           {{ getMember[0].name }}
         </div>
-        <div class="body-text-3 tw-mb-4 tw-opacity-70">
+        <div
+          class="
+            tw-text-base
+            xl:tw-text-lg
+            tw-mb-4 tw-opacity-70 tw-leading-tight
+          "
+        >
           {{ getMember[0].position }}
         </div>
       </div>
@@ -15,7 +21,9 @@
         <div class="bg-primary tw-text-white md:tw-mt-20">
           <div class="tw-p-4 md:tw-p-5 xl:tw-p-10">
             <div class="header-2 tw-leading-none">The Team</div>
-            <div class="title">
+            <div
+              class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-font-semibold"
+            >
               Contact our dedicated, experienced account managers
             </div>
           </div>
@@ -27,7 +35,12 @@
               />
               <a
                 href="mailto:sales@csitech.com"
-                class="tw-text-white body-text-2 tw-uppercase"
+                class="
+                  tw-text-white tw-text-sm
+                  lg:tw-text-base
+                  xl:tw-text-lg
+                  tw-uppercase
+                "
                 >Send a message</a
               >
             </div>
@@ -38,7 +51,12 @@
               />
               <a
                 href="tel:732-346-0200"
-                class="tw-text-white body-text-2 tw-uppercase"
+                class="
+                  tw-text-white tw-text-sm
+                  lg:tw-text-base
+                  xl:tw-text-lg
+                  tw-uppercase
+                "
                 >1-732-346-0200</a
               >
             </div>
@@ -47,10 +65,16 @@
 
         <div v-if="getMember[3]" class="tw-text-center">
           <img :src="'images/team/' + getMember[3].src" />
-          <div class="title tw-font-semibold tw-mt-4 tw-mb-1">
+          <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
             {{ getMember[3].name }}
           </div>
-          <div class="body-text-3 tw-mb-4 tw-opacity-70">
+          <div
+            class="
+              tw-text-base
+              xl:tw-text-lg
+              tw-mb-4 tw-opacity-70 tw-leading-tight
+            "
+          >
             {{ getMember[3].position }}
           </div>
         </div>
@@ -72,7 +96,10 @@
             >
               {{ quote.content }}
             </div>
-            <div v-if="quote.author" class="tw-mt-3 body-text-3 tw-text-right">
+            <div
+              v-if="quote.author"
+              class="tw-mt-3 tw-text-base xl:tw-text-lg tw-text-right"
+            >
               - {{ quote.author }}
             </div>
           </div>
@@ -80,10 +107,16 @@
 
         <div v-if="getMember[2]" class="tw-text-center">
           <img :src="'images/team/' + getMember[2].src" />
-          <div class="title tw-font-semibold tw-mt-4 tw-mb-1">
+          <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
             {{ getMember[2].name }}
           </div>
-          <div class="body-text-3 tw-mb-4 tw-opacity-70">
+          <div
+            class="
+              tw-text-base
+              xl:tw-text-lg
+              tw-mb-4 tw-opacity-70 tw-leading-tight
+            "
+          >
             {{ getMember[2].position }}
           </div>
         </div>
@@ -91,10 +124,10 @@
 
       <div class="w-teambox tw-text-center md:tw-mt-20">
         <img :src="'images/team/' + getMember[1].src" />
-        <div class="title tw-font-semibold tw-mt-4 tw-mb-1">
+        <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
           {{ getMember[1].name }}
         </div>
-        <div class="body-text-3 tw-mb-4 tw-opacity-70">
+        <div class="tw-text-base xl:tw-text-lg tw-mb-4 tw-opacity-70">
           {{ getMember[1].position }}
         </div>
       </div>
@@ -151,7 +184,7 @@ export default {
   }
 }
 .slogan {
-  font-size: 50px;
+  font-size: 48px;
   &-s {
     font-size: 35px;
   }

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/vertical_integration copy</title>
-    <g id="duotone/vertical_integration-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/vertical_integration</title>
+    <g id="duotone/vertical_integration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M52,85 L52,108 L41.75,108 L41.75,94.25 L23.25,94.25 L23.25,108 L12,108 L12,85 L52,85 Z M38.25,97.75 L38.25,108 L26.75,108 L26.75,97.75 L38.25,97.75 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.3" points="107.5 85 107.5 108 67.5 108 67.5 85"></polygon>
         <circle id="Oval" fill="#0D63BA" fill-rule="nonzero" cx="80" cy="96" r="3"></circle>

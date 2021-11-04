@@ -31,7 +31,11 @@
           <img :src="'images/news/' + latestStory.cover" alt="" />
         </div>
         <div
-          class="tw-pl-4 lg:tw-pl-20 tw-pt-3 tw-pb-4 body-text-1 tw-text-white"
+          class="
+            tw-pl-4 tw-pr-4
+            lg:tw-pl-20
+            tw-pt-3 tw-pb-4 tw-text-2xl tw-text-white
+          "
         >
           {{ latestStory.title }}
         </div>
@@ -45,7 +49,7 @@
           <v-carousel
             cycle
             hide-delimiter-background
-            show-arrows-on-hover
+            :show-arrows="latestStory.testimonials.length > 1 ? true : false"
             height="320"
           >
             <v-carousel-item>
@@ -54,10 +58,10 @@
                 :key="i"
                 class="tw-mb-8"
               >
-                <div class="body-text-3">
+                <div class="tw-text-lg">
                   {{ item.body }}
                 </div>
-                <div class="body-text-3 text-primary tw-mt-5">
+                <div class="tw-text-lg tw-font-semibold tw-mt-5">
                   {{ item.author }}
                 </div>
                 <!-- eslint-disable-next-line vue/no-v-html -->
@@ -104,18 +108,18 @@
         ></v-img>
         <div
           v-if="article.type === 'story'"
-          class="text-primary body-text-3 tw-my-1"
+          class="text-primary tw-text-lg tw-my-1"
         >
           Success Stories
         </div>
         <div
           v-else-if="article.type === 'news'"
-          class="text-secondary body-text-3"
+          class="text-secondary tw-text-lg"
         >
           News
         </div>
-        <div v-else class="text-grey body-text-3">Event</div>
-        <div class="body-text-3">{{ article.title }}</div>
+        <div v-else class="text-grey tw-text-lg">Event</div>
+        <div class="tw-text-lg">{{ article.title }}</div>
       </div>
     </div>
   </div>

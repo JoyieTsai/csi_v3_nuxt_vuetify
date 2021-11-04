@@ -66,12 +66,17 @@
 
       <v-spacer></v-spacer>
 
-      <div class="tw-hidden lg:tw-flex tw-items-center tw-justify-end">
+      <div
+        :class="[
+          $vuetify.breakpoint.mdAndDown ? 'tw-hidden' : '',
+          'tw-items-center tw-justify-end',
+        ]"
+      >
         <v-btn icon @click.prevent="routerTo('/search')">
           <v-icon>mdi-magnify</v-icon>
         </v-btn>
         <v-divider vertical class="tw-my-4"></v-divider>
-        <v-btn text href="tel:123-456-7890" class="primary-text body-text-1"
+        <v-btn text href="tel:123-456-7890" class="primary-text tw-text-2xl"
           >1-732-346-0200</v-btn
         >
         <v-btn text class="capitalize" @click.prevent="routerTo('/contact')">
@@ -83,7 +88,7 @@
         </v-btn>
       </div>
       <!-- Mobile Menu -->
-      <div class="lg:tw-hidden">
+      <div :class="[$vuetify.breakpoint.mdAndDown ? '' : 'tw-hidden']">
         <v-btn icon @click.prevent="routerTo('/search')">
           <v-icon>mdi-magnify</v-icon>
         </v-btn>
@@ -99,15 +104,8 @@
       </div>
     </v-app-bar>
     <!-- Drawer -->
-    <v-navigation-drawer
-      v-model="drawer"
-      absolute
-      temporary
-      right
-      class=""
-      width="300"
-    >
-      <v-list class="tw-h-screen">
+    <v-navigation-drawer v-model="drawer" fixed temporary right width="300">
+      <v-list>
         <v-list-group v-for="(data, i) in datas" :key="i" no-action sub-group>
           <template v-slot:activator>
             <v-list-item-content class="tw-p-0">

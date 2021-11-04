@@ -1,16 +1,13 @@
 <template>
   <v-app>
     <v-main>
-      <div class="tw-flex tw-flex-col lg:tw-flex-row tw-h-screen">
+      <div class="tw-h-full tw-flex">
         <!-- Login -->
         <div
           class="
-            tw-h-full
-            md:tw-h-3/5
-            lg:tw-h-full lg:tw-w-1/2
+            tw-w-full
+            lg:tw-w-1/2
             xl:tw-w-2/5
-            tw-order-last
-            lg:tw-order-first
             tw-flex tw-flex-col tw-justify-between
           "
         >
@@ -32,10 +29,13 @@
                     name="Account"
                     rules="required|email"
                   >
+                    <div class="label-text">Account</div>
                     <v-text-field
                       v-model="account"
                       :error-messages="errors"
-                      label="Account"
+                      dense
+                      outlined
+                      prepend-inner-icon="mdi-account"
                       required
                     ></v-text-field>
                   </validation-provider>
@@ -44,10 +44,14 @@
                     name="Password"
                     rules="required"
                   >
+                    <div class="label-text">Password</div>
                     <v-text-field
                       v-model="pw"
                       :error-messages="errors"
-                      label="Password"
+                      dense
+                      outlined
+                      prepend-inner-icon="mdi-lock"
+                      type="password"
                       required
                     ></v-text-field>
                   </validation-provider>
@@ -61,6 +65,9 @@
                   >
                     LOGIN
                   </v-btn>
+                  <div class="tw-text-base tw-text-right tw-my-5">
+                    <nuxt-link to="/" class="footer-link">Password?</nuxt-link>
+                  </div>
                 </form>
               </validation-observer>
             </div>
@@ -73,9 +80,7 @@
         <div
           class="
             tw-hidden
-            md:tw-block
-            tw-h-2/5
-            lg:tw-h-auto lg:tw-w-1/2
+            lg:tw-block lg:tw-w-1/2
             xl:tw-w-3/5
             tw-p-5
             lg:tw-p-10
@@ -137,11 +142,15 @@ export default {
     account: '',
     pw: '',
   }),
+
   head() {
     return {
       titleTemplate: '%s - ' + this.$route.params.id,
       meta: [{ name: 'description', content: this.title }],
     }
+  },
+  mounted() {
+    console.log(this.$vuetify.breakpoint.mdAndDown)
   },
   methods: {
     handleSubmit(e) {

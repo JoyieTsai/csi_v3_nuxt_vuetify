@@ -1,10 +1,10 @@
 <template>
   <v-app>
     <v-main>
-      <Hero :category="category" :coverimg="coverimg">
+      <Hero :category="category" :coverimg="coverimg" :btns="btnGroup">
         <template v-slot:icon>
           <img
-            class="tw-w-16 md:tw-w-20 tw-mb-5"
+            class="tw-w-16 xl:tw-w-20 tw-mb-5"
             :src="require('~/assets/duotone/' + icon)"
             :alt="title"
           />
@@ -48,15 +48,8 @@
 import Products from '~/data/capabilities.json'
 
 export default {
-  fetch({ params, redirect }) {
-    const product = Products.filter((res) => {
-      return res.id === params.id
-    })
-    if (product.length < 1) {
-      redirect(404, '/404')
-    }
-  },
   data: () => ({
+    btnGroup: true,
     category: 'capabilities',
     id: String,
     title: String,
@@ -72,6 +65,14 @@ export default {
     features: Object,
     relatedCapabilities: Object,
   }),
+  fetch({ params, redirect }) {
+    const product = Products.filter((res) => {
+      return res.id === params.id
+    })
+    if (product.length < 1) {
+      redirect(404, '/404')
+    }
+  },
   created() {
     this.getData(this.$route.params.id)
   },

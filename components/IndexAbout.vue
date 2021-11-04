@@ -17,7 +17,7 @@
         <div v-for="(about, i) in aboutArr" :key="i">
           <i :class="[about.icon, 'tw-text-6xl lg:tw-text-8xl']"></i>
           <div class="header-3 tw-font-semibold tw-my-4">{{ about.title }}</div>
-          <div class="body-text-2 xl:tw-px-5">{{ about.desc }}</div>
+          <div class="tw-text-xl xl:tw-px-5">{{ about.desc }}</div>
         </div>
       </div>
     </div>

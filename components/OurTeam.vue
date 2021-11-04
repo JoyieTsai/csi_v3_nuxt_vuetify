@@ -1,13 +1,14 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
-  <div class="main-container tw-m-auto">
+  <div class="main-container tw-mx-auto">
     <div class="header-2 tw-text-center">Leadership Team</div>
     <div
       class="
         tw-grid tw-grid-cols-2
         md:tw-grid-cols-3
-        xl:tw-grid-cols-5
-        tw-gap-6 tw-mt-12 tw-mb-20
+        lg:tw-grid-cols-4
+        2xl:tw-grid-cols-5
+        tw-gap-8 tw-mt-12 tw-mb-20
       "
     >
       <div
@@ -16,18 +17,51 @@
         class="
           tw-text-center tw-bg-white tw-cursor-pointer tw-shadow-md
           hover:tw-shadow-xl
+          zoomin
+          ani-avatar
         "
       >
         <div @click="openModel(dir)">
           <div>
-            <img :src="'images/team/' + dir.src" alt="" />
+            <v-img
+              :src="'images/team/' + dir.src"
+              aspect-ratio="1"
+              cover
+              class="tw-mx-auto team-avatar"
+            />
           </div>
-          <div class="p-3">
-            <div class="body-text-1 tw-font-semibold">{{ dir.name }}</div>
+          <div class="tw-p-3">
             <div
-              class="body-text-3 tw-opacity-70"
+              class="
+                team-title
+                tw-text-lg
+                xl:tw-text-xl
+                tw-font-semibold tw-leading-snug tw-mb-1
+              "
+            >
+              {{ dir.name }}
+            </div>
+            <div
+              class="
+                team-position
+                tw-text-sm
+                xl:tw-text-base
+                tw-opacity-70 tw-leading-tight
+                hover:hidden
+              "
               v-html="$options.filters.positionSplit(dir.position)"
             ></div>
+            <div
+              class="
+                team-desc
+                tw-hidden tw-text-sm
+                xl:tw-text-base
+                tw-leading-sung
+                2xl:tw-mx-5
+              "
+            >
+              {{ dir.desc | getBrief(150) }}
+            </div>
           </div>
         </div>
       </div>
@@ -38,8 +72,9 @@
       class="
         tw-grid tw-grid-cols-2
         md:tw-grid-cols-3
-        xl:tw-grid-cols-5
-        tw-gap-6 tw-mt-12 tw-mb-20
+        lg:tw-grid-cols-4
+        2xl:tw-grid-cols-5
+        tw-gap-8 tw-mt-12 tw-mb-20
       "
     >
       <div
@@ -48,16 +83,42 @@
         class="
           tw-text-center tw-bg-white tw-cursor-pointer tw-shadow-md
           hover:tw-shadow-xl
-          tw-mb-5
-          xl:tw-mb-10
+          tw-relative
+          zoomin
+          ani-avatar
         "
       >
         <div @click="openModel(am)">
           <div>
-            <img :src="'images/team/' + am.src" alt="" />
+            <v-img
+              :src="'images/team/' + am.src"
+              aspect-ratio="1"
+              cover
+              class="tw-mx-auto team-avatar"
+            />
           </div>
-          <div class="p-3">
-            <div class="body-text-1 tw-font-semibold">{{ am.name }}</div>
+          <div class="tw-p-3">
+            <div
+              class="
+                team-title
+                tw-text-lg
+                xl:tw-text-xl
+                tw-font-semibold tw-leading-snug tw-mb-1
+              "
+            >
+              {{ am.name }}
+            </div>
+            <div
+              class="
+                team-desc
+                tw-hidden tw-text-sm
+                xl:tw-text-base
+                tw-leading-sung
+                2xl:tw-mx-5
+              "
+            >
+              {{ am.desc | getBrief(150) }}
+            </div>
           </div>
         </div>
       </div>
@@ -66,6 +127,8 @@
     <div class="header-2 tw-text-center">Special Thanks to Our Advisor</div>
     <div
       class="tw-mt-36 tw-mb-10 lg:tw-mb-20 lg:tw-w-4/5 xl:tw-w-3/4 tw-mx-auto"
+      data-aos="fade-up"
+      data-aos-duration="1500"
     >
       <div
         v-for="(adv, k) in advisor"
@@ -83,10 +146,11 @@
             class="tw-w-48 lg:tw-w-64"
           />
         </div>
-        <div class="p-8 lg:p-16">
+        <div class="tw-p-8 lg:tw-p-16">
           <div
             class="
-              body-text-1
+              tw-text-xl
+              xl:tw-text-2xl
               tw-font-semibold tw-mt-10
               lg:tw-mt-20
               tw-text-center
@@ -95,7 +159,7 @@
             {{ adv.name }}
           </div>
           <div
-            class="body-text-3 tw-opacity-70 tw-text-center"
+            class="tw-text-base xl:tw-text-lg tw-opacity-70 tw-text-center"
             v-html="$options.filters.positionSplit(adv.position)"
           ></div>
           <div class="tw-mt-8" v-html="adv.desc"></div>
@@ -107,25 +171,28 @@
     <v-dialog
       v-model="modalDetail"
       overlay-color="white"
+      content-class="tw-bg-white"
       @ok="() => (modalDetail = false)"
     >
       <div slot="closeIcon">
         <button class="btn-close"></button>
       </div>
-      <div class="tw-flex tw-p-8">
-        <div class="tw-w-1/4">
+      <div class="tw-flex tw-flex-col md:tw-flex-row tw-p-5 md:tw-p-8">
+        <div class="md:tw-w-1/4">
           <img
             :src="'images/team/' + popSrc"
             alt=""
-            class="tw-w-full tw-pr-10"
+            class="tw-w-40 md:tw-w-full tw-pr-10 tw-mb-5"
           />
         </div>
-        <div class="tw-w-3/4">
+        <div class="md:tw-w-3/4">
           <div class="header-3 tw-font-semibold">{{ popName }}</div>
-          <div class="body-text-2 tw-opacity-70">{{ popPosition }}</div>
+          <div class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-opacity-70">
+            {{ popPosition }}
+          </div>
           <div class="border-primary tw-mt-4 tw-mb-8"></div>
           <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="text-base" v-html="popDesc"></div>
+          <div class="tw-text-sm lg:tw-text-base" v-html="popDesc"></div>
         </div>
       </div>
     </v-dialog>

@@ -6,15 +6,22 @@
         background-color="transparent"
         fixed-tabs
         :height="$vuetify.breakpoint.xsOnly ? 65 : 110"
+        show-arrows
       >
-        <v-tab v-for="(item, i) in data" :key="i" class="tw-capabilities">
+        <v-tab v-for="(item, i) in data" :key="i">
           <div class="tw-flex tw-flex-col tw-items-center">
             <span :class="['tabicon', item.icon]"></span>
             <div
-              :class="[
-                $vuetify.breakpoint.mdAndDown ? 'body-text-1' : 'title',
-                'tw-my-3 tw-capitalize',
-              ]"
+              class="
+                tw-text-lg
+                xl:tw-text-xl
+                tw-font-semibold
+                tw-my-3
+                tw-capitalize
+                tw-tracking-wide
+                tw-hidden
+                lg:tw-block
+              "
             >
               {{ item.title }}
             </div>
@@ -24,7 +31,7 @@
 
       <v-tabs-items v-model="tabIndex">
         <v-tab-item v-for="(item, j) in data" :key="j">
-          <div class="tw-my-8">
+          <div class="tw-mt-8">
             <v-row>
               <v-col
                 xs="12"
@@ -35,25 +42,26 @@
                 <div
                   :class="[
                     $vuetify.breakpoint.mdAndDown ? 'tw-p-5' : 'tw-p-10',
-                    'tw-flex tw-flex-col body-text-2 tw-opacity-2',
+                    'tw-flex tw-flex-col tw-text-xl tw-opacity-2',
                   ]"
                 >
-                  <div class="display-1 tw-font-weight-medium">
+                  <div class="tw-text-2xl lg:tw-text-4xl tw-font-semibold">
                     {{ item.title }}
                   </div>
-                  <div class="border-primary tw-my-5"></div>
+                  <div class="border-primary tw-my-2 lg:tw-my-5"></div>
                   <div
-                    :class="
-                      $vuetify.breakpoint.mdAndDown
-                        ? ''
-                        : 'tw-mr-10 tw-leading-normal'
+                    class="
+                      tw-text-base
+                      lg:tw-text-lg
+                      xl:tw-text-xl xl:tw-mr-10
+                      tw-leading-normal
                     "
                     v-html="item.desc"
                   ></div>
                 </div>
               </v-col>
-              <v-col xs="12" sm="6" cols="12">
-                <div class="img-shadow zoomin">
+              <v-col xs="12" sm="6" cols="12" class="tw-flex tw-items-center">
+                <div class="tw-w-full img-shadow zoomin tw-overflow-hidden">
                   <v-img
                     :src="require('@/assets/images/capabilities/' + item.img)"
                     :lazy-src="

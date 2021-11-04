@@ -22,7 +22,7 @@
             :src="require('~/assets/duotone/' + item.icon)"
             alt="public_safety"
           />
-          <div class="title tw-mb-3">{{ item.title }}</div>
+          <div class="tw-text-xl xl:tw-text-2xl tw-mb-3">{{ item.title }}</div>
           <div class="base-text tw-opacity-70">{{ item.desc }}</div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/ecdr copy</title>
-    <g id="duotone/ecdr-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/ecdr</title>
+    <g id="duotone/ecdr" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="63 12.1523946 63 31.1523946 14.9383199 31.1523946 14.9383199 12.1523946"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.301432292" points="102.653619 19 102.653378 39.136 106.873721 33.5098653 109.673721 35.6098653 100.773721 47.476532 91.8737209 35.6098653 94.6737209 33.5098653 99.1533779 39.483 99.1536187 22.5008575 72.25 22.5 72.25 19"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.298642113" points="59.4229512 70.8028614 59.4233061 77.3866553 26.5058061 77.3866553 26.5049512 70.8028614"></polygon>

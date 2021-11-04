@@ -4,7 +4,7 @@
       <Hero :category="category" :coverimg="coverimg" :btns="btnGroup">
         <template v-slot:icon>
           <img
-            class="tw-w-16 md:tw-w-20"
+            class="tw-w-16 xl:tw-w-20"
             :src="require('~/assets/duotone/' + icon)"
             :alt="title"
           />

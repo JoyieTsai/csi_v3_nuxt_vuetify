@@ -3,7 +3,7 @@
     <div class="header-2 tw-text-white tw-text-center">
       <slot name="title"></slot>
     </div>
-    <div class="body-text-2 tw-text-white tw-text-center">
+    <div class="tw-text-xl tw-text-white tw-text-center">
       <slot name="content"></slot>
     </div>
     <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-5 tw-my-8">

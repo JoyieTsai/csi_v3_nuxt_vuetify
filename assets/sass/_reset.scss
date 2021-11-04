@@ -44,47 +44,12 @@ a {
 
 .v-application {
   font-family: $body-font-family !important;
-}
-.ant-modal {
-  padding: 0;
-  color: $grey-dark-color;
 
-  &-body {
-    padding: 2rem 3rem;
+  .ol, .ul {
+    padding-left: 1rem !important;
   }
 }
 
-.ant-tooltip-inner {
-  background-color: $white;
-  color: $dark-color;
-}
-
-.ant-tooltip-arrow::before {
-  background-color: $white;
-}
-
-.ant-collapse {
-  border: none;
-  background-color: $white;
-
-  & > .ant-collapse-item {
-    border-bottom-color: $primary-light-color;
-
-    & > .ant-collapse-header {
-      color: $primary-color;
-      font-size: $body-3-size;
-    }
-  }
-
-  .ant-collapse-content {
-    border-top: 1px solid $primary-light-color;
-  }
-}
-
-.ant-collapse-borderless > .ant-collapse-item {
-  border: 0;
-}
-
-.ant-collapse-content > .ant-collapse-content-box {
-  padding: 5px 0 0 40px;
+.v-text-field--outlined > .v-input__control > .v-input__slot {
+  background: white !important;
 }

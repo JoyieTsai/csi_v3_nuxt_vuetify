@@ -1,13 +1,17 @@
 <template>
-  <div class="main-container tw-m-auto">
+  <div
+    class="main-container tw-m-auto tw-mt-16 xl:tw-mt-14 tw-mb-16 xl:tw-mb-28"
+  >
     <div class="tw-flex tw-flex-col xl:tw-flex-row">
       <div class="w-full xl:tw-w-1/3 tw-flex tw-items-center tw-p-5 xl:tw-p-0">
         <div class="tw-flex tw-flex-col xl:tw-mr-6">
-          <div class="header-3 text-dark tw-font-semibold">{{ title }}</div>
-          <div class="border-primary tw-mt-4 tw-mb-8"></div>
+          <div class="tw-text-2xl lg:tw-text-4xl text-dark tw-font-semibold">
+            {{ title }}
+          </div>
+          <div class="border-primary tw-my-2 lg:tw-my-5"></div>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <div
-            class="body-text-2 tw-leading-relaxed tw-pr-5"
+            class="tw-text-base lg:tw-text-lg tw-leading-relaxed lg:tw-pr-10"
             v-html="desc"
           ></div>
         </div>
@@ -43,7 +47,7 @@
               >
                 <i :class="item.icon"></i>
               </div>
-              <div class="body-text-3 tw-leading-tight">
+              <div class="tw-text-sm lg:tw-text-base tw-leading-none">
                 {{ item.title }}
               </div>
             </nuxt-link>
@@ -59,7 +63,7 @@ export default {
   props: ['data'],
   data: () => ({
     title: 'Related Products',
-    desc: 'Fully integrated solutions and services installed on the <a class="primary-link" href="/capabilities/infoShare-engine">InfoShare Engine®</a>. Designed to be easily deployed to meet each agency or office’s unique requirements.',
+    desc: 'Fully integrated solutions and services installed on the <a href="/capabilities/infoShare-engine" class="primary-link">InfoShare Engine®</a>. Designed to be easily deployed to meet each agency or office’s unique requirements.',
   }),
   methods: {},
 }

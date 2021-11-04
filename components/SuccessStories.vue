@@ -16,42 +16,43 @@
               aspect-ratio="2"
             ></v-img>
           </div>
-          <div class="body-text-1 tw-text-white tw-px-2 md:tw-px-7 tw-py-2">
+          <div
+            class="
+              tw-text-lg
+              md:tw-text-xl
+              lg:tw-text-2xl
+              tw-text-white tw-px-2
+              md:tw-px-7
+              tw-py-2
+            "
+          >
             {{ latestStory.title }}
           </div>
         </div>
 
-        <div class="tw-relative tw-shadow-lg tw-bg-white tw-w-full tw-p-7">
+        <div
+          class="
+            tw-relative tw-shadow-lg tw-bg-white tw-w-full tw-p-6
+            md:tw-p-10
+          "
+        >
           <div class="tw-mb-4">
             <img :src="require('~/assets/icons/icon-quotes.svg')" alt="" />
           </div>
-          <div class="tw-mx-8">
-            <v-carousel
-              cycle
-              hide-delimiter-background
-              show-arrows-on-hover
-              height="280"
-            >
-              <v-carousel-item>
-                <div
-                  v-for="(item, i) in latestStory.testimonials"
-                  :key="i"
-                  class="tw-mb-8 tw-text-left"
-                >
-                  <div class="body-text-2">
-                    {{ item.body }}
-                  </div>
-                  <div class="body-text-3 text-primary tw-mt-5">
-                    {{ item.author }}
-                  </div>
-                  <!-- eslint-disable-next-line vue/no-v-html -->
-                  <div
-                    class="body-text-3 tw-opacity-60"
-                    v-html="item.position"
-                  ></div>
-                </div>
-              </v-carousel-item>
-            </v-carousel>
+          <div>
+            <div v-for="(item, i) in latestStory.testimonials" :key="i">
+              <div class="lg:tw-text-xl">
+                {{ item.body }}
+              </div>
+              <div class="lg:tw-text-lg text-primary tw-mt-5">
+                {{ item.author }}
+              </div>
+              <!-- eslint-disable-next-line vue/no-v-html -->
+              <div
+                class="lg:tw-text-lg tw-opacity-60"
+                v-html="item.position"
+              ></div>
+            </div>
           </div>
         </div>
       </div>
@@ -77,7 +78,7 @@
             class="tw-shadow-md tw-mb-2"
             aspect-ratio="1.9"
           ></v-img>
-          <div class="body-text-3">{{ article.title }}</div>
+          <div class="tw-text-lg">{{ article.title }}</div>
         </div>
       </div>
     </div>

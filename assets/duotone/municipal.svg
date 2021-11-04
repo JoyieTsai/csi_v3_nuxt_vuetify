@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/municipal copy</title>
-    <g id="duotone/municipal-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/municipal</title>
+    <g id="duotone/municipal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="89.075 31.95 89.075 95.3174803 115 95.3184803 115 99.1684803 5 99.1684803 5 95.3184803 33.85 95.3174803 33.85 71.189 38.7589861 71.1896266 38.759 46 45.786 46 45.7859444 71.1895799 50.15 71.189 50.15 95.3174803 72.925 95.3174803 72.925 38.146"></polygon>
         <path d="M34.909,58.075 L34.909,67.34 L30,67.3404762 L30,96.3184803 L16.925,96.3184803 L16.925,58.075 L34.909,58.075 Z M56.5,19.075 C59.0886113,19.075 61.4927898,19.8402678 63.4910412,21.1515153 C66.8598966,23.3621497 69.075,27.1246028 69.075,31.3880952 L69.075,96.3184803 L54,96.3184803 L54,67.3404762 L49.636,67.34 L49.6363636,42.15 L43.925,42.15 L43.925,31.3880952 L43.9288265,31.0746957 L43.939674,30.7735015 C44.2548838,24.2675273 49.7615746,19.075 56.5,19.075 Z M103.075,57.075 L103.074,96.3184803 L92.925,96.3184803 L92.925,57.075 L103.075,57.075 Z" id="Shape" fill="#0D63BA" fill-rule="nonzero" opacity="0.298549107"></path>
     </g>

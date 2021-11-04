@@ -143,12 +143,12 @@
                         "title": "Intelligence"
                     },
                     {
-                        "id": "/sars",
+                        "id": "/sar",
                         "title": "Suspicious Activity Reporting"
                     },
                     {
                         "id": "/fusion-center",
-                        "title": "Fusion Center(iLog)"
+                        "title": "Fusion Center (iLog)"
                     },
                     {
                         "id": "/analytics",

@@ -22,7 +22,7 @@
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be scalable (single, regional, or multi-jurisdictional) and extensible. All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoShare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Interoperability",
@@ -34,13 +34,13 @@
         "title": "Mobile Operations",
         "icon": "icon-mobile_operations_outline",
         "img": "MobileOperations.jpg",
-        "desc": "The integrated <a class='primary-link'>MDT application</a> is specifically optimized for mobile operations and workflow. Streamlined functions in one place offer a better experience on mobile data terminals and tablets. First responders receive real-time information and alerts in the field for enhanced situational awareness. "
+        "desc": "The integrated <a href='/public-safety/mobile-operations' class='primary-link'>MDT application</a> is specifically optimized for mobile operations and workflow. Streamlined functions in one place offer a better experience on mobile data terminals and tablets. First responders receive real-time information and alerts in the field for enhanced situational awareness. "
       },
       {
         "title": "Cloud Compatibility",
         "icon": "icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       },
       {
         "title": "Security",
@@ -129,8 +129,8 @@
         "img": "cad-6.jpg"
       },
       {
-        "title": "Expert Interfacing",
-        "desc": "CSI Technology Group specializes in interfacing its solutions to a range of internal and external systems for added functionality. To overcome the information gap inherent in public safety, we leverage our technology to enable a high level of <a class='primary-link'>data sharing</a> across systems and jurisdictions.",
+        "title": "<a href='/capabilities' class='title-link'>Expert Interfacing</a>",
+        "desc": "CSI Technology Group specializes in interfacing its solutions to a range of internal and external systems for added functionality. To overcome the information gap inherent in public safety, we leverage our technology to enable a high level of <a href='/capabilities/data-sharing' class='primary-link'>data sharing</a> across systems and jurisdictions.",
         "list": [
           "NCIC/DMV/NLETS interface",
           "UCR/NIBRS interface",
@@ -148,7 +148,7 @@
         "title": "eTicket Gateway",
         "icon": "eticket.svg",
         "desc": "Modernize the ticketing process with automated form filling and data capture following a simple swipe of the driver’s license.",
-        "link": "public-safety/eTicketing"
+        "link": "public-safety/citation-management"
       },
       {
         "title": "NCIC Gateway",
@@ -237,19 +237,19 @@
         "title": "Platform Independence",
         "icon": "icon-mobile_operations_outline",
         "img": "PlatformIndependence.jpg",
-        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare™ RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
+        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare™ RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
       },
       {
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a class='primary-link' href='/capabilities/infoShare-engine'>InfoShare™ Engine</a>, a low-code development platform for government ERP application designed to be scalable (single, regional, or multi-jurisdictional) and extensible. All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoShare-engine' class='primary-link'>InfoShare™ Engine</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
         "icon": "icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a class='primary-link' href='/capabilities/cloud-integration'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+        "desc": "<a href='capabilities/cloud-integration'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       }
     ],
     "sysTitle": {
@@ -286,11 +286,11 @@
         "title": "Reporting & Approval",
         "desc": "Reduce administrative burdens and time spent writing reports. With a few clicks, users can select the existing data to be populated, enter new information, and electronically send the report to supervisors for approval. Reports are physically stored in the system for efficient archiving and viewing.",
         "list": [
-          "Auto-fill templates for aggregated, standardized, and AdHoc reporting",
+          "Auto-fill templates for aggregated, standardized, and ad hoc reporting",
           "Paperless reporting and approval with digital signature",
           "Custom or standardized CFS coding",
           "Patented intake form technology",
-          "Narrative function with AdHoc search and reporting service",
+          "Narrative function with ad hoc search and reporting service",
           "Multiple output formats (PDF, HTML, Excel, Word)"
         ],
         "img": "rms-3.jpg"
@@ -300,7 +300,7 @@
         "desc": "Robust search capabilities allow authorized users to efficiently retrieve data and generate reports. In addition, InfoShare™ RMS comes embedded with advanced crime analysis tools, enabling users to run multidimensional crime analysis and advanced queries across disparate datasets.",
         "list": [
           "Preloaded search pages",
-          "AdHoc reporting and search",
+          "Ad hoc reporting and search",
           "CompStat reports",
           "Crime mapping",
           "Link analysis",
@@ -322,7 +322,7 @@
         "img": "rms-5.jpg"
       },
       {
-        "title": "Expert Interfacing & Third-party Integration",
+        "title": "<a href='/capabilities' class='title-link'>Expert Interfacing</a> & Third-party Integration",
         "desc": "CSI Technology Group has considerable experience in interfacing its solutions with internal and external systems to promote data sharing and exchange on multiple levels—local, regional, state, and federal.",
         "list": [
           "UCR/NIBRS interface",
@@ -370,7 +370,8 @@
       {
         "title": "eTicket Gateway",
         "icon": "eticket.svg",
-        "desc": "Modernize the ticketing process with automated form filling and data capture following a simple  swipe of the driver’s license."
+        "desc": "Modernize the ticketing process with automated form filling and data capture following a simple  swipe of the driver’s license.",
+        "link": "public-safety/citation-management"
       },
       {
         "title": "Contractor/Billing",
@@ -390,12 +391,14 @@
       {
         "title": "Analytics",
         "icon": "analytics.svg",
-        "desc": "Integrate with GIS and GEO mapping to visual data to reveal relationships, trends, and patterns of criminal activity."
+        "desc": "Integrate with GIS and GEO mapping to visualize data to reveal relationships, trends, and patterns of criminal activity.",
+        "link": "public-safety/analytics-crime-mapping"
       },
       {
         "title": "Crime Mapping",
         "icon": "mapping.svg",
-        "desc": "Help agencies provide the public with information on the magnitude and trend of recent criminal activity by neighborhood."
+        "desc": "Help agencies provide the public with information on the magnitude and trend of recent criminal activity by neighborhood.",
+        "link": "public-safety/analytics-crime-mapping"
       },
       {
         "title": "ABC",
@@ -410,7 +413,7 @@
       {
         "title": "Internal Affairs",
         "icon": "internal_affairs.svg",
-        "desc": "Store all information related to internal affairs investigations with robust security and data encryption."
+        "desc": "Case management for allegations of employee misconduct."
       },
       {
         "title": "Interview Recording",
@@ -445,7 +448,8 @@
       {
         "title": "Rolmes",
         "icon": "rolmes.svg",
-        "desc": "Innovative robotic technology with case management integration to revolutionize crime analysis and evidence gathering."
+        "desc": "Innovative robotic technology with case management integration to revolutionize crime analysis and evidence gathering.",
+        "link": "crime-intelligence/csi"
       }
     ],
     "relatedProducts": [
@@ -502,13 +506,13 @@
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a class='primary-link' href='/capabilities/infoShare-engine'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be scalable (single, regional, or multi-jurisdictional) and extensible. All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoShare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
         "icon": "icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a class='primary-link' href='/capabilities/cloud-integration'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       },
       {
         "title": "Data Migration",
@@ -520,7 +524,7 @@
         "title": "Platform Independence",
         "icon": "icon-mobile_operations_outline",
         "img": "PlatformIndependence.jpg",
-        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare™ RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
+        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare™ RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
       },
       {
         "title": "Multi-Agency Coverage",
@@ -693,16 +697,16 @@
   {
     "id": "citation-management",
     "title": "Citation Management",
-    "subtitle": "Modern Ticketing Process in an Integrated CAD/RMS System",
+    "subtitle": "Modern Ticketing Process in an Integrated Public Safety System",
     "icon": "doc_management.svg",
     "coverImg": "citation_management.jpg",
     "brochure": "",
     "descHeading": "Create professional electronic citations with accurate and automated data entry",
-    "descContent": "With the ease of a MDT, license scanner, and printer, users create, print, and issue eTickets for motor vehicle violations on the go. Our citation management solution simplifies and automates the ticketing process, issuing citations in minutes. An intuitive workflow guides users every step of the way. All data and eTickets can be sent to InfoShare™ RMS case for permanent documentation.",
+    "descContent": "With the ease of a MDT, license scanner, and printer, users create, print, and issue eTickets for motor vehicle violations on the go. Our citation management solution simplifies and automates the ticketing process, issuing citations in minutes. An intuitive workflow guides users every step of the way. All data and eTickets can be sent to <a href='/public-safety/rms'>InfoShare™ RMS</a> case for permanent documentation.",
     "sysFeatures": [
       {
         "title": "Streamlined Data Input & Workflow",
-        "desc": "Seamless transition from the MDT Call for Service or Motor Vehicle Stop to the issuance of citations or warnings. Multiple fields are auto-populated, and each step is validated, ensuring data accuracy and eliminating data entry errors.",
+        "desc": "Seamless transition from the Call for Service or Motor Vehicle Stop to the issuance of citations or warnings. Auto-populating multiple fields and data validation checks eliminate data entry errors.",
         "list": [
           "Intuitive user interface",
           "Simple Q&A workflow",
@@ -721,16 +725,16 @@
           "Electronic signature support",
           "AVL/GPS incorporation for location of stops",
           "Offense and statute search",
-          "Multiple citation per violator option"
+          "Multiple citations per violator option"
         ],
         "img": "citation-2.jpg"
       },
       {
-        "title": "eTicket Management and Tracking",
-        "desc": "All eTickets and related DMV information are pushed from CAD & MDT to RMS for tracking and permanent documentation in the case file. Tracking issuances enable assurance and auditing of transactions.",
+        "title": "eTicket Management & Tracking",
+        "desc": "All eTickets and related DMV information are pushed from CAD and MDT to RMS for tracking and permanent documentation in the case file. Tracking issuances enable assurance and auditing of transactions.",
         "list": [
           "User inbox ticket tracking",
-          "CAD & MDT-to-RMS integration",
+          "CAD, MDT, and RMS integration",
           "Searchable, printable eTicket PDF copy",
           "Notes section for concerns and observations",
           "Automatic electronic delivery to local and state courts"
@@ -798,7 +802,7 @@
       "Eliminate lost or mislaid requests",
       "Powerful search capabilities and permission settings",
       "Streamlined and customizable approval workflow",
-      "Advanced searching and analytical attendance and payroll reports"
+      "Management, analytical, and payroll reporting"
     ],
     "sysTitle": {
       "title": "Robust HR software built for agencies of any size",
@@ -806,19 +810,19 @@
     },
     "sysFeatures": [
       {
-        "title": "Multi-Level Approval Workflow Process",
+        "title": "Multi-Level Approval Workflow",
         "desc": "Fully customizable approval process for multiple groups (divisions, units, squads) with multi-level approval based upon each agency’s requirements for leave, overtime, and training submissions.",
         "list": [
-          "Configurable, paperless approval workflow",
+          "Paperless review and approval workflow",
           "Inbox approval tracking with mail notifications",
-          "OT/CT, leave, and schedule switch/substitute electronic requests",
-          "Leave and overtime searching and management reporting"
+          "OT/CT, leave, and schedule switch/substitute requests",
+          "Leave and overtime search and management reporting"
         ],
         "img": "personnel-1.jpg"
       },
       {
-        "title": "Employee Scheduling",
-        "desc": "Easy access to calendar views from any device connected to the internet such as a desktop, tablet, or smartphone. Staff members can be scheduled up to two years in advance and receive notifications of any schedule changes via email or text.",
+        "title": "Staff Scheduling",
+        "desc": "Easy access to calendar views from any device connected to the internet such as a desktop, tablet, or smartphone. Staff can be scheduled up to two years in advance and receive notifications of any schedule changes via email or text.",
         "list": [
           "Schedule template generator",
           "Time management and scheduling calendar views",
@@ -841,12 +845,12 @@
         "img": "personnel-3.jpg"
       },
       {
-        "title": "Training Sub-Module",
+        "title": "Training Submodule",
         "desc": "Track all mandatory training and alerts for training deficiencies. Training administrators can view all staff training records and initiatives for additional and specialized training. Furthermore, the system alerts staff when training rescheduling is required.",
         "list": [
           "Customizable approval workflow",
           "Staff training records tracking",
-          "Scheduling staff and admin calendar integration",
+          "Staff and admin calendar integration",
           "Department and specialized training tracking",
           "Alert management for recertification training",
           "Mobile application for training schedule tracking"
@@ -859,7 +863,7 @@
         "list": [
           "Robust agency inventory tracking",
           "Inventory assignment by location, staff, or team",
-          "Integrated with Firearms Qualification Reporting",
+          "Firearms Qualification Reporting integration",
           "Staff bulk inventory assignment",
           "Equipment expiration alerts"
         ],
@@ -872,9 +876,9 @@
           "Agency-specific policy and procedure template generation",
           "Document version control, testing, and surveys",
           "Integrated accreditation document management process",
-          "Fully customizable review and approval workflow ",
+          "Customizable review and approval workflow ",
           "Management alerts for reviewing past due documents",
-          "Full text search and robust permission settings"
+          "Full-text search and robust permission settings"
         ],
         "img": "personnel-6.jpg"
       }
@@ -948,12 +952,12 @@
     "sysFeatures": [
       {
         "title": "Complete Case Management",
-        "desc": "The Internal Affairs module chronicles the entire IA process from the time the complaint is received to the conclusion of the investigation. Personnel can generate reports and prepare related documents within the case, both of which are organized in a file folder design. ",
+        "desc": "Chronicle the entire IA process from the time the complain is received to the conclusion of the investigation. Personnel can generate reports and prepare related documents within the case.",
         "list": [
-          "User inbox assignment tracking for efficient case management",
+          "User inbox assignment tracking",
           "Individual task assignment function",
           "Integrated document templates",
-          "Complete search capabilities for statistical reporting",
+          "Search capabilities for statistical reporting",
           "Customizable to the agency’s process"
         ],
         "img": "ia-1.jpg"
@@ -964,42 +968,41 @@
         "list": [
           "Secure, permission-controlled access",
           "Prosecutor’s Office/District Attorney maintains all access",
-          "Cooperative investigation functionality",
-          "Local cases can be forwarded to Prosecutor’s/DA’s Office for review"
+          "Cooperative investigation functionality"
         ],
         "img": "ia-2.jpg"
       },
       {
         "title": "Early Intervention Component",
-        "desc": "A standard built-in early intervention mechanism to help identify at-risk officers triggers an automated alert for the officer when the pre-set conditions are satisfied. Alerts can be programmed to notify the local agency, the Prosecutor’s/DA’s Office, or both.",
+        "desc": "A standard built-in early intervention mechanism to help identify at-risk officers triggers an automated alert when the pre-set conditions are satisfied. Alerts programmed to notify the officer, local agency, or Prosecutor’s/DA’s Office.",
         "list": [
           "Behavioral intervention before conduct deteriorates",
           "Customizable case count and rolling calendar conditions",
-          "Individual performance indicators, not complaints, trigger the alerts",
-          "Alerts can be opened as a case to conduct a non-punitive review"
+          "Individual performance indicators alert triggers",
+          "Open alerts as a case for non-punitive review"
         ],
         "img": "ia-3.jpg"
       },
       {
         "title": "Drug Screening Randomizer",
-        "desc": "When applied, the Drug Screening Randomizer will generate a list of randomly selected personnel who are eligible for drug screening and ensures that every employee in the agency has an equal chance of being selected each and every time a selection takes place.",
+        "desc": "When applied, the Drug Screening Randomizer will generate a list of randomly selected personnel who are eligible for drug screening. Every employee in the agency has an equal chance of being selected each and every time a selection takes place.",
         "list": [
-          "Permission-based access to both Prosecutor/DA and local agencies",
+          "Permission-based access",
           "“Replace” function for on-leave/inaccessible personnel",
-          "Drug screening documents can be saved to the system",
-          "Drug screening packages are archived for future reference"
+          "Drug screening documents",
+          "Drug screening packages archiving"
         ],
         "img": "ia-4.jpg"
       },
       {
         "title": "Brady-Giglio Component",
-        "desc": "Designed to assist law enforcement agencies in complying with the United States Supreme Court decision in Brady v. Maryland, 373 U.S. 83, 87 (1963), the Brady-Giglio component provides a mechanism to classify and track police officers subject to Brady-Giglio reporting. ",
+        "desc": "Designed to assist law enforcement agencies in complying with the United States Supreme Court decision in Brady v. Maryland, 373 U.S. 83, 87 (1963). Provide a mechanism to classify and track police officers subject to Brady-Giglio reporting. ",
         "list": [
           "Permission-based access control",
           "Flag system alerts permissioned users to potential issues of credibility",
-          "Dedicated search function provides review of Brady-Giglio records",
+          "Dedicated search function to review Brady-Giglio records",
           "View log provides a historical account of staff activity",
-          "Full integration with the InfoShare™ application suite"
+          "Total integration with the InfoShare™ application suite"
         ],
         "img": "ia-5.jpg"
       }

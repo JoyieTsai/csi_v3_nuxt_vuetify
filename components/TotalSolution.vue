@@ -24,7 +24,7 @@
         </div>
         <div class="tw-w-2/5 tw-text-white">
           <div class="header-2 tw-mt-28">Complete Solution</div>
-          <div class="body-text-1">
+          <div class="tw-text-2xl">
             CSI solutions are powered by the
             <span class="tw-underline">InfoShare Engine®</span>, a low-code
             development platform for government ERP application. Our complete

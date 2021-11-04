@@ -1,29 +1,43 @@
 <template>
-  <div class="main-container m-auto">
+  <div class="main-container tw-m-auto">
     <div class="tw-flex tw-flex-col tw-mb-10">
-      <div class="header-3 text-dark tw-font-semibold">{{ title }}</div>
+      <div class="tw-text-2xl lg:tw-text-4xl text-dark tw-font-semibold">
+        {{ title }}
+      </div>
       <div class="border-primary tw-mt-4 tw-mb-8"></div>
       <!-- eslint-disable-next-line vue/no-v-html -->
-      <div class="body-text-2 tw-mt-2 tw-leading-relaxed" v-html="desc"></div>
+      <div
+        class="tw-text-lg xl:tw-text-xl tw-mt-2 tw-leading-relaxed"
+        v-html="desc"
+      ></div>
     </div>
-    <div class="grid md:grid-cols-3 gap-5">
+    <div class="tw-grid md:tw-grid-cols-3 tw-gap-10 md:tw-gap-5">
       <div
         v-for="(item, index) in data"
         :key="index"
         class="tw-flex tw-flex-col xl:tw-flex-row tw-items-center effectbg"
       >
         <div :class="['effectbg-' + (index + 1), 'tw-flex-none']">
-          <i :class="[item.icon, 'tw-text-white tw-text-7xl']"></i>
+          <i
+            :class="[item.icon, 'tw-text-white tw-text-6xl xl:tw-text-7xl']"
+          ></i>
         </div>
-        <div class="tw-px-6 tw-text-center xl:tw-text-left tw-mt-5 xl:tw-mt-0">
-          <div class="title font-semibold">
-            <nuxt-link
-              :to="item.link"
-              class="text-primary hover:tw-underline"
-              >{{ item.title }}</nuxt-link
-            >
-          </div>
-          <div class="body-text-3 tw-opacity-70">{{ item.desc }}</div>
+        <div
+          class="xl:tw-pl-6 tw-text-center xl:tw-text-left tw-mt-5 xl:tw-mt-0"
+        >
+          <nuxt-link
+            :to="item.link"
+            class="
+              tw-text-lg
+              lg:tw-text-xl
+              xl:tw-text-2xl
+              tw-font-semibold
+              text-primary
+              hover:tw-underline
+            "
+            >{{ item.title }}</nuxt-link
+          >
+          <div class="tw-opacity-70 tw-mt-2">{{ item.desc }}</div>
         </div>
       </div>
     </div>
@@ -53,6 +67,10 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    @media only screen and (max-width: $breakpoints-md) {
+      height: 125px;
+      width: 125px;
+    }
   }
   &-1 {
     background-image: url('../assets/vectors/effectbg_1.svg');

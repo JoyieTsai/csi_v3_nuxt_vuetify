@@ -23,10 +23,28 @@
   &-gradient {
     background: url('../static/images/bg-gradient.jpg') center no-repeat;
   }
+  &-gradient-0 {
+    background-color: $primary-color;
+  }
+  &-gradient-1 {
+    background: linear-gradient(
+      180deg,
+      $primary-color 0%,
+      $primary-light-color 100%
+    );
+  }
+  &-gradient-2 {
+    background: linear-gradient(
+      180deg,
+      $primary-light-color 0%,
+      $primary-color 100%
+    );
+  }
   &-contact {
     background-image: url('../assets/vectors/getintouch-vector.svg');
     background-repeat: no-repeat;
     background-position: center right;
+    background-size: contain;
   }
   &-contact-full {
     background-image: url('../assets/vectors/getintouch-bg.svg');
@@ -51,10 +69,21 @@
   //   background-size: contain;
   // }
   &-about {
-    background-image: url('../static/images/bg-about.jpg');
+    background: url('../static/images/bg-about.jpg') center no-repeat;
+  }
+  &-about-tagline {
+    display: flex;
+    align-items: flex-end;
+    background: url('../static/images/about-tagline.jpg') center no-repeat;
+  }
+  &-hexagon {
+    background: url('../static/images/about-tagline_hexagon.svg') right bottom
+      no-repeat;
+    background-size: contain;
   }
   &-mission {
-    background: url('../static/images/bg-mission.jpg') top center no-repeat;
+    background: url('../assets/vectors/hexagon-3.svg') -7rem top no-repeat;
+    background-size: contain;
   }
 }
 

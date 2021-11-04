@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/reduce copy</title>
-    <g id="duotone/reduce-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/reduce</title>
+    <g id="duotone/reduce" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Shape" fill="#0D63BA" fill-rule="nonzero" points="14.5414159 66.1165307 28.4781999 78.779387 37.15794 69.8565298 56.0535579 86.2819449 70.8455247 70.7416191 102.352478 97.8580153 100.231416 88.2589998 103.537026 87.5284439 107.424079 105.116531 89.5260337 103.089228 89.9070572 99.725362 100.761351 100.954184 71.0777691 75.4077908 56.2753835 90.9599603 37.3523386 74.5107084 28.6243853 83.4854725 12.2649169 68.6221892"></polygon>
         <path d="M22,12 C27.5228475,12 32,16.4771525 32,22 C32,27.5228475 27.5228475,32 22,32 C16.4771525,32 12,27.5228475 12,22 C12,16.4771525 16.4771525,12 22,12 Z" id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.3"></path>
         <path d="M22,15.5 C18.4101491,15.5 15.5,18.4101491 15.5,22 C15.5,25.5898509 18.4101491,28.5 22,28.5 C25.5898509,28.5 28.5,25.5898509 28.5,22 C28.5,18.4101491 25.5898509,15.5 22,15.5 Z" id="Path" fill="#0D63BA" fill-rule="nonzero"></path>

@@ -6,51 +6,67 @@
         backgroundImage: `url(images/covers/${category}/${coverimg})`,
       }"
     >
-      <div class="main-container tw-mx-auto">
+      <div class="main-container tw-mx-auto tw-flex tw-flex-col sm:tw-flex-row">
         <div
           class="
-            md:tw-w-2/3
-            lg:tw-w-1/2
-            tw-flex tw-flex-col tw-mt-5
-            md:tw-mt-0
-            lg:tw-mb-12
+            tw-flex-1
+            sm:tw-flex-auto
+            tw-w-full
+            sm:tw-mr-10
+            lg:tw-mr-0
+            sm:tw-w-2/3
+            lg:tw-flex-1
+            tw-flex tw-items-center
           "
         >
-          <div>
-            <slot name="icon"></slot>
-          </div>
-          <div class="header-1 tw-leading-snug">
-            <slot name="title"></slot>
-          </div>
-          <div class="body-text-1">
-            <slot name="subtitle"></slot>
-          </div>
-          <div v-if="btns" class="tw-my-8">
-            <button
-              class="btn-lg btn-primary hover:shadow-xl tw-mr-3 md:tw-mr-5"
-              @click="() => (modalBookaDemo = true)"
+          <div class="lg:tw-mb-10">
+            <div>
+              <slot name="icon"></slot>
+            </div>
+            <div
+              class="
+                tw-text-3xl
+                lg:tw-text-4xl
+                xl:tw-text-5xl
+                tw-font-semibold tw-leading-snug tw-my-2
+                lg:tw-my-4
+              "
             >
-              Book a Demo
-            </button>
-            <button
-              v-if="brochure"
-              class="btn-lg btn-primary-inverse hover:tw-shadow-xl"
-              @click.prevent="downloadFile(brochure)"
-            >
-              Download Brochure
-            </button>
+              <slot name="title"></slot>
+            </div>
+            <div class="tw-text-xl lg:tw-text-2xl xl:tw-mr-20">
+              <slot name="subtitle"></slot>
+            </div>
+            <div v-if="btns" class="tw-mt-4 md:tw-mt-8 sm:tw-mb-16">
+              <button
+                class="btn-lg btn-primary hover:shadow-xl tw-mr-3 md:tw-mr-5"
+                @click="() => (modalBookaDemo = true)"
+              >
+                Book a Demo
+              </button>
+              <button
+                v-if="brochure"
+                class="btn-lg btn-primary-inverse hover:tw-shadow-xl"
+                @click.prevent="downloadFile(brochure)"
+              >
+                Download Brochure
+              </button>
+            </div>
           </div>
         </div>
+        <div
+          class="tw-flex-1 sm:tw-flex-auto tw-w-full sm:tw-w-1/3 lg:tw-flex-1"
+        ></div>
       </div>
     </div>
     <!-- Discription -->
     <div class="bg-primary-light">
       <div class="main-container tw-mx-auto tw-pb-10 xl:tw-pb-20 tw-text-white">
-        <div class="2xl:w-3/4">
-          <div class="header-5 tw-mb-2 tw-font-semibold">
+        <div class="2xl:tw-w-3/4">
+          <div class="tw-text-xl lg:tw-text-2xl tw-mb-2 tw-font-semibold">
             <slot name="desc-heading"></slot>
           </div>
-          <div class="body-text-2">
+          <div class="tw-text-base lg:tw-text-lg">
             <slot name="desc-content"></slot>
           </div>
         </div>
@@ -61,6 +77,7 @@
     <v-dialog
       v-model="modalBookaDemo"
       overlay-color="white"
+      content-class="accent tw-p-5 lg:tw-p-10"
       @ok="() => (modalBookaDemo = false)"
     >
       <BookDemo />

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/all_products copy</title>
-    <g id="duotone/all_products-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/all_products</title>
+    <g id="duotone/all_products" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M108,12 L108,91 L89.4117647,91 L89.4117647,30.5882353 L29,30.5882353 L29,12 L108,12 Z M66.8716397,56 L70,58.6468917 L43.8304604,88 L30,73.8768292 L32.9980925,71.0905356 L43.6858138,82.0052635 L66.8716397,56 Z" id="Shape" fill="#0D63BA"></path>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.300967262" points="85 35 13 35 13 107 85 107"></polygon>
     </g>

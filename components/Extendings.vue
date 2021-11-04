@@ -16,19 +16,19 @@
       <div
         v-for="(item, index) in data"
         :key="index"
-        class="tw-bg-white shadow-1 tw-text-center tw-p-7 zoomin"
+        class="tw-bg-white shadow-1 tw-text-center tw-p-4 lg:tw-p-7 zoomin"
       >
         <img
-          class="tw-mx-auto tw-my-3 tw-w-20"
+          class="tw-mx-auto tw-my-3 tw-w-16 lg:tw-w-20"
           :src="require('~/assets/duotone/' + item.icon)"
           :alt="item.title"
         />
-        <div class="body-text-1 tw-font-semibold tw-my-3">{{ item.title }}</div>
+        <div class="tw-text-xl tw-font-semibold tw-my-3">{{ item.title }}</div>
         <div class="tw-opacity-70">{{ item.desc }}</div>
         <div class="tw-mt-3">
           <nuxt-link
             v-if="item.link"
-            :to="'/products/' + item.link"
+            :to="'/' + item.link"
             class="primary-link no-underline"
             >Learn more</nuxt-link
           >

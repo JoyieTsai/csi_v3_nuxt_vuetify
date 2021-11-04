@@ -1,6 +1,12 @@
 <template>
   <div class="main-container tw-mx-auto">
-    <carousel loop :per-page="perPage" pagination-enabled>
+    <carousel
+      loop
+      :per-page="perPage"
+      pagination-enabled
+      :navigateTo="currentIndex"
+      paginationActiveColor="#0d63ba"
+    >
       <slide v-for="(item, i) in data" :key="i">
         <div class="tw-flex tw-justify-center">
           <v-img
@@ -14,15 +20,32 @@
     </carousel>
 
     <div class="tw-mt-16 tw-grid md:tw-grid-cols-3 sm:tw-grid-cols-2 tw-gap-5">
-      <div
-        v-for="(item, j) in data"
-        :key="j"
-        class="tw-bg-white shadow-1 tw-p-7 deco-vertical"
-      >
-        <div class="body-text-1 tw-font-semibold text-primary tw-mb-3">
-          {{ item.title }}
-        </div>
-        <div class="tw-opacity-70">{{ item.desc }}</div>
+      <div v-for="(item, j) in data" :key="j">
+        <v-card
+          tile
+          @mouseover="changeIndex(j)"
+          class="
+            tw-h-full tw-px-3
+            deco-vertical
+            zoomin
+            tw-cursor-pointer tw-shadow-lg
+          "
+        >
+          <v-card-text class="tw-h-full">
+            <div
+              class="
+                tw-text-xl
+                xl:tw-text-2xl
+                tw-font-semibold
+                text-primary
+                tw-mb-3
+              "
+            >
+              {{ item.title }}
+            </div>
+            <div>{{ item.desc }}</div>
+          </v-card-text>
+        </v-card>
       </div>
     </div>
   </div>
@@ -37,10 +60,18 @@ export default {
     Slide,
   },
   props: ['data'],
-  data: () => ({
-    perPage: 1,
-    paginationEnabled: false,
-  }),
+  data() {
+    return {
+      currentIndex: 0,
+      perPage: 1,
+      paginationEnabled: false,
+    }
+  },
+  methods: {
+    changeIndex(num) {
+      this.currentIndex = num
+    },
+  },
 }
 </script>
 

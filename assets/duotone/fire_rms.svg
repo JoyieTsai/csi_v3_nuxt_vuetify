@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/fire_rms copy</title>
-    <g id="duotone/fire_rms-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/fire_rms</title>
+    <g id="duotone/fire_rms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M92,14 L92,108 L68.698,108 L67.7011371,107.564508 C67.4607676,107.459504 67.226985,107.343804 67.0002888,107.218079 L67.0005908,107.168171 C66.8699513,107.111102 66.7407668,107.051323 66.6131085,106.988904 C64.2488047,105.503938 62.75,102.889538 62.75,100 L62.75,88.75 L80,88.75 L80,85.25 L27,85.25 L27,14 L92,14 Z" id="Path" fill="#0D63BA" opacity="0.300176711"></path>
         <polygon id="Path" fill="#0D63BA" points="80 74.25 39 74.25 39 77.75 80 77.75"></polygon>
         <path d="M100.277778,14 C104.266501,14 107.5,18.4771525 107.5,24 L107.5,37 L95.5,37 L95.5,14 L100.277778,14 Z" id="Path" fill="#0D63BA" opacity="0.300176711"></path>

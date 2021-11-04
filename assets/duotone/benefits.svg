@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/benefits copy</title>
-    <g id="duotone/benefits-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/benefits</title>
+    <g id="duotone/benefits" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="Rectangle" fill="#0D63BA" opacity="0.29868135" x="13" y="12" width="95" height="95"></rect>
         <path d="M42.9913793,65.25 L42.9913793,72.491 L49.5086207,72.4913793 L49.5086207,75.9913793 L42.9913793,75.991 L42.9913793,82.75 L39.4913793,82.75 L39.4913793,75.991 L32.4913793,75.9913793 L32.4913793,72.4913793 L39.4913793,72.491 L39.4913793,65.25 L42.9913793,65.25 Z M89.25,72.75 L89.25,76.25 L57.75,76.25 L57.75,72.75 L89.25,72.75 Z M42.9913793,38.25 L42.9913793,45.491 L49.5086207,45.4913793 L49.5086207,48.9913793 L42.9913793,48.991 L42.9913793,55.75 L39.4913793,55.75 L39.4913793,48.991 L32.4913793,48.9913793 L32.4913793,45.4913793 L39.4913793,45.491 L39.4913793,38.25 L42.9913793,38.25 Z M89.25,45.75 L89.25,49.25 L57.75,49.25 L57.75,45.75 L89.25,45.75 Z" id="Shape" fill="#0D63BA" fill-rule="nonzero"></path>
     </g>

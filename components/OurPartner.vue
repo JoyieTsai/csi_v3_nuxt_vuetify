@@ -1,7 +1,7 @@
 <template>
   <div class="main-container tw-mx-auto">
     <!-- Partners -->
-    <div class="header-2 tw-text-center">Our Partners</div>
+    <div class="header-2 tw-text-center tw-mb-10">Our Partners</div>
     <div
       class="
         tw-flex tw-flex-wrap tw-justify-center
@@ -14,9 +14,13 @@
       <div
         v-for="(partner, index) in partners"
         :key="index"
-        class="tw-flex tw-items-center tw-mx-10 tw-mb-8"
+        class="tw-flex tw-items-center tw-mx-7 2xl:tw-mx-10 tw-mb-10"
       >
-        <img :src="'images/partner/' + partner" alt="" />
+        <v-img
+          :src="'images/partner/' + partner"
+          contain
+          class="tw-max-h-10 xl:tw-max-h-11 2xl:tw-max-h-14"
+        ></v-img>
       </div>
     </div>
   </div>

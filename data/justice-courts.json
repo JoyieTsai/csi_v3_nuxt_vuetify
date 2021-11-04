@@ -138,8 +138,8 @@
         "img": "courts-3.jpg"
       },
       {
-        "title": "Template Generation and Reporting",
-        "desc": "Customizable templates generated with one click for a wide variety of reports. Users can create and export reports in PDF or Excel formats. Moreover, InfoShare™ Courts supports templates for automated notifications, orders, and more.",
+        "title": "Template Generation & Reporting",
+        "desc": "Customizable templates generated with one click for a wide variety of reports. Users can create and export reports in PDF or Excel format. InfoShare™ Courts supports templates for automated notifications, orders, and more.",
         "list": [
           "Paperless reports for electronic distribution ",
           "Multiple report formats (PDF, Excel)",
@@ -195,7 +195,7 @@
   {
     "id": "courts-efiling",
     "title": "Courts eFiling",
-    "subtitle": "Secure Portal for Electronic Case Handling",
+    "subtitle": "Secure Portal for Electronic Case and Payment Handling",
     "icon": "efiling.svg",
     "coverImg": "courts_efiling.jpg",
     "brochure": "",
@@ -204,7 +204,7 @@
     "sysFeatures": [
       {
         "title": "Electronic Document Filing",
-        "desc": "A fully synchronized portal allowing filers to create or upload documents online anytime, anywhere. Documents are submitted to the Court for review immediately after filing and date/time stamped with the status. Parties have access to case documents filed by other parties.",
+        "desc": "A fully synchronized Portal allows filers to create and upload documents online anytime, anywhere. Documents are submitted to the Court for review immediately after filing and date/time stamped with the status. Parties have access to case documents filed by other parties.",
         "list": [
           "Document status updates for filers",
           "Other parties served electronically",
@@ -226,7 +226,7 @@
       },
       {
         "title": "Credit Card Payment Handling",
-        "desc": "Allow filers to easily pay fees by credit card, eliminating time consuming check handling done by court staff. Comprehensive audit trail records allow for easy tracing of any payment. A full suite of reports is included for accounting purposes.",
+        "desc": "Easily pay fees by credit card, eliminating time consuming check handling done by court staff. Comprehensive audit trail records allow for easy tracing of any payment. A full suite of reports is included for accounting purposes.",
         "list": [
           "Detailed audit trail records",
           "QuickBooks interface",
@@ -239,27 +239,27 @@
       {
         "title": "Courts",
         "icon": "icon-court_solid",
-        "link": "courts"
+        "link": "justice-courts/courts"
       },
       {
         "title": "Attorney Ethics",
         "icon": "icon-attorney_ethics_solid",
-        "link": "attorney-ethics"
+        "link": "justice-courts/attorney-ethics"
       },
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "attorney_general"
+        "link": "justice-courts/attorney-general"
       },
       {
         "title": "County Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "prosecution"
+        "link": "justice-courts/county-prosecution"
       },
       {
         "title": "Public Defender",
         "icon": "icon-public_defender_solid",
-        "link": "public_defender"
+        "link": "justice-courts/public-defender"
       }
     ],
     "quote": {
@@ -329,11 +329,11 @@
         "img": "ae-1.jpg"
       },
       {
-        "title": "Fee Arbitration and Fee/Ethics Appeals",
+        "title": "Fee Arbitration & Fee/Ethics Appeals",
         "desc": "Seamless fee arbitration process to handle fee disputes from appealing a determination. Similarly, ethics appeals can be processed, with original hearing documents transferred from the original hearing agency.",
         "list": [
           "Public and attorney appeals",
-          "Data retrieval from inter-Court agency",
+          "Data retrieval from inter-court agency",
           "Full vote of board members and recusals",
           "Appeal documents available electronically"
         ],
@@ -368,22 +368,22 @@
       {
         "title": "Courts",
         "icon": "icon-court_solid",
-        "link": "courts"
+        "link": "justice-courts/courts"
       },
       {
         "title": "Courts eFiling",
         "icon": "icon-efiling_solid",
-        "link": "courts-efiling"
+        "link": "justice-courts/courts-efiling"
       },
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "attorney-general"
+        "link": "justice-courts/attorney-general"
       },
       {
         "title": "County Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "prosecution"
+        "link": "justice-courts/county-prosecution"
       },
       {
         "title": "eDiscovery with Portal",
@@ -404,8 +404,6 @@
     "brochure": "Municipal Portal.pdf",
     "descHeading": "",
     "descContent": "",
-
-    
     "relatedProducts": [
       {
         "title": "County Prosecution",
@@ -506,13 +504,13 @@
       }
     ],
     "quote": {
-      "content": "It’s not IF I can, It’s HOW I can"
+      "content": "It’s not IF i can, It’s HOW i can"
     }
   },
   {
     "id": "vw-portal",
     "title": "Victim Witness Suite with Portal",
-    "subtitle": "A Full Service Suite for Victim Advocates and Crime Victims",
+    "subtitle": "Full Service Suite for Victim Advocates and Crime Victims",
     "icon": "vw.svg",
     "coverImg": "vw_portal.jpg",
     "brochure": "VW Portal.pdf",
@@ -526,7 +524,7 @@
           "Initial Contact Letters",
           "Victim Impact Statements",
           "Court Event Letters",
-          "Subpoenas",
+          "Introduction attachments",
           "Disposition Letters"
         ],
         "img": "vw-1.jpg"
@@ -536,7 +534,7 @@
         "desc": "Victim Witness letters are generated daily based on trigger settings and court events/outcomes. Advocates can set specific triggers and review the letters generated for the day. Letters can be mailed, emailed, or sent to the Portal.",
         "list": [
           "Court events and disposition triggers",
-          "Receiver type (victim, victim survivor, secondary victim)",
+          "Receiver type (victim, survivor, secondary, guardian)",
           "Notification type (mail, email, portal)",
           "Attachment settings"
         ],
@@ -567,7 +565,7 @@
       },
       {
         "title": "Victim Witness Portal",
-        "desc": "A secure website for Victims and Witnesses to receive court notifications, instantly access forms and letters, check the status of a case, and securely communicate with Advocates using the portal note feature. ",
+        "desc": "A secure website for Victims and Witnesses to receive court notifications, instantly access forms and letters, check the status of a case, and securely communicate with Advocates using the Portal note feature. ",
         "list": [
           "Automated notification service",
           "Quick access to victim contact letters and court proceedings",
@@ -579,7 +577,7 @@
       },
       {
         "title": "InfoVNS Mobile App",
-        "desc": "Allows access via any mobile device so that Victims and Witnesses can get vital information on cases, court events, and resources anywhere, anytime. The app shares all the same functions as the portal plus mapping and navigation for quick access to resources. ",
+        "desc": "Allows access via any mobile device so that Victims and Witnesses can get vital information on cases, court events, and resources anytime, anywhere. The app shares all the same functions as the Portal plus mapping and navigation for quick access to resources. ",
         "list": [
           "Anytime, anywhere mobility",
           "Quick and easy access to case information",
@@ -624,7 +622,7 @@
   {
     "id": "interview-recording",
     "title": "Interview Recording",
-    "subtitle": "Interview Room A/V Recording Software",
+    "subtitle": "Integrated Interview Room A/V Recording Software",
     "icon": "info_recording.svg",
     "coverImg": "interview_recording.jpg",
     "brochure": "InfoRecording.pdf",
@@ -695,13 +693,13 @@
       }
     ],
     "quote": {
-      "content": "Sapere Aude"
+      "content": "Sapere Aude (Dare to Know)"
     }
   },
   {
     "id": "online-transcription-service",
     "title": "Online Transcription Service",
-    "subtitle": "Transcription with minimal effort and complete integration",
+    "subtitle": "Transcription with Minimal Effort and Complete Integration",
     "icon": "online_trans.svg",
     "coverImg": "online_transcription_service.jpg",
     "brochure": "InfoScrIbe.pdf",
@@ -734,7 +732,7 @@
       },
       {
         "title": "Seamless Integration",
-        "desc": "Users can execute transcription tasks, review, correct, and view transcripts directly from eDiscovery folders within a case file. Finished transcripts are searchable and automatically linked to audio, video, or interview recordings uploaded to the system in a compatible format.",
+        "desc": "Users can execute transcription tasks, review, correct, and view transcripts directly from <a href='/justice-courts/ediscovery-with-portal' class='primary-link'>eDiscovery</a> folders within a case file. Finished transcripts are searchable and automatically linked to audio, video, or interview recordings uploaded to the system in a compatible format.",
         "list": [
           "Launch, review, and correct directly from case files",
           "Unlimited corrections and reviews",

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/interoperability copy</title>
-    <g id="duotone/interoperability-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/interoperability</title>
+    <g id="duotone/interoperability" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.295029413" transform="translate(107.097378, 90.594515) rotate(-90.000000) translate(-107.097378, -90.594515) " points="107.097378 81.7556799 115.936213 90.5945146 107.097378 99.4333494 98.2585431 90.5945146"></polygon>
         <path d="M107.192674,51.8445084 C111.747208,51.8519861 115.433873,55.5487253 115.429075,60.1032983 C115.424259,64.6577842 111.72929,68.3466414 107.174466,68.3445084 C102.619911,68.3418341 98.929075,64.6488462 98.929075,60.0908088 C98.9381518,55.5348017 102.633485,51.8455738 107.192674,51.8445084 Z" id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.295029413" transform="translate(107.179077, 60.094509) rotate(-90.000000) translate(-107.179077, -60.094509) "></path>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.295029413" transform="translate(106.679075, 29.094515) rotate(-90.000000) translate(-106.679075, -29.094515) " points="111.189438 21.2823368 115.6998 29.0945146 111.189438 36.9066925 102.168712 36.9066925 97.6583486 29.0945146 102.168712 21.2823368"></polygon>

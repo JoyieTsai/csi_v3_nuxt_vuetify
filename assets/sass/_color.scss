@@ -6,18 +6,25 @@
   &-primary-light {
     color: $primary-light-color;
   }
+  &-secondary {
+    color: $secondary-color;
+  }
+  &-highlight {
+    color: $highlight-color;
+  }
   &-dark {
     color: $dark-color;
   }
   &-grey {
     color: $grey-color;
   }
+  &-grey-dark {
+    color: $grey-dark-color;
+  }
   &-grey-light {
     color: $grey-light-color;
   }
-  &-secondary {
-    color: $secondary-color;
-  }
+
   &-link {
     color: $dark-color !important;
     cursor: pointer;

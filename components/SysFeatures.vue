@@ -2,11 +2,7 @@
   <div>
     <div
       v-if="tagline"
-      class="
-        section-tagline
-        tw-mx-auto tw-flex tw-items-end tw-justify-end
-        lg:tw-mb-10
-      "
+      class="section-tagline tw-mx-auto tw-flex tw-items-end tw-justify-end"
       :style="{
         background: `url(images/tagline/${tagline.img}) left center no-repeat`,
         backgroundSize: `contain`,
@@ -17,12 +13,10 @@
       >
         <div
           class="
-            tw-pt-5
-            lg:tw-pt-10
-            tw-px-5
-            lg:tw-px-10 lg:tw-pb-10
-            tw-bg-white tw-font-semibold
-            lg:w-3/5
+            tw-p-5
+            lg:tw-p-10
+            tw-bg-white tw-font-semibold tw-w-full
+            md:tw-w-3/5
           "
         >
           <div class="text-primary header-4">
@@ -32,12 +26,12 @@
       </div>
     </div>
 
-    <div class="bg-sysfeature">
+    <div class="bg-sysfeature tw-mt-10 xl:tw-mt-16">
       <div class="main-container tw-mx-auto">
         <div
           v-for="(item, index) in data"
           :key="index"
-          class="tw-flex tw-flex-col lg:tw-flex-row"
+          class="tw-flex tw-flex-col lg:tw-flex-row tw-py-5"
         >
           <div
             :class="[
@@ -48,18 +42,30 @@
             ]"
           >
             <div class="sys-content tw-flex tw-items-center tw-justify-center">
-              <div class="tw-w-10/12">
-                <div class="header-5 font-semibold">{{ item.title }}</div>
+              <div class="xl:tw-w-10/12">
+                <div
+                  class="
+                    tw-text-lg
+                    lg:tw-text-xl
+                    xl:tw-text-2xl
+                    tw-font-semibold
+                  "
+                  v-html="item.title"
+                ></div>
                 <!-- eslint-disable-next-line vue/no-v-html -->
                 <div
-                  class="body-text-3 tw-my-2 tw-opacity-90"
+                  class="tw-text-base xl:tw-text-lg tw-my-2 tw-opacity-70"
                   v-html="item.desc"
                 ></div>
                 <ul class="dot-list">
                   <li
                     v-for="(list, i) in item.list"
                     :key="i"
-                    class="body-text-3 tw-opacity-90"
+                    class="
+                      tw-text-base
+                      xl:tw-text-lg
+                      tw-leading-sung tw-opacity-70
+                    "
                   >
                     <!-- eslint-disable-next-line vue/no-v-html -->
                     <span v-html="list"></span>
@@ -110,7 +116,7 @@ export default {
     height: 350px;
   }
   @media (max-width: $breakpoints-md) {
-    height: 350px;
+    height: 250px;
   }
   @media (max-width: $breakpoints-sm) {
     height: 200px;

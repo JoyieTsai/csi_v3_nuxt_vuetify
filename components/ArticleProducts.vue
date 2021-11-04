@@ -27,7 +27,7 @@
             <div class="header-1 leading-3">
               <i :class="item.icon"></i>
             </div>
-            <div class="body-text-3 leading-tight">{{ item.title }}</div>
+            <div class="tw-text-lg leading-tight">{{ item.title }}</div>
           </nuxt-link>
         </div>
       </div>

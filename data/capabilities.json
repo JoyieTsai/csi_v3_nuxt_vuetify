@@ -17,7 +17,7 @@
     "descHeading": "Fully searchable, cleansed, condensed, and standardized legacy data",
     "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. There’s no need to access a separate database or system to find the legacy data. Everything is unified under one database and platform. Over the years, we have used our systematic method to successfully convert legacy data for more than thirty different systems.",
     "diagram": {
-      "img": "data_migration.jpg",
+      "img": "data-migration.jpg",
       "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare™, a unique person exists a single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
     },
     "lists": [
@@ -110,7 +110,7 @@
         "link": "data-sharing"
       }
     ]
-  },  
+  },
   {
     "id": "data-analytics",
     "title": "Data Analytics",
@@ -122,21 +122,203 @@
   },
   {
     "id": "data-mapping",
-    "title": "Data Mapping",
-    "subtitle": "coming soon...",
+    "title": "Mapping",
+    "subtitle": "Location Intelligence with GIS Technology",
     "icon": "mapping.svg",
-    "coverImg": "data-mapping.jpg",
-    "descHeading": "",
-    "descContent": ""
+    "coverImg": "mapping.jpg",
+    "descHeading": "Integrated mapping capability for accurate location verification, real-time tracking, and better data analysis",
+    "descContent": "Interactive GIS mapping technology is directly integrated into the InfoShare™ Engine to assist with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
+    "diagram": {
+      "img": "mapping.jpg",
+      "desc": "Mapping technology has a wide range of applications that facilitate better decision-making. Traditional systems without GIS assistance lack valuable location intelligence and data visualization. Mapping in InfoShare™ is used by a range of different products including CAD (incident location, unit recommendation, GPS, AVL), RMS (crime analysis, master location index), FIRE & EMS (unit monitoring, location information), and Analytics (heat mapping, multidimensional analysis), to name a few. "
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Geo-verified Location",
+          "Real-time Tracking",
+          "Data Analysis",
+          "Public Mapping Portal",
+          "Mapping Features",
+          "Mapping Platform Support",
+          "Mobile Application"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "No GIS Support",
+        "content": [
+          "Address without geographic information",
+          "May not be provided",
+          "No geovisualization and limited geospatial data",
+          "Not provided",
+          "Few interactive features or only data showing",
+          "Support a single map platform",
+          "May not be provided"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Full GIS Integration",
+        "content": [
+          "Master Location Index with latitude-longitude values",
+          "AVL for dispatched units record coordinates  lat all times",
+          "Extensive multidimensional visualization with different view options and customizable layers",
+          "Community crime mapping for citizens to stay informed",
+          "Fully interactive mapping with navigation, vector layers, clusters, etc.",
+          "Support multiple map platforms such as Bing, Google, and ArcGIS",
+          "Full integration with MDTs for better navigation and positioning"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "click.svg",
+        "title": "Better Decision Making"
+      },
+      {
+        "icon": "master_name_index.svg",
+        "title": "Valuable Location Intelligence"
+      },
+      {
+        "icon": "data_share.svg",
+        "title": "Single Master Location Index"
+      },
+      {
+        "icon": "analytics.svg",
+        "title": "Crime Analysis & Forecasting"
+      },
+      {
+        "icon": "customization.svg",
+        "title": "High Interactivity & Customization"
+      },
+      {
+        "icon": "mobile_operations.svg",
+        "title": "Full Mobile Support"
+      }
+    ],
+    "relatedCapabilities": [
+      {
+        "title": "Data Analytics",
+        "desc": "Transforming data and analysis into actionable insights",
+        "icon": "icon-analytics_solid",
+        "link": "data-analytics"
+      },
+      {
+        "title": "InfoShare Engine®",
+        "desc": "Low Code Development Platform for Government ERP Application",
+        "icon": "icon-engine_solid",
+        "link": "infoShare-engine"
+      },
+      {
+        "title": "Security",
+        "desc": "Robust data encryption, permission, and privacy",
+        "icon": "icon-security_force_solid",
+        "link": "security"
+      }
+    ]
   },
   {
     "id": "cloud-integration",
     "title": "Cloud Integration",
-    "subtitle": "coming soon...",
+    "subtitle": "Mature Hybrid Cloud-Ready Applications for Speed and Security",
     "icon": "cloud_integration.svg",
     "coverImg": "cloud-integration.jpg",
-    "descHeading": "",
-    "descContent": ""
+    "descHeading": "Cloud-based software suite with scaled up resources, enhanced data sharing, and low-cost operations",
+    "descContent": "CSI has considerable expertise in cloud migration services. We leverage the power of cloud computing to help agencies transfer their operations to CJIS-compliant cloud platforms. But CSI’s cloud integration isn’t limited to scaling up resources and improving government capabilities. InfoShare™ Cloud also enhances data sharing and application design. All products and modules within InfoShare™ are integrated and cloud-deployable, creating a cohesive enterprise application platform designed specifically for the unique needs of the public sector.",
+    "diagram": {
+      "img": "ci.jpg",
+      "desc": "InfoShare™ Cloud brings multiple cloud environments together to create scalable, reliable, and low-cost applications operating as a single, cohesive IT infrastructure. Our integration supports public, private, and hybrid cloud requirements hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. Traditional application integration is complex, expensive, and not to mention, resource-intensive. They typically lack flexibility and have limited storage. CSI’s cloud integration with robust security authentication and permission policies yields many advantages including scalability, unlimited storage, improved performance, enhanced user experience, and substantial cost savings in maintenance and deployment."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Storage Space",
+          "Data Sharing",
+          "Customization",
+          "Maintenance",
+          "Security",
+          "Deployment",
+          "Robustness"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "Traditional Application Integration",
+        "content": [
+          "Limited storage space",
+          "Limited sharing especially across great distances. Geographical restrictions",
+          "Changes are restricted by the underlying software architecture",
+          "Require a sizable commitment from IT staff",
+          "Restricted protection based on vendors’ capability",
+          "Slow, complex, and resource-intensive",
+          "Vulnerable to localized disasters such as flooding or fire"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Cloud Integration",
+        "content": [
+          "Unlimited storage space",
+          "Break down data silos and improve connectivity for internal and external connections.No geographical restrictions",
+          "Flexible customization by updating configuration in the cloud",
+          "Updates and backups are automatic, more frequent, and handled by the provider",
+          "Strong identity, access management, data, and cybersecurity protection",
+          "Multiple cloud services available for different deployment plans",
+          "Superior disaster preparedness and recovery"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "agencies.svg",
+        "title": "Break Down Data Silos"
+      },
+      {
+        "icon": "security_force.svg",
+        "title": "Dynamic Security Protection"
+      },
+      {
+        "icon": "data_import.svg",
+        "title": "Quick Setup and Deployment"
+      },
+      {
+        "icon": "components.svg",
+        "title": "Flexible Operations"
+      },
+      {
+        "icon": "cost_efficient.svg",
+        "title": "Predictable Cost"
+      },
+      {
+        "icon": "customization.svg",
+        "title": "High Customization"
+      }
+    ],
+    "relatedCapabilities": [
+      {
+        "title": "InfoShare Engine®",
+        "desc": "Low Code Development Platform for Government ERP Application",
+        "icon": "icon-engine_solid",
+        "link": "infoShare-engine"
+      },
+      {
+        "title": "Security",
+        "desc": "Robust data encryption, permission, and privacy",
+        "icon": "icon-security_force_solid",
+        "link": "security"
+      },
+      {
+        "title": "Data Migration",
+        "desc": "Comprehensive, structured data conversion services",
+        "icon": "icon-data_migration_solid",
+        "link": "data-migration"
+      }
+    ]
   },
   {
     "id": "low-code-development",
@@ -220,24 +402,6 @@
         "title": "Limited Expertise Necessary"
       }
     ],
-    "steps": {
-      "clip": "infoshare-engine_clip.gif",
-      "desc": "Simple application development keeps admin teams small, agile, and focused on higher-level, value-adding activities. ",
-      "items": [
-        {
-          "title": "Define Requirement",
-          "body": "The development lifecycle starts with defining the requirements for the application. Even if the requirements change, a low code development platform allows users to quickly and easily update the system."
-        },
-        {
-          "title": "Copy Application",
-          "body": "Find an optimal application template from the database and copy it as the base application. Each base application is an actual working application with various functions and pages."
-        },
-        {
-          "title": "Modify Application",
-          "body": "Configure the application by simply changing database table fields. The application further supports automated unit testing and a debugging mode that guides users through application logic errors. Quickly develop a working prototype that can be improved with each iteration."
-        }
-      ]
-    },
     "relatedCapabilities": [
       {
         "title": "InfoShare Engine®",
@@ -262,11 +426,100 @@
   {
     "id": "vertical-integration",
     "title": "Vertical Integration",
-    "subtitle": "coming soon...",
+    "subtitle": "From Public Safety to Municipal Services to Judiciary and Regulatory Agencies",
     "icon": "vertical_integration.svg",
     "coverImg": "vertical-integration.jpg",
-    "descHeading": "",
-    "descContent": ""
+    "descHeading": "Vertically integrated solutions for end-to-end service from call handling to case disposition",
+    "descContent": "Eliminate information silos, improve data sharing, and take full control of the incident workflow with CSI’s unified software suite. The law enforcement and criminal justice process is complex and dynamic: call handling, dispatch, intelligence, field response, reporting, evidence, investigation, analysis, arrest, indictment, trial, sentencing, and potential imprisonment. With our vertically integrated product lines, information is transferred and exchanged seamlessly among different public servants and multiple government agencies.",
+    "diagram": {
+      "img": "vi.jpg",
+      "mobileimg": "vi-s.jpg",
+      "desc": "Vertical integration enables organizations to completely control the incident workflow, maximizing efficiency, collaboration, and safety. Most vendors only deliver solutions to one or two stages of the complete criminal justice and public safety process. Agencies need to work with multiple vendors and pay them exorbitant fees for integration and interfacing. In comparison, CSI’s vertical integration strategy ensures seamless data transfer across all product lines and eliminates the need for agencies to combine the products themselves."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Cost",
+          "Expertise",
+          "Quality Control",
+          "Support",
+          "Data Sharing",
+          "Integration"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "No Vertical Integration",
+        "content": [
+          "Combining multiple products by different vendors costs more",
+          "Specific domain knowledge",
+          "Difficult to guarantee quality",
+          "Multiple vendors results in different service standards",
+          "Difficult to share and transfer data with external products",
+          "Provide multiple, disparate systems"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Vertical Integration",
+        "content": [
+          "Complete control of the product line decreases coordination costs",
+          "Extensive, professional expertise  on the whole product line",
+          "Ensure quality in every step of the process",
+          "One vendor provides consistent service quality",
+          "Easy to share data via interfaces",
+          "Unified, fully integrated software suite "
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "interoperability.svg",
+        "title": "Maximum Integration"
+      },
+      {
+        "icon": "citizen_access.svg",
+        "title": "Effective Collaboration"
+      },
+      {
+        "icon": "data_share.svg",
+        "title": "Seamless Data Sharing"
+      },
+      {
+        "icon": "bias.svg",
+        "title": "High Quality Control"
+      },
+      {
+        "icon": "ta.svg",
+        "title": "Expert Interfacing"
+      },
+      {
+        "icon": "resource_reduce.svg",
+        "title": "Lower Costs"
+      }
+    ],
+    "relatedCapabilities": [
+      {
+        "title": "InfoShare Engine®",
+        "desc": "Low Code Development Platform for Government ERP Application",
+        "icon": "icon-engine_solid",
+        "link": "infoShare-engine"
+      },
+      {
+        "title": "Data Sharing",
+        "desc": "Break down information silos to promote interagency collaboration",
+        "icon": "icon-data_share_solid",
+        "link": "data-sharing"
+      },
+      {
+        "title": "Cloud Integration",
+        "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
+        "icon": "icon-cloud_integration_solid",
+        "link": "cloud-integration"
+      }
+    ]
   },
   {
     "id": "infoShare-engine",
@@ -278,7 +531,7 @@
     "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare™ Engine benefit from seamless integration, scalability, and adaptability. ",
     "diagram": {
       "img": "infoshare-engine.jpg",
-      "desc": "InfoShare Engine® is a <span class='primary-link'>low code development</span> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
+      "desc": "InfoShare Engine® is a <a href='/capabilities/low-code-development' class='primary-link'>low code development</a> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
     },
     "lists": [
       {
@@ -378,7 +631,7 @@
         "title": "Low Code Development",
         "desc": "Proprietary low-code technology to facilitate application development",
         "icon": "icon-lowcode_solid",
-        "link": "low-code"
+        "link": "low-code-development"
       },
       {
         "title": "Cloud Integration",

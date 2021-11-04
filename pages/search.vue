@@ -65,7 +65,7 @@
                 />
               </div>
               <div class="tw-flex-auto tw-py-5 tw-pr-5">
-                <div class="body-text-2 tw-font-semibold tw-mb-2">
+                <div class="tw-text-xl tw-font-semibold tw-mb-2">
                   {{ item.title }}
                 </div>
                 <div class="tw-opacity-70">{{ item.subtitle }}</div>
@@ -90,7 +90,7 @@
             "
           >
             <div class="text-grey">{{ item.date }}</div>
-            <div class="body-text-1 tw-font-semibold tw-my-2">
+            <div class="tw-text-2xl tw-font-semibold tw-my-2">
               {{ item.title }}
             </div>
             <div class="tw-opacity-70">{{ item.desc | getBrief(250) }}</div>

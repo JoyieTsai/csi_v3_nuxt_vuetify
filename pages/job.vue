@@ -5,7 +5,8 @@
       <div
         class="hero-section md"
         :style="{
-          backgroundImage: `url(images/covers/${category}/${coverimg})`,
+          background: `url(images/covers/${category}/${coverimg}) center`,
+          backgroundSize: `cover`,
         }"
       >
         <div class="main-container tw-mx-auto">
@@ -44,11 +45,11 @@
                     {{ func.title }}
                   </div>
 
-                  <ul class="tw-list-disc tw-mb-10 body-text-3">
+                  <ul class="tw-list-disc tw-mb-10 tw-text-lg">
                     <li
                       v-for="(item, j) in func.content"
                       :key="j"
-                      class="body-text-3 opacity-1 tw-my-2"
+                      class="tw-text-lg opacity-1 tw-my-2"
                     >
                       <!-- eslint-disable-next-line vue/no-v-html -->
                       <span v-html="item"></span>
@@ -87,7 +88,7 @@
               <img
                 :src="require('~/assets/duotone/' + benefit.icon)"
                 alt=""
-                class="tw-w-16 md:tw-w-20"
+                class="tw-w-16 xl:tw-w-20"
               />
               <div class="title tw-leading-tight tw-my-3">
                 {{ benefit.title }}
@@ -105,7 +106,7 @@
             <div class="header-3 tw-font-semibold tw-text-white tw-text-center">
               Apply for Job
             </div>
-            <div class="body-text-1 tw-mb-10 tw-text-white tw-text-center">
+            <div class="tw-text-2xl tw-mb-10 tw-text-white tw-text-center">
               Fill in your information and upload your resume here.
             </div>
 

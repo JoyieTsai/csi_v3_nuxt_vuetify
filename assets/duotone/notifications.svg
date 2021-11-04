@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/notifications copy</title>
-    <g id="duotone/notifications-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/notifications</title>
+    <g id="duotone/notifications" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="79 96.75 79 100.25 41 100.25 41 96.75"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="69 104.75 69 108.25 50 108.25 50 104.75"></polygon>
         <path d="M68.75,13.25 L68.7501002,22.8520799 C77.5382947,26.2119418 84.1162877,34.5289207 85.4529686,44.6650312 L85.512,45.149 L85.5168229,45.1494993 L88.634,73.25 L99.8179012,73.25 L99.8179012,88.75 L20.3179012,88.75 L20.3179012,73.25 L31.501,73.25 L34.6189795,45.1494993 L34.623,45.149 L34.675561,44.7205976 C35.9886553,34.6119359 42.5133941,26.3045062 51.2491222,22.9047646 L51.25,13.25 L68.75,13.25 Z" id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.295239403"></path>

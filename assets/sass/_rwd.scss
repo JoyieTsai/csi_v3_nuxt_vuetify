@@ -39,20 +39,6 @@ $x5: 0.6;
       font-size: ceil($heading-5-size * $x9);
     }
   }
-  .title {
-    font-size: ceil($title-size * $x9);
-  }
-  .body {
-    &-1 {
-      font-size: ceil($body-1-size * $x9);
-    }
-    &-2 {
-      font-size: ceil($body-2-size * $x9);
-    }
-    &-3 {
-      font-size: ceil($body-3-size * $x9);
-    }
-  }
 }
 
 @media only screen and (max-width: $breakpoints-xl) {
@@ -89,24 +75,6 @@ $x5: 0.6;
       font-size: ceil($heading-5-size * $x8);
     }
   }
-  .title {
-    font-size: ceil($title-size * $x8);
-  }
-  .body {
-    &-1 {
-      font-size: ceil($body-1-size * $x8);
-    }
-    &-2 {
-      font-size: ceil($body-2-size * $x8);
-    }
-    &-3 {
-      font-size: ceil($body-3-size * $x8);
-    }
-  }
-  .ant-dropdown-link,
-  .ant-btn-link {
-    font-size: ceil($body-3-size * $x8);
-  }
 }
 
 @media only screen and (max-width: $breakpoints-lg) {
@@ -114,11 +82,12 @@ $x5: 0.6;
   .hero {
     &-section {
       height: ceil($hero-xl * $x7);
+
       &.md {
-        height: ceil($hero-md * $x7);
+        height: ceil($hero-md * $x6);
       }
       &.sm {
-        height: ceil($hero-sm * $x7);
+        height: ceil($hero-sm * $x6);
       }
     }
   }
@@ -144,9 +113,6 @@ $x5: 0.6;
       font-size: ceil($heading-5-size * $x7);
     }
   }
-  .title {
-    font-size: ceil($title-size * $x7);
-  }
   .btn {
     &-lg {
       font-size: ceil($body-3-size * $x9);
@@ -159,7 +125,15 @@ $x5: 0.6;
   // Layout
   .hero {
     &-section {
-      background-position: 40% bottom;
+      height: 400px;
+      background-position: 45% bottom;
+      background-size: 1800px;
+    }
+    &.md {
+      height: ceil($hero-md * 0.4);
+    }
+    &.sm {
+      height: ceil($hero-sm * 0.4);
     }
   }
   // Font size
@@ -186,6 +160,10 @@ $x5: 0.6;
       min-width: 44px;
       height: 44px;
     }
+    &-lg {
+      font-size: ceil($body-3-size * $x8);
+      min-width: 135px;
+    }
   }
   .absolute-center {
     top: 40%;
@@ -199,9 +177,9 @@ $x5: 0.6;
   // Layout
   .hero {
     &-section {
-      height: 700px;
-      background-position: 70% bottom;
-      background-size: 1350px;
+      height: 630px;
+      background-position: 76% bottom;
+      background-size: 1200px;
     }
   }
   // Font size
@@ -222,33 +200,25 @@ $x5: 0.6;
       font-size: ceil($heading-5-size * $x5);
     }
   }
-  .title {
-    font-size: ceil($title-size * $x6);
-  }
-  .body {
-    &-1 {
-      font-size: ceil($body-1-size * $x7);
-    }
-    &-2 {
-      font-size: ceil($body-2-size * $x7);
-    }
-    &-3 {
-      font-size: ceil($body-3-size * $x7);
-    }
-  }
-  .btn {
-    &-lg {
-      font-size: ceil($body-3-size * $x8);
-      min-width: 150px;
-    }
-  }
-}
-
-@media only screen and (max-width: $breakpoints-xs) {
   .btn {
     &-lg {
       font-size: ceil($body-3-size * $x7);
       min-width: 120px;
     }
+  }
+  .bg-gradient-0,
+  .bg-gradient-1,
+  .bg-gradient-2 {
+    background: linear-gradient(
+      180deg,
+      $primary-color 0%,
+      $primary-light-color 100%
+    );
+  }
+  .bg-hexagon {
+    background-size: cover;
+  }
+  .bg-contact {
+    background-size: cover;
   }
 }

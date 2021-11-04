@@ -86,7 +86,7 @@
       width="100%"
       @ok="() => (modalVideo = false)"
     >
-      <div class="aspect-w-16 aspect-h-9">
+      <div class="tw-aspect-w-16 tw-aspect-h-9">
         <iframe
           v-if="modalVideo"
           :src="'https://www.youtube.com/embed/' + videoid"

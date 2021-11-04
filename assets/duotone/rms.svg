@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/rms copy</title>
-    <g id="duotone/rms-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/rms</title>
+    <g id="duotone/rms" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M92.25,12.7809332 L92.25,106.780933 L68.948,106.780933 L67.9511371,106.345441 C67.7107676,106.240438 67.476985,106.124737 67.2502888,105.999012 L67.2505908,105.949104 C67.1199513,105.892035 66.9907668,105.832256 66.8631085,105.769837 C64.4988047,104.284871 63,101.670471 63,98.7809332 L63,87.5309332 L62.882,87.5309332 L62.882,84.0309332 L27.25,84.0309332 L27.25,12.7809332 L92.25,12.7809332 Z M60.1632627,21 L54.5275413,32.6360513 L42,34.4921047 L51.0631134,43.4965343 L48.9166072,56.2562565 L60.1632627,50.2296551 L71.4099181,56.2562565 L69.2624666,43.4965343 L78.3265253,34.4921047 L65.7980388,32.6360513 L60.1632627,21 Z" id="Combined-Shape" fill="#0D63BA" opacity="0.297366097"></path>
         <polygon id="Path" fill="#0D63BA" points="82.25 71.25 82.25 74.75 37.25 74.75 37.25 71.25"></polygon>
         <polygon id="Path" fill="#0D63BA" points="82.25 62.25 82.25 65.75 37.25 65.75 37.25 62.25"></polygon>

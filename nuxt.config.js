@@ -7,7 +7,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.4-10062021',
+    dir: 'test-V1.6-10262021',
   },
 
   /*
@@ -51,10 +51,6 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css',
       },
-      // {
-      //   rel: 'stylesheet',
-      //   href: 'https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css',
-      // },
     ],
   },
 
@@ -62,7 +58,7 @@ export default {
   css: [
     { src: '@/assets/tailwind.scss', lang: 'scss' },
     { src: '@/assets/style.scss', lang: 'scss' },
-    '@/assets/fonts/CSI-icon-v2.0/style.css',
+    '@/assets/fonts/CSI-icon-v2.2/style.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -118,6 +114,6 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['vee-validate']
+    transpile: ['vee-validate'],
   },
 }

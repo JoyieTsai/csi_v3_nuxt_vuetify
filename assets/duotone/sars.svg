@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/sars copy</title>
-    <g id="duotone/sars-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/sars</title>
+    <g id="duotone/sars" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M82,55.25 C93.4599086,55.25 102.75,64.5400914 102.75,76 C102.75,81.6609005 100.483119,86.7923425 96.8075991,90.536084 L110.074926,105.558175 L107.451528,107.875022 L94.1542916,92.8195813 C90.7383367,95.292349 86.5393947,96.75 82,96.75 C70.5400914,96.75 61.25,87.4599086 61.25,76 C61.25,64.5400914 70.5400914,55.25 82,55.25 Z M82,58.75 C72.4730881,58.75 64.75,66.4730881 64.75,76 C64.75,85.5269119 72.4730881,93.25 82,93.25 C91.5269119,93.25 99.25,85.5269119 99.25,76 C99.25,66.4730881 91.5269119,58.75 82,58.75 Z" id="Shape" fill="#0D63BA" fill-rule="nonzero"></path>
         <polygon id="Path-37-Copy-15" fill="#0D63BA" fill-rule="nonzero" opacity="0.304268973" points="12.0011475 63.2500004 27.0011475 63.2598364 26.9988525 66.7598357 11.9988525 66.7499996"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="41 72 41 107 29 107 29 72"></polygon>

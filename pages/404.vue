@@ -8,11 +8,14 @@
           backgroundImage: `url(images/covers/${category}/${coverimg})`,
         }"
       >
-        <div class="main-container tw-mx-auto tw-mt-52">
-          <div class="tw-flex tw-justify-center">
-            <div class="header-3 tw-text-center tw-text-white tw-w-1/3">
-              We can’t found the page that you’re looking for :(
-            </div>
+        <div
+          class="
+            main-container
+            tw-mx-auto tw-flex tw-items-end tw-justify-center
+          "
+        >
+          <div class="header-3 tw-text-center tw-text-white tw-mb-40 tw-w-1/3">
+            We can’t found the page that you’re looking for :(
           </div>
         </div>
       </div>
@@ -44,7 +47,7 @@
               :key="index"
               class="tw-flex tw-flex-col lg:tw-flex-row tw-items-center"
             >
-              <div class="tw-flex-none tw-rounded tw-bg-white tw-shadow-1">
+              <div class="tw-flex-none tw-rounded tw-bg-white shadow-1">
                 <img
                   class="tw-m-10 tw-w-16"
                   :src="require('~/assets/duotone/' + item.icon)"
@@ -59,7 +62,7 @@
                     >{{ item.title }}</nuxt-link
                   >
                 </div>
-                <div class="body-text-3 tw-opacity-70 tw-mt-2">
+                <div class="tw-text-lg tw-opacity-70 tw-mt-2">
                   {{ item.desc }}
                 </div>
               </div>

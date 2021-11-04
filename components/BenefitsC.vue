@@ -7,20 +7,33 @@
         tw-grid
         md:tw-grid-cols-2
         lg:tw-grid-cols-3
-        tw-gap-8
-        lg:tw-p-10
+        tw-gap-4
+        lg:tw-gap-8 lg:tw-p-10
         tw-py-5
       "
     >
-      <div v-for="(item, index) in data" :key="index" class="flex items-center">
-        <div class="tw-text-5xl text-primary-light tw-mr-4 bg-light tw-rounded">
+      <div
+        v-for="(item, index) in data"
+        :key="index"
+        class="tw-flex tw-items-center"
+      >
+        <div
+          class="
+            tw-text-4xl
+            xl:tw-text-5xl
+            text-primary-light
+            tw-mr-4
+            bg-light
+            tw-rounded
+          "
+        >
           <img
-            class="tw-w-16 tw-m-5"
+            class="tw-w-12 xl:tw-w-16 tw-m-5"
             :src="require('~/assets/duotone/' + item.icon)"
             alt=""
           />
         </div>
-        <div class="body-text-1 tw-text-left tw-font-semibold">
+        <div class="tw-text-lg xl:tw-text-xl tw-text-left tw-font-semibold">
           {{ item.title }}
         </div>
       </div>

@@ -1,6 +1,6 @@
 <template>
   <div class="tw-pb-5 tw-pt-10 lg:tw-pt-20 footer-line">
-    <div class="tw-flex tw-flex-col md:tw-flex-row">
+    <div class="tw-flex tw-flex-col lg:tw-flex-row">
       <!-- Info -->
       <div
         class="
@@ -8,7 +8,7 @@
           xl:tw-px-20
           tw-w-full
           xl:tw-w-96
-          md:tw-w-72
+          lg:tw-w-72
         "
       >
         <img
@@ -48,8 +48,7 @@
         </div>
         <!-- Address -->
         <div class="tw-text-center tw-mt-10 tw-opacity-70">
-          <p>330 Mac Lane, Keasbey<br />NJ 08832 U.S.A</p>
-          <p>Tel: +1(732)346-0200</p>
+          <p>330 Mac Lane, Keasbey, NJ 08832 U.S.A<br />Tel: +1(732)346-0200</p>
         </div>
         <!-- VERIFIED Seal -->
         <div class="tw-mt-10 lg:tw-mt-32">
@@ -79,7 +78,9 @@
         >
           <div v-for="(data, i) in datas" :key="i" class="tw-flex-auto">
             <div>
-              <div class="body-text-2 text-primary">{{ data.title }}</div>
+              <div class="tw-text-lg xl:tw-text-xl text-primary">
+                {{ data.title }}
+              </div>
               <div
                 class="divide-primary-light tw-border-t tw-mt-2 tw-mb-4"
               ></div>
@@ -98,14 +99,26 @@
                   <nuxt-link
                     v-if="tab.id"
                     :to="'/' + data.category + tab.id"
-                    class="tw-block footer-link tw-mb-2"
+                    class="
+                      tw-block
+                      footer-link
+                      tw-text-sm
+                      xl:tw-text-base
+                      tw-mb-2
+                    "
                   >
                     {{ tab.title }}
                   </nuxt-link>
                   <nuxt-link
                     v-else
                     :to="'/' + data.category"
-                    class="tw-block footer-link tw-mb-2"
+                    class="
+                      tw-block
+                      footer-link
+                      tw-text-sm
+                      lg:tw-text-base
+                      tw-mb-2
+                    "
                   >
                     {{ tab.title }}
                   </nuxt-link>
@@ -118,20 +131,26 @@
         <div
           class="
             tw-flex tw-flex-col
-            lg:tw-flex-row
+            md:tw-flex-row
             tw-justify-between tw-mt-10 tw-text-center
             lg:tw-text-left
           "
         >
-          <div class="tw-opacity-50 tw-order-last lg:tw-order-first">
+          <div class="tw-text-sm tw-opacity-50 tw-order-last lg:tw-order-first">
             Copyright © CSI Technology Group.
           </div>
-          <div class="tw-mb-5 lg:tw-mb-0 tw-mr-0 xl:tw-mr-16 sm:tw-mr-8">
+          <div class="tw-mb-2 lg:tw-mb-0 tw-mr-0 xl:tw-mr-16 sm:tw-mr-8">
             <nuxt-link
               v-for="(link, i) in footerLinks"
               :key="i"
               :to="'/' + link.url"
-              class="text-link tw-opacity-50 tw-ml-4 hover:tw-opacity-100"
+              class="
+                tw-text-sm
+                xl:tw-text-base
+                text-link
+                tw-opacity-50 tw-ml-4
+                hover:tw-opacity-100
+              "
               >{{ link.title }}
             </nuxt-link>
           </div>
@@ -164,9 +183,10 @@ export default {
 
 .footer-link {
   color: $grey-dark-color !important;
-  font-size: 1rem;
+  &:hover {
+    color: $primary-color !important;
+  }
 }
-
 .item-link {
   &:last-child {
     margin-bottom: 1.5rem;

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/increase copy</title>
-    <g id="duotone/increase-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/increase</title>
+    <g id="duotone/increase" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" transform="translate(60.500000, 32.539326) scale(1, -1) translate(-60.500000, -32.539326) " points="15.2726913 13 29.1861649 25.6883936 37.8513874 16.7475415 56.7154007 33.2060819 71.4826266 17.6344158 102.936882 44.8054979 100.819368 35.187124 104.119449 34.4550947 108 52.0786517 90.1318909 50.0472602 90.5122771 46.6766105 101.348416 47.9079103 71.7144826 22.3099978 56.9368553 37.8935315 38.0454608 21.4111062 29.3321057 30.4039699 13 15.5107117"></polygon>
         <path d="M23,86.9325843 C28.5228475,86.9325843 33,91.4248283 33,96.9662921 C33,102.507756 28.5228475,107 23,107 C17.4771525,107 13,102.507756 13,96.9662921 C13,91.4248283 17.4771525,86.9325843 23,86.9325843 Z" id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.3" transform="translate(23.000000, 96.966292) scale(1, -1) translate(-23.000000, -96.966292) "></path>
         <path d="M23,90.444382 C19.4101491,90.444382 16.5,93.3643406 16.5,96.9662921 C16.5,100.568244 19.4101491,103.488202 23,103.488202 C26.5898509,103.488202 29.5,100.568244 29.5,96.9662921 C29.5,93.3643406 26.5898509,90.444382 23,90.444382 Z" id="Path" fill="#0D63BA" fill-rule="nonzero" transform="translate(23.000000, 96.966292) scale(1, -1) translate(-23.000000, -96.966292) "></path>

@@ -9,6 +9,10 @@
     @include ripple($primary-light-color);
   }
 
+  &-block {
+    width: 100%;
+  }
+
   &-primary {
     color: $white;
     background-color: $primary-color;
@@ -116,7 +120,8 @@
     }
   }
 
-  &--text,&--icon {
+  &--text,
+  &--icon {
     color: $grey-dark-color;
     &:hover {
       color: $primary-color !important;
@@ -134,7 +139,7 @@
 
 .bg-primary-light {
   a {
-    color: white;
+    color: white !important;
     text-decoration: underline;
   }
 }
@@ -142,4 +147,9 @@
 .v-btn.v-size--large {
   font-size: $body-3-size !important;
   font-weight: 600;
+}
+
+.title-link {
+  color: rgba(0, 0, 0, 0.87) !important;
+  text-decoration: underline;
 }

@@ -4,7 +4,7 @@
       <Hero :category="category" :coverimg="coverimg">
         <template v-slot:icon>
           <img
-            class="tw-w-16 md:tw-w-20 tw-mb-5"
+            class="tw-w-16 xl:tw-w-20 tw-mb-5"
             :src="require('~/assets/duotone/' + icon)"
             :alt="title"
           />
@@ -80,7 +80,7 @@
                     lg:tw-ml-24
                     md:tw-ml-20
                     tw-text-xs
-                    md:body-text-1
+                    md:tw-text-2xl
                   "
                 >
                   {{ item.year }}
@@ -103,7 +103,7 @@
               >
                 <div
                   data-aos="fade-right"
-                  data-aos-duration="2000"
+                  data-aos-duration="1500"
                   class="tw-flex-1"
                 >
                   <div class="tw-mr-6 xl:tw-mr-12">
@@ -116,7 +116,7 @@
                 </div>
                 <div
                   data-aos="fade-left"
-                  data-aos-duration="2000"
+                  data-aos-duration="1500"
                   class="tw-flex-1"
                 >
                   <div class="tw-ml-6 xl:tw-ml-12">

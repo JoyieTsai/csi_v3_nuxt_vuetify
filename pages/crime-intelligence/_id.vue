@@ -9,7 +9,7 @@
       >
         <template v-slot:icon>
           <img
-            class="tw-w-16 md:tw-w-20"
+            class="tw-w-16 xl:tw-w-20"
             :src="require('~/assets/duotone/' + icon)"
             :alt="title"
           />
@@ -47,14 +47,6 @@
 import Products from '~/data/crime-intelligence.json'
 
 export default {
-  fetch({ params, redirect }) {
-    const product = Products.filter((res) => {
-      return res.id === params.id
-    })
-    if (product.length < 1) {
-      redirect(404, '/404')
-    }
-  },
   data: () => ({
     btnGroup: true,
     category: 'crime-intelligence',
@@ -75,6 +67,14 @@ export default {
     relatedProducts: Array,
     quote: String,
   }),
+  fetch({ params, redirect }) {
+    const product = Products.filter((res) => {
+      return res.id === params.id
+    })
+    if (product.length < 1) {
+      redirect(404, '/404')
+    }
+  },
   created() {
     this.getData(this.$route.params.id)
   },

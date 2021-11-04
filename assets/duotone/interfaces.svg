@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/interfaces copy</title>
-    <g id="duotone/interfaces-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/interfaces</title>
+    <g id="duotone/interfaces" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="59.3574846 13 96 34.4083929 59.3574846 56 22 34.7143754"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.30187407" points="83.869 44.5 96 51.6646216 59.3428071 73.5 22 51.9918079 33.939 44.976 58.9152076 59.3257967"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="84.673 61.001 96 67.8016075 59.3428071 90 22 68.1342333 33.111 61.497 58.9152076 76.8369597"></polygon>

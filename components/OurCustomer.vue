@@ -3,20 +3,31 @@
     <div class="tw-flex tw-flex-col xl:tw-flex-row">
       <div class="tw-flex-1">
         <div class="tw-p-10 lg:tw-p-20 2xl:tw-p-28">
-          <div class="header-2">Our Customers</div>
-          <div class="body-text-2">
-            Our customers are our most valuable asset, and it is through our
-            relationships with them that CSI has evolved into a leader in
-            providing solutions for the public safety, judicial and regulatory
-            government community. Since 1997, when we provided our first
-            customer, the Atlantic County (NJ) Prosecutor’s Office, with a
-            customized solution for its case management needs,<br /><br />CSI
-            Technology Group has partnered with each client to provide the
-            optimum system for handling their unique needs. Whether it is
-            investigation and prosecution case management, court case
-            processing, regulatory enforcement or intelligence security
-            coordination, CSI’s modules are developed to efficiently and
-            effectively support each agency.
+          <div class="header-2">Our Clients</div>
+          <div class="tw-text-base lg:tw-text-lg xl:tw-text-xl">
+            <p>
+              Our clients are our most valuable asset. CSI has evolved into a
+              premier software and service provider because we collaborated with
+              our clients every step of the way. We listen closely to what our
+              clients need in order to design solutions that handle their unique
+              requirements. CSI’s success is a testament to the professionalism,
+              teamwork, and dedication of all government agencies we serve. We
+              are partners, and partners look out for each other.
+            </p>
+            <p>
+              Our anticipated length of time for each partnership is forever.
+              That’s why our technology is designed not only to meet an agency’s
+              current needs but also to address its future needs. We design for
+              longevity. Government agencies operate in dynamic environments
+              with evolving requirements, so our applications are both
+              customizable and scalable. But providing superior technology is
+              not enough, agencies also have budgetary constraints. Thanks to
+              our patented
+              <a href="/capabilities/infoShare-engine" class="btn-link">
+                InfoShare Engine® </a
+              >, our software can be deployed, maintained, and upgraded for a
+              fraction of the cost.
+            </p>
           </div>
         </div>
       </div>
@@ -31,7 +42,7 @@
               <template v-slot:activator="{ on, attrs }">
                 <div v-bind="attrs" class="point" v-on="on"></div>
               </template>
-              <span class="text-primary body-text-3 tw-font-semibold">
+              <span class="text-primary tw-text-lg tw-font-semibold">
                 {{ item.state }}
               </span>
             </v-tooltip>

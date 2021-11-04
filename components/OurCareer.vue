@@ -4,19 +4,26 @@
     <div class="tw-flex tw-flex-col lg:tw-flex-row">
       <div class="lg:tw-w-1/3">
         <div class="header-2">Careers</div>
-        <div class="body-text-3 tw-opacity-70">
-          CSI is a leading application provider for government agencies and
-          local,regional and statewide law enforcement agencies.
-          <br /><br />Currently contracted by County Prosecutors’ Offices, the
-          Supreme Court and State Police of New Jersey, the North Carolina
-          Department of Justice in Raleigh, and others, CSI has established a
-          reputation in developing and supporting web-based application
-          solutions for various criminal justice, judiciary and regulatory
-          agencies. <br /><br />CSI has also installed and supports applications
-          in Hawaii, New Mexico, and Oklahoma.
+        <div class="tw-text-base xl:tw-text-lg tw-opacity-70">
+          <p>
+            CSI is a bridge between government agencies and citizens. We partner
+            with public safety, law enforcement, regulatory and judicial
+            government organizations to solve their toughest technology
+            challenges. We also facilitate the delivery and responsiveness of
+            public services.
+          </p>
+          <p>
+            Our highest priorities are customer satisfaction and product
+            excellence. A career at CSI means that together, we make society a
+            safer place with technology.
+          </p>
+          <p>
+            Browse our job openings to find something that fits your interests
+            and experience.
+          </p>
         </div>
         <button
-          class="tw-mt-12 btn-lg btn-primary hover:tw-shadow-xl"
+          class="tw-my-10 lg:tw-mb-0 btn-lg btn-primary hover:tw-shadow-xl"
           @click.prevent="routerTo('job')"
         >
           VIEW JOB OPENINGS
@@ -28,7 +35,8 @@
           lg:tw-w-2/3 lg:tw-pl-16
           tw-grid tw-grid-cols-2
           md:tw-grid-cols-3
-          tw-gap-6
+          tw-gap-4
+          md:tw-gap-6
         "
       >
         <div
@@ -38,6 +46,7 @@
             tw-bg-white
             shadow-1
             tw-flex tw-flex-col tw-items-center tw-text-center tw-p-5
+            zoomin
           "
         >
           <img
@@ -45,8 +54,14 @@
             alt=""
             class="tw-w-16 xl:tw-w-20"
           />
-          <div class="title tw-leading-tight tw-my-3">{{ career.title }}</div>
-          <div class="text-base tw-opacity-70">{{ career.desc }}</div>
+          <div class="tw-text-lg xl:tw-text-xl tw-leading-tight tw-my-3">
+            {{ career.title }}
+          </div>
+          <div
+            class="tw-text-sm xl:tw-text-base tw-opacity-70 tw-leading-tight"
+          >
+            {{ career.desc }}
+          </div>
         </div>
       </div>
     </div>
@@ -60,12 +75,12 @@ export default {
       {
         icon: 'cafeteria_plan.svg',
         title: 'Cafeteria plan',
-        desc: 'Full-time employee w/90 days of service',
+        desc: 'Full-time employee with 90 days of service',
       },
       {
         icon: 'medical_dental.svg',
         title: 'Medical & dental',
-        desc: 'Full-time employee w/90 days of service',
+        desc: 'Full-time employee with 90 days of service',
       },
       {
         icon: 'worker_insurance.svg',

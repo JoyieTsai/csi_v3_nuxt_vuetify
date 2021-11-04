@@ -25,7 +25,7 @@
     max-width: $breakpoints-xl;
   }
   @media (min-width: $breakpoints-2xl) {
-    max-width: 1635px;
+    max-width: 1600px;
   }
 }
 
@@ -39,7 +39,6 @@
 
     &.lg {
       height: $hero-lg;
-      background-position: center;
       background-size: cover;
     }
     &.md {
@@ -62,4 +61,8 @@
       margin-bottom: 0.8rem;
     }
   }
+}
+
+.v-navigation-drawer--temporary {
+  z-index: 101 !important;
 }

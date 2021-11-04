@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/fleet copy</title>
-    <g id="duotone/fleet-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/fleet</title>
+    <g id="duotone/fleet" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" transform="translate(32.450000, 53.150000) scale(-1, 1) translate(-32.450000, -53.150000) " points="45.5225645 48.25 19.3774355 48.25 16.060068 58.05 48.839932 58.05"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.301340012" transform="translate(32.000000, 68.650000) scale(-1, 1) translate(-32.000000, -68.650000) " points="51.75 61.95 12.25 61.95 12.25 75.35 51.75 75.35"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" transform="translate(42.350000, 83.150000) scale(-1, 1) translate(-42.350000, -83.150000) " points="49.05 78.25 35.65 78.25 35.65 88.05 49.05 88.05"></polygon>

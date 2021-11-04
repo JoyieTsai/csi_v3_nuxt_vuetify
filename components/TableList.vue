@@ -11,8 +11,10 @@
         <div
           v-else
           class="
-            header-5
-            tw-font-bold tw-flex tw-items-center tw-justify-center
+            tw-text-base
+            md:tw-text-lg
+            xl:tw-text-xl
+            tw-font-semibold tw-flex tw-items-center tw-justify-center
             table-card-title
           "
         >
@@ -20,8 +22,10 @@
         </div>
         <div
           class="
-            body-text-2
-            sm:title
+            tw-text-sm tw-font-semibold
+            md:tw-text-base
+            lg:tw-text-lg
+            xl:tw-text-xl
             tw-uppercase
             tw-h-16
             tw-flex
@@ -29,19 +33,25 @@
             tw-justify-center
             tw-text-white
             table-card-type
+            tw-px-2
+            md:tw-px-5 md:tw-leading-tight
           "
         >
           {{ item.type }}
         </div>
         <div v-if="item.title === 'CSI'">
-          <ul class="table-list blue">
+          <ul class="table-list lightblue">
             <li
               v-for="(con, j) in item.content"
               :key="j"
               class="
-                body-text-3
-                tw-flex tw-items-center tw-justify-center
+                tw-text-sm
+                sm:tw-text-base
+                lg:tw-text-lg
+                tw-flex tw-items-center tw-px-2
                 md:tw-px-5
+                tw-leading-none
+                md:tw-leading-tight
               "
             >
               {{ con }}
@@ -54,9 +64,12 @@
               v-for="(con, j) in item.content"
               :key="j"
               class="
-                body-text-3
-                tw-flex tw-items-center tw-justify-center
+                tw-text-sm
+                sm:tw-text-base
+                lg:tw-text-lg
+                tw-flex tw-items-center tw-px-2
                 md:tw-px-5
+                tw-leading-none
               "
             >
               {{ con }}
@@ -80,11 +93,11 @@ export default {
   position: relative;
   background-color: $white;
   flex: 1;
-  text-align: center;
   z-index: 1;
   padding-bottom: 1rem;
   margin-top: 25px;
   margin-bottom: 25px;
+  text-align: center;
 
   .header-5 {
     margin-bottom: 0;
@@ -103,6 +116,8 @@ export default {
     font-size: $body-1-size;
     font-weight: 600;
     z-index: 0;
+    color: $grey-dark-color;
+    text-align: left;
 
     @media only screen and (max-width: $breakpoints-md) {
       min-width: auto;
@@ -142,16 +157,18 @@ export default {
 }
 
 .table-list {
+  padding: 0 !important;
   margin-bottom: 0;
 
   li {
     height: 5rem;
+    justify-content: center;
     &:nth-child(even) {
       background-color: $light-color;
     }
   }
 
-  &.blue {
+  &.lightblue {
     li {
       &:nth-child(even) {
         background-color: rgba($primary-light-color, 0.1);

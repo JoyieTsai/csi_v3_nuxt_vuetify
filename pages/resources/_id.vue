@@ -18,7 +18,7 @@
               alt="back"
               class="tw-mr-3"
             />
-            <div class="body-text-2 tw-hidden md:tw-block">All</div>
+            <div class="tw-text-xl tw-hidden md:tw-block">All</div>
           </nuxt-link>
         </div>
       </div>
@@ -71,7 +71,7 @@
                 <div class="tw-flex tw-justify-between">
                   <div class="tips">
                     <div class="tw-flex tw-flex-wrap tw-opacity-70">
-                      Tags:
+                      <div class="mr-3">Tags:</div>
                       <div
                         class="
                           tw-bg-gray-200
@@ -112,7 +112,7 @@
                 </div>
                 <div
                   class="
-                    body-text-3
+                    tw-text-lg
                     tw-leading-relaxed tw-text-gray-500
                     news-body
                   "
@@ -170,7 +170,7 @@
                   />
                 </div>
                 <div class="tw-flex-auto md:tw-pt-5 xl:tw-pt-0">
-                  <div class="body-text-3 tw-font-semibold">
+                  <div class="tw-text-lg tw-font-semibold">
                     {{ item.title }}
                   </div>
                   <div class="tw-opacity-70">{{ item.subtitle }}</div>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/agency_control copy</title>
-    <g id="duotone/agency_control-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/agency_control</title>
+    <g id="duotone/agency_control" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="20.2564323 69.9147343 29.095267 78.753569 20.2564323 87.5924038 11.4175975 78.753569"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="20.2562178 74.8642673 16.3671305 78.7533546 20.2562178 82.6424419 24.1453051 78.7533546"></polygon>
         <path d="M20.7700349,12.5852681 C25.3245686,12.5927458 29.0112338,16.289485 29.0064357,20.844058 C29.0016195,25.3985439 25.3066509,29.0874012 20.7518268,29.0852681 C16.1972719,29.0825939 12.5064357,25.3896059 12.5064357,20.8315685 C12.5155125,16.2755614 16.2108456,12.5863335 20.7700349,12.5852681 Z M20.7654323,16.0842657 L20.549932,16.0902031 C18.0250053,16.204404 16.0115155,18.2852541 16.0064323,20.835055 C16.0064323,23.4574073 18.1315158,25.5837278 20.7536738,25.5852675 C23.3762005,25.5864956 25.5036629,23.4625519 25.5064323,20.8403639 C25.5091215,18.2908062 23.5028874,16.208194 20.9826744,16.0895873 L20.7654323,16.0842657 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>

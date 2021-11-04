@@ -5,7 +5,8 @@
       <div
         class="hero-section md"
         :style="{
-          backgroundImage: `url(images/covers/${category}/${coverimg})`,
+          background: `url(images/covers/${category}/${coverimg}) center no-repeat`,
+          backgroundSize: `cover`,
         }"
       >
         <div class="main-container tw-mx-auto">
@@ -16,18 +17,28 @@
           </div>
         </div>
       </div>
-      <div class="main-container tw-mx-auto tw-my-20 xl:tw-my-32">
+      <div class="main-container tw-mx-auto tw-my-10 lg:tw-my-20 xl:tw-my-32">
         <div class="tw-flex tw-flex-col lg:tw-flex-row">
           <!-- Benefit -->
-          <div class="lg:tw-w-2/5 xl:tw-w-1/2 tw-pr-20 deco-hexagon-2">
-            <div class="title tw-mb-10 lg:tw-mb-20">
+          <div class="lg:tw-w-2/5 xl:tw-w-1/2 md:tw-pr-20 deco-hexagon-2">
+            <div
+              class="
+                tw-text-lg
+                lg:tw-text-xl
+                xl:tw-text-xl
+                tw-mb-10
+                lg:tw-mb-20
+              "
+            >
               {{ info.title }}
             </div>
-            <ul class="tw-mb-10">
+            <ul class="tw-pl-0 tw-mb-10">
               <li v-for="(item, k) in info.contact" :key="k" class="tw-my-5">
                 <div class="tw-flex">
-                  <i :class="[item.icon, 'text-primary header-4 tw-mr-5']"></i>
-                  <div class="body-text-3 tw-opacity-70">
+                  <i
+                    :class="[item.icon, 'text-primary tw-text-3xl tw-mr-5']"
+                  ></i>
+                  <div class="tw-text-base lg:tw-text-lg tw-opacity-70">
                     {{ item.content }}
                   </div>
                 </div>
@@ -36,7 +47,13 @@
           </div>
           <!-- Form -->
           <div class="lg:tw-w-3/5 xl:tw-w-1/2">
-            <div class="tw-p-10 tw-mb-5 tw-bg-white tw-shadow-lg tw-relative">
+            <div
+              class="
+                tw-p-5
+                lg:tw-p-10
+                tw-mb-5 tw-bg-white tw-shadow-lg tw-relative
+              "
+            >
               <div class="tw-grid tw-grid-cols-2 tw-gap-5">
                 <v-text-field
                   solo

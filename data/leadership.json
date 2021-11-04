@@ -24,7 +24,7 @@
             "municipal-attorney",
             "investigation",
             "intelligence",
-            "sars",
+            "sar",
             "fusion-center",
             "analytics",
             "alpr",
@@ -81,6 +81,28 @@
             "personnel-scheduling",
             "warrant",
             "analytics-crime-mapping"
+        ]
+    },
+    {
+        "name": "John A. Porter",
+        "src": "john-p.jpg",
+        "type": "Director",
+        "position": "Deputy Director – County/State Agency Division",
+        "desc": "Prior to joining the CSI Technology Group, John Porter served a 25-year law enforcement career that included four years in local law enforcement with the Deptford Township (NJ) Police Department and twenty-one years with the Gloucester County (NJ) Prosecutor’s Office where he retired as Chief of County Investigators.<br><br> During his career with the Prosecutor’s Office, John was assigned to the Major Crimes and Special Investigations Units before becoming part of the agency’s command staff.<br><br> As Chief of County Investigators, he headed the Investigation Division where he oversaw criminal investigations, policy development and implementation, internal affairs investigations, agency accreditation, and managed critical incident scenes as the on-scene supervisor of the Gloucester County SWAT Team.  John received his undergraduate degree in Public Administration from Fairleigh Dickinson University and resides in Mantua, New Jersey with his wife and two children.",
+        "product": [
+            "internal-affairs"
+        ]
+    },
+    {
+        "name": "Thomas H. Koundry",
+        "src": "thomas.jpg",
+        "type": "Director",
+        "position": "Deputy Director – County/State Agency Division",
+        "desc": "Thomas Koundry joins CSI Technology Group with over thirty years of experience in law enforcement and operations. He has experience in leadership roles, in directing and training of law enforcement and civilian personnel.<br><br>Most recently, Thomas Koundry served as Chief of Staff for the Union County Prosecutor’s Office. Prior to that, he attained the rank of Deputy Chief at the East Orange Police Department.<br><br>During his tenure at the Union County Prosecutor’s Office, Tom’s duties included financial and asset management, police agency liaison, which included regular interfacing with 26 municipal and state law enforcement agencies, Infoshare and Evidence.com county-wide administrator. Tom also served as Interim Director of Union County Prosecutor’s Forensic Laboratory.<br><br>In 2014, Tom took on the lead role in managing a project that integrated UCPO case management, document management and all prosecution functionality into the Infoshare system.<br><br>During his 26 years with the East Orange Police Department, Deputy Chief Koundry served in many positions in the police department from police officer, detective, sergeant, lieutenant, captain and inspector. Most notably, as the commander of the Violent Crimes Task force.<br><br>Tom also served as a volunteer Emergency Management Coordinator for the Township of Byram, where he lives.",
+        "product": [
+            "cad",
+            "analytics-crime-mapping",
+            "csi"
         ]
     },
     {
@@ -173,16 +195,6 @@
         ]
     },
     {
-        "name": "John A. Porter",
-        "src": "john-p.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Prior to joining the CSI Technology Group, John Porter served a 25-year law enforcement career that included four years in local law enforcement with the Deptford Township (NJ) Police Department and twenty-one years with the Gloucester County (NJ) Prosecutor’s Office where he retired as Chief of County Investigators.<br><br> During his career with the Prosecutor’s Office, John was assigned to the Major Crimes and Special Investigations Units before becoming part of the agency’s command staff.<br><br> As Chief of County Investigators, he headed the Investigation Division where he oversaw criminal investigations, policy development and implementation, internal affairs investigations, agency accreditation, and managed critical incident scenes as the on-scene supervisor of the Gloucester County SWAT Team.  John received his undergraduate degree in Public Administration from Fairleigh Dickinson University and resides in Mantua, New Jersey with his wife and two children.",
-        "product": [
-            "internal-affairs"
-        ]
-    },
-    {
         "name": "Russell D. Christiana",
         "src": "russ.jpg",
         "type": "Account Management",
@@ -191,18 +203,6 @@
         "product": [
             "citation-management",
             "warrant"
-        ]
-    },
-    {
-        "name": "Thomas H. Koundry",
-        "src": "thomas.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Thomas Koundry joins CSI Technology Group with over thirty years of experience in law enforcement and operations. He has experience in leadership roles, in directing and training of law enforcement and civilian personnel.<br><br>Most recently, Thomas Koundry served as Chief of Staff for the Union County Prosecutor’s Office. Prior to that, he attained the rank of Deputy Chief at the East Orange Police Department.<br><br>During his tenure at the Union County Prosecutor’s Office, Tom’s duties included financial and asset management, police agency liaison, which included regular interfacing with 26 municipal and state law enforcement agencies, Infoshare and Evidence.com county-wide administrator. Tom also served as Interim Director of Union County Prosecutor’s Forensic Laboratory.<br><br>In 2014, Tom took on the lead role in managing a project that integrated UCPO case management, document management and all prosecution functionality into the Infoshare system.<br><br>During his 26 years with the East Orange Police Department, Deputy Chief Koundry served in many positions in the police department from police officer, detective, sergeant, lieutenant, captain and inspector. Most notably, as the commander of the Violent Crimes Task force.<br><br>Tom also served as a volunteer Emergency Management Coordinator for the Township of Byram, where he lives.",
-        "product": [
-            "cad",
-            "analytics-crime-mapping",
-            "csi"
         ]
     },
     {
@@ -234,7 +234,7 @@
         "desc": "Jimmy joins CSI Technology after more than 24 years with the New Jersey State Police where he served in assignments from road duty, where he proudly spent six years patrolling the New Jersey Turnpike, to eventually being administrator of the NJSP Confidential Source database and all of the Infoshare modules that the NJSP used including the Intelligence Module, iLog Module, and the Major Incident Module (MIM).<br><br>During the course of his career he gained experience being in the Casino Operation Unit, and  he worked narcotic and street gang investigations with Philadelphia/Camden High Intensity Drug Trafficking Area (PC HIDTA) where he was a monitor room supervisor on numerous wiretaps and used the Infoshare Intelligence Module.<br><br>Jimmy’s last assignment was at the Regional Operations Intelligence Center (ROIC), New Jersey’s fusion center, where he was a Detective Sergeant First Class, and Assistant Unit Head of the Information Sharing Unit. While at the ROIC, he was also assigned to various units, including the Intelligence Watch and Warning (IWW) Unit, that fields calls from law enforcement agencies around the world. As the Division's Duty Officer and the State's Watch Officer, he was responsible for monitoring all events that had a nexus to New Jersey.",
         "product": [
             "intelligence",
-            "sars",
+            "sar",
             "fusion-center",
             "analytics",
             "alpr",
@@ -262,10 +262,20 @@
         ]
     },
     {
+        "name": "Jeffrey S. Dunlap",
+        "src": "jeff.jpg",
+        "type": "Account Management",
+        "position": "Account Management Team",
+        "desc": "Jeffrey Dunlap began his law enforcement career in 1994 as a Patrol Officer with the Palmyra Police Department in Burlington County, New Jersey. He was promoted to the rank of Sergeant in 1999 and worked in the Patrol Division.<br><br>He was hired as a Detective with the Camden County Prosecutor’s Office in April of 2001. As a Detective, he worked in the Grand Jury Unit, Narcotics Unit, Major Crimes Unit, and was assigned to the Federal Bureau of Investigation’s Violent Crimes Task Force.<br><br>He was promoted to the rank of Sergeant in November of 2013. As a Sergeant, Dunlap supervised the Juvenile Unit, Major Crimes Unit, Special Victims Unit, and the Homicide Unit. He was promoted to the rank of Lieutenant in October of 2017, where he supervised the Major Crimes Unit, Homeland Security Unit, and the Special Victims Unit. After being promoted to Captain in September of 2018, Dunlap supervised the daily operations of the Major Crimes Unit, Homeland Security Unit, Special Victims Unit, and the Crime Scene Unit.<br><br>Promoted to Chief of Detectives in August of 2019, he oversaw an investigative staff of 109 sworn detectives and 15 agents.",
+        "product": [
+            ""
+        ]
+    },
+    {
         "name": "Dr. Henry Lee",
         "src": "henry-lee.png",
         "type": "Advisor",
         "position": "Former Commissioner of Public Safety, State of Connecticut",
-        "desc": "Dr. Henry C. Lee, former Commissioner and Lab Chief of the Department of Public Safety for the State of Connecticut, is currently a distinguished professor at the University of New Haven, Chief Emeritus of Forensic Science Services of Connecticut, and the Director of the Institute of Forensic Research and Training Center.<br><br> Dr. Lee came to national prominence as an expert witness during the O.J. Simpson trial. He has assisted law enforcement agencies throughout the US and abroad on special missions. A graduate of John Jay College of Criminal Justice, Dr. Lee also received a doctorate in biochemistry from New York University.<br><br> He has also been awarded honorary doctoral degrees from Bridgeport University, the University of New Haven, St. Joseph's College, and William College Law School. Dr. Lee resides in Branford, Connecticut and his office is located at the University of New Haven. You can contact Dr. Lee at www.henryleeinstitute.com"
+        "desc": "Dr. Henry C. Lee, former Commissioner and Lab Chief of the Department of Public Safety for the State of Connecticut, is currently a distinguished professor at the University of New Haven, Chief Emeritus of Forensic Science Services of Connecticut, and the Director of the Institute of Forensic Research and Training Center.<br><br> Dr. Lee came to national prominence as an expert witness during the O.J. Simpson trial. He has assisted law enforcement agencies throughout the US and abroad on special missions. A graduate of John Jay College of Criminal Justice, Dr. Lee also received a doctorate in biochemistry from New York University.<br><br> He has also been awarded honorary doctoral degrees from Bridgeport University, the University of New Haven, St. Joseph's College, and William College Law School. Dr. Lee resides in Branford, Connecticut and his office is located at the University of New Haven. You can contact Dr. Lee at <a href='http://www.henryleeinstitute.com' target='_blank' class='primary-link'>www.henryleeinstitute.com</a>."
     }
 ]

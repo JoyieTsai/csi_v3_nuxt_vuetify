@@ -2,7 +2,7 @@
   <div class="main-container tw-mx-auto">
     <div
       class="
-        sm:tw-w-3/4
+        lg:tw-w-3/4
         tw-mx-auto
         bg-primary-light
         tw-text-white tw-text-center tw-py-8 tw-px-8
@@ -12,17 +12,23 @@
       "
     >
       <div class="header-2">{{ data.title }}</div>
-      <div class="body-text-2">{{ data.desc }}</div>
-      <div class="title tw-mt-8">{{ data.subtitle }}</div>
+      <div class="tw-text-lg lg:tw-text-xl">{{ data.desc }}</div>
+      <div class="tw-text-lg lg:tw-text-xl tw-font-semibold tw-mt-8">
+        {{ data.subtitle }}
+      </div>
     </div>
     <div
       class="
         lg:tw-w-4/5
-        tw-mx-auto tw-grid tw-grid-cols-2
-        md:tw-grid-cols-3
-        tw-gap-10
+        tw-grid tw-grid-cols-1
+        md:tw-grid-cols-2
+        lg:tw-grid-cols-3
+        tw-gap-5
+        lg:tw-gap-10
         xl:tw-pl-10
         2xl:tw-pl-24
+        tw-ml-5
+        lg:tw-mx-auto
       "
     >
       <div
@@ -34,7 +40,7 @@
           <i
             :class="[
               item.icon,
-              'tw-text-4xl tw-text-primary tw-absolute tw--top-1 tw--left-1',
+              'tw-text-4xl lg:tw-text-5xl text-primary tw-absolute tw-top-3 tw--left-4',
             ]"
           ></i>
           <div
@@ -49,7 +55,9 @@
             0{{ index + 1 }}
           </div>
         </div>
-        <div class="body-text-2 md:title tw-font-semibold tw-ml-5 tw-w-40">
+        <div
+          class="tw-text-lg md:tw-text-xl tw-font-semibold tw-ml-5 lg:tw-w-40"
+        >
           {{ item.title }}
         </div>
       </div>

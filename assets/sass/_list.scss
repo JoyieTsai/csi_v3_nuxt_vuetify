@@ -1,11 +1,9 @@
 .dot-list {
   margin-top: 1rem;
-  margin-bottom: 1rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 
   li {
     position: relative;
-    line-height: 2rem;
   }
 
   li::before {
@@ -18,6 +16,24 @@
     border-radius: 5px;
     top: 10px;
     left: -1.85rem;
+  }
+}
+
+.list-highlights {
+  padding-left: 0 !important;
+
+  li {
+    display: flex;
+
+    &::before {
+      content: '';
+      display: block;
+      min-width: 12px;
+      height: 12px;
+      margin-top: 5px;
+      margin-right: 1rem;
+      background-color: $highlight-color;
+    }
   }
 }
 

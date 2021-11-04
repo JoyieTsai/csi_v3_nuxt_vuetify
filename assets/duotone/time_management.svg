@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/time_management copy</title>
-    <g id="duotone/time_management-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/time_management</title>
+    <g id="duotone/time_management" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M37.5830258,12.25 C24.2228158,12.25 13.25,23.2242058 13.25,36.5830258 C13.25,49.9131795 24.16706,60.75 37.5830258,60.75 C50.9102437,60.75 61.75,49.9102437 61.75,36.5830258 C61.75,23.16706 50.9131795,12.25 37.5830258,12.25 Z" id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.306105841"></path>
         <polygon id="Path-46" fill="#0D63BA" fill-rule="nonzero" points="37.75 24 37.75 38.728 45.1109998 44.7763304 42.8890002 47.4805341 34.25 40.3820102 34.25 24"></polygon>
         <path d="M83.1669742,59 C96.5828293,59 107.5,69.8368754 107.5,83.1669742 C107.5,96.5351944 96.5204617,107.5 83.1669742,107.5 C69.8368205,107.5 59,96.58294 59,83.1669742 C59,69.8397563 69.8397563,59 83.1669742,59 Z M94.7100028,74.4657619 L78.906,89.094 L72.9868451,83.1803905 L70.5131549,85.6564472 L78.8142049,93.9495629 L97.087592,77.0342381 L94.7100028,74.4657619 Z" id="Shape" fill="#0D63BA" fill-rule="nonzero"></path>

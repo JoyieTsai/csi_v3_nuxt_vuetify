@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/bias copy</title>
-    <g id="duotone/bias-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/bias</title>
+    <g id="duotone/bias" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M112.866675,48.4081354 L114.776805,59.2410207 L8.41756776,77.9950239 L6.5074378,67.1621386 L112.866675,48.4081354 Z M110.027396,52.4621814 L10.5618133,70.0006474 L11.256406,73.9398784 L110.721989,56.4014124 L110.027396,52.4621814 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero" opacity="0.3"></path>
         <polygon id="Path-Copy" fill="#0D63BA" fill-rule="nonzero" transform="translate(60.641901, 63.201030) rotate(-10.000000) translate(-60.641901, -63.201030) " points="111.141901 61.2010299 10.1419012 61.2010299 10.1419012 65.2010299 111.141901 65.2010299"></polygon>
         <path d="M60.5,71 L80.851597,101 L40.148403,101 L60.5,71 Z M60.5,77.234 L46.751,97.5 L74.248,97.5 L60.5,77.234 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>

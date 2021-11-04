@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/fugitive copy</title>
-    <g id="duotone/fugitive-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/fugitive</title>
+    <g id="duotone/fugitive" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.301635" points="107.741904 13.2833166 107.741904 108 12.9304001 108 12.9304001 13.2833166"></polygon>
         <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="46.2844005 35.9666834 46.2844005 39.4666834 26.5 39.4666834 26.5 96.0777252 94.3115038 96.0777252 94.3115038 39.4666834 74.0067885 39.4666834 74.0067885 35.9666834 97.8115038 35.9666834 97.8115038 99.5777252 23 99.5777252 23 35.9666834"></polygon>
         <path d="M64.7182379,21 L75.1480918,26.8812042 L69.1264128,37.0677487 L66.835858,48 L59.9675999,44.127 L55.677867,51.8498751 L52.6183165,50.1501249 L56.9185999,42.408 L50.1480918,38.5900733 L58.696559,31.1865445 L64.7182379,21 Z M65.9855999,25.7326834 L61.4191715,33.4587406 L56.1955999,37.9816834 L64.3905999,42.6026834 L65.8193323,35.784265 L70.3165999,28.1746834 L65.9855999,25.7326834 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>

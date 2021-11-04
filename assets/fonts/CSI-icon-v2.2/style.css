@@ -1,0 +1,1353 @@
+@font-face {
+  font-family: 'CSI-icon';
+  src:  url('fonts/CSI-icon.eot?9ozf18');
+  src:  url('fonts/CSI-icon.eot?9ozf18#iefix') format('embedded-opentype'),
+    url('fonts/CSI-icon.ttf?9ozf18') format('truetype'),
+    url('fonts/CSI-icon.woff?9ozf18') format('woff'),
+    url('fonts/CSI-icon.svg?9ozf18#CSI-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'CSI-icon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-global_search_outline:before {
+  content: "\e900";
+}
+.icon-guiding_outline:before {
+  content: "\e901";
+}
+.icon-h1b_outline:before {
+  content: "\e902";
+}
+.icon-hacker_outline:before {
+  content: "\e903";
+}
+.icon-id_outline:before {
+  content: "\e904";
+}
+.icon-image_trend_outline:before {
+  content: "\e905";
+}
+.icon-increase_agility_outline:before {
+  content: "\e906";
+}
+.icon-increase_outline:before {
+  content: "\e907";
+}
+.icon-info_archive_outline:before {
+  content: "\e908";
+}
+.icon-info_recording_outline:before {
+  content: "\e909";
+}
+.icon-info_scan_outline:before {
+  content: "\e90a";
+}
+.icon-info_scribe_outline:before {
+  content: "\e90b";
+}
+.icon-info_video_outline:before {
+  content: "\e90c";
+}
+.icon-innovation_outline:before {
+  content: "\e90d";
+}
+.icon-intelligence_outline:before {
+  content: "\e90e";
+}
+.icon-interfaces_outline:before {
+  content: "\e90f";
+}
+.icon-internal_affairs_outline:before {
+  content: "\e910";
+}
+.icon-interoperability_outline:before {
+  content: "\e911";
+}
+.icon-inv_epro_outline:before {
+  content: "\e912";
+}
+.icon-investigation_outline:before {
+  content: "\e913";
+}
+.icon-justice_court_outline:before {
+  content: "\e914";
+}
+.icon-juvenile_outline:before {
+  content: "\e915";
+}
+.icon-jv_rms_outline:before {
+  content: "\e916";
+}
+.icon-k9_outline:before {
+  content: "\e917";
+}
+.icon-laboratory_outline:before {
+  content: "\e918";
+}
+.icon-limited_expertise_outline:before {
+  content: "\e919";
+}
+.icon-link_analysis_outline:before {
+  content: "\e91a";
+}
+.icon-lowcode_outline:before {
+  content: "\e91b";
+}
+.icon-map_outline:before {
+  content: "\e91c";
+}
+.icon-mapping_outline:before {
+  content: "\e91d";
+}
+.icon-master_name_index_outline:before {
+  content: "\e91e";
+}
+.icon-mdt_outline:before {
+  content: "\e91f";
+}
+.icon-med_care_outline:before {
+  content: "\e920";
+}
+.icon-medical_dental_outline:before {
+  content: "\e921";
+}
+.icon-mim_outline:before {
+  content: "\e922";
+}
+.icon-mobile_operations_outline:before {
+  content: "\e923";
+}
+.icon-mobile_sync-_outline:before {
+  content: "\e924";
+}
+.icon-modules_package_outline:before {
+  content: "\e925";
+}
+.icon-money_insurance_outline:before {
+  content: "\e926";
+}
+.icon-motion_outline:before {
+  content: "\e927";
+}
+.icon-municipal_outline:before {
+  content: "\e928";
+}
+.icon-ncic_gateway_outline:before {
+  content: "\e929";
+}
+.icon-nfirs_outline:before {
+  content: "\e92a";
+}
+.icon-nibrs_outline:before {
+  content: "\e92b";
+}
+.icon-notifications_outline:before {
+  content: "\e92c";
+}
+.icon-online_trans_outline:before {
+  content: "\e92d";
+}
+.icon-opra_outline:before {
+  content: "\e92e";
+}
+.icon-other_rms_outline:before {
+  content: "\e92f";
+}
+.icon-others_outline:before {
+  content: "\e930";
+}
+.icon-overview_outline:before {
+  content: "\e931";
+}
+.icon-paper_less_outline:before {
+  content: "\e932";
+}
+.icon-patrol_features_outline:before {
+  content: "\e933";
+}
+.icon-permission_security_outline:before {
+  content: "\e934";
+}
+.icon-permits_outline:before {
+  content: "\e935";
+}
+.icon-personnel_outline:before {
+  content: "\e936";
+}
+.icon-phone_dump_file_outline:before {
+  content: "\e937";
+}
+.icon-photography_outline:before {
+  content: "\e938";
+}
+.icon-police_outline:before {
+  content: "\e939";
+}
+.icon-policy_outline:before {
+  content: "\e93a";
+}
+.icon-productivity_outline:before {
+  content: "\e93b";
+}
+.icon-prosecution_outline:before {
+  content: "\e93c";
+}
+.icon-public_defender_outline:before {
+  content: "\e93d";
+}
+.icon-public_safety_outline:before {
+  content: "\e93e";
+}
+.icon-qa_outline:before {
+  content: "\e93f";
+}
+.icon-queue_server_outline:before {
+  content: "\e940";
+}
+.icon-quick_deployment_outline:before {
+  content: "\e941";
+}
+.icon-real_time_outline:before {
+  content: "\e942";
+}
+.icon-reduce_complexity_outline:before {
+  content: "\e943";
+}
+.icon-reduce_outline:before {
+  content: "\e944";
+}
+.icon-regional_sharing_outline:before {
+  content: "\e945";
+}
+.icon-relationship_outline:before {
+  content: "\e946";
+}
+.icon-report_generation_outline:before {
+  content: "\e947";
+}
+.icon-report_outline:before {
+  content: "\e948";
+}
+.icon-resource_reduce_outline:before {
+  content: "\e949";
+}
+.icon-rms_outline:before {
+  content: "\e94a";
+}
+.icon-robbery_outline:before {
+  content: "\e94b";
+}
+.icon-rolmes_outline:before {
+  content: "\e94c";
+}
+.icon-sars_outline:before {
+  content: "\e94d";
+}
+.icon-school_alert_outline:before {
+  content: "\e94e";
+}
+.icon-school_securities_outline:before {
+  content: "\e94f";
+}
+.icon-search_function_outline:before {
+  content: "\e950";
+}
+.icon-security_force_outline:before {
+  content: "\e951";
+}
+.icon-server_service_outline:before {
+  content: "\e952";
+}
+.icon-server_support_outline:before {
+  content: "\e953";
+}
+.icon-sex_crime_outline:before {
+  content: "\e954";
+}
+.icon-sheriff_outline:before {
+  content: "\e955";
+}
+.icon-situational_awareness_outline:before {
+  content: "\e956";
+}
+.icon-sos_outline:before {
+  content: "\e957";
+}
+.icon-spca_outline:before {
+  content: "\e958";
+}
+.icon-streamline_outline:before {
+  content: "\e959";
+}
+.icon-ta_outline:before {
+  content: "\e95a";
+}
+.icon-task_force_outline:before {
+  content: "\e95b";
+}
+.icon-technology_outline:before {
+  content: "\e95c";
+}
+.icon-time_management_outline:before {
+  content: "\e95d";
+}
+.icon-time_reduce_outline:before {
+  content: "\e95e";
+}
+.icon-total_solution_outline:before {
+  content: "\e95f";
+}
+.icon-unit_support_outline:before {
+  content: "\e960";
+}
+.icon-vertical_integration_outline:before {
+  content: "\e961";
+}
+.icon-vw_outline:before {
+  content: "\e962";
+}
+.icon-warehouse_outline:before {
+  content: "\e963";
+}
+.icon-warrants_outline:before {
+  content: "\e964";
+}
+.icon-worker_insurance_outline:before {
+  content: "\e965";
+}
+.icon-workflow_outline:before {
+  content: "\e966";
+}
+.icon-fax_outline:before {
+  content: "\e967";
+}
+.icon-location_outline:before {
+  content: "\e968";
+}
+.icon-mail_outline:before {
+  content: "\e969";
+}
+.icon-search_outline:before {
+  content: "\e96a";
+}
+.icon-tel_outline:before {
+  content: "\e96b";
+}
+.icon-outline:before {
+  content: "\e96c";
+}
+.icon-abc_outline:before {
+  content: "\e96d";
+}
+.icon-active_response_outline:before {
+  content: "\e96e";
+}
+.icon-admin_outline:before {
+  content: "\e96f";
+}
+.icon-agencies_outline:before {
+  content: "\e970";
+}
+.icon-agency_control_outline:before {
+  content: "\e971";
+}
+.icon-all_products_outline:before {
+  content: "\e972";
+}
+.icon-alpr_outline:before {
+  content: "\e973";
+}
+.icon-am_outline:before {
+  content: "\e974";
+}
+.icon-analytics_outline:before {
+  content: "\e975";
+}
+.icon-aoc_outline:before {
+  content: "\e976";
+}
+.icon-appeal_outline:before {
+  content: "\e977";
+}
+.icon-arson_outline:before {
+  content: "\e978";
+}
+.icon-attorney_ethics_outline:before {
+  content: "\e979";
+}
+.icon-attorney_general_outline:before {
+  content: "\e97a";
+}
+.icon-avl_outline:before {
+  content: "\e97b";
+}
+.icon-barcode_outline:before {
+  content: "\e97c";
+}
+.icon-base_outline:before {
+  content: "\e97d";
+}
+.icon-benefits_outline:before {
+  content: "\e97e";
+}
+.icon-bias_outline:before {
+  content: "\e97f";
+}
+.icon-billing_outline:before {
+  content: "\e980";
+}
+.icon-built_in_compliance_outline:before {
+  content: "\e981";
+}
+.icon-burglary_outline:before {
+  content: "\e982";
+}
+.icon-cad_outline:before {
+  content: "\e983";
+}
+.icon-cafeteria_plan_outline:before {
+  content: "\e984";
+}
+.icon-calendar_outline:before {
+  content: "\e985";
+}
+.icon-call_center_outline:before {
+  content: "\e986";
+}
+.icon-cam_outline:before {
+  content: "\e987";
+}
+.icon-capabilities_outline:before {
+  content: "\e988";
+}
+.icon-case_management_outline:before {
+  content: "\e989";
+}
+.icon-center_app_outline:before {
+  content: "\e98a";
+}
+.icon-child_center_outline:before {
+  content: "\e98b";
+}
+.icon-ci_cw_outline:before {
+  content: "\e98c";
+}
+.icon-citizen_access_outline:before {
+  content: "\e98d";
+}
+.icon-civil_outline:before {
+  content: "\e98e";
+}
+.icon-click_outline:before {
+  content: "\e98f";
+}
+.icon-cloud_hosting_outline:before {
+  content: "\e990";
+}
+.icon-cloud_integration_outline:before {
+  content: "\e991";
+}
+.icon-compliance_outline:before {
+  content: "\e992";
+}
+.icon-components_outline:before {
+  content: "\e993";
+}
+.icon-contact_outline:before {
+  content: "\e994";
+}
+.icon-cost_efficient_outline:before {
+  content: "\e995";
+}
+.icon-cost_reduce_outline:before {
+  content: "\e996";
+}
+.icon-court_outline:before {
+  content: "\e997";
+}
+.icon-crash_outline:before {
+  content: "\e998";
+}
+.icon-crime_children_outline:before {
+  content: "\e999";
+}
+.icon-crime_outline:before {
+  content: "\e99a";
+}
+.icon-csi_outline:before {
+  content: "\e99b";
+}
+.icon-customer_rate_outline:before {
+  content: "\e99c";
+}
+.icon-customization_outline:before {
+  content: "\e99d";
+}
+.icon-data_import_outline:before {
+  content: "\e99e";
+}
+.icon-data_integration_outline:before {
+  content: "\e99f";
+}
+.icon-data_migration_outline:before {
+  content: "\e9a0";
+}
+.icon-data_mining_outline:before {
+  content: "\e9a1";
+}
+.icon-data_organization_outline:before {
+  content: "\e9a2";
+}
+.icon-data_share_outline:before {
+  content: "\e9a3";
+}
+.icon-data_storage_outline:before {
+  content: "\e9a4";
+}
+.icon-database_link_outline:before {
+  content: "\e9a5";
+}
+.icon-death_outline:before {
+  content: "\e9a6";
+}
+.icon-defense_outline:before {
+  content: "\e9a7";
+}
+.icon-doc_management_outline:before {
+  content: "\e9a8";
+}
+.icon-duty_referral_outline:before {
+  content: "\e9a9";
+}
+.icon-dv_family_outline:before {
+  content: "\e9aa";
+}
+.icon-dv_weapon_outline:before {
+  content: "\e9ab";
+}
+.icon-ecdr_outline:before {
+  content: "\e9ac";
+}
+.icon-ediscovery_outline:before {
+  content: "\e9ad";
+}
+.icon-efficient_outline:before {
+  content: "\e9ae";
+}
+.icon-efiling_outline:before {
+  content: "\e9af";
+}
+.icon-emergency_care_outline:before {
+  content: "\e9b0";
+}
+.icon-empowerment_outline:before {
+  content: "\e9b1";
+}
+.icon-ems_outline:before {
+  content: "\e9b2";
+}
+.icon-engine_outline:before {
+  content: "\e9b3";
+}
+.icon-enterprise_application_outline:before {
+  content: "\e9b4";
+}
+.icon-equipment_asset_outline:before {
+  content: "\e9b5";
+}
+.icon-eticket_outline:before {
+  content: "\e9b6";
+}
+.icon-evidence_log_outline:before {
+  content: "\e9b7";
+}
+.icon-evidence_outline:before {
+  content: "\e9b8";
+}
+.icon-experience_outline:before {
+  content: "\e9b9";
+}
+.icon-external_outline:before {
+  content: "\e9ba";
+}
+.icon-facts_outline:before {
+  content: "\e9bb";
+}
+.icon-fatal_accident_outline:before {
+  content: "\e9bc";
+}
+.icon-finance_outline:before {
+  content: "\e9bd";
+}
+.icon-fingerprint_outline:before {
+  content: "\e9be";
+}
+.icon-fire_ems_outline:before {
+  content: "\e9bf";
+}
+.icon-fire_inspection_outline:before {
+  content: "\e9c0";
+}
+.icon-fire_outline:before {
+  content: "\e9c1";
+}
+.icon-fire_rms_outline:before {
+  content: "\e9c2";
+}
+.icon-fleet_outline:before {
+  content: "\e9c3";
+}
+.icon-flexible_scheduling_outline:before {
+  content: "\e9c4";
+}
+.icon-forfeiture_outline:before {
+  content: "\e9c5";
+}
+.icon-fugitive_outline:before {
+  content: "\e9c6";
+}
+.icon-fusion_center_outline:before {
+  content: "\e9c7";
+}
+.icon-tel_solid:before {
+  content: "\e9c8";
+}
+.icon-search_solid:before {
+  content: "\e9c9";
+}
+.icon-mail_solid:before {
+  content: "\e9ca";
+}
+.icon-location_solid:before {
+  content: "\e9cb";
+}
+.icon-fax_solid:before {
+  content: "\e9cc";
+}
+.icon-workflow_solid:before {
+  content: "\e9cd";
+}
+.icon-worker_insurance_solid:before {
+  content: "\e9ce";
+}
+.icon-warrants_solid:before {
+  content: "\e9cf";
+}
+.icon-warehouse_solid:before {
+  content: "\e9d0";
+}
+.icon-vw_solid .path1:before {
+  content: "\e9d1";
+  color: rgb(0, 0, 0);
+}
+.icon-vw_solid .path2:before {
+  content: "\e9d2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.99;
+}
+.icon-vertical_integration_solid:before {
+  content: "\e9d3";
+}
+.icon-unit_support_solid:before {
+  content: "\e9d4";
+}
+.icon-total_solution_solid:before {
+  content: "\e9d5";
+}
+.icon-time_reduce_solid:before {
+  content: "\e9d6";
+}
+.icon-time_management_solid:before {
+  content: "\e9d7";
+}
+.icon-technology_solid:before {
+  content: "\e9d8";
+}
+.icon-task_force_solid:before {
+  content: "\e9d9";
+}
+.icon-ta_solid:before {
+  content: "\e9da";
+}
+.icon-streamline_solid:before {
+  content: "\e9db";
+}
+.icon-spca_solid .path1:before {
+  content: "\e9dc";
+  color: rgb(0, 0, 0);
+}
+.icon-spca_solid .path2:before {
+  content: "\e9dd";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-spca_solid .path3:before {
+  content: "\e9de";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-spca_solid .path4:before {
+  content: "\e9df";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-spca_solid .path5:before {
+  content: "\e9e0";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-spca_solid .path6:before {
+  content: "\e9e1";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-spca_solid .path7:before {
+  content: "\e9e2";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.99;
+}
+.icon-spca_solid .path8:before {
+  content: "\e9e3";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.99;
+}
+.icon-sos_solid:before {
+  content: "\e9e4";
+}
+.icon-situational_awareness_solid:before {
+  content: "\e9e5";
+}
+.icon-sheriff_solid:before {
+  content: "\e9e6";
+}
+.icon-sex_crime_solid:before {
+  content: "\e9e7";
+}
+.icon-server_support_solid:before {
+  content: "\e9e8";
+}
+.icon-server_service_solid:before {
+  content: "\e9e9";
+}
+.icon-security_force_solid:before {
+  content: "\e9ea";
+}
+.icon-search_function_solid:before {
+  content: "\e9eb";
+}
+.icon-school_securities_solid:before {
+  content: "\e9ec";
+}
+.icon-school_alert_solid:before {
+  content: "\e9ed";
+}
+.icon-sars_solid:before {
+  content: "\e9ee";
+}
+.icon-rolmes_solid:before {
+  content: "\e9ef";
+}
+.icon-robbery_solid:before {
+  content: "\e9f0";
+}
+.icon-rms_solid:before {
+  content: "\e9f1";
+}
+.icon-resource_reduce_solid:before {
+  content: "\e9f2";
+}
+.icon-report_solid:before {
+  content: "\e9f3";
+}
+.icon-report_generation_solid:before {
+  content: "\e9f4";
+}
+.icon-relationship_solid:before {
+  content: "\e9f5";
+}
+.icon-regional_sharing_solid:before {
+  content: "\e9f6";
+}
+.icon-reduce_solid:before {
+  content: "\e9f7";
+}
+.icon-reduce_complexity_solid:before {
+  content: "\e9f8";
+}
+.icon-real_time_solid:before {
+  content: "\e9f9";
+}
+.icon-quick_deployment_solid:before {
+  content: "\e9fa";
+}
+.icon-queue_server_solid:before {
+  content: "\e9fb";
+}
+.icon-qa_solid:before {
+  content: "\e9fc";
+}
+.icon-public_safety_solid:before {
+  content: "\e9fd";
+}
+.icon-public_defender_solid:before {
+  content: "\e9fe";
+}
+.icon-prosecution_solid:before {
+  content: "\e9ff";
+}
+.icon-productivity_solid:before {
+  content: "\ea00";
+}
+.icon-policy_solid:before {
+  content: "\ea01";
+}
+.icon-police_solid:before {
+  content: "\ea02";
+}
+.icon-photography_solid:before {
+  content: "\ea03";
+}
+.icon-phone_dump_file_solid:before {
+  content: "\ea04";
+}
+.icon-personnel_solid:before {
+  content: "\ea05";
+}
+.icon-permits_solid:before {
+  content: "\ea06";
+}
+.icon-permission_security_solid:before {
+  content: "\ea07";
+}
+.icon-patrol_features_solid:before {
+  content: "\ea08";
+}
+.icon-paper_less_solid:before {
+  content: "\ea09";
+}
+.icon-overview_solid:before {
+  content: "\ea0a";
+}
+.icon-others_solid:before {
+  content: "\ea0b";
+}
+.icon-other_rms_solid:before {
+  content: "\ea0c";
+}
+.icon-opra_solid:before {
+  content: "\ea0d";
+}
+.icon-online_trans_solid:before {
+  content: "\ea0e";
+}
+.icon-notifications_solid:before {
+  content: "\ea0f";
+}
+.icon-nibrs_solid:before {
+  content: "\ea10";
+}
+.icon-nfirs_solid:before {
+  content: "\ea11";
+}
+.icon-ncic_gateway_solid:before {
+  content: "\ea12";
+}
+.icon-municipal_solid:before {
+  content: "\ea13";
+}
+.icon-motion_solid:before {
+  content: "\ea14";
+}
+.icon-money_insurance_solid:before {
+  content: "\ea15";
+}
+.icon-modules_package_solid:before {
+  content: "\ea16";
+}
+.icon-mobile_sync_solid:before {
+  content: "\ea17";
+}
+.icon-mobile_operations_solid:before {
+  content: "\ea18";
+}
+.icon-mim_solid:before {
+  content: "\ea19";
+}
+.icon-medical_dental_solid:before {
+  content: "\ea1a";
+}
+.icon-med_care_solid .path1:before {
+  content: "\ea1b";
+  color: rgb(0, 0, 0);
+}
+.icon-med_care_solid .path2:before {
+  content: "\ea1c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.99;
+}
+.icon-med_care_solid .path3:before {
+  content: "\ea1d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.99;
+}
+.icon-mdt_solid:before {
+  content: "\ea1e";
+}
+.icon-master_name_index_solid:before {
+  content: "\ea1f";
+}
+.icon-mapping_solid:before {
+  content: "\ea20";
+}
+.icon-map_solid:before {
+  content: "\ea21";
+}
+.icon-lowcode_solid:before {
+  content: "\ea22";
+}
+.icon-link_analysis_solid:before {
+  content: "\ea23";
+}
+.icon-limited_expertise_solid:before {
+  content: "\ea24";
+}
+.icon-laboratory_solid:before {
+  content: "\ea25";
+}
+.icon-k9_solid:before {
+  content: "\ea26";
+}
+.icon-jv_rms_solid .path1:before {
+  content: "\ea27";
+  color: rgb(0, 0, 0);
+}
+.icon-jv_rms_solid .path2:before {
+  content: "\ea28";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3002;
+}
+.icon-jv_rms_solid .path3:before {
+  content: "\ea29";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3002;
+}
+.icon-jv_rms_solid .path4:before {
+  content: "\ea2a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-jv_rms_solid .path5:before {
+  content: "\ea2b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-jv_rms_solid .path6:before {
+  content: "\ea2c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-jv_rms_solid .path7:before {
+  content: "\ea2d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-jv_rms_solid .path8:before {
+  content: "\ea2e";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-jv_rms_solid .path9:before {
+  content: "\ea2f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3033;
+}
+.icon-jv_rms_solid .path10:before {
+  content: "\ea30";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.3033;
+}
+.icon-juvenile_solid:before {
+  content: "\ea31";
+}
+.icon-justice_court_solid:before {
+  content: "\ea32";
+}
+.icon-investigation_solid:before {
+  content: "\ea33";
+}
+.icon-inv_epro_solid:before {
+  content: "\ea34";
+}
+.icon-interoperability_solid:before {
+  content: "\ea35";
+}
+.icon-internal_affairs_solid:before {
+  content: "\ea36";
+}
+.icon-interfaces_solid:before {
+  content: "\ea37";
+}
+.icon-intelligence_solid:before {
+  content: "\ea38";
+}
+.icon-innovation_solid:before {
+  content: "\ea39";
+}
+.icon-info_video_solid:before {
+  content: "\ea3a";
+}
+.icon-info_scribe_solid:before {
+  content: "\ea3b";
+}
+.icon-info_scan_solid:before {
+  content: "\ea3c";
+}
+.icon-info_recording_solid:before {
+  content: "\ea3d";
+}
+.icon-info_archive_solid:before {
+  content: "\ea3e";
+}
+.icon-increase_solid:before {
+  content: "\ea3f";
+}
+.icon-increase_agility_solid:before {
+  content: "\ea40";
+}
+.icon-image_trend_solid:before {
+  content: "\ea41";
+}
+.icon-id_solid:before {
+  content: "\ea42";
+}
+.icon-hacker_solid:before {
+  content: "\ea43";
+}
+.icon-h1b_solid:before {
+  content: "\ea44";
+}
+.icon-guiding_solid:before {
+  content: "\ea45";
+}
+.icon-global_search_solid:before {
+  content: "\ea46";
+}
+.icon-fusion_center_solid:before {
+  content: "\ea47";
+}
+.icon-fugitive_solid:before {
+  content: "\ea48";
+}
+.icon-forfeiture_solid:before {
+  content: "\ea49";
+}
+.icon-flexible_scheduling_solid:before {
+  content: "\ea4a";
+}
+.icon-fleet_solid:before {
+  content: "\ea4b";
+}
+.icon-fire_solid:before {
+  content: "\ea4c";
+}
+.icon-fire_rms_solid:before {
+  content: "\ea4d";
+}
+.icon-fire_inspection_solid:before {
+  content: "\ea4e";
+}
+.icon-fire_ems_solid:before {
+  content: "\ea4f";
+}
+.icon-fingerprint_solid:before {
+  content: "\ea50";
+}
+.icon-finance_solid:before {
+  content: "\ea51";
+}
+.icon-fatal_accident_solid:before {
+  content: "\ea52";
+}
+.icon-facts_solid:before {
+  content: "\ea53";
+}
+.icon-external_solid:before {
+  content: "\ea54";
+}
+.icon-experience_solid:before {
+  content: "\ea55";
+}
+.icon-evidence_solid:before {
+  content: "\ea56";
+}
+.icon-evidence_log_solid:before {
+  content: "\ea57";
+}
+.icon-eticket_solid:before {
+  content: "\ea58";
+}
+.icon-equipment_asset_solid:before {
+  content: "\ea59";
+}
+.icon-enterprise_application_solid:before {
+  content: "\ea5a";
+}
+.icon-engine_solid:before {
+  content: "\ea5b";
+}
+.icon-ems_solid:before {
+  content: "\ea5c";
+}
+.icon-empowerment_solid:before {
+  content: "\ea5d";
+}
+.icon-emergency_care_solid:before {
+  content: "\ea5e";
+}
+.icon-efiling_solid:before {
+  content: "\ea5f";
+}
+.icon-efficient_solid:before {
+  content: "\ea60";
+}
+.icon-ediscovery_solid:before {
+  content: "\ea61";
+}
+.icon-ecdr_solid:before {
+  content: "\ea62";
+}
+.icon-dv_weapon_solid:before {
+  content: "\ea63";
+}
+.icon-dv_family_solid .path1:before {
+  content: "\ea64";
+  color: rgb(0, 0, 0);
+  opacity: 0.99;
+}
+.icon-dv_family_solid .path2:before {
+  content: "\ea65";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+  opacity: 0.99;
+}
+.icon-dv_family_solid .path3:before {
+  content: "\ea66";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-dv_family_solid .path4:before {
+  content: "\ea67";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-duty_referral_solid:before {
+  content: "\ea68";
+}
+.icon-doc_management_solid:before {
+  content: "\ea69";
+}
+.icon-defense_solid:before {
+  content: "\ea6a";
+}
+.icon-death_solid:before {
+  content: "\ea6b";
+}
+.icon-database_link_solid:before {
+  content: "\ea6c";
+}
+.icon-data_storage_solid:before {
+  content: "\ea6d";
+}
+.icon-data_share_solid:before {
+  content: "\ea6e";
+}
+.icon-data_organization_solid:before {
+  content: "\ea6f";
+}
+.icon-data_mining_solid:before {
+  content: "\ea70";
+}
+.icon-data_migration_solid:before {
+  content: "\ea71";
+}
+.icon-data_integration_solid:before {
+  content: "\ea72";
+}
+.icon-data_import_solid:before {
+  content: "\ea73";
+}
+.icon-customization_solid:before {
+  content: "\ea74";
+}
+.icon-customer_rate_solid:before {
+  content: "\ea75";
+}
+.icon-csi_solid:before {
+  content: "\ea76";
+}
+.icon-crime_solid:before {
+  content: "\ea77";
+}
+.icon-crime_children_solid:before {
+  content: "\ea78";
+}
+.icon-crash_solid:before {
+  content: "\ea79";
+}
+.icon-court_solid:before {
+  content: "\ea7a";
+}
+.icon-cost_reduce_solid:before {
+  content: "\ea7b";
+}
+.icon-cost_efficient_solid:before {
+  content: "\ea7c";
+}
+.icon-contact_solid:before {
+  content: "\ea7d";
+}
+.icon-components_solid:before {
+  content: "\ea7e";
+}
+.icon-compliance_solid:before {
+  content: "\ea7f";
+}
+.icon-cloud_integration_solid:before {
+  content: "\ea80";
+}
+.icon-cloud_hosting_solid:before {
+  content: "\ea81";
+}
+.icon-click_solid:before {
+  content: "\ea82";
+}
+.icon-civil_solid:before {
+  content: "\ea83";
+}
+.icon-citizen_access_solid:before {
+  content: "\ea84";
+}
+.icon-ci_cw_solid:before {
+  content: "\ea85";
+}
+.icon-child_center_solid:before {
+  content: "\ea86";
+}
+.icon-center_app_solid:before {
+  content: "\ea87";
+}
+.icon-case_management_solid:before {
+  content: "\ea88";
+}
+.icon-capabilities_solid:before {
+  content: "\ea89";
+}
+.icon-cam_solid:before {
+  content: "\ea8a";
+}
+.icon-call_center_solid:before {
+  content: "\ea8b";
+}
+.icon-calendar_solid:before {
+  content: "\ea8c";
+}
+.icon-cafeteria_plan_solid:before {
+  content: "\ea8d";
+}
+.icon-cad_solid:before {
+  content: "\ea8e";
+}
+.icon-burglary_solid:before {
+  content: "\ea8f";
+}
+.icon-built_in_compliance_solid:before {
+  content: "\ea90";
+}
+.icon-billing_solid:before {
+  content: "\ea91";
+}
+.icon-bias_solid:before {
+  content: "\ea92";
+}
+.icon-benefits_solid:before {
+  content: "\ea93";
+}
+.icon-base_solid:before {
+  content: "\ea94";
+}
+.icon-barcode_solid:before {
+  content: "\ea95";
+}
+.icon-avl_solid:before {
+  content: "\ea96";
+}
+.icon-attorney_general_solid:before {
+  content: "\ea97";
+}
+.icon-attorney_ethics_solid:before {
+  content: "\ea98";
+}
+.icon-arson_solid:before {
+  content: "\ea99";
+}
+.icon-appeal_solid:before {
+  content: "\ea9a";
+}
+.icon-aoc_solid:before {
+  content: "\ea9b";
+}
+.icon-analytics_solid:before {
+  content: "\ea9c";
+}
+.icon-am_solid:before {
+  content: "\ea9d";
+}
+.icon-alpr_solid:before {
+  content: "\ea9e";
+}
+.icon-all_products_solid:before {
+  content: "\ea9f";
+}
+.icon-agency_control_solid:before {
+  content: "\eaa0";
+}
+.icon-agencies_solid:before {
+  content: "\eaa1";
+}
+.icon-admin_solid:before {
+  content: "\eaa2";
+}
+.icon-active_response_solid:before {
+  content: "\eaa3";
+}
+.icon-abc_solid:before {
+  content: "\eaa4";
+}
+.icon-solid:before {
+  content: "\eaa5";
+}

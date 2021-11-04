@@ -31,15 +31,23 @@
       <div
         :class="[
           capabilities
-            ? '2xl:tw-pr-28 2xl:tw-pl-24 xl:tw-pr-20 xl:tw-pl-16 lg:tw-mb-16'
-            : '2xl:tw-pr-24 2xl:tw-pl-28 xl:tw-pr-16 xl:tw-pl-20 lg:tw-mt-16',
-          'tw-relative w-full lg:tw-w-1/2 tw-p-10 bg-primary-dark tw-text-white',
+            ? 'xl:tw-pr-20 xl:tw-pl-16 lg:tw-mb-16'
+            : 'xl:tw-pr-16 xl:tw-pl-20 lg:tw-mt-16',
+          'tw-relative w-full lg:tw-w-1/2 tw-p-5 md:tw-p-10 bg-primary-dark tw-text-white',
         ]"
       >
         <div class="header-2">Highlights</div>
-        <ul class="list-highlights tw-mt-8">
-          <li v-for="(item, index) in data" :key="index" class="tw-mt-4">
-            <div class="body-text-1">{{ item }}</div>
+        <ul class="list-highlights tw-mt-6 tw-mb-3">
+          <li
+            v-for="(item, index) in data"
+            :key="index"
+            class="tw-mt-2 lg:tw-mt-4"
+          >
+            <div
+              class="tw-text-base md:tw-text-lg xl:tw-text-xl tw-leading-tight"
+            >
+              {{ item }}
+            </div>
           </li>
         </ul>
       </div>
@@ -62,24 +70,8 @@ export default {
 <style lang="scss">
 .w-videos {
   width: 53%;
-  @media (max-width: $breakpoints-md) {
+  @media only screen and (max-width: $breakpoints-lg - 1) {
     width: 100%;
-  }
-}
-
-.list-highlights {
-  li {
-    display: flex;
-
-    &::before {
-      content: '';
-      display: block;
-      min-width: 12px;
-      height: 12px;
-      margin-right: 1rem;
-      margin-top: 12px;
-      background-color: $highlight-color;
-    }
   }
 }
 </style>

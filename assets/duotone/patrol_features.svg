@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/patrol_features copy</title>
-    <g id="duotone/patrol_features-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+    <title>duotone/patrol_features</title>
+    <g id="duotone/patrol_features" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <path d="M38,48.75 C46.684531,48.75 53.75,55.5631308 53.75,64 C53.75,69.6521157 50.5789693,74.5754865 45.8744755,77.2098212 C56.1653766,81.1403634 63.5818158,92.5755562 63.7471781,106.0402 L63.75,106.5 L63.75,108.25 L12.25,108.25 L12.25,106.5 C12.25,92.836416 19.7176813,81.1850287 30.1255845,77.2086043 C25.4210307,74.5754865 22.25,69.6521157 22.25,64 C22.25,55.5631308 29.315469,48.75 38,48.75 Z" id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.301055908"></path>
         <path d="M38,79.25 C26.3980834,79.25 16.7515513,90.2108847 15.8231579,104.273973 L15.795,104.749 L60.204,104.749 L60.1771349,104.278412 C59.2693969,90.5003409 49.9934146,79.6989325 38.708151,79.2636413 L38.3655648,79.2536313 L38,79.25 Z" id="Path" fill="#0D63BA" fill-rule="nonzero"></path>
         <path d="M38,52.25 C31.220558,52.25 25.75,57.5251809 25.75,64 C25.75,70.4748191 31.220558,75.75 38,75.75 C44.779442,75.75 50.25,70.4748191 50.25,64 C50.25,57.5251809 44.779442,52.25 38,52.25 Z" id="Path" fill="#0D63BA" fill-rule="nonzero"></path>

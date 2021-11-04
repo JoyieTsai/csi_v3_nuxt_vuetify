@@ -1,18 +1,18 @@
 <template>
-  <div class="bg-primary-light bg-contact tw-bg-contain xl:tw-bg-auto">
+  <div class="bg-primary-light bg-contact">
     <div class="main-container tw-mx-auto tw-py-6">
       <div class="tw-grid tw-grid-flow-col lg:tw-grid-cols-2">
         <div
           class="
-            tw-flex tw-flex-col tw-py-8
+            tw-flex tw-flex-col tw-py-5
             xl:tw-py-16
             2xl:tw-pl-20
             tw-text-white tw-text-center
-            lg:tw-text-left
+            md:tw-text-left
           "
         >
           <div class="header-2">Get In Touch</div>
-          <div class="body-text-1">
+          <div class="tw-text-base lg:tw-text-2xl">
             Have more questions? Need more information? <br />We are here to
             help.
           </div>
@@ -42,7 +42,7 @@
     <v-dialog
       v-model="modalContact"
       overlay-color="white"
-      content-class="bg-contact-full accent tw-p-10"
+      content-class="bg-contact-full accent tw-p-5 lg:tw-p-10"
       @ok="() => (modalContact = false)"
     >
       <ContactForm>
@@ -58,7 +58,7 @@
     <v-dialog
       v-model="modalBookaDemo"
       overlay-color="white"
-      content-class="accent tw-p-10"
+      content-class="accent tw-p-5 lg:tw-p-10"
       @ok="() => (modalBookaDemo = false)"
     >
       <BookDemo />
