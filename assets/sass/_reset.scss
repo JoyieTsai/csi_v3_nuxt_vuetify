@@ -17,7 +17,7 @@ button {
 }
 
 p {
-  margin-bottom: 0.85em;
+  margin-bottom: 0.85em !important;
 }
 
 a {
@@ -44,10 +44,6 @@ a {
 
 .v-application {
   font-family: $body-font-family !important;
-
-  .ol, .ul {
-    padding-left: 1rem !important;
-  }
 }
 
 .v-text-field--outlined > .v-input__control > .v-input__slot {

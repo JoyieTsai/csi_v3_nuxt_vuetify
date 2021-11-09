@@ -4,7 +4,7 @@
         "src": "william.jpg",
         "type": "Director",
         "position": "President & C.E.O",
-        "desc": "William Yeh founded CSI Technology Group over twenty years ago to offer superior information technology to law enforcement, judiciary and regulatory government agencies. He has led the operations and strategic direction of his company to realize this vision and has successfully provided fully integrated, multi-jurisdictional information sharing systems for police and fire departments, homeland security, prosecutors and attorneys general offices, judiciary and other criminal justice organizations.<br><br> Mr. Yeh has partnered with forensic experts, law enforcement leaders and legal scholars to develop solutions that help these agencies fully utilize and share critical information across horizontal and vertical boundaries at all levels of government. He contributes to law enforcement technology forums and associations and brings the latest advances in technology, data sharing, communication and analysis to his clients.<br><br> “Our goal is to make society safer,” he explains, as he continues to guide CSI to be a company that makes a difference in the public safety and judicial communities."
+        "desc": "William Yeh founded CSI Technology Group over thirty years ago to offer superior information technology to law enforcement, judiciary and regulatory government agencies. He has led the operations and strategic direction of his company to realize this vision and has successfully provided fully integrated, multi-jurisdictional information sharing systems for police and fire departments, homeland security, prosecutors and attorneys general offices, judiciary and other criminal justice organizations.<br><br> Mr. Yeh has partnered with forensic experts, law enforcement leaders and legal scholars to develop solutions that help these agencies fully utilize and share critical information across horizontal and vertical boundaries at all levels of government. He contributes to law enforcement technology forums and associations and brings the latest advances in technology, data sharing, communication and analysis to his clients.<br><br> “Our goal is to make society safer,” he explains, as he continues to guide CSI to be a company that makes a difference in the public safety and judicial communities."
     },
     {
         "name": "Richard Norcross",
@@ -97,10 +97,13 @@
         "name": "Thomas H. Koundry",
         "src": "thomas.jpg",
         "type": "Director",
-        "position": "Deputy Director – County/State Agency Division",
+        "position": "Deputy Director – CAD/RMS Division",
         "desc": "Thomas Koundry joins CSI Technology Group with over thirty years of experience in law enforcement and operations. He has experience in leadership roles, in directing and training of law enforcement and civilian personnel.<br><br>Most recently, Thomas Koundry served as Chief of Staff for the Union County Prosecutor’s Office. Prior to that, he attained the rank of Deputy Chief at the East Orange Police Department.<br><br>During his tenure at the Union County Prosecutor’s Office, Tom’s duties included financial and asset management, police agency liaison, which included regular interfacing with 26 municipal and state law enforcement agencies, Infoshare and Evidence.com county-wide administrator. Tom also served as Interim Director of Union County Prosecutor’s Forensic Laboratory.<br><br>In 2014, Tom took on the lead role in managing a project that integrated UCPO case management, document management and all prosecution functionality into the Infoshare system.<br><br>During his 26 years with the East Orange Police Department, Deputy Chief Koundry served in many positions in the police department from police officer, detective, sergeant, lieutenant, captain and inspector. Most notably, as the commander of the Violent Crimes Task force.<br><br>Tom also served as a volunteer Emergency Management Coordinator for the Township of Byram, where he lives.",
         "product": [
             "cad",
+            "rms",
+            "fire-ems",
+            "mobile-operations",
             "analytics-crime-mapping",
             "csi"
         ]
@@ -211,9 +214,7 @@
         "type": "Account Management",
         "position": "Account Management Team",
         "desc": "With over 25 years in the commercial software industry before joining CSI, for the last 12 years, Tom Kenny worked at a law enforcement records management software provider in Pennsylvania. As a manager in the software provider, Tom has extensive experience in application support, training, product development, sales support and sales. He also has successful history of building and maintaining customer satisfaction and collaborative relationships.<br><br> Also, Tom used to play a key role in a small team, which provides software support to over 500 clients via phone and email.  Well-versed in many roles, such as customer relations, application support, customer support manager, Tom brings his comprehensive experience to CSI as he supports key CSI projects to customers in Pennsylvania. Tom received his undergraduate degree major in Criminal Justice from LaSalle College, Philadelphia, PA. ",
-        "product": [
-            "rms"
-        ]
+        "product": []
     },
     {
         "name": "Gregory Ferry",

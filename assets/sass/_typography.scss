@@ -7,13 +7,13 @@
     @extend %all-font-family;
     font-size: $heading-1-size;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
   &-2 {
     @extend %all-font-family;
     font-size: $heading-2-size;
     font-weight: 800;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
   }
   &-3 {
     @extend %all-font-family;

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>duotone/qa</title>
+    <g id="duotone/qa" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M86.75,11.75 L86.75,80.946 L78.986,80.947 L78.986,96.75 L13.25,96.75 L13.25,11.75 L86.75,11.75 Z M86.75,94.309 L86.75,96.75 L82.828,96.75 L85.5154846,94.3099328 L86.75,94.309 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero" opacity="0.303952172"></path>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="58.8501723 76.7814124 58.8501723 80.2814124 45.8501723 80.2814124 45.8501723 76.7814124"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="37.1832237 67.7303233 39.5238792 70.3325016 29.4330288 79.4092063 24.1543266 74.4422921 26.5527763 71.8932846 29.4855514 74.6524124"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="58.8501723 68.7814124 58.8501723 72.2814124 45.8501723 72.2814124 45.8501723 68.7814124"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="75.3535514 53.7814124 75.3535514 57.2814124 24.3535514 57.2814124 24.3535514 53.7814124"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="75.3535514 45.7814124 75.3535514 49.2814124 24.3535514 49.2814124 24.3535514 45.7814124"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="69.3535514 33.4578926 69.3535514 36.9578926 45.8501723 36.9578926 45.8501723 33.4578926"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="37.1832237 24.4068034 39.5238792 27.0089817 29.4330288 36.0856865 24.1543266 31.1187723 26.5527763 28.5697648 29.4855514 31.3288926"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="75.3535514 25.4578926 75.3535514 28.9578926 45.8501723 28.9578926 45.8501723 25.4578926"></polygon>
+        <path d="M106.986437,77.4473382 L106.986437,97.8099328 L86.868,97.809 L75.4864366,108.152048 L75.4864366,77.4473382 L106.986437,77.4473382 Z M103.486,80.947 L78.986,80.947 L78.986,100.242 L85.5154846,94.3099328 L103.486,94.309 L103.486,80.947 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>
+        <polygon id="Path-Copy" fill="#0D63BA" fill-rule="nonzero" opacity="0.304603213" points="103.486 80.947 103.486 94.309 85.5154846 94.3099328 78.986 100.242 78.986 80.947"></polygon>
+        <polygon id="Path-7" fill="#0D63BA" fill-rule="nonzero" points="90.0846834 67.7814124 90.0846834 80.7327948 86.5846834 80.7327948 86.584 71.281 66.084 71.281 66.084 85.781 77.2364366 85.7814124 77.2364366 89.2814124 62.5846834 89.2814124 62.5846834 67.7814124"></polygon>
+        <circle id="Oval" fill="#0D63BA" cx="83.75" cy="88.25" r="1.75"></circle>
+        <circle id="Oval-Copy" fill="#0D63BA" cx="91.25" cy="88.25" r="1.75"></circle>
+        <circle id="Oval-Copy-2" fill="#0D63BA" cx="98.75" cy="88.25" r="1.75"></circle>
+    </g>
+</svg>

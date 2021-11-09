@@ -47,24 +47,8 @@
                         "title": "Personnel & Scheduling"
                     },
                     {
-                        "title": "Warrant",
-                        "id": "/warrant"
-                    },
-                    {
-                        "id": "/analytics-crime-mapping",
-                        "title": "Analytics & Crime Mapping"
-                    },
-                    {
                         "id": "/internal-affairs",
                         "title": "Internal Affairs"
-                    },
-                    {
-                        "id": "/municipal-solutions",
-                        "title": "Municipal Solutions"
-                    },
-                    {
-                        "id": "/interfaces",
-                        "title": "Interfaces"
                     }
                 ]
             }
@@ -81,10 +65,6 @@
                         "title": "County Prosecution"
                     },
                     {
-                        "id": "/attorney-general",
-                        "title": "Attorney General"
-                    },
-                    {
                         "id": "/courts",
                         "title": "Courts"
                     },
@@ -93,16 +73,8 @@
                         "title": "Courts eFiling"
                     },
                     {
-                        "id": "/public-defender",
-                        "title": "Public Defender"
-                    },
-                    {
                         "id": "/attorney-ethics",
                         "title": "Attorney Ethics"
-                    },
-                    {
-                        "id": "/municipal-attorney",
-                        "title": "Municipal Attorney"
                     },
                     {
                         "id": "/ediscovery-with-portal",
@@ -119,10 +91,6 @@
                     {
                         "id": "/online-transcription-service",
                         "title": "Online Transcription Service"
-                    },
-                    {
-                        "id": "/interfaces",
-                        "title": "Interfaces"
                     }
                 ]
             }
@@ -167,16 +135,8 @@
                         "title": "Major Incident Management"
                     },
                     {
-                        "id": "/high-tech-crime",
-                        "title": "High-Tech Crime"
-                    },
-                    {
                         "id": "/csi",
                         "title": "Crime Scene Investigation"
-                    },
-                    {
-                        "id": "/interfaces",
-                        "title": "Interfaces"
                     }
                 ]
             }
@@ -192,6 +152,10 @@
                         "title": "Overview"
                     },
                     {
+                        "id": "/interfaces",
+                        "title": "Interfaces"
+                    },
+                    {
                         "id": "/data-sharing",
                         "title": "Data Sharing"
                     },
@@ -205,7 +169,7 @@
                     },
                     {
                         "id": "/data-mapping",
-                        "title": "Data Mapping"
+                        "title": "Mapping"
                     },
                     {
                         "id": "/cloud-integration",
@@ -265,7 +229,7 @@
         ]
     },
     {
-        "title": "About",
+        "title": "About Us",
         "category": "about",
         "links": [
             {

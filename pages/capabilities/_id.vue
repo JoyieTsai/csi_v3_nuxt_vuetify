@@ -73,6 +73,12 @@ export default {
       redirect(404, '/404')
     }
   },
+  head() {
+    return {
+      titleTemplate: '%s - ' + this.title,
+      meta: [{ name: 'description', content: this.title }],
+    }
+  },
   created() {
     this.getData(this.$route.params.id)
   },
@@ -97,12 +103,6 @@ export default {
         }
       }
     },
-  },
-  head() {
-    return {
-      titleTemplate: '%s - ' + this.$route.params.id,
-      meta: [{ name: 'description', content: this.title }],
-    }
   },
 }
 </script>

@@ -203,7 +203,7 @@
       },
       {
         "title": "Intelligence Priorities",
-        "desc": "Identifie information gaps that will provide tactical and strategic information related to criminal activity, disrupt criminal networks, and protect the homeland.",
+        "desc": "Identify information gaps that will provide tactical and strategic information related to criminal activity, disrupt criminal networks, and protect the homeland.",
         "list": [
           "Configurable support files",
           "Intelligence gaps documentation",
@@ -493,7 +493,7 @@
     "sysFeatures": [
       {
         "title": "Intelligence Dashboard",
-        "desc": "Provide a visual snapshot of selected data including intelligence reports, analytics, and interactive graphs, customized to user preferences. Each segment can be expanded and explored in detail. Administratively, view which members are creating report, and identify approved reports by week.",
+        "desc": "Provide a visual snapshot of selected data including intelligence reports, analytics, and interactive graphs, customized to user preferences. Each segment can be expanded and explored in detail. Administratively, view which members are creating reports and identify approved reports by week.",
         "list": [
           "Customizable display of reports and analytics",
           "Multiple datasets and graphs displayed in one window",
@@ -822,19 +822,6 @@
     }
   },
   {
-    "id": "high-tech-crime",
-    "title": "High-Tech Crime",
-    "subtitle": "coming soon...",
-    "icon": "hacker.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "quote": {
-      "content": "Scientia est Potentia"
-    }
-  },
-  {
     "id": "csi",
     "title": "Crime Scene Investigation",
     "subtitle": "Rolmes™ Revolutionizes Crime Scene Investigations",
@@ -928,19 +915,6 @@
         "link": "crime-intelligence/intelligence"
       }
     ],
-    "quote": {
-      "content": "Scientia est Potentia"
-    }
-  },
-  {
-    "id": "interfaces",
-    "title": "Interfaces",
-    "subtitle": "coming soon...",
-    "icon": "interfaces.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
     "quote": {
       "content": "Scientia est Potentia"
     }

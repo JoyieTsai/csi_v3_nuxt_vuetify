@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <div class="bg-sysfeature tw-mt-10 xl:tw-mt-16">
+    <div class="bg-sysfeature lg:tw-mt-10 xl:tw-mt-16">
       <div class="main-container tw-mx-auto">
         <div
           v-for="(item, index) in data"
@@ -54,7 +54,12 @@
                 ></div>
                 <!-- eslint-disable-next-line vue/no-v-html -->
                 <div
-                  class="tw-text-base xl:tw-text-lg tw-my-2 tw-opacity-70"
+                  class="
+                    tw-text-sm
+                    sm:tw-text-base
+                    xl:tw-text-lg
+                    tw-my-2 tw-opacity-70
+                  "
                   v-html="item.desc"
                 ></div>
                 <ul class="dot-list">
@@ -62,9 +67,11 @@
                     v-for="(list, i) in item.list"
                     :key="i"
                     class="
-                      tw-text-base
+                      tw-text-sm
+                      sm:tw-text-base
                       xl:tw-text-lg
                       tw-leading-sung tw-opacity-70
+                      lg:tw-mt-2
                     "
                   >
                     <!-- eslint-disable-next-line vue/no-v-html -->
@@ -76,6 +83,20 @@
           </div>
 
           <div
+            v-if="$vuetify.breakpoint.xsOnly"
+            class="tw-w-full tw-flex-1 tw-pb-5"
+          >
+            <zoom-on-hover
+              :img-normal="
+                require('@/assets/images/sysfeatures/2x/' + item.img)
+              "
+              :disabled="$vuetify.breakpoint.smAndDown ? 'true' : item.zoomoff"
+            >
+            </zoom-on-hover>
+          </div>
+
+          <div
+            v-else
             class="tw-w-full tw-flex-1 tw-p-5"
             :data-aos="index % 2 == 0 ? 'fade-right' : 'fade-left'"
             data-aos-duration="1500"

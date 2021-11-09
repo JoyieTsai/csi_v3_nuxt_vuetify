@@ -411,7 +411,7 @@
         "desc": "Record-keeping to investigate cases of animal abuse, neglect, and cruelty."
       },
       {
-        "title": "Internal Affairs",
+        "title": "Professional Standards & Internal Affairs",
         "icon": "internal_affairs.svg",
         "desc": "Case management for allegations of employee misconduct."
       },
@@ -915,34 +915,8 @@
     }
   },
   {
-    "id": "warrant",
-    "title": "Warrant",
-    "subtitle": "coming soon...",
-    "icon": "warrants.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "quote": {
-      "content": "Scientia est Potentia"
-    }
-  },
-  {
-    "id": "analytics-crime-mapping",
-    "title": "Analytics & Crime Mapping",
-    "subtitle": "coming soon...",
-    "icon": "analytics.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "quote": {
-      "content": "Scientia est Potentia"
-    }
-  },
-  {
     "id": "internal-affairs",
-    "title": "Internal Affairs",
+    "title": "Professional Standards & Internal Affairs",
     "subtitle": "Case Management for Allegations of Employee Misconduct",
     "icon": "internal_affairs.svg",
     "coverImg": "internal_affairs.jpg",
@@ -1036,32 +1010,6 @@
     ],
     "quote": {
       "content": "For every minute you are angry, you lose sixty seconds of happiness."
-    }
-  },
-  {
-    "id": "municipal-solutions",
-    "title": "Municipal Solutions",
-    "subtitle": "coming soon...",
-    "icon": "internal_affairs.svg",
-    "coverImg": "",
-    "brochure": "Municipal Management System.pdf",
-    "descHeading": "",
-    "descContent": "",
-    "quote": {
-      "content": "Scientia est Potentia"
-    }
-  },
-  {
-    "id": "interfaces",
-    "title": "Interfaces",
-    "subtitle": "coming soon...",
-    "icon": "interfaces.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "quote": {
-      "content": "Scientia est Potentia"
     }
   }
 ]

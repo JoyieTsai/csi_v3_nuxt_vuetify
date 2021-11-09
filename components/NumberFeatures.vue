@@ -38,12 +38,18 @@
       >
         <div class="tw-relative">
           <i
+            v-if="item.num"
             :class="[
               item.icon,
               'tw-text-4xl lg:tw-text-5xl text-primary tw-absolute tw-top-3 tw--left-4',
             ]"
           ></i>
+          <i
+            v-else
+            :class="[item.icon, 'tw-text-5xl lg:tw-text-6xl text-primary']"
+          ></i>
           <div
+            v-show="item.num"
             class="
               tw-text-5xl
               md:tw-text-6xl
@@ -55,9 +61,7 @@
             0{{ index + 1 }}
           </div>
         </div>
-        <div
-          class="tw-text-lg md:tw-text-xl tw-font-semibold tw-ml-5 lg:tw-w-40"
-        >
+        <div class="tw-text-lg md:tw-text-xl tw-font-semibold tw-ml-5">
           {{ item.title }}
         </div>
       </div>

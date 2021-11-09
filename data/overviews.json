@@ -86,7 +86,7 @@
                     "Data Sharing",
                     "Data Migration",
                     "Data Analytics",
-                    "Data Mapping",
+                    "Mapping",
                     "Cloud Integration",
                     "Low Code Development",
                     "Vertical Integration / Total Solution",
@@ -114,7 +114,7 @@
         ]
     },
     {
-        "title": "About",
+        "title": "About Us",
         "content": "A Full Service Portal Designed Specifically for Victim Witness Advocates to Expedite Services and Increase Communication With Their Clients",
         "icon": "p-vw.svg",
         "src": "vwportal.jpg",

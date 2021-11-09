@@ -1,12 +1,7 @@
 <template>
   <div class="main-container tw-mx-auto">
     <div
-      class="
-        tw-text-2xl
-        lg:tw-text-4xl
-        text-dark
-        tw-font-semiboldtw-text-center
-      "
+      class="tw-text-2xl lg:tw-text-4xl text-dark tw-font-bold tw-text-center"
     >
       Related Articles
     </div>
@@ -40,18 +35,20 @@
         ></v-img>
         <div
           v-if="article.type === 'story'"
-          class="text-primary tw-text-base tw-my-1"
+          class="text-primary tw-text-sm sm:tw-text-base tw-my-1"
         >
           Success Stories
         </div>
         <div
           v-else-if="article.type === 'news'"
-          class="text-secondary tw-text-base"
+          class="text-secondary tw-text-sm sm:tw-text-base"
         >
           News
         </div>
-        <div v-else class="text-grey tw-text-base">Event</div>
-        <div class="tw-text-base lg:tw-text-lg">{{ article.title }}</div>
+        <div v-else class="text-grey tw-text-sm sm:tw-text-base">Event</div>
+        <div class="tw-text-sm sm:tw-text-base lg:tw-text-lg">
+          {{ article.title }}
+        </div>
       </div>
     </div>
   </div>

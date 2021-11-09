@@ -1,13 +1,15 @@
 import colors from 'vuetify/es5/util/colors'
+import axios from "axios";
+import pkg from "./package";
 
 export default {
   server: {
     port: '8000', // default: 3000
-    host: 'localhost', // default: localhost
+    host: '0.0.0.0', // default: localhost
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.6-10262021',
+    dir: 'test-V1.6.5-11052021',
   },
 
   /*
@@ -24,9 +26,6 @@ export default {
     },
   },
 
-  // Target: https://go.nuxtjs.dev/config-target
-  target: 'static',
-
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - CSI Technology Group',
@@ -37,7 +36,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: pkg.description },
       { name: 'format-detection', content: 'telephone=no' },
       { property: 'og:site_name', content: 'CSI' },
     ],
@@ -64,11 +63,8 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/myfilter',
-    '@/plugins/vue-youtube',
-    { src: '@/plugins/vue-carousel', ssr: false },
     { src: '@/plugins/aos', ssr: false },
     { src: '~/plugins/vue-zoom-on-hover.js', ssr: false },
-    { src: '~/plugins/vee-validate.js', ssr: false },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -81,14 +77,6 @@ export default {
     '@nuxtjs/vuetify',
     '@nuxtjs/tailwindcss',
   ],
-
-  styleResources: {
-    // your settings here
-    sass: [],
-    scss: [],
-    less: [],
-    stylus: [],
-  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [],

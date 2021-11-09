@@ -73,7 +73,7 @@
         <!-- Benefit -->
         <div class="tw-my-16 xl:tw-my-28 tw-text-center">
           <div class="header-3 tw-font-semibold tw-mb-12">
-            Benefits after 3-Month Probation
+            Benefits Upon Completing 3-Month Probationary Period
           </div>
           <div class="tw-grid tw-grid-cols-2 lg:tw-grid-cols-4 tw-gap-8">
             <div
@@ -128,10 +128,10 @@
                 v-model="files"
                 placeholder="Upload your resume"
                 multiple
+                solo
                 prepend-icon=""
                 prepend-inner-icon="mdi-paperclip"
-                solo
-                class="md:col-span-2"
+                class="md:tw-col-span-2"
               >
                 <template v-slot:selection="{ text }">
                   <v-chip small label color="primary">
@@ -159,7 +159,7 @@ export default {
   data: () => ({
     activeKey: 0,
     category: 'page',
-    title: 'Current Openings',
+    title: 'Join Our Team',
     coverimg: 'job.jpg',
     fileList: [],
     uploading: false,
@@ -205,7 +205,7 @@ export default {
   }),
   head() {
     return {
-      titleTemplate: '%s - ' + this.$route.params.id,
+      titleTemplate: '%s - ' + this.title,
       meta: [{ name: 'description', content: this.title }],
     }
   },

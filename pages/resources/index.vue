@@ -293,7 +293,7 @@ export default {
       this.changeFilteredTag(tag)
     },
     routerToArticle(id) {
-      this.$router.push({ path: '/resources/:id' })
+      this.$router.push({ path: '/resources/' + id })
     },
     nextPage() {
       if (this.page + 1 <= this.numberOfPages) this.page += 1

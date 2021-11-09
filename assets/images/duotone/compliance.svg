@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>duotone/compliance</title>
+    <g id="duotone/compliance" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M59.5,32.5 C67.7842712,32.5 74.5,39.2157288 74.5,47.5 C74.5,55.7842712 67.7842712,62.5 59.5,62.5 C51.2157288,62.5 44.5,55.7842712 44.5,47.5 C44.5,39.2157288 51.2157288,32.5 59.5,32.5 Z M65.0796723,41.9489108 L57.382,48.871 L54.4492248,46.1118722 L52.0507752,48.6608797 L57.3294773,53.6277939 L67.4203277,44.5510892 L65.0796723,41.9489108 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>
+        <path d="M83.75,14.499 L83.75,30.75 L99,30.75 L99,106 L20.75,106 L20.75,14.5 L83.75,14.499 Z M59.5,29 C49.2827321,29 41,37.2827321 41,47.5 C41,57.7172679 49.2827321,66 59.5,66 C69.7172679,66 78,57.7172679 78,47.5 C78,37.2827321 69.7172679,29 59.5,29 Z M87.25,14.5 L99,27.25 L87.25,27.25 L87.25,14.5 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero" opacity="0.3"></path>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="74.25 87 74.25 90.5 34.25 90.5 34.25 87"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="85.25 76 85.25 79.5 34.25 79.5 34.25 76"></polygon>
+    </g>
+</svg>

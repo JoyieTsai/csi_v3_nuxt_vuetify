@@ -40,49 +40,9 @@
     }
   },
   {
-    "id": "attorney-general",
-    "title": "Attorney General",
-    "subtitle": "coming soon...",
-    "icon": "attorney_general.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "relatedProducts": [
-      {
-        "title": "County Prosecution",
-        "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
-      },
-      {
-        "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
-      },
-      {
-        "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
-      },
-      {
-        "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
-        "link": "justice-courts/attorney-ethics"
-      },
-      {
-        "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
-        "link": "justice-courts/municipal-attorney"
-      }
-    ],
-    "quote": {
-      "content": ""
-    }
-  },
-  {
     "id": "courts",
     "title": "Courts",
-    "subtitle": "A Complete Case and Document Management Solution",
+    "subtitle": "Complete Case and Document Management Solution",
     "icon": "court.svg",
     "coverImg": "courts.jpg",
     "brochure": "",
@@ -267,46 +227,6 @@
     }
   },
   {
-    "id": "public-defender",
-    "title": "Public Defender",
-    "subtitle": "coming soon...",
-    "icon": "public_defender.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "relatedProducts": [
-      {
-        "title": "County Prosecution",
-        "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
-      },
-      {
-        "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
-      },
-      {
-        "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
-      },
-      {
-        "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
-        "link": "justice-courts/attorney-ethics"
-      },
-      {
-        "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
-        "link": "justice-courts/municipal-attorney"
-      }
-    ],
-    "quote": {
-      "content": ""
-    }
-  },
-  {
     "id": "attorney-ethics",
     "title": "Attorney Ethics",
     "subtitle": "Enforcing Good Attorney Standards",
@@ -393,46 +313,6 @@
     ],
     "quote": {
       "content": "Happiness is a satisfied client"
-    }
-  },
-  {
-    "id": "municipal-attorney",
-    "title": "Municipal Attorney",
-    "subtitle": "coming soon...",
-    "icon": "justice_court.svg",
-    "coverImg": "",
-    "brochure": "Municipal Portal.pdf",
-    "descHeading": "",
-    "descContent": "",
-    "relatedProducts": [
-      {
-        "title": "County Prosecution",
-        "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
-      },
-      {
-        "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
-      },
-      {
-        "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
-      },
-      {
-        "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
-        "link": "justice-courts/attorney-ethics"
-      },
-      {
-        "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
-        "link": "justice-courts/municipal-attorney"
-      }
-    ],
-    "quote": {
-      "content": ""
     }
   },
   {
@@ -553,7 +433,7 @@
       },
       {
         "title": "Stat Tracker",
-        "desc": "Statistics tracker is designed to simplify state and federal reporting and statistical requirements. Forms and reports are automatically updated when information is added to a case, streamlining the reporting process and saving valuable time. ",
+        "desc": "Stat is designed to simplify state and federal statistical reporting requirements. Forms and reports are automatically updated when information is added to a case, streamlining the reporting process and saving valuable time. ",
         "list": [
           "VOCA report",
           "Sexual assault response and referrals report",
@@ -771,46 +651,6 @@
     ],
     "quote": {
       "content": "Sapere Aude (Dare to Know)"
-    }
-  },
-  {
-    "id": "interfaces",
-    "title": "Interfaces",
-    "subtitle": "coming soon...",
-    "icon": "interfaces.svg",
-    "coverImg": "",
-    "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "relatedProducts": [
-      {
-        "title": "County Prosecution",
-        "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
-      },
-      {
-        "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
-      },
-      {
-        "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
-      },
-      {
-        "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
-        "link": "justice-courts/attorney-ethics"
-      },
-      {
-        "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
-        "link": "justice-courts/municipal-attorney"
-      }
-    ],
-    "quote": {
-      "content": ""
     }
   }
 ]

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>duotone/increase_agility</title>
+    <g id="duotone/increase_agility" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M83.75,14.499 L83.75,30.75 L99,30.75 L99,106 L93.125,105.999 L61.249,105.999 L61.25,78.75 L57.75,78.75 L57.749,105.999 L20.75,106 L20.75,14.5 L57.749,14.499 L57.75,41.25 L61.25,41.25 L61.249,14.499 L83.75,14.499 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero" opacity="0.3"></path>
+        <path d="M59.5347601,40 C70.9946687,40 80.2847601,49.2900914 80.2847601,60.75 C80.2847601,72.2099086 70.9946687,81.5 59.5347601,81.5 C48.0748515,81.5 38.7847601,72.2099086 38.7847601,60.75 C38.7847601,49.2900914 48.0748515,40 59.5347601,40 Z M59.5347601,50.5125631 L50.2973232,59.75 L52.772197,62.2248737 L57.7847601,57.214 L57.7847601,70.75 L61.2847601,70.75 L61.2847601,57.212 L66.2973232,62.2248737 L68.772197,59.75 L59.5347601,50.5125631 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.386997768" points="87.25 14.5 99 27.25 87.25 27.25"></polygon>
+    </g>
+</svg>

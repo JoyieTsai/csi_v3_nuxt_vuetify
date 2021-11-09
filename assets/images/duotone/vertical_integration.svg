@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>duotone/vertical_integration</title>
+    <g id="duotone/vertical_integration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M52,85 L52,108 L41.75,108 L41.75,94.25 L23.25,94.25 L23.25,108 L12,108 L12,85 L52,85 Z M38.25,97.75 L38.25,108 L26.75,108 L26.75,97.75 L38.25,97.75 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.3" points="107.5 85 107.5 108 67.5 108 67.5 85"></polygon>
+        <circle id="Oval" fill="#0D63BA" fill-rule="nonzero" cx="80" cy="96" r="3"></circle>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="99.75 94.25 99.75 108 96.25 108 96.25 97.75 91.75 97.75 91.75 108 88.25 108 88.25 94.25"></polygon>
+        <path d="M82,12 L82,53 L68.75,53 L68.75,33.25 L50.25,33.25 L50.25,53 L37,53 L37,12 L82,12 Z M65.25,36.75 L65.25,53 L53.75,53 L53.75,36.75 L65.25,36.75 Z M74,19 L65,19 L65,28 L74,28 L74,19 Z M55,19 L46,19 L46,28 L55,28 L55,19 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.300247919" points="40 26.55 40 30.05 40 49.55 40 53.05 18.25 53.05 18.25 26.55"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="34 33 34 40 25 40 25 33"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.300247919" points="101.75 26.55 101.75 53.05 80 53.05 80 49.55 80 30.05 80 26.55"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="95 33 95 40 86 40 86 33"></polygon>
+        <polygon id="Path-Copy" fill="#0D63BA" fill-rule="nonzero" transform="translate(38.420343, 68.936267) rotate(-180.000000) translate(-38.420343, -68.936267) " points="38.420343 56.6960024 47.320343 68.5626691 44.520343 70.6626691 40.290343 65.0236691 40.290343 81.176532 36.7904452 81.176532 36.790343 64.7016691 32.320343 70.6626691 29.520343 68.5626691"></polygon>
+        <polygon id="Path-Copy-2" fill="#0D63BA" fill-rule="nonzero" opacity="0.3" transform="translate(80.420343, 68.936267) rotate(-180.000000) translate(-80.420343, -68.936267) " points="80.420343 56.6960024 89.320343 68.5626691 86.520343 70.6626691 82.290343 65.0236691 82.290343 81.176532 78.7904452 81.176532 78.790343 64.7016691 74.320343 70.6626691 71.520343 68.5626691"></polygon>
+        <polygon id="Path-Copy-3" fill="#0D63BA" fill-rule="nonzero" opacity="0.3" points="74 19 74 28 65 28 65 19"></polygon>
+        <polygon id="Path-Copy-4" fill="#0D63BA" fill-rule="nonzero" opacity="0.3" points="55 19 55 28 46 28 46 19"></polygon>
+    </g>
+</svg>

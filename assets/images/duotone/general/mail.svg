@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>duotone/general/mail copy</title>
+    <g id="duotone/general/mail-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#0D63BA" opacity="0.3" points="77 62.583 108.009 96.25 11.99 96.25 43 62.583 60.0006576 80.5458811"></polygon>
+        <polygon id="Path" fill="#0D63BA" opacity="0.3" points="111.25 26.394 111.25 94.602 79.411 60.035"></polygon>
+        <polygon id="Path" fill="#0D63BA" opacity="0.3" points="8.75 26.395 40.588 60.034 8.75 94.601"></polygon>
+        <polygon id="Path" fill="#0D63BA" points="108.933 23.75 60 75.454 11.066 23.75"></polygon>
+    </g>
+</svg>

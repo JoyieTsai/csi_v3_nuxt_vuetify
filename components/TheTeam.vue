@@ -8,7 +8,8 @@
         </div>
         <div
           class="
-            tw-text-base
+            tw-text-sm
+            sm:tw-text-base
             xl:tw-text-lg
             tw-mb-4 tw-opacity-70 tw-leading-tight
           "
@@ -22,7 +23,13 @@
           <div class="tw-p-4 md:tw-p-5 xl:tw-p-10">
             <div class="header-2 tw-leading-none">The Team</div>
             <div
-              class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-font-semibold"
+              class="
+                tw-text-sm
+                sm:tw-text-base
+                lg:tw-text-lg
+                xl:tw-text-xl
+                tw-font-semibold
+              "
             >
               Contact our dedicated, experienced account managers
             </div>
@@ -70,7 +77,8 @@
           </div>
           <div
             class="
-              tw-text-base
+              tw-text-sm
+              sm:tw-text-base
               xl:tw-text-lg
               tw-mb-4 tw-opacity-70 tw-leading-tight
             "
@@ -112,7 +120,8 @@
           </div>
           <div
             class="
-              tw-text-base
+              tw-text-sm
+              sm:tw-text-base
               xl:tw-text-lg
               tw-mb-4 tw-opacity-70 tw-leading-tight
             "
@@ -127,7 +136,9 @@
         <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
           {{ getMember[1].name }}
         </div>
-        <div class="tw-text-base xl:tw-text-lg tw-mb-4 tw-opacity-70">
+        <div
+          class="tw-text-sm sm:tw-text-base xl:tw-text-lg tw-mb-4 tw-opacity-70"
+        >
           {{ getMember[1].position }}
         </div>
       </div>
@@ -177,9 +188,9 @@ export default {
     width: 250px;
   }
   @media (max-width: $breakpoints-sm) {
-    width: 180px;
+    width: 160px;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 325px) {
     width: 235px;
   }
 }

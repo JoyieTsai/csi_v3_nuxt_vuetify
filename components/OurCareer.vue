@@ -26,7 +26,7 @@
           class="tw-my-10 lg:tw-mb-0 btn-lg btn-primary hover:tw-shadow-xl"
           @click.prevent="routerTo('job')"
         >
-          VIEW JOB OPENINGS
+          View Career Opportunities
         </button>
       </div>
       <div
@@ -73,18 +73,18 @@ export default {
   data: () => ({
     careers: [
       {
-        icon: 'cafeteria_plan.svg',
-        title: 'Cafeteria plan',
-        desc: 'Full-time employee with 90 days of service',
+        icon: 'cost_up.svg',
+        title: '401k Retirement Plan',
+        desc: 'Eligible after one year of employment',
       },
       {
         icon: 'medical_dental.svg',
-        title: 'Medical & dental',
+        title: 'Medical & Dental',
         desc: 'Full-time employee with 90 days of service',
       },
       {
         icon: 'worker_insurance.svg',
-        title: "Worker's compensation Insurance",
+        title: "Worker's Compensation",
         desc: "Worker's compensation coverage",
       },
       {

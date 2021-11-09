@@ -48,14 +48,6 @@
 import Products from '~/data/justice-courts.json'
 
 export default {
-  fetch({ params, redirect }) {
-    const product = Products.filter((res) => {
-      return res.id === params.id
-    })
-    if (product.length < 1) {
-      redirect(404, '/404')
-    }
-  },
   data: () => ({
     btnGroup: true,
     category: 'justice-courts',
@@ -77,6 +69,20 @@ export default {
     relatedProducts: Array,
     quote: String,
   }),
+  fetch({ params, redirect }) {
+    const product = Products.filter((res) => {
+      return res.id === params.id
+    })
+    if (product.length < 1) {
+      redirect(404, '/404')
+    }
+  },
+  head() {
+    return {
+      titleTemplate: '%s - ' + this.title,
+      meta: [{ name: 'description', content: this.title }],
+    }
+  },
   created() {
     this.getData(this.$route.params.id)
   },
@@ -108,12 +114,6 @@ export default {
       const url = '../../brochure/' + file
       window.open(url, '_blank')
     },
-  },
-  head() {
-    return {
-      titleTemplate: '%s - ' + this.$route.params.id,
-      meta: [{ name: 'description', content: this.title }],
-    }
   },
 }
 </script>

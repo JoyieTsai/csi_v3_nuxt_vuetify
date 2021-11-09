@@ -1,5 +1,18 @@
 [
   {
+    "id": "interfaces",
+    "title": "Interfaces",
+    "subtitle": "coming soon...",
+    "icon": "interfaces.svg",
+    "coverImg": "",
+    "brochure": "",
+    "descHeading": "",
+    "descContent": "",
+    "quote": {
+      "content": "Scientia est Potentia"
+    }
+  },
+  {
     "id": "data-sharing",
     "title": "Data Sharing",
     "subtitle": "coming soon...",
@@ -98,7 +111,7 @@
         "link": "data-analytics"
       },
       {
-        "title": "Data Mapping",
+        "title": "Mapping",
         "desc": "Visualizing data to reveal relationships, trends, and patterns",
         "icon": "icon-mapping_solid",
         "link": "data-mapping"
@@ -114,11 +127,79 @@
   {
     "id": "data-analytics",
     "title": "Data Analytics",
-    "subtitle": "coming soon...",
+    "subtitle": "Transforming Data and Analysis into Actionable Insights ",
     "icon": "analytics.svg",
-    "coverImg": "",
-    "descHeading": "",
-    "descContent": ""
+    "coverImg": "data-analytics.jpg",
+    "descHeading": "Data-driven decision making, resource tracking, and reporting",
+    "descContent": "Government agencies generate and collect enormous amounts of data every single day. In order to make sense of all this information, CSI's Data Analytics transforms this raw data into actionable insights using data statistics, custom query reporting, and data visualization tools. Analytics also reveals relationships, trends, and patterns of criminal activity to assist public service professionals in intelligent decision-making and efficient resource allocation.",
+    "diagram": {
+      "img": "data-analytics.jpg",
+      "desc": "With CSI’s data visualization and analytics tools, public safety professionals can configure high-level dashboards for organizational and response planning, run multidimensional crime analysis, and instantly generate actionable insights. Advanced reporting tools enable users to create customizable reports and save report templates with custom search criteria. And custom querying allows users to choose the exact information to analyze, visualize, and/or disseminate. All these solutions are integrated into our InfoShare™ products."
+    },
+    "features": {
+      "title": "Intelligent Decision Making",
+      "subtitle": "ANALYTICS SOLUTIONS",
+      "desc": "Our Data Analytics solutions are fully integrated into the InfoShare Engine® platform. From global search to trend analysis to reporting, agencies have access to a comprehensive toolkit to make strategic, intelligence-led decisions.",
+      "num": false,
+      "items": [
+        {
+          "icon": "icon-link_analysis_outline",
+          "title": "Link Analysis"
+        },
+        {
+          "icon": "icon-mapping_outline",
+          "title": "Crime Mapping"
+        },
+        {
+          "icon": "icon-global_search_outline",
+          "title": "Global Search"
+        },
+        {
+          "icon": "icon-report_generation_outline",
+          "title": "Ad-hoc Reporting"
+        },
+        {
+          "icon": "icon-doc_management_outline",
+          "title": "CompStat Reporting"
+        },
+        {
+          "icon": "icon-report_outline",
+          "title": "Report Templates"
+        },
+        {
+          "icon": "icon-empowerment_outline",
+          "title": "Data Visualization"
+        },
+        {
+          "icon": "icon-built_in_compliance_outline",
+          "title": "Configurable Dashboard"
+        },
+        {
+          "icon": "icon-warehouse_outline",
+          "title": "Data Warehouse"
+        }
+      ]
+    },
+    "relatedCapabilities": [
+      {
+        "title": "Data Analytics",
+        "desc": "Transforming data and analysis into actionable insights",
+        "icon": "icon-analytics_solid",
+        "link": "data-analytics"
+      },
+      {
+        "title": "InfoShare Engine®",
+        "desc": "Low Code Development Platform for Government ERP Application",
+        "icon": "icon-engine_solid",
+        "link": "infoShare-engine"
+      },
+      {
+        "title": "Security",
+        "desc": "Robust data encryption, permission, and privacy",
+        "icon": "icon-security_force_solid",
+        "link": "security"
+      }
+    ]
   },
   {
     "id": "data-mapping",
@@ -581,6 +662,7 @@
       "title": "Single Development Platform",
       "subtitle": "9 PRINCIPLES OF THE INFOSHARE ENGINE®",
       "desc": "All CSI applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies. The following nine principles guide our application development to ensure we’re delivering the maximum value to our clients.",
+      "num": true,
       "items": [
         {
           "icon": "icon-lowcode_outline",

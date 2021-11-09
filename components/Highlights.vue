@@ -43,9 +43,7 @@
             :key="index"
             class="tw-mt-2 lg:tw-mt-4"
           >
-            <div
-              class="tw-text-base md:tw-text-lg xl:tw-text-xl tw-leading-tight"
-            >
+            <div class="tw-text-sm sm:tw-text-base md:tw-text-lg xl:tw-text-xl">
               {{ item }}
             </div>
           </li>

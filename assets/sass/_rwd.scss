@@ -203,6 +203,7 @@ $x5: 0.6;
   .btn {
     &-lg {
       font-size: ceil($body-3-size * $x7);
+      padding: 10px;
       min-width: 120px;
     }
   }

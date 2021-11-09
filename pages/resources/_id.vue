@@ -112,8 +112,7 @@
                 </div>
                 <div
                   class="
-                    tw-text-lg
-                    tw-leading-relaxed tw-text-gray-500
+                    tw-text-lg tw-leading-relaxed tw-text-gray-500
                     news-body
                   "
                 >
@@ -195,6 +194,7 @@ export default {
   data: () => ({
     category: 'page',
     coverimg: 'blue.jpg',
+    title: 'Resources',
     aid: '',
     atitle: '',
     adate: '',
@@ -260,7 +260,7 @@ export default {
     },
     head() {
       return {
-        titleTemplate: '%s - ' + this.$route.params.id,
+        titleTemplate: this.atitle + ' - %s',
         meta: [{ name: 'description', content: this.title }],
       }
     },

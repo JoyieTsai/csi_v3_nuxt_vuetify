@@ -25,7 +25,8 @@
             </div>
             <div
               class="
-                tw-text-3xl
+                tw-text-2.5xl
+                sm:tw-text-3xl
                 lg:tw-text-4xl
                 xl:tw-text-5xl
                 tw-font-semibold tw-leading-snug tw-my-2
@@ -63,10 +64,17 @@
     <div class="bg-primary-light">
       <div class="main-container tw-mx-auto tw-pb-10 xl:tw-pb-20 tw-text-white">
         <div class="2xl:tw-w-3/4">
-          <div class="tw-text-xl lg:tw-text-2xl tw-mb-2 tw-font-semibold">
+          <div
+            class="
+              tw-text-lg
+              sm:tw-text-xl
+              lg:tw-text-2xl
+              tw-mb-2 tw-font-semibold
+            "
+          >
             <slot name="desc-heading"></slot>
           </div>
-          <div class="tw-text-base lg:tw-text-lg">
+          <div class="tw-text-sm sm:tw-text-base lg:tw-text-lg">
             <slot name="desc-content"></slot>
           </div>
         </div>

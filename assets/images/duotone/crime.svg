@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>duotone/crime</title>
+    <g id="duotone/crime" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="108.182953 76.8022139 94.6194897 69.6839338 80.8173339 83.1942409 94.3794632 90.3163981"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="113.892857 80.1589735 110.956227 78.7419965 96.6459446 91.6665387 113.892857 100.019988"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="78.515119 61.1071429 77.3384219 61.1071429 63.674536 73.6097391 77.2496529 80.2677376 91.3261694 67.3931868"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="56.1835812 48.7916334 42.6393981 41.6841452 28.8159061 55.2084219 42.3635642 62.3158255"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="5.10714286 21.9578475 5.10714286 42.4625143 8.78276835 44.2698355 23.3175484 30.9261543"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.201234" transform="translate(105.629090, 33.086235) scale(-1, 1) translate(-105.629090, -33.086235) " points="97.1071429 21.8447108 97.1071429 42.4203069 100.688004 44.3277594 114.151038 30.9380166"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="39.1789931 39.8482369 25.5545683 32.682372 11.8208377 46.1517805 25.4464117 53.3176187"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.201234" transform="translate(93.991042, 42.999994) scale(-1, 1) translate(-93.991042, -42.999994) " points="106.482084 39.8641879 93.9867019 32.6003576 81.5 46.1358306 93.9964307 53.3996304"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="74.2521479 57.9694877 59.9441414 50.7084979 45.7480667 64.1473657 59.4890464 71.1227584 61.053 70.328 61.3113378 70.2204682"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.201234" points="23.3175594 91.0751333 8.78290069 77.7301963 5.10714286 79.5372761 5.10714286 100.041925"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.201234" points="39.1792331 82.1514073 25.4449518 68.6823528 11.8211053 75.8486276 25.5530883 89.3176287"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.201234" points="55.1956249 73.9398375 35.2887038 63.8793789 28.7379436 67.186486 42.2183315 79.8928571 43.4229669 79.8928571"></polygon>
+        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" opacity="0.201234" points="91.1848979 55.2976721 77.2648872 41.6845492 63.9244485 48.6806423 83.8631432 59.1373616"></polygon>
+    </g>
+</svg>

@@ -40,21 +40,22 @@
                 class="tw-flex tw-items-center tw-justify-center"
               >
                 <div
-                  :class="[
-                    $vuetify.breakpoint.mdAndDown ? 'tw-p-5' : 'tw-p-10',
-                    'tw-flex tw-flex-col tw-text-xl tw-opacity-2',
-                  ]"
+                  class="
+                    sm:tw-p-5
+                    xl:tw-p-10
+                    tw-flex tw-flex-col tw-text-xl tw-opacity-2
+                  "
                 >
                   <div class="tw-text-2xl lg:tw-text-4xl tw-font-semibold">
                     {{ item.title }}
                   </div>
-                  <div class="border-primary tw-my-2 lg:tw-my-5"></div>
+                  <div class="border-primary tw-my-3 lg:tw-my-5"></div>
                   <div
                     class="
-                      tw-text-base
+                      tw-text-sm
+                      sm:tw-text-base
                       lg:tw-text-lg
                       xl:tw-text-xl xl:tw-mr-10
-                      tw-leading-normal
                     "
                     v-html="item.desc"
                   ></div>

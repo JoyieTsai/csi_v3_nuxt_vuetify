@@ -19,7 +19,15 @@
       <div class="main-container tw-mx-auto">
         <div class="tw-flex tw-flex-col md:tw-flex-row tw-my-12 xl:tw-my-28">
           <div class="tw-pb-5">
-            <ul class="tw-w-44 xl:tw-w-60 tw-border-l-8 border-primary-light tw-pl-5">
+            <ul
+              class="
+                tw-w-44
+                xl:tw-w-60
+                tw-border-l-8
+                border-primary-light
+                tw-pl-5
+              "
+            >
               <li v-for="(link, index) in links" :key="index" class="tw-mb-5">
                 <nuxt-link :to="link.url" class="title md:tw-text-xl text-link"
                   >{{ link.title }}
@@ -489,7 +497,7 @@ export default {
   }),
   head() {
     return {
-      titleTemplate: '%s - ' + this.$route.params.id,
+      titleTemplate: '%s - ' + this.title,
       meta: [{ name: 'description', content: this.title }],
     }
   },

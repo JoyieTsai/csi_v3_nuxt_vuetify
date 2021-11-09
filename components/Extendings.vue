@@ -8,7 +8,6 @@
         tw-pb-3 tw-grid
         2xl:tw-grid-cols-5
         lg:tw-grid-cols-4
-        md:tw-grid-cols-3
         sm:tw-grid-cols-2
         tw-gap-5
       "
@@ -16,7 +15,7 @@
       <div
         v-for="(item, index) in data"
         :key="index"
-        class="tw-bg-white shadow-1 tw-text-center tw-p-4 lg:tw-p-7 zoomin"
+        class="tw-bg-white shadow-1 tw-text-center tw-p-7 zoomin"
       >
         <img
           class="tw-mx-auto tw-my-3 tw-w-16 lg:tw-w-20"
@@ -24,7 +23,9 @@
           :alt="item.title"
         />
         <div class="tw-text-xl tw-font-semibold tw-my-3">{{ item.title }}</div>
-        <div class="tw-opacity-70">{{ item.desc }}</div>
+        <div class="tw-opacity-70 tw-text-sm sm:tw-text-base">
+          {{ item.desc }}
+        </div>
         <div class="tw-mt-3">
           <nuxt-link
             v-if="item.link"
