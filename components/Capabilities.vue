@@ -13,8 +13,9 @@
             <span :class="['tabicon', item.icon]"></span>
             <div
               class="
-                tw-text-lg
-                xl:tw-text-xl
+                tw-text-base
+                xl:tw-text-lg
+                2xl:tw-text-xl
                 tw-font-semibold
                 tw-my-3
                 tw-capitalize
@@ -53,9 +54,10 @@
                   <div
                     class="
                       tw-text-sm
-                      sm:tw-text-base
-                      lg:tw-text-lg
-                      xl:tw-text-xl xl:tw-mr-10
+                      md:tw-text-base
+                      xl:tw-text-lg
+                      2xl:tw-text-xl
+                      xl:tw-mr-10
                     "
                     v-html="item.desc"
                   ></div>

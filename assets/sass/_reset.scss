@@ -49,3 +49,7 @@ a {
 .v-text-field--outlined > .v-input__control > .v-input__slot {
   background: white !important;
 }
+
+.tw-divide-opacity-25 > :not([hidden]) ~ :not([hidden]) {
+  border-color: rgba(229, 231, 235, 0.25);
+}

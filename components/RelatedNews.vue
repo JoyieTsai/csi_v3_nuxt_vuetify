@@ -35,7 +35,7 @@
         ></v-img>
         <div
           v-if="article.type === 'story'"
-          class="text-primary tw-text-sm sm:tw-text-base tw-my-1"
+          class="text-primary tw-text-sm sm:tw-text-base"
         >
           Success Stories
         </div>

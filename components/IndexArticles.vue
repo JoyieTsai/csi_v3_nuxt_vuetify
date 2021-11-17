@@ -34,7 +34,11 @@
           class="
             tw-pl-4 tw-pr-4
             lg:tw-pl-20
-            tw-pt-3 tw-pb-4 tw-text-2xl tw-text-white
+            tw-pt-3 tw-pb-4 tw-font-semibold tw-text-sm
+            md:tw-text-lg
+            lg:tw-text-xl
+            xl:tw-text-2xl
+            tw-text-white
           "
         >
           {{ latestStory.title }}
@@ -45,33 +49,27 @@
         <div class="tw-mb-4">
           <img src="../assets/icons/icon-quotes.svg" alt="" />
         </div>
-        <div class="tw-mx-5">
-          <v-carousel
-            cycle
-            hide-delimiter-background
-            :show-arrows="latestStory.testimonials.length > 1 ? true : false"
-            height="320"
-          >
-            <v-carousel-item>
-              <div
-                v-for="(item, i) in latestStory.testimonials"
-                :key="i"
-                class="tw-mb-8"
-              >
-                <div class="tw-text-lg">
-                  {{ item.body }}
-                </div>
-                <div class="tw-text-lg tw-font-semibold tw-mt-5">
-                  {{ item.author }}
-                </div>
-                <!-- eslint-disable-next-line vue/no-v-html -->
-                <div
-                  class="text-base tw-opacity-60"
-                  v-html="item.position"
-                ></div>
-              </div>
-            </v-carousel-item>
-          </v-carousel>
+        <div class="xl:tw-mx-5">
+          <div v-for="(item, i) in latestStory.testimonials" :key="i">
+            <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">
+              {{ item.body }}
+            </div>
+            <div
+              class="
+                tw-text-sm
+                md:tw-text-base
+                lg:tw-text-lg
+                tw-font-semibold tw-mt-5
+              "
+            >
+              {{ item.author }}
+            </div>
+            <!-- eslint-disable-next-line vue/no-v-html -->
+            <div
+              class="tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+              v-html="item.position"
+            ></div>
+          </div>
         </div>
       </div>
     </div>
@@ -108,18 +106,22 @@
         ></v-img>
         <div
           v-if="article.type === 'story'"
-          class="text-primary tw-text-lg tw-my-1"
+          class="text-primary tw-text-sm md:tw-text-base lg:tw-text-lg"
         >
           Success Stories
         </div>
         <div
           v-else-if="article.type === 'news'"
-          class="text-secondary tw-text-lg"
+          class="text-secondary tw-text-sm md:tw-text-base lg:tw-text-lg"
         >
           News
         </div>
-        <div v-else class="text-grey tw-text-lg">Event</div>
-        <div class="tw-text-lg">{{ article.title }}</div>
+        <div v-else class="text-grey tw-text-sm md:tw-text-base lg:tw-text-lg">
+          Event
+        </div>
+        <div class="tw-text-sm md:tw-text-base lg:tw-text-lg">
+          {{ article.title }}
+        </div>
       </div>
     </div>
   </div>

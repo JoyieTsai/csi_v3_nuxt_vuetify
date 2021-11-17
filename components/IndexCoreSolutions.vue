@@ -6,9 +6,9 @@
           tw-flex
           triangle-right
           bg-primary
-          tw-text-white
-          title
-          tw-text-center tw-items-center
+          tw-text-white tw-text-xl
+          xl:tw-text-2xl
+          tw-font-semibold tw-text-center tw-items-center
         "
       >
         Core Solutions & Services
@@ -21,7 +21,7 @@
           v-for="(solution, index) in solutions"
           :key="index"
           class="
-            tw-text-center tw-cursor-pointer tw-opacity-80
+            tw-text-center tw-cursor-pointer tw-opacity-70
             hover:tw-opacity-100
           "
           @click.prevent="routerTo(solution.link)"
@@ -29,10 +29,19 @@
           <v-icon
             :class="[
               solution.icon,
-              'tw-text-white tw-text-3xl md:tw-text-4xl lg:tw-text-5xl tw-leading-none',
+              'tw-text-white tw-text-3xl lg:tw-text-4xl xl:tw-text-5xl',
             ]"
           ></v-icon>
-          <div class="tw-text-xl tw-text-white tw-hidden md:tw-block">
+          <div
+            class="
+              tw-text-base
+              xl:tw-text-lg
+              2xl:tw-text-xl
+              tw-text-white tw-hidden
+              md:tw-block
+              tw-mt-1
+            "
+          >
             {{ solution.title }}
           </div>
         </div>

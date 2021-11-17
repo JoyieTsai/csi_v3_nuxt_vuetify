@@ -1,6 +1,6 @@
 <template>
   <div class="bg-blue-light">
-    <div class="main-container tw-mx-auto tw-py-10 lg:tw-py-20 tw-text-center">
+    <div class="main-container tw-mx-auto tw-py-14 xl:tw-py-20 tw-text-center">
       <div class="header-2">{{ data.title }}</div>
       <div class="header-5">{{ data.desc }}</div>
 
@@ -26,8 +26,8 @@
             <div
               class="
                 tw-text-lg
-                lg:tw-text-xl
-                xl:tw-text-2xl
+                xl:tw-text-xl
+                2xl:tw-text-2xl
                 tw-text-left tw-font-semibold
               "
             >

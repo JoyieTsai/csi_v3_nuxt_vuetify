@@ -1,6 +1,8 @@
 <template>
   <div class="main-container tw-mx-auto">
-    <div class="header-2 tw-text-center">Extending</div>
+    <div class="header-2 tw-text-center">
+      Extending <span>{{ name }}</span>
+    </div>
     <div
       class="
         tw-mt-8
@@ -15,22 +17,24 @@
       <div
         v-for="(item, index) in data"
         :key="index"
-        class="tw-bg-white shadow-1 tw-text-center tw-p-7 zoomin"
+        class="tw-bg-white shadow-1 tw-text-center tw-p-5 xl:tw-p-7 zoomin"
       >
         <img
-          class="tw-mx-auto tw-my-3 tw-w-16 lg:tw-w-20"
+          class="tw-mx-auto tw-my-3 tw-w-14 xl:tw-w-16 2xl:tw-w-20"
           :src="require('~/assets/duotone/' + item.icon)"
           :alt="item.title"
         />
-        <div class="tw-text-xl tw-font-semibold tw-my-3">{{ item.title }}</div>
-        <div class="tw-opacity-70 tw-text-sm sm:tw-text-base">
+        <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-my-3">
+          {{ item.title }}
+        </div>
+        <div class="tw-opacity-70 tw-text-sm sm:tw-text-base tw-leading-snug">
           {{ item.desc }}
         </div>
         <div class="tw-mt-3">
           <nuxt-link
             v-if="item.link"
             :to="'/' + item.link"
-            class="primary-link no-underline"
+            class="primary-link tw-text-sm sm:tw-text-base no-underline"
             >Learn more</nuxt-link
           >
         </div>
@@ -41,7 +45,7 @@
 
 <script>
 export default {
-  props: ['data'],
+  props: ['name', 'data'],
   data: () => ({}),
 }
 </script>

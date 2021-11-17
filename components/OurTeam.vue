@@ -8,7 +8,9 @@
         md:tw-grid-cols-3
         lg:tw-grid-cols-4
         2xl:tw-grid-cols-5
-        tw-gap-8 tw-mt-12 tw-mb-20
+        tw-gap-4
+        lg:tw-gap-8
+        tw-mt-12 tw-mb-20
       "
     >
       <div
@@ -34,7 +36,8 @@
             <div
               class="
                 team-title
-                tw-text-lg
+                tw-text-base
+                lg:tw-text-lg
                 xl:tw-text-xl
                 tw-font-semibold tw-leading-snug tw-mb-1
               "
@@ -44,7 +47,8 @@
             <div
               class="
                 team-position
-                tw-text-sm
+                tw-text-xs
+                md:tw-text-sm
                 xl:tw-text-base
                 tw-opacity-70 tw-leading-tight
                 hover:hidden
@@ -56,7 +60,7 @@
                 team-desc
                 tw-hidden tw-text-sm
                 xl:tw-text-base
-                tw-leading-sung
+                tw-leading-snug
                 2xl:tw-mx-5
               "
             >
@@ -74,7 +78,9 @@
         md:tw-grid-cols-3
         lg:tw-grid-cols-4
         2xl:tw-grid-cols-5
-        tw-gap-8 tw-mt-12 tw-mb-20
+        tw-gap-4
+        lg:tw-gap-8
+        tw-mt-12 tw-mb-20
       "
     >
       <div
@@ -100,7 +106,6 @@
           <div class="tw-p-3">
             <div
               class="
-                team-title
                 tw-text-lg
                 xl:tw-text-xl
                 tw-font-semibold tw-leading-snug tw-mb-1
@@ -113,7 +118,7 @@
                 team-desc
                 tw-hidden tw-text-sm
                 xl:tw-text-base
-                tw-leading-sung
+                tw-leading-snug
                 2xl:tw-mx-5
               "
             >
@@ -127,7 +132,7 @@
     <div class="header-2 tw-text-center">Special Thanks to Our Advisor</div>
     <div
       class="tw-mt-36 tw-mb-10 lg:tw-mb-20 lg:tw-w-4/5 xl:tw-w-3/4 tw-mx-auto"
-      data-aos="fade-up"
+      :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'"
       data-aos-duration="1500"
     >
       <div
@@ -149,8 +154,9 @@
         <div class="tw-p-8 lg:tw-p-16">
           <div
             class="
-              tw-text-xl
-              xl:tw-text-2xl
+              tw-text-base
+              lg:tw-text-lg
+              xl:tw-text-xl
               tw-font-semibold tw-mt-10
               lg:tw-mt-20
               tw-text-center
@@ -170,31 +176,42 @@
     <!-- Show Detail -->
     <v-dialog
       v-model="modalDetail"
-      overlay-color="white"
-      content-class="tw-bg-white"
+      content-class="tw-bg-white tw-m-0 tw-overflow-hidden"
       @ok="() => (modalDetail = false)"
     >
-      <div slot="closeIcon">
-        <button class="btn-close"></button>
-      </div>
-      <div class="tw-flex tw-flex-col md:tw-flex-row tw-p-5 md:tw-p-8">
-        <div class="md:tw-w-1/4">
-          <img
-            :src="'images/team/' + popSrc"
-            alt=""
-            class="tw-w-40 md:tw-w-full tw-pr-10 tw-mb-5"
-          />
-        </div>
-        <div class="md:tw-w-3/4">
-          <div class="header-3 tw-font-semibold">{{ popName }}</div>
-          <div class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-opacity-70">
-            {{ popPosition }}
+      <v-toolbar flat color="white">
+        <v-toolbar-title></v-toolbar-title>
+        <v-spacer></v-spacer>
+        <v-btn icon @click="modalDetail = false">
+          <v-icon>mdi-close</v-icon>
+        </v-btn>
+      </v-toolbar>
+      <v-sheet
+        id="scrolling-techniques-7"
+        class="overflow-y-auto"
+        max-height="600"
+      >
+        <div
+          class="tw-flex tw-flex-col md:tw-flex-row tw-px-5 md:tw-px-8 tw-pb-8"
+        >
+          <div class="md:tw-w-1/4">
+            <img
+              :src="'images/team/' + popSrc"
+              alt=""
+              class="tw-w-40 md:tw-w-full tw-pr-10 tw-mb-5"
+            />
           </div>
-          <div class="border-primary tw-mt-4 tw-mb-8"></div>
-          <!-- eslint-disable-next-line vue/no-v-html -->
-          <div class="tw-text-sm lg:tw-text-base" v-html="popDesc"></div>
+          <div class="md:tw-w-3/4">
+            <div class="header-3 tw-font-semibold">{{ popName }}</div>
+            <div class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-opacity-70">
+              {{ popPosition }}
+            </div>
+            <div class="border-primary tw-mt-4 tw-mb-8"></div>
+            <!-- eslint-disable-next-line vue/no-v-html -->
+            <div class="tw-text-sm lg:tw-text-base" v-html="popDesc"></div>
+          </div>
         </div>
-      </div>
+      </v-sheet>
     </v-dialog>
   </div>
 </template>

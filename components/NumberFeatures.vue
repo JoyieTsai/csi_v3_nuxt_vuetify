@@ -12,8 +12,19 @@
       "
     >
       <div class="header-2">{{ data.title }}</div>
-      <div class="tw-text-lg lg:tw-text-xl">{{ data.desc }}</div>
-      <div class="tw-text-lg lg:tw-text-xl tw-font-semibold tw-mt-8">
+      <div
+        class="tw-text-sm sm:tw-text-base lg:tw-text-lg xl:tw-text-xl tw-mt-3"
+      >
+        {{ data.desc }}
+      </div>
+      <div
+        class="
+          tw-text-base
+          lg:tw-text-lg
+          xl:tw-text-xl
+          tw-font-semibold tw-mt-8
+        "
+      >
         {{ data.subtitle }}
       </div>
     </div>

@@ -7,8 +7,9 @@
         tw-grid
         md:tw-grid-cols-2
         lg:tw-grid-cols-3
-        tw-gap-4
-        lg:tw-gap-8 lg:tw-p-10
+        tw-gap-6
+        xl:tw-gap-8
+        lg:tw-p-10
         tw-py-5
       "
     >
@@ -19,7 +20,11 @@
       >
         <div
           class="
-            tw-text-4xl
+            tw-flex-shrink-0 tw-h-24
+            xl:tw-h-28
+            tw-w-24
+            xl:tw-w-28
+            tw-text-4xl tw-flex tw-items-center tw-justify-center
             xl:tw-text-5xl
             text-primary-light
             tw-mr-4
@@ -28,12 +33,19 @@
           "
         >
           <img
-            class="tw-w-12 xl:tw-w-16 tw-m-5"
+            class="tw-w-12 xl:tw-w-16"
             :src="require('~/assets/duotone/' + item.icon)"
             alt=""
           />
         </div>
-        <div class="tw-text-lg xl:tw-text-xl tw-text-left tw-font-semibold">
+        <div
+          class="
+            tw-text-base
+            xl:tw-text-lg
+            2xl:tw-text-xl
+            tw-text-left tw-font-semibold
+          "
+        >
           {{ item.title }}
         </div>
       </div>

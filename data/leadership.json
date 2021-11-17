@@ -134,14 +134,19 @@
     },
     {
         "name": "John P. Denmark",
-        "src": "johndenmark.jpg",
+        "src": "john-denmark.jpg",
         "type": "Account Management",
         "position": "Account Management Team",
-        "desc": "Prior to joining CSI Technology Group, Sr. Investigator John P. Denmark retired from the Camden County (NJ) Prosecutor’s Office after a 25 year law enforcement career that included thirteen years with the Prosecutor’s Office and twelve years in local and campus law enforcement with the Woodbury (NJ) Police Department and the Rutgers University Police (Camden Division). While serving at the Camden County Prosecutor’s Office, Sr. Investigator Denmark was assigned to the Crime Scene Unit for over eleven years and was the lead Crime Scene investigator in hundreds of death investigations, including homicide and police-related shootings.<br><br> In addition to his Crime Scene responsibilities, Denmark established countywide services for analog and digital surveillance videos. In recognition, Sr. Investigator Denmark received numerous awards and commendations for his crime scene work as well as his contributions related to audio and video services. His investigations have resulted in hundreds of court appearances involving crime scene and video testimony. The technical services initiated by Denmark have been continued after his retirement by the newly-established High Tech Crimes Unit. John received his undergraduate degree in Computer Science in 1995 from Rutgers - The State University of New Jersey, Camden Campus. He resides in Williamstown, New Jersey with his wife.",
+        "desc": "Prior to joining CSI Technology Group, Sr. Investigator John P. Denmark retired from the Camden County (NJ) Prosecutor’s Office after a 25-year law enforcement career that included thirteen years with the Prosecutor’s Office in 2012 and twelve years in local and campus law enforcement with the Woodbury (NJ) Police Department and the Rutgers University Police (Camden Division). While serving at the Camden County Prosecutor’s Office, Sr. Investigator Denmark was assigned to the Crime Scene Unit for over eleven years.<br><br>In addition to his Crime Scene responsibilities, Denmark established countywide services for analog and digital surveillance videos. In recognition, Sr. Investigator Denmark received numerous awards and commendations for his crime scene work as well as his contributions related to audio and video services. His investigations have resulted in numerous court appearances involving crime scene and video testimony. The technical services initiated by Denmark have been continued after his retirement by the CCPO High Tech Crimes Unit. John received his undergraduate degree in Computer Science in 1995 from Rutgers, The State University of New Jersey, Camden Campus. He resides in South Jersey with his wife.",
         "product": [
             "mobile-operations",
             "evidence",
-            "county-prosecution"
+            "county-prosecution",
+            "attorney-general",
+            "public-defender",
+            "interview-recording",
+            "online-transcription-service",
+            "investigation"
         ]
     },
     {
@@ -248,9 +253,7 @@
         "type": "Account Management",
         "position": "Account Management Team",
         "desc": "Arthur joined CSI Technology Group after over 31 years of experience with the Bergen County Prosecutor’s Office. For 17 years, Arthur was assigned to the Administration Section where he worked with Prosecutors and Detectives dealing with interviews, interrogations and confession statements relating to Homicide, Burglary, Sex Crimes and Arson offenses. Also part of his duties were the generating of Investigative Reports, Search Warrants and other Court Authorized Orders.<br><br>Arthur was transferred into the Bureau of Information Technology, Data Control Unit, over 14 years ago where his duties included the generating of Victim Witness Letters, Expungements and the Processing of Indictments and Accusations. During this time he became a Terminal Agency Coordinator (TAC) Officer certified by the New Jersey State Police.  As a result, he was tasked with handling all of the administrative CJIS duties.  He was also active with the Bergen County CJIS Control Group that consisted of all the Law Enforcement entities in Bergen County. <br><br>In 2011 Arthur became an Administrator for the InfoShare Records Management System for the Bergen County Prosecutor’s Office. He was responsible for the day to day operation of InfoShare, including the training of users,  the daily administration and system maintenance. He also provided administrative support, technical assistance and training for all 70 Law Enforcement Agencies located within Bergen County for the eScreening and Internal Affairs Modules.  His technological expertise and exceptional understanding of the InfoShare Product line make him an excellent addition to the CSI Team.",
-        "product": [
-            "investigation"
-        ]
+        "product": []
     },
     {
         "name": "Scott Plumer",
@@ -269,7 +272,8 @@
         "position": "Account Management Team",
         "desc": "Jeffrey Dunlap began his law enforcement career in 1994 as a Patrol Officer with the Palmyra Police Department in Burlington County, New Jersey. He was promoted to the rank of Sergeant in 1999 and worked in the Patrol Division.<br><br>He was hired as a Detective with the Camden County Prosecutor’s Office in April of 2001. As a Detective, he worked in the Grand Jury Unit, Narcotics Unit, Major Crimes Unit, and was assigned to the Federal Bureau of Investigation’s Violent Crimes Task Force.<br><br>He was promoted to the rank of Sergeant in November of 2013. As a Sergeant, Dunlap supervised the Juvenile Unit, Major Crimes Unit, Special Victims Unit, and the Homicide Unit. He was promoted to the rank of Lieutenant in October of 2017, where he supervised the Major Crimes Unit, Homeland Security Unit, and the Special Victims Unit. After being promoted to Captain in September of 2018, Dunlap supervised the daily operations of the Major Crimes Unit, Homeland Security Unit, Special Victims Unit, and the Crime Scene Unit.<br><br>Promoted to Chief of Detectives in August of 2019, he oversaw an investigative staff of 109 sworn detectives and 15 agents.",
         "product": [
-            ""
+            "intelligence",
+            "fusion-center"
         ]
     },
     {

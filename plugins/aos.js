@@ -5,7 +5,7 @@ export default ({ app }) => {
   // eslint-disable-next-line new-cap
   app.AOS = new AOS.init({
     disable() {
-      const maxWidth = 600;
+      const maxWidth = 768;
       return window.innerWidth < maxWidth;
     },
     // offset: 200,

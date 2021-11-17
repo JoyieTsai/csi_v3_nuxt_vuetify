@@ -9,7 +9,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.6.5-11052021',
+    dir: 'test-V1.6.5-11092021',
   },
 
   /*

@@ -959,8 +959,8 @@
                             <tspan x="55.288" y="164">reveal relationships, </tspan>
                             <tspan x="55.081" y="186">trends, and patterns</tspan>
                         </text>
-                        <text id="Data-Mapping" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" line-spacing="28" fill="#FFFFFF">
-                            <tspan x="58" y="103">Data Mapping</tspan>
+                        <text id="Mapping" font-family="Lato-Bold, Lato" font-size="24" font-weight="bold" line-spacing="28" fill="#FFFFFF">
+                            <tspan x="86.5" y="103">Mapping</tspan>
                         </text>
                     </g>
                     <g id="Group-7" transform="translate(1239.000000, 0.000000)">

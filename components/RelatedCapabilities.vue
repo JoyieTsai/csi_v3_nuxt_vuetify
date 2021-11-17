@@ -4,14 +4,19 @@
       <div class="tw-text-2xl lg:tw-text-4xl text-dark tw-font-semibold">
         {{ title }}
       </div>
-      <div class="border-primary tw-mt-4 tw-mb-8"></div>
+      <div class="border-primary tw-my-2 lg:tw-my-5"></div>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div
-        class="tw-text-lg xl:tw-text-xl tw-mt-2 tw-leading-relaxed"
+        class="
+          tw-text-sm
+          md:tw-text-base
+          lg:tw-text-lg
+          tw-mt-2 tw-leading-relaxed
+        "
         v-html="desc"
       ></div>
     </div>
-    <div class="tw-grid md:tw-grid-cols-3 tw-gap-10 md:tw-gap-5">
+    <div class="tw-grid md:tw-grid-cols-3 tw-gap-10 md:tw-gap-5 tw-my-16">
       <div
         v-for="(item, index) in data"
         :key="index"
@@ -67,7 +72,7 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
-    @media only screen and (max-width: $breakpoints-md) {
+    @media only screen and (max-width: $breakpoints-lg) {
       height: 125px;
       width: 125px;
     }

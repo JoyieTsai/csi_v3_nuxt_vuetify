@@ -1,8 +1,8 @@
 $x9: 0.9;
 $x8: 0.8;
 $x7: 0.7;
-$x6: 0.65;
-$x5: 0.6;
+$x6: 0.6;
+$x5: 0.5;
 
 @media only screen and (max-width: $breakpoints-2xl) {
   // Layout
@@ -75,6 +75,13 @@ $x5: 0.6;
       font-size: ceil($heading-5-size * $x8);
     }
   }
+  .btn {
+    &-lg {
+      font-size: ceil($body-3-size * $x9);
+      padding: 0.5rem 1rem;
+      min-width: 180px;
+    }
+  }
 }
 
 @media only screen and (max-width: $breakpoints-lg) {
@@ -84,10 +91,10 @@ $x5: 0.6;
       height: ceil($hero-xl * $x7);
 
       &.md {
-        height: ceil($hero-md * $x6);
+        height: ceil($hero-md * $x7);
       }
       &.sm {
-        height: ceil($hero-sm * $x6);
+        height: ceil($hero-sm * $x7);
       }
     }
   }
@@ -104,20 +111,13 @@ $x5: 0.6;
       font-size: ceil($heading-2-size * $x7);
     }
     &-3 {
-      font-size: ceil($heading-3-size * $x7);
+      font-size: ceil($heading-3-size * $x6);
     }
     &-4 {
-      font-size: ceil($heading-4-size * $x7);
+      font-size: ceil($heading-4-size * $x6);
     }
     &-5 {
-      font-size: ceil($heading-5-size * $x7);
-    }
-  }
-  .btn {
-    &-lg {
-      font-size: ceil($body-3-size * $x9);
-      padding: 0.5rem 1rem;
-      min-width: 180px;
+      font-size: ceil($heading-5-size * $x6);
     }
   }
 }
@@ -127,13 +127,14 @@ $x5: 0.6;
     &-section {
       height: 400px;
       background-position: 45% bottom;
-      background-size: 1800px;
-    }
-    &.md {
-      height: ceil($hero-md * 0.4);
-    }
-    &.sm {
-      height: ceil($hero-sm * 0.4);
+      background-size: 1500px;
+
+      &.md {
+        height: ceil($hero-md * $x6);
+      }
+      &.sm {
+        height: ceil($hero-sm * $x6);
+      }
     }
   }
   // Font size
@@ -145,13 +146,13 @@ $x5: 0.6;
       font-size: ceil($heading-2-size * $x6);
     }
     &-3 {
-      font-size: ceil($heading-3-size * $x6);
+      font-size: ceil($heading-3-size * $x5);
     }
     &-4 {
-      font-size: ceil($heading-4-size * $x6);
+      font-size: ceil($heading-4-size * $x5);
     }
     &-5 {
-      font-size: ceil($heading-5-size * $x6);
+      font-size: ceil($heading-5-size * $x5);
     }
   }
 
@@ -180,6 +181,13 @@ $x5: 0.6;
       height: 630px;
       background-position: 76% bottom;
       background-size: 1200px;
+
+      &.md {
+        height: ceil($hero-md * $x5);
+      }
+      &.sm {
+        height: ceil($hero-sm * $x5);
+      }
     }
   }
   // Font size
@@ -220,6 +228,7 @@ $x5: 0.6;
     background-size: cover;
   }
   .bg-contact {
-    background-size: cover;
+    background-size: 800px;
+    background-position: left top;
   }
 }

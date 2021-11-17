@@ -33,11 +33,12 @@
       <Capabilities
         v-if="capabilities"
         :data="capabilities"
-        class="tw-my-12 xl:tw-my-28"
+        class="tw-my-16 xl:tw-my-28"
       />
       <SysFeatures v-if="sysFeatures" :tagline="sysTitle" :data="sysFeatures" />
       <Extendings
         v-if="extending"
+        :name="name"
         :data="extending"
         class="tw-my-12 xl:tw-my-28"
       />
@@ -58,6 +59,7 @@ export default {
     btnGroup: true,
     category: 'public-safety',
     id: String,
+    name: String,
     title: String,
     subtitle: String,
     icon: String,
@@ -97,6 +99,7 @@ export default {
       for (let i = 0; i < Products.length; i++) {
         if (id && id === Products[i].id) {
           this.id = Products[i].id
+          this.name = Products[i].name
           this.title = Products[i].title
           this.subtitle = Products[i].subtitle
           this.icon = Products[i].icon

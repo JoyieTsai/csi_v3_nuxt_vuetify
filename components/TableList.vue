@@ -1,12 +1,16 @@
 <template>
-  <div class="main-container tw-mx-auto">
-    <div class="tw-flex xl:tw-w-4/5 tw-mx-auto">
+  <div class="main-container tw-px-2 sm:tw-px-7 md:tw-mx-auto">
+    <div class="tw-flex xl:tw-w-4/5 lg:tw-mx-10 xl:tw-mx-auto">
       <div v-for="(item, i) in data" :key="i" class="table-card">
         <div
           v-if="item.title === 'CSI'"
           class="tw-flex tw-items-center tw-justify-center table-card-title"
         >
-          <img src="images/company_logo.svg" alt="" class="tw-px-2" />
+          <img
+            src="images/company_logo.svg"
+            alt=""
+            class="tw-px-2 md:tw-px-5"
+          />
         </div>
         <div
           v-else
@@ -47,7 +51,7 @@
               class="
                 tw-text-sm
                 sm:tw-text-base
-                lg:tw-text-lg
+                xl:tw-text-lg
                 tw-flex tw-items-center tw-px-2
                 md:tw-px-5
                 tw-leading-none
@@ -66,7 +70,7 @@
               class="
                 tw-text-sm
                 sm:tw-text-base
-                lg:tw-text-lg
+                xl:tw-text-lg
                 tw-flex tw-items-center tw-px-2
                 md:tw-px-5
                 tw-leading-none
@@ -113,13 +117,15 @@ export default {
   &:first-child {
     flex-grow: 0;
     min-width: 250px;
-    font-size: $body-1-size;
     font-weight: 600;
     z-index: 0;
     color: $grey-dark-color;
     text-align: left;
 
-    @media only screen and (max-width: $breakpoints-md) {
+    @media only screen and (max-width: $breakpoints-lg) {
+      min-width: 150px;
+    }
+    @media only screen and (max-width: $breakpoints-sm) {
       min-width: auto;
     }
 
@@ -161,7 +167,7 @@ export default {
   margin-bottom: 0;
 
   li {
-    height: 5rem;
+    height: 6rem;
     justify-content: center;
     &:nth-child(even) {
       background-color: $light-color;

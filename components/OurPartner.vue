@@ -1,7 +1,7 @@
 <template>
   <div class="main-container tw-mx-auto">
     <!-- Partners -->
-    <div class="header-2 tw-text-center tw-mb-10">Our Partners</div>
+    <div class="header-2 tw-text-center tw-mb-5 md:tw-mb-10">Our Partners</div>
     <div
       class="
         tw-flex tw-flex-wrap tw-justify-center
@@ -14,13 +14,12 @@
       <div
         v-for="(partner, index) in partners"
         :key="index"
-        class="tw-flex tw-items-center tw-mx-7 2xl:tw-mx-10 tw-mb-10"
+        class="tw-flex tw-items-center tw-mx-4 lg:tw-mx-8 tw-mb-5 md:tw-mb-10"
       >
-        <v-img
+        <img
           :src="'images/partner/' + partner"
-          contain
-          class="tw-max-h-10 xl:tw-max-h-11 2xl:tw-max-h-14"
-        ></v-img>
+          class="tw-h-10 md:tw-h-12 xl:tw-h-14"
+        />
       </div>
     </div>
   </div>
@@ -35,6 +34,7 @@ export default {
       'azure.png',
       'aws.png',
       'insight.png',
+      'shi.png',
       'dell.png',
     ],
   }),

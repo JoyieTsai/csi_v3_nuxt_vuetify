@@ -1,7 +1,9 @@
 <template>
   <div class="main-container tw-mx-auto tw-text-center">
     <div class="header-2">InfoShare Engine®</div>
-    <div class="tw-text-2xl tw-mb-10">
+    <div
+      class="tw-text-base md:tw-text-lg lg:tw-text-xl xl:tw-text-2xl tw-mb-10"
+    >
       Patented Application Development Platform
     </div>
 
@@ -13,20 +15,44 @@
             md:tw-grid-cols-4
             tw-gap-2
             md:tw-gap-5
-            tw-mb-5
+            tw-mb-5 tw-p-0
           "
         >
           <li
             v-for="(feature, i) in features"
             :id="'panel-' + i"
             :key="i"
-            class="tw-flex tw-flex-col tabs line hover:tw-shadow-lg"
+            class="
+              tw-flex tw-flex-col
+              tabs
+              line
+              hover:tw-shadow-lg
+              tw-p-3
+              lg:tw-p-5
+            "
             @click="toggleFeature(i)"
           >
-            <div class="tw-text-2xl tw-font-semibold tw-mb-2">
+            <div
+              class="
+                tw-text-base
+                md:tw-text-lg
+                lg:tw-text-xl
+                xl:tw-text-2xl
+                tw-font-semibold tw-mb-2
+              "
+            >
               {{ feature.title }}
             </div>
-            <div class="tw-text-lg tw-opacity-80">{{ feature.desc }}</div>
+            <div
+              class="
+                tw-text-sm
+                lg:tw-text-base
+                xl:tw-text-lg
+                tw-opacity-70 tw-leading-snug
+              "
+            >
+              {{ feature.desc }}
+            </div>
           </li>
         </ul>
 

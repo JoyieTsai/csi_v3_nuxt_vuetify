@@ -12,7 +12,7 @@
           "
         >
           <div class="header-2">Get In Touch</div>
-          <div class="tw-text-base lg:tw-text-2xl">
+          <div class="tw-text-base lg:tw-text-xl xl:tw-text-2xl">
             Have more questions? Need more information? <br />We are here to
             help.
           </div>

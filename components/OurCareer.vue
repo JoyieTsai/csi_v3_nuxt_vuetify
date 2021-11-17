@@ -4,7 +4,7 @@
     <div class="tw-flex tw-flex-col lg:tw-flex-row">
       <div class="lg:tw-w-1/3">
         <div class="header-2">Careers</div>
-        <div class="tw-text-base xl:tw-text-lg tw-opacity-70">
+        <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">
           <p>
             CSI is a bridge between government agencies and citizens. We partner
             with public safety, law enforcement, regulatory and judicial
@@ -23,7 +23,12 @@
           </p>
         </div>
         <button
-          class="tw-my-10 lg:tw-mb-0 btn-lg btn-primary hover:tw-shadow-xl"
+          class="
+            tw-my-5
+            lg:tw-my-10 lg:tw-mb-0
+            btn-lg btn-primary
+            hover:tw-shadow-xl
+          "
           @click.prevent="routerTo('job')"
         >
           View Career Opportunities

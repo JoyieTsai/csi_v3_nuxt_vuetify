@@ -2,7 +2,7 @@
   <div class="main-container tw-mx-auto md:tw-py-10">
     <div class="videos tw-grid md:tw-grid-cols-2 tw-gap-12 xl:tw-gap-20">
       <!-- Video 1 -->
-      <div class="tw-order-1 header-3 tw-self-center">
+      <div class="tw-order-1 header-3 tw-self-center tw-mb-5">
         Pioneering
         <a href="/capabilities/infoShare-engine" class="btn-link">
           InfoShare Engine® </a
@@ -28,7 +28,7 @@
       </div>
 
       <!-- Video 2 -->
-      <div class="tw-order-3 index-video tw-mr-5">
+      <div class="tw-order-4 md:tw-order-3 index-video tw-mr-5">
         <div
           class="index-video--2"
           @click.prevent="currentVideo('VRckuuKA1JE')"
@@ -46,7 +46,8 @@
           <img class="active" src="videos/ending.gif" />
         </div>
       </div>
-      <div class="tw-order-4 header-3 tw-self-center">
+
+      <div class="tw-order-3 md:tw-order-4 header-3 tw-self-center tw-mb-5">
         Building the future of
         <a href="public-safety" class="btn-link"> public safety </a> with AI,
         mobile- and cloud-compatible CAD, RMS, Analytics, and Intelligence
@@ -54,7 +55,7 @@
       </div>
 
       <!-- Video 3 -->
-      <div class="tw-order-5 header-3 tw-self-center">
+      <div class="tw-order-5 header-3 tw-self-center tw-mb-5">
         Empowering agencies and individuals in the
         <a href="justice-courts" class="btn-link"> justice system </a> with
         integrated software suites
@@ -181,17 +182,6 @@ export default {
   .active {
     position: absolute;
     z-index: 2;
-  }
-}
-
-.videos {
-  @media only screen and (max-width: $breakpoints-xs) {
-    .order-3 {
-      order: 4;
-    }
-    .order-4 {
-      order: 3;
-    }
   }
 }
 </style>

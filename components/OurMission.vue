@@ -21,7 +21,7 @@
             2xl:tw-text-5xl
             text-primary
           "
-          data-aos="fade-left"
+          :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-left'"
           data-aos-duration="1500"
         >
           {{ missions.desc }}
@@ -55,7 +55,7 @@
       </div>
       <div
         class="tw-grid tw-grid-cols-1 sm:tw-grid-cols-2"
-        data-aos="fade-up"
+        :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'"
         data-aos-duration="1500"
       >
         <div v-for="(item, index) in benefits.items" :key="index">

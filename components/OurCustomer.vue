@@ -4,7 +4,7 @@
       <div class="tw-flex-1">
         <div class="tw-p-10 lg:tw-p-20 2xl:tw-p-28">
           <div class="header-2">Our Clients</div>
-          <div class="tw-text-base lg:tw-text-lg xl:tw-text-xl">
+          <div class="tw-text-sm md:tw-text-base lg:tw-text-lg xl:tw-text-xl">
             <p>
               Our clients are our most valuable asset. CSI has evolved into a
               premier software and service provider because we collaborated with

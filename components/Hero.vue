@@ -30,17 +30,22 @@
                 lg:tw-text-4xl
                 xl:tw-text-5xl
                 tw-font-semibold tw-leading-snug tw-my-2
-                lg:tw-my-4
               "
             >
               <slot name="title"></slot>
             </div>
-            <div class="tw-text-xl lg:tw-text-2xl xl:tw-mr-20">
+            <div class="lg:tw-text-xl 2xl:tw-text-2xl xl:tw-mr-20">
               <slot name="subtitle"></slot>
             </div>
-            <div v-if="btns" class="tw-mt-4 md:tw-mt-8 sm:tw-mb-16">
+            <div v-if="btns" class="tw-mt-4 md:tw-my-5">
               <button
-                class="btn-lg btn-primary hover:shadow-xl tw-mr-3 md:tw-mr-5"
+                class="
+                  btn-lg btn-primary
+                  hover:shadow-xl
+                  tw-mr-3
+                  md:tw-mr-5
+                  tw-mb-3
+                "
                 @click="() => (modalBookaDemo = true)"
               >
                 Book a Demo
@@ -67,14 +72,14 @@
           <div
             class="
               tw-text-lg
-              sm:tw-text-xl
-              lg:tw-text-2xl
+              md:tw-text-xl
+              xl:tw-text-2xl
               tw-mb-2 tw-font-semibold
             "
           >
             <slot name="desc-heading"></slot>
           </div>
-          <div class="tw-text-sm sm:tw-text-base lg:tw-text-lg">
+          <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
             <slot name="desc-content"></slot>
           </div>
         </div>

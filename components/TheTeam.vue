@@ -11,7 +11,7 @@
             tw-text-sm
             sm:tw-text-base
             xl:tw-text-lg
-            tw-mb-4 tw-opacity-70 tw-leading-tight
+            tw-mb-5 tw-opacity-70 tw-leading-tight
           "
         >
           {{ getMember[0].position }}
@@ -19,7 +19,7 @@
       </div>
 
       <div class="w-teambox">
-        <div class="bg-primary tw-text-white md:tw-mt-20">
+        <div class="bg-primary tw-text-white md:tw-mt-20 w-teambox">
           <div class="tw-p-4 md:tw-p-5 xl:tw-p-10">
             <div class="header-2 tw-leading-none">The Team</div>
             <div
@@ -33,39 +33,41 @@
             >
               Contact our dedicated, experienced account managers
             </div>
-          </div>
-          <div class="tw-px-4 md:tw-px-5 xl:tw-px-10 tw-pb-7">
-            <div class="tw-flex tw-items-center tw-mb-3">
-              <img
-                :src="require('@/assets/icons/icon-msg.svg')"
-                class="tw-w-5 xl:tw-w-7 tw-mr-4"
-              />
-              <a
-                href="mailto:sales@csitech.com"
-                class="
-                  tw-text-white tw-text-sm
-                  lg:tw-text-base
-                  xl:tw-text-lg
-                  tw-uppercase
-                "
-                >Send a message</a
-              >
-            </div>
-            <div class="tw-flex tw-items-center">
-              <img
-                :src="require('@/assets/icons/icon-phone.svg')"
-                class="tw-w-5 xl:tw-w-7 tw-mr-4"
-              />
-              <a
-                href="tel:732-346-0200"
-                class="
-                  tw-text-white tw-text-sm
-                  lg:tw-text-base
-                  xl:tw-text-lg
-                  tw-uppercase
-                "
-                >1-732-346-0200</a
-              >
+            <div class="tw-mt-4">
+              <div class="tw-flex tw-items-center">
+                <img
+                  :src="require('@/assets/icons/icon-msg.svg')"
+                  class="tw-w-3 md:tw-w-5 xl:tw-w-7 tw-mr-2 md:tw-mr-4"
+                />
+                <a
+                  href="mailto:sales@csitech.com"
+                  class="
+                    tw-text-white tw-text-xs
+                    sm:tw-text-sm
+                    lg:tw-text-base
+                    xl:tw-text-lg
+                    tw-uppercase
+                  "
+                  >Send a message</a
+                >
+              </div>
+              <div class="tw-flex tw-items-center tw-mt-3">
+                <img
+                  :src="require('@/assets/icons/icon-phone.svg')"
+                  class="tw-w-3 sm:tw-w-5 xl:tw-w-7 tw-mr-2 md:tw-mr-4"
+                />
+                <a
+                  href="tel:732-346-0200"
+                  class="
+                    tw-text-white tw-text-xs
+                    md:tw-text-sm
+                    lg:tw-text-base
+                    xl:tw-text-lg
+                    tw-uppercase
+                  "
+                  >1-732-346-0200</a
+                >
+              </div>
             </div>
           </div>
         </div>
@@ -80,7 +82,7 @@
               tw-text-sm
               sm:tw-text-base
               xl:tw-text-lg
-              tw-mb-4 tw-opacity-70 tw-leading-tight
+              tw-mb-5 tw-opacity-70 tw-leading-tight
             "
           >
             {{ getMember[3].position }}
@@ -123,7 +125,7 @@
               tw-text-sm
               sm:tw-text-base
               xl:tw-text-lg
-              tw-mb-4 tw-opacity-70 tw-leading-tight
+              tw-mb-5 tw-opacity-70 tw-leading-tight
             "
           >
             {{ getMember[2].position }}
@@ -137,7 +139,7 @@
           {{ getMember[1].name }}
         </div>
         <div
-          class="tw-text-sm sm:tw-text-base xl:tw-text-lg tw-mb-4 tw-opacity-70"
+          class="tw-text-sm sm:tw-text-base xl:tw-text-lg tw-mb-5 tw-opacity-70"
         >
           {{ getMember[1].position }}
         </div>
@@ -176,39 +178,46 @@ export default {
 <style lang="scss">
 .w-teambox {
   width: 325px;
-  min-height: 265px;
+  min-height: 315px;
 
   @media (max-width: $breakpoints-2xl) {
     width: 300px;
+    min-height: 300px;
   }
   @media (max-width: $breakpoints-lg) {
     width: 235px;
+    min-height: 235px;
   }
   @media (max-width: $breakpoints-md) {
     width: 250px;
+    min-height: 225px;
   }
   @media (max-width: $breakpoints-sm) {
     width: 160px;
-  }
-  @media (max-width: 325px) {
-    width: 235px;
+    min-height: 200px;
   }
 }
 .slogan {
-  font-size: 48px;
+  font-size: 45px;
   &-s {
     font-size: 35px;
   }
   @media (max-width: $breakpoints-lg) {
-    font-size: 40px;
+    font-size: 36px;
     &-s {
       font-size: 26px;
     }
   }
   @media (max-width: $breakpoints-md) {
-    font-size: 35px;
+    font-size: 28px;
     &-s {
-      font-size: 20px;
+      font-size: 18px;
+    }
+  }
+  @media (max-width: $breakpoints-sm) {
+    font-size: 24px;
+    &-s {
+      font-size: 16px;
     }
   }
 }

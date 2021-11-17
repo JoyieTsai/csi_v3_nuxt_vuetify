@@ -31,19 +31,19 @@
       <div
         :class="[
           capabilities
-            ? 'xl:tw-pr-20 xl:tw-pl-16 lg:tw-mb-16'
-            : 'xl:tw-pr-16 xl:tw-pl-20 lg:tw-mt-16',
-          'tw-relative w-full lg:tw-w-1/2 tw-p-5 md:tw-p-10 bg-primary-dark tw-text-white',
+            ? 'xl:tw-pr-20 xl:tw-pl-16 md:tw-pr-16 md:tw-pl-12 xl:tw-mb-16 lg:tw-mb-8'
+            : 'xl:tw-pr-16 xl:tw-pl-20 md:tw-pr-12 md:tw-pl-16 xl:tw-mt-16 lg:tw-mt-8',
+          'tw-relative w-full lg:tw-w-1/2 lg:tw-py-8 xl:tw-py-10 tw-p-5 bg-primary-dark tw-text-white',
         ]"
       >
         <div class="header-2">Highlights</div>
-        <ul class="list-highlights tw-mt-6 tw-mb-3">
+        <ul class="list-highlights tw-mt-5 tw-mb-2">
           <li
             v-for="(item, index) in data"
             :key="index"
-            class="tw-mt-2 lg:tw-mt-4"
+            class="tw-mt-1 xl:tw-mt-2 2xl:tw-mt-4"
           >
-            <div class="tw-text-sm sm:tw-text-base md:tw-text-lg xl:tw-text-xl">
+            <div class="tw-text-base xl:tw-text-lg 2xl:tw-text-xl">
               {{ item }}
             </div>
           </li>

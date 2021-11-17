@@ -8,7 +8,18 @@
         tw-text-center tw-text-white
       "
     >
-      <div class="md:tw-w-2/3 tw-mb-10 xl:tw-mb-20 tw-mx-auto header-5">
+      <div
+        class="
+          tw-w-full
+          lg:tw-w-2/3
+          tw-mb-10
+          xl:tw-mb-20
+          tw-mx-auto tw-text-sm
+          md:tw-text-lg
+          lg:tw-text-xl
+          xl:tw-text-2xl
+        "
+      >
         {{ aboutTitle }}
       </div>
       <div
@@ -16,8 +27,19 @@
       >
         <div v-for="(about, i) in aboutArr" :key="i">
           <i :class="[about.icon, 'tw-text-6xl lg:tw-text-8xl']"></i>
-          <div class="header-3 tw-font-semibold tw-my-4">{{ about.title }}</div>
-          <div class="tw-text-xl xl:tw-px-5">{{ about.desc }}</div>
+          <div class="header-3 tw-font-semibold lg:tw-my-4">
+            {{ about.title }}
+          </div>
+          <div
+            class="
+              tw-text-xs
+              md:tw-text-base
+              lg:tw-text-lg
+              xl:tw-text-xl xl:tw-px-5
+            "
+          >
+            {{ about.desc }}
+          </div>
         </div>
       </div>
     </div>

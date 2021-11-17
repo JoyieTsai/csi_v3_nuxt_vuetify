@@ -21,7 +21,7 @@
       <!-- Description -->
       <div class="main-container tw-mx-auto tw-b-20">
         <div class="tw-flex tw-flex-col md:tw-flex-row">
-          <div class="md:tw-w-7/12 tw-text-base xl:tw-text-lg 2xl:tw-text-xl">
+          <div class="md:tw-w-7/12 tw-text-sm lg:tw-text-base xl:tw-text-lg">
             {{ descContent }}
           </div>
           <div

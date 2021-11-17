@@ -53,7 +53,7 @@
       <!-- Timeline -->
       <div class="main-container tw-mx-auto tw-relative tw-my-12 xl:tw-my-28">
         <div class="header-2 tw-text-center">Technology Timeline</div>
-        <div class="tw-mt-8 xl:tw-mt-16">
+        <div class="tw-mt-8 xl:tw-mt-16 tw-mx-0 lg:tw-mx-5 xl:tw-mx-0">
           <section id="cd-timeline" class="xl:tw-w-5/6 2xl:tw-w-4/5 tw-mx-auto">
             <div
               v-for="(item, index) in timelines"
@@ -79,8 +79,9 @@
                     tw-mt-1 tw-ml-16
                     lg:tw-ml-24
                     md:tw-ml-20
-                    tw-text-xs
-                    md:tw-text-2xl
+                    tw-text-sm
+                    lg:tw-text-lg
+                    xl:tw-text-xl
                   "
                 >
                   {{ item.year }}
@@ -99,7 +100,7 @@
               ></div>
               <div
                 v-if="item.img"
-                class="tw-flex tw--mt-16 md:tw--mt-24 lg:tw--mt-36"
+                class="tw-flex tw--mt-16 lg:tw--mt-24 xl:tw--mt-36"
               >
                 <div
                   data-aos="fade-right"
@@ -188,16 +189,16 @@ export default {
 </script>
 
 <style lang="scss">
-$blockL: 305px;
-$blockS: 105px;
-$imgWidth: 286px;
+$blockL: 295px;
+$blockS: 100px;
+$imgWidth: 280px;
 $imgHight: 250px;
-$topH: 58px;
-$arrowWidth: 250;
-$arrowHight: 96px;
-$XL: 0.88;
-$L: 0.75;
-$M: 0.65;
+$topH: 52px;
+$arrowWidth: 250px;
+$arrowHight: 90px;
+$XL: 0.9;
+$L: 0.7;
+$M: 0.6;
 $S: 0.4;
 
 .cd-timeline-block {
@@ -227,6 +228,10 @@ $S: 0.4;
   left: 50%;
   transform: translateX(-50%);
   z-index: 4;
+}
+
+.cd-timeline-arrow {
+  z-index: 5;
 }
 
 @media only screen and (max-width: $breakpoints-xl) {

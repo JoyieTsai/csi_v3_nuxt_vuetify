@@ -51,7 +51,9 @@
       <IndexArticles />
       <!-- Articles -->
       <div class="main-container tw-mx-auto tw-my-12 xl:tw-my-28">
-        <div class="header-2 tw-text-center tw-mb-12">Explore All Articles</div>
+        <div class="header-2 tw-text-center tw-mb-6 xl:tw-mb-12">
+          Explore All Articles
+        </div>
         <!-- <v-text-field
             v-model="keyword"
             height="50"
@@ -70,51 +72,68 @@
               :class="{ 'd-flex col-12': $vuetify.breakpoint.xsOnly }"
             >
               <!-- Resource Type -->
-              <v-card class="mx-auto" color="transparent" flat>
-                <v-card-title class="pa-0 body-1 text-uppercase base--text"
-                  >Resource Type</v-card-title
-                >
-                <v-list>
-                  <v-radio-group v-model="radioGroup" class="mt-0">
-                    <div
-                      v-for="(tag, index) in tags.type"
-                      :key="index"
-                      class="d-flex"
-                    >
-                      <v-radio
-                        color="primary"
-                        :value="tag.value"
-                        class="mr-0"
-                        @click.prevent="changeType(tag.value)"
-                      ></v-radio>
-                      <label class="text--secondary">{{ tag.name }}</label>
-                    </div>
-                  </v-radio-group>
-                </v-list>
-              </v-card>
-              <!-- Solution -->
-              <v-card class="mx-auto" color="transparent" flat>
-                <v-card-title class="pa-0 body-1 text-uppercase base--text"
-                  >Product & Solution</v-card-title
-                >
-                <v-list>
-                  <v-radio-group v-model="radioGroup" class="mt-0">
-                    <div
-                      v-for="(tag, index) in tags.solution"
-                      :key="index"
-                      class="d-flex"
-                    >
-                      <v-radio
-                        color="primary"
-                        :value="tag.value"
-                        class="mr-0"
-                        @click.prevent="changeTag(tag.value)"
-                      ></v-radio>
-                      <label class="text--secondary">{{ tag.name }}</label>
-                    </div>
-                  </v-radio-group>
-                </v-list>
-              </v-card>
+              <div class="tw-grid tw-gap-3 tw-grid-cols-2 md:tw-grid-cols-1">
+                <div>
+                  <div
+                    class="
+                      tw-uppercase tw-text-sm
+                      xl:tw-text-base
+                      tw-opacity-70 tw-border-b tw-border-t tw-py-2
+                    "
+                  >
+                    Resource Type
+                  </div>
+                  <div>
+                    <v-radio-group v-model="radioGroup">
+                      <div
+                        v-for="(tag, index) in tags.type"
+                        :key="index"
+                        class="tw-flex tw-mb-1"
+                      >
+                        <v-radio
+                          color="primary"
+                          :value="tag.value"
+                          @click.prevent="changeType(tag.value)"
+                        ></v-radio>
+                        <label class="tw-text-sm xl:tw-text-base">{{
+                          tag.name
+                        }}</label>
+                      </div>
+                    </v-radio-group>
+                  </div>
+                </div>
+
+                <!-- Solution -->
+                <div>
+                  <div
+                    class="
+                      tw-uppercase tw-text-sm
+                      xl:tw-text-base
+                      tw-opacity-70 tw-border-b tw-border-t tw-py-2
+                    "
+                  >
+                    Product & Solution
+                  </div>
+                  <div>
+                    <v-radio-group v-model="radioGroup">
+                      <div
+                        v-for="(tag, index) in tags.solution"
+                        :key="index"
+                        class="tw-flex tw-mb-1"
+                      >
+                        <v-radio
+                          color="primary"
+                          :value="tag.value"
+                          @click.prevent="changeTag(tag.value)"
+                        ></v-radio>
+                        <label class="tw-text-sm xl:tw-text-base">{{
+                          tag.name
+                        }}</label>
+                      </div>
+                    </v-radio-group>
+                  </div>
+                </div>
+              </div>
             </v-col>
 
             <v-col xs="12" sm="9" md="10">
@@ -133,7 +152,7 @@
                   <div
                     class="
                       tw-grid tw-gap-4
-                      md:tw-gap-8
+                      lg:tw-gap-8
                       tw-grid-cols-2
                       xl:tw-grid-cols-3
                       tw-mb-5
@@ -163,16 +182,14 @@
                       <div
                         class="
                           tw-px-2 tw-py-2
-                          md:tw-px-5 md:tw-py-4
-                          tw-text-sm
+                          md:tw-px-5 md:tw-py-3
+                          tw-text-xs
+                          sm:tw-text-sm
                           md:tw-text-base
                           lg:tw-text-lg
                         "
                       >
-                        <div
-                          v-if="item.type === 'story'"
-                          class="text-grey tw-my-1"
-                        >
+                        <div v-if="item.type === 'story'" class="text-grey">
                           Success Stories
                         </div>
                         <div v-else-if="item.type === 'news'" class="text-grey">

@@ -3,7 +3,7 @@
     class="main-container tw-m-auto tw-mt-16 xl:tw-mt-14 tw-mb-16 xl:tw-mb-28"
   >
     <div class="tw-flex tw-flex-col xl:tw-flex-row">
-      <div class="w-full xl:tw-w-1/3 tw-flex tw-items-center tw-p-5 xl:tw-p-0">
+      <div class="w-full xl:tw-w-1/3 tw-flex tw-items-center">
         <div class="tw-flex tw-flex-col xl:tw-mr-6">
           <div class="tw-text-2xl lg:tw-text-4xl text-dark tw-font-semibold">
             {{ title }}
@@ -11,7 +11,14 @@
           <div class="border-primary tw-my-2 lg:tw-my-5"></div>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <div
-            class="tw-text-base lg:tw-text-lg tw-leading-relaxed lg:tw-pr-10"
+            class="
+              tw-text-sm
+              md:tw-text-base
+              lg:tw-text-lg
+              tw-leading-relaxed
+              lg:tw-pr-10
+              tw-mb-5
+            "
             v-html="desc"
           ></div>
         </div>

@@ -10,15 +10,17 @@
       >
         <div class="main-container tw-mx-auto">
           <nuxt-link
-            class="tw-flex tw-text-white tw-mt-8 lg:tw-mt-16"
+            class="tw-flex tw-text-white tw-mt-8 xl:tw-mt-16"
             to="/resources"
           >
             <img
               :src="require('~/assets/icons/icon-back.svg')"
               alt="back"
-              class="tw-mr-3"
+              class="tw-mr-3 tw-w-5"
             />
-            <div class="tw-text-xl tw-hidden md:tw-block">All</div>
+            <div class="tw-text-lg xl:tw-text-xl tw-hidden md:tw-block">
+              All
+            </div>
           </nuxt-link>
         </div>
       </div>
@@ -26,7 +28,8 @@
       <div class="main-container tw-mx-auto">
         <div
           class="
-            tw-flex tw-flex-wrap tw--mt-32
+            tw-flex tw-flex-wrap tw--mt-24
+            md:tw--mt-28
             xl:tw--mt-40
             tw-mb-12
             lg:tw-mb-28
@@ -34,12 +37,14 @@
         >
           <div
             class="
-              tw-w-1/6
-              lg:tw-w-2/12
+              tw-hidden
+              md:tw-block
+              lg:tw-w-32
+              xl:tw-w-44
               2xl:tw-mt-96
               tw-mt-24
               md:tw-mt-52
-              tw-px-2
+              tw-px-2 tw-mr-5
             "
           >
             <div class="tw-text-center tw-mb-3 tw-mt-20">Share to</div>
@@ -53,18 +58,17 @@
                 :title="atitle"
                 :description="abody"
                 hashtags="CSI Technology Group, InfoShare"
-                class="social"
+                class="social tw-my-3 tw-flex tw-justify-center"
               >
                 <img
                   :src="require('@/assets/icons/' + network.icon)"
                   alt="Social"
-                  class="tw-m-1"
                 />
               </ShareNetwork>
             </div>
           </div>
 
-          <div class="tw-w-5/6 lg:tw-w-7/12 tw-shadow-lg">
+          <div class="tw-w-full md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-lg">
             <div class="tw-bg-white">
               <img :src="'images/news/' + acover" :alt="acover" />
               <div class="tw-p-5 md:tw-p-10">
@@ -81,6 +85,8 @@
                           tw-uppercase
                           tw-mr-2
                           tw-rounded
+                          tw-text-xs
+                          sm:tw-text-sm
                         "
                       >
                         {{ atype }}
@@ -96,23 +102,60 @@
                           tw-uppercase
                           tw-mr-2
                           tw-rounded
+                          tw-text-xs
+                          sm:tw-text-sm
                         "
                       >
                         {{ item.name }}
                       </div>
                     </div>
                   </div>
-                  <div class="tw-text-right tw-opacity-50">
+                  <div
+                    class="
+                      tw-text-right tw-opacity-50 tw-text-xs
+                      sm:tw-text-sm
+                      md:tw-text-base
+                    "
+                  >
                     {{ adate }}
                   </div>
                 </div>
 
-                <div class="header-3 tw-font-semibold tw-my-5">
-                  {{ atitle }}
-                </div>
                 <div
                   class="
-                    tw-text-lg tw-leading-relaxed tw-text-gray-500
+                    tw-text-2xl
+                    lg:tw-text-3xl
+                    xl:tw-text-4xl
+                    tw-font-semibold tw-my-5
+                  "
+                >
+                  {{ atitle }}
+                </div>
+
+                <div class="tw-flex md:tw-hidden">
+                  <ShareNetwork
+                    v-for="network in networks"
+                    :key="network.network"
+                    :network="network.network"
+                    :style="{ backgroundColor: network.color }"
+                    :url="'https://www.csitech.com/resources/' + aid"
+                    :title="atitle"
+                    :description="abody"
+                    hashtags="CSI Technology Group, InfoShare"
+                    class="social tw-mr-5 tw-mb-5 tw-flex tw-justify-center"
+                  >
+                    <img
+                      :src="require('@/assets/icons/' + network.icon)"
+                      alt="Social"
+                    />
+                  </ShareNetwork>
+                </div>
+
+                <div
+                  class="
+                    tw-text-base
+                    lg:tw-text-lg
+                    tw-leading-relaxed tw-text-gray-500
                     news-body
                   "
                 >
@@ -129,19 +172,21 @@
               tw-w-full
               lg:tw-w-3/12
               tw-mt-20
-              lg:tw-mt-52
+              lg:tw-mt-40
+              xl:tw-mt-52
               tw-pl-0
               2xl:tw-pl-16
-              md:tw-pl-10
+              lg:tw-pl-10
             "
           >
-            <div class="title tw-mb-5">Related Products</div>
+            <div class="tw-text-lg lg:tw-text-xl tw-mb-5">Related Products</div>
             <div
               class="
                 tw-w-full tw-grid tw-grid-cols-1
                 md:tw-grid-cols-3
                 lg:tw-grid-cols-1
-                tw-gap-8
+                tw-gap-4
+                lg:tw-gap-8
               "
             >
               <div
@@ -169,10 +214,12 @@
                   />
                 </div>
                 <div class="tw-flex-auto md:tw-pt-5 xl:tw-pt-0">
-                  <div class="tw-text-lg tw-font-semibold">
+                  <div class="tw-text-base lg:tw-text-lg tw-font-semibold">
                     {{ item.title }}
                   </div>
-                  <div class="tw-opacity-70">{{ item.subtitle }}</div>
+                  <div class="tw-opacity-70 tw-text-sm lg:tw-text-base">
+                    {{ item.subtitle }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -287,17 +334,10 @@ export default {
   max-width: 1000px;
 }
 .social {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   border-radius: 50%;
   width: 38px;
   height: 38px;
-  margin: 10px;
-  @media only screen and (max-width: $breakpoints-sm) {
-    width: 30px;
-    height: 30px;
-  }
+  padding: 8px;
 }
 
 .news-body {

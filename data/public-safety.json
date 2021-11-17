@@ -1,6 +1,7 @@
 [
   {
     "id": "cad",
+    "name": "CAD",
     "title": "Computer Aided Dispatch (CAD)",
     "subtitle": "Advanced Public Safety Communication and Response",
     "icon": "cad.svg",
@@ -204,6 +205,7 @@
   },
   {
     "id": "rms",
+    "name": "RMS",
     "title": "Law Enforcement Records Management (RMS)",
     "subtitle": "Revolutionize Public Safety Data Collection, Management, and Reporting",
     "icon": "rms.svg",
@@ -485,6 +487,7 @@
   },
   {
     "id": "fire-ems",
+    "name": "Fire & EMS",
     "title": "Fire & EMS",
     "subtitle": "Integrated Fire & EMS Solutions in a Single Platform",
     "icon": "fire_ems.svg",

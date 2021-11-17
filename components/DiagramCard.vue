@@ -3,14 +3,22 @@
     <div class="tw-text-center">
       <div v-if="data.img">
         <img
-          class="tw-mx-auto"
+          class="lg:tw-w-5/6 xl:tw-w-3/4 tw-mx-auto"
           :src="require('~/assets/images/diagram/' + data.img)"
           alt=""
         />
       </div>
       <!-- eslint-disable-next-line vue/no-v-html -->
       <div
-        class="tw-text-base lg:tw-text-lg lg:tw-w-3/4 tw-mx-auto tw-mt-12"
+        class="
+          tw-text-sm
+          lg:tw-text-base
+          xl:tw-text-lg
+          lg:tw-w-5/6
+          xl:tw-w-3/4
+          tw-mx-auto tw-mt-6
+          xl:tw-mt-12
+        "
         v-html="data.desc"
       ></div>
     </div>
