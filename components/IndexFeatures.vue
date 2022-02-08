@@ -1,13 +1,11 @@
 <template>
   <div class="main-container tw-mx-auto tw-text-center">
     <div class="header-2">InfoShare Engine®</div>
-    <div
-      class="tw-text-base md:tw-text-lg lg:tw-text-xl xl:tw-text-2xl tw-mb-10"
-    >
+    <div class="tw-text-base md:tw-text-lg lg:tw-text-xl xl:tw-text-2xl">
       Patented Application Development Platform
     </div>
 
-    <div class="tw-mt-10">
+    <div>
       <div class="tw-flex tw-flex-col tw-flex-col-reverse">
         <ul
           class="
@@ -66,9 +64,10 @@
             <img
               class="
                 animate__animated animate__fadeIn
-                tw-mx-auto
+                tw-mx-auto tw-w-full
                 md:tw-w-4/5
-                xl:tw-w-auto
+                xl:tw-w-2/3
+                tw-my-5
               "
               :src="require('@/assets/images/' + feature.img)"
               alt="Feature image"

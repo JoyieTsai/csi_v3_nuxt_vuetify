@@ -357,7 +357,8 @@
       {
         "title": "Personnel & Scheduling",
         "icon": "personnel.svg",
-        "desc": "Support all aspects of personnel management such as training, time off, overtime, document tracking, and scheduling."
+        "desc": "Support all aspects of personnel management such as training, time off, overtime, document tracking, and scheduling.",
+        "link": "public-safety/personnel-scheduling"
       },
       {
         "title": "Policy and Procedure",
@@ -413,9 +414,10 @@
         "desc": "Record-keeping to investigate cases of animal abuse, neglect, and cruelty."
       },
       {
-        "title": "Professional Standards & Internal Affairs",
+        "title": "Professional Standards & IA",
         "icon": "internal_affairs.svg",
-        "desc": "Case management for allegations of employee misconduct."
+        "desc": "Case management for allegations of employee misconduct.",
+        "link": "public-safety/internal-affairs"
       },
       {
         "title": "Interview Recording",
@@ -430,12 +432,14 @@
       {
         "title": "Intelligence",
         "icon": "intelligence.svg",
-        "desc": "Forward data and reports to RISS-inclusive intelligence module for crime activity analysis and investigation support."
+        "desc": "Forward data and reports to RISS-inclusive intelligence module for crime activity analysis and investigation support.",
+        "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Major Incident",
         "icon": "mim.svg",
-        "desc": "Facilitate major incident investigations involving multiple operations, jurisdictions, and/or leads."
+        "desc": "Facilitate major incident investigations involving multiple operations, jurisdictions, and/or leads.",
+        "link": "crime-intelligence/major-incident-management"
       },
       {
         "title": "Security Force",
@@ -643,11 +647,6 @@
         "desc": "Access contextual data from information systems such as smartphones, wearable devices, smart buildings, etc. in emergencies."
       },
       {
-        "title": "Image Trend Interface",
-        "icon": "image_trend.svg",
-        "desc": "Interface with ImageTrend report systems for maximum interoperability and data sharing."
-      },
-      {
         "title": "Fire Inspection Billing Module",
         "icon": "fire_inspection.svg",
         "desc": "Maintain accounting and invoice/billing services for permits or inspections in the Fire Inspection Application."
@@ -676,7 +675,7 @@
       },
       {
         "title": "Citation Management",
-        "icon": "icon-doc_management_solid",
+        "icon": "icon-eticket_solid",
         "link": "public-safety/citation-management"
       }
     ],
@@ -687,21 +686,97 @@
   {
     "id": "mobile-operations",
     "title": "Mobile Operations",
-    "subtitle": "coming soon...",
+    "subtitle": "Real-time Situational Awareness for Public Safety",
     "icon": "mobile_operations.svg",
-    "coverImg": "",
+    "coverImg": "mobile_operations.jpg",
     "brochure": "",
-    "descHeading": "",
-    "descContent": "",
+    "descHeading": "Fully integrated mobile operations for first responders",
+    "descContent": "Provide police, fire, and EMS responders with critical, real-time situational awareness direct to mobile devices quickly and efficiently. Mobile operations help first responders better prepare for the unknown and significantly accelerate response times. Live access to CAD, mapping capabilities with intelligent routing, built-in chat functions, and additional NCIC queries, eTicketing, and push-to-RMS functions all at their fingertips.",
+    "sysFeatures": [
+      {
+        "title": "Officer Initiated Calls for Service",
+        "desc": "Seamless transition from the Call for Service or Motor Vehicle Stop to the issuance of citations or warnings. Auto-populating multiple fields and data validation checks eliminate data entry errors.",
+        "list": [
+          "Intuitive user interface",
+          "Streamlined data entry with form validation checks",
+          "Time/date stamps of incident history",
+          "State DMV and NCIC interface",
+          "Distress call signal from MDT or keyboard"
+        ],
+        "img": "temp.jpg"
+      },
+      {
+        "title": "Fire & EMS Mobile Operations",
+        "desc": "Share critical information with responders in real-time. Fire and EMS personnel arrive on the scene equipped with all the relevant incident and location information for proper response.",
+        "list": [
+          "Timely, accurate situational awareness",
+          "Real-time location information (flags, floor plans, photos, hazmat, recent CFS)",
+          "Integrated mapping with additional layers",
+          "Status monitoring (timer, log, incident history)",
+          "Push-to-RMS feature for accurate Fire & EMS reporting"
+        ],
+        "img": "temp.jpg"
+      },
+      {
+        "title": "Real-Time Mapping",
+        "desc": "Live mapping capabilities give first responders up-to-date traffic information, directions, search functions as well as additional map layers. Automatic vehicle locator (AVL) displays units and apparatus on the map for enhanced situational awareness.",
+        "list": [
+          "User-definable and system-generated map layers",
+          "GPS navigation with real-time traffic information",
+          "Unit and apparatus monitoring and tracking (AVL/ARL)",
+          "Pinpoint CFS location accuracy"
+        ],
+        "img": "temp.jpg"
+      },
+      {
+        "title": "Mobile Ticketing & Management",
+        "desc": "Create eTickets directly from the MDT to issue to violators on scene and submit electronically to local and state courts. All eTickets and related DMV information are pushed from CAD and MDT to RMS for tracking and permanent documentation in the case file.",
+        "list": [
+          "Bar code scanner support to enter license and registration",
+          "Printable eTicket for immediate issuance",
+          "Electronic signature support",
+          "Automatic electronic delivery to local and state courts",
+          "CAD, RMS, and MDT integration"
+        ],
+        "img": "temp.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "CAD",
+        "icon": "icon-cad_solid",
+        "link": "public-safety/cad"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Fire & EMS",
+        "icon": "icon-fire_ems_solid",
+        "link": "public-safety/fire-ems"
+      },
+      {
+        "title": "Citation Management",
+        "icon": "icon-eticket_solid",
+        "link": "public-safety/citation-management"
+      },
+      {
+        "title": "Analytics",
+        "icon": "icon-analytics_solid",
+        "link": "public-safety/analytics"
+      }
+    ],
     "quote": {
-      "content": "Scientia est Potentia"
+      "content": "Always focus on developing others"
     }
   },
   {
     "id": "citation-management",
     "title": "Citation Management",
     "subtitle": "Modern Ticketing Process in an Integrated Public Safety System",
-    "icon": "doc_management.svg",
+    "icon": "eticket.svg",
     "coverImg": "citation_management.jpg",
     "brochure": "",
     "descHeading": "Create professional electronic citations with accurate and automated data entry",
@@ -779,14 +854,100 @@
   {
     "id": "evidence",
     "title": "Evidence",
-    "subtitle": "coming soon...",
+    "subtitle": "Comprehensive Evidence Management across Cases and Agencies",
     "icon": "evidence.svg",
-    "coverImg": "",
-    "brochure": "Evidence.pdf",
-    "descHeading": "",
-    "descContent": "",
+    "coverImg": "evidence.jpg",
+    "descHeading": "Robust property/evidence tracking and chain of custody",
+    "descContent": "By tracking items from collection to final disposition, InfoShare™ Evidence maintains the integrity of the chain of custody. Evidence can be linked or directly created from the RMS to ensure only a single entry exists in the system. The user inbox provides easy tracking of items incoming, transferred, pending destruction and expungement from the custodian’s homepage. Other functions such as search and reporting increases the productivity of custodians during their everyday duties.",
+    "sysFeatures": [
+      {
+        "title": "Comprehensive Evidence Management",
+        "desc": "Collecting officers only need to create a single entry of evidence or property linked to the casefile. Items are easily tracked from collection to disposal and documented with each movement, creating an unbreakable chain of custody.",
+        "list": [
+          "No duplicate entries",
+          "System-assigned property numbering",
+          "Barcode scanning and labeling",
+          "Barcode logging with tracking register",
+          "Property/evidence report generator"
+        ],
+        "img": "evidence-1.jpg"
+      },
+      {
+        "title": "Customizable Workflow",
+        "desc": "Seamless RMS integration allows officers to enter property and evidence directly in the casefile. Evidence approval can be sent to supervisor(s) or directly to the evidence room custodian.",
+        "list": [
+          "Full RMS integration",
+          "Photograph management",
+          "Chain of custody report generator",
+          "Paperless approval with digital signatures"
+        ],
+        "img": "evidence-2.jpg"
+      },
+      {
+        "title": "Evidence Custodian Functionality",
+        "desc": "Evidence custodian(s) manage all property or evidence within the evidence module. Items can be checked into the evidence room or transferred to locations such as a lab or court. Powerful auditing capabilities enable maximum inventory accountability.",
+        "list": [
+          "Custodian check-in list",
+          "Custodian check-out list",
+          "Custodian return to check-in list",
+          "Items pending destruction list",
+          "Documentation of disposed items"
+        ],
+        "img": "evidence-3.jpg"
+      },
+      {
+        "title": "Bar Code Inventory Control System",
+        "desc": "Eliminate the need to manually record the destination of property or evidence when items are moved to various locations. The barcode inventory control system efficiently records the movement of items while maintaining a full audit trail.",
+        "list": [
+          "Item transfer management",
+          "Barcode labeling and scanning",
+          "Bluetooth barcode scanner integration",
+          "Barcode setup for transfer types, storage locations, and staff"
+        ],
+        "img": "evidence-4.jpg"
+      },
+      {
+        "title": "Crime Scene Investigation",
+        "desc": "Our patented Rolmes™ is an innovative integration of hardware, software, and robotic technology to modernize crime scene investigations. Accessible on scene and guarantees accurate evidence and data collection linked directly to the casefile.",
+        "list": [
+          "Crime scene data recording",
+          "Photo and video management",
+          "Real-time evidence synchronization",
+          "Barcode labeling and printing",
+          "SOP checklist and knowledge base"
+        ],
+        "img": "evidence-5.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Crime Scene Investigation",
+        "icon": "icon-rolmes_solid",
+        "link": "crime-intelligence/csi"
+      },
+      {
+        "title": "High Tech Crime",
+        "icon": "icon-hacker_solid",
+        "link": ""
+      },
+      {
+        "title": "Major Incident Management",
+        "icon": "icon-mim_solid",
+        "link": "crime-intelligence/major-incident-management"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      }
+    ],
     "quote": {
-      "content": "Scientia est Potentia"
+      "content": "Always focus on developing others"
     }
   },
   {

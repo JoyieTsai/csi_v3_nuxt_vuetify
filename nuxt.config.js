@@ -4,12 +4,12 @@ import pkg from "./package";
 
 export default {
   server: {
-    port: '8000', // default: 3000
-    host: '0.0.0.0', // default: localhost
+    port: '8080', // default: 3000
+    host: 'localhost', // default: localhost
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.6.5-11092021',
+    dir: 'test-V1.7.6-02072022',
   },
 
   /*

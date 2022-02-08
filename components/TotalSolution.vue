@@ -1,18 +1,10 @@
 <template>
   <div class="bg-solution tw-overflow-hidden">
     <div class="main-container tw-mx-auto tw-py-24 tw-relative">
-      <img
-        class="solution-line line-1"
-        :src="require('~/assets/vectors/t-line-1.svg')"
-      />
-      <img
-        class="solution-line line-2"
-        :src="require('~/assets/vectors/t-line-2.svg')"
-      />
-      <img
-        class="solution-line line-3"
-        :src="require('~/assets/vectors/t-line-3.svg')"
-      />
+      <!-- <img
+        class="solution-line"
+        :src="require('~/assets/vectors/t-lines.svg')"
+      /> -->
       <!-- Header -->
       <div class="tw-flex">
         <div>
@@ -22,8 +14,8 @@
             class="tw-ml-44 tw-mr-28 tw-mt-6"
           />
         </div>
-        <div class="tw-w-2/5 tw-text-white">
-          <div class="header-2 tw-mt-28">Complete Solution</div>
+        <div class="tw-w-1/2 tw-text-white">
+          <div class="header-2 tw-mt-24">Complete Solution</div>
           <div class="tw-text-2xl">
             CSI solutions are powered by the
             <span class="tw-underline">InfoShare Engine®</span>, a low-code
@@ -34,75 +26,70 @@
         </div>
       </div>
       <!-- Body -->
-      <div>
-        <div class="tw-flex tw-justify-end">
-          <ul class="solution-tabs tw-items-center tw-mt-10 tw-mr-32">
-            <li><i class="icon-rms_solid"></i> RMS</li>
-            <li class="active"><i class="icon-cad_solid"></i> CAD</li>
-            <li><i class="icon-fire_ems_solid"></i> Fire / EMS</li>
-          </ul>
-        </div>
-        <div class="tw-grid tw-grid-cols-4">
-          <div class="tw-col-start-1 tw-col-span-3">
-            <div class="tw-flex tw-justify-end">
-              <div>
-                <ul
-                  v-for="(sol, i) in solutions"
-                  :key="i"
-                  class="hexagon-grid-container"
+      <div class="tw-mt-8">
+        <v-tabs
+          v-model="tab"
+          icons-and-text
+          fixed-tabs
+          background-color="transparent"
+          dark
+          height="335"
+          hide-slider
+        >
+          <v-tab
+            v-for="(sol, i) in solutions"
+            :key="i"
+            class="solution-tabs"
+            active-class="solution-tabs-active"
+            :ripple="false"
+            :href="'#tab-' + i"
+          >
+            <div class="tab-text tw-mt-2">{{ sol.product }}</div>
+            <i :class="[sol.icon, 'tab-icon']"></i>
+          </v-tab>
+        </v-tabs>
+
+        <v-tabs-items v-model="tab" class="tw--mt-8">
+          <v-tab-item
+            v-for="(sol, j) in solutions"
+            :key="j"
+            :value="'tab-' + j"
+          >
+            <div class="tw-flex tw-justify-center">
+              <v-img
+                :src="require('~/assets/images/diagram/' + sol.diagram)"
+                alt=""
+                contain
+                position="center center"
+                height="750"
+              ></v-img>
+            </div>
+            <!-- Interface -->
+            <div v-if="sol.interfaces" class="tw-mt-20">
+              <div class="tw-flex tw-justify-center">
+                <div class="solution-interface tw-mr-5">
+                  <i class="icon-interfaces_solid tab-icon"></i> Interface
+                </div>
+                <div
+                  class="
+                    tw-flex tw-flex-wrap tw-items-center tw-justify-center
+                    bg-hud-horizontal
+                    tw-w-1/2 tw-mt-32
+                  "
                 >
-                  <li
-                    v-for="(item, index) in sol.items"
+                  <div
+                    v-for="(inter, index) in sol.interfaces"
                     :key="index"
-                    class="hexagon-s"
+                    class="hexagon vertical"
                   >
-                    <div class="hexagon-s-inner">{{ item }}</div>
-                  </li>
-                </ul>
-              </div>
-              <div
-                class="
-                  tw-flex tw-flex-col tw-items-center
-                  bg-hud-vertical
-                  tw-p-12 tw-py-12 tw-mr-55
-                "
-              >
-                <div v-for="(sol, j) in solutions" :key="j" class="hexagon">
-                  {{ sol.type }}
+                    {{ inter }}
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="tw-flex tw-items-center">
-            <div class="header-3 tw-font-semibold tw-text-white tw-w-60">
-              Computer Aided Dispatch
-            </div>
-          </div>
-        </div>
-        <!-- Interface -->
-        <div>
-          <div class="tw-flex tw-justify-center tw-mt-52">
-            <div class="solution-tab">
-              <i class="icon-interfaces_solid"></i> Interface
-            </div>
-            <div
-              class="
-                tw-flex tw-flex-wrap tw-items-center tw-justify-center
-                bg-hud-horizontal
-                tw-w-1/2 tw-mt-36
-              "
-            >
-              <div
-                v-for="(inter, k) in interfaces"
-                :key="k"
-                class="hexagon vertical"
-              >
-                {{ inter }}
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Interface end-->
+            <!-- Interface end-->
+          </v-tab-item>
+        </v-tabs-items>
       </div>
     </div>
   </div>
@@ -112,96 +99,131 @@
 export default {
   props: {
     solutions: { type: Array, required: true },
-    interfaces: { type: Array, required: true },
   },
-  data: () => ({}),
+  data: () => ({
+    tab: 'tab-1',
+  }),
 }
 </script>
 
 <style lang="scss">
-.mr-55 {
-  margin-right: 55px;
-}
-
 .solution {
   &-line {
     position: absolute;
-
-    &.line {
-      &-1 {
-        top: 490px;
-        left: 450px;
-      }
-      &-2 {
-        top: 925px;
-        left: 1210px;
-      }
-      &-3 {
-        top: 1350px;
-        left: 598px;
-      }
-    }
+    top: 490px;
+    left: 450px;
   }
   &-tabs {
-    display: flex;
-
-    li {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      width: 200px;
-      height: 200px;
-      margin: 3rem 3rem 0;
-      font-size: 1.2rem;
-      color: $white;
-      background: url('../assets/vectors/circle-base.svg') center no-repeat;
-      background-size: contain;
-
-      i {
-        font-size: 2.7rem;
-      }
-
-      &.active {
-        position: relative;
-        width: 278px;
-        height: 278px;
-        font-size: 1.6rem;
-
-        i {
-          font-size: 4rem;
-        }
-
-        &:before {
-          content: '';
-          display: block;
-          position: absolute;
-          width: 324px;
-          height: 324px;
-          background: url('../assets/vectors/circle-focus.svg') center no-repeat;
-        }
-      }
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-  }
-
-  &-tab {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 278px;
-    height: 278px;
-    margin: 3rem 0 0;
-    font-size: 1.6rem;
-    color: $white;
-    background: url('../assets/vectors/circle-base.svg') center no-repeat;
-    background-size: contain;
+    width: 230px;
+    height: 230px;
+    margin: auto 1rem;
 
-    i {
-      font-size: 4rem;
+    .tab-text {
+      font-size: 1.1rem;
+    }
+
+    .tab-icon {
+      font-size: 3rem;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: transparent !important;
+      opacity: 0.7 !important;
+      width: 100%;
+      height: 100%;
+      background: url('../assets/vectors/circle-base.svg') center no-repeat;
+      background-size: contain;
+    }
+
+    &:hover {
+      transition: transform 0.2s;
+      transform: scale(1.06);
+      color: white !important;
+
+      &::before {
+        opacity: 1 !important;
+      }
+    }
+
+    &-active {
+      position: relative;
+      width: 260px;
+      height: 260px;
+      transition: all 0.2s cubic-bezier(0.2, 0.4, 0.7, 0.8);
+      .tab-text {
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+
+      .tab-icon {
+        font-size: 3.5rem;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        background-color: transparent;
+        opacity: 1 !important;
+        width: 100%;
+        height: 100%;
+        background: url('../assets/vectors/circle-base.svg') center no-repeat;
+        background-size: contain;
+        transition: all 0.2s;
+        transform: rotate(180deg);
+      }
+
+      &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        opacity: 1;
+        background: url('../assets/vectors/circle-focus.svg') center no-repeat;
+        background-size: contain;
+        transition: all 0.2s cubic-bezier(0.2, 0.4, 0.7, 0.8);
+        transform: scale(1);
+      }
+
+      &:hover {
+        transform: scale(1);
+        &::before {
+          opacity: 1 !important;
+        }
+      }
+    }
+  }
+  &-interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    margin: auto 0;
+    color: white;
+    font-size: 1.4rem;
+    position: relative;
+
+    .tab-icon {
+      font-size: 3.6rem;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-color: transparent;
+      opacity: 1;
+      width: 100%;
+      height: 100%;
+      background: url('../assets/vectors/circle-base.svg') center no-repeat;
+      background-size: contain;
     }
   }
 }

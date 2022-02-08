@@ -54,7 +54,12 @@
                 ></div>
                 <!-- eslint-disable-next-line vue/no-v-html -->
                 <div
-                  class="tw-text-sm sm:tw-text-base tw-my-2 tw-opacity-70"
+                  class="
+                    tw-text-sm
+                    sm:tw-text-base
+                    xl:tw-text-lg
+                    tw-my-2 tw-opacity-70
+                  "
                   v-html="item.desc"
                 ></div>
                 <ul class="dot-list">
@@ -64,6 +69,7 @@
                     class="
                       tw-text-sm
                       sm:tw-text-base
+                      xl:tw-text-lg
                       tw-leading-snug tw-opacity-70
                       lg:tw-mt-1
                     "
@@ -81,9 +87,7 @@
             class="tw-w-full tw-flex-1 tw-pb-5"
           >
             <zoom-on-hover
-              :img-normal="
-                require('@/assets/images/sysfeatures/2x/' + item.img)
-              "
+              :img-normal="'images/sysfeatures/2x/' + item.img"
               :disabled="$vuetify.breakpoint.smAndDown ? 'true' : item.zoomoff"
             >
             </zoom-on-hover>
@@ -97,10 +101,8 @@
             data-aos-once="true"
           >
             <zoom-on-hover
-              :img-normal="
-                require('@/assets/images/sysfeatures/1x/' + item.img)
-              "
-              :img-zoom="require('@/assets/images/sysfeatures/2x/' + item.img)"
+              :img-normal="'images/sysfeatures/1x/' + item.img"
+              :img-zoom="'images/sysfeatures/2x/' + item.img"
               :scale="2"
               :disabled="$vuetify.breakpoint.smAndDown ? 'true' : item.zoomoff"
             >

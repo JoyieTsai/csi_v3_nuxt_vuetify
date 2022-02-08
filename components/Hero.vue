@@ -29,7 +29,7 @@
                 sm:tw-text-3xl
                 lg:tw-text-4xl
                 xl:tw-text-5xl
-                tw-font-semibold tw-leading-snug tw-my-2
+                tw-font-semibold tw-leading-snug tw-my-3
               "
             >
               <slot name="title"></slot>
@@ -37,7 +37,7 @@
             <div class="lg:tw-text-xl 2xl:tw-text-2xl xl:tw-mr-20">
               <slot name="subtitle"></slot>
             </div>
-            <div v-if="btns" class="tw-mt-4 md:tw-my-5">
+            <div v-if="btns" class="tw-mt-5 md:tw-my-5">
               <button
                 class="
                   btn-lg btn-primary

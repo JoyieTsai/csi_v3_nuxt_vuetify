@@ -15,11 +15,123 @@
   {
     "id": "data-sharing",
     "title": "Data Sharing",
-    "subtitle": "coming soon...",
+    "subtitle": "Break Down Information Silos to Promote Inter-Agency Collaboration",
     "icon": "data_share.svg",
     "coverImg": "data-sharing.jpg",
-    "descHeading": "",
-    "descContent": ""
+    "descHeading": "Maximum interoperability and sharing of mission-critical information",
+    "descContent": "Data silos prevent agencies from accessing data in a timely manner and seeing the big picture. They create separations between data sets across departments, agencies, and geographic jurisdictions. Our systems are designed to optimize the usage of data through expert interfacing, vertical integration, data migration, and cloud integration; data flows smoothly and securely between systems in real-time. Data sharing allows agencies to collect every piece of the puzzle and expand their situational awareness.",
+    "diagram": {
+      "img": "data-sharing.jpg",
+      "desc": "CSI accomplishes data sharing in three ways: across agencies, across devices, and across products. Our enterprise application fulfills the need for accelerated, holistic data interoperability in the current data-driven environment. One of the biggest concerns with data sharing is security. But with our fully compliant <a class='primary-link'>security methodology</a>, data breaches are the last thing government agencies need to worry about. Agencies can easily customize the extent of data transparency using robust permission settings to ensure only authorized users have access."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Security",
+          "Permission",
+          "Incident Response",
+          "Data Repository",
+          "Interoperability",
+          "Public Portal",
+          "Data Sources",
+          "Discoverability"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "Data Silos",
+        "content": [
+          "Vendor-specific security policies",
+          "Simple permission settings",
+          "Inefficiencies lead to knowledge gaps and vulnerabilities",
+          "Unsynced data Duplicate entries",
+          "Limited communication",
+          "Unavailable",
+          "Limited integration Incompatible data formats",
+          "Unable to access necessary data"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Data Sharing",
+        "content": [
+          "Full compliance with government security standards (CJIS, FIPS, etc.)",
+          "Granular permission settings for maximum control and ownership",
+          "Efficient collaboration and dissemination of information ",
+          "Centralized master indices Data warehouse",
+          "Maximum communication",
+          "Community data sharing for citizens to stay informed",
+          "Complete integration of internal and external data sources",
+          "Efficient search with custom querying"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "cloud_integration.svg",
+        "title": "Break Down Data Silos"
+      },
+      {
+        "icon": "queue_server.svg",
+        "title": "Data Continuity"
+      },
+      {
+        "icon": "data_organization.svg",
+        "title": "Real-time Data Sharing"
+      },
+      {
+        "icon": "technology.svg",
+        "title": "Enhanced Situational Awareness"
+      },
+      {
+        "icon": "mobile_operations.svg",
+        "title": "Cross-Platform Information Sharing"
+      },
+      {
+        "icon": "security_force.svg",
+        "title": "Dynamic Security Protection"
+      }
+    ],
+    "steps": {
+      "desc": "Our interconnected data sharing ecosystem brings agencies, communities, and citizens together.",
+      "clip": "low-code.mp4",
+      "items": [
+        {
+          "title": "Agency",
+          "body": "<ul class='tw-list-disc tw-pl-5'><li>Connect to state data warehouse</li><li>Access county-wide data</li><li>Search database with custom querying</li><li>Access data on MDT/mobile devices</li></ul>"
+        },
+        {
+          "title": "Community",
+          "body": "<ul class='tw-list-disc tw-pl-5'><li>Track process of services</li><li>Share and request documents</li></ul>"
+        },
+        {
+          "title": "Citizen Portal",
+          "body": "<ul class='tw-list-disc tw-pl-5'><li>Access open government data</li><li>Apply for services online</li><li>Upload documents</li><li>Communicate with officials</li></ul>"
+        }
+      ]
+    },
+    "relatedCapabilities": [
+      {
+        "title": "InfoShare Engine®",
+        "desc": "Low Code Development Platform for Government ERP Application",
+        "icon": "icon-engine_solid",
+        "link": "infoShare-engine"
+      },
+      {
+        "title": "Vertical Integration",
+        "desc": "From public safety to municipal services to judiciary and regulatory agencies",
+        "icon": "icon-total_solution_solid",
+        "link": "vertical-integration"
+      },
+      {
+        "title": "Cloud Integration",
+        "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
+        "icon": "icon-cloud_integration_solid",
+        "link": "cloud-integration"
+      }
+    ]
   },
   {
     "id": "data-migration",
@@ -402,7 +514,7 @@
     ]
   },
   {
-    "id": "low-code-development",
+    "id": "low-code",
     "title": "Low Code Development",
     "subtitle": "Proprietary low-code technology to facilitate application development",
     "icon": "lowcode.svg",
@@ -483,6 +595,24 @@
         "title": "Limited Expertise Necessary"
       }
     ],
+    "steps": {
+      "desc": "Simple application development keeps admin teams small, agile, and focused on higher-level, value-adding activities. ",
+      "clip": "low-code.gif",
+      "items": [
+        {
+          "title": "Define Requirement",
+          "body": "The development lifecycle starts with defining the requirements for the application. Even if the requirements change, a low code development platform allows users to quickly and easily update the system."
+        },
+        {
+          "title": "Copy Application",
+          "body": "Find an optimal application template from the database and copy it as the base application. Each base application is an actual working application with various functions and pages."
+        },
+        {
+          "title": "Modify Application",
+          "body": "Configure the application by simply changing database table fields. The application further supports automated unit testing and a debugging mode that guides users through application logic errors. Quickly develop a working prototype that can be improved with each iteration. "
+        }
+      ]
+    },
     "relatedCapabilities": [
       {
         "title": "InfoShare Engine®",
@@ -612,7 +742,7 @@
     "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare™ Engine benefit from seamless integration, scalability, and adaptability. ",
     "diagram": {
       "img": "infoshare-engine.jpg",
-      "desc": "InfoShare Engine® is a <a href='/capabilities/low-code-development' class='primary-link'>low code development</a> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
+      "desc": "InfoShare Engine® is a <a href='/capabilities/low-code' class='primary-link'>low code development</a> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
     },
     "lists": [
       {
@@ -713,7 +843,7 @@
         "title": "Low Code Development",
         "desc": "Proprietary low-code technology to facilitate application development",
         "icon": "icon-lowcode_solid",
-        "link": "low-code-development"
+        "link": "low-code"
       },
       {
         "title": "Cloud Integration",

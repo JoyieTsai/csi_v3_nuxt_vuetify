@@ -39,26 +39,34 @@
           Our Capabilities
         </div>
         <img
-          :src="require('~/assets/vectors/capabilities.svg')"
+          :src="require('~/assets/vectors/capabilities.jpg')"
           alt="Capabilities"
           class="tw-hidden md:tw-block"
         />
         <img
-          :src="require('~/assets/vectors/capabilities_s.svg')"
+          :src="require('~/assets/vectors/capabilities_s.jpg')"
           alt="Capabilities"
           class="md:tw-hidden"
         />
       </div>
 
       <!-- Timeline -->
-      <div class="main-container tw-mx-auto tw-relative tw-my-12 xl:tw-my-28">
+      <div
+        class="
+          main-container
+          tw-px-0
+          md:tw-px-10
+          tw-mx-auto tw-relative tw-my-12
+          xl:tw-my-28
+        "
+      >
         <div class="header-2 tw-text-center">Technology Timeline</div>
         <div class="tw-mt-8 xl:tw-mt-16 tw-mx-0 lg:tw-mx-5 xl:tw-mx-0">
           <section id="cd-timeline" class="xl:tw-w-5/6 2xl:tw-w-4/5 tw-mx-auto">
             <div
               v-for="(item, index) in timelines"
               :key="index"
-              data-aos="fade-up"
+              :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'"
               data-aos-duration="1500"
               class="cd-timeline-block"
             >
@@ -79,7 +87,8 @@
                     tw-mt-1 tw-ml-16
                     lg:tw-ml-24
                     md:tw-ml-20
-                    tw-text-sm
+                    tw-text-xs
+                    md:tw-text-sm
                     lg:tw-text-lg
                     xl:tw-text-xl
                   "
@@ -100,14 +109,14 @@
               ></div>
               <div
                 v-if="item.img"
-                class="tw-flex tw--mt-16 lg:tw--mt-24 xl:tw--mt-36"
+                class="tw-flex tw--mt-12 lg:tw--mt-24 xl:tw--mt-36"
               >
                 <div
-                  data-aos="fade-right"
+                  :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-right'"
                   data-aos-duration="1500"
                   class="tw-flex-1"
                 >
-                  <div class="tw-mr-6 xl:tw-mr-12">
+                  <div class="md:tw-mr-6 xl:tw-mr-12">
                     <img
                       v-if="item.leftImg"
                       class="tw-ml-auto"
@@ -116,11 +125,11 @@
                   </div>
                 </div>
                 <div
-                  data-aos="fade-left"
+                  :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-left'"
                   data-aos-duration="1500"
                   class="tw-flex-1"
                 >
-                  <div class="tw-ml-6 xl:tw-ml-12">
+                  <div class="md:tw-ml-6 xl:tw-ml-12">
                     <img
                       v-if="item.rightImg"
                       :src="require(`~/assets/vectors/${item.rightImg}`)"
@@ -287,18 +296,18 @@ $S: 0.4;
 }
 @media only screen and (max-width: $breakpoints-sm) {
   .cd-timeline-block {
-    height: ceil($blockL * $S);
+    height: 100px;
     &:last-child {
-      height: ceil($blockS * $S);
+      height: 40px;
     }
   }
   .cd-timeline-arrow {
-    width: ceil($arrowWidth * $S);
-    height: ceil($arrowHight * $S);
+    width: 100px;
+    height: 40px;
   }
   .cd-timeline-img {
-    width: ceil($imgWidth * $S);
-    height: ceil($imgHight * $S);
+    width: 90px;
+    height: 85px;
     top: ceil($topH * $S);
   }
 }

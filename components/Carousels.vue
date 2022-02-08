@@ -11,7 +11,7 @@
         <div class="tw-flex tw-justify-center">
           <v-img
             max-width="1440"
-            :src="require('@/assets/images/sysfeatures/1x/' + item.img)"
+            :src="'images/sysfeatures/1x/' + item.img"
             aspect-ratio="2.2"
             cover
           ></v-img>

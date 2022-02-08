@@ -45,3 +45,12 @@
   height: 4rem !important;
   text-align: left;
 }
+
+.theme--light.v-tabs-items {
+  background-color: transparent !important;
+}
+
+.v-tab:before,
+.v-tabs-slider {
+  background-color: transparent !important;
+}

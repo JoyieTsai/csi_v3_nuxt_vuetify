@@ -16,7 +16,6 @@
             "cad",
             "rms",
             "fire-ems",
-            "mobile-operations",
             "personnel-scheduling",
             "municipal-solutions",
             "attorney-general",
@@ -104,6 +103,8 @@
             "rms",
             "fire-ems",
             "mobile-operations",
+            "citation-management",
+            "evidence",
             "analytics-crime-mapping",
             "csi"
         ]
@@ -125,7 +126,7 @@
         "src": "james.jpg",
         "type": "Account Management",
         "position": "Account Management Team",
-        "desc": "Jim brings over 26 years of law enforcement experience to CSI. Twenty-five years of his extensive career of conducting and managing criminal investigations was spent at the Cumberland County Prosecutor’s Office (CCPO). He retired as Captain of Detectives, the executive officer overseeing all the investigative divisions within the office. A key player in the Major Crimes and Narcotics Units for over 20 years, he worked closely with federal, state and local agencies to solve crimes within the county.<br><br> While serving at the CCPO, he managed there InfoShare ™Records Management database. His knowledge of using InfoShare™ products from a police officer and prosecutor’s office perspective gives him a keen understanding of his users’ needs and goals, as he helps them benefit from using InfoShare™ to enhance their workflow and save resources. Jim is a graduate of the FBI National Academy class #236 and is an active member of the New Jersey Chapter of the FBINAA. He received his undergraduate degree in Sociology from Catawba College in Salisbury, North Carolina and makes his home in Millville, New Jersey, with his wife and three kids.",
+        "desc": "Jim brings over 26 years of law enforcement experience to CSI. Twenty-five years of his extensive career of conducting and managing criminal investigations was spent at the Cumberland County Prosecutor’s Office (CCPO). He retired as Captain of Detectives, the executive officer overseeing all the investigative divisions within the office. A key player in the Major Crimes and Narcotics Units for over 20 years, he worked closely with federal, state and local agencies to solve crimes within the county.<br><br> While serving at the CCPO, he managed their InfoShare™ Records Management database. His knowledge of using InfoShare™ products from a police officer and prosecutor’s office perspective gives him a keen understanding of his users’ needs and goals, as he helps them benefit from using InfoShare™ to enhance their workflow and save resources. Jim is a graduate of the FBI National Academy class #236 and is an active member of the New Jersey Chapter of the FBINAA. He received his undergraduate degree in Sociology from Catawba College in Salisbury, North Carolina and makes his home in Millville, New Jersey, with his wife and three kids.",
         "product": [
             "county-prosecution",
             "interview-recording",
@@ -139,8 +140,6 @@
         "position": "Account Management Team",
         "desc": "Prior to joining CSI Technology Group, Sr. Investigator John P. Denmark retired from the Camden County (NJ) Prosecutor’s Office after a 25-year law enforcement career that included thirteen years with the Prosecutor’s Office in 2012 and twelve years in local and campus law enforcement with the Woodbury (NJ) Police Department and the Rutgers University Police (Camden Division). While serving at the Camden County Prosecutor’s Office, Sr. Investigator Denmark was assigned to the Crime Scene Unit for over eleven years.<br><br>In addition to his Crime Scene responsibilities, Denmark established countywide services for analog and digital surveillance videos. In recognition, Sr. Investigator Denmark received numerous awards and commendations for his crime scene work as well as his contributions related to audio and video services. His investigations have resulted in numerous court appearances involving crime scene and video testimony. The technical services initiated by Denmark have been continued after his retirement by the CCPO High Tech Crimes Unit. John received his undergraduate degree in Computer Science in 1995 from Rutgers, The State University of New Jersey, Camden Campus. He resides in South Jersey with his wife.",
         "product": [
-            "mobile-operations",
-            "evidence",
             "county-prosecution",
             "attorney-general",
             "public-defender",
@@ -184,14 +183,6 @@
         ]
     },
     {
-        "name": "David Palmer",
-        "src": "dave.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Before joining CSI, David Palmer served 25 years in law enforcement, retiring as a Lieutenant from the Middlesex County Sheriff’s Department. Dave’s service to Middlesex County was diverse, providing him with vast experience across many areas of law enforcement. He began his career as a Corrections Officer with the Middlesex County Department of Corrections and then joined the Sherriff’s Office, where his responsibilities spanned court security, prisoner transport, the drunk driving task force and investigations and technical services.<br><br> He was in charge of the County Communications Center and was the department TAC officer for eight years, providing radio, telephone and computer services for the Sheriff's Department, Prosecutor's Office, County Courts, Road Department, Health Department and the Middlesex County Area Wide Transportation System. Dave was a key member of the design team that worked with CSI to implement a Computer Aided Dispatch system for the Sheriff’s Department.",
-        "product": []
-    },
-    {
         "name": "Gerald Dezenzo",
         "src": "garry.jpg",
         "type": "Account Management",
@@ -209,7 +200,6 @@
         "position": "Account Management Team",
         "desc": "Russ Christiana comes to CSI after 16 years of service with the Bergen County Prosecutor’s Office (BCPO), where he was an avid user of InfoShare™ products to support his work. During his tenure at the BCPO, he served in the Special Victims Unit, the Recruit Police Training Unit and the Major Crimes Unit. He assisted in over 100 homicide investigations and conducted over 50 crime scene investigations. He was dedicated to serving victims of sex crimes and child abuse cases, working cooperatively with Sexual Assault Nurse Examiner (SANE) professionals and counselors of Rape Crisis, the Division of Youth and Family Services and Victim/Witness Advocates.<br><br> He conducted hundreds of interviews of victims, suspects and witnesses, conducted crime scene investigations and testified in numerous high profile homicide and SVU cases in the NJ Superior Court. Through his investigative work, he relied heavily on InfoShare™ products, utilizing InfoShare™ RMS to record and track his cases and the InfoShare™ Major Incident Module (MIM) in complex cases and other high profile investigations. He rose to be the Commanding Officer of all Investigations in the Major Crimes Unit and in the Special Victims Unit. As Russ well knows the value of InfoShare™ products to support all types of police and investigative work, he is happy to join our team and help others learn to use these products in their agencies to make their jobs more efficient and effective.",
         "product": [
-            "citation-management",
             "warrant"
         ]
     },
@@ -219,7 +209,9 @@
         "type": "Account Management",
         "position": "Account Management Team",
         "desc": "With over 25 years in the commercial software industry before joining CSI, for the last 12 years, Tom Kenny worked at a law enforcement records management software provider in Pennsylvania. As a manager in the software provider, Tom has extensive experience in application support, training, product development, sales support and sales. He also has successful history of building and maintaining customer satisfaction and collaborative relationships.<br><br> Also, Tom used to play a key role in a small team, which provides software support to over 500 clients via phone and email.  Well-versed in many roles, such as customer relations, application support, customer support manager, Tom brings his comprehensive experience to CSI as he supports key CSI projects to customers in Pennsylvania. Tom received his undergraduate degree major in Criminal Justice from LaSalle College, Philadelphia, PA. ",
-        "product": []
+        "product": [
+            "evidence"
+        ]
     },
     {
         "name": "Gregory Ferry",
@@ -253,7 +245,9 @@
         "type": "Account Management",
         "position": "Account Management Team",
         "desc": "Arthur joined CSI Technology Group after over 31 years of experience with the Bergen County Prosecutor’s Office. For 17 years, Arthur was assigned to the Administration Section where he worked with Prosecutors and Detectives dealing with interviews, interrogations and confession statements relating to Homicide, Burglary, Sex Crimes and Arson offenses. Also part of his duties were the generating of Investigative Reports, Search Warrants and other Court Authorized Orders.<br><br>Arthur was transferred into the Bureau of Information Technology, Data Control Unit, over 14 years ago where his duties included the generating of Victim Witness Letters, Expungements and the Processing of Indictments and Accusations. During this time he became a Terminal Agency Coordinator (TAC) Officer certified by the New Jersey State Police.  As a result, he was tasked with handling all of the administrative CJIS duties.  He was also active with the Bergen County CJIS Control Group that consisted of all the Law Enforcement entities in Bergen County. <br><br>In 2011 Arthur became an Administrator for the InfoShare Records Management System for the Bergen County Prosecutor’s Office. He was responsible for the day to day operation of InfoShare, including the training of users,  the daily administration and system maintenance. He also provided administrative support, technical assistance and training for all 70 Law Enforcement Agencies located within Bergen County for the eScreening and Internal Affairs Modules.  His technological expertise and exceptional understanding of the InfoShare Product line make him an excellent addition to the CSI Team.",
-        "product": []
+        "product": [
+            "citation-management"
+        ]
     },
     {
         "name": "Scott Plumer",
@@ -262,18 +256,7 @@
         "position": "Account Management Team",
         "desc": "Scott joined the CSI team following a 26-year career in law enforcement retiring as the Patrol Operations Division Commander for the Bedford, New Hampshire Police Department. In his career, he worked as a patrol officer, field training officer, detective, prosecutor, patrol sergeant, and as a lieutenant was the commander of the communications and records division. In his last assignment, he was responsible for leading and managing all police operations, the mountain bike and motorcycle units as well as officers assigned to the Southern New Hampshire Special Operations Unit. <br><br> Scott served in the United States Army and was deployed to Operation Joint Guard in Bosnia and Herzegovina in 1997-1998. His unit was responsible for public affairs in the headquarters located in Tuzla and Sarajevo. He has been an adjunct faculty instructor since 2009 at Great Bay Community College and since 2019 at Southern New Hampshire University in the Criminal Justice and Homeland Security programs. He has also been a member of the International Association of Approved Basketball Officials since 2003. Scott is also an active member of the New Hampshire Police Association Pipes and Drum as a tenor drummer. He lives in Bedford, NH with his wife Jill.",
         "product": [
-            ""
-        ]
-    },
-    {
-        "name": "Jeffrey S. Dunlap",
-        "src": "jeff.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Jeffrey Dunlap began his law enforcement career in 1994 as a Patrol Officer with the Palmyra Police Department in Burlington County, New Jersey. He was promoted to the rank of Sergeant in 1999 and worked in the Patrol Division.<br><br>He was hired as a Detective with the Camden County Prosecutor’s Office in April of 2001. As a Detective, he worked in the Grand Jury Unit, Narcotics Unit, Major Crimes Unit, and was assigned to the Federal Bureau of Investigation’s Violent Crimes Task Force.<br><br>He was promoted to the rank of Sergeant in November of 2013. As a Sergeant, Dunlap supervised the Juvenile Unit, Major Crimes Unit, Special Victims Unit, and the Homicide Unit. He was promoted to the rank of Lieutenant in October of 2017, where he supervised the Major Crimes Unit, Homeland Security Unit, and the Special Victims Unit. After being promoted to Captain in September of 2018, Dunlap supervised the daily operations of the Major Crimes Unit, Homeland Security Unit, Special Victims Unit, and the Crime Scene Unit.<br><br>Promoted to Chief of Detectives in August of 2019, he oversaw an investigative staff of 109 sworn detectives and 15 agents.",
-        "product": [
-            "intelligence",
-            "fusion-center"
+            "citation-management"
         ]
     },
     {

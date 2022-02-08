@@ -1,58 +1,60 @@
 .ani-transition {
-    transition: all 0.2s ease;
+  transition: all 0.2s ease;
 }
 
 .translateY {
-    &:hover {
-        transform: translateY(-10px);
-    }
+  &:hover {
+    transform: translateY(-10px);
+  }
 }
 
 .zoomin {
-    transition: transform 0.3s !important;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-duration: 500ms;
-    &:hover {
-      transform: scale(1.05);
-      z-index: 5;
-    }
+  transition: transform 0.3s !important;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 500ms;
+  &:hover {
+    transform: scale(1.05);
+    z-index: 5;
+  }
 }
-  
-.slow-zoom {
-    transition: all 8s cubic-bezier(0.3, 1, 0.3, 1);
 
-    &:hover {
-        transform: scale(1.15);
-    }
+.slow-zoom {
+  transition: all 8s cubic-bezier(0.3, 1, 0.3, 1);
+
+  &:hover {
+    transform: scale(1.15);
+  }
 }
 
 .ani-avatar {
+  .team-avatar {
+    width: 100%;
+  }
+
+  &:hover {
+    display: flex;
+    align-items: center;
+    background-color: $primary-light-color !important;
+    color: white !important;
+
+    .team-title,
+    .team-position {
+      display: none;
+    }
+
     .team-avatar {
-        width: 100%;
+      width: 7rem;
+      height: 7rem;
+      border-radius: 50%;
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      @media only screen and (max-width: $breakpoints-sm) {
+        width: 5rem;
+        height: 5rem;
+      }
     }
-
-    &:hover {
-        display: flex;
-        align-items: center;
-        background-color: $primary-light-color !important;
-        color: white !important;
-
-        .team-title, .team-position {
-            display: none;
-        }
-
-        .team-avatar {
-            width: 7rem;
-            height: 7rem;
-            border-radius: 50%;
-            margin-top: 1.5rem;
-            @media only screen and (max-width: $breakpoints-xl) {
-                width: 5rem;
-                height: 5rem;
-            }
-        }
-        .team-desc {
-            display: block !important;
-        }
+    .team-desc {
+      display: block !important;
     }
+  }
 }

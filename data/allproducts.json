@@ -21,7 +21,7 @@
     },
     {
         "id": "citation-management",
-        "icon": "crash.svg",
+        "icon": "eticket.svg",
         "title": "Citation Management"
     },
     {
@@ -47,7 +47,7 @@
     {
         "id": "internal-affairs",
         "icon": "internal_affairs.svg",
-        "title": "Internal Affairs"
+        "title": "Professional Standards & IA"
     },
     {
         "id": "municipal-solutions",
@@ -156,7 +156,7 @@
     },
     {
         "id": "csi",
-        "icon": "csi.svg",
+        "icon": "rolmes.svg",
         "title": "Crime Scene Investigation"
     }
 ]

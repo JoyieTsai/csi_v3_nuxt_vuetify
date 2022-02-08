@@ -15,11 +15,7 @@
         <template v-slot:desc-content>{{ descContent }}</template>
       </Hero>
       <BenefitsA class="tw-my-12 xl:tw-my-28" :data="benefits" />
-      <TotalSolution
-        class="tw-my-12 xl:tw-my-28"
-        :solutions="solutions"
-        :interfaces="interfaces"
-      />
+      <TotalSolution class="tw-my-12 xl:tw-my-28" :solutions="solutions" />
       <SuccessStories class="tw-my-12 xl:tw-my-28" />
       <Contact />
     </v-main>
@@ -33,7 +29,7 @@ export default {
     category: 'public-safety',
     title: 'Public Safety Overview',
     subtitle:
-      'Integrated Public Safety software suite to enhance eGovernment operations, supporting Police, Fire, and EMS personnel in their day to day',
+      'Integrated Public Safety software suite to enhance eGovernment operations, supporting Police, Fire, and EMS personnel in their day to day.',
     icon: 'public_safety.svg',
     coverimg: 'public-safety.jpg',
     descHeading: 'United in response and communication',
@@ -73,56 +69,164 @@ export default {
     ],
     solutions: [
       {
-        type: 'Base Features',
-        items: [
-          'Administration Reports',
-          'Instant Call Log',
-          'Mapping Comp.',
-          'Admin Comp.',
-          'Center APP',
-          'Roll Call',
-          'Bolo',
-          'Server with Web Service',
-          'Pre-Assignment',
-          'Patrol Features',
-          'Master Name Index & Lookup',
-          'Staff, Unit & Support File Management',
-          'Queue Server',
-          'Chat',
+        product: 'RMS',
+        name: 'Law Enforcement Records Management',
+        icon: 'icon-rms_solid',
+        diagram: 'solution-rms.svg',
+        // modules: [
+        //   {
+        //     type: 'Base Features',
+        //     items: [
+        //       'Administration Reports',
+        //       'Instant Call Log',
+        //       'Mapping Comp.',
+        //       'Admin Comp.',
+        //       'Center APP',
+        //       'Roll Call',
+        //       'Bolo',
+        //       'Server with Web Service',
+        //       'Pre-Assignment',
+        //       'Patrol Features',
+        //       'Master Name Index & Lookup',
+        //       'Staff, Unit & Support File Management',
+        //       'Queue Server',
+        //       'Chat',
+        //     ],
+        //   },
+        //   {
+        //     type: 'MDT Application',
+        //     items: [
+        //       'Bolo',
+        //       'Officer Initiated CFS',
+        //       'Roll Call',
+        //       'AVL Add-on',
+        //       'NCIC / DMV / NLETS',
+        //       'MV Stop',
+        //       'Text-to-Speech',
+        //       'Chat',
+        //     ],
+        //   },
+        //   {
+        //     type: 'Add-On Modules',
+        //     items: [
+        //       'NCIC Gateway',
+        //       'eTicket Gateway',
+        //       'Mapping with Real Time Traffic',
+        //       'Master Location and Data Import',
+        //       'Q & A',
+        //     ],
+        //   },
+        // ],
+      },
+      {
+        product: 'CAD',
+        name: 'Computer Aided Dispatch',
+        icon: 'icon-cad_solid',
+        diagram: 'solution-cad.svg',
+        // modules: [
+        //   {
+        //     type: 'Base Features',
+        //     items: [
+        //       'Administration Reports',
+        //       'Instant Call Log',
+        //       'Mapping Comp.',
+        //       'Admin Comp.',
+        //       'Center APP',
+        //       'Roll Call',
+        //       'Bolo',
+        //       'Server with Web Service',
+        //       'Pre-Assignment',
+        //       'Patrol Features',
+        //       'Master Name Index & Lookup',
+        //       'Staff, Unit & Support File Management',
+        //       'Queue Server',
+        //       'Chat',
+        //     ],
+        //   },
+        //   {
+        //     type: 'MDT Application',
+        //     items: [
+        //       'Bolo',
+        //       'Officer Initiated CFS',
+        //       'Roll Call',
+        //       'AVL Add-on',
+        //       'NCIC / DMV / NLETS',
+        //       'MV Stop',
+        //       'Text-to-Speech',
+        //       'Chat',
+        //     ],
+        //   },
+        //   {
+        //     type: 'Add-On Modules',
+        //     items: [
+        //       'NCIC Gateway',
+        //       'eTicket Gateway',
+        //       'Mapping with Real Time Traffic',
+        //       'Master Location and Data Import',
+        //       'Q & A',
+        //     ],
+        //   },
+        // ],
+        interfaces: [
+          'ePro',
+          'Fingerprint',
+          'Mapping',
+          '911 ANI/ALI',
+          'Traffic Cam',
+          'NFIRS',
+          'NBIRS',
         ],
       },
       {
-        type: 'MDT Application',
-        items: [
-          'Bolo',
-          'Officer Initiated CFS',
-          'Roll Call',
-          'AVL Add-on',
-          'NCIC / DMV / NLETS',
-          'MV Stop',
-          'Text-to-Speech',
-          'Chat',
-        ],
+        product: 'Fire & EMS',
+        name: 'Fire & EMS Solutions',
+        icon: 'icon-fire_ems_solid',
+        diagram: 'solution-fireems.svg',
+        // modules: [
+        //   {
+        //     type: 'Base Features',
+        //     items: [
+        //       'Administration Reports',
+        //       'Instant Call Log',
+        //       'Mapping Comp.',
+        //       'Admin Comp.',
+        //       'Center APP',
+        //       'Roll Call',
+        //       'Bolo',
+        //       'Server with Web Service',
+        //       'Pre-Assignment',
+        //       'Patrol Features',
+        //       'Master Name Index & Lookup',
+        //       'Staff, Unit & Support File Management',
+        //       'Queue Server',
+        //       'Chat',
+        //     ],
+        //   },
+        //   {
+        //     type: 'MDT Application',
+        //     items: [
+        //       'Bolo',
+        //       'Officer Initiated CFS',
+        //       'Roll Call',
+        //       'AVL Add-on',
+        //       'NCIC / DMV / NLETS',
+        //       'MV Stop',
+        //       'Text-to-Speech',
+        //       'Chat',
+        //     ],
+        //   },
+        //   {
+        //     type: 'Add-On Modules',
+        //     items: [
+        //       'NCIC Gateway',
+        //       'eTicket Gateway',
+        //       'Mapping with Real Time Traffic',
+        //       'Master Location and Data Import',
+        //       'Q & A',
+        //     ],
+        //   },
+        // ],
       },
-      {
-        type: 'Add-On Modules',
-        items: [
-          'NCIC Gateway',
-          'eTicket Gateway',
-          'Mapping with Real Time Traffic',
-          'Master Location and Data Import',
-          'Q & A',
-        ],
-      },
-    ],
-    interfaces: [
-      'ePro',
-      'Fingerprint',
-      'Mapping',
-      '911 ANI/ALI',
-      'Traffic Cam',
-      'NFIRS',
-      'NBIRS',
     ],
   }),
 }

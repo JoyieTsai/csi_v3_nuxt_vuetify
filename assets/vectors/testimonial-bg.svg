@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="808px" height="500px" viewBox="0 0 808 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>testimonial-bg</title>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#317AC4" offset="0%"></stop>
+            <stop stop-color="#0B539D" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Overall--Done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V3-Resource-Detail" transform="translate(-475.000000, -1626.000000)">
+            <g id="Group-16-Copy" transform="translate(462.000000, 1598.000000)">
+                <g id="testimonial-bg" transform="translate(13.000000, 28.000000)">
+                    <rect id="Rectangle-Copy-11" fill="url(#linearGradient-1)" x="0" y="0" width="808" height="500"></rect>
+                    <g id="Group-Copy" transform="translate(98.000000, 91.500000) scale(1, -1) translate(-98.000000, -91.500000) ">
+                        <polygon id="Polygon-Copy-5" fill="#317AC4" transform="translate(49.000000, 134.500000) rotate(-360.000000) translate(-49.000000, -134.500000) " points="49 97 81.0429399 115.75 81.0429399 153.25 49 172 16.9570601 153.25 16.9570601 115.75"></polygon>
+                        <polygon id="Polygon-Copy-7" fill="#317AC4" transform="translate(147.000000, 134.500000) rotate(-360.000000) translate(-147.000000, -134.500000) " points="147 97 179.04294 115.75 179.04294 153.25 147 172 114.95706 153.25 114.95706 115.75"></polygon>
+                        <polygon id="Polygon-Copy-9" fill="#317AC4" transform="translate(98.000000, 48.500000) rotate(-360.000000) translate(-98.000000, -48.500000) " points="98 11 130.04294 29.75 130.04294 67.25 98 86 65.9570601 67.25 65.9570601 29.75"></polygon>
+                        <path d="M49,87.1517662 L90.4352448,110.830307 L90.4352448,158.169693 L49,181.848234 L7.56475521,158.169693 L7.56475521,110.830307 L49,87.1517662 Z" id="Polygon-Copy-6" stroke="#317AC4" stroke-width="2" transform="translate(49.000000, 134.500000) rotate(-360.000000) translate(-49.000000, -134.500000) "></path>
+                        <path d="M147,87.1517662 L188.435245,110.830307 L188.435245,158.169693 L147,181.848234 L105.564755,158.169693 L105.564755,110.830307 L147,87.1517662 Z" id="Polygon-Copy-8" stroke="#317AC4" stroke-width="2" transform="translate(147.000000, 134.500000) rotate(-360.000000) translate(-147.000000, -134.500000) "></path>
+                        <path d="M98,1.15176617 L139.435245,24.8303072 L139.435245,72.1696928 L98,95.8482338 L56.5647552,72.1696928 L56.5647552,24.8303072 L98,1.15176617 Z" id="Polygon-Copy-10" stroke="#317AC4" stroke-width="2" transform="translate(98.000000, 48.500000) rotate(-360.000000) translate(-98.000000, -48.500000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

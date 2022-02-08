@@ -68,7 +68,7 @@
             </div>
           </div>
 
-          <div class="tw-w-full md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-lg">
+          <div class="tw-w-full md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl">
             <div class="tw-bg-white">
               <img :src="'images/news/' + acover" :alt="acover" />
               <div class="tw-p-5 md:tw-p-10">
@@ -156,11 +156,10 @@
                     tw-text-base
                     lg:tw-text-lg
                     tw-leading-relaxed tw-text-gray-500
-                    news-body
                   "
                 >
                   <!-- eslint-disable-next-line vue/no-v-html -->
-                  <span v-html="abody"></span>
+                  <div class="news-body" v-html="abody"></div>
                 </div>
               </div>
             </div>
@@ -350,6 +349,7 @@ export default {
   .img-area {
     text-align: center;
     margin-top: 3em;
+    margin-bottom: 3em;
     img {
       margin: 0 auto;
     }
@@ -402,25 +402,40 @@ export default {
 
   blockquote {
     position: relative;
-    background: url('../../assets/images/testimanial_900x500_0508.jpg');
+    background: url('../../assets/vectors/testimonial-bg.svg');
     background-size: cover;
     color: white;
-    margin: 2.5em 0;
-    padding: 4.5em 3.5em 2.5em;
+    margin: 2em 0 3em;
+    padding: 3em 3em 2em;
     quotes: '\201C''\201D';
-    font-size: 1.1em;
+    font-size: 1em;
 
     @media only screen and (max-width: $breakpoints-sm) {
       padding: 3em 1.5em 1.5em;
     }
 
-    &:before {
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      color: white;
-      content: open-quote;
-      font-size: 7em;
+    &::before {
+      content: '';
+      background: url('../../assets/vectors/testimonial-quotes.svg') no-repeat;
+      background-size: contain;
+      position: absolute;
+      top: -28px;
+      left: -14px;
+      width: 65px;
+      height: 52px;
       display: block;
-      line-height: 0.1em;
+    }
+
+    &::after {
+      content: '';
+      background: url('../../assets/vectors/testimonial-vector.svg') no-repeat;
+      background-size: contain;
+      position: absolute;
+      bottom: -27px;
+      right: 1rem;
+      width: 169px;
+      height: 173px;
+      display: block;
     }
 
     p {
@@ -429,15 +444,9 @@ export default {
     }
     footer {
       margin-top: 2rem;
-
-      &:before {
-        content: '';
-        background-color: white;
-        display: block;
-        width: 60px;
-        height: 3px;
-        border-radius: 5px;
-        margin-bottom: 1.5em;
+      font-size: 0.9rem;
+      b {
+        font-size: 1rem;
       }
     }
   }

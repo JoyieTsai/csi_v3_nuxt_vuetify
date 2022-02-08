@@ -77,21 +77,16 @@
   justify-content: flex-end;
   flex-wrap: wrap;
   padding: 18px 0 30px;
-  width: 900px;
-  background: url('../assets/images/hexagons.png') top left no-repeat;
-
-  &:last-child {
-    background: url('../assets/images/hexagons.png') top center no-repeat;
-  }
+  width: 1000px;
 }
 
 .hexagon-s {
   position: relative;
-  width: 104px;
-  height: 60.04px;
+  width: 108px;
+  height: 68px;
   background: #146194;
   background: linear-gradient(0deg, #476182 0%, #146194 100%);
-  margin: 30.02px 0 0 -1px;
+  margin: 34px 0 0 -1px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,32 +96,32 @@
     content: '';
     position: absolute;
     width: 0;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
   }
 
   &:before {
     bottom: 100%;
-    border-bottom: 30.02px solid #146194;
+    border-bottom: 33px solid #146194;
   }
 
   &:after {
     top: 100%;
-    border-top: 30.02px solid #476182;
+    border-top: 33px solid #476182;
   }
 
   &:nth-child(16n + 8) {
-    margin-right: 52px;
+    margin-right: 53px;
   }
 }
 
 .hexagon-s-inner {
   position: relative;
-  width: 100px;
-  height: 57.74px;
+  width: 105px;
+  height: 65px;
   background: #0e5787;
   background: linear-gradient(0deg, #0f3f75 0%, #0e5787 100%);
-  margin: 29.87px 0;
+  margin: 30px 0;
   padding: 3px;
   color: white;
   font-size: 14px;
@@ -141,19 +136,19 @@
     content: '';
     position: absolute;
     width: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
     z-index: 1;
   }
 
   &:before {
     bottom: 100%;
-    border-bottom: 28.87px solid #0e5787;
+    border-bottom: 32px solid #0e5787;
   }
 
   &:after {
     top: 100%;
-    border-top: 28.87px solid #0f3f75;
+    border-top: 32px solid #0f3f75;
   }
 }
 
@@ -197,8 +192,8 @@
 // Shape
 .hexagon-primary {
   position: relative;
-  width: 104px;
-  height: 60.04px;
+  width: 108px;
+  height: 66px;
   background-color: $primary-color;
   &:before,
   &:after {
@@ -206,18 +201,18 @@
     position: absolute;
     width: 0;
     left: 0;
-    border-left: 52px solid transparent;
-    border-right: 52px solid transparent;
+    border-left: 55px solid transparent;
+    border-right: 55px solid transparent;
   }
 
   &:before {
     bottom: 100%;
-    border-bottom: 30.02px solid $primary-color;
+    border-bottom: 33px solid $primary-color;
   }
 
   &:after {
     top: 100%;
-    border-top: 30.02px solid $primary-color;
+    border-top: 33px solid $primary-color;
   }
 }
 

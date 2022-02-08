@@ -48,7 +48,7 @@
                     },
                     {
                         "id": "/internal-affairs",
-                        "title": "Internal Affairs"
+                        "title": "Professional Standards & IA"
                     }
                 ]
             }
@@ -176,7 +176,7 @@
                         "title": "Cloud Integration"
                     },
                     {
-                        "id": "/low-code-development",
+                        "id": "/low-code",
                         "title": "Low Code Development"
                     },
                     {

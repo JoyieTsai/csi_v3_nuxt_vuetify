@@ -6,9 +6,9 @@
       class="
         tw-grid tw-grid-cols-2
         md:tw-grid-cols-3
-        lg:tw-grid-cols-4
+        xl:tw-grid-cols-4
         2xl:tw-grid-cols-5
-        tw-gap-4
+        tw-gap-5
         lg:tw-gap-8
         tw-mt-12 tw-mb-20
       "
@@ -52,6 +52,7 @@
                 xl:tw-text-base
                 tw-opacity-70 tw-leading-tight
                 hover:hidden
+                xl:tw-h-10
               "
               v-html="$options.filters.positionSplit(dir.position)"
             ></div>
@@ -61,10 +62,10 @@
                 tw-hidden tw-text-sm
                 xl:tw-text-base
                 tw-leading-snug
-                2xl:tw-mx-5
+                xl:tw-mx-5
               "
             >
-              {{ dir.desc | getBrief(150) }}
+              {{ dir.desc | getBrief(145) }}
             </div>
           </div>
         </div>
@@ -76,9 +77,9 @@
       class="
         tw-grid tw-grid-cols-2
         md:tw-grid-cols-3
-        lg:tw-grid-cols-4
+        xl:tw-grid-cols-4
         2xl:tw-grid-cols-5
-        tw-gap-4
+        tw-gap-5
         lg:tw-gap-8
         tw-mt-12 tw-mb-20
       "
@@ -106,7 +107,9 @@
           <div class="tw-p-3">
             <div
               class="
-                tw-text-lg
+                team-title
+                tw-text-base
+                lg:tw-text-lg
                 xl:tw-text-xl
                 tw-font-semibold tw-leading-snug tw-mb-1
               "
@@ -119,10 +122,10 @@
                 tw-hidden tw-text-sm
                 xl:tw-text-base
                 tw-leading-snug
-                2xl:tw-mx-5
+                xl:tw-mx-5
               "
             >
-              {{ am.desc | getBrief(150) }}
+              {{ am.desc | getBrief(135) }}
             </div>
           </div>
         </div>

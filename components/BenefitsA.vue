@@ -1,6 +1,6 @@
 <template>
   <div class="main-container tw-mx-auto tw-text-center">
-    <div class="header-2">Benefits</div>
+    <div class="header-2">Benefits & Features</div>
 
     <div class="tw-mt-10">
       <div

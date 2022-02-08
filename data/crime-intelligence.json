@@ -114,7 +114,7 @@
         },
         {
           "icon": "icon-internal_affairs_outline",
-          "name": "Internal Affairs"
+          "name": "Professional Standards & IA"
         },
         {
           "icon": "icon-robbery_outline",
@@ -157,7 +157,7 @@
       },
       {
         "title": "Crime Scene Investigation",
-        "icon": "icon-crime_solid",
+        "icon": "icon-rolmes_solid",
         "link": "crime-intelligence/csi"
       }
     ],
@@ -226,8 +226,8 @@
         "img": "intelligence-3.jpg"
       },
       {
-        "title": "<a href='/crime-intelligence/global-search' class='title-link'>Global Search</a>",
-        "desc": "Search state, county, local agencies, and participating InfoShare™ systems. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
+        "title": "Global Search",
+        "desc": "Search state, county, local agencies, and participating InfoShare™ systems with <a class='primary-link' href='/products/crime-intelligence/global-search'>Global Search</a>. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
         "list": [
           "Advanced filtering and Boolean search",
           "Inter-agency database search (participating agencies)",
@@ -238,8 +238,8 @@
         "img": "intelligence-4.jpg"
       },
       {
-        "title": "<a href='/crime-intelligence/alpr' class='title-link'>ALPR</a> Search",
-        "desc": "More and more agencies are seeing the value in leveraging ALPR technology to solve crimes, identify suspects, recover stolen vehicles, and create hot lists to assist in investigations. A clean interface allows users to quickly search the CSI ALPR Warehouse and return results.",
+        "title": "ALPR Search",
+        "desc": "More and more agencies are seeing the value in leveraging <a href='/crime-intelligence/alpr' class='primary-link'>ALPR technology</a> to solve crimes, identify suspects, recover stolen vehicles, and create hot lists to assist in investigations. A clean interface allows users to quickly search the CSI ALPR Warehouse and return results.",
         "list": [
           "Investigative lead generation",
           "Hot lists for real-time vehicle identification and tracking",
@@ -292,7 +292,7 @@
   {
     "id": "sar",
     "title": "Suspicious Activity Reporting",
-    "subtitle": "Reporting Function of the Suspicious Activity Reporting (SAR) Initiative",
+    "subtitle": "Reporting Function of the SAR Initiative",
     "icon": "sars.svg",
     "coverImg": "sars.jpg",
     "brochure": "",
@@ -312,8 +312,8 @@
         "img": "sars-1.jpg"
       },
       {
-        "title": "<a class='title-link' href='/crime-intelligence/global-search'>Global Search</a>",
-        "desc": "Search state, county, local agencies, and participating InfoShare™ systems. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
+        "title": "Global Search",
+        "desc": "Search state, county, local agencies, and participating InfoShare™ systems with <a class='primary-link' href='/products/crime-intelligence/global-search'>Global Search</a>. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
         "list": [
           "Advanced filtering and Boolean search",
           "Inter-agency database search (participating agencies)",
@@ -370,7 +370,7 @@
   {
     "id": "fusion-center",
     "title": "Fusion Center (iLog)",
-    "subtitle": "Comprehensive Toolkit for Information Sharing and Intelligence Production",
+    "subtitle": "Comprehensive Toolkit for Information Sharing and Intelligence",
     "icon": "fusion_center.svg",
     "coverImg": "fc_ilog.jpg",
     "brochure": "",
@@ -484,7 +484,7 @@
   {
     "id": "analytics",
     "title": "Analytics",
-    "subtitle": "Transform Raw Data into Meaningful Insight and Actionable Intelligence",
+    "subtitle": "Meaningful Insight and Actionable Intelligence",
     "icon": "analytics.svg",
     "coverImg": "analytics.jpg",
     "brochure": "",
@@ -564,7 +564,7 @@
   {
     "id": "alpr",
     "title": "Automated License Plate Reader",
-    "subtitle": "Leverage ALPR Data for Real-Time Crime and Historical Investigations",
+    "subtitle": "Real-Time Crime and Historical Investigations",
     "icon": "alpr.svg",
     "coverImg": "alpr.jpg",
     "brochure": "",
@@ -601,7 +601,8 @@
           "Agency-managed data sharing and access",
           "Regional ALPR collection and sharing network"
         ],
-        "img": "alpr-3.jpg"
+        "img": "alpr-3.jpg",
+        "zoomoff": true
       },
       {
         "title": "ALPR Administrative Dashboard",
@@ -813,7 +814,7 @@
       },
       {
         "title": "Crime Scene Investigation",
-        "icon": "icon-csi_solid",
+        "icon": "icon-rolmes_solid",
         "link": "crime-intelligence/csi"
       }
     ],
@@ -825,7 +826,7 @@
     "id": "csi",
     "title": "Crime Scene Investigation",
     "subtitle": "Rolmes™ Revolutionizes Crime Scene Investigations",
-    "icon": "csi.svg",
+    "icon": "rolmes.svg",
     "coverImg": "csi.jpg",
     "brochure": "",
     "descHeading": "Integrate crime scene findings with criminal case management",

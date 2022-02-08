@@ -28,7 +28,7 @@
         :data="benefits"
         class="tw-my-12 xl:tw-my-28"
       />
-      <Steps v-if="steps" :data="steps" class="tw-my-12 xl:tw-my-28" />
+      <Steps v-if="steps" :id="id" :data="steps" class="tw-my-12 xl:tw-my-28" />
       <NumberFeatures
         v-if="features"
         :data="features"
