@@ -19,10 +19,10 @@
     "icon": "data_share.svg",
     "coverImg": "data-sharing.jpg",
     "descHeading": "Maximum interoperability and sharing of mission-critical information",
-    "descContent": "Data silos prevent agencies from accessing data in a timely manner and seeing the big picture. They create separations between data sets across departments, agencies, and geographic jurisdictions. Our systems are designed to optimize the usage of data through expert interfacing, vertical integration, data migration, and cloud integration; data flows smoothly and securely between systems in real-time. Data sharing allows agencies to collect every piece of the puzzle and expand their situational awareness.",
+    "descContent": "Data silos prevent agencies from accessing data in a timely manner. They create separations between data sets across departments, agencies, and geographic jurisdictions. Our systems are designed to optimize the usage of data through expert interfacing, vertical integration, and cloud integration so that data flows smoothly and securely between systems in real-time. Seamless data sharing allows agencies to expand their situational awareness and collect every piece of the puzzle.",
     "diagram": {
       "img": "data-sharing.jpg",
-      "desc": "CSI accomplishes data sharing in three ways: across agencies, across devices, and across products. Our enterprise application fulfills the need for accelerated, holistic data interoperability in the current data-driven environment. One of the biggest concerns with data sharing is security. But with our fully compliant <a class='primary-link'>security methodology</a>, data breaches are the last thing government agencies need to worry about. Agencies can easily customize the extent of data transparency using robust permission settings to ensure only authorized users have access."
+      "desc": "CSI accomplishes data sharing in three ways: across agencies, across devices, and across products. Our enterprise application fulfills the need for accelerated data interoperability in the public sector. One of the biggest concerns with data sharing is security. But with our fully compliant <a href='/capabilities/security' class='primary-link'>security methodology</a>, data breaches are the last thing government agencies need to worry about. Moreover, agencies can easily customize the extent of data transparency using robust permission settings to ensure only authorized users have access."
     },
     "lists": [
       {
@@ -46,10 +46,10 @@
           "Vendor-specific security policies",
           "Simple permission settings",
           "Inefficiencies lead to knowledge gaps and vulnerabilities",
-          "Unsynced data Duplicate entries",
+          "Unsynced data<br>Duplicate entries",
           "Limited communication",
           "Unavailable",
-          "Limited integration Incompatible data formats",
+          "Limited integration<br>Incompatible data formats",
           "Unable to access necessary data"
         ]
       },
@@ -60,7 +60,7 @@
           "Full compliance with government security standards (CJIS, FIPS, etc.)",
           "Granular permission settings for maximum control and ownership",
           "Efficient collaboration and dissemination of information ",
-          "Centralized master indices Data warehouse",
+          "Centralized master indices<br>Data warehouse",
           "Maximum communication",
           "Community data sharing for citizens to stay informed",
           "Complete integration of internal and external data sources",
@@ -70,11 +70,11 @@
     ],
     "benefits": [
       {
-        "icon": "cloud_integration.svg",
+        "icon": "agencies.svg",
         "title": "Break Down Data Silos"
       },
       {
-        "icon": "queue_server.svg",
+        "icon": "enterprise_application.svg",
         "title": "Data Continuity"
       },
       {
@@ -243,15 +243,15 @@
     "icon": "analytics.svg",
     "coverImg": "data-analytics.jpg",
     "descHeading": "Data-driven decision making, resource tracking, and reporting",
-    "descContent": "Government agencies generate and collect enormous amounts of data every single day. In order to make sense of all this information, CSI's Data Analytics transforms this raw data into actionable insights using data statistics, custom query reporting, and data visualization tools. Analytics also reveals relationships, trends, and patterns of criminal activity to assist public service professionals in intelligent decision-making and efficient resource allocation.",
+    "descContent": "Government agencies generate and collect enormous amounts of data every single day. In order to make sense of all this information, CSI transforms this raw data into actionable insights using data statistics, custom query reporting, and data visualization tools. Analytics also reveals relationships, trends, and patterns of criminal activity to assist agencies in intelligent decision-making and efficient resource allocation.",
     "diagram": {
       "img": "data-analytics.jpg",
-      "desc": "With CSI’s data visualization and analytics tools, public safety professionals can configure high-level dashboards for organizational and response planning, run multidimensional crime analysis, and instantly generate actionable insights. Advanced reporting tools enable users to create customizable reports and save report templates with custom search criteria. And custom querying allows users to choose the exact information to analyze, visualize, and/or disseminate. All these solutions are integrated into our InfoShare™ products."
+      "desc": "With CSI’s data visualization and analytics solutions, agencies have a powerful toolbox at their disposal. Users can run multidimensional crime analysis, configure dashboards for organizational and response planning, and instantly generate actional insights. Advanced reporting tools enable users to save report templates and create ad hoc reports efficiently. Custom querying allows users to choose the exact information to analyze, visualize, and disseminate."
     },
     "features": {
       "title": "Intelligent Decision Making",
       "subtitle": "ANALYTICS SOLUTIONS",
-      "desc": "Our Data Analytics solutions are fully integrated into the InfoShare Engine® platform. From global search to trend analysis to reporting, agencies have access to a comprehensive toolkit to make strategic, intelligence-led decisions.",
+      "desc": "Our data analytics solutions are fully integrated into the InfoShare™ platform. From global search to trend analysis to reporting, agencies have access to a comprehensive toolkit to make strategic, intelligence-led decisions.",
       "num": false,
       "items": [
         {
@@ -444,7 +444,7 @@
         "type": "Traditional Application Integration",
         "content": [
           "Limited storage space",
-          "Limited sharing especially across great distances. Geographical restrictions",
+          "Limited sharing especially across great distances<br>Geographical restrictions",
           "Changes are restricted by the underlying software architecture",
           "Require a sizable commitment from IT staff",
           "Restricted protection based on vendors’ capability",
@@ -457,7 +457,7 @@
         "type": "Cloud Integration",
         "content": [
           "Unlimited storage space",
-          "Break down data silos and improve connectivity for internal and external connections.No geographical restrictions",
+          "Break down data silos and improve connectivity for internal and external connections<br>No geographical restrictions",
           "Flexible customization by updating configuration in the cloud",
           "Updates and backups are automatic, more frequent, and handled by the provider",
           "Strong identity, access management, data, and cybersecurity protection",
@@ -551,7 +551,7 @@
           "Difficult to change the system when requirements change",
           "Lengthy testing periods Prone to testing delays",
           "Expensive to support Requires additional development",
-          "Slow and complex Multiple steps required"
+          "Slow and complex<br>Multiple steps required"
         ]
       },
       {
@@ -563,7 +563,7 @@
           "Reduced coding period allows developers to focus on high-level activities",
           "Change database table fields to update the application",
           "Easy to change the system when requirements change",
-          "Live debugging Automated unit testing",
+          "Live debugging<br>Automated unit testing",
           "Easy to update and extend",
           "One-touch deployment"
         ]
@@ -677,7 +677,7 @@
         "type": "Vertical Integration",
         "content": [
           "Complete control of the product line decreases coordination costs",
-          "Extensive, professional expertise  on the whole product line",
+          "Extensive, professional expertise on the whole product line",
           "Ensure quality in every step of the process",
           "One vendor provides consistent service quality",
           "Easy to share data via interfaces",
@@ -741,7 +741,7 @@
     "descHeading": "Patented total solution software architecture for maximum integration",
     "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare™ Engine benefit from seamless integration, scalability, and adaptability. ",
     "diagram": {
-      "img": "infoshare-engine.jpg",
+      "img": "engine.jpg",
       "desc": "InfoShare Engine® is a <a href='/capabilities/low-code' class='primary-link'>low code development</a> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
     },
     "lists": [
@@ -770,7 +770,7 @@
           "Build apps only for specific platforms and devices",
           "Frequent",
           "Coding required for security fixes and applied",
-          "Complex Permissions settings need to be individually set up"
+          "Complex<br>Permissions settings need to be individually set up"
         ]
       },
       {
@@ -784,7 +784,7 @@
           "Build apps that can be run on all core platforms and devices",
           "Minimal",
           "Patch or security upgrades applied to all applications",
-          "Simple Flexible permissions settings at different levels"
+          "Simple<br>Flexible permissions settings at different levels"
         ]
       }
     ],
@@ -895,7 +895,7 @@
         "type": "Government-ready Security",
         "content": [
           "Integrated, secure ecosystem from GovCloud security services",
-          "Eliminate OWASP Top 10 security vulnerabilities Sensitive data is fully encrypted",
+          "Eliminate OWASP Top 10 security vulnerabilities<br>Sensitive data is fully encrypted",
           "Manage user roles and data access permission through InfoShare Engine®",
           "Comprehensive system event/log for formal security audit",
           "Professional security test and third-party penetration test passed",
@@ -935,6 +935,109 @@
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
         "link": "infoShare-engine"
+      },
+      {
+        "title": "Cloud Integration",
+        "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
+        "icon": "icon-cloud_integration_solid",
+        "link": "cloud-integration"
+      },
+      {
+        "title": "Data Sharing",
+        "desc": "Break down information silos to promote interagency collaboration",
+        "icon": "icon-data_share_solid",
+        "link": "data-sharing"
+      }
+    ]
+  },
+  {
+    "id": "doc-template-generation",
+    "title": "Document Template Generation",
+    "subtitle": "Form Management System",
+    "icon": "doc_management.svg",
+    "coverImg": "security.jpg",
+    "descHeading": "Patented Intake Form Technology for Report Generation and Approval",
+    "descContent": "U.S. Patent 10,706,225 B2 “Form Management System and Method” converts existing paper forms into web-based electronic forms with all layout information and corresponding fields and data types stored in a common library. Users can maintain form layouts, edit input fields, set element types, design dropdown lists, create access permissions, and export the forms to various formats. In addition, forms can be easily modified and managed without any programming or support from software developers.",
+    "diagram": {
+      "img": "temp.jpg",
+      "desc": "Electronic forms enhance overall reporting efficiency and accelerate internal approval workflow. Due to the diversity and complexity of forms used by agencies, when an existing form doesn’t meet the current needs or specifications, it is common for system engineers or developers to modify the application for that specific form or create a new form altogether. This requires high training costs and form management time. In contrast, CSI presents a mechanism to allow administrators to easily build forms and set the approval workflow via the form management system."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Cost/Time",
+          "Form Building",
+          "Data Entry",
+          "Data Quality",
+          "Common Library",
+          "Permissions",
+          "Cloud Integration",
+          "Approval Workflow"
+        ]
+      },
+      {
+        "title": "Government Agencies",
+        "type": "Local Form Management System",
+        "content": [
+          "High-cost<br>Time-consuming",
+          "Require system engineers or programmers to develop or modify forms",
+          "Manual",
+          "Duplicate data, incomplete fields, human errors",
+          "Create data separately for each form, leading to duplication and redundancy",
+          "Set access permissions individually",
+          "Locally hosted",
+          "Some agencies still rely on a paper-based workflow"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Enterprise Form Management System",
+        "content": [
+          "Low-cost<br>Time-efficient ",
+          "Administrators can use familiar word processing tools to build and modify forms",
+          "Auto-populate data from internal and external data sources",
+          "Form validation checks to avoid data errors",
+          "Easily select pre-defined data types and common input fields for efficient form building ",
+          "Set access permissions through form management system",
+          "Cloud hosting for security compliance, easy deployment and installation, and improved performance",
+          "Paperless approval process with digital signatures "
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "productivity.svg",
+        "title": "Increased Productivity"
+      },
+      {
+        "icon": "empowerment.svg",
+        "title": "Data Integrity"
+      },
+      {
+        "icon": "workflow.svg",
+        "title": "Paperless Workflow"
+      },
+      {
+        "icon": "limited_expertise.svg",
+        "title": "Limited Expertise Necessary"
+      },
+      {
+        "icon": "cost_reduce.svg",
+        "title": "Lower Costs"
+      },
+      {
+        "icon": "cloud_integration.svg",
+        "title": "Cloud Integration"
+      }
+    ],
+    "relatedCapabilities": [
+      {
+        "title": "Low Code Development",
+        "desc": "Proprietary low-code technology to facilitate application development",
+        "icon": "icon-lowcode_solid",
+        "link": "low-code"
       },
       {
         "title": "Cloud Integration",

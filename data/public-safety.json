@@ -695,7 +695,7 @@
     "sysFeatures": [
       {
         "title": "Officer Initiated Calls for Service",
-        "desc": "Seamless transition from the Call for Service or Motor Vehicle Stop to the issuance of citations or warnings. Auto-populating multiple fields and data validation checks eliminate data entry errors.",
+        "desc": "Allow police officers to generate a self-initiated call for service, checkup, or motor vehicle stop right from mobile data terminals. The data is immediately transmitted to the CAD, providing dispatchers with situational awareness of the officer’s actions without ever talking on the radio.",
         "list": [
           "Intuitive user interface",
           "Streamlined data entry with form validation checks",
@@ -703,7 +703,7 @@
           "State DMV and NCIC interface",
           "Distress call signal from MDT or keyboard"
         ],
-        "img": "temp.jpg"
+        "img": "mo-1.jpg"
       },
       {
         "title": "Fire & EMS Mobile Operations",
@@ -715,7 +715,7 @@
           "Status monitoring (timer, log, incident history)",
           "Push-to-RMS feature for accurate Fire & EMS reporting"
         ],
-        "img": "temp.jpg"
+        "img": "mo-2.jpg"
       },
       {
         "title": "Real-Time Mapping",
@@ -726,7 +726,7 @@
           "Unit and apparatus monitoring and tracking (AVL/ARL)",
           "Pinpoint CFS location accuracy"
         ],
-        "img": "temp.jpg"
+        "img": "mo-3.jpg"
       },
       {
         "title": "Mobile Ticketing & Management",
@@ -738,7 +738,7 @@
           "Automatic electronic delivery to local and state courts",
           "CAD, RMS, and MDT integration"
         ],
-        "img": "temp.jpg"
+        "img": "mo-4.jpg"
       }
     ],
     "relatedProducts": [
@@ -765,7 +765,7 @@
       {
         "title": "Analytics",
         "icon": "icon-analytics_solid",
-        "link": "public-safety/analytics"
+        "link": "crime-intelligence/analytics"
       }
     ],
     "quote": {

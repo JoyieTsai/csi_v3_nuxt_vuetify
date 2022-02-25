@@ -79,8 +79,28 @@ export default {
   },
   head() {
     return {
-      titleTemplate: '%s - ' + this.title,
-      meta: [{ name: 'description', content: this.title }],
+      titleTemplate: '%s | ' + this.title,
+      meta: [
+        { name: 'description', content: this.subtitle },
+        { name: 'keywords', content: this.title },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.subtitle },
+        {
+          property: 'og:image:secure_url',
+          content: 'https://www.csitech.com/img/bg/prosecutor.jpg',
+        },
+        {
+          property: 'og:url',
+          content: 'https://www.csitech.com/justice-courts/' + this.id,
+        },
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:description', content: this.subtitle },
+        {
+          property: 'twitter:image',
+          content: 'https://www.csitech.com/img/bg/prosecutor.jpg',
+        },
+      ],
     }
   },
   created() {

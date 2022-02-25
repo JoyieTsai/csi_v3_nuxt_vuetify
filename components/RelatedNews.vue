@@ -1,6 +1,7 @@
 <template>
   <div class="main-container tw-mx-auto">
     <div
+      v-if="title !== 'false'"
       class="tw-text-2xl lg:tw-text-4xl text-dark tw-font-bold tw-text-center"
     >
       Related Articles
@@ -58,7 +59,7 @@
 import Articles from '~/data/articles.json'
 
 export default {
-  props: ['pid'],
+  props: ['title', 'pid'],
   data: () => ({
     articles: '',
   }),

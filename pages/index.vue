@@ -42,7 +42,7 @@
               <div class="tw-aspect-w-16 tw-aspect-h-9">
                 <iframe
                   v-if="modalVideo"
-                  src="https://www.youtube.com/embed/VRckuuKA1JE"
+                  src="https://youtu.be/9wERtnQGOgE"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
@@ -62,7 +62,12 @@
       <IndexVideos class="tw-my-12 xl:tw-my-20" />
       <IndexAbout class="tw-my-12 xl:tw-my-20" />
       <IndexFeatures class="tw-my-14 xl:tw-my-28" />
-      <IndexArticles class="tw-my-14 xl:tw-my-28" />
+      <FeaturedArticle class="tw-mt-14 xl:tw-mt-28" />
+      <RelatedNews
+        title="false"
+        class="tw-mt-8 xl:tw-mt-16 tw-mb-14 xl:tw-mb-28"
+      />
+      <Testimonials class="tw-my-14 xl:tw-my-28" />
       <Contact />
     </v-main>
   </v-app>

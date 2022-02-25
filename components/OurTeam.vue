@@ -134,7 +134,7 @@
 
     <div class="header-2 tw-text-center">Special Thanks to Our Advisor</div>
     <div
-      class="tw-mt-36 tw-mb-10 lg:tw-mb-20 lg:tw-w-4/5 xl:tw-w-3/4 tw-mx-auto"
+      class="tw-mt-36 tw-mb-6 lg:tw-mb-12 lg:tw-w-4/5 xl:tw-w-3/4 tw-mx-auto"
       :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'"
       data-aos-duration="1500"
     >

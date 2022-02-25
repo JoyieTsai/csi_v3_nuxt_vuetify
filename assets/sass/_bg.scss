@@ -69,7 +69,8 @@
   //   background-size: contain;
   // }
   &-about {
-    background: url('../static/images/bg-about.jpg') center no-repeat;
+    background: $primary-light-color url('../static/images/bg-about.jpg') center
+      no-repeat;
   }
   &-about-tagline {
     display: flex;

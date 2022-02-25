@@ -3,7 +3,7 @@
     <div class="tw-flex tw-items-start tw-justify-center tw-flex-wrap">
       <div class="w-teambox tw-text-center">
         <img :src="'images/team/' + getMember[0].src" />
-        <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
+        <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3 tw-mb-1">
           {{ getMember[0].name }}
         </div>
         <div
@@ -74,7 +74,9 @@
 
         <div v-if="getMember[3]" class="tw-text-center">
           <img :src="'images/team/' + getMember[3].src" />
-          <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
+          <div
+            class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-my-3 tw-mb-1"
+          >
             {{ getMember[3].name }}
           </div>
           <div
@@ -117,7 +119,9 @@
 
         <div v-if="getMember[2]" class="tw-text-center">
           <img :src="'images/team/' + getMember[2].src" />
-          <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
+          <div
+            class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3 tw-mb-1"
+          >
             {{ getMember[2].name }}
           </div>
           <div
@@ -135,11 +139,16 @@
 
       <div class="w-teambox tw-text-center md:tw-mt-20">
         <img :src="'images/team/' + getMember[1].src" />
-        <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3">
+        <div class="tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-3 tw-mb-1">
           {{ getMember[1].name }}
         </div>
         <div
-          class="tw-text-sm sm:tw-text-base xl:tw-text-lg tw-mb-5 tw-opacity-70"
+          class="
+            tw-text-sm
+            sm:tw-text-base
+            xl:tw-text-lg
+            tw-mb-5 tw-opacity-70 tw-leading-tight
+          "
         >
           {{ getMember[1].position }}
         </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="main-container tw-mx-auto">
+  <div class="main-container tw-mx-auto tw-p-0">
     <!-- Partners -->
     <div class="header-2 tw-text-center tw-mb-5 md:tw-mb-10">Our Partners</div>
     <div

@@ -4,7 +4,15 @@
       <div class="tw-flex-1">
         <div class="tw-p-10 lg:tw-p-20 2xl:tw-p-28">
           <div class="header-2">Our Clients</div>
-          <div class="tw-text-sm md:tw-text-base lg:tw-text-lg xl:tw-text-xl">
+          <div
+            class="
+              tw-text-sm
+              md:tw-text-base
+              lg:tw-text-lg
+              xl:tw-text-xl
+              tw-mt-6
+            "
+          >
             <p>
               Our clients are our most valuable asset. CSI has evolved into a
               premier software and service provider because we collaborated with
@@ -15,18 +23,13 @@
               are partners, and partners look out for each other.
             </p>
             <p>
-              Our anticipated length of time for each partnership is forever.
-              That’s why our technology is designed not only to meet an agency’s
-              current needs but also to address its future needs. We design for
-              longevity. Government agencies operate in dynamic environments
-              with evolving requirements, so our applications are both
-              customizable and scalable. But providing superior technology is
-              not enough, agencies also have budgetary constraints. Thanks to
-              our patented
-              <a href="/capabilities/infoShare-engine" class="btn-link">
-                InfoShare Engine® </a
-              >, our software can be deployed, maintained, and upgraded for a
-              fraction of the cost.
+              Each agency is supported by a dedicated account manager and
+              experienced engineering staff to handle any client request or
+              issue. We respond to calls for service on the same business day.
+              Our anticipated duration of the partnership is forever. That’s why
+              our technology is designed not only to meet an agency’s current
+              needs but also to address its future needs. Longevity is our
+              priority.
             </p>
           </div>
         </div>
@@ -84,6 +87,12 @@ export default {
       {
         state: 'Maryland',
       },
+      {
+        state: 'Delaware',
+      },
+      {
+        state: 'Vermont',
+      },
     ],
   }),
 }
@@ -106,7 +115,7 @@ export default {
       left: 730px;
     }
     &--1 {
-      top: 180px;
+      top: 175px;
       left: 765px;
     }
     &--2 {
@@ -130,17 +139,25 @@ export default {
       left: 585px;
     }
     &--7 {
-      top: 100px;
-      left: 790px;
+      top: 110px;
+      left: 800px;
     }
     &--8 {
-      top: 220px;
+      top: 225px;
+      left: 755px;
+    }
+    &--9 {
+      top: 200px;
       left: 750px;
+    }
+    &--10 {
+      top: 90px;
+      left: 785px;
     }
     @media only screen and (max-width: $breakpoints-md) {
       &--0 {
         top: 17%;
-        left: 85%;
+        left: 84.5%;
       }
       &--1 {
         top: 25%;
@@ -148,44 +165,52 @@ export default {
       }
       &--2 {
         top: 25%;
-        left: 83%;
+        left: 82.5%;
       }
       &--3 {
         top: 42%;
-        left: 83%;
+        left: 82.5%;
       }
       &--4 {
         top: 47%;
-        left: 48%;
+        left: 47.5%;
       }
       &--5 {
         top: 48%;
-        left: 31%;
+        left: 30.5%;
       }
       &--6 {
         top: 31%;
-        left: 68%;
+        left: 67.5%;
       }
       &--7 {
-        top: 14%;
-        left: 92%;
+        top: 16%;
+        left: 92.5%;
       }
       &--8 {
-        top: 31%;
+        top: 33%;
+        left: 86.5%;
+      }
+      &--9 {
+        top: 29%;
         left: 86%;
+      }
+      &--10 {
+        top: 13%;
+        left: 91%;
       }
     }
   }
 
   .point {
     position: relative;
-    width: 24px;
-    height: 24px;
-    border-radius: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
     background-color: rgba($highlight-color, 0.22);
     transition: 0.3s all;
-    @media only screen and (max-width: $breakpoints-md) {
-      transform: scale(0.7);
+    @media (max-width: $breakpoints-sm) {
+      transform: scale(0.65);
     }
 
     &::after {
@@ -193,9 +218,9 @@ export default {
       position: absolute;
       top: 50%;
       left: 50%;
-      width: 14px;
-      height: 14px;
-      border-radius: 7px;
+      width: 12px;
+      height: 12px;
+      border-radius: 6px;
       background-color: $highlight-color;
       transform: translate(-50%, -50%);
     }

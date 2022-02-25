@@ -3,79 +3,76 @@
     <div class="videos tw-grid md:tw-grid-cols-2 tw-gap-12 xl:tw-gap-20">
       <!-- Video 1 -->
       <div class="tw-order-1 header-3 tw-self-center tw-mb-5">
-        Pioneering
-        <a href="/capabilities/infoShare-engine" class="btn-link">
-          InfoShare Engine® </a
-        >, a low-code development platform for Government ERP application
+        <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+          Pioneering
+          <a href="/capabilities/infoShare-engine" class="btn-link">
+            InfoShare Engine®</a
+          >, a low-code development platform for Government ERP application
+        </div>
       </div>
       <div class="tw-order-2 index-video tw-ml-5">
-        <div
-          class="index-video--1"
-          @click.prevent="currentVideo('VRckuuKA1JE')"
-        >
+        <div class="index-video--1">
           <div class="default">
-            <div class="tw-absolute absolute-center btn-play primary">
+            <!-- <div class="tw-absolute absolute-center btn-play primary">
               <img
                 src="../assets/icons/icon-play.svg"
                 alt="play"
                 class="tw-w-3 xl:tw-w-6"
               />
-            </div>
+            </div> -->
             <img src="videos/index-video-1.jpg" />
           </div>
-          <img class="active" src="videos/ending.gif" />
+          <!-- <img class="active" src="videos/ending.gif" /> -->
         </div>
       </div>
 
       <!-- Video 2 -->
       <div class="tw-order-4 md:tw-order-3 index-video tw-mr-5">
-        <div
-          class="index-video--2"
-          @click.prevent="currentVideo('VRckuuKA1JE')"
-        >
+        <div class="index-video--2">
           <div class="default">
-            <div class="tw-absolute absolute-center btn-play primary">
+            <!-- <div class="tw-absolute absolute-center btn-play primary">
               <img
                 src="../assets/icons/icon-play.svg"
                 alt="play"
                 class="tw-w-3 xl:tw-w-6"
               />
-            </div>
+            </div> -->
             <img src="videos/index-video-2.jpg" />
           </div>
-          <img class="active" src="videos/ending.gif" />
+          <!-- <img class="active" src="videos/ending.gif" /> -->
         </div>
       </div>
 
       <div class="tw-order-3 md:tw-order-4 header-3 tw-self-center tw-mb-5">
-        Building the future of
-        <a href="public-safety" class="btn-link"> public safety </a> with AI,
-        mobile- and cloud-compatible CAD, RMS, Analytics, and Intelligence
-        software
+        <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+          Building the future of
+          <a href="public-safety" class="btn-link">public safety</a> with AI,
+          mobile- and cloud-compatible CAD, RMS, Analytics, and Intelligence
+          software
+        </div>
       </div>
 
       <!-- Video 3 -->
       <div class="tw-order-5 header-3 tw-self-center tw-mb-5">
-        Empowering agencies and individuals in the
-        <a href="justice-courts" class="btn-link"> justice system </a> with
-        integrated software suites
+        <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
+          Empowering agencies and individuals in the
+          <a href="justice-courts" class="btn-link">justice system</a> with
+          integrated software suites
+        </div>
       </div>
       <div class="tw-order-6 index-video tw-ml-5">
-        <div
-          class="index-video--3"
-          @click.prevent="currentVideo('Isuado0lgXA')"
-        >
+        <div class="index-video--3">
           <div class="default">
-            <div class="tw-absolute absolute-center btn-play primary">
+            <!-- <div class="tw-absolute absolute-center btn-play primary">
               <img
                 src="../assets/icons/icon-play.svg"
                 alt="play"
                 class="tw-w-3 xl:tw-w-6"
               />
-            </div>
+            </div> -->
             <img src="videos/index-video-3.jpg" />
           </div>
-          <img class="active" src="videos/ending.gif" />
+          <!-- <img class="active" src="videos/ending.gif" /> -->
         </div>
       </div>
     </div>
@@ -127,7 +124,7 @@ export default {
     top: 0;
     width: 100%;
     height: 100%;
-    cursor: pointer;
+    //cursor: pointer;
 
     &:hover {
       .btn-play {
@@ -171,12 +168,12 @@ export default {
     position: absolute;
     z-index: 3;
 
-    &:hover {
-      opacity: 0;
-      &::before {
-        opacity: 0;
-      }
-    }
+    // &:hover {
+    //   opacity: 0;
+    //   &::before {
+    //     opacity: 0;
+    //   }
+    // }
   }
 
   .active {

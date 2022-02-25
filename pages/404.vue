@@ -26,7 +26,7 @@
               lg:tw-w-1/3
             "
           >
-            We can’t found the page that you’re looking for :(
+            PAGE NOT FOUND
           </div>
         </div>
       </div>

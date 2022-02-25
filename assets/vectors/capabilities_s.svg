@@ -358,21 +358,34 @@
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0.923177083   0 0 0 0 0.923177083   0 0 0 0 0.923177083  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-171" points="80.46 0 150.140404 40.23 150.140404 120.69 80.46 160.92 10.779596 120.69 10.779596 40.23"></polygon>
-        <filter x="-7.6%" y="-13.7%" width="115.2%" height="128.6%" filterUnits="objectBoundingBox" id="filter-172">
-            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0.923177083   0 0 0 0 0.923177083   0 0 0 0 0.923177083  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <filter x="-4.8%" y="-10.9%" width="109.6%" height="123.0%" filterUnits="objectBoundingBox" id="filter-173">
+        <filter x="-4.8%" y="-10.9%" width="109.6%" height="123.0%" filterUnits="objectBoundingBox" id="filter-171">
             <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
             <feOffset dx="2" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
             <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
             <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
         </filter>
+        <polygon id="path-172" points="80.46 0 150.140404 40.23 150.140404 120.69 80.46 160.92 10.779596 120.69 10.779596 40.23"></polygon>
+        <filter x="-7.6%" y="-13.7%" width="115.2%" height="128.6%" filterUnits="objectBoundingBox" id="filter-173">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.923177083   0 0 0 0 0.923177083   0 0 0 0 0.923177083  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
         <polygon id="path-174" points="80.46 0 150.140404 40.23 150.140404 120.69 80.46 160.92 10.779596 120.69 10.779596 40.23"></polygon>
         <filter x="-7.6%" y="-13.7%" width="115.2%" height="128.6%" filterUnits="objectBoundingBox" id="filter-175">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.923177083   0 0 0 0 0.923177083   0 0 0 0 0.923177083  0 0 0 1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-4.8%" y="-10.9%" width="109.6%" height="123.0%" filterUnits="objectBoundingBox" id="filter-176">
+            <feGaussianBlur stdDeviation="2" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="2" dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-177" points="80.46 0 150.140404 40.23 150.140404 120.69 80.46 160.92 10.779596 120.69 10.779596 40.23"></polygon>
+        <filter x="-7.6%" y="-13.7%" width="115.2%" height="128.6%" filterUnits="objectBoundingBox" id="filter-178">
             <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
@@ -1076,9 +1089,26 @@
                         <tspan x="38.22" y="56">Data Sharing</tspan>
                     </text>
                 </g>
+                <g id="Group-19-Copy" transform="translate(303.352680, 901.556352)">
+                    <g id="Polygon-Copy-30">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-170)" xlink:href="#path-169"></use>
+                        <use fill="url(#linearGradient-127)" fill-rule="evenodd" xlink:href="#path-169"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-171)" xlink:href="#path-169"></use>
+                        <path stroke="#FFFFFF" stroke-width="1.2096" d="M80.46,0.698362886 L149.535604,40.5791814 L149.535604,120.340819 L80.46,160.221637 L11.384396,120.340819 L11.384396,40.5791814 L80.46,0.698362886 Z" stroke-linejoin="square"></path>
+                    </g>
+                    <text id="Form-Management-Syst" font-family="Lato-Regular, Lato" font-size="10.8" font-weight="normal" line-spacing="13.2" fill="#FFFFFF">
+                        <tspan x="35.6238" y="109.58">Form Management </tspan>
+                        <tspan x="63.2124" y="122.78">System</tspan>
+                    </text>
+                    <text id="Document-Template-Ge" font-family="Lato-Bold, Lato" font-size="14.4" font-weight="bold" line-spacing="16.8" fill="#FFFFFF">
+                        <tspan x="45.1524" y="53">Document </tspan>
+                        <tspan x="49.0584" y="69.8">Template </tspan>
+                        <tspan x="42.42" y="86.6">Generation</tspan>
+                    </text>
+                </g>
                 <g id="Group-21" transform="translate(81.952680, 518.156352)">
                     <g id="Polygon-Copy-29">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-170)" xlink:href="#path-169"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-173)" xlink:href="#path-172"></use>
                         <path stroke="#FFFFFF" stroke-width="1.2096" d="M80.46,0.698362886 L149.535604,40.5791814 L149.535604,120.340819 L80.46,160.221637 L11.384396,120.340819 L11.384396,40.5791814 L80.46,0.698362886 Z" stroke-linejoin="square" fill="url(#linearGradient-131)" fill-rule="evenodd"></path>
                     </g>
                     <g id="Group" transform="translate(56.760000, 56.220000)" fill="#0D63BA" fill-rule="nonzero">
@@ -1090,9 +1120,9 @@
                 </g>
                 <g id="Group-11" transform="translate(7.252680, 390.956352)">
                     <g id="Polygon-Copy-22">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-172)" xlink:href="#path-171"></use>
-                        <use fill="url(#linearGradient-127)" fill-rule="evenodd" xlink:href="#path-171"></use>
-                        <use fill="black" fill-opacity="1" filter="url(#filter-173)" xlink:href="#path-171"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-175)" xlink:href="#path-174"></use>
+                        <use fill="url(#linearGradient-127)" fill-rule="evenodd" xlink:href="#path-174"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-176)" xlink:href="#path-174"></use>
                         <path stroke="#FFFFFF" stroke-width="1.2096" d="M80.46,0.698362886 L149.535604,40.5791814 L149.535604,120.340819 L80.46,160.221637 L11.384396,120.340819 L11.384396,40.5791814 L80.46,0.698362886 Z" stroke-linejoin="square"></path>
                     </g>
                     <text id="Robust-data-encrypti" font-family="Lato-Regular, Lato" font-size="10.8" font-weight="normal" line-spacing="13.2" fill="#FFFFFF">
@@ -1106,7 +1136,7 @@
                 </g>
                 <g id="Group-10" transform="translate(156.052680, 390.956352)">
                     <g id="Polygon-Copy-23">
-                        <use fill="black" fill-opacity="1" filter="url(#filter-175)" xlink:href="#path-174"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-178)" xlink:href="#path-177"></use>
                         <path stroke="#FFFFFF" stroke-width="1.2096" d="M80.46,0.698362886 L149.535604,40.5791814 L149.535604,120.340819 L80.46,160.221637 L11.384396,120.340819 L11.384396,40.5791814 L80.46,0.698362886 Z" stroke-linejoin="square" fill="url(#linearGradient-131)" fill-rule="evenodd"></path>
                     </g>
                     <g id="Group" transform="translate(56.220000, 56.220000)" fill="#0D63BA" fill-rule="nonzero">

@@ -48,7 +48,7 @@
         </div>
       </div>
       <!-- Latest Story -->
-      <IndexArticles />
+      <FeaturedArticle />
       <!-- Articles -->
       <div class="main-container tw-mx-auto tw-my-12 xl:tw-my-28">
         <div class="header-2 tw-text-center tw-mb-6 xl:tw-mb-12">

@@ -12,7 +12,7 @@
           lg:tw-text-right
         "
       >
-        Featured Articles
+        Featured Article
       </div>
       <!-- Story -->
       <div
@@ -25,6 +25,9 @@
           bg-primary
           tw-cursor-pointer
         "
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-once="true"
         @click.prevent="routerToArticle(latestStory.id)"
       >
         <div>
@@ -45,10 +48,12 @@
         </div>
       </div>
       <!-- Testimonial -->
-      <div class="tw-relative tw-shadow-lg tw-bg-white w-quotes tw-p-7 tw-z-10">
-        <div class="tw-mb-4">
-          <img src="../assets/icons/icon-quotes.svg" alt="" />
-        </div>
+      <div
+        class="tw-relative tw-shadow-lg tw-bg-white w-quotes tw-p-10 tw-z-10"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+        data-aos-once="true"
+      >
         <div class="xl:tw-mx-5">
           <div v-for="(item, i) in latestStory.testimonials" :key="i">
             <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">

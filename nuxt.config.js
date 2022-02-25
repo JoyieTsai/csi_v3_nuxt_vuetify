@@ -9,7 +9,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.7.6-02072022',
+    dir: 'test-V1.7.7-02242022',
   },
 
   /*
@@ -36,7 +36,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: pkg.description },
+      { hid: 'description', name: 'description', content: 'CSI provides complete technology solutions to all types of public sector agencies. From the state courts and state police to municipal parking authorities.' },
       { name: 'format-detection', content: 'telephone=no' },
       { property: 'og:site_name', content: 'CSI' },
     ],

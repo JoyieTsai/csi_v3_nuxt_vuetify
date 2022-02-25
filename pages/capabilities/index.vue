@@ -39,12 +39,12 @@
           Our Capabilities
         </div>
         <img
-          :src="require('~/assets/vectors/capabilities.jpg')"
+          :src="require('~/assets/vectors/capabilities.svg')"
           alt="Capabilities"
           class="tw-hidden md:tw-block"
         />
         <img
-          :src="require('~/assets/vectors/capabilities_s.jpg')"
+          :src="require('~/assets/vectors/capabilities_s.svg')"
           alt="Capabilities"
           class="md:tw-hidden"
         />

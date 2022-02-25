@@ -431,8 +431,8 @@ export default {
       background: url('../../assets/vectors/testimonial-vector.svg') no-repeat;
       background-size: contain;
       position: absolute;
-      bottom: -27px;
-      right: 1rem;
+      bottom: -32px;
+      right: 0;
       width: 169px;
       height: 173px;
       display: block;

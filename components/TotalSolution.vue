@@ -56,13 +56,12 @@
             :value="'tab-' + j"
           >
             <div class="tw-flex tw-justify-center">
-              <v-img
+              <img
                 :src="require('~/assets/images/diagram/' + sol.diagram)"
                 alt=""
-                contain
-                position="center center"
-                height="750"
-              ></v-img>
+                height="730"
+                :class="'solution-diagram-' + j"
+              />
             </div>
             <!-- Interface -->
             <div v-if="sol.interfaces" class="tw-mt-20">
@@ -199,6 +198,19 @@ export default {
       }
     }
   }
+
+  &-diagram {
+    &-0 {
+      margin-left: 3rem;
+    }
+    &-1 {
+      margin-right: 6rem;
+    }
+    &-2 {
+      margin-left: 3rem;
+    }
+  }
+
   &-interface {
     display: flex;
     flex-direction: column;

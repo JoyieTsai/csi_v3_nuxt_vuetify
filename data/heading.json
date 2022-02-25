@@ -2,6 +2,7 @@
     {
         "title": "Public Safety",
         "category": "public-safety",
+        "url": "public-safety",
         "links": [
             {
                 "tabs": [
@@ -145,6 +146,7 @@
     {
         "title": "Capabilities",
         "category": "capabilities",
+        "url": "capabilities",
         "links": [
             {
                 "tabs": [
@@ -190,6 +192,10 @@
                     {
                         "id": "/security",
                         "title": "Security"
+                    },
+                    {
+                        "id": "/doc-template-generation",
+                        "title": "Document Template Generation"
                     }
                 ]
             }
@@ -198,12 +204,10 @@
     {
         "title": "Resources",
         "category": "resources",
+        "url": "resources",
         "links": [
             {
                 "tabs": [
-                    {
-                        "title": "Overview"
-                    },
                     {
                         "id": "#success-stories",
                         "title": "Success Stories"
@@ -215,14 +219,6 @@
                     {
                         "id": "#events",
                         "title": "Events"
-                    },
-                    {
-                        "id": "#videos",
-                        "title": "Videos"
-                    },
-                    {
-                        "id": "#testimonials",
-                        "title": "Testimonials"
                     }
                 ]
             }
@@ -231,6 +227,7 @@
     {
         "title": "About Us",
         "category": "about",
+        "url": "about",
         "links": [
             {
                 "tabs": [
@@ -242,8 +239,8 @@
                         "title": "Our Team"
                     },
                     {
-                        "id": "#customers",
-                        "title": "Our Customers"
+                        "id": "#clients",
+                        "title": "Our Clients"
                     },
                     {
                         "id": "#partners",
@@ -251,15 +248,11 @@
                     },
                     {
                         "id": "#patents",
-                        "title": "Patents"
+                        "title": "Our Patents"
                     },
                     {
                         "id": "#careers",
                         "title": "Careers"
-                    },
-                    {
-                        "id": "#contact",
-                        "title": "Contact Us"
                     }
                 ]
             }

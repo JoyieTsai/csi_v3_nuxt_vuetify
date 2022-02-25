@@ -57,9 +57,8 @@
                 tw-leading-none
                 md:tw-leading-tight
               "
-            >
-              {{ con }}
-            </li>
+              v-html="con"
+            ></li>
           </ul>
         </div>
         <div v-else>
@@ -74,10 +73,10 @@
                 tw-flex tw-items-center tw-px-2
                 md:tw-px-5
                 tw-leading-none
+                md:tw-leading-tight
               "
-            >
-              {{ con }}
-            </li>
+              v-html="con"
+            ></li>
           </ul>
         </div>
       </div>

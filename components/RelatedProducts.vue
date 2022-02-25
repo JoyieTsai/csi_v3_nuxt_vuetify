@@ -54,7 +54,7 @@
               >
                 <i :class="item.icon"></i>
               </div>
-              <div class="tw-text-sm lg:tw-text-base tw-leading-none">
+              <div class="tw-text-sm lg:tw-text-base tw-leading-tight">
                 {{ item.title }}
               </div>
             </nuxt-link>

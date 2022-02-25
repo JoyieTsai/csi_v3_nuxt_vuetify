@@ -79,10 +79,14 @@
           </div>
         </div>
       </div>
-      <OurTeam id="team" class="tw-my-12 xl:tw-my-28" />
-      <OurCustomer id="customers" />
-      <OurPartner id="partners" class="tw-my-12 xl:tw-my-28" />
-      <OurCareer id="careers" class="tw-my-12 xl:tw-my-28" />
+      <div id="team" class="tw-block tw-h-12 xl:tw-h-24"></div>
+      <OurTeam />
+      <div id="clients" class="tw-block tw-h-12 xl:tw-h-24"></div>
+      <OurCustomer />
+      <div id="partners" class="tw-block tw-h-12 xl:tw-h-24"></div>
+      <OurPartner />
+      <div id="careers" class="tw-block tw-h-12 xl:tw-h-24"></div>
+      <OurCareer class="tw-mb-12 xl:tw-mb-32" />
 
       <div
         id="contact"
