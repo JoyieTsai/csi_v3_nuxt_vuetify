@@ -1,46 +1,26 @@
 <template>
-  <div class="main-container tw-mx-auto">
+  <div class="main-container tw-mx-auto tw-px-0 sm:tw-px-6">
     <div class="header-2 tw-text-center">Testimonials</div>
-    <div
-      class="
-        tw-mt-8
-        lg:tw-mt-16
-        tw-flex tw-flex-col
-        lg:tw-flex-row
-        tw-justify-between
-      "
-    >
-      <!-- Testimonial -->
-      <div
-        v-for="(item, i) in testimonials"
-        :key="i"
-        :class="[
-          'testimonials tw-shadow-lg tw-p-10',
-          'testimonials--' + item.id,
-        ]"
-      >
-        <div class="xl:tw-mx-5">
-          <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">
-            {{ item.body }}
+
+    <!-- Testimonial -->
+    <swiper class="swiper" :options="swiperOption">
+      <swiper-slide v-for="(item, i) in testimonials" :key="i">
+        <div class="tw-p-6 xl:tw-p-10 testimonials">
+          <div class="tw-text-sm xl:tw-text-base tw-opacity-70">
+            {{ item.quote }}
           </div>
-          <div
-            class="
-              tw-text-sm
-              md:tw-text-base
-              lg:tw-text-lg
-              tw-font-semibold tw-mt-5
-            "
-          >
+          <div class="tw-text-sm lg:tw-text-base tw-font-semibold tw-mt-5">
             {{ item.author }}
           </div>
           <!-- eslint-disable-next-line vue/no-v-html -->
           <div
             class="tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
-            v-html="item.position"
+            v-html="item.agency"
           ></div>
         </div>
-      </div>
-    </div>
+      </swiper-slide>
+      <div slot="pagination" class="swiper-pagination"></div>
+    </swiper>
   </div>
 </template>
 
@@ -50,6 +30,28 @@ import Testimonials from '~/data/testimonials.json'
 export default {
   data: () => ({
     testimonials: Testimonials,
+    swiperOption: {
+      slidesPerView: 3,
+      spaceBetween: 0,
+      loop: true,
+      autoHeight: false,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
+    },
   }),
 }
 </script>
@@ -57,17 +59,27 @@ export default {
 <style lang="scss">
 .testimonials {
   position: relative;
-  width: 550px;
+  background-color: $light-color;
+  margin: 4rem 1rem 3rem;
 
-  @media only screen and (max-width: $breakpoints-2xl) {
-    width: 440px;
-  }
-  @media only screen and (max-width: $breakpoints-lg) {
-    width: 350px;
-  }
+  @media only screen and (max-width: $breakpoints-sm) {
+    margin: 2rem 1rem 3rem;
+    background-color: $white;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+      0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
-  @media only screen and (max-width: $breakpoints-md) {
-    width: 100%;
+    &::after {
+      content: '';
+      background: url('../assets/vectors/testimonial-vector.svg') no-repeat;
+      background-size: contain;
+      position: absolute;
+      bottom: -24px;
+      right: 0;
+      width: 120px;
+      height: 122px;
+      display: block;
+      opacity: 0.1;
+    }
   }
 
   &::before {
@@ -75,16 +87,16 @@ export default {
     background: url('../assets/icons/icon-quotes.svg') no-repeat;
     background-size: contain;
     position: absolute;
-    top: -28px;
-    left: -14px;
-    width: 65px;
-    height: 52px;
+    top: -22px;
+    left: -10px;
+    width: 58px;
+    height: 46px;
     display: block;
 
     @media only screen and (max-width: $breakpoints-lg) {
-      top: -20px;
-      width: 52px;
-      height: 42px;
+      top: -18px;
+      width: 45px;
+      height: 40px;
     }
     @media only screen and (max-width: $breakpoints-sm) {
       top: -16px;
@@ -93,54 +105,51 @@ export default {
       height: 32px;
     }
   }
-
-  &--1 {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%);
-    background-color: $white;
-    z-index: 1;
-
-    @media only screen and (max-width: $breakpoints-md) {
+}
+.swiper-slide {
+  &-next {
+    .testimonials {
+      margin: 4rem 0 3rem;
       position: relative;
-      left: 0;
-      transform: translate(0);
-    }
+      z-index: 2;
+      background-color: $white;
+      transform: scale(1.15);
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+        0 4px 6px -2px rgba(0, 0, 0, 0.05);
 
-    &::after {
-      content: '';
-      background: url('../assets/vectors/testimonial-vector.svg') no-repeat;
-      background-size: contain;
-      position: absolute;
-      bottom: -32px;
-      right: 0;
-      width: 169px;
-      height: 173px;
-      display: block;
-      opacity: 0.1;
-
-      @media only screen and (max-width: $breakpoints-lg) {
-        width: 135px;
-        height: 138px;
-        bottom: -27px;
+      @media only screen and (max-width: $breakpoints-md) {
+        margin: 2rem 1rem 3rem;
+        background-color: $white;
+        transform: scale(1);
       }
-      @media only screen and (max-width: $breakpoints-sm) {
-        width: 120px;
-        height: 122px;
-        bottom: -24px;
+
+      &::after {
+        content: '';
+        background: url('../assets/vectors/testimonial-vector.svg') no-repeat;
+        background-size: contain;
+        position: absolute;
+        bottom: -26px;
+        right: 0;
+        width: 148px;
+        height: 145px;
+        display: block;
+        opacity: 0.1;
+
+        @media only screen and (max-width: $breakpoints-lg) {
+          width: 122px;
+          height: 125px;
+          bottom: -25px;
+        }
+        @media only screen and (max-width: $breakpoints-sm) {
+          width: 120px;
+          height: 122px;
+          bottom: -24px;
+        }
       }
     }
   }
-
-  &--2,
-  &--3 {
-    margin-top: 4rem;
-    background-color: $light-color;
-    transform: scale(0.9);
-
-    @media only screen and (max-width: $breakpoints-md) {
-      transform: scale(1);
-    }
-  }
+}
+.swiper-pagination-bullet-active {
+  background-color: $primary-color !important;
 }
 </style>

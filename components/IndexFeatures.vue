@@ -54,7 +54,7 @@
           </li>
         </ul>
 
-        <ul class="tabs-content tw-mx-auto tw-my-3">
+        <ul class="tabs-content tw-mx-auto tw-my-3 tw-p-0">
           <li
             v-for="(feature, j) in features"
             :id="'panelContent-' + j"
@@ -69,7 +69,8 @@
                 xl:tw-w-2/3
                 tw-my-5
               "
-              :src="require('@/assets/images/' + feature.img)"
+              :lazy-src="require('@/assets/images/1x/' + feature.img)"
+              :src="require('@/assets/images/2x/' + feature.img)"
               alt="Feature image"
             />
           </li>

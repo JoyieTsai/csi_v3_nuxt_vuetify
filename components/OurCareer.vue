@@ -3,16 +3,8 @@
     <!-- Careers -->
     <div class="tw-flex tw-flex-col lg:tw-flex-row">
       <div class="lg:tw-w-1/3">
-        <div class="header-2">Careers</div>
-        <div
-          class="
-            tw-text-sm
-            md:tw-text-base
-            lg:tw-text-lg
-            xl:tw-text-xl
-            tw-opacity-70 tw-mt-6
-          "
-        >
+        <div class="header-2 tw-mb-5 lg:tw-mb-8">Careers</div>
+        <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">
           <p>
             CSI is a bridge between government agencies and citizens. We partner
             with public safety, law enforcement, regulatory and judicial
@@ -46,8 +38,9 @@
         class="
           tw-my-5
           lg:tw-w-2/3 lg:tw-pl-16
-          tw-grid tw-grid-cols-2
-          md:tw-grid-cols-3
+          tw-grid
+          md:tw-grid-cols-2
+          lg:tw-grid-cols-3
           tw-gap-4
           md:tw-gap-6
         "
@@ -58,7 +51,7 @@
           class="
             tw-bg-white
             shadow-1
-            tw-flex tw-flex-col tw-items-center tw-text-center tw-p-5
+            tw-flex tw-flex-col tw-items-center tw-text-center tw-p-6
             zoomin
           "
         >

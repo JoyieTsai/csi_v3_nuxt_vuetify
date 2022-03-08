@@ -124,8 +124,8 @@
                 <div
                   class="
                     tw-text-2xl
-                    lg:tw-text-3xl
-                    xl:tw-text-4xl
+                    xl:tw-text-3xl
+                    2xl:tw-text-4xl
                     tw-font-semibold tw-my-5
                   "
                 >
@@ -371,6 +371,7 @@ export default {
   ol,
   ul {
     list-style: initial;
+    padding-left: 24px !important;
   }
 
   h3 {
@@ -424,6 +425,13 @@ export default {
       width: 65px;
       height: 52px;
       display: block;
+
+      @media only screen and (max-width: $breakpoints-lg) {
+        top: -21px;
+        left: -11px;
+        width: 50px;
+        height: 45px;
+      }
     }
 
     &::after {
@@ -436,6 +444,11 @@ export default {
       width: 169px;
       height: 173px;
       display: block;
+      @media only screen and (max-width: $breakpoints-lg) {
+        bottom: -26px;
+        width: 130px;
+        height: 130px;
+      }
     }
 
     p {
@@ -445,6 +458,8 @@ export default {
     footer {
       margin-top: 2rem;
       font-size: 0.9rem;
+      position: relative;
+      z-index: 2;
       b {
         font-size: 1rem;
       }

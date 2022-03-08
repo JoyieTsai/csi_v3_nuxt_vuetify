@@ -139,11 +139,11 @@
     "subtitle": "Comprehensive, Structured Data Conversion Services",
     "icon": "data_migration.svg",
     "coverImg": "data-migration.jpg",
-    "descHeading": "Fully searchable, cleansed, condensed, and standardized legacy data",
-    "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. There’s no need to access a separate database or system to find the legacy data. Everything is unified under one database and platform. Over the years, we have used our systematic method to successfully convert legacy data for more than thirty different systems.",
+    "descHeading": "Fully searchable, cleansed, and standardized legacy data",
+    "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. Users don’t need to search a separate database or log in to a different system to access the legacy data. Everything is unified under one database in the InfoShare™ system. Over the years, CSI has developed a systematic data migration strategy and successfully converted legacy data for more than thirty systems.",
     "diagram": {
       "img": "data-migration.jpg",
-      "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare™, a unique person exists a single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
+      "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare™, a unique person exists as single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
     },
     "lists": [
       {
@@ -211,7 +211,7 @@
         "title": "One System Access"
       },
       {
-        "icon": "sars.svg",
+        "icon": "csi.svg",
         "title": "Fully Searchable Legacy Data"
       }
     ],
@@ -522,7 +522,7 @@
     "descHeading": "Rapid application development with high customization and quick deployment",
     "descContent": "U.S. Patent 10,649,743 B2 entitled \"Application Developing Method and System\" was designed to facilitate and streamline application development for government agencies and beyond. With a low-code development solution, users don't need any expertise in programming or software architecture. The patent removes complexity from building modern applications that can be easily and quickly adapted to fulfill each agency’s missions and requirements.",
     "diagram": {
-      "img": "low-code.jpg",
+      "img": "lowcode.jpg",
       "desc": "A low-code development platform enables developers—and anyone with simple database knowledge—to create applications with minimal coding, exponentially accelerating the development lifecycle. This frees up significant time to focus on responsibilities that really matter. Traditional coding is complex, time-consuming, and not to mention, expensive. In the long run, CSI's low-code proprietary technology significantly lowers training, deployment, modification, and maintenance costs."
     },
     "lists": [
@@ -739,7 +739,7 @@
     "icon": "engine.svg",
     "coverImg": "infoshare-engine.jpg",
     "descHeading": "Patented total solution software architecture for maximum integration",
-    "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare™ Engine benefit from seamless integration, scalability, and adaptability. ",
+    "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare Engine® benefit from seamless integration, scalability, and adaptability. ",
     "diagram": {
       "img": "engine.jpg",
       "desc": "InfoShare Engine® is a <a href='/capabilities/low-code' class='primary-link'>low code development</a> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
@@ -770,7 +770,7 @@
           "Build apps only for specific platforms and devices",
           "Frequent",
           "Coding required for security fixes and applied",
-          "Complex<br>Permissions settings need to be individually set up"
+          "Complex<br>Permission settings require individual setup"
         ]
       },
       {
@@ -784,7 +784,7 @@
           "Build apps that can be run on all core platforms and devices",
           "Minimal",
           "Patch or security upgrades applied to all applications",
-          "Simple<br>Flexible permissions settings at different levels"
+          "Simple<br>Granular permission settings for maximum ownership"
         ]
       }
     ],
@@ -953,14 +953,14 @@
   {
     "id": "doc-template-generation",
     "title": "Document Template Generation",
-    "subtitle": "Form Management System",
+    "subtitle": "Web-based Form Management System for Efficient Workflow",
     "icon": "doc_management.svg",
-    "coverImg": "security.jpg",
+    "coverImg": "dtg.jpg",
     "descHeading": "Patented Intake Form Technology for Report Generation and Approval",
     "descContent": "U.S. Patent 10,706,225 B2 “Form Management System and Method” converts existing paper forms into web-based electronic forms with all layout information and corresponding fields and data types stored in a common library. Users can maintain form layouts, edit input fields, set element types, design dropdown lists, create access permissions, and export the forms to various formats. In addition, forms can be easily modified and managed without any programming or support from software developers.",
     "diagram": {
-      "img": "temp.jpg",
-      "desc": "Electronic forms enhance overall reporting efficiency and accelerate internal approval workflow. Due to the diversity and complexity of forms used by agencies, when an existing form doesn’t meet the current needs or specifications, it is common for system engineers or developers to modify the application for that specific form or create a new form altogether. This requires high training costs and form management time. In contrast, CSI presents a mechanism to allow administrators to easily build forms and set the approval workflow via the form management system."
+      "img": "dtg.jpg",
+      "desc": "Electronic forms enhance overall reporting efficiency and accelerate internal approval workflows. When an existing form doesn’t meet the current needs, system engineers often have to modify the application for that specific form or create a new form altogether. Given that agencies use many types of complex forms, the development costs and form management time are substantial. In contrast, CSI allows administrators themselves to easily build, modify and manage electronic forms via the form management system."
     },
     "lists": [
       {

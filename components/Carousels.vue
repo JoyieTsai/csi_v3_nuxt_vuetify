@@ -10,7 +10,7 @@
       <slide v-for="(item, i) in data" :key="i">
         <div class="tw-flex tw-justify-center">
           <v-img
-            max-width="1440"
+            max-width="1280"
             :src="'images/sysfeatures/1x/' + item.img"
             aspect-ratio="2.2"
             cover

@@ -155,9 +155,9 @@ export default {
     icon: 'capabilities.svg',
     coverimg: 'capabilities.jpg',
     descHeading:
-      'Software innovation competencies with lasting utility and quality',
+      'Innovative software capabilities with lasting utility and quality',
     descContent:
-      'Existing software solutions are complex and inflexible. Third-party providers design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. In contrast, CSI has invested decades of research and development in designing scalable and adaptable software architecture, a low-code development platform, and innovations with real-world applications. Our intellectual property portfolio continues to grow with every project.',
+      'Existing software solutions are complex and inflexible. Third-party providers design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. In contrast, CSI has invested decades of research and development in designing scalable and adaptable software architecture, a low-code development platform, and innovations with real-world applications. With every project, we continue to grow our intellectual property and capabilities.',
     timelines: [
       {
         year: '1998',

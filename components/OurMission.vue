@@ -72,9 +72,7 @@
             <div class="tw-text-2xl xl:tw-text-2.5xl tw-font-semibold tw-my-2">
               {{ item.title }}
             </div>
-            <div
-              class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-leading-sung"
-            >
+            <div class="tw-text-base lg:tw-text-lg tw-leading-sung">
               {{ item.desc }}
             </div>
           </div>

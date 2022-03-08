@@ -157,9 +157,9 @@
         <div class="tw-p-8 lg:tw-p-16">
           <div
             class="
-              tw-text-base
-              lg:tw-text-lg
-              xl:tw-text-xl
+              tw-text-lg
+              lg:tw-text-xl
+              xl:tw-text-2xl
               tw-font-semibold tw-mt-10
               lg:tw-mt-20
               tw-text-center
@@ -168,10 +168,18 @@
             {{ adv.name }}
           </div>
           <div
-            class="tw-text-base xl:tw-text-lg tw-opacity-70 tw-text-center"
+            class="
+              tw-text-base
+              lg:tw-text-lg
+              xl:tw-text-xl
+              tw-opacity-70 tw-text-center
+            "
             v-html="$options.filters.positionSplit(adv.position)"
           ></div>
-          <div class="tw-mt-8" v-html="adv.desc"></div>
+          <div
+            class="tw-mt-8 tw-text-base lg:tw-text-lg"
+            v-html="adv.desc"
+          ></div>
         </div>
       </div>
     </div>

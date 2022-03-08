@@ -3,13 +3,7 @@
     <!-- Partners -->
     <div class="header-2 tw-text-center tw-mb-5 md:tw-mb-10">Our Partners</div>
     <div
-      class="
-        tw-flex tw-flex-wrap tw-justify-center
-        2xl:tw-mt-12
-        lg:tw-mt-10
-        2xl:tw-mb-10
-        tw-mb-6
-      "
+      class="tw-flex tw-flex-wrap tw-justify-center 2xl:tw-mt-12 lg:tw-mt-10"
     >
       <div
         v-for="(partner, index) in partners"

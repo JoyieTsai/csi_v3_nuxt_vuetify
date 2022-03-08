@@ -27,6 +27,7 @@
         <div class="relproduct">
           <div v-for="(item, index) in data" :key="index" class="badge">
             <nuxt-link
+              v-if="item.link"
               :to="'/' + item.link"
               class="
                 tw-relative tw-z-10 tw-pt-5
@@ -37,11 +38,7 @@
                 tw-justify-center
                 tw-text-white
                 hover:tw-text-white
-                tw-w-20
-                md:tw-w-24
-                xl:tw-w-32
-                tw-transform tw--translate-x-2
-                xl:tw--translate-x-4
+                tw-w-full
               "
             >
               <div
@@ -58,6 +55,34 @@
                 {{ item.title }}
               </div>
             </nuxt-link>
+            <div
+              v-else
+              class="
+                tw-relative tw-z-10 tw-pt-5
+                2xl:tw-pt-7
+                tw-flex
+                tw-flex-col
+                tw-items-center
+                tw-justify-center
+                tw-text-white
+                hover:tw-text-white
+                tw-w-full
+              "
+            >
+              <div
+                class="
+                  tw-text-4xl
+                  md:tw-text-5xl
+                  xl:tw-text-6xl
+                  tw-leading-tight
+                "
+              >
+                <i :class="item.icon"></i>
+              </div>
+              <div class="tw-text-sm lg:tw-text-base tw-leading-tight">
+                {{ item.title }}
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -165,8 +190,8 @@ $badgeHeight: 175px;
   }
   @media only screen and (max-width: $breakpoints-xs) {
     margin: 16px;
-    width: ceil($badgeWidth * 0.65);
-    height: ceil($badgeHeight * 0.65);
+    width: ceil($badgeWidth * 0.7);
+    height: ceil($badgeHeight * 0.7);
   }
 
   &:before,

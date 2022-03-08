@@ -21,7 +21,15 @@
       <!-- Description -->
       <div class="main-container tw-mx-auto tw-b-20">
         <div class="tw-flex tw-flex-col md:tw-flex-row">
-          <div class="md:tw-w-7/12 tw-text-sm lg:tw-text-base xl:tw-text-lg">
+          <div
+            class="
+              md:tw-w-7/12
+              tw-text-sm
+              lg:tw-text-base
+              xl:tw-text-lg
+              tw-leading-relaxed
+            "
+          >
             {{ descContent }}
           </div>
           <div
@@ -79,14 +87,16 @@
           </div>
         </div>
       </div>
-      <div id="team" class="tw-block tw-h-12 xl:tw-h-24"></div>
+      <div id="team" class="tw-block tw-h-14 xl:tw-h-28"></div>
       <OurTeam />
-      <div id="clients" class="tw-block tw-h-12 xl:tw-h-24"></div>
+      <div id="clients" class="tw-block tw-h-14 xl:tw-h-28"></div>
       <OurCustomer />
-      <div id="partners" class="tw-block tw-h-12 xl:tw-h-24"></div>
+      <div id="partners" class="tw-block tw-h-14 xl:tw-h-28"></div>
       <OurPartner />
-      <div id="careers" class="tw-block tw-h-12 xl:tw-h-24"></div>
-      <OurCareer class="tw-mb-12 xl:tw-mb-32" />
+      <div id="patents" class="tw-block tw-h-14 xl:tw-h-28"></div>
+      <OurPatent />
+      <div id="careers" class="tw-block tw-h-14 xl:tw-h-28"></div>
+      <OurCareer class="tw-mb-14 xl:tw-mb-28" />
 
       <div
         id="contact"

@@ -1,6 +1,4 @@
 import colors from 'vuetify/es5/util/colors'
-import axios from "axios";
-import pkg from "./package";
 
 export default {
   server: {
@@ -9,7 +7,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.7.7-02242022',
+    dir: 'test-V1.7.8-03082022',
   },
 
   /*
@@ -50,6 +48,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://unpkg.com/swiper@8/swiper-bundle.min.css',
+      },
     ],
   },
 
@@ -58,13 +60,16 @@ export default {
     { src: '@/assets/tailwind.scss', lang: 'scss' },
     { src: '@/assets/style.scss', lang: 'scss' },
     '@/assets/fonts/CSI-icon-v2.2/style.css',
+    '@/assets/swiper.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/myfilter',
-    { src: '@/plugins/aos', ssr: false },
+    { src: "@/plugins/aos", ssr: false },
     { src: '~/plugins/vue-zoom-on-hover.js', ssr: false },
+    { src: '~/plugins/vue-swiper.js', ssr: false },
+    { src: "~plugins/ga.js", mode: "client" }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -79,7 +84,84 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [],
+  modules: [
+    'vue-social-sharing/nuxt',
+    '@nuxtjs/firebase',
+    '@nuxtjs/sitemap',
+  ],
+  firebase: {
+    config: {
+      apiKey: "AIzaSyBz0Gcowcc7RBRL_cU2nGK2AlcIabDOk1A",
+      authDomain: "csi-website-70421.firebaseapp.com",
+      databaseURL: "https://csi-website-70421.firebaseio.com",
+      projectId: "csi-website-70421",
+      storageBucket: "csi-website-70421.appspot.com",
+      messagingSenderId: "891913750521",
+      appId: "1:891913750521:web:4c3ebf32efceaa8908df28"
+    },
+    services: {
+      realtimeDb: true // this is the realtime database service
+    }
+  },
+
+  /*
+   ** Axios module configuration
+   */
+   axios: {
+    proxy: true
+  },
+  proxy: {
+    "/api": {
+      target: "https://www.csitech.com",
+      pathRewrite: {
+        "^/api": "/"
+      },
+      changeOrigin: true
+    }
+  },
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://www.csitech.com',
+    gzip: true,
+    generate: true,
+    exclude: [
+      '/sweepstakes',
+      '/sweepstakes-rules',
+    ],
+    routes: [
+      '/about/',
+      '/products/public-safety/cad/',
+      '/products/public-safety/rms/',
+      '/products/public-safety/fire-ems/',
+      '/products/public-safety/mobile-operations/',
+      '/products/public-safety/citation-management/',
+      '/products/public-safety/evidence/',
+      '/products/public-safety/internal-affairs/',
+      '/products/public-safety/municipal-portal/',
+      '/products/public-safety/municipal-system/',
+      '/products/public-safety/personnel-scheduling/',
+      '/products/justice-courts/attorney-ethics/',
+      '/products/justice-courts/courts/',
+      '/products/justice-courts/courts-efiling/',
+      '/products/justice-courts/ediscovery-with-portal/',
+      '/products/justice-courts/interview-recording/',
+      '/products/justice-courts/online-transcription-service/',
+      '/products/justice-courts/prosecutor/',
+      '/products/justice-courts/vw-portal/',
+      '/products/crime-intelligence/alpr/',
+      '/products/crime-intelligence/analytics/',
+      '/products/crime-intelligence/csi/',
+      '/products/crime-intelligence/fusion-center/',
+      '/products/crime-intelligence/global-search/',
+      '/products/crime-intelligence/intelligence/',
+      '/products/crime-intelligence/investigation/',
+      '/products/crime-intelligence/major-incident-management/',
+      '/products/crime-intelligence/sar/',
+      '/resources/',
+      '/contact/',
+      '/jobs/',
+    ]
+  },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {

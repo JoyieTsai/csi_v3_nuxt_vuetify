@@ -10,7 +10,7 @@ const firebaseConfig = {
     storageBucket: "csi-website-70421.appspot.com",
     messagingSenderId: "891913750521",
     appId: "1:891913750521:web:4c3ebf32efceaa8908df28"
-}
+  }
 
 // Initialize Firebase
 if(!firebase.apps.length) {

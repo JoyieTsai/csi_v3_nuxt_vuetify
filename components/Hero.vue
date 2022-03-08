@@ -6,7 +6,7 @@
         backgroundImage: `url(images/covers/${category}/${coverimg})`,
       }"
     >
-      <div class="main-container tw-mx-auto tw-flex tw-flex-col sm:tw-flex-row">
+      <div class="main-container tw-mx-auto tw-flex tw-flex-col md:tw-flex-row">
         <div
           class="
             tw-flex-1
@@ -14,7 +14,7 @@
             tw-w-full
             sm:tw-mr-10
             lg:tw-mr-0
-            sm:tw-w-2/3
+            sm:tw-w-3/5
             lg:tw-flex-1
             tw-flex tw-items-center
           "
@@ -27,14 +27,16 @@
               class="
                 tw-text-2.5xl
                 sm:tw-text-3xl
-                lg:tw-text-4xl
-                xl:tw-text-5xl
+                xl:tw-text-4xl
+                2xl:tw-text-5xl
                 tw-font-semibold tw-leading-snug tw-my-3
               "
             >
               <slot name="title"></slot>
             </div>
-            <div class="lg:tw-text-xl 2xl:tw-text-2xl xl:tw-mr-20">
+            <div
+              class="lg:tw-text-lg xl:tw-text-xl 2xl:tw-text-2xl xl:tw-mr-20"
+            >
               <slot name="subtitle"></slot>
             </div>
             <div v-if="btns" class="tw-mt-5 md:tw-my-5">
@@ -61,13 +63,13 @@
           </div>
         </div>
         <div
-          class="tw-flex-1 sm:tw-flex-auto tw-w-full sm:tw-w-1/3 lg:tw-flex-1"
+          class="tw-flex-1 sm:tw-flex-auto tw-w-full sm:tw-w-2/5 lg:tw-flex-1"
         ></div>
       </div>
     </div>
     <!-- Discription -->
     <div class="bg-primary-light">
-      <div class="main-container tw-mx-auto tw-pb-10 xl:tw-pb-20 tw-text-white">
+      <div class="main-container tw-mx-auto tw-pb-12 xl:tw-pb-20 tw-text-white">
         <div class="2xl:tw-w-3/4">
           <div
             class="

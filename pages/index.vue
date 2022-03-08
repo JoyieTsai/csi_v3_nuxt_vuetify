@@ -42,7 +42,7 @@
               <div class="tw-aspect-w-16 tw-aspect-h-9">
                 <iframe
                   v-if="modalVideo"
-                  src="https://youtu.be/9wERtnQGOgE"
+                  src="https://www.youtube.com/embed/9wERtnQGOgE"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen

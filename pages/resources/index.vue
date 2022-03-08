@@ -296,8 +296,18 @@ export default {
       return Math.ceil(this.filterArticles.length / this.itemsPerPage)
     },
   },
+  watch: {
+    async $route(to, from) {
+      await this.changeType(this.$route.query.id)
+    },
+  },
   mounted() {
-    this.changeType(this.radioGroup)
+    const id = this.$route.query.id
+    if (id) {
+      this.changeType(id)
+    } else {
+      this.changeType(this.radioGroup)
+    }
   },
   methods: {
     ...mapActions(['changeFilteredType', 'changeFilteredTag']),

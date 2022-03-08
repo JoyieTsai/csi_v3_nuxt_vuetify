@@ -64,7 +64,7 @@
                   >
                     <nuxt-link
                       v-if="tab.id"
-                      :to="'/' + data.category + tab.id"
+                      :to="'/' + data.category + '/' + tab.id"
                       class="text-base text-link tw-p-2"
                       >{{ tab.title }}</nuxt-link
                     >
@@ -148,7 +148,7 @@
                 >
                   <nuxt-link
                     v-if="tab.id"
-                    :to="'/' + data.category + tab.id"
+                    :to="'/' + data.category + '/' + tab.id"
                     class="text-base text-link tw-p-2"
                     >{{ tab.title }}</nuxt-link
                   >

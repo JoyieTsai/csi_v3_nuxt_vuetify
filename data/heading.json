@@ -15,19 +15,19 @@
                 "sub": "Core Solutions",
                 "tabs": [
                     {
-                        "id": "/cad",
+                        "id": "cad",
                         "title": "Computer Aided Dispatch (CAD)"
                     },
                     {
-                        "id": "/rms",
+                        "id": "rms",
                         "title": "Law Enforcement Records Management (RMS)"
                     },
                     {
-                        "id": "/fire-ems",
+                        "id": "fire-ems",
                         "title": "Fire & EMS"
                     },
                     {
-                        "id": "/mobile-operations",
+                        "id": "mobile-operations",
                         "title": "Mobile Operations"
                     }
                 ]
@@ -36,19 +36,19 @@
                 "sub": "Other Modules",
                 "tabs": [
                     {
-                        "id": "/citation-management",
+                        "id": "citation-management",
                         "title": "Citation Management"
                     },
                     {
-                        "id": "/evidence",
+                        "id": "evidence",
                         "title": "Evidence"
                     },
                     {
-                        "id": "/personnel-scheduling",
+                        "id": "personnel-scheduling",
                         "title": "Personnel & Scheduling"
                     },
                     {
-                        "id": "/internal-affairs",
+                        "id": "internal-affairs",
                         "title": "Professional Standards & IA"
                     }
                 ]
@@ -62,35 +62,35 @@
             {
                 "tabs": [
                     {
-                        "id": "/county-prosecution",
+                        "id": "county-prosecution",
                         "title": "County Prosecution"
                     },
                     {
-                        "id": "/courts",
+                        "id": "courts",
                         "title": "Courts"
                     },
                     {
-                        "id": "/courts-efiling",
+                        "id": "courts-efiling",
                         "title": "Courts eFiling"
                     },
                     {
-                        "id": "/attorney-ethics",
+                        "id": "attorney-ethics",
                         "title": "Attorney Ethics"
                     },
                     {
-                        "id": "/ediscovery-with-portal",
+                        "id": "ediscovery-with-portal",
                         "title": "eDiscovery with Portal"
                     },
                     {
-                        "id": "/vw-portal",
+                        "id": "vw-portal",
                         "title": "Victim/Witness with Portal"
                     },
                     {
-                        "id": "/interview-recording",
+                        "id": "interview-recording",
                         "title": "Interview Recording"
                     },
                     {
-                        "id": "/online-transcription-service",
+                        "id": "online-transcription-service",
                         "title": "Online Transcription Service"
                     }
                 ]
@@ -104,39 +104,39 @@
             {
                 "tabs": [
                     {
-                        "id": "/investigation",
+                        "id": "investigation",
                         "title": "Investigation"
                     },
                     {
-                        "id": "/intelligence",
+                        "id": "intelligence",
                         "title": "Intelligence"
                     },
                     {
-                        "id": "/sar",
+                        "id": "sar",
                         "title": "Suspicious Activity Reporting"
                     },
                     {
-                        "id": "/fusion-center",
+                        "id": "fusion-center",
                         "title": "Fusion Center (iLog)"
                     },
                     {
-                        "id": "/analytics",
+                        "id": "analytics",
                         "title": "Analytics"
                     },
                     {
-                        "id": "/alpr",
+                        "id": "alpr",
                         "title": "ALPR Dashboard"
                     },
                     {
-                        "id": "/global-search",
+                        "id": "global-search",
                         "title": "Global Search Broker"
                     },
                     {
-                        "id": "/major-incident-management",
+                        "id": "major-incident-management",
                         "title": "Major Incident Management"
                     },
                     {
-                        "id": "/csi",
+                        "id": "csi",
                         "title": "Crime Scene Investigation"
                     }
                 ]
@@ -154,47 +154,47 @@
                         "title": "Overview"
                     },
                     {
-                        "id": "/interfaces",
+                        "id": "interfaces",
                         "title": "Interfaces"
                     },
                     {
-                        "id": "/data-sharing",
+                        "id": "data-sharing",
                         "title": "Data Sharing"
                     },
                     {
-                        "id": "/data-migration",
+                        "id": "data-migration",
                         "title": "Data Migration"
                     },
                     {
-                        "id": "/data-analytics",
+                        "id": "data-analytics",
                         "title": "Data Analytics"
                     },
                     {
-                        "id": "/data-mapping",
+                        "id": "data-mapping",
                         "title": "Mapping"
                     },
                     {
-                        "id": "/cloud-integration",
+                        "id": "cloud-integration",
                         "title": "Cloud Integration"
                     },
                     {
-                        "id": "/low-code",
+                        "id": "low-code",
                         "title": "Low Code Development"
                     },
                     {
-                        "id": "/vertical-integration",
+                        "id": "vertical-integration",
                         "title": "Vertical Integration"
                     },
                     {
-                        "id": "/infoShare-engine",
+                        "id": "infoShare-engine",
                         "title": "InfoShare Engine®"
                     },
                     {
-                        "id": "/security",
+                        "id": "security",
                         "title": "Security"
                     },
                     {
-                        "id": "/doc-template-generation",
+                        "id": "doc-template-generation",
                         "title": "Document Template Generation"
                     }
                 ]
@@ -209,15 +209,15 @@
             {
                 "tabs": [
                     {
-                        "id": "#success-stories",
+                        "id": "?id=story",
                         "title": "Success Stories"
                     },
                     {
-                        "id": "#news",
+                        "id": "?id=news",
                         "title": "News"
                     },
                     {
-                        "id": "#events",
+                        "id": "?id=event",
                         "title": "Events"
                     }
                 ]

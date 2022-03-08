@@ -196,7 +196,7 @@
       {
         "title": "Crime Mapping",
         "icon": "icon-mapping_solid",
-        "link": "public-safety/analytics-crime-mapping"
+        "link": ""
       }
     ],
     "quote": {
@@ -395,13 +395,13 @@
         "title": "Analytics",
         "icon": "analytics.svg",
         "desc": "Integrate with GIS and GEO mapping to visualize data to reveal relationships, trends, and patterns of criminal activity.",
-        "link": "public-safety/analytics-crime-mapping"
+        "link": "crime-intelligence/analytics"
       },
       {
         "title": "Crime Mapping",
         "icon": "mapping.svg",
         "desc": "Help agencies provide the public with information on the magnitude and trend of recent criminal activity by neighborhood.",
-        "link": "public-safety/analytics-crime-mapping"
+        "link": ""
       },
       {
         "title": "ABC",
@@ -482,7 +482,7 @@
       {
         "title": "Crime Mapping",
         "icon": "icon-mapping_solid",
-        "link": "public-safety/analytics-crime-mapping"
+        "link": ""
       }
     ],
     "quote": {

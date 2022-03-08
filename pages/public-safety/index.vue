@@ -72,7 +72,7 @@ export default {
         product: 'RMS',
         name: 'Law Enforcement Records Management',
         icon: 'icon-rms_solid',
-        diagram: 'solution-rms.svg',
+        diagram: 'solution-rms.png',
         // modules: [
         //   {
         //     type: 'Base Features',
@@ -122,7 +122,7 @@ export default {
         product: 'CAD',
         name: 'Computer Aided Dispatch',
         icon: 'icon-cad_solid',
-        diagram: 'solution-cad.svg',
+        diagram: 'solution-cad.png',
         // modules: [
         //   {
         //     type: 'Base Features',
@@ -181,7 +181,7 @@ export default {
         product: 'Fire & EMS',
         name: 'Fire & EMS Solutions',
         icon: 'icon-fire_ems_solid',
-        diagram: 'solution-fireems.svg',
+        diagram: 'solution-fireems.png',
         // modules: [
         //   {
         //     type: 'Base Features',

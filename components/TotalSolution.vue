@@ -67,7 +67,7 @@
             <div v-if="sol.interfaces" class="tw-mt-20">
               <div class="tw-flex tw-justify-center">
                 <div class="solution-interface tw-mr-5">
-                  <i class="icon-interfaces_solid tab-icon"></i> Interface
+                  <i class="icon-interfaces_solid tab-icon"></i> Interfaces
                 </div>
                 <div
                   class="
@@ -141,7 +141,7 @@ export default {
     }
 
     &:hover {
-      transition: transform 0.2s;
+      transition: transform 0.5s;
       transform: scale(1.06);
       color: white !important;
 
@@ -154,7 +154,7 @@ export default {
       position: relative;
       width: 260px;
       height: 260px;
-      transition: all 0.2s cubic-bezier(0.2, 0.4, 0.7, 0.8);
+      transition: all 0.5s cubic-bezier(0.2, 0.4, 0.7, 0.8);
       .tab-text {
         font-size: 1.4rem;
         font-weight: bold;
@@ -173,7 +173,7 @@ export default {
         height: 100%;
         background: url('../assets/vectors/circle-base.svg') center no-repeat;
         background-size: contain;
-        transition: all 0.2s;
+        transition: all 0.5s;
         transform: rotate(180deg);
       }
 
@@ -186,7 +186,7 @@ export default {
         opacity: 1;
         background: url('../assets/vectors/circle-focus.svg') center no-repeat;
         background-size: contain;
-        transition: all 0.2s cubic-bezier(0.2, 0.4, 0.7, 0.8);
+        transition: all 0.5s cubic-bezier(0.2, 0.4, 0.7, 0.8);
         transform: scale(1);
       }
 
