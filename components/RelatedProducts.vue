@@ -1,6 +1,6 @@
 <template>
   <div
-    class="main-container tw-m-auto tw-mt-16 xl:tw-mt-14 tw-mb-16 xl:tw-mb-28"
+    class="main-container tw-m-auto tw-mt-16 xl:tw-mt-24 tw-mb-16 xl:tw-mb-28"
   >
     <div class="tw-flex tw-flex-col xl:tw-flex-row">
       <div class="w-full xl:tw-w-1/3 tw-flex tw-items-center">

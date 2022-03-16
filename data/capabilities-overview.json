@@ -1,0 +1,143 @@
+{
+  "title": "Capabilities Overview",
+  "subtitle": "Core Technologies Driving the InfoShare™ System",
+  "icon": "capabilities.svg",
+  "coverImg": "capabilities.jpg",
+  "descHeading": "Innovative software capabilities with lasting utility and quality",
+  "descContent": "Existing software solutions are complex and inflexible. Third-party providers design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. In contrast, CSI has invested decades of research and development in designing scalable and adaptable software architecture, a low-code development platform, and innovations with real-world applications. With every project, we continue to grow our intellectual property and capabilities.",
+  "items": [
+    {
+      "type": "icon",
+      "icon": "data_migration.svg"
+    },
+    {
+      "type": "capability",
+      "title": "Data Analytics",
+      "desc": "Transforming data and analysis into actionable insights",
+      "url": "data-analytics"
+    },
+    {
+      "type": "icon",
+      "icon": "analytics.svg"
+    },
+    {
+      "type": "icon",
+      "icon": "cloud_integration.svg"
+    },
+    {
+      "type": "capability",
+      "title": "Data Migration",
+      "desc": "Comprehensive, structured data conversion services",
+      "url": "data-migration"
+    },
+    {
+      "type": "capability",
+      "title": "Data Sharing",
+      "desc": "Break down information silos to promote interagency collaboration",
+      "url": "data-sharing"
+    },
+    {
+      "type": "icon",
+      "icon": "data_share.svg"
+    },
+    {
+      "type": "capability",
+      "title": "Cloud Integration",
+      "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
+      "url": "cloud-integration"
+    },
+    {
+      "type": "icon",
+      "icon": "lowcode.svg"
+    },
+    {
+      "type": "highlight",
+      "title": "Low Code Development",
+      "desc": "Proprietary low-code technology to facilitate application development",
+      "url": "low-code"
+    },
+    {
+      "type": "capability",
+      "title": "Mapping",
+      "desc": "Location Intelligence with GIS Technology",
+      "url": "data-mapping"
+    },
+    {
+      "type": "icon",
+      "icon": "engine.svg"
+    },
+    {
+      "type": "highlight",
+      "title": "InfoShare Engine®",
+      "desc": "Low code development platform for government ERP application",
+      "url": "infoShare-engine"
+    },
+    {
+      "type": "highlight",
+      "title": "Vertical Integration",
+      "desc": "From public safety to municipal services to judiciary and regulatory agencies",
+      "url": "vertical-integration"
+    },
+    {
+      "type": "icon",
+      "icon": "permission_security.svg"
+    },
+    {
+      "type": "capability",
+      "title": "Security",
+      "desc": "Robust data encryption, permission, and privacy",
+      "url": "security"
+    },
+    {
+      "type": "icon",
+      "icon": "mapping.svg"
+    },
+    {
+      "type": "icon",
+      "icon": "vertical_integration.svg"
+    },
+    {
+      "type": "capability",
+      "title": "Document Template Generation",
+      "desc": "Form Management System",
+      "url": "doc-template-generation"
+    },
+    {
+      "type": "icon",
+      "icon": "doc_management.svg"
+    }
+  ],
+  "timelines": [
+    {
+      "year": "1998",
+      "arrow": "t-arrow-1.svg",
+      "img": "t-engine-1.svg",
+      "leftImg": "t-item-2.svg",
+      "rightImg": "t-item-1.svg"
+    },
+    {
+      "year": "2010",
+      "arrow": "t-arrow-2.svg",
+      "img": "t-engine-2.svg",
+      "leftImg": "t-item-4.svg",
+      "rightImg": "t-item-3.svg"
+    },
+    {
+      "year": "2014",
+      "arrow": "t-arrow-3.svg",
+      "img": "t-engine-3.svg",
+      "leftImg": "t-item-6.svg",
+      "rightImg": "t-item-5.svg"
+    },
+    {
+      "year": "2018",
+      "arrow": "t-arrow-4.svg",
+      "img": "t-engine-4.svg",
+      "leftImg": "t-item-7.svg"
+    },
+    {
+      "year": "Now",
+      "arrow": "t-arrow-5.svg"
+    }
+  ]
+}

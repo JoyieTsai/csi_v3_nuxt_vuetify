@@ -6,7 +6,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -30,7 +30,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -45,7 +45,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -85,7 +85,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "vw"
+        "name": "vw-portal"
       }
     ],
     "cover": "news-2016-0512.jpg",
@@ -99,7 +99,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -114,10 +114,10 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       },
       {
-        "name": "vw"
+        "name": "vw-portal"
       }
     ],
     "cover": "",
@@ -132,7 +132,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -196,7 +196,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -256,7 +256,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "vw"
+        "name": "vw-portal"
       }
     ],
     "cover": "news-2017-0209.jpg",
@@ -329,7 +329,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -368,7 +368,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -383,7 +383,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -430,12 +430,12 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
     "brief": "Designed to Accurately and Efficiently Record the Multidisciplinary Response to Child Abuse Investigations. Child Advocacy Centers (CAC) provide a neutral environment focused on child victims where they can feel safe and comfortable while multidisciplinary teams comprised of dedicated professionals work together to investigate the crime and deliver comprehensive services and resources to the victims and their families.",
-    "body": "<h3>Designed to Accurately and Efficiently Record the Multidisciplinary Response to Child Abuse Investigations</h3>Child Advocacy Centers (CAC) provide a neutral environment focused on child victims where they can feel safe and comfortable while multidisciplinary teams comprised of dedicated professionals work together to investigate the crime and deliver comprehensive services and resources to the victims and their families.  Recognizing the vital role CACs play in the communities they serve by reducing the impact of abuse and minimizing secondary trauma to child victims, several New Jersey prosecutor’s offices now operate county-based CACs.<br><br> Designed in close collaboration with subject matter experts at the Camden County Prosecutor’s Office, the first Prosecutor’s Office in the State of New Jersey to launch the new module, InfoShare’s Child Advocacy Center module provides a database specific to the documentation and reporting requirements of the CAC.  CAC staff are notified at the onset of the Detective’s investigation through the CAC sub-module, an exclusive feature of the Child Advocacy Center module.  This sub-module integrates with the Investigation module and allows the investigator to simultaneously initiate a CAC case and notify CAC personnel of the child abuse investigation.  The data entered in the sub-module is automatically reproduced in the dedicated module’s CAC case, saving the staff’s valuable time and reducing duplicative efforts.  The CAC module documents the following CAC-specific case information: <ul><li>Victim/family biographical and statistical data</li><li>Victim services</li><li>Staff assignments</li><li>Case documents</li><li>Case notes</li><li>Case events</li></ul>The National Children’s Alliance (NCA) is the national association and accrediting body for Children’s Advocacy Centers.  The InfoShare CAC Module can help CACs reach and maintain NCA accreditation by providing a database to comply with the NCA’s accreditation standard for case tracking, an essential and time-consuming a task for a CAC.  The accreditation standard requires the CAC to track and retrieve NCA statistical information, all of which is efficiently maintained in the CAC module.<br><br>Additionally, timely and accurate statistical reporting is an equally important function of the Child Advocacy Center and becomes much easier with the inclusion of the CAC module.  Child Advocacy Centers are required to report their collaborative work biannually to the National Children’s Alliance (NCA).  Data recorded in the CAC module can be exported to the NCA Statistical Report, which is built into the module.  Furthermore, victim services recorded in the CAC module are tabulated in the Victims of Crime Act (VOCA) Report.",
+    "body": "<h3>Designed to Accurately and Efficiently Record the Multidisciplinary Response to Child Abuse Investigations</h3>Child Advocacy Centers (CAC) provide a neutral environment focused on child victims where they can feel safe and comfortable while multidisciplinary teams comprised of dedicated professionals work together to investigate the crime and deliver comprehensive services and resources to the victims and their families.  Recognizing the vital role CACs play in the communities they serve by reducing the impact of abuse and minimizing secondary trauma to child victims, several New Jersey prosecutor’s offices now operate county-based CACs.<br><br> Designed in close collaboration with subject matter experts at the Camden County Prosecutor’s Office, the first Prosecutor’s Office in the State of New Jersey to launch the new module, InfoShare’s Child Advocacy Center module provides a database specific to the documentation and reporting requirements of the CAC.  CAC staff are notified at the onset of the Detective’s investigation through the CAC sub-module, an exclusive feature of the Child Advocacy Center module.  This sub-module integrates with the Investigation module and allows the investigator to simultaneously initiate a CAC case and notify CAC personnel of the child abuse investigation.  The data entered in the sub-module is automatically rprosecutorduced in the dedicated module’s CAC case, saving the staff’s valuable time and reducing duplicative efforts.  The CAC module documents the following CAC-specific case information: <ul><li>Victim/family biographical and statistical data</li><li>Victim services</li><li>Staff assignments</li><li>Case documents</li><li>Case notes</li><li>Case events</li></ul>The National Children’s Alliance (NCA) is the national association and accrediting body for Children’s Advocacy Centers.  The InfoShare CAC Module can help CACs reach and maintain NCA accreditation by providing a database to comply with the NCA’s accreditation standard for case tracking, an essential and time-consuming a task for a CAC.  The accreditation standard requires the CAC to track and retrieve NCA statistical information, all of which is efficiently maintained in the CAC module.<br><br>Additionally, timely and accurate statistical reporting is an equally important function of the Child Advocacy Center and becomes much easier with the inclusion of the CAC module.  Child Advocacy Centers are required to report their collaborative work biannually to the National Children’s Alliance (NCA).  Data recorded in the CAC module can be exported to the NCA Statistical Report, which is built into the module.  Furthermore, victim services recorded in the CAC module are tabulated in the Victims of Crime Act (VOCA) Report.",
     "rating": 4
   },
   {
@@ -488,7 +488,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "",
@@ -503,7 +503,7 @@
     "type": "event",
     "tags": [
       {
-        "name": "vw"
+        "name": "vw-portal"
       }
     ],
     "cover": "news-2019-0127.jpg",
@@ -532,7 +532,7 @@
     "type": "event",
     "tags": [
       {
-        "name": "vw"
+        "name": "vw-portal"
       }
     ],
     "cover": "news-2019-0412.jpg",
@@ -670,7 +670,7 @@
     "type": "event",
     "tags": [
       {
-        "name": "vw"
+        "name": "vw-portal"
       }
     ],
     "cover": "news-2020-0423.jpg",
@@ -685,10 +685,10 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       },
       {
-        "name": "vw"
+        "name": "vw-portal"
       }
     ],
     "cover": "news-2020-0428.jpg",
@@ -702,7 +702,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "news-2020-0430.jpg",
@@ -716,7 +716,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "news-2020-0506.jpg",
@@ -730,7 +730,7 @@
     "type": "news",
     "tags": [
       {
-        "name": "epro"
+        "name": "prosecutor"
       }
     ],
     "cover": "news-2020-0526.jpg",

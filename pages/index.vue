@@ -85,7 +85,7 @@ export default {
     covers: [
       {
         id: 1,
-        title: 'Powerful, Disruptive Government Technology',
+        title: 'Powerful and Intuitive Government Technology',
         img: 'index-1.jpg',
         url: '',
       },

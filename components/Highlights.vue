@@ -43,9 +43,10 @@
             :key="index"
             class="tw-mt-1 xl:tw-mt-2 2xl:tw-mt-4"
           >
-            <div class="tw-text-base xl:tw-text-lg 2xl:tw-text-xl">
-              {{ item }}
-            </div>
+            <div
+              class="tw-text-base xl:tw-text-lg 2xl:tw-text-xl"
+              v-html="item"
+            ></div>
           </li>
         </ul>
       </div>

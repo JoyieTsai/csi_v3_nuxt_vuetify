@@ -143,7 +143,7 @@
     "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. Users don’t need to search a separate database or log in to a different system to access the legacy data. Everything is unified under one database in the InfoShare™ system. Over the years, CSI has developed a systematic data migration strategy and successfully converted legacy data for more than thirty systems.",
     "diagram": {
       "img": "data-migration.jpg",
-      "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare™, a unique person exists as single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
+      "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare™, a unique person exists as a single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
     },
     "lists": [
       {
@@ -320,7 +320,7 @@
     "icon": "mapping.svg",
     "coverImg": "mapping.jpg",
     "descHeading": "Integrated mapping capability for accurate location verification, real-time tracking, and better data analysis",
-    "descContent": "Interactive GIS mapping technology is directly integrated into the InfoShare™ Engine to assist with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
+    "descContent": "Interactive GIS mapping technology assist with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
     "diagram": {
       "img": "mapping.jpg",
       "desc": "Mapping technology has a wide range of applications that facilitate better decision-making. Traditional systems without GIS assistance lack valuable location intelligence and data visualization. Mapping in InfoShare™ is used by a range of different products including CAD (incident location, unit recommendation, GPS, AVL), RMS (crime analysis, master location index), FIRE & EMS (unit monitoring, location information), and Analytics (heat mapping, multidimensional analysis), to name a few. "
@@ -335,7 +335,7 @@
           "Data Analysis",
           "Public Mapping Portal",
           "Mapping Features",
-          "Mapping Platform Support",
+          "Platform Support",
           "Mobile Application"
         ]
       },
@@ -357,7 +357,7 @@
         "type": "Full GIS Integration",
         "content": [
           "Master Location Index with latitude-longitude values",
-          "AVL for dispatched units record coordinates  lat all times",
+          "AVL for dispatched units record coordinates at all times",
           "Extensive multidimensional visualization with different view options and customizable layers",
           "Community crime mapping for citizens to stay informed",
           "Fully interactive mapping with navigation, vector layers, clusters, etc.",
@@ -372,11 +372,11 @@
         "title": "Better Decision Making"
       },
       {
-        "icon": "master_name_index.svg",
+        "icon": "map.svg",
         "title": "Valuable Location Intelligence"
       },
       {
-        "icon": "data_share.svg",
+        "icon": "master_name_index.svg",
         "title": "Single Master Location Index"
       },
       {
@@ -476,7 +476,7 @@
         "title": "Dynamic Security Protection"
       },
       {
-        "icon": "data_import.svg",
+        "icon": "quick_deployment.svg",
         "title": "Quick Setup and Deployment"
       },
       {
@@ -516,7 +516,7 @@
   {
     "id": "low-code",
     "title": "Low Code Development",
-    "subtitle": "Proprietary low-code technology to facilitate application development",
+    "subtitle": "Proprietary Low-Code Technology to Facilitate Application Development",
     "icon": "lowcode.svg",
     "coverImg": "low-code.jpg",
     "descHeading": "Rapid application development with high customization and quick deployment",
@@ -641,7 +641,7 @@
     "icon": "vertical_integration.svg",
     "coverImg": "vertical-integration.jpg",
     "descHeading": "Vertically integrated solutions for end-to-end service from call handling to case disposition",
-    "descContent": "Eliminate information silos, improve data sharing, and take full control of the incident workflow with CSI’s unified software suite. The law enforcement and criminal justice process is complex and dynamic: call handling, dispatch, intelligence, field response, reporting, evidence, investigation, analysis, arrest, indictment, trial, sentencing, and potential imprisonment. With our vertically integrated product lines, information is transferred and exchanged seamlessly among different public servants and multiple government agencies.",
+    "descContent": "Eliminate information silos, improve data sharing, and take full control of the incident workflow with CSI’s unified software suite. The law enforcement and criminal justice process is complex and dynamic: call handling, dispatch, intelligence, field response, reporting, evidence, investigation, analysis, arrest, indictment, trial, sentencing, and potential imprisonment. With vertical integration, information is transferred and exchanged seamlessly among public servants and government agencies.",
     "diagram": {
       "img": "vi.jpg",
       "mobileimg": "vi-s.jpg",
@@ -669,7 +669,7 @@
           "Difficult to guarantee quality",
           "Multiple vendors results in different service standards",
           "Difficult to share and transfer data with external products",
-          "Provide multiple, disparate systems"
+          "Multiple disparate systems"
         ]
       },
       {
@@ -691,7 +691,7 @@
         "title": "Maximum Integration"
       },
       {
-        "icon": "citizen_access.svg",
+        "icon": "relationship.svg",
         "title": "Effective Collaboration"
       },
       {
@@ -703,11 +703,11 @@
         "title": "High Quality Control"
       },
       {
-        "icon": "ta.svg",
+        "icon": "interfaces.svg",
         "title": "Expert Interfacing"
       },
       {
-        "icon": "resource_reduce.svg",
+        "icon": "cost_reduce.svg",
         "title": "Lower Costs"
       }
     ],
@@ -856,7 +856,7 @@
   {
     "id": "security",
     "title": "Security",
-    "subtitle": "Robust data encryption, permission, and protection",
+    "subtitle": "Robust Data Encryption, Permission, and Protection",
     "icon": "permission_security.svg",
     "coverImg": "security.jpg",
     "descHeading": "Integrated security methodology compliant with industry security standards",

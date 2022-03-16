@@ -1,8 +1,5 @@
 <template>
   <div class="main-container tw-mx-auto">
-    <div class="header-2 tw-text-center">
-      Extending <span v-if="name">{{ name }}</span>
-    </div>
     <div
       class="
         tw-mt-8

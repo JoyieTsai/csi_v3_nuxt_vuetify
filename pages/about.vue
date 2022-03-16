@@ -142,7 +142,7 @@ export default {
         {
           icon: 'icon-relationship_outline',
           title: 'Client relationships',
-          desc: 'We are extremely proud to achieve a 99.8% customer retention rate. We pride ourselves on developing long-term, collaborative partnerships and providing unmatched customer and technical support. CSI has grown strong leveraging our clients’ insights into shared progress for all.',
+          desc: 'We are extremely proud to achieve a 99.5% customer retention rate. We pride ourselves on developing long-term, collaborative partnerships and providing unmatched customer and technical support. CSI has grown strong leveraging our clients’ insights into shared progress for all.',
         },
         {
           icon: 'icon-innovation_outline',

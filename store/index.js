@@ -4,7 +4,7 @@ export const state = () => ({
   articleList: [],
   currentArticle: [],
   filterType: 'all',
-  filterTag: '',
+  filterTag: [],
 })
 
 export const mutations = {
@@ -16,7 +16,6 @@ export const mutations = {
   },
   setFilteredType(state, payload) {
     state.filterType = payload
-    state.filterTag = ''
   },
   setFilteredTag(state, payload) {
     state.filterTag = payload
@@ -46,21 +45,65 @@ export const actions = {
 
 export const getters = {
   filterArticles: (state) => {
-    if (state.filterTag) {
-      const filtered = state.articleList.filter((art) => art.tags)
+    if (state.filterType === 'all') { // type = all
+      console.log(1)
+      if (state.filterTag.length > 0) { // have selected tags
+        const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
+        const result = []
+        filtered.forEach((item) => {
+          item.tags.forEach((res) => {
+            state.filterTag.forEach((tag) => {
+              if (tag === res.name) {
+                result.push(item)
+              }
+            })
+          })
+        })
+        return result
+      } else { // no selected tags
+        return state.articleList
+      }
+    } else if (state.filterTag.length > 0) { // type = others
+      console.log(2)
+      const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
+      const filteredType = filtered.filter((filtered) => filtered.type === state.filterType) // get all articles with tags
       const result = []
-      filtered.forEach((item) => {
+      filteredType.forEach((item) => {
         item.tags.forEach((res) => {
-          if (res.name === state.filterTag) {
-            result.push(item)
-          }
+          state.filterTag.forEach((tag) => {
+            if (tag === res.name) {
+              result.push(item)
+            }
+          })
         })
       })
-      return result
-    } else if (state.filterType === 'all') {
-      return state.articleList
+      const final = [...new Set(result)]
+      return final
     } else {
+      console.log(3)
+      console.log(state.filterTag)
       return state.articleList.filter((art) => art.type === state.filterType)
     }
   },
+  // filterArticles: (state) => {
+  //   if (state.filterTag.length > 0) {
+  //     const filtered = state.articleList.filter((art) => art.tags)
+  //     const result = []
+  //     filtered.forEach((item) => {
+  //       item.tags.forEach((res) => {
+  //         state.filterTag.forEach((tag) => {
+  //           if (tag === res.name) {
+  //             result.push(item)
+  //           }
+  //         })
+  //       })
+  //     })
+  //     const final = [...new Set(result)]
+  //     return final
+  //   } else if (state.filterType === 'all') {
+  //     return state.articleList
+  //   } else {
+  //     return state.articleList.filter((art) => art.type === state.filterType)
+  //   }
+  // },
 }

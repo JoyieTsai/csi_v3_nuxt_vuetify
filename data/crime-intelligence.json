@@ -286,7 +286,7 @@
       }
     ],
     "quote": {
-      "content": "Contact our dedicated, experienced account managers"
+      "content": "Vincit Omnia Veritas"
     }
   },
   {
@@ -381,7 +381,7 @@
     "highlights": [
       "Maintain situational awareness of any type of incident",
       "Identify locations and infrastructure involved and assets deployed",
-      "Incidents are easily pushed to <a class='primary-link' href='/crime-intelligence/intelligence'>InfoShare™ Intelligence</a> for further analysis and investigation",
+      "Incidents are easily pushed to <a class='white-link' href='/crime-intelligence/intelligence'>InfoShare™ Intelligence</a> for further analysis and investigation",
       "Control and document information sharing with the Dissemination feature",
       "Customizable levels of incident severity, security setting, and incident priority"
     ],
@@ -830,7 +830,7 @@
     "coverImg": "csi.jpg",
     "brochure": "",
     "descHeading": "Integrate crime scene findings with criminal case management",
-    "descContent": "Named after the master detective Sherlock Holmes, Rolmes™ short for Robotic Holmes is an innovative integration of hardware, software, and robotic technology to modernize crime scene investigations. It is accessible on scene and guarantees accurate evidence and data collection, providing a knowledge base for crime scene processing and offering crime scene technicians tools that meet the highest standards for identifying, processing, and collecting evidence. Rolmes™ was conceived in collaboration with world-renowned forensic scientist, Dr. Henry Lee.",
+    "descContent": "Named after master detective Sherlock Holmes, Rolmes™ short for Robotic Holmes is an innovative integration of hardware, software, and robotic technology to modernize crime scene investigations. It is accessible on scene and guarantees accurate evidence and data collection, providing a knowledge base for crime scene processing and offering crime scene technicians tools that meet the highest standards for identifying, processing, and collecting evidence. Rolmes™ was conceived in collaboration with world-renowned forensic scientist, Dr. Henry Lee.",
     "sysFeatures": [
       {
         "title": "Physical Evidence Record Collection",

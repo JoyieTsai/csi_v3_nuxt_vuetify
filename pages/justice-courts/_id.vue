@@ -30,12 +30,19 @@
         :capabilities="capabilities"
         class="tw-my-12 xl:tw-my-28"
       />
+      <Capabilities
+        v-if="capabilities"
+        :data="capabilities"
+        class="tw-my-16 xl:tw-my-28"
+      />
       <SysFeatures v-if="sysFeatures" :tagline="sysTitle" :data="sysFeatures" />
       <Carousels
         v-if="carousels"
         :data="carousels"
         class="tw-my-12 xl:tw-my-28"
       />
+      <div v-if="extending" class="header-2 tw-text-center">Interfaces</div>
+      <Extendings v-if="extending" :data="extending" />
       <RelatedProducts :data="relatedProducts" />
       <TheTeam :pid="id" :quote="quote" class="tw-my-12 xl:tw-my-28" />
       <RelatedNews :pid="id" class="tw-my-12 xl:tw-my-28" />
@@ -66,6 +73,7 @@ export default {
     capabilities: Array,
     sysFeatures: Array,
     carousels: Array,
+    extending: Array,
     relatedProducts: Array,
     quote: String,
   }),
@@ -125,6 +133,7 @@ export default {
           this.sysTitle = Products[i].sysTitle
           this.sysFeatures = Products[i].sysFeatures
           this.carousels = Products[i].carousels
+          this.extending = Products[i].extending
           this.relatedProducts = Products[i].relatedProducts
           this.quote = Products[i].quote
         }

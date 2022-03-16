@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="280px" viewBox="0 0 280 280" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>primary-line</title>
+    <defs>
+        <linearGradient x1="50%" y1="-6.43916188%" x2="50%" y2="82.6626105%" id="linearGradient-1">
+            <stop stop-color="#0CCCEE" offset="0%"></stop>
+            <stop stop-color="#317AC4" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="140.1 6 256.234007 73.05 256.234007 207.15 140.1 274.2 23.9659934 207.15 23.9659934 73.05"></polygon>
+        <filter x="4.5%" y="-2.2%" width="91.1%" height="104.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="4" dy="5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="140 0 261.243557 70 261.243557 210 140 280 18.7564435 210 18.7564435 70"></polygon>
+        <filter x="4.6%" y="-2.1%" width="90.9%" height="104.3%" filterUnits="objectBoundingBox" id="filter-5">
+            <feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="4" dy="5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Updated" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(18.000000, 0.000000)">
+            <g id="primary-line" transform="translate(-18.000000, 0.000000)">
+                <g id="Polygon-Copy-5">
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <path stroke="#FFFFFF" stroke-width="2.016" d="M140.1,7.16393814 L255.226007,73.6319691 L255.226007,206.568031 L140.1,273.036062 L24.9739934,206.568031 L24.9739934,73.6319691 L140.1,7.16393814 Z" stroke-linejoin="square"></path>
+                </g>
+                <g id="Polygon-Copy-30" opacity="0.3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                    <path stroke="#317AC4" stroke-width="1.96" d="M140,1.13160653 L260.263557,70.5658033 L260.263557,209.434197 L140,278.868393 L19.7364435,209.434197 L19.7364435,70.5658033 L140,1.13160653 Z" stroke-linejoin="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

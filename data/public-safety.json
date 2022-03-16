@@ -130,7 +130,7 @@
         "img": "cad-6.jpg"
       },
       {
-        "title": "<a href='/capabilities' class='title-link'>Expert Interfacing</a>",
+        "title": "Expert Interfacing",
         "desc": "CSI Technology Group specializes in interfacing its solutions to a range of internal and external systems for added functionality. To overcome the information gap inherent in public safety, we leverage our technology to enable a high level of <a href='/capabilities/data-sharing' class='primary-link'>data sharing</a> across systems and jurisdictions.",
         "list": [
           "NCIC/DMV/NLETS interface",
@@ -138,7 +138,7 @@
           "Messaging subsystems",
           "Traffic cam interface",
           "GIS mapping interface",
-          "<span class='primary-link'>And many more</span>"
+          "<a href='/capabilities/interfaces' class='primary-link'>And many more</a>"
         ],
         "img": "cad-7.jpg",
         "zoomoff": true
@@ -324,7 +324,7 @@
         "img": "rms-5.jpg"
       },
       {
-        "title": "<a href='/capabilities' class='title-link'>Expert Interfacing</a> & Third-party Integration",
+        "title": "Expert Interfacing & Third-party Integration",
         "desc": "CSI Technology Group has considerable experience in interfacing its solutions with internal and external systems to promote data sharing and exchange on multiple levels—local, regional, state, and federal.",
         "list": [
           "UCR/NIBRS interface",
@@ -332,7 +332,7 @@
           "NJ MVC and NCIC interface",
           "CLEAN interface",
           "ALPR Search interface",
-          "<span class='primary-link'>And many more</span>"
+          "<a href='/capabilities/interfaces' class='primary-link'>And many more</a>"
         ],
         "img": "rms-6.jpg",
         "zoomoff": true
@@ -1090,7 +1090,7 @@
     "sysFeatures": [
       {
         "title": "Complete Case Management",
-        "desc": "Chronicle the entire IA process from the time the complain is received to the conclusion of the investigation. Personnel can generate reports and prepare related documents within the case.",
+        "desc": "Chronicle the entire IA process from the time the complaint is received to the conclusion of the investigation. Personnel can generate reports and prepare related documents within the case.",
         "list": [
           "User inbox assignment tracking",
           "Individual task assignment function",

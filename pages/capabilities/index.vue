@@ -16,7 +16,50 @@
       </Hero>
 
       <!-- Capabilities -->
+      <div class="header-2 tw-text-center tw-mt-12 xl:tw-mt-28">
+        Our Capabilities
+      </div>
       <div
+        class="
+          capabilities-diagram
+          tw-py-10
+          xl:tw-py-20
+          tw-mx-auto
+          2xl:tw-px-20
+          tw-flex tw-flex-wrap
+        "
+      >
+        <div
+          v-for="(item, index) in items"
+          :key="index"
+          :class="'capabilities-diagram--' + index"
+        >
+          <div v-if="item.type === 'icon'" class="hexagon-item norm">
+            <img
+              :src="require('@/assets/duotone/' + item.icon)"
+              alt=""
+              class="tw-w-20"
+            />
+          </div>
+          <div
+            v-else-if="item.type === 'highlight'"
+            class="hexagon-item highlight"
+            @click.prevent="routerTo(item.url)"
+          >
+            <div class="tw-text-xl tw-font-semibold">{{ item.title }}</div>
+            <div>{{ item.desc }}</div>
+          </div>
+          <div
+            v-else
+            class="hexagon-item prim"
+            @click.prevent="routerTo(item.url)"
+          >
+            <div class="tw-text-xl tw-font-semibold">{{ item.title }}</div>
+            <div>{{ item.desc }}</div>
+          </div>
+        </div>
+      </div>
+      <!-- <div
         class="
           tw-flex tw-flex-col
           md:tw-flex-row
@@ -48,13 +91,13 @@
           alt="Capabilities"
           class="md:tw-hidden"
         />
-      </div>
+      </div> -->
 
       <!-- Timeline -->
       <div
         class="
           main-container
-          tw-px-0
+          tw-px-2
           md:tw-px-10
           tw-mx-auto tw-relative tw-my-12
           xl:tw-my-28
@@ -147,53 +190,38 @@
 </template>
 
 <script>
+import Overview from '~/data/capabilities-overview.json'
+
 export default {
   data: () => ({
     category: 'capabilities',
-    title: 'Capabilities Overview',
-    subtitle: 'Core Technologies Driving the InfoShare™ System',
-    icon: 'capabilities.svg',
-    coverimg: 'capabilities.jpg',
-    descHeading:
-      'Innovative software capabilities with lasting utility and quality',
-    descContent:
-      'Existing software solutions are complex and inflexible. Third-party providers design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. In contrast, CSI has invested decades of research and development in designing scalable and adaptable software architecture, a low-code development platform, and innovations with real-world applications. With every project, we continue to grow our intellectual property and capabilities.',
-    timelines: [
-      {
-        year: '1998',
-        arrow: 't-arrow-1.svg',
-        img: 't-engine-1.svg',
-        leftImg: 't-item-2.svg',
-        rightImg: 't-item-1.svg',
-      },
-      {
-        year: '2010',
-        arrow: 't-arrow-2.svg',
-        img: 't-engine-2.svg',
-        leftImg: 't-item-4.svg',
-        rightImg: 't-item-3.svg',
-      },
-      {
-        year: '2014',
-        arrow: 't-arrow-3.svg',
-        img: 't-engine-3.svg',
-        leftImg: 't-item-6.svg',
-        rightImg: 't-item-5.svg',
-      },
-      {
-        year: '2018',
-        arrow: 't-arrow-4.svg',
-        img: 't-engine-4.svg',
-        leftImg: 't-item-7.svg',
-      },
-      {
-        year: 'Now',
-        arrow: 't-arrow-5.svg',
-      },
-    ],
+    title: String,
+    subtitle: String,
+    icon: String,
+    coverimg: String,
+    descHeading: String,
+    descContent: String,
+    items: Object,
+    timelines: Object,
   }),
-  mounted() {},
-  methods: {},
+  created() {
+    this.getData()
+  },
+  methods: {
+    getData() {
+      this.title = Overview.title
+      this.subtitle = Overview.subtitle
+      this.icon = Overview.icon
+      this.coverimg = Overview.coverImg
+      this.descHeading = Overview.descHeading
+      this.descContent = Overview.descContent
+      this.items = Overview.items
+      this.timelines = Overview.timelines
+    },
+    routerTo(id) {
+      this.$router.push({ path: '/capabilities/' + id })
+    },
+  },
 }
 </script>
 
@@ -209,6 +237,61 @@ $XL: 0.9;
 $L: 0.7;
 $M: 0.6;
 $S: 0.4;
+
+.capabilities-diagram {
+  background: url('../../assets/vectors/capabilities-bg.svg') center no-repeat;
+  background-size: cover;
+  max-width: 1900px;
+
+  & > div:nth-child(1) {
+    margin-left: 120px;
+  }
+
+  & > div:nth-child(12) {
+    margin-left: 120px;
+  }
+
+  & > div:nth-child(4) {
+    margin-right: calc(1920px - 1280px);
+  }
+
+  & > div:nth-child(18) {
+    margin-left: 480px;
+  }
+
+  .hexagon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 300px;
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    color: $white;
+    background-size: cover;
+    padding: 3rem;
+    text-align: center;
+    transition: all 0.3s;
+    margin: -45px -15px;
+
+    &.prim,
+    &.highlight {
+      cursor: pointer;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+    &.norm {
+      background-image: url('../../assets/vectors/normal.png');
+    }
+    &.prim {
+      background-image: url('../../assets/vectors/primary.png');
+    }
+    &.highlight {
+      background-image: url('../../assets/vectors/highlight.png');
+    }
+  }
+}
 
 .cd-timeline-block {
   position: relative;
@@ -243,6 +326,95 @@ $S: 0.4;
   z-index: 5;
 }
 
+@media only screen and (min-width: 1720px) and (max-width: 1880px) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(12n + 1) {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1719px) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(11n + 1) {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1320px) and (max-width: 1599px) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(10n + 1) {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1319px) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(9n + 1) {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1219px) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(8n + 1) {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1079px) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(7n + 1) {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
 @media only screen and (max-width: $breakpoints-xl) {
   .cd-timeline-block {
     height: ceil($blockL * $XL);
@@ -261,6 +433,30 @@ $S: 0.4;
   }
 }
 @media only screen and (max-width: $breakpoints-lg) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(9n + 1) {
+        margin-left: 100px;
+      }
+    }
+
+    .hexagon-item {
+      transform: scale(0.85);
+      margin: -65px -35px;
+
+      &.prim,
+      &.highlight {
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
   .cd-timeline-block {
     height: ceil($blockL * $L);
     &:last-child {
@@ -278,6 +474,32 @@ $S: 0.4;
   }
 }
 @media only screen and (max-width: $breakpoints-md) {
+  .capabilities-diagram {
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(5),
+      &:nth-child(12),
+      &:nth-child(19) {
+        margin-left: 95px;
+      }
+    }
+
+    .hexagon-item {
+      transform: scale(0.8);
+      margin: -68px -40px;
+
+      &.prim,
+      &.highlight {
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
   .cd-timeline-block {
     height: ceil($blockL * $M);
     &:last-child {
@@ -295,6 +517,34 @@ $S: 0.4;
   }
 }
 @media only screen and (max-width: $breakpoints-sm) {
+  .capabilities-diagram {
+    background: url('../../assets/vectors/capabilities-bg-s.svg') center
+      no-repeat;
+    background-size: contain;
+
+    & > div:nth-child(n) {
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    & > div {
+      &:nth-child(5n + 1) {
+        margin-left: 62px;
+      }
+    }
+
+    .hexagon-item {
+      transform: scale(0.52);
+      margin: -96px -73px;
+
+      &.prim,
+      &.highlight {
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
   .cd-timeline-block {
     height: 100px;
     &:last-child {
@@ -309,6 +559,52 @@ $S: 0.4;
     width: 90px;
     height: 85px;
     top: ceil($topH * $S);
+  }
+}
+
+@media only screen and (max-width: $breakpoints-xs) {
+  .capabilities-diagram {
+    max-width: 375px;
+    & > div {
+      &:nth-child(5n + 1) {
+        margin-left: 60px;
+      }
+    }
+
+    .hexagon-item {
+      transform: scale(0.52);
+      margin: -98px -74px;
+
+      &.prim,
+      &.highlight {
+        &:hover {
+          transform: none;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .capabilities-diagram {
+    max-width: 320px;
+    & > div {
+      &:nth-child(5n + 1) {
+        margin-left: 53px;
+      }
+    }
+
+    .hexagon-item {
+      transform: scale(0.45);
+      margin: -105px -82px;
+
+      &.prim,
+      &.highlight {
+        &:hover {
+          transform: none;
+        }
+      }
+    }
   }
 }
 </style>

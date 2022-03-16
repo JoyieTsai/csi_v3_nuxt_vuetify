@@ -18,7 +18,7 @@
         </div>
       </div>
       <!-- Search Bar -->
-      <div class="main-container tw-mx-auto tw-pb-10 xl:tw-pb-20">
+      <!-- <div class="main-container tw-mx-auto tw-pb-10 xl:tw-pb-20">
         <div class="tw-flex">
           <div class="tw-flex-auto tw-relative">
             <div
@@ -35,36 +35,36 @@
               "
             >
               <v-text-field
-                height="44"
-                placeholder="Search articles"
-                append-outer-icon="mdi-magnify"
+                v-model="keyword"
+                height="36"
+                placeholder="Search"
+                prepend-inner-icon="mdi-magnify"
                 clear-icon="mdi-close"
                 clearable
                 dark
-                @click:append-outer="onSearch"
+                class="tw-text-lg"
               ></v-text-field>
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- Latest Story -->
-      <FeaturedArticle />
+      <FeaturedArticle class="tw-mb-12 xl:tw-mb-28" />
       <!-- Articles -->
-      <div class="main-container tw-mx-auto tw-my-12 xl:tw-my-28">
-        <div class="header-2 tw-text-center tw-mb-6 xl:tw-mb-12">
-          Explore All Articles
-        </div>
-        <!-- <v-text-field
-            v-model="keyword"
-            height="50"
-            clearable
-            solo
-            single-line
-            hide-details
-            placeholder="Search resources…"
-            prepend-inner-icon="search"
-          ></v-text-field> -->
+      <div class="main-container tw-mx-auto tw-mb-12 xl:tw-mb-28">
+        <div class="header-2 tw-text-center">Explore All Articles</div>
         <v-container fluid pa-0>
+          <div class="tw-w-80 tw-ml-auto">
+            <v-text-field
+              v-model="keyword"
+              height="36"
+              placeholder="Search"
+              prepend-inner-icon="mdi-magnify"
+              clear-icon="mdi-close"
+              clearable
+              class="tw-text-lg"
+            ></v-text-field>
+          </div>
           <v-row>
             <v-col
               sm="3"
@@ -115,22 +115,17 @@
                     Product & Solution
                   </div>
                   <div>
-                    <v-radio-group v-model="radioGroup">
-                      <div
-                        v-for="(tag, index) in tags.solution"
-                        :key="index"
-                        class="tw-flex tw-mb-1"
-                      >
-                        <v-radio
-                          color="primary"
-                          :value="tag.value"
-                          @click.prevent="changeTag(tag.value)"
-                        ></v-radio>
-                        <label class="tw-text-sm xl:tw-text-base">{{
-                          tag.name
-                        }}</label>
-                      </div>
-                    </v-radio-group>
+                    <div v-for="(tag, index) in tags.solution" :key="index">
+                      <v-checkbox
+                        v-model="selected"
+                        color="primary"
+                        :label="tag.name"
+                        :value="tag.value"
+                        class="tw-text-sm xl:tw-text-base"
+                        hide-details
+                        @click.prevent="changeTag(selected)"
+                      ></v-checkbox>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -146,7 +141,6 @@
                 :page="page"
                 :search="keyword"
                 no-data-text="No data found."
-                hide-default-footer
               >
                 <template v-slot:default="props">
                   <div
@@ -206,7 +200,7 @@
                     </div>
                   </div>
                 </template>
-                <template v-slot:footer>
+                <!-- <template v-slot:footer>
                   <v-row class="ma-0" align="center" justify="center">
                     <span class="grey--text">Items</span>
                     <v-menu offset-y>
@@ -241,26 +235,8 @@
                       :length="numberOfPages"
                       :total-visible="7"
                     ></v-pagination>
-                    <!-- <v-btn
-                      fab
-                      dark
-                      color="blue darken-3"
-                      class="mr-1"
-                      @click="formerPage"
-                    >
-                      <v-icon>mdi-chevron-left</v-icon>
-                    </v-btn>
-                    <v-btn
-                      fab
-                      dark
-                      color="blue darken-3"
-                      class="ml-1"
-                      @click="nextPage"
-                    >
-                      <v-icon>mdi-chevron-right</v-icon>
-                    </v-btn> -->
                   </v-row>
-                </template>
+                </template> -->
               </v-data-iterator>
             </v-col>
           </v-row>
@@ -285,6 +261,7 @@ export default {
     filteredArticles: [],
     keyword: '',
     radioGroup: 'all',
+    selected: [],
     page: 1,
     itemsPerPageArray: [6, 12, 18],
     itemsPerPage: 12,
@@ -294,6 +271,21 @@ export default {
     ...mapGetters(['filterArticles']),
     numberOfPages() {
       return Math.ceil(this.filterArticles.length / this.itemsPerPage)
+    },
+    filteredData() {
+      const conditions = []
+      if (this.keyword) {
+        conditions.push(this.filterKeywords)
+      }
+
+      if (conditions.length > 0) {
+        return this.articleList.filter((art) => {
+          return conditions.every((con) => {
+            return con(art)
+          })
+        })
+      }
+      return this.articleList
     },
   },
   watch: {
@@ -316,7 +308,6 @@ export default {
       this.changeFilteredType(type)
     },
     changeTag(tag) {
-      this.radioGroup = tag
       this.changeFilteredTag(tag)
     },
     routerToArticle(id) {

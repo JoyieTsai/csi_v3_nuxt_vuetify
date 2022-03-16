@@ -2,41 +2,115 @@
   {
     "id": "county-prosecution",
     "title": "County Prosecution",
-    "subtitle": "coming soon...",
+    "subtitle": "Web-based Criminal Case and Document Management",
     "icon": "prosecution.svg",
-    "coverImg": "",
+    "coverImg": "county_prosecution.jpg",
     "brochure": "Prosecutor.pdf",
-    "descHeading": "",
-    "descContent": "",
+    "descHeading": "Support criminal litigation and efficiently handle special case types",
+    "descContent": "InfoShare™ eProsecution is a powerful and flexible system designed specifically for prosecutors and district attorneys to manage workloads, streamline workflow, and maintain integrity in criminal justice processes including pre-trial, trial, post-adjudication, and special case types. Expert interfacing enables seamless data exchange between prosecutor/DA offices, sheriff’s offices, police departments, and courts. Moreover, integrated modules can be added for case support such as discovery, investigation, victim services, and much more. ",
+    "capabilities": [
+      {
+        "title": "Total Solution",
+        "icon": "icon-total_solution_outline",
+        "img": "TotalSolution.jpg",
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoShare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+      },
+      {
+        "title": "Interoperability",
+        "icon": "icon-interoperability_outline",
+        "img": "Interoperability.jpg",
+        "desc": "InfoShare™ solutions feature end-to-end interoperability for enhanced coordination and collaboration among multiple jurisdictions, departments, and agencies. Linking disparate systems and external data sources including radio, voice recorders, traffic cameras, and records management solutions facilitates interagency sharing of mission-critical information."
+      },
+      {
+        "title": "Mobile Operations",
+        "icon": "icon-mobile_operations_outline",
+        "img": "MobileOperations.jpg",
+        "desc": "The integrated <a href='/public-safety/mobile-operations' class='primary-link'>MDT application</a> is specifically optimized for mobile operations and workflow. Streamlined functions in one place offer a better experience on mobile data terminals and tablets. First responders receive real-time information and alerts in the field for enhanced situational awareness. "
+      },
+      {
+        "title": "Cloud Compatibility",
+        "icon": "icon-cloud_integration_outline",
+        "img": "CloudCompatibility.jpg",
+        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+      },
+      {
+        "title": "Security",
+        "icon": "icon-security_force_outline",
+        "img": "Security.jpg",
+        "desc": "Our CJIS-compliant CAD system ensures stringent security measures on data encryption, wireless networking, and system access. Users can log in to multiple applications with a single ID (SSO) combined with two-factor authentication. Data access privileges are established through role- or case-based safeguards, making sure that only authorized individuals have access to relevant functions or data."
+      }
+    ],
+    "extending": [
+      {
+        "title": "AOC Interface",
+        "icon": "aoc.svg"
+      },
+      {
+        "title": "eCDR Interface",
+        "icon": "ecdr.svg"
+      },
+      {
+        "title": "FACTS Interface",
+        "icon": "facts.svg"
+      },
+      {
+        "title": "RMS Interface",
+        "icon": "rms.svg"
+      },
+      {
+        "title": "JV ePETITION Interface",
+        "icon": "juvenile.svg"
+      },
+      {
+        "title": "JV RMS Interface",
+        "icon": "jv_rms.svg"
+      },
+      {
+        "title": "NJSP Interface",
+        "icon": "police.svg"
+      },
+      {
+        "title": "VW ECOURT Interface",
+        "icon": "vw.svg"
+      },
+      {
+        "title": "CIVIL Interface",
+        "icon": "civil.svg"
+      },
+      {
+        "title": "And More",
+        "icon": "interfaces.svg"
+      }
+    ],
     "relatedProducts": [
       {
-        "title": "County Prosecution",
-        "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "title": "Courts",
+        "icon": "icon-court_solid",
+        "link": "justice-courts/courts"
       },
       {
-        "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
       },
       {
-        "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
       },
       {
-        "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
-        "link": "justice-courts/attorney-ethics"
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
       },
       {
-        "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
-        "link": "justice-courts/municipal-attorney"
+        "title": "Victim / Witness with Portal",
+        "icon": "icon-vw_solid",
+        "link": "justice-courts/vw-portal"
       }
     ],
     "quote": {
-      "content": ""
+      "content": "Hope for the best, but prepare for the worst"
     }
   },
   {
@@ -57,12 +131,12 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "Public Defender",
         "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
+        "link": ""
       },
       {
         "title": "Attorney Ethics",
@@ -175,12 +249,12 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "Public Defender",
         "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
+        "link": ""
       },
       {
         "title": "County Prosecution",
@@ -249,7 +323,7 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "County Prosecution",
@@ -259,7 +333,7 @@
       {
         "title": "Public Defender",
         "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
+        "link": ""
       }
     ],
     "quote": {
@@ -284,7 +358,7 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "Public Defender",
@@ -378,7 +452,7 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "County Prosecution",
@@ -413,12 +487,12 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "Public Defender",
         "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
+        "link": ""
       },
       {
         "title": "Attorney Ethics",
@@ -485,12 +559,12 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "Public Defender",
         "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
+        "link": ""
       },
       {
         "title": "Attorney Ethics",
@@ -557,7 +631,7 @@
         "list": [
           "VOCA Report",
           "Sexual Assault Response and Referrals Report",
-          "Sexual Assault Nurse (SANE) Rxaminer PMT Report",
+          "Sexual Assault Nurse (SANE) Examiner PMT Report",
           "VAWA Muskie Report",
           "Victim Service Time Tracker"
         ],
@@ -596,7 +670,7 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "Courts",
@@ -684,7 +758,7 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "eDiscovery with Portal",
@@ -791,12 +865,12 @@
       {
         "title": "Attorney General",
         "icon": "icon-attorney_general_solid",
-        "link": "justice-courts/attorney-general"
+        "link": ""
       },
       {
         "title": "Public Defender",
         "icon": "icon-public_defender_solid",
-        "link": "justice-courts/public-defender"
+        "link": ""
       },
       {
         "title": "Attorney Ethics",

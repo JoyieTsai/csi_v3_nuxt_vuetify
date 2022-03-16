@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="234px" height="269px" viewBox="0 0 234 269" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>primary</title>
+    <defs>
+        <linearGradient x1="50%" y1="-6.43916188%" x2="50%" y2="82.6626105%" id="linearGradient-1">
+            <stop stop-color="#0CCCEE" offset="0%"></stop>
+            <stop stop-color="#317AC4" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="122.1 6 238.234007 73.05 238.234007 207.15 122.1 274.2 5.96599335 207.15 5.96599335 73.05"></polygon>
+        <filter x="4.5%" y="-2.2%" width="91.1%" height="104.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="3.5" in="SourceAlpha" result="shadowBlurInner1"></feGaussianBlur>
+            <feOffset dx="4" dy="5" in="shadowBlurInner1" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Updated" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="primary" transform="translate(-5.000000, -6.000000)">
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <path stroke="#FFFFFF" stroke-width="2.016" d="M122.1,7.16393814 L237.226007,73.6319691 L237.226007,206.568031 L122.1,273.036062 L6.97399335,206.568031 L6.97399335,73.6319691 L122.1,7.16393814 Z" stroke-linejoin="square"></path>
+        </g>
+    </g>
+</svg>

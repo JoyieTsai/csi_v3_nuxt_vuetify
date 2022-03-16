@@ -29,7 +29,7 @@ export default {
     category: 'public-safety',
     title: 'Public Safety Overview',
     subtitle:
-      'Integrated Public Safety software suite to enhance eGovernment operations, supporting Police, Fire, and EMS personnel in their day to day.',
+      'Enhance eGovernment Operations and Support Police, Fire, and EMS Personnel',
     icon: 'public_safety.svg',
     coverimg: 'public-safety.jpg',
     descHeading: 'United in response and communication',

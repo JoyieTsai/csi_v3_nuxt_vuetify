@@ -93,11 +93,21 @@
 }
 
 .input-light {
-  .v-input__slot, .v-text-field__slot {
+  .v-input__slot,
+  .v-text-field__slot {
     background-color: #eaf1f9 !important;
   }
 }
 
-.v-input__slot, .v-text-field__slot {
+.v-input__slot,
+.v-text-field__slot {
   box-shadow: none !important;
+}
+
+.v-text-field input {
+  padding: 10px 0 10px !important;
+}
+
+.theme--light.v-label {
+  color: $dark-color !important;
 }

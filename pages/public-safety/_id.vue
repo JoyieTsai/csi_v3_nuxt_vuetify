@@ -35,14 +35,17 @@
         :data="capabilities"
         class="tw-my-16 xl:tw-my-28"
       />
-      <SysFeatures v-if="sysFeatures" :tagline="sysTitle" :data="sysFeatures" />
-      <Extendings
-        v-if="extending"
-        :name="name"
-        :data="extending"
-        class="tw-my-12 xl:tw-my-28"
+      <SysFeatures
+        v-if="sysFeatures"
+        :tagline="sysTitle"
+        :data="sysFeatures"
+        class="tw-my-16 xl:tw-my-28"
       />
-      <Partnerships v-if="id === 'fire-ems'" />
+      <div v-if="extending" class="header-2 tw-text-center">
+        Extending <span v-if="name">{{ name }}</span>
+      </div>
+      <Extendings v-if="extending" :data="extending" />
+      <Partnerships v-if="id === 'fire-ems'" class="tw-my-12 xl:tw-my-28" />
       <RelatedProducts :data="relatedProducts" />
       <TheTeam :pid="id" :quote="quote" class="tw-my-12 xl:tw-my-28" />
       <RelatedNews :pid="id" class="tw-my-12 xl:tw-my-28" />

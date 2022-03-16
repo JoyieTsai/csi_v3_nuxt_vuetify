@@ -16,7 +16,7 @@
       "
     >
       <div
-        v-for="(article, i) in articles"
+        v-for="(article, i) in getRelatedNews"
         :key="i"
         class="tw-flex-1 tw-cursor-pointer"
         @click.prevent="routerToArticle(article.id)"
@@ -56,6 +56,7 @@
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import Articles from '~/data/articles.json'
 
 export default {
@@ -63,9 +64,55 @@ export default {
   data: () => ({
     articles: '',
   }),
+  computed: {
+    ...mapState(['articleList', 'tags', 'currentArticle']),
+    getRelatedNews() {
+      const arr = this.id
+      const resultArr = []
+
+      this.articleList.forEach((item) => {
+        if (item.tags) {
+          item.tags.forEach((res) => {
+            if (res.name === arr) {
+              resultArr.push(item)
+            }
+          })
+        }
+      })
+
+      const finalArr = resultArr.reduce((acc, current) => {
+        const x = acc.find((item) => item.id === current.id)
+        if (!x) {
+          return acc.concat([current])
+        } else {
+          return acc
+        }
+      }, [])
+
+      if (finalArr.length > 5) {
+        finalArr.sort((a, b) => {
+          if (a.rating === b.rating) {
+            if (new Date(a.date) > new Date(b.date)) {
+              return 1
+            }
+          } else if (a.rating > b.rating) {
+            return 1
+          } else {
+            return -1
+          }
+          return -1
+        })
+        return finalArr.slice(0, 4)
+      } else {
+        const latestNews = this.articleList
+        return latestNews.slice(0, 4)
+      }
+    },
+  },
   mounted() {
     this.getLatestArticles()
   },
+
   methods: {
     getLatestArticles() {
       const sortArr = Articles.sort(

@@ -7,7 +7,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.7.8-03082022',
+    dir: 'test-V1.7.9-03162022',
   },
 
   /*
@@ -59,7 +59,7 @@ export default {
   css: [
     { src: '@/assets/tailwind.scss', lang: 'scss' },
     { src: '@/assets/style.scss', lang: 'scss' },
-    '@/assets/fonts/CSI-icon-v2.2/style.css',
+    '@/assets/fonts/CSI-icon-v2.3/style.css',
     '@/assets/swiper.css',
   ],
 

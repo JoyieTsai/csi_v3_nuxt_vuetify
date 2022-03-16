@@ -31,7 +31,7 @@
         <div
           v-for="(item, index) in data"
           :key="index"
-          class="tw-flex tw-flex-col lg:tw-flex-row tw-py-5"
+          class="tw-flex tw-flex-col lg:tw-flex-row tw-pt-5 xl:tw-pt-10"
         >
           <div
             :class="[
@@ -95,7 +95,7 @@
 
           <div
             v-else
-            class="tw-w-full tw-flex-1 tw-p-5"
+            class="tw-w-full tw-flex-1 tw-px-5"
             :data-aos="index % 2 == 0 ? 'fade-right' : 'fade-left'"
             data-aos-duration="1500"
             data-aos-once="true"

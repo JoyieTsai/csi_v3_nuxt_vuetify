@@ -114,6 +114,11 @@
   }
 }
 
+.white-link {
+  color: $white !important;
+  text-decoration: underline;
+}
+
 .v-btn {
   font-size: $body-3-size !important;
   letter-spacing: $btn-letter-spacing !important;
