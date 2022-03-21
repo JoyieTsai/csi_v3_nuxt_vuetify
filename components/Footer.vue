@@ -183,7 +183,6 @@ export default {
     footerLinks: [
       { title: 'Terms of Service', url: 'terms' },
       { title: 'Privacy Policy', url: 'policy' },
-      { title: 'Security', url: 'security' },
     ],
   }),
   methods: {},

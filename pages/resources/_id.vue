@@ -39,8 +39,8 @@
             class="
               tw-hidden
               md:tw-block
-              lg:tw-w-32
-              xl:tw-w-44
+              lg:tw-w-24
+              xl:tw-w-40
               2xl:tw-mt-96
               tw-mt-24
               md:tw-mt-52
@@ -68,7 +68,9 @@
             </div>
           </div>
 
-          <div class="tw-w-full md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl">
+          <div
+            class="tw-w-full tw-flex-1 md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl"
+          >
             <div class="tw-bg-white">
               <img :src="'images/news/' + acover" :alt="acover" />
               <div class="tw-p-5 md:tw-p-10">
@@ -159,7 +161,7 @@
                   "
                 >
                   <!-- eslint-disable-next-line vue/no-v-html -->
-                  <div class="news-body" v-html="abody"></div>
+                  <div class="news-body lg:tw-text-xl" v-html="abody"></div>
                 </div>
               </div>
             </div>
@@ -247,6 +249,7 @@ export default {
     atype: '',
     atags: '',
     acover: '',
+    abrief: '',
     abody: '',
     networks: [
       {
@@ -307,7 +310,25 @@ export default {
     head() {
       return {
         titleTemplate: this.atitle + ' - %s',
-        meta: [{ name: 'description', content: this.title }],
+        meta: [
+          { property: 'og:title', content: this.atitle },
+          { property: 'og:description', content: this.abrief },
+          {
+            property: 'og:image:secure_url',
+            content: 'https://www.csitech.com/img/news/' + this.acover,
+          },
+          {
+            property: 'og:url',
+            content: 'https://www.csitech.com/resources/' + this.aid,
+          },
+          { property: 'twitter:card', content: 'summary_large_image' },
+          { property: 'twitter:title', content: this.atitle },
+          { property: 'twitter:description', content: this.abrief },
+          {
+            property: 'twitter:image',
+            content: 'https://www.csitech.com/img/news/' + this.acover,
+          },
+        ],
       }
     },
     getData(id) {
@@ -319,6 +340,7 @@ export default {
           this.atype = Articles[i].type
           this.atags = Articles[i].tags
           this.acover = Articles[i].cover
+          this.abrief = Articles[i].brief
           this.abody = Articles[i].body
           return
         }
@@ -358,7 +380,7 @@ export default {
       margin-bottom: 3em;
       color: grey;
       font-style: italic;
-      font-size: 14px;
+      font-size: 16px;
     }
   }
 
@@ -378,6 +400,10 @@ export default {
     margin-top: 0.5rem;
     margin-bottom: 0.75em;
     font-weight: 600;
+    font-size: $body-1-size;
+    @media only screen and (max-width: $breakpoints-md) {
+      font-size: $body-3-size;
+    }
   }
 
   ul {
@@ -396,7 +422,7 @@ export default {
   }
 
   hr {
-    opacity: 0.2;
+    opacity: 0.7;
     margin-top: 3em;
     margin-bottom: 1em;
   }
@@ -457,11 +483,17 @@ export default {
     }
     footer {
       margin-top: 2rem;
-      font-size: 0.9rem;
+      font-size: 1rem;
       position: relative;
       z-index: 2;
+      @media only screen and (max-width: $breakpoints-md) {
+        font-size: 0.9rem;
+      }
       b {
-        font-size: 1rem;
+        font-size: $body-2-size;
+        @media only screen and (max-width: $breakpoints-md) {
+          font-size: 1rem;
+        }
       }
     }
   }

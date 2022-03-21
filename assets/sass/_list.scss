@@ -15,8 +15,11 @@
     height: 10px;
     background-color: $primary-color;
     border-radius: 5px;
-    top: 10px;
+    top: 7px;
     left: -1.85rem;
+    @media only screen and (max-width: $breakpoints-sm) {
+      top: 5px;
+    }
   }
 }
 

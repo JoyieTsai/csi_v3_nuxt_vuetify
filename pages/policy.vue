@@ -492,7 +492,6 @@ export default {
     links: [
       { title: 'Terms of Service', url: 'terms' },
       { title: 'Privacy Policy', url: 'policy' },
-      { title: 'Security', url: 'security' },
     ],
   }),
   head() {

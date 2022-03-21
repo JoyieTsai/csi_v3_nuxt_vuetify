@@ -32,6 +32,8 @@
               tw-tracking-normal
               tw-break-word
               tw-whitespace-normal
+              tw-my-2
+              tw-text-left
             "
           >
             {{ data.position }}

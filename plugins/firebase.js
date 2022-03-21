@@ -1,22 +1,19 @@
-import firebase from 'firebase/app'
-import "firebase/firestore";
+import { initializeApp } from "firebase/app";
+
 
 // Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-    apiKey: "AIzaSyBz0Gcowcc7RBRL_cU2nGK2AlcIabDOk1A",
-    authDomain: "csi-website-70421.firebaseapp.com",
-    databaseURL: "https://csi-website-70421.firebaseio.com",
-    projectId: "csi-website-70421",
-    storageBucket: "csi-website-70421.appspot.com",
-    messagingSenderId: "891913750521",
-    appId: "1:891913750521:web:4c3ebf32efceaa8908df28"
-  }
+  apiKey: "AIzaSyAxEz3yuTKF7dmGWNQGHzIz4sieAPFV6GY",
+  authDomain: "csi-web3-resources.firebaseapp.com",
+  databaseURL: "https://csi-web3-resources-default-rtdb.firebaseio.com",
+  projectId: "csi-web3-resources",
+  storageBucket: "csi-web3-resources.appspot.com",
+  messagingSenderId: "569732863480",
+  appId: "1:569732863480:web:bdfdea53ed5d7afbaaf20d",
+  measurementId: "G-HNE5XD0V2E"
+};
 
-// Initialize Firebase
-if(!firebase.apps.length) {
-  firebase.initializeApp(firebaseConfig);
-  //firebase.analytics();
-}
 
-const fireDb = firebase.firestore()
+const fireDb = initializeApp(firebaseConfig);
 export { fireDb }

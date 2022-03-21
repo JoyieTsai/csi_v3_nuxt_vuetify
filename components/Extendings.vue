@@ -4,10 +4,9 @@
       class="
         tw-mt-8
         lg:tw-mt-16
-        tw-pb-3 tw-grid
-        2xl:tw-grid-cols-5
+        tw-pb-3 tw-grid tw-grid-cols-2
         lg:tw-grid-cols-4
-        sm:tw-grid-cols-2
+        2xl:tw-grid-cols-5
         tw-gap-5
       "
     >

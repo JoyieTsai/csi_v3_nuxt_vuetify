@@ -21,16 +21,16 @@
           transition="slide-y-transition"
         >
           <template v-slot:activator="{ on, attrs }">
-            <v-btn
+            <!-- <v-btn
               v-if="data.category === 'resources'"
               text
               class="capitalize"
               :to="'/' + data.url"
             >
               {{ data.title }}
-            </v-btn>
+            </v-btn> -->
             <v-btn
-              v-else-if="data.url"
+              v-if="data.url"
               text
               class="capitalize"
               v-bind="attrs"
@@ -90,10 +90,10 @@
           'tw-items-center tw-justify-end',
         ]"
       >
-        <v-btn icon @click.prevent="routerTo('/search')">
+        <!-- <v-btn icon @click.prevent="routerTo('/search')">
           <v-icon>mdi-magnify</v-icon>
         </v-btn>
-        <v-divider vertical class="tw-h-4"></v-divider>
+        <v-divider vertical class="tw-h-4"></v-divider> -->
         <v-btn text href="tel:123-456-7890" class="primary-text tw-text-2xl"
           >1-732-346-0200</v-btn
         >
@@ -108,9 +108,9 @@
       </div>
       <!-- Mobile Menu -->
       <div :class="[$vuetify.breakpoint.mdAndDown ? '' : 'tw-hidden']">
-        <v-btn icon @click.prevent="routerTo('/search')">
+        <!-- <v-btn icon @click.prevent="routerTo('/search')">
           <v-icon>mdi-magnify</v-icon>
-        </v-btn>
+        </v-btn> -->
         <!-- <v-btn icon href="/login" target="_blank">
           <v-icon>mdi-account-outline</v-icon>
         </v-btn> -->

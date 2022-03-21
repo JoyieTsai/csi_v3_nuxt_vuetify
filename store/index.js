@@ -46,7 +46,6 @@ export const actions = {
 export const getters = {
   filterArticles: (state) => {
     if (state.filterType === 'all') { // type = all
-      console.log(1)
       if (state.filterTag.length > 0) { // have selected tags
         const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
         const result = []
@@ -59,12 +58,12 @@ export const getters = {
             })
           })
         })
-        return result
+        const final = [...new Set(result)]
+        return final
       } else { // no selected tags
         return state.articleList
       }
     } else if (state.filterTag.length > 0) { // type = others
-      console.log(2)
       const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
       const filteredType = filtered.filter((filtered) => filtered.type === state.filterType) // get all articles with tags
       const result = []
@@ -80,8 +79,6 @@ export const getters = {
       const final = [...new Set(result)]
       return final
     } else {
-      console.log(3)
-      console.log(state.filterTag)
       return state.articleList.filter((art) => art.type === state.filterType)
     }
   },

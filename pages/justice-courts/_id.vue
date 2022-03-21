@@ -35,6 +35,8 @@
         :data="capabilities"
         class="tw-my-16 xl:tw-my-28"
       />
+      <Categories v-if="categories" :data="categories"
+        class="tw-my-16 xl:tw-my-28" />
       <SysFeatures v-if="sysFeatures" :tagline="sysTitle" :data="sysFeatures" />
       <Carousels
         v-if="carousels"
@@ -71,6 +73,7 @@ export default {
     highlightImg: String,
     highlights: Array,
     capabilities: Array,
+    categories: Array,
     sysFeatures: Array,
     carousels: Array,
     extending: Array,
@@ -130,6 +133,7 @@ export default {
           this.highlightImg = Products[i].highlightImg
           this.highlights = Products[i].highlights
           this.capabilities = Products[i].capabilities
+          this.categories = Products[i].categories
           this.sysTitle = Products[i].sysTitle
           this.sysFeatures = Products[i].sysFeatures
           this.carousels = Products[i].carousels

@@ -96,13 +96,6 @@ export default {
 </script>
 
 <style lang="scss">
-.tabicon {
-  color: inherit;
-  font-size: 3rem;
-  @media only screen and (max-width: $breakpoints-sm) {
-    font-size: 2.2rem;
-  }
-}
 .h-capabilities {
   height: 500px;
   @media (max-width: $breakpoints-2xl) {

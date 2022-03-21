@@ -1,13 +1,57 @@
 import colors from 'vuetify/es5/util/colors'
+import axios from "axios";
+
+const dynamicRoutes = async () => {
+  const resArticles = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')
+  const resPS = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json')
+  const resJC = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json')
+  const resCI = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/crime-intelligence.json')
+  const resCapabilities = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/capabilities.json')
+
+  const routesForArticles = resArticles.data.map(art => {
+      return {
+          route: `/resources/${art.id}`,
+          payload: art
+      }
+  })
+  const routesForPS = resPS.data.map(pro => {
+      return {
+          route: `/public-safety/${pro.id}`,
+          payload: pro
+      }
+  })
+  const routesForJC = resJC.data.map(pro => {
+      return {
+          route: `/justice-courts/${pro.id}`,
+          payload: pro
+      }
+  })
+  const routesForCI = resCI.data.map(pro => {
+      return {
+          route: `/crime-intelligence/${pro.id}`,
+          payload: pro
+      }
+  })
+  const routesForCapabilities = resCapabilities.data.map(cap => {
+      return {
+          route: `/capabilities/${cap.id}`,
+          payload: cap
+      }
+  })
+
+  const routes = routesForArticles.concat(routesForPS, routesForJC, routesForCI, routesForCapabilities)
+  return routes
+};
 
 export default {
   server: {
-    port: '8080', // default: 3000
     host: 'localhost', // default: localhost
+    port: '8000', // default: 3000
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.7.9-03162022',
+    dir: 'test-V1.7.9-03212022',
+    routes: dynamicRoutes,
   },
 
   /*
@@ -91,13 +135,14 @@ export default {
   ],
   firebase: {
     config: {
-      apiKey: "AIzaSyBz0Gcowcc7RBRL_cU2nGK2AlcIabDOk1A",
-      authDomain: "csi-website-70421.firebaseapp.com",
-      databaseURL: "https://csi-website-70421.firebaseio.com",
-      projectId: "csi-website-70421",
-      storageBucket: "csi-website-70421.appspot.com",
-      messagingSenderId: "891913750521",
-      appId: "1:891913750521:web:4c3ebf32efceaa8908df28"
+      apiKey: "AIzaSyAxEz3yuTKF7dmGWNQGHzIz4sieAPFV6GY",
+      authDomain: "csi-web3-resources.firebaseapp.com",
+      databaseURL: "https://csi-web3-resources-default-rtdb.firebaseio.com",
+      projectId: "csi-web3-resources",
+      storageBucket: "csi-web3-resources.appspot.com",
+      messagingSenderId: "569732863480",
+      appId: "1:569732863480:web:bdfdea53ed5d7afbaaf20d",
+      measurementId: "G-HNE5XD0V2E"
     },
     services: {
       realtimeDb: true // this is the realtime database service
@@ -129,37 +174,51 @@ export default {
       '/sweepstakes-rules',
     ],
     routes: [
-      '/about/',
-      '/products/public-safety/cad/',
-      '/products/public-safety/rms/',
-      '/products/public-safety/fire-ems/',
-      '/products/public-safety/mobile-operations/',
-      '/products/public-safety/citation-management/',
-      '/products/public-safety/evidence/',
-      '/products/public-safety/internal-affairs/',
-      '/products/public-safety/municipal-portal/',
-      '/products/public-safety/municipal-system/',
-      '/products/public-safety/personnel-scheduling/',
-      '/products/justice-courts/attorney-ethics/',
-      '/products/justice-courts/courts/',
-      '/products/justice-courts/courts-efiling/',
-      '/products/justice-courts/ediscovery-with-portal/',
-      '/products/justice-courts/interview-recording/',
-      '/products/justice-courts/online-transcription-service/',
-      '/products/justice-courts/prosecutor/',
-      '/products/justice-courts/vw-portal/',
-      '/products/crime-intelligence/alpr/',
-      '/products/crime-intelligence/analytics/',
-      '/products/crime-intelligence/csi/',
-      '/products/crime-intelligence/fusion-center/',
-      '/products/crime-intelligence/global-search/',
-      '/products/crime-intelligence/intelligence/',
-      '/products/crime-intelligence/investigation/',
-      '/products/crime-intelligence/major-incident-management/',
-      '/products/crime-intelligence/sar/',
-      '/resources/',
-      '/contact/',
-      '/jobs/',
+      '/about',
+      '/careers',
+      '/contact',
+      '/job',
+      '/policy',
+      '/terms',
+      '/public-safety',
+      '/public-safety/cad',
+      '/public-safety/rms',
+      '/public-safety/fire-ems',
+      '/public-safety/mobile-operations',
+      '/public-safety/citation-management',
+      '/public-safety/personnel-scheduling',
+      '/public-safety/evidence',
+      '/public-safety/internal-affairs',
+      '/justice-courts/county-prosecution',
+      '/justice-courts/courts-efiling',
+      '/justice-courts/ediscovery-with-portal',
+      '/justice-courts/attorney-ethics',
+      '/justice-courts/online-transcription-service',
+      '/justice-courts/interview-recording',
+      '/justice-courts/vw-portal',
+      '/justice-courts/courts',
+      '/crime-intelligence/investigation',
+      '/crime-intelligence/intelligence',
+      '/crime-intelligence/fusion-center',
+      '/crime-intelligence/analytics',
+      '/crime-intelligence/csi',
+      '/crime-intelligence/sar',
+      '/crime-intelligence/global-search',
+      '/crime-intelligence/major-incident-management',
+      '/crime-intelligence/alpr',
+      '/capabilities',
+      '/capabilities/interfaces',
+      '/capabilities/data-analytics',
+      '/capabilities/data-mapping', 
+      '/capabilities/cloud-integration', 
+      '/capabilities/low-code', 
+      '/capabilities/vertical-integration', 
+      '/capabilities/infoShare-engine', 
+      '/capabilities/doc-template-generation', 
+      '/capabilities/security', 
+      '/capabilities/data-sharing', 
+      '/capabilities/data-migration', 
+      '/resources',
     ]
   },
 

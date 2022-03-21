@@ -18,9 +18,16 @@
           <div
             v-for="(item, index) in data.items"
             :key="index"
-            class="tw-bg-white tw-p-4 tw-flex tw-items-center zoomin"
+            class="
+              tw-bg-white tw-p-4 tw-flex tw-flex-col
+              sm:tw-flex-row
+              tw-items-center
+              zoomin
+            "
           >
-            <div class="tw-text-4xl xl:tw-text-5xl text-primary-light tw-mr-4">
+            <div
+              class="tw-text-4xl xl:tw-text-5xl text-primary-light sm:tw-mr-4"
+            >
               <i :class="item.icon"></i>
             </div>
             <div
@@ -28,7 +35,8 @@
                 tw-text-lg
                 xl:tw-text-xl
                 2xl:tw-text-2xl
-                tw-text-left tw-font-semibold
+                sm:tw-text-left
+                tw-font-semibold
               "
             >
               {{ item.name }}
