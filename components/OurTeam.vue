@@ -218,7 +218,6 @@
               {{ popPosition }}
             </div>
             <div class="border-primary tw-mt-4 tw-mb-8"></div>
-            <!-- eslint-disable-next-line vue/no-v-html -->
             <div class="tw-text-sm lg:tw-text-base" v-html="popDesc"></div>
           </div>
         </div>

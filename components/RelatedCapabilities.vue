@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="main-container tw-m-auto">
     <div class="tw-flex tw-flex-col tw-mb-10">
@@ -5,7 +6,6 @@
         {{ title }}
       </div>
       <div class="border-primary tw-my-2 lg:tw-my-5"></div>
-      <!-- eslint-disable-next-line vue/no-v-html -->
       <div
         class="
           tw-text-sm

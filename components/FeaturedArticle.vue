@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="main-container tw-mx-auto">
     <div class="2xl:tw-mx-20 tw-relative">
@@ -28,10 +29,10 @@
         data-aos="fade-left"
         data-aos-duration="1500"
         data-aos-once="true"
-        @click.prevent="routerToArticle(latestStory.id)"
+        @click.prevent="routerToArticle(getLatestArticles.id)"
       >
         <div>
-          <img :src="'images/news/' + latestStory.cover" alt="" />
+          <img :src="'images/news/' + getLatestArticles.cover" alt="" />
         </div>
         <div
           class="
@@ -44,7 +45,7 @@
             tw-text-white
           "
         >
-          {{ latestStory.title }}
+          {{ getLatestArticles.title }}
         </div>
       </div>
       <!-- Testimonial -->
@@ -55,7 +56,7 @@
         data-aos-once="true"
       >
         <div class="xl:tw-mx-5">
-          <div v-for="(item, i) in latestStory.testimonials" :key="i">
+          <div v-for="(item, i) in getLatestArticles.testimonials" :key="i">
             <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">
               {{ item.body }}
             </div>
@@ -67,12 +68,11 @@
                 tw-font-semibold tw-mt-5
               "
             >
-              {{ item.author }}
+              {{ item.name }}
             </div>
-            <!-- eslint-disable-next-line vue/no-v-html -->
             <div
               class="tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
-              v-html="item.position"
+              v-html="item.agency"
             ></div>
           </div>
         </div>
@@ -82,12 +82,26 @@
 </template>
 
 <script>
-import latestArticle from '~/data/latestArticle.json'
+import { mapState } from 'vuex'
 
 export default {
-  data: () => ({
-    latestStory: latestArticle,
-  }),
+  data: () => ({}),
+  computed: {
+    ...mapState(['articleList']),
+    getLatestArticles() {
+      if (this.articleList.length > 0) {
+        const filtered = this.articleList.filter((art) => art.type === 'story') // Get all story articles
+        const finalArr = []
+        filtered.forEach((element) => {
+          if (element.testimonials) {
+            finalArr.push(element)
+          }
+        }) // Filtered has testimonial story
+        return finalArr[0]
+      }
+      return 0
+    },
+  },
   methods: {
     routerToArticle(id) {
       this.$router.push({ path: '/resources/' + id })

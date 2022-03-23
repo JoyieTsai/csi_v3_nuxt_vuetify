@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <v-app>
     <v-main>
@@ -18,7 +19,6 @@
         <template v-slot:subtitle>{{ subtitle }}</template>
         <template v-slot:desc-heading>{{ descHeading }}</template>
         <template v-slot:desc-content>
-          <!-- eslint-disable-next-line vue/no-v-html -->
           <div v-html="descContent"></div>
         </template>
       </Hero>

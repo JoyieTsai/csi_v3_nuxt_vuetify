@@ -102,7 +102,10 @@
             />
             <div
               :class="[
-                quote.content.length > 40 ? 'slogan-s' : 'slogan',
+                quote.content.length > 40 && quote.content.length < 60
+                  ? 'slogan-m'
+                  : 'slogan',
+                quote.content.length > 60 ? 'slogan-s' : 'slogan',
                 'tw-font-semibold tw-leading-snug',
               ]"
             >
@@ -208,8 +211,11 @@ export default {
 }
 .slogan {
   font-size: 45px;
+  &-m {
+    font-size: 38px;
+  }
   &-s {
-    font-size: 35px;
+    font-size: 32px;
   }
   @media (max-width: $breakpoints-lg) {
     font-size: 36px;

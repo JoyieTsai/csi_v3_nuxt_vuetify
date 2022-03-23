@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="main-container tw-mx-auto">
     <div class="tw-text-center">
@@ -8,7 +9,6 @@
           alt=""
         />
       </div>
-      <!-- eslint-disable-next-line vue/no-v-html -->
       <div
         class="
           tw-text-sm

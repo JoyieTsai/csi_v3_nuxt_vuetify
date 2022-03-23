@@ -12,7 +12,7 @@
           <v-img
             max-width="1280"
             :src="'images/sysfeatures/1x/' + item.img"
-            aspect-ratio="2.2"
+            aspect-ratio="2"
             cover
           ></v-img>
         </div>
@@ -23,13 +23,13 @@
       <div v-for="(item, j) in data" :key="j">
         <v-card
           tile
-          @mouseover="changeIndex(j)"
           class="
             tw-h-full tw-px-3
             deco-vertical
             zoomin
             tw-cursor-pointer tw-shadow-lg
           "
+          @mouseover="changeIndex(j)"
         >
           <v-card-text class="tw-h-full">
             <div

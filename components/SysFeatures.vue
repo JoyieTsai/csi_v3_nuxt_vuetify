@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div>
     <div
@@ -52,7 +53,6 @@
                   "
                   v-html="item.title"
                 ></div>
-                <!-- eslint-disable-next-line vue/no-v-html -->
                 <div
                   class="
                     tw-text-sm
@@ -74,7 +74,6 @@
                       lg:tw-mt-1
                     "
                   >
-                    <!-- eslint-disable-next-line vue/no-v-html -->
                     <span v-html="list"></span>
                   </li>
                 </ul>

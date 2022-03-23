@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="main-container tw-mx-auto tw-px-0 sm:tw-px-6">
     <div class="header-2 tw-text-center">Testimonials</div>
@@ -12,7 +13,6 @@
           <div class="tw-text-sm lg:tw-text-base tw-font-semibold tw-mt-5">
             {{ item.author }}
           </div>
-          <!-- eslint-disable-next-line vue/no-v-html -->
           <div
             class="tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
             v-html="item.agency"

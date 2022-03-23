@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <v-app>
     <v-main>
@@ -56,7 +57,6 @@
                         :key="j"
                         class="tw-text-lg opacity-1 tw-my-2"
                       >
-                        <!-- eslint-disable-next-line vue/no-v-html -->
                         <span v-html="item"></span>
                       </li>
                     </ul>

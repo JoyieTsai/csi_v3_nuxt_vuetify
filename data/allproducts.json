@@ -1,162 +1,211 @@
 [
     {
         "id": "cad",
+        "category": "public-safety",
         "icon": "cad.svg",
-        "title": "Computer Aided Dispatch (CAD)"
+        "title": "Computer Aided Dispatch (CAD)",
+        "subtitle": "Advanced Public Safety Communication and Response"
     },
     {
         "id": "rms",
+        "category": "public-safety",
         "icon": "rms.svg",
-        "title": "Law Enforcement Records Management (RMS)"
+        "title": "Law Enforcement Records Management (RMS)",
+        "subtitle": "Revolutionize Public Safety Data Collection, Management, and Reporting"
     },
     {
         "id": "fire-ems",
+        "category": "public-safety",
         "icon": "fire_ems.svg",
-        "title": "Fire & EMS"
+        "title": "Fire & EMS",
+        "subtitle": "Integrated Fire & EMS Solutions in a Single Platform"
     },
     {
         "id": "mobile-operations",
+        "category": "public-safety",
         "icon": "mobile_operations.svg",
-        "title": "Mobile Operations"
+        "title": "Mobile Operations",
+        "subtitle": "Real-time Situational Awareness for Public Safety"
     },
     {
         "id": "citation-management",
+        "category": "public-safety",
         "icon": "eticket.svg",
-        "title": "Citation Management"
+        "title": "Citation Management",
+        "subtitle": "Modern Ticketing Process in an Integrated Public Safety System"
     },
     {
         "id": "evidence",
+        "category": "public-safety",
         "icon": "evidence.svg",
-        "title": "Evidence"
+        "title": "Evidence",
+        "subtitle": "Comprehensive Evidence Management across Cases and Agencies"
     },
     {
         "id": "personnel-scheduling",
+        "category": "public-safety",
         "icon": "personnel.svg",
-        "title": "Personnel & Scheduling"
+        "title": "Personnel & Scheduling",
+        "subtitle": "Comprehensive Paperless Solution to Streamline HR Functions"
     },
     {
         "title": "Warrant",
+        "category": "public-safety",
         "icon": "warrants.svg",
         "id": "warrant"
     },
     {
         "id": "analytics-crime-mapping",
+        "category": "public-safety",
         "icon": "analytics.svg",
         "title": "Analytics & Crime Mapping"
     },
     {
         "id": "internal-affairs",
+        "category": "public-safety",
         "icon": "internal_affairs.svg",
-        "title": "Professional Standards & IA"
+        "title": "Professional Standards & IA",
+        "subtitle": "Case Management for Allegations of Employee Misconduct"
     },
     {
         "id": "municipal-solutions",
+        "category": "public-safety",
         "icon": "municipal.svg",
         "title": "Municipal Solutions"
     },
     {
         "id": "county-prosecution",
+        "category": "justice-courts",
         "icon": "prosecution.svg",
         "title": "County Prosecution"
     },
     {
         "id": "attorney-general",
+        "category": "justice-courts",
         "icon": "attorney_general.svg",
         "title": "Attorney General"
     },
     {
         "id": "courts",
+        "category": "justice-courts",
         "icon": "court.svg",
         "title": "Courts"
     },
     {
         "id": "courts-efiling",
+        "category": "justice-courts",
         "icon": "efiling.svg",
         "title": "Courts eFiling"
     },
     {
         "id": "public-defender",
+        "category": "justice-courts",
         "icon": "public_defender.svg",
         "title": "Public Defender"
     },
     {
         "id": "attorney-ethics",
+        "category": "justice-courts",
         "icon": "attorney_ethics.svg",
         "title": "Attorney Ethics"
     },
     {
         "id": "municipal-attorney",
+        "category": "justice-courts",
         "icon": "justice_court.svg",
         "title": "Municipal Attorney"
     },
     {
         "id": "ediscovery-with-portal",
+        "category": "justice-courts",
         "icon": "ediscovery.svg",
         "title": "eDiscovery with Portal"
     },
     {
         "id": "vw-portal",
+        "category": "justice-courts",
         "icon": "vw.svg",
         "title": "Victim/Witness with Portal"
     },
     {
         "id": "interview-recording",
+        "category": "justice-courts",
         "icon": "info_recording.svg",
         "title": "Interview Recording"
     },
     {
         "id": "online-transcription-service",
+        "category": "justice-courts",
         "icon": "online_trans.svg",
         "title": "Online Transcription Service"
     },
     {
         "id": "investigation",
+        "category": "crime-intelligence",
         "icon": "investigation.svg",
-        "title": "Investigation"
+        "title": "Investigation",
+        "subtitle": "Manage Investigative Case Data, Documents, and Evidence"
     },
     {
         "id": "intelligence",
+        "category": "crime-intelligence",
         "icon": "intelligence.svg",
-        "title": "Intelligence"
+        "title": "Intelligence",
+        "subtitle": "Manage Intelligence Data in a 28 CFR Part 23 Database"
     },
     {
         "id": "sar",
+        "category": "crime-intelligence",
         "icon": "sars.svg",
-        "title": "Suspicious Activity Reporting"
+        "title": "Suspicious Activity Reporting",
+        "subtitle": "Reporting Function of the SAR Initiative"
     },
     {
         "id": "fusion-center",
+        "category": "crime-intelligence",
         "icon": "fusion_center.svg",
-        "title": "Fusion Center(iLog)"
+        "title": "Fusion Center(iLog)",
+        "subtitle": "Comprehensive Toolkit for Information Sharing and Intelligence"
     },
     {
         "id": "analytics",
+        "category": "crime-intelligence",
         "icon": "analytics.svg",
-        "title": "Analytics"
+        "title": "Analytics",
+        "subtitle": "Meaningful Insight and Actionable Intelligence"
     },
     {
         "id": "alpr",
+        "category": "crime-intelligence",
         "icon": "alpr.svg",
-        "title": "ALPR Dashboard"
+        "title": "ALPR Dashboard",
+        "subtitle": "Real-Time Crime and Historical Investigations"
     },
     {
         "id": "global-search",
+        "category": "crime-intelligence",
         "icon": "global_search.svg",
-        "title": "Global Search Broker"
+        "title": "Global Search Broker",
+        "subtitle": "Power-Packed Search Engine with Advanced Features"
     },
     {
         "id": "major-incident-management",
+        "category": "crime-intelligence",
         "icon": "mim.svg",
-        "title": "Major Incident Management"
+        "title": "Major Incident Management",
+        "subtitle": "Inter-Agency Collaboration for Complex Investigations"
     },
     {
         "id": "high-tech-crime",
+        "category": "crime-intelligence",
         "icon": "hecker.svg",
         "title": "High-Tech Crime"
     },
     {
         "id": "csi",
+        "category": "crime-intelligence",
         "icon": "rolmes.svg",
-        "title": "Crime Scene Investigation"
+        "title": "Crime Scene Investigation",
+        "subtitle": "Rolmes™ Revolutionizes Crime Scene Investigations"
     }
 ]

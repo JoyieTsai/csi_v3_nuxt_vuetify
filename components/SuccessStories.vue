@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="tw-mx-auto deco-hexagon-1">
     <div class="tw-flex tw-flex-wrap tw-justify-center tw-relative tw-z-10">
@@ -7,12 +8,12 @@
       <div class="tw-px-5 md:tw-px-10 lg:tw-w-2/3 xl:tw-w-1/2">
         <div
           class="tw-shadow-lg bg-primary tw-cursor-pointer"
-          @click.prevent="routerToArticle(latestStory.id)"
+          @click.prevent="routerToArticle(getLatestArticles.id)"
         >
           <div>
             <v-img
               slot="cover"
-              :src="'images/news/' + latestStory.cover"
+              :src="'images/news/' + getLatestArticles.cover"
               aspect-ratio="2"
             ></v-img>
           </div>
@@ -26,7 +27,7 @@
               tw-py-2
             "
           >
-            {{ latestStory.title }}
+            {{ getLatestArticles.title }}
           </div>
         </div>
 
@@ -40,17 +41,16 @@
             <img :src="require('~/assets/icons/icon-quotes.svg')" alt="" />
           </div>
           <div>
-            <div v-for="(item, i) in latestStory.testimonials" :key="i">
+            <div v-for="(item, i) in getLatestArticles.testimonials" :key="i">
               <div class="lg:tw-text-xl">
                 {{ item.body }}
               </div>
               <div class="lg:tw-text-lg text-primary tw-mt-5">
-                {{ item.author }}
+                {{ item.name }}
               </div>
-              <!-- eslint-disable-next-line vue/no-v-html -->
               <div
                 class="lg:tw-text-lg tw-opacity-60"
-                v-html="item.position"
+                v-html="item.agency"
               ></div>
             </div>
           </div>
@@ -68,17 +68,17 @@
         "
       >
         <div
-          v-for="(article, i) in articles"
+          v-for="(art, i) in articles"
           :key="i"
           class="tw-flex-1 2xl:tw-w-96 xl:tw-w-72 tw-cursor-pointer zoomin"
-          @click.prevent="routerToArticle(article.id)"
+          @click.prevent="routerToArticle(art.id)"
         >
           <v-img
-            :src="'images/news/' + article.cover"
+            :src="'images/news/' + art.cover"
             class="tw-shadow-md tw-mb-2"
             aspect-ratio="1.9"
           ></v-img>
-          <div class="tw-text-lg">{{ article.title }}</div>
+          <div class="tw-text-lg">{{ art.title }}</div>
         </div>
       </div>
     </div>
@@ -86,28 +86,30 @@
 </template>
 
 <script>
-import Articles from '~/data/articles.json'
-import latestArticle from '~/data/latestArticle.json'
+import { mapState } from 'vuex'
 
 export default {
-  data: () => ({
-    articles: '',
-    latestStory: latestArticle,
-  }),
-  mounted() {
-    this.getLatestArticles()
+  data: () => ({}),
+  computed: {
+    ...mapState(['articleList', 'tags', 'currentArticle']),
+    articles() {
+      return this.articleList.slice(0, 3)
+    },
+    getLatestArticles() {
+      const filtered = this.articleList.filter((art) => art.type === 'story') // Get all story articles
+
+      const finalArr = []
+
+      filtered.forEach((element) => {
+        if (element.testimonials) {
+          finalArr.push(element)
+        }
+        return 0
+      }) // Filtered has testimonial story
+      return finalArr[0]
+    },
   },
   methods: {
-    getLatestArticles() {
-      const sortArr = Articles.sort(
-        (a, b) => new Date(b.date) - new Date(a.date)
-      )
-      const aid = this.latestStory.id
-      const filterArr = sortArr.filter(function (item) {
-        return item.id !== aid
-      })
-      this.articles = filterArr.slice(0, 3)
-    },
     routerToArticle(id) {
       this.$router.push({ path: '/resources/' + id })
     },

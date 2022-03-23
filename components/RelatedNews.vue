@@ -57,69 +57,93 @@
 
 <script>
 import { mapState } from 'vuex'
-import Articles from '~/data/articles.json'
 
 export default {
-  props: ['title', 'pid'],
-  data: () => ({
-    articles: '',
-  }),
+  props: ['title', 'pid', 'aid'],
+  data: () => ({}),
   computed: {
     ...mapState(['articleList', 'tags', 'currentArticle']),
+    article() {
+      return this.currentArticle
+    },
     getRelatedNews() {
-      const arr = this.id
+      const arr = this.article.tags
       const resultArr = []
+      const latestNews = this.articleList.filter(
+        (item) => item.id !== this.article.id
+      )
 
-      this.articleList.forEach((item) => {
-        if (item.tags) {
+      if (this.pid) {
+        // sort by a product
+        const filtered = this.articleList.filter((art) => art.tags)
+        filtered.forEach((item) => {
           item.tags.forEach((res) => {
-            if (res.name === arr) {
+            if (res.name === this.pid) {
               resultArr.push(item)
             }
           })
-        }
-      })
+        })
 
-      const finalArr = resultArr.reduce((acc, current) => {
-        const x = acc.find((item) => item.id === current.id)
-        if (!x) {
-          return acc.concat([current])
-        } else {
-          return acc
-        }
-      }, [])
+        const finalArr = [...new Set(resultArr)]
 
-      if (finalArr.length > 5) {
         finalArr.sort((a, b) => {
           if (a.rating === b.rating) {
             if (new Date(a.date) > new Date(b.date)) {
               return 1
             }
+            return 0
           } else if (a.rating > b.rating) {
             return 1
           } else {
-            return -1
+            return 0
           }
-          return -1
         })
+
+        if (!finalArr.length) {
+          return latestNews.slice(0, 4)
+        }
+        return finalArr.slice(0, 4)
+      } else if (this.aid) {
+        // sort by a article
+        const filtered = this.articleList.filter((art) => art.tags)
+        arr.forEach((tag) => {
+          filtered.forEach((item) => {
+            if (item.id !== this.article.id) {
+              item.tags.forEach((res) => {
+                if (res.name === tag.name) {
+                  resultArr.push(item)
+                }
+              })
+            }
+          })
+        })
+
+        const finalArr = [...new Set(resultArr)]
+
+        finalArr.sort((a, b) => {
+          if (a.rating === b.rating) {
+            if (new Date(a.date) > new Date(b.date)) {
+              return 1
+            }
+            return 0
+          } else if (a.rating > b.rating) {
+            return 1
+          } else {
+            return 0
+          }
+        })
+
+        if (finalArr.length <= 1) {
+          return latestNews.slice(0, 4)
+        }
         return finalArr.slice(0, 4)
       } else {
-        const latestNews = this.articleList
+        // sort by latest
         return latestNews.slice(0, 4)
       }
     },
   },
-  mounted() {
-    this.getLatestArticles()
-  },
-
   methods: {
-    getLatestArticles() {
-      const sortArr = Articles.sort(
-        (a, b) => new Date(b.date) - new Date(a.date)
-      )
-      this.articles = sortArr.slice(0, 4)
-    },
     routerToArticle(id) {
       this.$router.push({ path: '/resources/' + id })
     },

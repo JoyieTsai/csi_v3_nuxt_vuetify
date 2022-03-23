@@ -108,6 +108,7 @@ export default {
     paginationEnabled: false,
     modalVideo: false,
   }),
+
   // watch: {
   //   modalVideo(val) {
   //     !val && this.stop()

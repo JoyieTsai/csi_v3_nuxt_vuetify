@@ -162,10 +162,7 @@ export default {
     result: 15,
   }),
   methods: {
-    onSearch(value) {
-      // eslint-disable-next-line no-console
-      console.log(value)
-    },
+    onSearch(value) {},
   },
 }
 </script>

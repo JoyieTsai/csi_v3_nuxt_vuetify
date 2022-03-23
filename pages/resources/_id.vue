@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <v-app>
     <v-main>
@@ -54,9 +55,9 @@
                 :key="network.network"
                 :network="network.network"
                 :style="{ backgroundColor: network.color }"
-                :url="'https://www.csitech.com/resources/' + aid"
-                :title="atitle"
-                :description="abody"
+                :url="'https://www.csitech.com/resources/' + article.id"
+                :title="article.title"
+                :description="article.body"
                 hashtags="CSI Technology Group, InfoShare"
                 class="social tw-my-3 tw-flex tw-justify-center"
               >
@@ -72,7 +73,7 @@
             class="tw-w-full tw-flex-1 md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl"
           >
             <div class="tw-bg-white">
-              <img :src="'images/news/' + acover" :alt="acover" />
+              <img :src="'images/news/' + article.cover" :alt="article.cover" />
               <div class="tw-p-5 md:tw-p-10">
                 <div class="tw-flex tw-justify-between">
                   <div class="tips">
@@ -91,10 +92,10 @@
                           sm:tw-text-sm
                         "
                       >
-                        {{ atype }}
+                        {{ article.type }}
                       </div>
                       <div
-                        v-for="(item, t) in atags"
+                        v-for="(item, t) in article.tags"
                         :key="t"
                         class="
                           tw-bg-gray-200
@@ -119,7 +120,7 @@
                       md:tw-text-base
                     "
                   >
-                    {{ adate }}
+                    {{ article.date }}
                   </div>
                 </div>
 
@@ -131,7 +132,7 @@
                     tw-font-semibold tw-my-5
                   "
                 >
-                  {{ atitle }}
+                  {{ article.title }}
                 </div>
 
                 <div class="tw-flex md:tw-hidden">
@@ -140,9 +141,9 @@
                     :key="network.network"
                     :network="network.network"
                     :style="{ backgroundColor: network.color }"
-                    :url="'https://www.csitech.com/resources/' + aid"
-                    :title="atitle"
-                    :description="abody"
+                    :url="'https://www.csitech.com/resources/' + article.id"
+                    :title="article.title"
+                    :description="article.body"
                     hashtags="CSI Technology Group, InfoShare"
                     class="social tw-mr-5 tw-mb-5 tw-flex tw-justify-center"
                   >
@@ -160,8 +161,10 @@
                     tw-leading-relaxed tw-text-gray-500
                   "
                 >
-                  <!-- eslint-disable-next-line vue/no-v-html -->
-                  <div class="news-body lg:tw-text-xl" v-html="abody"></div>
+                  <div
+                    class="news-body lg:tw-text-xl"
+                    v-html="article.body"
+                  ></div>
                 </div>
               </div>
             </div>
@@ -196,30 +199,37 @@
                 class="
                   tw-flex
                   md:tw-flex-col
-                  xl:tw-flex-row
+                  2xl:tw-flex-row
                   bg-light
                   tw-cursor-pointer
                   hover:tw-bg-white hover:tw-shadow-xl
                   tw-p-5
                 "
-                @click.prevent="routerToProduct(item.category, item.id)"
+                @click.prevent="routerToProduct(item[0].category, item[0].id)"
               >
                 <div
                   class="tw-flex-none tw-flex tw-items-center tw-justify-center"
                 >
                   <img
-                    :src="require('~/assets/duotone/' + item.icon)"
-                    width="60"
+                    :src="require('~/assets/duotone/' + item[0].icon)"
                     alt=""
-                    class="tw-mr-5 md:tw-mr-0 xl:tw-mr-5"
+                    class="tw-mb-3 2xl:tw-mb-3 2xl:tw-mr-5 tw-w-16"
                   />
                 </div>
-                <div class="tw-flex-auto md:tw-pt-5 xl:tw-pt-0">
+                <div
+                  class="
+                    tw-flex-auto
+                    md:tw-pt-5
+                    xl:tw-pt-0
+                    tw-text-center
+                    2xl:tw-text-left
+                  "
+                >
                   <div class="tw-text-base lg:tw-text-lg tw-font-semibold">
-                    {{ item.title }}
+                    {{ item[0].title }}
                   </div>
                   <div class="tw-opacity-70 tw-text-sm lg:tw-text-base">
-                    {{ item.subtitle }}
+                    {{ item[0].subtitle }}
                   </div>
                 </div>
               </div>
@@ -228,7 +238,7 @@
         </div>
       </div>
 
-      <RelatedNews :pid="aid" class="tw-my-12 xl:tw-my-28" />
+      <RelatedNews :aid="article.id" class="tw-my-12 xl:tw-my-28" />
 
       <Contact />
     </v-main>
@@ -236,21 +246,13 @@
 </template>
 
 <script>
-import Articles from '~/data/articles.json'
+import { mapState } from 'vuex'
+import Products from '~/data/allproducts.json'
 
 export default {
   data: () => ({
     category: 'page',
     coverimg: 'blue.jpg',
-    title: 'Resources',
-    aid: '',
-    atitle: '',
-    adate: '',
-    atype: '',
-    atags: '',
-    acover: '',
-    abrief: '',
-    abody: '',
     networks: [
       {
         network: 'facebook',
@@ -271,34 +273,54 @@ export default {
         color: '#007bb5',
       },
     ],
-    relatedProducts: [
-      {
-        id: 'cad',
-        category: 'public-safety',
-        icon: 'cad.svg',
-        title: 'Computer Aided Dispatch (CAD)',
-        subtitle: 'Advanced Public Safety Communication and Response',
-      },
-      {
-        id: 'rms',
-        category: 'public-safety',
-        icon: 'rms.svg',
-        title: 'Law Enforcement Records Management (RMS)',
-        subtitle:
-          'Revolutionize Public Safety Data Collection, Management, and Reporting',
-      },
-      {
-        id: 'investigation',
-        category: 'crime-intelligence',
-        icon: 'investigation.svg',
-        title: 'Investigation',
-        subtitle: 'Manage Investigative Case Data, Documents, and Evidence',
-      },
-    ],
     hasCurrentPost: Boolean,
   }),
-  created() {
-    this.getData(this.$route.params.id)
+  head() {
+    return {
+      titleTemplate: this.article.title + ' - %s',
+      meta: [
+        { property: 'og:title', content: this.article.title },
+        { property: 'og:description', content: this.article.brief },
+        {
+          property: 'og:image:secure_url',
+          content: 'https://www.csitech.com/images/news/' + this.article.img,
+        },
+        {
+          property: 'og:url',
+          content: 'https://www.csitech.com/resources/' + this.article.id,
+        },
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:title', content: this.article.title },
+        { property: 'twitter:description', content: this.article.brief },
+        {
+          property: 'twitter:image',
+          content: 'https://www.csitech.com/images/news/' + this.article.img,
+        },
+      ],
+    }
+  },
+  computed: {
+    ...mapState(['articleList', 'tags', 'currentArticle']),
+    article() {
+      return this.currentArticle
+    },
+    relatedProducts() {
+      const arr = this.article.tags
+      const resultArr = []
+      if (arr) {
+        arr.filter((tag) => {
+          const result = Products.filter((res) => res.id === tag.name)
+          if (result.length > 0) {
+            resultArr.push(result)
+          }
+          return 1
+        })
+      }
+      return resultArr
+    },
+  },
+  mounted() {
+    this.$store.dispatch('getArticleByID', this.$route.params.id)
   },
   methods: {
     routerToProduct(category, id) {
@@ -306,45 +328,6 @@ export default {
     },
     routerToArticle(val) {
       this.$router.push({ name: 'resources-id', params: { id: val } })
-    },
-    head() {
-      return {
-        titleTemplate: this.atitle + ' - %s',
-        meta: [
-          { property: 'og:title', content: this.atitle },
-          { property: 'og:description', content: this.abrief },
-          {
-            property: 'og:image:secure_url',
-            content: 'https://www.csitech.com/img/news/' + this.acover,
-          },
-          {
-            property: 'og:url',
-            content: 'https://www.csitech.com/resources/' + this.aid,
-          },
-          { property: 'twitter:card', content: 'summary_large_image' },
-          { property: 'twitter:title', content: this.atitle },
-          { property: 'twitter:description', content: this.abrief },
-          {
-            property: 'twitter:image',
-            content: 'https://www.csitech.com/img/news/' + this.acover,
-          },
-        ],
-      }
-    },
-    getData(id) {
-      for (let i = 0; i < Articles.length; i++) {
-        if (id && id === Articles[i].id) {
-          this.aid = Articles[i].id
-          this.atitle = Articles[i].title
-          this.adate = Articles[i].date
-          this.atype = Articles[i].type
-          this.atags = Articles[i].tags
-          this.acover = Articles[i].cover
-          this.abrief = Articles[i].brief
-          this.abody = Articles[i].body
-          return
-        }
-      }
     },
   },
 }

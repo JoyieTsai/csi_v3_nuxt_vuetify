@@ -908,7 +908,7 @@
       },
       {
         "title": "Crime Scene Investigation",
-        "desc": "Our patented Rolmes™ is an innovative integration of hardware, software, and robotic technology to modernize crime scene investigations. Accessible on scene and guarantees accurate evidence and data collection linked directly to the casefile.",
+        "desc": "Rolmes™ is an innovative integration of hardware, software, and robotic technology to modernize crime scene investigations. Accessible on scene and guarantees accurate evidence and data collection linked directly to the casefile.",
         "list": [
           "Crime scene data recording",
           "Photo and video management",
@@ -1173,7 +1173,7 @@
       }
     ],
     "quote": {
-      "content": "For every minute you are angry, you lose sixty seconds of happiness."
+      "content": "For every minute you are angry, you lose sixty seconds of happiness"
     }
   }
 ]

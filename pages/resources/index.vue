@@ -249,7 +249,6 @@
 
 <script>
 import { mapState, mapActions, mapGetters } from 'vuex'
-import allArticles from '~/data/articles.json'
 
 export default {
   data: () => ({
@@ -257,17 +256,16 @@ export default {
     title: 'Resources',
     subtitle: 'Up to date on news, events, solutions, and products',
     coverimg: 'resource.jpg',
-    articles: allArticles,
+    selected: [],
     filteredArticles: [],
     keyword: '',
     radioGroup: 'all',
-    selected: [],
     page: 1,
     itemsPerPageArray: [6, 12, 18],
     itemsPerPage: 12,
   }),
   computed: {
-    ...mapState(['articleList', 'tags']),
+    ...mapState(['articleList', 'tags', 'filterTag']),
     ...mapGetters(['filterArticles']),
     numberOfPages() {
       return Math.ceil(this.filterArticles.length / this.itemsPerPage)
@@ -292,6 +290,9 @@ export default {
     async $route(to, from) {
       await this.changeType(this.$route.query.id)
     },
+  },
+  created() {
+    this.changeTag(this.selected)
   },
   mounted() {
     const id = this.$route.query.id
@@ -321,10 +322,6 @@ export default {
     },
     updateItemsPerPage(number) {
       this.itemsPerPage = number
-    },
-    onSearch(value) {
-      // eslint-disable-next-line no-console
-      console.log(value)
     },
   },
 }
