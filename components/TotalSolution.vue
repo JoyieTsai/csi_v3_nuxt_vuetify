@@ -18,7 +18,7 @@
           <div class="header-2 tw-mt-24">Complete Solution</div>
           <div class="tw-text-2xl">
             CSI solutions are powered by the
-            <a href="/capabilities/infoShare-engine" class="white-link"
+            <a href="/capabilities/infoshare-engine" class="white-link"
               >InfoShare Engine®</a
             >, a low-code development platform for government ERP application.
             Our complete solution provides seamless integration, scalability,

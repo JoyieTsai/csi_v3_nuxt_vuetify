@@ -20,6 +20,7 @@
             xl:tw-text-xl
             tw-font-semibold tw-flex tw-items-center tw-justify-center
             table-card-title
+            tw-leading-tight
           "
         >
           {{ item.title }}
@@ -31,14 +32,15 @@
             lg:tw-text-lg
             xl:tw-text-xl
             tw-uppercase
-            tw-h-16
+            tw-h-20
             tw-flex
             tw-items-center
             tw-justify-center
             tw-text-white
             table-card-type
             tw-px-2
-            md:tw-px-5 md:tw-leading-tight
+            md:tw-px-5
+            tw-leading-tight
           "
         >
           {{ item.type }}
@@ -168,6 +170,9 @@ export default {
   li {
     height: 6rem;
     justify-content: center;
+    @media only screen and (max-width: $breakpoints-sm) {
+      height: 7.25rem;
+    }
     &:nth-child(even) {
       background-color: $light-color;
     }

@@ -11,7 +11,7 @@
       >
         <div class="main-container tw-mx-auto">
           <nuxt-link
-            class="tw-flex tw-text-white tw-mt-8 xl:tw-mt-16"
+            class="tw-flex tw-text-white tw-mt-4 md:tw-mt-8 xl:tw-mt-10"
             to="/resources"
           >
             <img
@@ -19,9 +19,7 @@
               alt="back"
               class="tw-mr-3 tw-w-5"
             />
-            <div class="tw-text-lg xl:tw-text-xl tw-hidden md:tw-block">
-              All
-            </div>
+            <div class="tw-text-lg xl:tw-text-xl">All</div>
           </nuxt-link>
         </div>
       </div>
@@ -29,9 +27,9 @@
       <div class="main-container tw-mx-auto">
         <div
           class="
-            tw-flex tw-flex-wrap tw--mt-24
-            md:tw--mt-28
-            xl:tw--mt-40
+            tw-flex tw-flex-wrap tw--mt-20
+            md:tw--mt-36
+            xl:tw--mt-44
             tw-mb-12
             lg:tw-mb-28
           "

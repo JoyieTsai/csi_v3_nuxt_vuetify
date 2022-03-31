@@ -5,7 +5,7 @@
     <div
       class="
         tw-grid tw-grid-cols-2
-        md:tw-grid-cols-3
+        sm:tw-grid-cols-3
         xl:tw-grid-cols-4
         2xl:tw-grid-cols-5
         tw-gap-5
@@ -76,7 +76,7 @@
     <div
       class="
         tw-grid tw-grid-cols-2
-        md:tw-grid-cols-3
+        sm:tw-grid-cols-3
         xl:tw-grid-cols-4
         2xl:tw-grid-cols-5
         tw-gap-5
@@ -187,7 +187,7 @@
     <!-- Show Detail -->
     <v-dialog
       v-model="modalDetail"
-      content-class="tw-bg-white tw-m-0 tw-overflow-hidden"
+      content-class="tw-bg-white tw-m-0 tw-overflow-x-hidden"
       @ok="() => (modalDetail = false)"
     >
       <v-toolbar flat color="white">
@@ -197,22 +197,18 @@
           <v-icon>mdi-close</v-icon>
         </v-btn>
       </v-toolbar>
-      <v-sheet
-        id="scrolling-techniques-7"
-        class="overflow-y-auto"
-        max-height="600"
-      >
+      <v-sheet id="scrolling-techniques-7" max-height="600">
         <div
-          class="tw-flex tw-flex-col md:tw-flex-row tw-px-5 md:tw-px-8 tw-pb-8"
+          class="tw-flex tw-flex-col sm:tw-flex-row tw-px-5 md:tw-px-8 tw-pb-8"
         >
-          <div class="md:tw-w-1/4">
+          <div class="sm:tw-w-1/4">
             <img
               :src="'images/team/' + popSrc"
               alt=""
-              class="tw-w-40 md:tw-w-full tw-pr-10 tw-mb-5"
+              class="tw-w-40 md:tw-w-full tw-pr-5 md:tw-pr-10 tw-mb-5"
             />
           </div>
-          <div class="md:tw-w-3/4">
+          <div class="sm:tw-w-3/4">
             <div class="header-3 tw-font-semibold">{{ popName }}</div>
             <div class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-opacity-70">
               {{ popPosition }}

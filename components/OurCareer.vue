@@ -46,7 +46,7 @@
         "
       >
         <div
-          v-for="(career, i) in careers"
+          v-for="(career, i) in benefits"
           :key="i"
           class="
             tw-bg-white
@@ -77,7 +77,7 @@
 <script>
 export default {
   data: () => ({
-    careers: [
+    benefits: [
       {
         icon: 'cost_up.svg',
         title: '401k Retirement Plan',

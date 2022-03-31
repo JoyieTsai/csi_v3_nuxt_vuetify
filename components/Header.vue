@@ -6,7 +6,7 @@
       fixed
       color="white"
       elevate-on-scroll
-      :height="$vuetify.breakpoint.mdAndDown ? '80' : '100'"
+      :height="$vuetify.breakpoint.mdAndDown ? '72' : '100'"
     >
       <nuxt-link to="/">
         <Logo />

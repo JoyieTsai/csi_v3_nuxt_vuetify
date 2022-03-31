@@ -33,7 +33,7 @@
     {
       "type": "capability",
       "title": "Data Sharing",
-      "desc": "Break down information silos to promote interagency collaboration",
+      "desc": "Break down information silos to promote inter-agency collaboration",
       "url": "data-sharing"
     },
     {
@@ -70,7 +70,7 @@
       "type": "highlight",
       "title": "InfoShare Engine®",
       "desc": "Low code development platform for government ERP application",
-      "url": "infoShare-engine"
+      "url": "infoshare-engine"
     },
     {
       "type": "highlight",

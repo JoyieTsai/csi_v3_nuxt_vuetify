@@ -4,7 +4,7 @@
     "title": "Interfaces",
     "subtitle": "coming soon...",
     "icon": "interfaces.svg",
-    "coverImg": "",
+    "coverImg": "interfaces.jpg",
     "brochure": "",
     "descHeading": "",
     "descContent": "",
@@ -117,7 +117,7 @@
         "title": "InfoShare Engine®",
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
-        "link": "infoShare-engine"
+        "link": "infoshare-engine"
       },
       {
         "title": "Vertical Integration",
@@ -170,8 +170,8 @@
           "Separated system and/or database to host legacy data",
           "Common",
           "Limited vendors only",
-          "Lack of integration Special function to access legacy data only",
-          "One-time work No consistent method"
+          "Lack of integration<br>Special function to access legacy data only",
+          "One-time work<br>No consistent method"
         ]
       },
       {
@@ -184,7 +184,7 @@
           "One database, one system",
           "None",
           "Various vendors",
-          "Full integration Legacy data is searchable along with new data",
+          "Full integration<br>Legacy data is searchable along with new data",
           "Time-tested systematic approach"
         ]
       }
@@ -294,16 +294,16 @@
     },
     "relatedCapabilities": [
       {
-        "title": "Data Analytics",
-        "desc": "Transforming data and analysis into actionable insights",
-        "icon": "icon-analytics_solid",
-        "link": "data-analytics"
+        "title": "Data Sharing",
+        "desc": "Break down information silos to promote interagency collaboration",
+        "icon": "icon-data_share_solid",
+        "link": "data-sharing"
       },
       {
         "title": "InfoShare Engine®",
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
-        "link": "infoShare-engine"
+        "link": "infoshare-engine"
       },
       {
         "title": "Security",
@@ -403,7 +403,7 @@
         "title": "InfoShare Engine®",
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
-        "link": "infoShare-engine"
+        "link": "infoshare-engine"
       },
       {
         "title": "Security",
@@ -497,7 +497,7 @@
         "title": "InfoShare Engine®",
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
-        "link": "infoShare-engine"
+        "link": "infoshare-engine"
       },
       {
         "title": "Security",
@@ -549,8 +549,8 @@
           "Developers spend a lot of time coding the application",
           "Changes are restricted by the underlying software architecture",
           "Difficult to change the system when requirements change",
-          "Lengthy testing periods Prone to testing delays",
-          "Expensive to support Requires additional development",
+          "Lengthy testing periods<br>Prone to testing delays",
+          "Expensive to support<br>Requires additional development",
           "Slow and complex<br>Multiple steps required"
         ]
       },
@@ -618,7 +618,7 @@
         "title": "InfoShare Engine®",
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
-        "link": "infoShare-engine"
+        "link": "infoshare-engine"
       },
       {
         "title": "Vertical Integration",
@@ -716,7 +716,7 @@
         "title": "InfoShare Engine®",
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
-        "link": "infoShare-engine"
+        "link": "infoshare-engine"
       },
       {
         "title": "Data Sharing",
@@ -733,7 +733,7 @@
     ]
   },
   {
-    "id": "infoShare-engine",
+    "id": "infoshare-engine",
     "title": "InfoShare Engine®",
     "subtitle": "Low Code Development Platform for Government ERP Application",
     "icon": "engine.svg",
@@ -934,7 +934,7 @@
         "title": "InfoShare Engine®",
         "desc": "Low Code Development Platform for Government ERP Application",
         "icon": "icon-engine_solid",
-        "link": "infoShare-engine"
+        "link": "infoshare-engine"
       },
       {
         "title": "Cloud Integration",

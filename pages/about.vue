@@ -23,6 +23,7 @@
         <div class="tw-flex tw-flex-col md:tw-flex-row">
           <div
             class="
+              sm:tw-w-9/12
               md:tw-w-7/12
               tw-text-sm
               lg:tw-text-base
@@ -35,17 +36,19 @@
           <div
             class="
               tw-flex-auto tw-relative tw-z-10 tw-order-first
-              md:tw-order-last
+              sm:tw-order-last
             "
           >
             <img
               class="
                 tw-absolute tw-bottom-5
-                sm:tw-bottom-28
+                sm:tw-bottom-20
                 lg:tw-bottom-5
                 xl:tw-bottom-0
-                tw-left-32
-                sm:tw-left-0
+                tw--right-28
+                md:tw-right-0
+                tw-max-h-64
+                md:tw-max-h-max
               "
               src="images/company-photo.png"
               alt="CSI"
@@ -53,7 +56,6 @@
           </div>
         </div>
       </div>
-
       <OurMission
         :missions="missions"
         :benefits="benefits"
@@ -87,16 +89,11 @@
           </div>
         </div>
       </div>
-      <div id="team" class="tw-block tw-h-14 xl:tw-h-28"></div>
-      <OurTeam />
-      <div id="clients" class="tw-block tw-h-14 xl:tw-h-28"></div>
-      <OurCustomer />
-      <div id="partners" class="tw-block tw-h-14 xl:tw-h-28"></div>
-      <OurPartner />
-      <div id="patents" class="tw-block tw-h-14 xl:tw-h-28"></div>
-      <OurPatent />
-      <div id="careers" class="tw-block tw-h-14 xl:tw-h-28"></div>
-      <OurCareer class="tw-mb-14 xl:tw-mb-28" />
+      <OurTeam id="team" class="tw-my-14 xl:tw-my-28" />
+      <OurCustomer id="clients" />
+      <OurPartner id="partners" class="tw-my-14 xl:tw-my-28" />
+      <OurPatent id="patents" />
+      <OurCareer id="careers" class="tw-my-14 xl:tw-my-28" />
 
       <div
         id="contact"

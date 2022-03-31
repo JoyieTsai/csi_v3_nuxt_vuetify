@@ -13,7 +13,7 @@
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoShare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Interoperability",
@@ -61,7 +61,7 @@
             ]
           },
           {
-            "title": "Post-adjudication",
+            "title": "Post-Adjudication",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca1-03-1.jpg"
@@ -195,87 +195,96 @@
         "items": [
           {
             "title": "Investigation",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Enable prosecutors to manage investigation case files with an extensive range of information variables such as evidence, warrants, arrests, drugs, and more. Handle special investigation cases including but not limited to arson, burglary, computer crime, sex crime, death, robbery, and narcotics.",
             "images": [
               "ca3-01-1.jpg"
-            ]
+            ],
+            "link": "/crime-intelligence/investigation"
           },
           {
             "title": "Crime Analysis",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Advanced data collection and analytics to transform vast amounts of stored data into meaningful and insightful information, revealing crime trends and hidden patterns. Visualize data to draw connections to and between crimes, people, places, and vehicles.",
             "images": [
               "ca3-02-1.jpg"
-            ]
+            ],
+            "link": "/crime-intelligence/analytics"
           },
           {
-            "title": "High-tech Crime",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "High-Tech Crime",
+            "desc": "Identify, preserve, analyze, and document digital evidence for investigative management of high-tech/cyber crimes. The application is accredited by the American Association for Laboratory Accreditation (A2LA).",
             "images": [
               "ca3-03-1.jpg"
             ]
           },
           {
             "title": "Duty Referral",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Need more information.",
             "images": [
               "ca3-04-1.jpg"
             ]
           },
           {
             "title": "Major Incident",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Share major incident investigations involving multiple operations, jurisdictions, and/or leads with prosecutors. Robust permission settings ensure that sensitive data is secure.",
             "images": [
               "ca3-05-1.jpg"
-            ]
+            ],
+            "link": "/crime-intelligence/major-incident-management"
           },
           {
-            "title": "IA Module",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "Professional Standards & IA",
+            "desc": "Manage and document investigations of alleged employee misconduct to maintain agency integrity. Support external user management, early intervention mechanism, customizable workflows, reporting templates, and more. Data is stored in a separate database for increased security.",
             "images": [
               "ca3-06-1.jpg"
-            ]
+            ],
+            "link": "/public-safety/internal-affairs"
           },
           {
-            "title": "Brady / Giglio",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "Brady-Giglio",
+            "desc": "Designed to assist in complying with the United States Supreme Court decision in Brady v. Maryland, 373 U.S. 83, 87 (1963). Provide a mechanism to classify and track staff subject to Brady-Giglio reporting. Add a permission-controlled Master Officer Search to access records in the Police Maintenance database.",
             "images": [
               "ca3-07-1.jpg"
-            ]
+            ],
+            "link": "/public-safety/internal-affairs"
           },
           {
             "title": "Drug Screening Random",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Generate a list of randomly selected personnel eligible for drug screening. Every employee in the office has an equal chance of being selected each and every time a selection takes place. Support all required documentation and archiving needs.",
             "images": [
               "ca3-08-1.jpg"
-            ]
+            ],
+            "link": "/public-safety/internal-affairs"
           },
           {
             "title": "CI / CW",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Securely manage information and documents on confidential informants and cooperating witnesses. Document and tabulate payments to CI/CW.",
             "images": [
               "ca3-09-1.jpg"
             ]
           },
           {
             "title": "Crime Scene",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Access crime scene findings and evidence logs linked to specific cases and chain of custody.",
             "images": [
               "ca3-10-1.jpg"
-            ]
+            ],
+            "link": "/crime-intelligence/csi"
           },
           {
-            "title": "Rolmes App",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "Rolmes™ App",
+            "desc": "Provide crime scene investigation units with an innovative integration of hardware, software, and robotic technology to identify, process, and collect evidence. Features include tagging, real-time synchronization, deleted items recovery, offline mode, barcode generation, reporting, and much more. Rolmes™ was conceived in collaboration with world-renowned forensic scientist, Dr. Henry Lee.",
             "images": [
               "ca3-011-1.jpg"
-            ]
+            ],
+            "link": "/crime-intelligence/csi"
           },
           {
             "title": "Intelligence",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Forward data and reports to RISS-inclusive intelligence module for crime activity analysis and investigation support.",
             "images": [
               "ca3-12-1.jpg"
-            ]
+            ],
+            "link": "/crime-intelligence/intelligence"
           }
         ]
       },
@@ -337,7 +346,8 @@
             "title": "Evidence",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca5-03-1.jpg"
+              "ca5-03-1.jpg",
+              "ca5-03-2.jpg"
             ]
           },
           {
@@ -351,14 +361,17 @@
             "title": "Forfeiture",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca5-05-1.jpg"
+              "ca5-05-1.jpg",
+              "ca5-05-2.jpg",
+              "ca5-05-3.jpg"
             ]
           },
           {
             "title": "Megan's Law",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca5-06-1.jpg"
+              "ca5-06-1.jpg",
+              "ca5-06-2.jpg"
             ]
           },
           {
@@ -386,35 +399,31 @@
             "title": "Finance Module",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca5-10-1.jpg"
+              "ca5-10-1.jpg",
+              "ca5-10-2.jpg"
             ]
           },
           {
             "title": "Personnel & Scheduling",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca5-11-1.jpg"
-            ]
-          },
-          {
-            "title": "Policy & Procedure",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
-            "images": [
-              "ca5-12-1.jpg"
+              "ca5-11-1.jpg",
+              "ca5-11-2.jpg"
             ]
           },
           {
             "title": "Pawn Shop",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca5-13-1.jpg"
+              "ca5-12-1.jpg"
             ]
           },
           {
             "title": "Marijuana / Alcohol",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca5-14-1.jpg"
+              "ca5-13-1.jpg",
+              "ca5-13-2.jpg"
             ]
           }
         ]
@@ -428,84 +437,97 @@
             "title": "VW Service Tab / Module",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-01-1.jpg"
+              "ca6-01-1.jpg",
+              "ca6-01-2.jpg"
             ]
           },
           {
             "title": "VW Stat Tracker Addon",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-02-1.jpg"
+              "ca6-02-1.jpg",
+              "ca6-02-2.jpg",
+              "ca6-02-3.jpg"
             ]
           },
           {
             "title": "VW Info Portal",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-03-1.jpg"
+              "ca6-03-1.jpg",
+              "ca6-03-2.jpg",
+              "ca6-03-3.jpg"
             ]
           },
           {
             "title": "Adult VW Letter",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-04-1.jpg"
+              "ca6-04-1.jpg",
+              "ca6-04-2.jpg"
             ]
           },
           {
             "title": "JV VW Letter",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-05-1.jpg"
+              "ca6-05-1.jpg",
+              "ca6-05-2.jpg"
             ]
           },
           {
             "title": "DV VW Letter",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-06-1.jpg"
+              "ca6-06-1.jpg",
+              "ca6-06-2.jpg"
             ]
           },
           {
             "title": "CAC",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-07-1.jpg"
+              "ca6-07-1.jpg",
+              "ca6-07-2.png"
             ]
           },
           {
             "title": "Sex Assault",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-08-1.jpg"
+              "ca6-08-1.jpg",
+              "ca6-08-2.png"
             ]
           },
           {
             "title": "Project Direct",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-09-1.jpg"
+              "ca6-09-1.jpg",
+              "ca6-09-2.png"
             ]
           },
           {
             "title": "PMT Report",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-10-1.jpg"
+              "ca6-10-1.jpg",
+              "ca6-10-2.png"
             ]
           },
           {
             "title": "VAWA / Muskie Report",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-11-1.jpg"
+              "ca6-11-1.jpg",
+              "ca6-11-2.jpg"
             ]
           },
           {
             "title": "InfoVNS Mobile App",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-12-1.jpg"
+              "ca6-12-1.png"
             ]
           }
         ]
@@ -684,7 +706,7 @@
       },
       {
         "title": "Template Generation & Reporting",
-        "desc": "Customizable templates generated with one click for a wide variety of reports. Users can create and export reports in PDF or Excel format. InfoShare™ Courts supports templates for automated notifications, orders, and more.",
+        "desc": "<a href='/capabilities/doc-template-generation' class='primary-link'>Customizable templates</a> generated with one click for a wide variety of reports. Users can create and export reports in PDF or Excel format. InfoShare™ Courts supports templates for automated notifications, orders, and more.",
         "list": [
           "Paperless reports for electronic distribution ",
           "Multiple report formats (PDF, Excel)",
@@ -1199,7 +1221,7 @@
       },
       {
         "title": "Storage/Playback of Interview",
-        "desc": "With CSI’s patented <a href='/capabilities/infoShare-engine' class='primary-link'>InfoShare Engine®</a>, all applications and modules benefit from seamless integration. Interview recordings are linked directly to an agency’s case file or discovery package. They can also be burned to a disc or saved on the local system.",
+        "desc": "With CSI’s patented <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, all applications and modules benefit from seamless integration. Interview recordings are linked directly to an agency’s case file or discovery package. They can also be burned to a disc or saved on the local system.",
         "list": [
           "Direct link to case file",
           "Burn to disc",

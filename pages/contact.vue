@@ -54,56 +54,62 @@
                 tw-mb-5 tw-bg-white tw-shadow-lg tw-relative
               "
             >
-              <div class="tw-grid tw-grid-cols-2 tw-gap-5">
-                <v-text-field
-                  solo
-                  placeholder="First Name"
-                  hide-details="auto"
-                  class="input-light"
-                />
-                <v-text-field
-                  solo
-                  placeholder="Last Name"
-                  hide-details="auto"
-                  class="input-light"
-                />
-                <v-text-field
-                  solo
-                  placeholder="Email"
-                  hide-details="auto"
-                  class="input-light"
-                />
-                <v-text-field
-                  solo
-                  placeholder="Phone"
-                  hide-details="auto"
-                  class="input-light"
-                />
-                <v-text-field
-                  solo
-                  placeholder="Agency/Organization"
-                  hide-details="auto"
-                  class="tw-col-span-2 input-light"
-                />
-                <v-textarea
-                  solo
-                  placeholder="Message"
-                  hide-details="true"
-                  rows="6"
-                  class="tw-col-span-2 input-light"
-                />
-              </div>
-              <div class="mt-6">
+              <v-form ref="form" v-model="valid" lazy-validation>
+                <div class="tw-grid tw-grid-cols-2 tw-gap-x-5">
+                  <v-text-field
+                    v-model="firstname"
+                    :rules="[rules.required]"
+                    solo
+                    placeholder="First Name"
+                    class="input-light"
+                  />
+                  <v-text-field
+                    v-model="lastname"
+                    :rules="[rules.required]"
+                    solo
+                    placeholder="Last Name"
+                    class="input-light"
+                  />
+                  <v-text-field
+                    v-model="email"
+                    :rules="[rules.required, rules.email]"
+                    solo
+                    placeholder="Email"
+                    class="input-light"
+                  />
+                  <v-text-field
+                    v-model="phone"
+                    :rules="[rules.phone]"
+                    mask="(###)###-####"
+                    solo
+                    placeholder="Phone"
+                    class="input-light"
+                  />
+                  <v-text-field
+                    v-model="agency"
+                    solo
+                    placeholder="Agency/Organization"
+                    class="tw-col-span-2 input-light"
+                  />
+                  <v-textarea
+                    v-model="message"
+                    :rules="[rules.required]"
+                    solo
+                    placeholder="Message"
+                    rows="6"
+                    class="tw-col-span-2 input-light"
+                  />
+                </div>
                 <v-btn
                   color="primary"
                   class="hover:tw-shadow-xl"
-                  html-type="submit"
                   large
                   block
+                  @click="validate"
                 >
                   Send
                 </v-btn>
-              </div>
+              </v-form>
             </div>
           </div>
         </div>
@@ -113,6 +119,8 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   data: () => ({
     category: 'page',
@@ -131,12 +139,65 @@ export default {
         },
       ],
     },
+    valid: true,
+    firstname: '',
+    lastname: '',
+    email: '',
+    phone: '',
+    agency: '',
+    message: '',
+    rules: {
+      required: (v) => !!v || 'Required',
+      email: (v) => /.+@.+/.test(v) || 'E-mail must be valid',
+      phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
+    },
   }),
   head() {
     return {
       titleTemplate: '%s - ' + this.title,
       meta: [{ name: 'description', content: this.title }],
     }
+  },
+  methods: {
+    validate() {
+      if (this.$refs.form.validate()) {
+        this.sendMail()
+      }
+    },
+    reset() {
+      this.$refs.form.reset()
+    },
+    resetValidation() {
+      this.$refs.form.resetValidation()
+    },
+    async sendMail() {
+      const url =
+        'https://genie.csitech.com/AspSoft/ExternalService.ashx?rnd=' +
+        Math.random()
+
+      const content = await axios
+        .post(url, {
+          action: 'website_contact_us',
+          firstname: this.firstname,
+          lasttname: this.lasttname,
+          email: this.email,
+          phone: this.phone,
+          agency: this.agency,
+          message: this.message,
+        })
+        .then((response) => {
+          alert(
+            'Your message has been successfully sent. We will contact you very soon! Thank you for contacting us.'
+          )
+          this.reset(response)
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+      return {
+        content,
+      }
+    },
   },
 }
 </script>

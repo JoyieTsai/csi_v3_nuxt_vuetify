@@ -29,7 +29,9 @@
               "
             >
               <li v-for="(link, index) in links" :key="index" class="tw-mb-5">
-                <nuxt-link :to="link.url" class="title md:tw-text-xl text-link"
+                <nuxt-link
+                  :to="'/' + link.url"
+                  class="title md:tw-text-xl text-link"
                   >{{ link.title }}
                 </nuxt-link>
               </li>

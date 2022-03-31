@@ -96,17 +96,18 @@ export default {
       return this.articleList.slice(0, 3)
     },
     getLatestArticles() {
-      const filtered = this.articleList.filter((art) => art.type === 'story') // Get all story articles
-
-      const finalArr = []
-
-      filtered.forEach((element) => {
-        if (element.testimonials) {
-          finalArr.push(element)
-        }
-        return 0
-      }) // Filtered has testimonial story
-      return finalArr[0]
+      if (this.articleList.length > 0) {
+        const filtered = this.articleList.filter((art) => art.type === 'story') // Get all story articles
+        const finalArr = []
+        filtered.forEach((element) => {
+          if (element.testimonials) {
+            finalArr.push(element)
+          }
+          return 0
+        }) // Filtered has testimonial story
+        return finalArr[0]
+      }
+      return 0
     },
   },
   methods: {

@@ -260,6 +260,16 @@
         ]
     },
     {
+        "name": "James V. DeHart III",
+        "src": "james-v.jpg",
+        "type": "Account Management",
+        "position": "Account Management Team",
+        "desc": "Jim joins the CSI team after retiring from the Monroe Township Police Department after 27 years of service. He began his career at Monroe Township as a dispatcher. After being hired as a police officer, he served in the patrol division where he was also a field training officer, a bicycle patrol officer, and a supervisor. He also served as a terminal agency coordinator, court liaison officer, and he was part of the tactical entry team. He was also the Deputy Coordinator and Coordinator in the Emergency Management Division. Jim was promoted to the rank of Chief before retiring. <br><br> Jim continues to serve with the Williamstown Volunteer Fire Department where he has been a member for over 30 years. During his tenure with WFD, he has served in many positions including Chief of Department. He has instructed several disciplines to include law enforcement, fire, and emergency management. Jim has an AAS from Rowan College at Gloucester County, along with a BA and MAS from Fairleigh Dickinson University. He is also a Certified Public Manager through Rutgers University. He continues to serve the public safety community using his education, training, and experience to help his clients use CSI’s products effectively and efficiently.",
+        "product": [
+            "citation-management"
+        ]
+    },
+    {
         "name": "Dr. Henry Lee",
         "src": "henry-lee.png",
         "type": "Advisor",

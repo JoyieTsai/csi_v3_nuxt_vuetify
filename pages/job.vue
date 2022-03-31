@@ -20,7 +20,6 @@
           </div>
         </div>
       </div>
-
       <div class="main-container tw-mx-auto tw-my-10 xl:tw-my-28">
         <v-tabs v-model="tabIndex" vertical>
           <v-tab
@@ -72,27 +71,7 @@
           <div class="header-3 tw-font-semibold tw-mb-12">
             Benefits Upon Completing 3-Month Probationary Period
           </div>
-          <div class="tw-grid tw-grid-cols-2 lg:tw-grid-cols-4 tw-gap-8">
-            <div
-              v-for="(benefit, i) in benefits"
-              :key="i"
-              class="
-                tw-bg-white
-                shadow-1
-                tw-flex tw-flex-col tw-items-center tw-text-center tw-p-5
-              "
-            >
-              <img
-                :src="require('~/assets/duotone/' + benefit.icon)"
-                alt=""
-                class="tw-w-16 xl:tw-w-20"
-              />
-              <div class="title tw-leading-tight tw-mt-3 tw-mb-2">
-                {{ benefit.title }}
-              </div>
-              <div class="text-base tw-opacity-70">{{ benefit.desc }}</div>
-            </div>
-          </div>
+          <CSIBenefits />
         </div>
       </div>
 
@@ -100,48 +79,9 @@
         <div class="main-container tw-mx-auto tw-py-10 xl:tw-py-20">
           <div class="tw-w-4/5 lg:tw-w-2/3 tw-mx-auto">
             <!-- Form -->
-            <div class="header-3 tw-font-semibold tw-text-white tw-text-center">
-              Apply for Job
-            </div>
-            <div class="tw-text-2xl tw-mb-10 tw-text-white tw-text-center">
-              Fill in your information and upload your resume here.
-            </div>
-
-            <div
-              class="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-5 tw-mt-10"
-            >
-              <v-text-field solo hide-details="auto" placeholder="First Name" />
-              <v-text-field solo hide-details="auto" placeholder="Last Name" />
-              <v-text-field solo hide-details="auto" placeholder="Email" />
-              <v-text-field solo hide-details="auto" placeholder="Phone" />
-              <v-textarea
-                solo
-                placeholder="Message"
-                rows="4"
-                class="md:tw-col-span-2"
-                hide-details="auto"
-              />
-              <v-file-input
-                v-model="files"
-                placeholder="Upload your resume"
-                multiple
-                solo
-                prepend-icon=""
-                prepend-inner-icon="mdi-paperclip"
-                class="md:tw-col-span-2"
-              >
-                <template v-slot:selection="{ text }">
-                  <v-chip small label color="primary">
-                    {{ text }}
-                  </v-chip>
-                </template>
-              </v-file-input>
-            </div>
-            <div class="tw-text-center">
-              <button class="btn-lg btn-primary-dark hover:tw-shadow-xl">
-                Send
-              </button>
-            </div>
+            <JobForm>
+              <div slot="title">Apply for Job</div>
+            </JobForm>
           </div>
         </div>
       </div>
@@ -150,9 +90,15 @@
 </template>
 
 <script>
-import Jobs from '../data/jobs.json'
+import axios from 'axios'
 
 export default {
+  async asyncData({ params }) {
+    const jobs = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json'
+    )
+    return { jobs }
+  },
   data: () => ({
     tabIndex: null,
     category: 'page',
@@ -160,49 +106,7 @@ export default {
     coverimg: 'job.jpg',
     fileList: [],
     uploading: false,
-    datas: Jobs,
-    benefits: [
-      {
-        icon: 'cost_up.svg',
-        title: '401K Retirement Plan',
-        desc: 'Eligible after one year of employment',
-      },
-      {
-        icon: 'medical_dental.svg',
-        title: 'Medical & Dental',
-        desc: 'Full-time employee with 90 days of service',
-      },
-      {
-        icon: 'worker_insurance.svg',
-        title: "Worker's Compensation",
-        desc: "Worker's compensation coverage",
-      },
-      {
-        icon: 'h1b.svg',
-        title: 'H1B Sponsorship',
-        desc: 'Company-paid H1B Sponsorship',
-      },
-      {
-        icon: 'emergency_care.svg',
-        title: 'Disability Insurance',
-        desc: 'Company-paid state short-term disability insurance',
-      },
-      {
-        icon: 'health_care.svg',
-        title: 'Life Insurance',
-        desc: 'Company-paid life insurance',
-      },
-      {
-        icon: 'money_insurance.svg',
-        title: 'AD&D Insurance',
-        desc: 'Company-paid accidental death & dismemberment (AD&D) insurance',
-      },
-      {
-        icon: 'id.svg',
-        title: 'US Permanent Resident Sponsorship',
-        desc: 'Eligible upon the 1st anniversary as H1B employee',
-      },
-    ],
+    datas: [],
     files: [],
   }),
   head() {
@@ -223,20 +127,11 @@ export default {
   },
   created() {
     this.checkTabIndex(this.$route.query.id)
+    this.datas = this.jobs.data
   },
   methods: {
     checkTabIndex(id) {
       this.tabIndex = Number(id)
-    },
-    handleRemove(file) {
-      const index = this.fileList.indexOf(file)
-      const newFileList = this.fileList.slice()
-      newFileList.splice(index, 1)
-      this.fileList = newFileList
-    },
-    beforeUpload(file) {
-      this.fileList = [...this.fileList, file]
-      return false
     },
   },
 }

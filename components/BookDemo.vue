@@ -20,42 +20,58 @@
         </div>
       </div>
       <div class="tw-flex-1">
-        <v-form class="tw-max-w-lg tw-mx-auto">
-          <div class="tw-grid tw-gap-5 tw-mt-4 tw-mb-8">
-            <v-text-field solo hide-details="auto" placeholder="First Name" />
-            <v-text-field solo hide-details="auto" placeholder="Last Name" />
+        <v-form
+          ref="form"
+          v-model="valid"
+          lazy-validation
+          class="tw-mx-5 tw-text-center"
+        >
+          <div>
             <v-text-field
+              v-model="firstname"
+              :rules="[rules.required]"
               solo
-              hide-details="auto"
+              placeholder="First Name"
+            />
+            <v-text-field
+              v-model="lastname"
+              :rules="[rules.required]"
+              solo
+              placeholder="Last Name"
+            />
+            <v-text-field
+              v-model="email"
+              :rules="[rules.required, rules.email]"
+              solo
               placeholder="Email"
               type="email"
             />
             <v-text-field
+              v-model="phone"
+              :rules="[rules.phone]"
+              mask="(###)###-####"
               solo
-              hide-details="auto"
               placeholder="Phone"
-              type="number"
             />
             <v-text-field
+              v-model="agency"
               solo
-              hide-details="auto"
               placeholder="Agency/Organization"
             />
             <v-textarea
+              v-model="message"
+              :rules="[rules.required]"
               solo
-              hide-details="true"
               placeholder="Message"
               rows="4"
             />
           </div>
-          <div class="tw-text-center">
-            <button
-              class="btn-lg btn-primary-dark hover:tw-shadow-xl"
-              html-type="submit"
-            >
-              Send
-            </button>
-          </div>
+          <button
+            class="btn-lg btn-primary-dark hover:tw-shadow-xl"
+            @click="validate"
+          >
+            Send
+          </button>
         </v-form>
       </div>
     </div>
@@ -63,8 +79,63 @@
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
-  data: () => ({}),
-  methods: {},
+  data: () => ({
+    valid: true,
+    firstname: '',
+    lastname: '',
+    email: '',
+    phone: '',
+    agency: '',
+    message: '',
+    rules: {
+      required: (v) => !!v || 'Required',
+      email: (v) => /.+@.+/.test(v) || 'E-mail must be valid',
+      phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
+    },
+  }),
+  methods: {
+    validate() {
+      if (this.$refs.form.validate()) {
+        this.sendMail()
+      } else {
+        event.preventDefault()
+      }
+    },
+    reset() {
+      this.$refs.form.reset()
+    },
+    resetValidation() {
+      this.$refs.form.resetValidation()
+    },
+    async sendMail() {
+      const url = ''
+
+      const content = await axios
+        .post(url, {
+          action: 'website_contact_us',
+          firstname: this.firstname,
+          lasttname: this.lasttname,
+          email: this.email,
+          phone: this.phone,
+          agency: this.agency,
+          message: this.message,
+        })
+        .then((response) => {
+          alert(
+            'Your message has been successfully sent. We will contact you very soon! Thank you for contacting us.'
+          )
+          this.reset(response)
+        })
+        .catch((error) => {
+          console.log(error)
+        })
+      return {
+        content,
+      }
+    },
+  },
 }
 </script>

@@ -5,7 +5,7 @@
       <div class="tw-order-1 header-3 tw-self-center tw-mb-5">
         <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
           Pioneering
-          <a href="/capabilities/infoShare-engine" class="btn-link">
+          <a href="/capabilities/infoshare-engine" class="btn-link">
             InfoShare Engine®</a
           >, a low-code development platform for Government ERP application
         </div>

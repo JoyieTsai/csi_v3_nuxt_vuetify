@@ -244,13 +244,13 @@
     height: 52px;
     display: block;
 
-    @media only screen and (max-width: $breakpoints-lg) {
+    @media only screen and (max-width: $breakpoints-xl) {
       top: -18px;
       width: 45px;
       height: 40px;
     }
 
-    @media only screen and (max-width: $breakpoints-md) {
+    @media only screen and (max-width: $breakpoints-lg) {
       top: 2px;
       left: -8px;
       width: 42px;

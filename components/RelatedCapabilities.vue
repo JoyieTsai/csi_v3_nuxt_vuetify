@@ -31,7 +31,7 @@
           class="xl:tw-pl-6 tw-text-center xl:tw-text-left tw-mt-5 xl:tw-mt-0"
         >
           <nuxt-link
-            :to="item.link"
+            :to="'/capabilities/' + item.link"
             class="
               tw-text-lg
               lg:tw-text-xl

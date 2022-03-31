@@ -28,23 +28,23 @@ export default {
     btnGroup: true,
     category: 'public-safety',
     title: 'Public Safety Overview',
-    subtitle:
-      'Enhance eGovernment Operations and Support Police, Fire, and EMS Personnel',
+    subtitle: 'United in Serving Citizens and Communities',
     icon: 'public_safety.svg',
     coverimg: 'public-safety.jpg',
-    descHeading: 'United in response and communication',
+    descHeading:
+      'Support Police, Fire, and EMS personnel in their day-to-day operations',
     descContent:
-      'Today, government agencies have to cooperate in dynamic and complex environments and respond to emergent matters—all in an efficient manner. But that’s easier said than done. In reality, they face numerous challenges from budgetary constraints to limited communication tools to inadequate interagency data sharing. By leveraging our industry-leading software suite and public sector expertise, CSI works closely with agencies, responders, and public sector personnel to tackle these issues head-on.',
+      'Today, government agencies have to cooperate in dynamic, complex environments and respond to emergent matters—all in an efficient manner. But that’s easier said than done. In reality, they face numerous challenges from budgetary constraints to inefficient communication to data silos. By leveraging our industry-leading technology and public sector expertise, CSI works closely with agencies, responders, and public safety personnel to tackle these issues head-on and build the future of public safety.',
     benefits: [
       {
         icon: 'enterprise_application.svg',
         title: 'Enterprise Application Integration',
-        desc: 'Single integrated solution with comprehensive capabilities including Police, Fire, and EMS dispatch, records and data management, mobile operations, field and office reporting, evidence tracking, mapping, analytics, investigations, and intelligence.',
+        desc: 'Single integrated software suite with application to Police, Fire, and EMS dispatch, records and data management, mobile operations, reporting, evidence tracking, mapping, and analytics.',
       },
       {
         icon: 'data_share.svg',
         title: 'Data Exchange',
-        desc: 'Expert interfacing enables integration with other public safety systems, external data sources, regional databases, and national databases, in addition to prosecution, courts, and fusion centers.',
+        desc: 'Full integration with other public safety systems, external data sources, regional databases, and national databases, as well as prosecution, courts, and fusion centers.',
       },
       {
         icon: 'agency_control.svg',

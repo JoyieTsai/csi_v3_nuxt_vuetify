@@ -95,7 +95,7 @@ export default {
   props: ['data'],
   data: () => ({
     title: 'Related Products',
-    desc: 'Fully integrated solutions and services installed on the <a href="/capabilities/infoShare-engine" class="primary-link">InfoShare Engine®</a>. Designed to be easily deployed to meet each agency or office’s unique requirements.',
+    desc: 'Fully integrated solutions and services installed on the <a href="/capabilities/infoshare-engine" class="primary-link">InfoShare Engine®</a>. Designed to be easily deployed to meet each agency or office’s unique requirements.',
   }),
   methods: {},
 }

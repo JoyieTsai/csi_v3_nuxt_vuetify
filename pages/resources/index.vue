@@ -72,7 +72,7 @@
               :class="{ 'd-flex col-12': $vuetify.breakpoint.xsOnly }"
             >
               <!-- Resource Type -->
-              <div class="tw-grid tw-gap-3 tw-grid-cols-2 md:tw-grid-cols-1">
+              <div class="tw-grid tw-gap-3 tw-grid-cols-2 sm:tw-grid-cols-1">
                 <div>
                   <div
                     class="
@@ -305,8 +305,12 @@ export default {
   methods: {
     ...mapActions(['changeFilteredType', 'changeFilteredTag']),
     changeType(type) {
-      this.radioGroup = type
-      this.changeFilteredType(type)
+      if (type) {
+        this.radioGroup = type
+      } else {
+        this.radioGroup = 'all'
+      }
+      this.changeFilteredType(this.radioGroup)
     },
     changeTag(tag) {
       this.changeFilteredTag(tag)

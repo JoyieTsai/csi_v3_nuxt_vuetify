@@ -15,7 +15,12 @@
           hide-slider
           :show-arrows="$vuetify.breakpoint.lgAndDown ? true : false"
         >
-          <v-tab v-for="(cate, i) in data" :key="i" class="tab-arrow">
+          <v-tab
+            v-for="(cate, i) in data"
+            :key="i"
+            :ripple="false"
+            class="tab-arrow"
+          >
             <div class="tw-flex tw-flex-col">
               <span :class="['tabicon', cate.icon]"></span>
               <div
@@ -76,17 +81,28 @@
                       <slide v-for="(img, index) in item.images" :key="index">
                         <div class="tw-flex tw-justify-center">
                           <v-img
-                            :src="require('@/assets/images/diagram/temp.jpg')"
-                            aspect-ratio="1.8"
+                            v-if="cate.id === 5 || cate.id === 6"
+                            :src="'images/eprosecution/' + img"
+                            aspect-ratio="2"
                             contain
-                          ></v-img>
-                        </div>
-                      </slide>
-                      <slide>
-                        <div class="tw-flex tw-justify-center">
+                          >
+                            <template v-slot:placeholder>
+                              <v-row
+                                class="fill-height ma-0"
+                                align="center"
+                                justify="center"
+                              >
+                                <v-progress-circular
+                                  indeterminate
+                                  color="grey lighten-5"
+                                ></v-progress-circular>
+                              </v-row>
+                            </template>
+                          </v-img>
                           <v-img
+                            v-else
                             :src="require('@/assets/images/diagram/temp.jpg')"
-                            aspect-ratio="1.8"
+                            aspect-ratio="2"
                             contain
                           ></v-img>
                         </div>
@@ -95,7 +111,7 @@
                   </div>
                   <div
                     class="
-                      tw-mt-5
+                      tw-mt-6
                       sm:tw-mx-10
                       tw-text-white tw-text-base
                       lg:tw-text-lg
@@ -104,10 +120,11 @@
                   >
                     {{ item.desc }}
                   </div>
-                  <div class="tw-text-center tw-mt-10">
+                  <div v-show="item.link" class="tw-text-center tw-mt-10">
                     <button
                       class="btn-lg btn-primary-inverse hover:tw-shadow-xl"
                       html-type="submit"
+                      @click.prevent="routeTo(item.link)"
                     >
                       Learn more
                     </button>
@@ -151,6 +168,11 @@ export default {
       return 165
     },
   },
+  methods: {
+    routeTo(url) {
+      this.$router.push({ path: url })
+    },
+  },
 }
 </script>
 
@@ -169,6 +191,13 @@ export default {
     border-right: 8px solid transparent;
     border-top: 8px solid white;
     opacity: 0.5;
+  }
+
+  &::before {
+    opacity: 0 !important;
+  }
+  &:hover {
+    color: $white !important;
   }
 }
 

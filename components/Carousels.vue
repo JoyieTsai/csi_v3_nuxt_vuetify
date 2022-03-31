@@ -65,6 +65,8 @@ export default {
       currentIndex: 0,
       perPage: 1,
       paginationEnabled: false,
+      nextLabel: "<img src='images/chevron-right.svg' />",
+      prevLabel: "<img src='images/chevron-left.svg' />",
     }
   },
   methods: {

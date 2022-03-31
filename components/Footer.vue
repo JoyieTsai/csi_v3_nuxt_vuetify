@@ -106,7 +106,7 @@
                 >
                   <nuxt-link
                     v-if="tab.id"
-                    :to="'/' + data.category + tab.id"
+                    :to="'/' + data.category + '/' + tab.id"
                     class="
                       tw-block
                       footer-link

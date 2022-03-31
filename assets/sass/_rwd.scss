@@ -93,9 +93,6 @@ $x5: 0.5;
       &.md {
         height: ceil($hero-md * $x7);
       }
-      &.sm {
-        height: ceil($hero-sm * $x7);
-      }
     }
   }
   .layout {
@@ -120,6 +117,9 @@ $x5: 0.5;
       font-size: ceil($heading-5-size * $x6);
     }
   }
+  .w-quotes {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: $breakpoints-md) {
   // Layout
@@ -131,9 +131,6 @@ $x5: 0.5;
 
       &.md {
         height: ceil($hero-md * $x6);
-      }
-      &.sm {
-        height: ceil($hero-sm * $x6);
       }
     }
   }
@@ -170,9 +167,6 @@ $x5: 0.5;
   .absolute-center {
     top: 40%;
   }
-  .w-quotes {
-    width: 100%;
-  }
 }
 
 @media only screen and (max-width: $breakpoints-sm) {
@@ -187,7 +181,7 @@ $x5: 0.5;
         height: ceil($hero-md * $x5);
       }
       &.sm {
-        height: ceil($hero-sm * $x5);
+        height: ceil($hero-sm * $x6);
       }
     }
   }
