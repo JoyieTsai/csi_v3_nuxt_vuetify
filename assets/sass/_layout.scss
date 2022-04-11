@@ -33,9 +33,9 @@
   &-section {
     height: $hero-xl;
     display: flex;
-    background-position: center;
+    background-position: 90% center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
 
     &.lg {
       height: $hero-lg;

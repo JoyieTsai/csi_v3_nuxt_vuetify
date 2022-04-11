@@ -29,13 +29,13 @@
           <div>
             <v-text-field
               v-model="firstname"
-              :rules="[rules.required]"
+              :rules="[rules.required, rules.name]"
               solo
               placeholder="First Name"
             />
             <v-text-field
               v-model="lastname"
-              :rules="[rules.required]"
+              :rules="[rules.required, rules.name]"
               solo
               placeholder="Last Name"
             />
@@ -66,12 +66,14 @@
               rows="4"
             />
           </div>
-          <button
-            class="btn-lg btn-primary-dark hover:tw-shadow-xl"
+          <v-btn
+            color="secondary"
+            large
+            class="hover:tw-shadow-xl tw-w-48"
             @click="validate"
           >
             Send
-          </button>
+          </v-btn>
         </v-form>
       </div>
     </div>
@@ -92,6 +94,8 @@ export default {
     message: '',
     rules: {
       required: (v) => !!v || 'Required',
+      name: (v) =>
+        (v && v.length <= 15) || 'Name must be less than 15 characters',
       email: (v) => /.+@.+/.test(v) || 'E-mail must be valid',
       phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
     },
@@ -100,8 +104,6 @@ export default {
     validate() {
       if (this.$refs.form.validate()) {
         this.sendMail()
-      } else {
-        event.preventDefault()
       }
     },
     reset() {
@@ -111,13 +113,13 @@ export default {
       this.$refs.form.resetValidation()
     },
     async sendMail() {
-      const url = ''
+      const url = 'http://10.1.1.102:9001/AspSoft/ExternalService.ashx'
 
       const content = await axios
         .post(url, {
           action: 'website_contact_us',
           firstname: this.firstname,
-          lasttname: this.lasttname,
+          lastname: this.lastname,
           email: this.email,
           phone: this.phone,
           agency: this.agency,

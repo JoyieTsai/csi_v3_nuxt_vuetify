@@ -1,7 +1,14 @@
 <template>
   <div>
     <div
-      class="hero-section md:tw-items-center"
+      class="
+        hero-section
+        md:tw-items-center
+        tw-relative
+        md:tw--mb-12
+        xl:tw--mb-16
+        2xl:tw--mb-20
+      "
       :style="{
         backgroundImage: `url(images/covers/${category}/${coverimg})`,
       }"
@@ -17,6 +24,7 @@
             sm:tw-w-3/5
             lg:tw-flex-1
             tw-flex tw-items-center
+            md:tw-mb-10
           "
         >
           <div class="lg:tw-mb-10">
@@ -67,9 +75,9 @@
         ></div>
       </div>
     </div>
-    <!-- Discription -->
+    <!-- Description -->
     <div class="bg-primary-light">
-      <div class="main-container tw-mx-auto tw-pb-12 xl:tw-pb-20 tw-text-white">
+      <div class="main-container tw-mx-auto tw-py-12 xl:tw-py-20 tw-text-white">
         <div class="2xl:tw-w-3/4">
           <div
             class="

@@ -262,3 +262,11 @@
 .v-data-footer {
   font-size: 1rem !important;
 }
+
+.swiper-pagination-bullet-active {
+  background-color: $primary-color !important;
+}
+.swiper-button-prev,
+.swiper-button-next {
+  color: $primary-color !important;
+}

@@ -58,14 +58,14 @@
                 <div class="tw-grid tw-grid-cols-2 tw-gap-x-5">
                   <v-text-field
                     v-model="firstname"
-                    :rules="[rules.required]"
+                    :rules="[rules.required, rules.name]"
                     solo
                     placeholder="First Name"
                     class="input-light"
                   />
                   <v-text-field
                     v-model="lastname"
-                    :rules="[rules.required]"
+                    :rules="[rules.required, rules.name]"
                     solo
                     placeholder="Last Name"
                     class="input-light"
@@ -101,10 +101,9 @@
                   />
                 </div>
                 <v-btn
-                  color="primary"
-                  class="hover:tw-shadow-xl"
+                  color="secondary"
                   large
-                  block
+                  class="hover:tw-shadow-xl tw-w-48"
                   @click="validate"
                 >
                   Send
@@ -148,6 +147,8 @@ export default {
     message: '',
     rules: {
       required: (v) => !!v || 'Required',
+      name: (v) =>
+        (v && v.length <= 15) || 'Name must be less than 15 characters',
       email: (v) => /.+@.+/.test(v) || 'E-mail must be valid',
       phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
     },
@@ -171,15 +172,13 @@ export default {
       this.$refs.form.resetValidation()
     },
     async sendMail() {
-      const url =
-        'https://genie.csitech.com/AspSoft/ExternalService.ashx?rnd=' +
-        Math.random()
+      const url = 'http://10.1.1.102:9001/AspSoft/ExternalService.ashx'
 
       const content = await axios
         .post(url, {
           action: 'website_contact_us',
           firstname: this.firstname,
-          lasttname: this.lasttname,
+          lastname: this.lastname,
           email: this.email,
           phone: this.phone,
           agency: this.agency,

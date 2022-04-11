@@ -4,8 +4,8 @@
       loop
       :per-page="perPage"
       pagination-enabled
-      :navigateTo="currentIndex"
-      paginationActiveColor="#0d63ba"
+      :navigate-to="currentIndex"
+      pagination-active-color="#0d63ba"
     >
       <slide v-for="(item, i) in data" :key="i">
         <div class="tw-flex tw-justify-center">

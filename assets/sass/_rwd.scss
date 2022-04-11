@@ -9,6 +9,8 @@ $x5: 0.5;
   .hero {
     &-section {
       height: ceil($hero-xl * $x8);
+      background-position: 95% center;
+
       &.md {
         height: ceil($hero-md * $x9);
       }
@@ -46,6 +48,7 @@ $x5: 0.5;
   .hero {
     &-section {
       height: ceil($hero-xl * $x7);
+      background-position: 100% center;
       &.lg {
         height: ceil($hero-lg * $x8);
       }
@@ -89,6 +92,7 @@ $x5: 0.5;
   .hero {
     &-section {
       height: ceil($hero-xl * $x6);
+      background-position: right center;
 
       &.md {
         height: ceil($hero-md * $x7);
@@ -125,9 +129,8 @@ $x5: 0.5;
   // Layout
   .hero {
     &-section {
-      height: 400px;
-      background-position: 45% bottom;
-      background-size: 1350px;
+      height: 360px;
+      background-position: 160% center;
 
       &.md {
         height: ceil($hero-md * $x6);
@@ -173,9 +176,9 @@ $x5: 0.5;
   // Layout
   .hero {
     &-section {
-      height: 630px;
-      background-position: 76% bottom;
-      background-size: 1200px;
+      height: 580px;
+      background-position: center bottom;
+      margin-bottom: -2.2rem;
 
       &.md {
         height: ceil($hero-md * $x5);

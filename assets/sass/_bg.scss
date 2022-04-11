@@ -53,10 +53,23 @@
     background-size: contain;
   }
   &-solution {
-    background: url('../assets/vectors/bg-solution.svg') top center no-repeat;
+    background-image: url('../assets/vectors/bg-solution.svg');
+    background-repeat: no-repeat;
+    background-position: center top;
+
+    @media only screen and (max-width: $breakpoints-lg) {
+      background-size: 1450px;
+    }
+    @media only screen and (max-width: $breakpoints-md) {
+      background-size: 1350px;
+    }
+    @media only screen and (max-width: $breakpoints-sm) {
+      background-size: 780px;
+    }
   }
   &-categories {
     background: url('../assets/vectors/bg-categories.svg') top center no-repeat;
+    background-size: cover;
   }
   &-hud-vertical {
     background: url('../assets/vectors/bg-hud-vertical.svg') top center

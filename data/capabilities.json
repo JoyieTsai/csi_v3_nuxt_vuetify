@@ -2,22 +2,209 @@
   {
     "id": "interfaces",
     "title": "Interfaces",
-    "subtitle": "coming soon...",
+    "subtitle": "Powerful Integration and Extension",
     "icon": "interfaces.svg",
-    "coverImg": "interfaces.jpg",
+    "coverImg": "interfaces.webp",
     "brochure": "",
-    "descHeading": "",
-    "descContent": "",
-    "quote": {
-      "content": "Scientia est Potentia"
-    }
+    "descHeading": "Seamless Data Exchange with Internal and External Systems",
+    "descContent": "CSI has considerable experience in interfacing its solutions with a range of internal and external data sources to promote data sharing on multiple levels⏤local, regional, state, and federal. Without interfaces to exchange data across systems, redundant data entry, data silos, and duplicate entries are inevitable. With interfaces, agencies can access multiple systems from a single workstation, generate inquiries to other external or regional databases, submit data automatically or based on agency rules, and much more.",
+    "diagram": {
+      "img": "interfaces.jpg",
+      "desc": "CSI provides an adaptable and scalable total solution platform as well as expert interfacing on demand to facilitate interagency access and data sharing. Interfaces can be easily integrated into the existing InfoShare™ system depending on the unique requirements of each agency. Agencies can operate their own preferred systems and at the same time access data from external sources.  To ensure data security, our interfacing capabilities are fully complaint with criminal justice standards including NIEM, GJ-XML, CJIS, and FIPS."
+    },
+    "lists": [
+      {
+        "title": "",
+        "type": "",
+        "content": [
+          "Security",
+          "Data Sources",
+          "Expertise",
+          "Hardware Integration",
+          "Mobile Solutions",
+          "Vertical Integration"
+        ]
+      },
+      {
+        "title": "Other Vendors",
+        "type": "Typical Interfacing",
+        "content": [
+          "Vendor-specific security policies",
+          "Limited integration<br>Incompatible data formats",
+          "Partnering with third-party contractors or buying expensive APIs",
+          "Limited",
+          "Limited to specific platforms",
+          "Domain-specific solutions"
+        ]
+      },
+      {
+        "title": "CSI",
+        "type": "Expert Interfacing",
+        "content": [
+          "Compliant with government security standards",
+          "Seamless integration with internal and external data sources",
+          "Extensive experience interfacing with systems, products, and/or databases",
+          "Barcode scanning, ALPR, interview recording, etc.",
+          "Cross-platform interfacing",
+          "Unified, fully integrated software suite from public safety to intelligence to justice and courts"
+        ]
+      }
+    ],
+    "benefits": [
+      {
+        "icon": "interoperability.svg",
+        "title": "End-to-End Interoperability"
+      },
+      {
+        "icon": "citizen_access.svg",
+        "title": "Effective Collaboration"
+      },
+      {
+        "icon": "enterprise_application.svg",
+        "title": "Data Continuity"
+      },
+      {
+        "icon": "data_organization.svg",
+        "title": "Real-time Data Sharing"
+      },
+      {
+        "icon": "mobile_operations.svg",
+        "title": "Cross-Platform Information Sharing"
+      },
+      {
+        "icon": "security_force.svg",
+        "title": "Dynamic Security Protection"
+      }
+    ],
+    "extending": [
+      {
+        "title": "Other CAD & RMS Systems ",
+        "icon": "components.svg",
+        "desc": "NIEM-compliant integration with other vendors' CAD and RMS systems to promote seamless data exchange."
+      },
+      {
+        "title": "E 9-1-1 (ANI/ALI)",
+        "icon": "911.svg",
+        "desc": "Import ANI/ALI from PSAP telephone equipment into the CAD entry process. Location data is imported to mapping for immediate display."
+      },
+      {
+        "title": "GIS (ESRI ArcGIS/WTH)",
+        "icon": "map.svg",
+        "desc": "Interface with GIS providers to maintain map layers, create geofiles, enable mobile navigation, and add real-time traffic mapping."
+      },
+      {
+        "title": "State Police Electronic Ticketing Server",
+        "icon": "eticket.svg",
+        "desc": "Pre-populate ETS data including violation complaints, checkups, and warnings when a CFS or citation is generated."
+      },
+      {
+        "title": "NCIC/DMV",
+        "icon": "ncic_gateway.svg",
+        "desc": "Request NCIC and DMV data for quick reference and improved situational awareness."
+      },
+      {
+        "title": "NIBRS",
+        "icon": "nibrs.svg",
+        "desc": "NIBRS reporting and submission with automatic code mapping, built-in data collection, step by step guidance, and embedded reporting rules."
+      },
+      {
+        "title": "NFIRS",
+        "icon": "nfirs.svg",
+        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
+      },
+      {
+        "title": "AFIS LiveScan",
+        "icon": "csi.svg",
+        "desc": "Connect LiveScan device to RMS to capture, store, and retrieve biometrics, mugshots, and associated data and images. "
+      },
+      {
+        "title": "State Automated Crash and Citation System",
+        "icon": "workflow.svg",
+        "desc": "Electronically submit all relevant traffic crash reports in a format compliant with the State Office XML crash reporting schema."
+      },
+      {
+        "title": "Patient Care Reporting",
+        "icon": "report.svg",
+        "desc": "Document patients' assessment results, vitals, and treatment in the field and transfer that information to RMS for ePCR submission."
+      },
+      {
+        "title": "Superior Court Interface",
+        "icon": "calendar.svg",
+        "desc": "Import detailed defendant data and case-related information including events, calendars, and status changes."
+      },
+      {
+        "title": "Family Court Interface",
+        "icon": "justice_court.svg",
+        "desc": "Import data of juvenile offenders and domestic violence cases to designated prosecutor's office."
+      },
+      {
+        "title": "Municipal Courts Interface",
+        "icon": "municipal.svg",
+        "desc": "Transfer municipal complaint summons and warrants data from Municipal Court systems (e.g. eCDR) to the eProsecution database."
+      },
+      {
+        "title": "LEA RMS - Prosecutor Interface",
+        "icon": "capabilities.svg",
+        "desc": "Share case incident data, investigation, intelligence, evidence, chain of custody, and much more."
+      },
+      {
+        "title": "Discovery Portal Interface",
+        "icon": "ediscovery.svg",
+        "desc": "Support registered attorneys in requesting, viewing, and distributing organized eDiscovery packages."
+      },
+      {
+        "title": "Victim/Witness Portal Interface",
+        "icon": "vw.svg",
+        "desc": "Receive court notifications, access forms and letters, check case status, and communicate with advocates."
+      },
+      {
+        "title": "LEA RMS - Intelligence Interface",
+        "icon": "cloud_integration.svg",
+        "desc": "Push RMS data and reports to Intelligence for evaluation by the Intel unit in a 28CFR23 Criminal Intelligence System."
+      },
+      {
+        "title": "RISS",
+        "icon": "agencies.svg",
+        "desc": "Connect to RISSNET and associated partnerships (N-DEx, INTERPOL, etc.) to promote information sharing across jurisdictions."
+      },
+      {
+        "title": "eGuardian Interface",
+        "icon": "defense.svg",
+        "desc": "Submit SARs directly to the FBI eGuardian system without the need to re-enter information."
+      },
+      {
+        "title": "ALPR",
+        "icon": "alpr.svg",
+        "desc": "Facilitate ALPR data transfer between local and state police departments."
+      }
+    ],
+    "relatedCapabilities": [
+      {
+        "title": "Data Sharing",
+        "desc": "Break down information silos to promote interagency collaboration",
+        "icon": "icon-data_share_solid",
+        "link": "data-sharing"
+      },
+      {
+        "title": "Vertical Integration",
+        "desc": "From public safety to municipal services to judiciary and regulatory agencies",
+        "icon": "icon-total_solution_solid",
+        "link": "vertical-integration"
+      },
+      {
+        "title": "Security",
+        "desc": "Robust data encryption, permission, and privacy",
+        "icon": "icon-security_force_solid",
+        "link": "security"
+      }
+    ]
   },
   {
     "id": "data-sharing",
     "title": "Data Sharing",
     "subtitle": "Break Down Information Silos to Promote Inter-Agency Collaboration",
     "icon": "data_share.svg",
-    "coverImg": "data-sharing.jpg",
+    "coverImg": "data-sharing.webp",
     "descHeading": "Maximum interoperability and sharing of mission-critical information",
     "descContent": "Data silos prevent agencies from accessing data in a timely manner. They create separations between data sets across departments, agencies, and geographic jurisdictions. Our systems are designed to optimize the usage of data through expert interfacing, vertical integration, and cloud integration so that data flows smoothly and securely between systems in real-time. Seamless data sharing allows agencies to expand their situational awareness and collect every piece of the puzzle.",
     "diagram": {
@@ -138,7 +325,7 @@
     "title": "Data Migration",
     "subtitle": "Comprehensive, Structured Data Conversion Services",
     "icon": "data_migration.svg",
-    "coverImg": "data-migration.jpg",
+    "coverImg": "data-migration.webp",
     "descHeading": "Fully searchable, cleansed, and standardized legacy data",
     "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. Users don’t need to search a separate database or log in to a different system to access the legacy data. Everything is unified under one database in the InfoShare™ system. Over the years, CSI has developed a systematic data migration strategy and successfully converted legacy data for more than thirty systems.",
     "diagram": {
@@ -241,7 +428,7 @@
     "title": "Data Analytics",
     "subtitle": "Transforming Data and Analysis into Actionable Insights ",
     "icon": "analytics.svg",
-    "coverImg": "data-analytics.jpg",
+    "coverImg": "data-analytics.webp",
     "descHeading": "Data-driven decision making, resource tracking, and reporting",
     "descContent": "Government agencies generate and collect enormous amounts of data every single day. In order to make sense of all this information, CSI transforms this raw data into actionable insights using data statistics, custom query reporting, and data visualization tools. Analytics also reveals relationships, trends, and patterns of criminal activity to assist agencies in intelligent decision-making and efficient resource allocation.",
     "diagram": {
@@ -318,7 +505,7 @@
     "title": "Mapping",
     "subtitle": "Location Intelligence with GIS Technology",
     "icon": "mapping.svg",
-    "coverImg": "mapping.jpg",
+    "coverImg": "mapping.webp",
     "descHeading": "Integrated mapping capability for accurate location verification, real-time tracking, and better data analysis",
     "descContent": "Interactive GIS mapping technology assist with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
     "diagram": {
@@ -418,7 +605,7 @@
     "title": "Cloud Integration",
     "subtitle": "Mature Hybrid Cloud-Ready Applications for Speed and Security",
     "icon": "cloud_integration.svg",
-    "coverImg": "cloud-integration.jpg",
+    "coverImg": "cloud-integration.webp",
     "descHeading": "Cloud-based software suite with scaled up resources, enhanced data sharing, and low-cost operations",
     "descContent": "CSI has considerable expertise in cloud migration services. We leverage the power of cloud computing to help agencies transfer their operations to CJIS-compliant cloud platforms. But CSI’s cloud integration isn’t limited to scaling up resources and improving government capabilities. InfoShare™ Cloud also enhances data sharing and application design. All products and modules within InfoShare™ are integrated and cloud-deployable, creating a cohesive enterprise application platform designed specifically for the unique needs of the public sector.",
     "diagram": {
@@ -518,7 +705,7 @@
     "title": "Low Code Development",
     "subtitle": "Proprietary Low-Code Technology to Facilitate Application Development",
     "icon": "lowcode.svg",
-    "coverImg": "low-code.jpg",
+    "coverImg": "low-code.webp",
     "descHeading": "Rapid application development with high customization and quick deployment",
     "descContent": "U.S. Patent 10,649,743 B2 entitled \"Application Developing Method and System\" was designed to facilitate and streamline application development for government agencies and beyond. With a low-code development solution, users don't need any expertise in programming or software architecture. The patent removes complexity from building modern applications that can be easily and quickly adapted to fulfill each agency’s missions and requirements.",
     "diagram": {
@@ -639,7 +826,7 @@
     "title": "Vertical Integration",
     "subtitle": "From Public Safety to Municipal Services to Judiciary and Regulatory Agencies",
     "icon": "vertical_integration.svg",
-    "coverImg": "vertical-integration.jpg",
+    "coverImg": "vertical-integration.webp",
     "descHeading": "Vertically integrated solutions for end-to-end service from call handling to case disposition",
     "descContent": "Eliminate information silos, improve data sharing, and take full control of the incident workflow with CSI’s unified software suite. The law enforcement and criminal justice process is complex and dynamic: call handling, dispatch, intelligence, field response, reporting, evidence, investigation, analysis, arrest, indictment, trial, sentencing, and potential imprisonment. With vertical integration, information is transferred and exchanged seamlessly among public servants and government agencies.",
     "diagram": {
@@ -737,7 +924,7 @@
     "title": "InfoShare Engine®",
     "subtitle": "Low Code Development Platform for Government ERP Application",
     "icon": "engine.svg",
-    "coverImg": "infoshare-engine.jpg",
+    "coverImg": "infoshare-engine.webp",
     "descHeading": "Patented total solution software architecture for maximum integration",
     "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare Engine® benefit from seamless integration, scalability, and adaptability. ",
     "diagram": {
@@ -858,7 +1045,7 @@
     "title": "Security",
     "subtitle": "Robust Data Encryption, Permission, and Protection",
     "icon": "permission_security.svg",
-    "coverImg": "security.jpg",
+    "coverImg": "security.webp",
     "descHeading": "Integrated security methodology compliant with industry security standards",
     "descContent": "CSI’s security policy ensures continuity of criminal justice information protection, from creation through dissemination, at rest or in transit and passes the stringent third-party penetration test. Integrated GovCloud security features are fully compliant with CJIS (Criminal Justice Information Services), FIPS (Federal Information Processing Standards), IRS Safeguards Audit, and other government security standards.",
     "diagram": {
@@ -955,7 +1142,7 @@
     "title": "Document Template Generation",
     "subtitle": "Web-based Form Management System for Efficient Workflow",
     "icon": "doc_management.svg",
-    "coverImg": "dtg.jpg",
+    "coverImg": "dtg.webp",
     "descHeading": "Patented Intake Form Technology for Report Generation and Approval",
     "descContent": "U.S. Patent 10,706,225 B2 “Form Management System and Method” converts existing paper forms into web-based electronic forms with all layout information and corresponding fields and data types stored in a common library. Users can maintain form layouts, edit input fields, set element types, design dropdown lists, create access permissions, and export the forms to various formats. In addition, forms can be easily modified and managed without any programming or support from software developers.",
     "diagram": {

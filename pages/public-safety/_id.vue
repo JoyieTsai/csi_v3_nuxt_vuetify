@@ -98,7 +98,9 @@ export default {
         { property: 'og:description', content: this.subtitle },
         {
           property: 'og:image:secure_url',
-          content: 'https://www.csitech.com/img/bg/public_safety.jpg',
+          content:
+            'https://www.csitech.com/images/covers/public-safety/' +
+            this.coverimg,
         },
         {
           property: 'og:url',
@@ -109,7 +111,9 @@ export default {
         { property: 'twitter:description', content: this.subtitle },
         {
           property: 'twitter:image',
-          content: 'https://www.csitech.com/img/bg/public_safety.jpg',
+          content:
+            'https://www.csitech.com/images/covers/public-safety/' +
+            this.coverimg,
         },
       ],
     }

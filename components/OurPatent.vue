@@ -14,12 +14,11 @@
           "
         >
           <div>
-            <img
-              :data-src="require('~/assets/images/1x/' + patent.cover)"
-              :data-srcset="require('~/assets/images/2x/' + patent.cover)"
-              class="swiper-lazy tw-w-full tw-mb-6 tw-mx-auto swiper-image"
-            />
-            <div class="swiper-lazy-preloader"></div>
+            <v-img
+              :lazy-src="require('~/assets/images/1x/' + patent.cover)"
+              :src="require('~/assets/images/2x/' + patent.cover)"
+              class="tw-w-full tw-mb-6 tw-mx-auto swiper-image"
+            ></v-img>
             <div class="tw-text-lg xl:tw-text-xl tw-font-semibold">
               {{ patent.title }}
             </div>

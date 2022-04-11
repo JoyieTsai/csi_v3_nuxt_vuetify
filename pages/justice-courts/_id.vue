@@ -101,7 +101,9 @@ export default {
         { property: 'og:description', content: this.subtitle },
         {
           property: 'og:image:secure_url',
-          content: 'https://www.csitech.com/img/bg/prosecutor.jpg',
+          content:
+            'https://www.csitech.com/images/covers/justice-courts/' +
+            this.coverimg,
         },
         {
           property: 'og:url',
@@ -112,7 +114,9 @@ export default {
         { property: 'twitter:description', content: this.subtitle },
         {
           property: 'twitter:image',
-          content: 'https://www.csitech.com/img/bg/prosecutor.jpg',
+          content:
+            'https://www.csitech.com/images/covers/justice-courts/' +
+            this.coverimg,
         },
       ],
     }

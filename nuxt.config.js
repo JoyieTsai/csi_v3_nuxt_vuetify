@@ -50,7 +50,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.8.1-03302022',
+    dir: 'test-V1.8.2-04082022',
     routes: dynamicRoutes,
   },
 
@@ -128,10 +128,6 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css',
       },
-      {
-        rel: 'stylesheet',
-        href: 'https://unpkg.com/swiper@8/swiper-bundle.min.css',
-      },
     ],
   },
 
@@ -140,7 +136,7 @@ export default {
     { src: '@/assets/tailwind.scss', lang: 'scss' },
     { src: '@/assets/style.scss', lang: 'scss' },
     '@/assets/fonts/CSI-icon-v2.3/style.css',
-    '@/assets/swiper.css',
+    // '@/assets/swiper.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

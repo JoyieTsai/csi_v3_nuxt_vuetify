@@ -30,7 +30,7 @@ export default {
     title: 'Public Safety Overview',
     subtitle: 'United in Serving Citizens and Communities',
     icon: 'public_safety.svg',
-    coverimg: 'public-safety.jpg',
+    coverimg: 'public-safety.webp',
     descHeading:
       'Support Police, Fire, and EMS personnel in their day-to-day operations',
     descContent:
@@ -72,7 +72,7 @@ export default {
         product: 'RMS',
         name: 'Law Enforcement Records Management',
         icon: 'icon-rms_solid',
-        diagram: 'solution-rms.png',
+        diagram: 'solution-rms.webp',
         // modules: [
         //   {
         //     type: 'Base Features',
@@ -122,7 +122,7 @@ export default {
         product: 'CAD',
         name: 'Computer Aided Dispatch',
         icon: 'icon-cad_solid',
-        diagram: 'solution-cad.png',
+        diagram: 'solution-cad.webp',
         // modules: [
         //   {
         //     type: 'Base Features',
@@ -167,21 +167,21 @@ export default {
         //     ],
         //   },
         // ],
-        interfaces: [
-          'ePro',
-          'Fingerprint',
-          'Mapping',
-          '911 ANI/ALI',
-          'Traffic Cam',
-          'NFIRS',
-          'NBIRS',
-        ],
+        // interfaces: [
+        //   'ePro',
+        //   'Fingerprint',
+        //   'Mapping',
+        //   '911 ANI/ALI',
+        //   'Traffic Cam',
+        //   'NFIRS',
+        //   'NBIRS',
+        // ],
       },
       {
         product: 'Fire & EMS',
         name: 'Fire & EMS Solutions',
         icon: 'icon-fire_ems_solid',
-        diagram: 'solution-fireems.png',
+        diagram: 'solution-fireems.webp',
         // modules: [
         //   {
         //     type: 'Base Features',

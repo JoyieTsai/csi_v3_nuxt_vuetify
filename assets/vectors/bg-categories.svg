@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="1920px" height="1520px" viewBox="0 0 1920 1520" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>cp_bg</title>
+    <title>bg-categories</title>
     <defs>
         <linearGradient x1="50%" y1="108.822261%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
             <stop stop-color="#085496" offset="0%"></stop>
@@ -16,25 +16,39 @@
             <stop stop-color="#317AC4" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#266FB0" stop-opacity="0.578813886" offset="100%"></stop>
         </linearGradient>
-        <linearGradient x1="43.4841052%" y1="58.5992646%" x2="62.3842773%" y2="47.1315898%" id="linearGradient-6">
+        <rect id="path-6" x="0" y="0" width="1920" height="1520"></rect>
+        <linearGradient x1="43.4841052%" y1="58.5992646%" x2="62.3842773%" y2="47.1315898%" id="linearGradient-8">
             <stop stop-color="#317AC4" stop-opacity="0" offset="0%"></stop>
             <stop stop-color="#317AC4" stop-opacity="0" offset="64.1877912%"></stop>
             <stop stop-color="#4887C7" stop-opacity="0.272068264" offset="100%"></stop>
         </linearGradient>
     </defs>
-    <g id="cp_bg" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Rectangle-+-Rectangle-Copy-3-+-Rectangle-Copy-4-+-Rectangle-Copy-2-+-Rectangle-Copy-Mask">
-            <mask id="mask-3" fill="white">
-                <use xlink:href="#path-2"></use>
-            </mask>
-            <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
-            <g id="Group-31" mask="url(#mask-3)">
-                <g transform="translate(-319.890488, 1157.189868)">
-                    <polygon id="Rectangle-Copy-3" fill="url(#linearGradient-4)" opacity="0.15137736" points="0 340.802434 588.104789 4.26245694e-12 1702.31829 648.246504 1114.2135 989.048938"></polygon>
-                    <polygon id="Rectangle-Copy-4" fill="url(#linearGradient-5)" points="1229.59049 218.486105 1502.39979 60.4229452 2019.25972 361.077754 1746.45042 519.140914"></polygon>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="bg-categories">
+            <g id="Mask" fill="url(#linearGradient-1)" fill-rule="nonzero">
+                <rect id="path-2" x="0" y="0" width="1918" height="1520"></rect>
+            </g>
+            <g id="Group-31-Clipped">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="path-2"></g>
+                <g id="Group-31" mask="url(#mask-3)">
+                    <g transform="translate(-319.890488, 1157.189868)" id="Group">
+                        <g transform="translate(0.000000, 0.000000)">
+                            <polygon id="Rectangle-Copy-3" fill="url(#linearGradient-4)" fill-rule="nonzero" opacity="0.15137736" points="0 340.802434 588.104789 -7.99474561e-16 1702.31829 648.246504 1114.2135 989.048938"></polygon>
+                            <polygon id="Rectangle-Copy-4" fill="url(#linearGradient-5)" fill-rule="nonzero" points="1229.59049 218.486105 1502.39979 60.4229452 2019.25972 361.077754 1746.45042 519.140914"></polygon>
+                        </g>
+                    </g>
                 </g>
             </g>
-            <polygon id="Rectangle-Copy" fill="url(#linearGradient-6)" opacity="0.271651495" mask="url(#mask-3)" transform="translate(141.740395, 539.000000) scale(1, -1) translate(-141.740395, -539.000000) " points="-781.09242 372.385371 -143.465013 3 1064.57321 705.614629 426.945802 1075"></polygon>
+            <g id="Rectangle-Copy-Clipped">
+                <mask id="mask-7" fill="white">
+                    <use xlink:href="#path-6"></use>
+                </mask>
+                <g id="path-2"></g>
+                <polygon id="Rectangle-Copy" fill="url(#linearGradient-8)" fill-rule="nonzero" opacity="0.271651495" mask="url(#mask-7)" transform="translate(141.740395, 539.000000) scale(-1, 1) rotate(-180.000000) translate(-141.740395, -539.000000) " points="-781.09242 372.385371 -143.465013 3 1064.57321 705.614629 426.945802 1075"></polygon>
+            </g>
         </g>
     </g>
 </svg>

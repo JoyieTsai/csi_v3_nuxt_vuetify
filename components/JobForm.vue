@@ -6,17 +6,22 @@
     <div class="tw-text-2xl tw-mb-10 tw-text-white tw-text-center">
       Fill in your information and upload your resume here.
     </div>
-    <v-form ref="form" v-model="valid" lazy-validation class="tw-text-center">
+    <v-form
+      ref="jobform"
+      v-model="valid"
+      lazy-validation
+      class="tw-text-center"
+    >
       <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-x-5 tw-mt-10">
         <v-text-field
           v-model="firstname"
-          :rules="[rules.required]"
+          :rules="[rules.required, rules.name]"
           solo
           placeholder="First Name"
         />
         <v-text-field
           v-model="lastname"
-          :rules="[rules.required]"
+          :rules="[rules.required, rules.name]"
           solo
           placeholder="Last Name"
         />
@@ -42,6 +47,7 @@
           class="md:tw-col-span-2"
         />
         <v-file-input
+          v-model="resume"
           placeholder="Upload your resume"
           multiple
           solo
@@ -56,12 +62,14 @@
           </template>
         </v-file-input>
       </div>
-      <button
-        class="btn-lg btn-primary-dark hover:tw-shadow-xl"
+      <v-btn
+        color="secondary"
+        large
+        class="hover:tw-shadow-xl tw-w-48"
         @click="validate"
       >
         Send
-      </button>
+      </v-btn>
     </v-form>
   </div>
 </template>
@@ -80,6 +88,8 @@ export default {
     resume: '',
     rules: {
       required: (v) => !!v || 'Required',
+      name: (v) =>
+        (v && v.length <= 15) || 'Name must be less than 15 characters',
       email: (v) => /.+@.+/.test(v) || 'E-mail must be valid',
       phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
     },
@@ -96,30 +106,30 @@ export default {
       return false
     },
     validate() {
-      if (this.$refs.form.validate()) {
+      if (this.$refs.jobform.validate()) {
         this.sendMail()
-      } else {
-        event.preventDefault()
       }
     },
     reset() {
-      this.$refs.form.reset()
+      this.$refs.jobform.reset()
     },
     resetValidation() {
-      this.$refs.form.resetValidation()
+      this.$refs.jobform.resetValidation()
     },
     async sendMail() {
-      const url = ''
+      const url = 'http://10.1.1.102:9001/AspSoft/ExternalService.ashx'
+      const formData = new FormData()
+      formData.append('action', 'website_apply_job')
+      formData.append('firstname', this.firstname)
+      formData.append('lastname', this.lastname)
+      formData.append('email', this.email)
+      formData.append('phone', this.phone)
+      formData.append('message', this.message)
+      formData.append('resume', this.resume)
 
       const content = await axios
-        .post(url, {
-          action: 'website_contact_us',
-          firstname: this.firstname,
-          lasttname: this.lasttname,
-          email: this.email,
-          phone: this.phone,
-          message: this.message,
-          resume: this.resume,
+        .post(url, formData, {
+          headers: { 'Content-Type': 'multipart/form-data' },
         })
         .then((response) => {
           alert(

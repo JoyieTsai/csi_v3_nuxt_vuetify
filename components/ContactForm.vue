@@ -6,34 +6,30 @@
     <div class="tw-text-xl tw-text-white tw-text-center">
       <slot name="content"></slot>
     </div>
-    <v-form
-      ref="form"
-      v-model="valid"
-      lazy-validation
-      class="tw-text-center lg:tw-mx-5"
-    >
+
+    <v-form ref="form" lazy-validation class="tw-text-center lg:tw-mx-5">
       <div class="tw-grid tw-grid-cols-1 md:tw-grid-cols-2 tw-gap-x-5 tw-mt-8">
         <v-text-field
-          solo
           v-model="firstname"
-          :rules="[rules.required]"
+          solo
+          :rules="[rules.required, rules.name]"
           placeholder="First Name"
         />
         <v-text-field
-          solo
           v-model="lastname"
-          :rules="[rules.required]"
+          solo
+          :rules="[rules.required, rules.name]"
           placeholder="Last Name"
         />
         <v-text-field
-          solo
           v-model="email"
+          solo
           :rules="[rules.required, rules.email]"
           placeholder="Email"
         />
         <v-text-field
-          solo
           v-model="phone"
+          solo
           :rules="[rules.phone]"
           mask="(###)###-####"
           placeholder="Phone"
@@ -47,12 +43,14 @@
           class="md:tw-col-span-2"
         />
       </div>
-      <button
-        class="btn-lg btn-primary-dark hover:tw-shadow-xl"
+      <v-btn
+        color="secondary"
+        large
+        class="hover:tw-shadow-xl tw-w-48"
         @click="validate"
       >
         Send
-      </button>
+      </v-btn>
     </v-form>
   </div>
 </template>
@@ -70,6 +68,8 @@ export default {
     message: '',
     rules: {
       required: (v) => !!v || 'Required',
+      name: (v) =>
+        (v && v.length <= 15) || 'Name must be less than 15 characters',
       email: (v) => /.+@.+/.test(v) || 'E-mail must be valid',
       phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
     },
@@ -79,7 +79,7 @@ export default {
       if (this.$refs.form.validate()) {
         this.sendMail()
       } else {
-        event.preventDefault()
+        return 0
       }
     },
     reset() {
@@ -89,18 +89,28 @@ export default {
       this.$refs.form.resetValidation()
     },
     async sendMail() {
-      const url = ''
+      const url = 'http://10.1.1.102:9001/AspSoft/ExternalService.ashx'
 
       const content = await axios
-        .post(url, {
-          action: 'website_contact_us',
-          firstname: this.firstname,
-          lasttname: this.lasttname,
-          email: this.email,
-          phone: this.phone,
-          agency: this.agency,
-          message: this.message,
-        })
+        .post(
+          url,
+          {
+            action: 'website_contact_us',
+            firstname: this.firstname,
+            lastname: this.lastname,
+            email: this.email,
+            phone: this.phone,
+            agency: this.agency,
+            message: this.message,
+          },
+          {
+            crossDomain: true,
+            headers: {
+              'content-type': 'application/x-www-form-urlencoded',
+              'cache-control': 'no-cache',
+            },
+          }
+        )
         .then((response) => {
           alert(
             'Your message has been successfully sent. We will contact you very soon! Thank you for contacting us.'

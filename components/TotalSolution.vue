@@ -1,22 +1,33 @@
 <template>
   <div class="bg-solution tw-overflow-hidden">
-    <div class="main-container tw-mx-auto tw-py-24 tw-relative">
+    <div class="main-container tw-mx-auto tw-py-12 xl:tw-py-24 tw-relative">
       <!-- <img
         class="solution-line"
         :src="require('~/assets/vectors/t-lines.svg')"
       /> -->
       <!-- Header -->
-      <div class="tw-flex">
+      <div class="tw-flex tw-flex-col md:tw-flex-row">
         <div>
-          <img
+          <v-img
             :src="require('~/assets/vectors/solution-logo.svg')"
-            alt="Infoshae"
-            class="tw-ml-44 tw-mr-28 tw-mt-6"
-          />
+            class="
+              tw-w-40
+              md:tw-w-64
+              lg:tw-w-72
+              xl:tw-w-96
+              lg:tw-ml-10
+              xl:tw-ml-24
+              2xl:tw-ml-48
+              tw-mr-10
+              xl:tw-mr-20
+            "
+          ></v-img>
         </div>
-        <div class="tw-w-1/2 tw-text-white">
-          <div class="header-2 tw-mt-24">Complete Solution</div>
-          <div class="tw-text-2xl">
+        <div class="tw-text-white">
+          <div class="header-2 tw-mt-5 lg:tw-mt-16 xl:tw-mt-24">
+            Complete Solution
+          </div>
+          <div class="lg:tw-text-xl xl:tw-text-2xl">
             CSI solutions are powered by the
             <a href="/capabilities/infoshare-engine" class="white-link"
               >InfoShare Engine®</a
@@ -34,7 +45,7 @@
           fixed-tabs
           background-color="transparent"
           dark
-          height="335"
+          :height="tabHeight"
           hide-slider
         >
           <v-tab
@@ -45,12 +56,14 @@
             :ripple="false"
             :href="'#tab-' + i"
           >
-            <div class="tab-text tw-mt-2">{{ sol.product }}</div>
+            <div class="tab-text tw-mt-2 tw-hidden md:tw-block">
+              {{ sol.product }}
+            </div>
             <i :class="[sol.icon, 'tab-icon']"></i>
           </v-tab>
         </v-tabs>
 
-        <v-tabs-items v-model="tab" class="tw--mt-8">
+        <v-tabs-items v-model="tab" class="lg:tw--mt-8">
           <v-tab-item
             v-for="(sol, j) in solutions"
             :key="j"
@@ -60,7 +73,6 @@
               <img
                 :src="require('~/assets/images/diagram/' + sol.diagram)"
                 alt=""
-                height="730"
                 :class="'solution-diagram-' + j"
               />
             </div>
@@ -103,6 +115,23 @@ export default {
   data: () => ({
     tab: 'tab-1',
   }),
+  computed: {
+    tabHeight() {
+      switch (this.$vuetify.breakpoint.name) {
+        case 'xs':
+          return 120
+        case 'sm':
+          return 250
+        case 'md':
+          return 250
+        case 'lg':
+          return 300
+        case 'xl':
+          return 335
+      }
+      return 0
+    },
+  },
 }
 </script>
 
@@ -130,6 +159,21 @@ export default {
       font-size: 3rem;
     }
 
+    @media only screen and (max-width: $breakpoints-lg) {
+      width: 180px;
+      height: 180px;
+      .tab-text {
+        font-size: 1rem;
+      }
+    }
+    @media only screen and (max-width: $breakpoints-sm) {
+      margin: auto 5px;
+      width: 80px;
+      height: 80px;
+      .tab-icon {
+        font-size: 1.5rem;
+      }
+    }
     &::before {
       content: '';
       position: absolute;
@@ -156,6 +200,7 @@ export default {
       width: 260px;
       height: 260px;
       transition: all 0.5s cubic-bezier(0.2, 0.4, 0.7, 0.8);
+
       .tab-text {
         font-size: 1.4rem;
         font-weight: bold;
@@ -163,6 +208,25 @@ export default {
 
       .tab-icon {
         font-size: 3.5rem;
+      }
+
+      @media only screen and (max-width: $breakpoints-lg) {
+        width: 200px;
+        height: 200px;
+        .tab-text {
+          font-size: 1.2rem;
+        }
+
+        .tab-icon {
+          font-size: 3rem;
+        }
+      }
+      @media only screen and (max-width: $breakpoints-sm) {
+        width: 80px;
+        height: 80px;
+        .tab-icon {
+          font-size: 2rem;
+        }
       }
 
       &::before {
@@ -189,6 +253,14 @@ export default {
         background-size: contain;
         transition: all 0.5s cubic-bezier(0.2, 0.4, 0.7, 0.8);
         transform: scale(1);
+        @media only screen and (max-width: $breakpoints-lg) {
+          width: 225px;
+          height: 225px;
+        }
+        @media only screen and (max-width: $breakpoints-sm) {
+          width: 100px;
+          height: 100px;
+        }
       }
 
       &:hover {
@@ -202,13 +274,17 @@ export default {
 
   &-diagram {
     &-0 {
-      margin-left: 3rem;
+      margin-left: 6rem;
     }
     &-1 {
-      margin-right: 6rem;
+      margin-right: 3rem;
     }
+    &-0,
+    &-1,
     &-2 {
-      margin-left: 3rem;
+      @media only screen and (max-width: $breakpoints-lg) {
+        margin: 0;
+      }
     }
   }
 

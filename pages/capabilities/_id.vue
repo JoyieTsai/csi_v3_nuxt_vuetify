@@ -34,6 +34,10 @@
         :data="features"
         class="tw-my-16 xl:tw-my-28"
       />
+      <div v-if="extending" class="header-2 tw-text-center">
+        Featured Interfaces
+      </div>
+      <Extendings v-if="extending" :data="extending" />
       <RelatedCapabilities
         v-if="relatedCapabilities"
         :data="relatedCapabilities"
@@ -63,6 +67,7 @@ export default {
     benefits: Object,
     steps: Object,
     features: Object,
+    extending: Object,
     relatedCapabilities: Object,
   }),
   fetch({ params, redirect }) {
@@ -75,8 +80,32 @@ export default {
   },
   head() {
     return {
-      titleTemplate: '%s - ' + this.title,
-      meta: [{ name: 'description', content: this.title }],
+      titleTemplate: '%s | ' + this.title,
+      meta: [
+        { name: 'description', content: this.subtitle },
+        { name: 'keywords', content: this.title },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.subtitle },
+        {
+          property: 'og:image:secure_url',
+          content:
+            'https://www.csitech.com/images/covers/capabilities/' +
+            this.coverimg,
+        },
+        {
+          property: 'og:url',
+          content: 'https://www.csitech.com/capabilities/' + this.id,
+        },
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:description', content: this.subtitle },
+        {
+          property: 'twitter:image',
+          content:
+            'https://www.csitech.com/images/covers/capabilities/' +
+            this.coverimg,
+        },
+      ],
     }
   },
   created() {
@@ -98,6 +127,7 @@ export default {
           this.benefits = Products[i].benefits
           this.steps = Products[i].steps
           this.features = Products[i].features
+          this.extending = Products[i].extending
           this.relatedCapabilities = Products[i].relatedCapabilities
           return
         }

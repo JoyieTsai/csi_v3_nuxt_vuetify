@@ -4,40 +4,40 @@
     "title": "County Prosecution",
     "subtitle": "Web-based Criminal Case and Document Management",
     "icon": "prosecution.svg",
-    "coverImg": "county_prosecution.jpg",
+    "coverImg": "county_prosecution.webp",
     "brochure": "Prosecutor.pdf",
     "descHeading": "Support criminal litigation and efficiently handle special case types",
     "descContent": "InfoShare™ eProsecution is a powerful and flexible system designed specifically for prosecutors and district attorneys to manage workloads, streamline workflow, and maintain integrity in criminal justice processes including pre-trial, trial, post-adjudication, and special case types. Expert interfacing enables seamless data exchange between prosecutor/DA offices, sheriff’s offices, police departments, and courts. Moreover, integrated modules can be added for case support such as discovery, investigation, victim services, and much more. ",
     "capabilities": [
       {
+        "title": "Data Sharing",
+        "icon": "icon-data_share_outline",
+        "img": "DataSharing.jpg",
+        "desc": "CSI has considerable experience in interfacing its County Prosecution applications to internal and external data sources including but not limited to law enforcement agencies, courts, family courts, municipal courts, jails, and state repositories. Our system is fully compliant with NIEM and GJ-XML data exchange standards."
+      },
+      {
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
-        "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "img": "InfoShareEngine.jpg",
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application. Various specialized modules enhance the capabilities of the eProsecution case and document management system. All applications and modules are unified under a single web-based system accessible via desktop and mobile platforms to meet the demands of today’s public sector agencies."
       },
       {
-        "title": "Interoperability",
-        "icon": "icon-interoperability_outline",
-        "img": "Interoperability.jpg",
-        "desc": "InfoShare™ solutions feature end-to-end interoperability for enhanced coordination and collaboration among multiple jurisdictions, departments, and agencies. Linking disparate systems and external data sources including radio, voice recorders, traffic cameras, and records management solutions facilitates interagency sharing of mission-critical information."
-      },
-      {
-        "title": "Mobile Operations",
-        "icon": "icon-mobile_operations_outline",
-        "img": "MobileOperations.jpg",
-        "desc": "The integrated <a href='/public-safety/mobile-operations' class='primary-link'>MDT application</a> is specifically optimized for mobile operations and workflow. Streamlined functions in one place offer a better experience on mobile data terminals and tablets. First responders receive real-time information and alerts in the field for enhanced situational awareness. "
-      },
-      {
-        "title": "Cloud Compatibility",
+        "title": "Cloud Integration",
         "icon": "icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. Moreover, OneDrive integration enables users to upload documents into the InfoShare™ system through a safe and secure channel."
       },
       {
         "title": "Security",
         "icon": "icon-security_force_outline",
-        "img": "Security.jpg",
-        "desc": "Our CJIS-compliant CAD system ensures stringent security measures on data encryption, wireless networking, and system access. Users can log in to multiple applications with a single ID (SSO) combined with two-factor authentication. Data access privileges are established through role- or case-based safeguards, making sure that only authorized individuals have access to relevant functions or data."
+        "img": "Security1.jpg",
+        "desc": "CSI’s fully compliant <a href='/capabilities/security' class='primary-link'>security methodology</a> ensures stringent security measures on data encryption, data exchange, wireless networking, and system access. Two-factor authentication is used to increase access security. Data access privileges are established through role- or case-based safeguards, making sure that only legitimate and authorized individuals have access to relevant functions or data."
+      },
+      {
+        "title": "Data Analytics",
+        "icon": "icon-analytics_outline",
+        "img": "DataAnalytics.jpg",
+        "desc": "Enhance decision-making, generate insights, and allocate resources efficiently to support agencies’ objectives. eProsecution <a href='/capabilities/data-analytics' class='primary-link'>data analytics</a> analyzes internal and external data to track a variety of performance measures and includes tools such as robust search, crime analysis, data visualization, ad-hoc reporting, and much more."
       }
     ],
     "categories": [
@@ -102,7 +102,12 @@
               "ca1-08-1.jpg"
             ]
           }
-        ]
+        ],
+        "link": {
+          "icon": "icon-compliance_outline",
+          "title": "PCMS Functional Requirements (NDAA)",
+          "url": "https://ndaa.org/wp-content/uploads/PCMS-Functional-Specifications.pdf"
+        }
       },
       {
         "id": 2,
@@ -297,7 +302,8 @@
             "title": "Juvenile",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca4-01-1.jpg"
+              "ca4-01-1.jpg",
+              "ca4-01-2.jpg"
             ]
           },
           {
@@ -311,14 +317,16 @@
             "title": "JV Screening",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca4-03-1.jpg"
+              "ca4-03-1.jpg",
+              "ca4-03-2.jpg"
             ]
           },
           {
             "title": "JV ePetition",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca4-04-1.jpg"
+              "ca4-04-1.jpg",
+              "ca4-04-2.jpg"
             ]
           }
         ]
@@ -362,8 +370,8 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca5-05-1.jpg",
-              "ca5-05-2.jpg",
-              "ca5-05-3.jpg"
+              "ca5-05-2.webp",
+              "ca5-05-3.webp"
             ]
           },
           {
@@ -423,7 +431,7 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca5-13-1.jpg",
-              "ca5-13-2.jpg"
+              "ca5-13-2.webp"
             ]
           }
         ]
@@ -438,7 +446,7 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-01-1.jpg",
-              "ca6-01-2.jpg"
+              "ca6-01-2.webp"
             ]
           },
           {
@@ -446,8 +454,8 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-02-1.jpg",
-              "ca6-02-2.jpg",
-              "ca6-02-3.jpg"
+              "ca6-02-2.webp",
+              "ca6-02-3.webp"
             ]
           },
           {
@@ -464,7 +472,7 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-04-1.jpg",
-              "ca6-04-2.jpg"
+              "ca6-04-2.webp"
             ]
           },
           {
@@ -472,7 +480,7 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-05-1.jpg",
-              "ca6-05-2.jpg"
+              "ca6-05-2.webp"
             ]
           },
           {
@@ -480,7 +488,7 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-06-1.jpg",
-              "ca6-06-2.jpg"
+              "ca6-06-2.webp"
             ]
           },
           {
@@ -488,7 +496,7 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-07-1.jpg",
-              "ca6-07-2.png"
+              "ca6-07-2.webp"
             ]
           },
           {
@@ -496,15 +504,15 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-08-1.jpg",
-              "ca6-08-2.png"
+              "ca6-08-2.webp"
             ]
           },
           {
             "title": "Project Direct",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-09-1.jpg",
-              "ca6-09-2.png"
+              "ca6-09-1.webp",
+              "ca6-09-2.webp"
             ]
           },
           {
@@ -512,7 +520,7 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-10-1.jpg",
-              "ca6-10-2.png"
+              "ca6-10-2.webp"
             ]
           },
           {
@@ -520,14 +528,14 @@
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
               "ca6-11-1.jpg",
-              "ca6-11-2.jpg"
+              "ca6-11-2.webp"
             ]
           },
           {
             "title": "InfoVNS Mobile App",
             "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
             "images": [
-              "ca6-12-1.png"
+              "ca6-12-1.webp"
             ]
           }
         ]
@@ -651,7 +659,7 @@
     "title": "Courts",
     "subtitle": "Complete Case and Document Management Solution",
     "icon": "court.svg",
-    "coverImg": "courts.jpg",
+    "coverImg": "courts.webp",
     "brochure": "",
     "descHeading": "Comprehensive case handling system from docketing to disposition",
     "descContent": "InfoShare™ Courts is a case and document management tool offering court staff a workflow-based case handling platform. Docketing, assignments, document handling, notifications, calendaring, and dispositions are all recorded clearly and conveniently. Online order generation and opinion publishing along with extensive search capabilities, reporting, notifications, and analytics are all built in.",
@@ -764,7 +772,7 @@
     "title": "Courts eFiling",
     "subtitle": "Secure Portal for Electronic Case and Payment Handling",
     "icon": "efiling.svg",
-    "coverImg": "courts_efiling.jpg",
+    "coverImg": "courts_efiling.webp",
     "brochure": "",
     "descHeading": "Process submitted cases, documents, communications, and filing fees electronically",
     "descContent": "Fully integrated with InfoShare™ Court Case Management, the Courts eFiling module provides an easy to use and convenient 24x7 system for filers of all case types. Carefully crafted to guide filers through case creation, supplemental document filing, attorney substitutions, and all aspects of today’s cases. Electronic notifications and communications are provided, and filing fees are handled through a secure online payment process.",
@@ -878,7 +886,7 @@
     "title": "Attorney Ethics",
     "subtitle": "Enforcing Good Attorney Standards",
     "icon": "attorney_ethics.svg",
-    "coverImg": "attorney_ethics.jpg",
+    "coverImg": "attorney_ethics.webp",
     "brochure": "",
     "descHeading": "Full application suite to maintain ethical attorney behavior",
     "descContent": "In certain circumstances, attorney actions may be challenged by clients, and InfoShare™ Attorney Ethics provides a way of adjudicating these matters. For attorneys found to have contravened ethical practices, or to have committed felonies, disciplinary action can be taken. Additionally, fee disputes can be reviewed and settled. A random audit system reviews attorney accounting to make sure that client funds are managed properly.",
@@ -1007,7 +1015,7 @@
     "title": "eDiscovery with Portal",
     "subtitle": "Efficient Preparation and Delivery of Discovery Files",
     "icon": "ediscovery.svg",
-    "coverImg": "e-discovery.jpg",
+    "coverImg": "e-discovery.webp",
     "brochure": "Discovery with Portal.pdf",
     "descHeading": "Reduce time spent on discovery preparation by up to 75%",
     "descContent": "A strategic and tactical approach in this evolving world for the creation, viewing, transmission, and delivery of Discovery documents. Manually copying, redacting, and sending documents is a thing of the past. Now, agencies can do all those tasks electronically. Staff can be more effective and productive in other assignments needed in the office. And registered attorneys can use the Portal to securely request and receive discovery files.",
@@ -1079,7 +1087,7 @@
     "title": "Victim Witness Suite with Portal",
     "subtitle": "Full Service Suite for Victim Advocates and Crime Victims",
     "icon": "vw.svg",
-    "coverImg": "vw_portal.jpg",
+    "coverImg": "vw_portal.webp",
     "brochure": "VW Portal.pdf",
     "descHeading": "Expedite services and communication for victims",
     "descContent": "The Victims of Crime Act (VOCA) of 1984 was established to ensure victims are treated with fairness, compassion, and respect. The Victim Witness Suite with Portal serves as an invaluable resource for Victim Advocates and Crime Victims. Benefits include helping monitor and manage advocate caseloads, meeting the needs of victims, educating victims of their rights, enhancing communication, complying with state and federal regulations, and many more. Ultimately, advocates spend less time on paperwork and more time focusing on victim support.",
@@ -1191,7 +1199,7 @@
     "title": "Interview Recording",
     "subtitle": "Integrated Interview Room A/V Recording Software",
     "icon": "info_recording.svg",
-    "coverImg": "interview_recording.jpg",
+    "coverImg": "interview_recording.webp",
     "brochure": "InfoRecording.pdf",
     "descHeading": "Conduct remote interviews and store recordings directly in the case file",
     "descContent": "Equipped with comprehensive features for managing interview recordings, the application seamlessly integrates with InfoShare™ so recordings are stored directly in the case file after the interview is completed. The Windows-based application launches right from the user’s computer, requires no special housing/recording system, and is compatible with most HD cameras and high-quality synchronized audio. Live interviews can also be viewed from the web and from iOS-supported smartphones and tablets.",
@@ -1268,7 +1276,7 @@
     "title": "Online Transcription Service",
     "subtitle": "Transcription with Minimal Effort and Complete Integration",
     "icon": "online_trans.svg",
-    "coverImg": "online_transcription_service.jpg",
+    "coverImg": "online_transcription_service.webp",
     "brochure": "InfoScrIbe.pdf",
     "descHeading": "Save thousands of hours with automated audio and video transcriptions",
     "descContent": "A voice-to-text transcription module utilizing the latest innovations in transcription technology reduces the amount of work in transcribing evidence by at least 50%. Because this module is fully integrated into the InfoShare™ platform, transcription tasks can be directly executed for multimedia files stored in eDiscovery folders. Finished transcripts are reviewable, searchable, and linked to their corresponding files.",

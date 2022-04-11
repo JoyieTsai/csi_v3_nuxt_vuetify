@@ -4,22 +4,33 @@
     <div class="header-2 tw-text-center">Testimonials</div>
 
     <!-- Testimonial -->
-    <swiper class="swiper" :options="swiperOption">
+    <swiper class="mySwiper" :options="swiperOption">
       <swiper-slide v-for="(item, i) in testimonials" :key="i">
         <div class="tw-p-6 xl:tw-p-10 testimonials">
-          <div class="tw-text-sm xl:tw-text-base tw-opacity-70">
+          <div class="tw-text-sm xl:tw-text-base">
             {{ item.quote }}
           </div>
           <div class="tw-text-sm lg:tw-text-base tw-font-semibold tw-mt-5">
             {{ item.author }}
           </div>
           <div
-            class="tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+            class="
+              tw-text-xs
+              md:tw-text-sm
+              xl:tw-text-base
+              tw-opacity-60 tw-relative tw-z-10
+            "
             v-html="item.agency"
           ></div>
         </div>
       </swiper-slide>
       <div slot="pagination" class="swiper-pagination"></div>
+      <div class="swiper-button-prev" slot="button-prev">
+        <i class="el-icon-caret-left"></i>
+      </div>
+      <div class="swiper-button-next" slot="button-next">
+        <i class="el-icon-caret-right"></i>
+      </div>
     </swiper>
   </div>
 </template>
@@ -33,6 +44,10 @@ export default {
     swiperOption: {
       slidesPerView: 3,
       spaceBetween: 0,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
       loop: true,
       autoHeight: false,
       pagination: {
@@ -57,10 +72,19 @@ export default {
 </script>
 
 <style lang="scss">
+.swiper-wrapper {
+  align-items: center;
+}
+
 .testimonials {
   position: relative;
   background-color: $light-color;
-  margin: 4rem 1rem 3rem;
+  margin: 1rem 6rem;
+  min-height: 70px;
+
+  * {
+    display: none;
+  }
 
   @media only screen and (max-width: $breakpoints-sm) {
     margin: 2rem 1rem 3rem;
@@ -78,19 +102,18 @@ export default {
       width: 120px;
       height: 122px;
       display: block;
-      opacity: 0.1;
     }
   }
 
   &::before {
     content: '';
-    background: url('../assets/icons/icon-quotes.svg') no-repeat;
+    background: url('../assets/vectors/testimonial-quotes.svg') no-repeat;
     background-size: contain;
     position: absolute;
     top: -22px;
-    left: -10px;
-    width: 58px;
-    height: 46px;
+    left: -12px;
+    width: 52px;
+    height: 42px;
     display: block;
 
     @media only screen and (max-width: $breakpoints-lg) {
@@ -106,21 +129,32 @@ export default {
     }
   }
 }
-.swiper-slide {
+
+.mySwiper .swiper-slide {
+  transform: scale(1);
+  transition: 0.6s all ease;
+
   &-next {
+    transform: scale(1.2);
+
     .testimonials {
-      margin: 4rem 0 3rem;
+      margin: 5rem 0 7rem;
       position: relative;
       z-index: 2;
-      background-color: $white;
-      transform: scale(1.15);
+      background: url('../assets/vectors/testimonial-bg.svg');
+      background-size: cover;
+      color: $white;
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
         0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+      * {
+        display: block;
+      }
 
       @media only screen and (max-width: $breakpoints-md) {
         margin: 2rem 1rem 3rem;
         background-color: $white;
-        transform: scale(1);
+        // transform: scale(1);
       }
 
       &::after {
@@ -133,7 +167,6 @@ export default {
         width: 148px;
         height: 145px;
         display: block;
-        opacity: 0.1;
 
         @media only screen and (max-width: $breakpoints-lg) {
           width: 122px;
@@ -148,8 +181,5 @@ export default {
       }
     }
   }
-}
-.swiper-pagination-bullet-active {
-  background-color: $primary-color !important;
 }
 </style>
