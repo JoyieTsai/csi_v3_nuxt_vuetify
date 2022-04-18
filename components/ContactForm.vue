@@ -44,10 +44,12 @@
         />
       </div>
       <v-btn
+        :loading="loading"
+        :disabled="loading"
         color="secondary"
         large
         class="hover:tw-shadow-xl tw-w-48"
-        @click="validate"
+        @click.prevent="validate"
       >
         Send
       </v-btn>
@@ -61,6 +63,8 @@ import axios from 'axios'
 export default {
   data: () => ({
     valid: true,
+    loader: null,
+    loading: false,
     firstname: '',
     lastname: '',
     email: '',
@@ -74,12 +78,21 @@ export default {
       phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
     },
   }),
+  watch: {
+    loader() {
+      const l = this.loader
+      this[l] = !this[l]
+
+      setTimeout(() => (this[l] = false), 3000)
+
+      this.loader = null
+    },
+  },
   methods: {
     validate() {
       if (this.$refs.form.validate()) {
+        this.loader = 'loading'
         this.sendMail()
-      } else {
-        return 0
       }
     },
     reset() {
@@ -89,7 +102,7 @@ export default {
       this.$refs.form.resetValidation()
     },
     async sendMail() {
-      const url = 'http://10.1.1.102:9001/AspSoft/ExternalService.ashx'
+      const url = 'https://genie.csitech.com/AspSoft/ExternalService.ashx'
 
       const content = await axios
         .post(

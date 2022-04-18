@@ -25,7 +25,7 @@
         </div>
         <div class="tw-text-white">
           <div class="header-2 tw-mt-5 lg:tw-mt-16 xl:tw-mt-24">
-            Complete Solution
+            Total Solution
           </div>
           <div class="lg:tw-text-xl xl:tw-text-2xl">
             CSI solutions are powered by the

@@ -50,7 +50,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'test-V1.8.2-04082022',
+    dir: 'test-V1.8.5-04182022_beta',
     routes: dynamicRoutes,
   },
 
@@ -59,6 +59,7 @@ export default {
    */
   router: {
     base: process.env.NODE_ENV === 'dev' ? '/' : '',
+    // base: '/test/',
     extendRoutes(routes, resolve) {
       routes.push({
         name: 'custom',
@@ -66,47 +67,47 @@ export default {
         component: resolve(__dirname, 'pages/404.vue'),
       })
     },
-    scrollBehavior: async (to, from, savedPosition) => {
-      if (savedPosition) {
-        return savedPosition;
-      }
+    // scrollBehavior: async (to, from, savedPosition) => {
+    //   if (savedPosition) {
+    //     return savedPosition;
+    //   }
 
-      const findEl = async (hash, x) => {
-        return (
-          document.querySelector(hash) ||
-          new Promise((resolve, reject) => {
-            if (x > 50) {
-              return resolve();
-            }
-            setTimeout(() => {
-              resolve(findEl(hash, ++x || 1));
-            }, 100);
-          })
-        );
-      };
+    //   const findEl = async (hash, x) => {
+    //     return (
+    //       document.querySelector(hash) ||
+    //       new Promise((resolve, reject) => {
+    //         if (x > 50) {
+    //           return resolve();
+    //         }
+    //         setTimeout(() => {
+    //           resolve(findEl(hash, ++x || 1));
+    //         }, 100);
+    //       })
+    //     );
+    //   };
 
-      if (to.hash) {
-        const el = await findEl(to.hash);
-        if ("scrollBehavior" in document.documentElement.style) {
-          return window.scrollTo({
-            top: el.offsetTop,
-            behavior: "smooth"
-          });
-        } else {
-          return window.scrollTo(0, el.offsetTop);
-        }
-      }
+    //   if (to.hash) {
+    //     const el = await findEl(to.hash);
+    //     if ("scrollBehavior" in document.documentElement.style) {
+    //       return window.scrollTo({
+    //         top: el.offsetTop,
+    //         behavior: "smooth"
+    //       });
+    //     } else {
+    //       return window.scrollTo(0, el.offsetTop);
+    //     }
+    //   }
 
-      return {
-        x: 0,
-        y: 0
-      };
-    }
+    //   return {
+    //     x: 0,
+    //     y: 0
+    //   };
+    // }
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - CSI Technology Group',
+    titleTemplate: '%s',
     title: 'CSI Technology Group',
     htmlAttrs: {
       lang: 'en',
@@ -126,7 +127,7 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://cdn.jsdelivr.net/npm/@mdi/font@5.x/css/materialdesignicons.min.css',
+        href: 'https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css',
       },
     ],
   },
@@ -136,7 +137,6 @@ export default {
     { src: '@/assets/tailwind.scss', lang: 'scss' },
     { src: '@/assets/style.scss', lang: 'scss' },
     '@/assets/fonts/CSI-icon-v2.3/style.css',
-    // '@/assets/swiper.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

@@ -2,22 +2,36 @@
   <div class="main-container tw-mx-auto">
     <!-- Patent -->
     <div class="header-2 tw-text-center tw-mb-5 lg:tw-mb-10">Our Patents</div>
-    <swiper :options="swiperOption" class="swiper tw-pb-8">
+    <swiper :options="swiperOption" class="tw-pb-8">
       <swiper-slide v-for="(patent, i) in patents" :key="i">
         <div
           class="
+            patent-card
             shadow-1
-            tw-flex tw-flex-col tw-items-center tw-text-center tw-p-6
+            tw-flex
+            tw-flex-col
+            tw-items-center
+            tw-justify-between
+            tw-text-center
+            tw-p-6
             xl:tw-p-10
             tw-m-3
             md:tw-m-5
+            tw-box-content
           "
         >
-          <div>
+          <div class="tw-grid">
             <v-img
               :lazy-src="require('~/assets/images/1x/' + patent.cover)"
               :src="require('~/assets/images/2x/' + patent.cover)"
-              class="tw-w-full tw-mb-6 tw-mx-auto swiper-image"
+              contain
+              class="
+                tw-mb-6 tw-h-32
+                sm:tw-h-42
+                md:tw-h-48
+                lg:tw-h-56
+                xl:tw-h-72
+              "
             ></v-img>
             <div class="tw-text-lg xl:tw-text-xl tw-font-semibold">
               {{ patent.title }}
@@ -95,7 +109,7 @@ export default {
         320: {
           slidesPerView: 1,
         },
-        1024: {
+        768: {
           slidesPerView: 2,
         },
       },
@@ -104,7 +118,16 @@ export default {
 }
 </script>
 <style lang="scss">
-.swiper-image {
-  max-width: 600px;
+.patent-card {
+  height: 650px;
+  @media only screen and (max-width: $breakpoints-lg) {
+    height: 585px;
+  }
+  @media only screen and (max-width: $breakpoints-md) {
+    height: 565px;
+  }
+  @media only screen and (max-width: $breakpoints-sm) {
+    height: 550px;
+  }
 }
 </style>

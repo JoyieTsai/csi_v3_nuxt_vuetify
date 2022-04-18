@@ -1,9 +1,11 @@
 <template>
   <div>
-    <div class="header-3 tw-font-semibold tw-text-white tw-text-center">
+    <div class="header-2 tw-font-semibold tw-text-white tw-text-center">
       <slot name="title"></slot>
     </div>
-    <div class="tw-text-2xl tw-mb-10 tw-text-white tw-text-center">
+    <div
+      class="lg:tw-text-xl xl:tw-text-2xl tw-mb-10 tw-text-white tw-text-center"
+    >
       Fill in your information and upload your resume here.
     </div>
     <v-form
@@ -46,8 +48,8 @@
           rows="4"
           class="md:tw-col-span-2"
         />
-        <v-file-input
-          v-model="resume"
+        <!-- <v-file-input
+          v-model="file"
           placeholder="Upload your resume"
           multiple
           solo
@@ -55,18 +57,26 @@
           prepend-inner-icon="mdi-paperclip"
           class="md:tw-col-span-2"
         >
-          <template v-slot:selection="{ text }">
-            <v-chip small label color="primary">
-              {{ text }}
-            </v-chip>
-          </template>
-        </v-file-input>
+        </v-file-input> -->
+        <div class="md:tw-col-span-2 tw-text-left tw-mb-8">
+          <div class="tw-text-white tw-mb-3 tw-text-lg xl:tw-text-xl">
+            Upload Resume <small>( pdf, docx, jpg )</small>
+          </div>
+          <input
+            id="uploadFile"
+            ref="resume"
+            type="file"
+            accept=".pdf,.docx,.jpg"
+          />
+        </div>
       </div>
       <v-btn
+        :loading="loading"
+        :disabled="loading"
         color="secondary"
         large
         class="hover:tw-shadow-xl tw-w-48"
-        @click="validate"
+        @click.prevent="validate"
       >
         Send
       </v-btn>
@@ -80,12 +90,13 @@ import axios from 'axios'
 export default {
   data: () => ({
     valid: true,
+    loader: null,
+    loading: false,
     firstname: '',
     lastname: '',
     email: '',
     phone: '',
     message: '',
-    resume: '',
     rules: {
       required: (v) => !!v || 'Required',
       name: (v) =>
@@ -94,6 +105,16 @@ export default {
       phone: (v) => (v && v.length >= 10) || 'Phone must be valid',
     },
   }),
+  watch: {
+    loader() {
+      const l = this.loader
+      this[l] = !this[l]
+
+      setTimeout(() => (this[l] = false), 4000)
+
+      this.loader = null
+    },
+  },
   methods: {
     handleRemove(file) {
       const index = this.fileList.indexOf(file)
@@ -107,17 +128,20 @@ export default {
     },
     validate() {
       if (this.$refs.jobform.validate()) {
+        this.loader = 'loading'
         this.sendMail()
       }
     },
     reset() {
       this.$refs.jobform.reset()
+      document.getElementById('uploadFile').value = ''
     },
     resetValidation() {
       this.$refs.jobform.resetValidation()
     },
     async sendMail() {
-      const url = 'http://10.1.1.102:9001/AspSoft/ExternalService.ashx'
+      const url = 'https://genie.csitech.com/AspSoft/ExternalService.ashx'
+      const resume = this.$refs.resume.files[0]
       const formData = new FormData()
       formData.append('action', 'website_apply_job')
       formData.append('firstname', this.firstname)
@@ -125,7 +149,7 @@ export default {
       formData.append('email', this.email)
       formData.append('phone', this.phone)
       formData.append('message', this.message)
-      formData.append('resume', this.resume)
+      formData.append('resume', resume)
 
       const content = await axios
         .post(url, formData, {

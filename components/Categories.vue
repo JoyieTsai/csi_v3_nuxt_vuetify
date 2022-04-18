@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="bg-categories">
     <div
@@ -28,7 +29,8 @@
               <span :class="['tabicon', cate.icon]"></span>
               <div
                 class="
-                  tw-text-base
+                  tw-text-sm
+                  lg:tw-text-base
                   xl:tw-text-lg
                   2xl:tw-text-xl
                   tw-font-semibold
@@ -45,7 +47,7 @@
           </v-tab>
         </v-tabs>
         <div
-          v-if="$vuetify.breakpoint.xsOnly"
+          v-if="$vuetify.breakpoint.mdAndDown"
           class="tw-text-white tw-text-center tw-text-xl tw-mt-6"
         >
           {{ getTabName }}
@@ -54,23 +56,23 @@
           <v-tab-item v-for="(cate, j) in data" :key="j">
             <v-tabs
               v-model="getTabIndex"
-              :vertical="$vuetify.breakpoint.xsOnly ? false : true"
+              :vertical="$vuetify.breakpoint.smAndDown ? false : true"
               dark
               hide-slider
               background-color="transparent"
-              :show-arrows="$vuetify.breakpoint.xsOnly ? true : false"
+              :show-arrows="$vuetify.breakpoint.mdAndDown ? true : false"
             >
               <v-tab
                 v-for="(item, k) in cate.items"
                 :key="k"
                 class="
                   tw-w-max
-                  md:tw-w-64
                   lg:tw-w-72
                   xl:tw-w-80
                   2xl:tw-w-96
                   tab-btn
-                  tw-text-base
+                  tw-text-sm
+                  lg:tw-text-base
                   xl:tw-text-lg
                   tw-normal-case
                 "
@@ -78,62 +80,71 @@
               >
                 {{ item.title }}
               </v-tab>
-              <div v-if="cate.link" class="tw-mt-8">
+              <div v-if="cate.link" class="tw-mt-8 tw-hidden lg:tw-block">
                 <a
                   :href="cate.link.url"
                   target="blank"
                   class="white-link tw-no-underline tw-text-center"
                 >
                   <div :class="[cate.link.icon, 'tw-text-5xl']"></div>
-                  <div class="tw-text-base tw-mt-2 hover:tw-underline">
-                    {{ cate.link.title }}
-                  </div>
+                  <div
+                    class="
+                      tw-text-base tw-mt-2
+                      hover:tw-underline
+                      tw-text-center
+                    "
+                    v-html="cate.link.title"
+                  ></div>
                 </a>
               </div>
               <v-tab-item v-for="(item, l) in cate.items" :key="l">
-                <div class="tw-mt-5 sm:tw-mt-0 xl:tw-pl-8 2xl:tw-pl-16">
+                <div class="tw-mt-5 lg:tw-mt-0 xl:tw-pl-8 2xl:tw-pl-16">
                   <div>
-                    <carousel
-                      loop
-                      per-page="1"
-                      pagination-enabled
-                      pagination-padding="6"
-                      pagination-color="#617d9e"
-                      pagination-active-color="#ffffff"
-                    >
-                      <slide v-for="(img, index) in item.images" :key="index">
-                        <div class="tw-flex tw-justify-center">
-                          <v-img
-                            v-if="
-                              cate.id === 4 || cate.id === 5 || cate.id === 6
-                            "
-                            :lazy-src="'images/eprosecution/1x/' + img"
-                            :src="'images/eprosecution/2x/' + img"
-                            aspect-ratio="2"
-                            contain
-                          >
-                          </v-img>
-                          <v-img
-                            v-else
-                            :src="require('@/assets/images/diagram/temp.jpg')"
-                            aspect-ratio="2"
-                            contain
-                          ></v-img>
-                        </div>
-                      </slide>
-                    </carousel>
+                    <swiper ref="mySwiper" :options="swiperOption">
+                      <swiper-slide
+                        v-for="(img, index) in item.images"
+                        :key="index"
+                      >
+                        <v-img
+                          :lazy-src="'images/eprosecution/1x/' + img"
+                          :src="'images/eprosecution/2x/' + img"
+                          contain
+                          class="tw-mb-12 tw-mx-8 lg:tw-mx-10"
+                        >
+                        </v-img>
+                      </swiper-slide>
+                      <div
+                        v-show="item.images.length > 1"
+                        slot="pagination"
+                        class="swiper-pagination light"
+                      ></div>
+                      <div
+                        v-show="item.images.length > 1"
+                        slot="button-prev"
+                        class="swiper-button-prev_1 xl:tw-hidden"
+                      >
+                        <v-icon color="white">mdi-arrow-left</v-icon>
+                      </div>
+                      <div
+                        v-show="item.images.length > 1"
+                        slot="button-next"
+                        class="swiper-button-next_1 xl:tw-hidden"
+                      >
+                        <v-icon color="white">mdi-arrow-right</v-icon>
+                      </div>
+                    </swiper>
                   </div>
                   <div
                     class="
-                      tw-mt-6 tw-mx-6
-                      sm:tw-mx-10
-                      tw-text-white tw-text-base
+                      tw-mx-8
+                      lg:tw-mx-10
+                      tw-text-white tw-text-sm
+                      md:tw-text-base
                       lg:tw-text-lg
                       xl:tw-text-xl
                     "
-                  >
-                    {{ item.desc }}
-                  </div>
+                    v-html="item.desc"
+                  ></div>
                   <div v-show="item.link" class="tw-text-center tw-mt-10">
                     <button
                       class="btn-lg btn-primary-inverse hover:tw-shadow-xl"
@@ -154,17 +165,25 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel'
-
 export default {
-  components: {
-    Carousel,
-    Slide,
-  },
   props: ['data'],
   data: () => ({
     tabIndex: 0,
     subtabIndex: 0,
+    swiperOption: {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      autoHeight: false,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next_1',
+        prevEl: '.swiper-button-prev_1',
+      },
+    },
   }),
   computed: {
     tabHeight() {
@@ -185,7 +204,7 @@ export default {
     getTabName() {
       switch (this.tabIndex) {
         case 0:
-          return 'Case Management'
+          return 'Case Management System'
         case 1:
           return 'Content Management & Discovery'
         case 2:
@@ -193,7 +212,7 @@ export default {
         case 3:
           return 'Juvenile & DV'
         case 4:
-          return 'Special Case Types (Units)'
+          return 'Special Case Types'
         case 5:
           return 'Victim / Witness'
       }
@@ -208,6 +227,7 @@ export default {
       this.subtabIndex = 0
     },
     gotoTab(index) {
+      // this.$refs.mySwiper.swiper.slideTo(0, 10, false)
       this.subtabIndex = index
     },
     routeTo(url) {
@@ -254,7 +274,7 @@ export default {
   @media only screen and (max-width: $breakpoints-lg) {
     height: auto;
   }
-  @media only screen and (max-width: $breakpoints-sm) {
+  @media only screen and (max-width: $breakpoints-lg - 1px) {
     justify-content: center;
     margin-left: 5px;
     margin-right: 5px;
@@ -268,7 +288,7 @@ export default {
     }
   }
   &.tab-btn {
-    color: $primary-color;
+    color: $primary-color !important;
     font-weight: bold;
     background: linear-gradient(0deg, #dfeaf5 0%, #ffffff 100%);
     box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.1);

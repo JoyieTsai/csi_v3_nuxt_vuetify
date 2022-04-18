@@ -132,6 +132,11 @@
       width: 438px;
       height: 416px;
       background: url('../assets/vectors/hexagon-2.svg');
+      @media only screen and (max-width: $breakpoints-sm) {
+        right: -6rem;
+        width: 219px;
+        height: 208px;
+      }
     }
   }
 }

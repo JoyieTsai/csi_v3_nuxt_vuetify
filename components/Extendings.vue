@@ -7,13 +7,14 @@
         tw-pb-3 tw-grid tw-grid-cols-2
         lg:tw-grid-cols-4
         2xl:tw-grid-cols-5
-        tw-gap-5
+        tw-gap-3
+        md:tw-gap-5
       "
     >
       <div
         v-for="(item, index) in data"
         :key="index"
-        class="tw-bg-white shadow-1 tw-text-center tw-p-5 xl:tw-p-7 zoomin"
+        class="tw-bg-white shadow-1 tw-text-center tw-p-4 xl:tw-p-7 zoomin"
       >
         <img
           class="tw-mx-auto tw-my-3 tw-w-14 xl:tw-w-16 2xl:tw-w-20"

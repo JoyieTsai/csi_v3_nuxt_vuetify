@@ -94,6 +94,9 @@ $x5: 0.5;
       height: ceil($hero-xl * $x6);
       background-position: right center;
 
+      &.lg {
+        background-position: 30% center;
+      }
       &.md {
         height: ceil($hero-md * $x7);
       }
@@ -117,12 +120,20 @@ $x5: 0.5;
     &-4 {
       font-size: ceil($heading-4-size * $x6);
     }
-    &-5 {
-      font-size: ceil($heading-5-size * $x6);
+  }
+  .btn {
+    &-lg {
+      font-size: ceil($body-3-size * $x8);
+      padding: 0.5rem 1rem;
+      min-width: 160px;
     }
   }
-  .w-quotes {
-    width: 100%;
+}
+@media only screen and (max-width: 900px) {
+  .hero {
+    &-section {
+      background-position: 125% center;
+    }
   }
 }
 @media only screen and (max-width: $breakpoints-md) {
@@ -132,6 +143,9 @@ $x5: 0.5;
       height: 360px;
       background-position: 160% center;
 
+      &.lg {
+        background-position: 25% center;
+      }
       &.md {
         height: ceil($hero-md * $x6);
       }
@@ -144,15 +158,6 @@ $x5: 0.5;
     }
     &-2 {
       font-size: ceil($heading-2-size * $x6);
-    }
-    &-3 {
-      font-size: ceil($heading-3-size * $x5);
-    }
-    &-4 {
-      font-size: ceil($heading-4-size * $x5);
-    }
-    &-5 {
-      font-size: ceil($heading-5-size * $x5);
     }
   }
 
@@ -172,6 +177,14 @@ $x5: 0.5;
   }
 }
 
+@media only screen and (max-width: ($breakpoints-md - 1px)) {
+  .hero {
+    &-section {
+      background-position: 200% 50px;
+    }
+  }
+}
+
 @media only screen and (max-width: $breakpoints-sm) {
   // Layout
   .hero {
@@ -180,6 +193,9 @@ $x5: 0.5;
       background-position: center bottom;
       margin-bottom: -2.2rem;
 
+      &.lg {
+        background-position: 30% center;
+      }
       &.md {
         height: ceil($hero-md * $x5);
       }
@@ -188,24 +204,7 @@ $x5: 0.5;
       }
     }
   }
-  // Font size
-  .header {
-    &-1 {
-      font-size: ceil($heading-1-size * $x5);
-    }
-    &-2 {
-      font-size: ceil($heading-2-size * $x5);
-    }
-    &-3 {
-      font-size: ceil($heading-3-size * $x5);
-    }
-    &-4 {
-      font-size: ceil($heading-4-size * $x5);
-    }
-    &-5 {
-      font-size: ceil($heading-5-size * $x5);
-    }
-  }
+
   .btn {
     &-lg,
     &-normal {

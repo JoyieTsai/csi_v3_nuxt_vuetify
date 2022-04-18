@@ -2,16 +2,7 @@
   <div class="tw-pb-5 tw-pt-10 lg:tw-pt-20 footer-line">
     <div class="tw-flex tw-items-stretch tw-flex-col lg:tw-flex-row">
       <!-- Info -->
-      <div
-        class="
-          tw-flex tw-flex-col tw-px-12
-          xl:tw-px-20
-          tw-w-full
-          xl:tw-w-96
-          lg:tw-w-72
-          tw-justify-between
-        "
-      >
+      <div class="tw-flex tw-flex-col tw-px-12 xl:tw-px-20 tw-justify-between">
         <div>
           <img
             src="images/csi-logo-vertical.svg"
@@ -53,9 +44,10 @@
           </div>
           <!-- Address -->
           <div class="tw-text-center tw-mt-10 tw-opacity-70">
-            <p>
-              330 Mac Lane, Keasbey, NJ 08832 U.S.A<br />Tel: +1(732)346-0200
-            </p>
+            <div class="tw-whitespace-nowrap tw-mb-2">
+              330 Mac Lane, Keasbey, NJ 08832
+            </div>
+            <div>Tel: +1(732)346-0200</div>
           </div>
         </div>
         <!-- VERIFIED Seal -->
@@ -105,7 +97,7 @@
                   class="item-link tw-pr-3"
                 >
                   <nuxt-link
-                    v-if="tab.id"
+                    v-if="tab.id && tab.id !== 'resource'"
                     :to="'/' + data.category + '/' + tab.id"
                     class="
                       tw-block
@@ -117,6 +109,19 @@
                   >
                     {{ tab.title }}
                   </nuxt-link>
+                  <a
+                    v-else-if="tab.id === 'resource'"
+                    class="
+                      tw-block
+                      footer-link
+                      tw-text-sm
+                      xl:tw-text-base
+                      tw-mb-2
+                    "
+                    @click="routerToArticle(tab.query)"
+                  >
+                    {{ tab.title }}
+                  </a>
                   <nuxt-link
                     v-else
                     :to="'/' + data.category"
@@ -148,7 +153,7 @@
             class="
               tw-text-sm tw-opacity-50 tw-order-last
               lg:tw-order-first
-              tw-mr-4
+              md:tw-mr-4
             "
           >
             Copyright © CSI Technology Group.
@@ -162,7 +167,8 @@
                 tw-text-sm
                 xl:tw-text-base
                 text-link
-                tw-opacity-50 tw-ml-4
+                tw-opacity-50 tw-mx-2
+                md:tw-ml-4
                 hover:tw-opacity-100
               "
               >{{ link.title }}
@@ -175,6 +181,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import Links from '~/data/heading.json'
 
 export default {
@@ -185,7 +192,19 @@ export default {
       { title: 'Privacy Policy', url: 'policy' },
     ],
   }),
-  methods: {},
+  methods: {
+    ...mapActions([
+      'changeFilteredType',
+      'changeFilteredTag',
+      'changeCurrentPage',
+    ]),
+    routerToArticle(query) {
+      // Reset tag
+      this.changeFilteredTag([])
+      this.changeCurrentPage(1)
+      this.$router.push({ name: 'resources', query: { id: query } })
+    },
+  },
 }
 </script>
 

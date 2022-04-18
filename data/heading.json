@@ -16,11 +16,11 @@
                 "tabs": [
                     {
                         "id": "cad",
-                        "title": "Computer Aided Dispatch (CAD)"
+                        "title": "Computer Aided Dispatch"
                     },
                     {
                         "id": "rms",
-                        "title": "Law Enforcement Records Management (RMS)"
+                        "title": "Law Enforcement Records Management"
                     },
                     {
                         "id": "fire-ems",
@@ -154,8 +154,24 @@
                         "title": "Overview"
                     },
                     {
-                        "id": "interfaces",
-                        "title": "Interfaces"
+                        "id": "low-code",
+                        "title": "Low Code Development"
+                    },
+                    {
+                        "id": "infoshare-engine",
+                        "title": "InfoShare Engine®"
+                    },
+                    {
+                        "id": "doc-template-generation",
+                        "title": "Document Template Generation"
+                    },
+                    {
+                        "id": "cloud-integration",
+                        "title": "Cloud Integration"
+                    },
+                    {
+                        "id": "security",
+                        "title": "Security"
                     },
                     {
                         "id": "data-sharing",
@@ -170,32 +186,16 @@
                         "title": "Data Analytics"
                     },
                     {
-                        "id": "data-mapping",
-                        "title": "Mapping"
-                    },
-                    {
-                        "id": "cloud-integration",
-                        "title": "Cloud Integration"
-                    },
-                    {
-                        "id": "low-code",
-                        "title": "Low Code Development"
-                    },
-                    {
                         "id": "vertical-integration",
                         "title": "Vertical Integration"
                     },
                     {
-                        "id": "infoshare-engine",
-                        "title": "InfoShare Engine®"
+                        "id": "data-mapping",
+                        "title": "Mapping"
                     },
                     {
-                        "id": "security",
-                        "title": "Security"
-                    },
-                    {
-                        "id": "doc-template-generation",
-                        "title": "Document Template Generation"
+                        "id": "interfaces",
+                        "title": "Interfaces"
                     }
                 ]
             }
@@ -209,15 +209,18 @@
             {
                 "tabs": [
                     {
-                        "id": "?id=story",
+                        "id": "resource",
+                        "query": "story",
                         "title": "Success Stories"
                     },
                     {
-                        "id": "?id=news",
+                        "id": "resource",
+                        "query": "news",
                         "title": "News"
                     },
                     {
-                        "id": "?id=event",
+                        "id": "resource",
+                        "query": "event",
                         "title": "Events"
                     }
                 ]

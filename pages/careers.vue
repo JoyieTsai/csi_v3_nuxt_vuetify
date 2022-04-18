@@ -23,7 +23,12 @@
           <nuxt-link
             v-for="(data, i) in datas"
             :key="i"
-            class="tw-flex tw-justify-between tw-text-white tw-p-4 bg-primary"
+            class="
+              tw-flex tw-flex-col
+              md:tw-flex-row
+              tw-justify-between tw-text-white tw-p-4
+              bg-primary
+            "
             :to="'job?id=' + data.id"
           >
             <div class="lg:tw-text-xl xl:tw-text-2xl tw-font-semibold">

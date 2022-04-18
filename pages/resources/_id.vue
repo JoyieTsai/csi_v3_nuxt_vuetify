@@ -10,9 +10,14 @@
         }"
       >
         <div class="main-container tw-mx-auto">
-          <nuxt-link
-            class="tw-flex tw-text-white tw-mt-4 md:tw-mt-8 xl:tw-mt-10"
-            to="/resources"
+          <div
+            class="
+              tw-flex tw-text-white tw-mt-4
+              md:tw-mt-8
+              xl:tw-mt-10
+              tw-cursor-pointer
+            "
+            @click="goToPrev()"
           >
             <img
               :src="require('~/assets/icons/icon-back.svg')"
@@ -20,7 +25,7 @@
               class="tw-mr-3 tw-w-5"
             />
             <div class="tw-text-lg xl:tw-text-xl">All</div>
-          </nuxt-link>
+          </div>
         </div>
       </div>
 
@@ -71,7 +76,7 @@
             class="tw-w-full tw-flex-1 md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl"
           >
             <div class="tw-bg-white">
-              <img :src="'images/news/' + article.cover" :alt="article.cover" />
+              <img :src="'images/news/' + article.cover" alt="resource" />
               <div class="tw-p-5 md:tw-p-10">
                 <div class="tw-flex tw-justify-between">
                   <div class="tips">
@@ -326,6 +331,13 @@ export default {
     },
     routerToArticle(val) {
       this.$router.push({ name: 'resources-id', params: { id: val } })
+    },
+    goToPrev() {
+      if (window.history.length <= 1) {
+        this.$router.push({ name: 'resources' })
+      } else {
+        this.$router.go(-1)
+      }
     },
   },
 }

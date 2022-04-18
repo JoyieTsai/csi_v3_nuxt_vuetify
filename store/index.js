@@ -9,6 +9,7 @@ export const state = () => ({
   currentArticle: [],
   filterType: 'all',
   filterTag: [],
+  currentPage: 1,
 })
 
 export const mutations = {
@@ -23,6 +24,9 @@ export const mutations = {
   },
   setFilteredTag(state, payload) {
     state.filterTag = payload
+  },
+  setCurrentPage(state, payload) {
+    state.currentPage = payload
   },
   setPublicSafety(state, payload) {
     state.publicSafetyList = payload
@@ -49,6 +53,9 @@ export const actions = {
   },
   changeFilteredTag({ commit }, payload) {
     commit('setFilteredTag', payload)
+  },
+  changeCurrentPage({ commit }, payload) {
+    commit('setCurrentPage', payload)
   },
   async getArticleByID({ commit }, id) {
     const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')

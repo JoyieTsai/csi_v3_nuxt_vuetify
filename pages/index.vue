@@ -26,9 +26,11 @@
             background: `url(images/covers/index/` + cover.img + `) center`,
           }"
         >
-          <div class="header-1 tw-mt-10 xl:tw-mt-20">{{ cover.title }}</div>
+          <div class="header-1 tw-mt-10 xl:tw-mt-20">
+            {{ cover.title }}
+          </div>
           <div class="header-4">{{ slogan }}</div>
-          <div class="tw-mt-14">
+          <div class="tw-mt-10">
             <v-dialog v-model="modalVideo">
               <template v-slot:activator="{ on, attrs }">
                 <button class="btn-play" v-bind="attrs" v-on="on">
@@ -42,7 +44,7 @@
               <div class="tw-aspect-w-16 tw-aspect-h-9">
                 <iframe
                   v-if="modalVideo"
-                  src="https://www.youtube.com/embed/9wERtnQGOgE"
+                  src="https://www.youtube.com/embed/keVtH-IzQCQ"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
@@ -108,7 +110,19 @@ export default {
     paginationEnabled: false,
     modalVideo: false,
   }),
-
+  head() {
+    return {
+      titleTemplate: '%s | Overview',
+      meta: [
+        { name: 'keywords', content: 'CSI' },
+        {
+          name: 'description',
+          content:
+            "CSI's Comprehensive Software Solutions for Public Safety, Judiciary and Other Government Agencies",
+        },
+      ],
+    }
+  },
   // watch: {
   //   modalVideo(val) {
   //     !val && this.stop()

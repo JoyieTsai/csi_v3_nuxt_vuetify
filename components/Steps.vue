@@ -51,7 +51,7 @@
             {{ index + 1 }}. {{ item.title }}
           </div>
           <div
-            class="tw-mt-3 tw-text-base xl:tw-text-lg"
+            class="tw-mt-3 tw-text-sm lg:tw-text-base xl:tw-text-lg"
             v-html="item.body"
           ></div>
         </div>

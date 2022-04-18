@@ -26,7 +26,7 @@
                 tw-text-lg
                 lg:tw-text-xl
                 xl:tw-text-xl
-                tw-mb-10
+                tw-my-10
                 lg:tw-mb-20
               "
             >
@@ -36,9 +36,15 @@
               <li v-for="(item, k) in info.contact" :key="k" class="tw-my-5">
                 <div class="tw-flex">
                   <i
-                    :class="[item.icon, 'text-primary tw-text-3xl tw-mr-5']"
+                    :class="[item.icon, 'text-primary tw-text-3xl tw-mr-4']"
                   ></i>
-                  <div class="tw-text-base lg:tw-text-lg tw-opacity-70">
+                  <div
+                    class="
+                      tw-text-base
+                      lg:tw-text-lg
+                      tw-opacity-70 tw-whitespace-nowrap
+                    "
+                  >
                     {{ item.content }}
                   </div>
                 </div>
@@ -100,14 +106,18 @@
                     class="tw-col-span-2 input-light"
                   />
                 </div>
-                <v-btn
-                  color="secondary"
-                  large
-                  class="hover:tw-shadow-xl tw-w-48"
-                  @click="validate"
-                >
-                  Send
-                </v-btn>
+                <div class="tw-text-center">
+                  <v-btn
+                    :loading="loading"
+                    :disabled="loading"
+                    color="secondary"
+                    large
+                    class="hover:tw-shadow-xl tw-w-48"
+                    @click.prevent="validate"
+                  >
+                    Send
+                  </v-btn>
+                </div>
               </v-form>
             </div>
           </div>
@@ -134,11 +144,13 @@ export default {
         { icon: 'icon-mail_solid', content: 'sales@csitech.com' },
         {
           icon: 'icon-location_solid',
-          content: '330 Mac Lane Keasbey, NJ 08832, U.S.A',
+          content: '330 Mac Lane, Keasbey, NJ 08832',
         },
       ],
     },
     valid: true,
+    loader: null,
+    loading: false,
     firstname: '',
     lastname: '',
     email: '',
@@ -159,9 +171,20 @@ export default {
       meta: [{ name: 'description', content: this.title }],
     }
   },
+  watch: {
+    loader() {
+      const l = this.loader
+      this[l] = !this[l]
+
+      setTimeout(() => (this[l] = false), 3000)
+
+      this.loader = null
+    },
+  },
   methods: {
     validate() {
       if (this.$refs.form.validate()) {
+        this.loader = 'loading'
         this.sendMail()
       }
     },
@@ -172,7 +195,7 @@ export default {
       this.$refs.form.resetValidation()
     },
     async sendMail() {
-      const url = 'http://10.1.1.102:9001/AspSoft/ExternalService.ashx'
+      const url = 'https://genie.csitech.com/AspSoft/ExternalService.ashx'
 
       const content = await axios
         .post(url, {

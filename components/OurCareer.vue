@@ -28,6 +28,8 @@
             lg:tw-my-10 lg:tw-mb-0
             btn-lg btn-primary
             hover:tw-shadow-xl
+            tw-flex tw-mx-auto
+            lg:tw-ml-0
           "
           @click.prevent="routerTo('careers')"
         >
@@ -39,7 +41,7 @@
           tw-my-5
           lg:tw-w-2/3 lg:tw-pl-16
           tw-grid
-          md:tw-grid-cols-2
+          sm:tw-grid-cols-2
           lg:tw-grid-cols-3
           tw-gap-4
           md:tw-gap-6

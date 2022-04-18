@@ -1,0 +1,60 @@
+{
+  "title": "Public Safety Overview",
+  "subtitle": "United in Serving Citizens and Communities",
+  "icon": "public_safety.svg",
+  "coverImg": "public-safety.png",
+  "descHeading": "Support Police, Fire, and EMS personnel in their day-to-day operations",
+  "descContent": "Today, government agencies have to cooperate in dynamic, complex environments and respond to emergent matters—all in an efficient manner. But that’s easier said than done. In reality, they face numerous challenges from budgetary constraints to inefficient communication to data silos. By leveraging our industry-leading technology and public sector expertise, CSI works closely with agencies, responders, and public safety personnel to tackle these issues head-on and build the future of public safety.",
+  "benefits": [
+    {
+      "icon": "enterprise_application.svg",
+      "title": "Enterprise Application Integration",
+      "desc": "Single integrated software suite with application to Police, Fire, and EMS dispatch, records and data management, mobile operations, reporting, evidence tracking, mapping, and analytics."
+    },
+    {
+      "icon": "data_share.svg",
+      "title": "Data Exchange",
+      "desc": "Full integration with other public safety systems, external data sources, regional databases, and national databases, as well as prosecution, courts, and fusion centers."
+    },
+    {
+      "icon": "agency_control.svg",
+      "title": "Agency Control",
+      "desc": "Agencies can customize the system to fit their policies, processes, and mission. Patented intake form technology and low-code development solutions reduce custom coding requirements."
+    },
+    {
+      "icon": "compliance.svg",
+      "title": "Compliance",
+      "desc": "Systems and processes designed to comply with legal regulations, functional requirements (LEITSC, UCADFR), data exchange standards (NIEM, GJXML, ODBC), data encryption (CJIS), and reporting protocols (NIBRS, NFIRS)."
+    },
+    {
+      "icon": "productivity.svg",
+      "title": "Productivity & Agility",
+      "desc": "Workflow-optimized user experience and automation increase productivity and reduce administrative burdens by eliminating manual and duplicative tasks."
+    },
+    {
+      "icon": "technology.svg",
+      "title": "Technology",
+      "desc": "Web-based, mobile, and cloud-ready technology ensures platform independence and maximum accessibility, security, and robustness. The hybrid cloud solution is hosted on the CJIS-compliant MS Azure or AWS GovCloud platform."
+    }
+  ],
+  "solutions": [
+    {
+      "product": "RMS",
+      "name": "Law Enforcement Records Management",
+      "icon": "icon-rms_solid",
+      "diagram": "solution-rms.webp"
+    },
+    {
+      "product": "CAD",
+      "name": "Computer Aided Dispatch",
+      "icon": "icon-cad_solid",
+      "diagram": "solution-cad.webp"
+    },
+    {
+      "product": "Fire & EMS",
+      "name": "Fire & EMS Solutions",
+      "icon": "icon-fire_ems_solid",
+      "diagram": "solution-fireems.webp"
+    }
+  ]
+}

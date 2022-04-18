@@ -51,7 +51,7 @@
               v-for="(con, j) in item.content"
               :key="j"
               class="
-                tw-text-sm
+                tw-text-xs
                 sm:tw-text-base
                 xl:tw-text-lg
                 tw-flex tw-items-center tw-px-2
@@ -69,7 +69,7 @@
               v-for="(con, j) in item.content"
               :key="j"
               class="
-                tw-text-sm
+                tw-text-xs
                 sm:tw-text-base
                 xl:tw-text-lg
                 tw-flex tw-items-center tw-px-2
@@ -171,7 +171,7 @@ export default {
     height: 6rem;
     justify-content: center;
     @media only screen and (max-width: $breakpoints-sm) {
-      height: 7.25rem;
+      height: 7rem;
     }
     &:nth-child(even) {
       background-color: $light-color;

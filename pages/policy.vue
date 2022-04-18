@@ -11,17 +11,16 @@
         <div class="main-container tw-mx-auto tw-flex tw-items-center">
           <div class="tw-flex-1 tw-flex-col tw-text-white tw-text-center">
             <div class="header-1 tw-leading-snug">{{ title }}</div>
-            <div class="tw-text-2xl">{{ subtitle }}</div>
           </div>
         </div>
       </div>
 
       <div class="main-container tw-mx-auto">
         <div class="tw-flex tw-flex-col md:tw-flex-row tw-my-12 xl:tw-my-28">
-          <div class="tw-pb-5">
+          <div class="tw-pt-5 md:tw-pt-0 tw-pb-5">
             <ul
               class="
-                tw-w-44
+                md:tw-w-44
                 xl:tw-w-60
                 tw-border-l-8
                 border-primary-light
@@ -38,26 +37,23 @@
             </ul>
           </div>
           <div class="terms-body">
+            <div class="tw-text-lg xl:tw-text-xl tw-mb-5 tw-opacity-70">
+              {{ subtitle }}
+            </div>
             <p>
-              We care about data privacy and security. Please review our Privacy
-              Policy:
-              <a href="https://www.csitech.com">https://www.csitech.com</a>. By
-              using the Site, you agree to be bound by our Privacy Policy, which
-              is incorporated into these Terms of Use. Please be advised the
-              Site is hosted in the United States. If you access the Site from
-              the European Union, Asia, or any other region of the world with
-              laws or other requirements governing personal data collection,
-              use, or disclosure that differ from applicable laws in the United
-              States, then through your continued use of the Site, you are
-              transferring your data to the United States, and you expressly
-              consent to have your data transferred to and processed in the
-              United States. Further, we do not knowingly accept, request, or
-              solicit information from children or knowingly market to children.
-              Therefore, in accordance with the U.S. Children’s Online Privacy
-              Protection Act, if we receive actual knowledge that anyone under
-              the age of 13 has provided personal information to us without the
-              requisite and verifiable parental consent, we will delete that
-              information from the Site as quickly as is reasonably practical.
+              CSI Technology Group is committed to data privacy and security.
+              The following Privacy Policy applies to www.csitech.com
+              (collectively referred to herein as the “Site”) on or in which it
+              is posted, linked, or referenced.
+            </p>
+            <p>
+              The Privacy Policy describes our practices and policies regarding
+              the collection and use of personal information and sets forth your
+              privacy rights. This Privacy Policy also applies to information we
+              collect through other means about you, including offline and from
+              third parties. If you do not agree with our Privacy Policy, you
+              have a choice not to use our Site. By using the Site, you agree to
+              be bound by our Privacy Policy and the accompanying Terms of Use.
             </p>
             <br />
 
@@ -72,12 +68,12 @@
               believe that any material available on or through the Site
               infringes upon any copyright you own or control, please
               immediately notify us using the contact information provided at
-              https://www.csitech.com (a “Notification”). A copy of your
-              Notification will be sent to the person who posted or stored the
-              material addressed in the Notification. Please be advised that
-              pursuant to federal law you may be held liable for damages if you
-              make material misrepresentations in a Notification. Thus, if you
-              are not sure that material located on or linked to by the Site
+              www.csitech.com (a “Notification”). A copy of your Notification
+              will be sent to the person who posted or stored the material
+              addressed in the Notification. Please be advised that pursuant to
+              federal law you may be held liable for damages if you make
+              material misrepresentations in a Notification. Thus, if you are
+              not sure that material located on or linked to by the Site
               infringes your copyright, you should consider first contacting an
               attorney.
             </p>
@@ -101,9 +97,9 @@
               in the manner complained of is not authorized by the copyright
               owner, its agent, or the law; and (6) a statement that the
               information in the notification is accurate, and under penalty of
-              perjury,&nbsp;&nbsp; that the complaining party is authorized to
-              act on behalf of the owner of an exclusive right that is allegedly
-              infringed upon.
+              perjury, that the complaining party is authorized to act on behalf
+              of the owner of an exclusive right that is allegedly infringed
+              upon.
             </p>
             <br />
             <p>
@@ -113,24 +109,22 @@
               If you believe your own copyrighted material has been removed from
               the Site as a result of a mistake or misidentification, you may
               submit a written counter notification to us using the contact
-              information provided at
-              <a href="https://www.csitech.com">https://www.csitech.com</a>. (A
-              “Counter Notification”). To be an effective Counter Notification
-              under the DMCA, your Counter Notification must include
-              substantially the following: (1) identification of the material
-              that has been removed or disabled and the location at which the
-              material appeared before it was removed or disabled; (2) a
-              statement that you consent to the jurisdiction of the Federal
-              District Court in which your address is located, or if your
-              address is outside the United States, for any judicial district in
-              which we are located; (3) a statement that you will accept service
-              of process from the party that filed the Notification or the
-              party's agent; (4) your name, address, and telephone number; (5) a
-              statement&nbsp;&nbsp; under penalty of perjury that you have a
-              good faith belief that the material in question was removed or
-              disabled as a result of a mistake or misidentification of the
-              material to be removed or disabled; and (6) your physical or
-              electronic signature.
+              information provided at www.csitech.com. (A “Counter
+              Notification”). To be an effective Counter Notification under the
+              DMCA, your Counter Notification must include substantially the
+              following: (1) identification of the material that has been
+              removed or disabled and the location at which the material
+              appeared before it was removed or disabled; (2) a statement that
+              you consent to the jurisdiction of the Federal District Court in
+              which your address is located, or if your address is outside the
+              United States, for any judicial district in which we are located;
+              (3) a statement that you will accept service of process from the
+              party that filed the Notification or the party's agent; (4) your
+              name, address, and telephone number; (5) a statement under penalty
+              of perjury that you have a good faith belief that the material in
+              question was removed or disabled as a result of a mistake or
+              misidentification of the material to be removed or disabled; and
+              (6) your physical or electronic signature.
             </p>
             <p>
               If you send us a valid, written Counter Notification meeting the
@@ -148,17 +142,17 @@
 
             <div class="header-5 tw-capitalize">TERM AND TERMINATION</div>
             <p>
-              These Terms of Use shall remain in full force and effect while you
-              use the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS
-              OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND
+              The Privacy Policy shall remain in full force and effect while you
+              use the Site. WITHOUT LIMITING ANY OTHER PROVISION OF THE PRIVACY
+              POLICY, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND
               WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SITE
               (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY
               REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH
-              OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE
-              TERMS OF USE OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY
+              OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THIS
+              PRIVACY POLICY OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY
               TERMINATE YOUR USE OR PARTICIPATION IN THE SITE OR DELETE ANY
               CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT
-              WARNING, IN OUR SOLE DISCRETION.
+              WARNING, AT OUR SOLE DISCRETION.
             </p>
             <p>
               If we terminate or suspend your account for any reason, you are
@@ -192,20 +186,20 @@
               at any time or for any reason without notice to you. You agree
               that we have no liability whatsoever for any loss, damage, or
               inconvenience caused by your inability to access or use the Site
-              during any downtime or discontinuance of the Site. Nothing in
-              these Terms of Use will be construed to obligate us to maintain
-              and support the Site or to supply any corrections, updates, or
-              releases in connection therewith.
+              during any downtime or discontinuance of the Site. Nothing in the
+              Privacy Policy or the Terms of Use will be construed to obligate
+              us to maintain and support the Site or to supply any corrections,
+              updates, or releases in connection therewith.
             </p>
             <br />
 
             <div class="header-5 tw-capitalize">GOVERNING LAW</div>
             <p>
-              These Terms of Use and your use of the Site are governed by and
-              construed in accordance with the laws of the State of New Jersey
-              applicable to agreements made and to be entirely performed within
-              the State of New Jersey, without regard to its conflict of law
-              principles.
+              The Privacy Policy, Terms of Use, and your use of the Site are
+              governed by and construed in accordance with the laws of the State
+              of New Jersey applicable to agreements made and to be entirely
+              performed within the State of New Jersey, without regard to its
+              conflict of law principles.
             </p>
             <br />
 
@@ -215,14 +209,14 @@
             </p>
             <p>
               To expedite resolution and control the cost of any dispute,
-              controversy, or claim related to these Terms of Use (each a
-              "Dispute" and collectively, the “Disputes”) brought by either you
-              or us (individually, a “Party” and collectively, the “Parties”),
-              the Parties agree to first attempt to negotiate any Dispute
-              (except those Disputes expressly provided below) informally for at
-              least thirty (30) days before initiating arbitration. Such
-              informal negotiations commence upon written notice from one Party
-              to the other Party.
+              controversy, or claim related to the Privacy Policy or Terms of
+              Use (each a "Dispute" and collectively, the “Disputes”) brought by
+              either you or us (individually, a “Party” and collectively, the
+              “Parties”), the Parties agree to first attempt to negotiate any
+              Dispute (except those Disputes expressly provided below)
+              informally for at least thirty (30) days before initiating
+              arbitration. Such informal negotiations commence upon written
+              notice from one Party to the other Party.
             </p>
             <br />
             <p>
@@ -263,7 +257,7 @@
               venue and jurisdiction in such state and federal courts.
               Application of the United Nations Convention on Contracts for the
               International Sale of Goods and the Uniform Computer Information
-              Transaction Act (UCITA) are excluded from these Terms of Use.
+              Transaction Act (UCITA) are excluded from the Privacy Policy.
             </p>
             <p>
               In no event shall any Dispute brought by either Party related in
@@ -304,11 +298,9 @@
               rights of a Party; (b) any Dispute related to, or arising from,
               allegations of theft, piracy, invasion of privacy, or unauthorized
               use; and (c) any claim for injunctive relief. If this provision is
-              found to be illegal or unenforceable, then neither&nbsp;
-              Party&nbsp; will&nbsp; elect&nbsp; to&nbsp; arbitrate&nbsp;
-              any&nbsp; Dispute&nbsp; falling&nbsp; within&nbsp; that&nbsp;
-              portion&nbsp; of&nbsp; this&nbsp; provision&nbsp; found&nbsp;
-              to&nbsp; be&nbsp; illegal&nbsp; or unenforceable and such Dispute
+              found to be illegal or unenforceable, then neither Party will
+              elect to arbitrate any Dispute falling within that portion of this
+              provision found to be illegal or unenforceable and such Dispute
               shall be decided by a court of competent jurisdiction within the
               courts listed for jurisdiction above, and the Parties agree to
               submit to the personal jurisdiction of that court.
@@ -335,30 +327,29 @@
               YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED
               WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,
               AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS
-              ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR
-              THE&nbsp; CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL
-              ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS,
-              MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL
-              INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING
-              FROM YOUR ACCESS TO AND USE OF THE SITE, (3) ANY UNAUTHORIZED
-              ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL
-              INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY
-              INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SITE, (5)
-              ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE
-              TRANSMITTED TO OR THROUGH THE SITE BY ANY THIRD PARTY, AND/OR (6)
-              ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY
-              LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY
-              CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE
-              SITE. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME
-              RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY
-              A THIRD PARTY THROUGH THE SITE, ANY HYPERLINKED WEBSITE, OR ANY
-              WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER
-              ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE
-              RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY
-              THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE
-              PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY
-              ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE
-              CAUTION WHERE APPROPRIATE.
+              ABOUT THE ACCURACY OR COMPLETENESS OF THE SITE’S CONTENT OR THE
+              CONTENT OF ANY WEBSITES LINKED TO THE SITE AND WE WILL ASSUME NO
+              LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR
+              INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR
+              PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR
+              ACCESS TO AND USE OF THE SITE, (3) ANY UNAUTHORIZED ACCESS TO OR
+              USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION
+              AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION
+              OR CESSATION OF TRANSMISSION TO OR FROM THE SITE, (5) ANY BUGS,
+              VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR
+              THROUGH THE SITE BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR
+              OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE
+              OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED,
+              TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE SITE. WE DO NOT
+              WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY
+              PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH
+              THE SITE, ANY HYPERLINKED WEBSITE, OR ANY WEBSITE OR MOBILE
+              APPLICATION FEATURED IN ANY BANNER OR OTHER ADVERTISING, AND WE
+              WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING
+              ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF
+              PRODUCTS OR SERVICES. AS WITH THE PURCHASE OF A PRODUCT OR SERVICE
+              THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST
+              JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.
             </p>
             <br />
 
@@ -375,9 +366,9 @@
               WILL AT ALL TIMES BE LIMITED TO THE LESSER OF THE AMOUNT PAID, IF
               ANY, BY YOU TO US OR $100.00 USD. CERTAIN STATE LAWS DO NOT ALLOW
               LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION
-              OF CERTAIN DAMAGES.&nbsp; IF THESE LAWS APPLY TO YOU, SOME OR ALL
-              OF THE ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND
-              YOU MAY HAVE ADDITIONAL RIGHTS.
+              OF CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE
+              ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY
+              HAVE ADDITIONAL RIGHTS.
             </p>
             <br />
 
@@ -389,18 +380,19 @@
               damage, liability, claim, or demand, including reasonable
               attorneys’ fees and expenses, made by any third party due to or
               arising out of: (1) your Contributions; (2) use of the Site; (3)
-              breach of these Terms of Use; (4) any breach of your
-              representations and warranties set forth in these Terms of Use;
-              (5) your violation of the rights of a third party, including but
-              not limited to intellectual property rights; or (6) any overt
-              harmful act toward any other user of the Site with whom you
-              connected via the Site. Notwithstanding the foregoing, we reserve
-              the right, at your expense, to assume the exclusive defense and
-              control of any matter for which you are required to indemnify us,
-              and you agree to cooperate, at your expense, with our defense of
-              such claims. We will use reasonable efforts to notify you of any
-              such claim, action, or proceeding which is subject to this
-              indemnification upon becoming aware of it.
+              breach of the Privacy Policy or Terms of Use; (4) any breach of
+              your representations and warranties set forth in the Privacy
+              Policy or Terms of Use; (5) your violation of the rights of a
+              third party, including but not limited to intellectual property
+              rights; or (6) any overt harmful act toward any other user of the
+              Site with whom you connected via the Site. Notwithstanding the
+              foregoing, we reserve the right, at your expense, to assume the
+              exclusive defense and control of any matter for which you are
+              required to indemnify us, and you agree to cooperate, at your
+              expense, with our defense of such claims. We will use reasonable
+              efforts to notify you of any such claim, action, or proceeding
+              which is subject to this indemnification upon becoming aware of
+              it.
             </p>
             <br />
 
@@ -411,10 +403,10 @@
               data relating to your use of the Site. Although we perform regular
               routine backups of data, you are solely responsible for all data
               that you transmit or that relates to any activity you have
-              undertaken using the Site. You agree&nbsp;&nbsp; that we shall
-              have no liability to you for any loss or corruption of any such
-              data, and you hereby waive any right of action against us arising
-              from any such loss or corruption of such data.
+              undertaken using the Site. You agree that we shall have no
+              liability to you for any loss or corruption of any such data, and
+              you hereby waive any right of action against us arising from any
+              such loss or corruption of such data.
             </p>
             <br />
 
@@ -429,11 +421,10 @@
               electronically, via email and on the Site, satisfy any legal
               requirement that such communication be in writing. YOU HEREBY
               AGREE TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND
-              OTHER RECORDS,&nbsp; AND&nbsp; TO&nbsp; ELECTRONIC&nbsp;
-              DELIVERY&nbsp; OF&nbsp; NOTICES,&nbsp; POLICIES,&nbsp; AND&nbsp;
-              RECORDS&nbsp; OF&nbsp; TRANSACTIONS INITIATED OR COMPLETED BY US
-              OR VIA THE SITE. You hereby waive any rights or requirements under
-              any statutes, regulations, rules, ordinances, or other laws in any
+              OTHER RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES,
+              AND RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA
+              THE SITE. You hereby waive any rights or requirements under any
+              statutes, regulations, rules, ordinances, or other laws in any
               jurisdiction which require an original signature or delivery or
               retention of non-electronic records, or to payments or the
               granting of credits by any means other than electronic means.
@@ -453,30 +444,55 @@
             </p>
             <br />
 
-            <div class="header-5 tw-capitalize">MISCELLANEOUS</div>
+            <div class="header-5 tw-capitalize">EXTERNAL SITES</div>
             <p>
-              These Terms of Use and any policies or operating rules posted by
-              us on the Site or in respect to the Site constitute the entire
-              agreement and understanding between you and us. Our failure to
-              exercise or enforce any right or provision of these Terms of Use
-              shall not operate as a waiver of such right or provision. These
-              Terms of Use operate to the fullest extent permissible by law. We
-              may assign any or all of our rights and obligations to others at
-              any time. We shall not be responsible or liable for any loss,
-              damage, delay, or failure to act caused by any cause beyond our
-              reasonable control. If any provision or part of a provision of
-              these Terms of Use is determined to be unlawful, void, or
-              unenforceable, that provision or part of the provision is deemed
-              severable from these Terms of Use and does not affect the validity
-              and enforceability of any remaining provisions. There is no joint
-              venture, partnership, employment or agency relationship created
-              between you and us as a result of these Terms of Use or use of the
-              Site. You agree that these Terms of Use will not be construed
-              against us by virtue of having drafted them. You hereby waive any
-              and all defenses you may have based on the electronic form of
-              these Terms of Use and the lack of signing by the parties hereto
-              to execute these Terms of Use.
+              The Site may contain links to External Sites. We have no control
+              over the privacy practices or the content of these External Sites.
+              As such, we are not responsible for the content or the privacy
+              policies of those External Sites. You should check the applicable
+              third-party privacy policy and terms of use when visiting any
+              External Sites.
             </p>
+            <br />
+
+            <div class="header-5 tw-capitalize">CHILDREN’S PRIVACY</div>
+            <p>
+              The Site is intended for users who are at least 13 years of age.
+              All users who are minors in the jurisdiction in which they reside
+              (generally under the age of 18) must have the permission of, and
+              be directly supervised by, their parent or guardian to use the
+              Site. If you are a minor, you must have your parent or guardian
+              read and agree to the Privacy Policy prior to you using the Site.
+            </p>
+            <p>
+              We do not knowingly accept, request, or solicit information from
+              children or knowingly market to children. Therefore, in accordance
+              with the U.S. Children’s Online Privacy Protection Act, if we
+              receive actual knowledge that anyone under the age of 13 has
+              provided personal information to us without the requisite and
+              verifiable parental consent, we will delete that information from
+              the Site as quickly as is reasonably practical.
+            </p>
+            <br />
+
+            <div class="header-5 tw-capitalize">NON-US RESIDENTS</div>
+            <p>
+              If you access the Site from the European Union, Asia, or any other
+              region of the world with laws or other requirements governing
+              personal data collection, use, or disclosure that differ from
+              applicable laws in the United States, then through your continued
+              use of the Site, you are transferring your data to the United
+              States, and you expressly consent to have your data transferred to
+              and processed in the United States.
+            </p>
+            <br />
+
+            <div class="header-5 tw-capitalize">CONTACT US</div>
+            <p>
+              If you have questions or concerns regarding this Privacy Policy,
+              please contact us at: (732) 346-0200.
+            </p>
+            <br />
           </div>
         </div>
       </div>
@@ -489,7 +505,7 @@ export default {
   data: () => ({
     category: 'page',
     title: 'Privacy Policy',
-    subtitle: '',
+    subtitle: 'Last Updated: April 10, 2022',
     coverimg: 'blue.jpg',
     links: [
       { title: 'Terms of Service', url: 'terms' },

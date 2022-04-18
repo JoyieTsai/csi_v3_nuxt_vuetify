@@ -13,7 +13,7 @@
         <div class="main-container tw-mx-auto">
           <div class="tw-flex tw-mb-12">
             <div class="tw-flex-1 tw-flex-col tw-text-white">
-              <div class="header-1 tw-leading-snug text-dark tw-mb-10">
+              <div class="header-1 tw-leading-snug text-dark lg:tw-mb-10">
                 {{ title }}
               </div>
             </div>
@@ -21,7 +21,10 @@
         </div>
       </div>
       <div class="main-container tw-mx-auto tw-my-10 xl:tw-my-28">
-        <v-tabs v-model="tabIndex" vertical>
+        <v-tabs
+          v-model="tabIndex"
+          :vertical="$vuetify.breakpoint.xsOnly ? false : true"
+        >
           <v-tab
             v-for="(data, i) in datas"
             :key="i"
@@ -41,8 +44,15 @@
           <v-tabs-items v-model="tabIndex">
             <v-tab-item v-for="(data, j) in datas" :key="j">
               <v-card flat>
-                <v-card-text class="tw-pl-10">
-                  <div class="header-5 tw-font-semibold tw-mb-10">
+                <v-card-text class="md:tw-pl-10">
+                  <div
+                    class="
+                      header-5
+                      tw-font-semibold tw-mt-10
+                      md:tw-mt-0
+                      tw-mb-10
+                    "
+                  >
                     Work Location: {{ data.location }}
                   </div>
                   <div v-for="(func, i) in data.functions" :key="i">
@@ -54,7 +64,7 @@
                       <li
                         v-for="(item, j) in func.content"
                         :key="j"
-                        class="tw-text-lg opacity-1 tw-my-2"
+                        class="tw-text-base lg:tw-text-lg opacity-1 tw-my-2"
                       >
                         <span v-html="item"></span>
                       </li>
@@ -67,7 +77,7 @@
         </v-tabs>
 
         <!-- Benefit -->
-        <div class="tw-my-16 xl:tw-my-28 tw-text-center">
+        <div class="tw-mt-8 tw-mb-14 xl:tw-my-28 tw-text-center">
           <div class="header-3 tw-font-semibold tw-mb-12">
             Benefits Upon Completing 3-Month Probationary Period
           </div>

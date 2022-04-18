@@ -20,7 +20,7 @@
             md:tw-w-3/5
           "
         >
-          <div class="text-primary header-4">
+          <div class="text-primary lg:tw-text-2xl xl:tw-text-3xl">
             {{ tagline.title }}
           </div>
         </div>

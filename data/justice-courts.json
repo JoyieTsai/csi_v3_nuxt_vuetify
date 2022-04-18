@@ -2,12 +2,12 @@
   {
     "id": "county-prosecution",
     "title": "County Prosecution",
-    "subtitle": "Web-based Criminal Case and Document Management",
+    "subtitle": "Web-based Prosecutor Case and Document Management",
     "icon": "prosecution.svg",
-    "coverImg": "county_prosecution.webp",
+    "coverImg": "county_prosecution.png",
     "brochure": "Prosecutor.pdf",
     "descHeading": "Support criminal litigation and efficiently handle special case types",
-    "descContent": "InfoShare™ eProsecution is a powerful and flexible system designed specifically for prosecutors and district attorneys to manage workloads, streamline workflow, and maintain integrity in criminal justice processes including pre-trial, trial, post-adjudication, and special case types. Expert interfacing enables seamless data exchange between prosecutor/DA offices, sheriff’s offices, police departments, and courts. Moreover, integrated modules can be added for case support such as discovery, investigation, victim services, and much more. ",
+    "descContent": "Designed in accordance with the National District Attorneys Association’s Functional Requirements for Prosecutor Management Systems, InfoShare™ eProsecution is a powerful and flexible system designed specifically for County Prosecutors’ Offices and District Attorneys’ Offices to manage workloads, streamline workflows, and maintain integrity in the criminal justice process from screening to final sentencing. Expert interfacing enables seamless, NIEM-compliant data exchange and specialized modules enhance the capabilities of the existing system.",
     "capabilities": [
       {
         "title": "Data Sharing",
@@ -43,69 +43,78 @@
     "categories": [
       {
         "id": 1,
-        "name": "Case Management",
+        "name": "Case Management System",
         "icon": "icon-case_management_solid",
         "items": [
           {
             "title": "Pretrial",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Support data entry, recording, and tracking of all pretrial proceedings including case initiation, initial appearance, preliminary hearing, arraignment, in-custody defendants, and pretrial events (motions, hearings, conferences, meetings, other). Manage all aspects of the case digitally: case intake, case stage, linking cases and persons, personnel assignment, scheduling, emailing, and much more.",
             "images": [
               "ca1-01-1.jpg"
             ]
           },
           {
             "title": "Trial",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Handle trial proceedings including trial presentation, jury instructions, and verdict and finding. Support the litigation process with efficient organization of discovery and evidence, and with subpoenas and indictment/accusation template by statute. Assist discovery preparation with redaction and Bates numbering.",
             "images": [
-              "ca1-02-1.jpg"
+              "ca1-02-1.jpg",
+              "ca1-02-2.jpg",
+              "ca1-02-3.jpg"
             ]
           },
           {
             "title": "Post-Adjudication",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Assist dispositions, sentence hearings, and post-adjudication information sharing and event tracking. Use pre-assigned codes to record dispositions, manage disposition and sentencing information, support expungement, sealing, and purging of a case, and provide a function for re-opening closed cases. Provide services to victims and witnesses including support, education, guidance, compensation, and protection.",
             "images": [
-              "ca1-03-1.jpg"
+              "ca1-03-1.jpg",
+              "ca1-03-2.jpg"
             ]
           },
           {
             "title": "Special Case Types",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Manage special case types such as duty referral, investigation, grand jury, juvenile cases, DV family, forfeiture, guardianship, child dependency and neglect cases, motions, appeals, sex offender, and special prosecutions. Provide relevant forms, produce reports, track and provide notifications, and transfer case files to courts.",
             "images": [
-              "ca1-04-1.jpg"
+              "ca1-04-1.jpg",
+              "ca1-04-2.jpg"
             ]
           },
           {
             "title": "Case Support and Services",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Provide case support and services including discovery, evidence management, investigations, motions, victim services, restitution and compensation management, witness management, and diversion/deferred prosecution. Accommodate privacy and redaction needs, robust permission settings, streamlined data entry, and other specialized functions.",
             "images": [
-              "ca1-05-1.jpg"
+              "ca1-05-1.jpg",
+              "ca1-05-2.jpg",
+              "ca1-05-3.jpg"
             ]
           },
           {
             "title": "Additional Business Requirements",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Support additional capabilities such as master name index, merge case functions, no contact and protection orders, warrant reviews, extradition, and conflict avoidance. Monitor orders, track warrant progress, manage workflows, and more. ",
             "images": [
               "ca1-06-1.jpg"
             ]
           },
           {
             "title": "Common Requirements",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Manage workloads with user inbox assignment tracking and monitor office resources and processes with data analytics tools, time tracking, and performance management reporting. Expert interfacing with internal and external data sources such as law enforcement agencies, courts, state repositories, and third-parties to reduce duplicate data entry and improve data accuracy.",
             "images": [
-              "ca1-07-1.jpg"
+              "ca1-07-1.jpg",
+              "ca1-07-2.jpg",
+              "ca1-07-3.jpg"
             ]
           },
           {
             "title": "Nonfunctional Requirements",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "County Prosecution is powered by the <a href='/capabilities/infoshare-engine' class='white-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application providing robust data encryption, stringent permission settings, cloud integration, configurable support files and business rules, streamlined reporting, template generation, and a whole suite of other features.",
             "images": [
-              "ca1-08-1.jpg"
+              "ca1-08-1.jpg",
+              "ca1-08-2.jpg"
             ]
           }
         ],
         "link": {
           "icon": "icon-compliance_outline",
-          "title": "PCMS Functional Requirements (NDAA)",
+          "title": "PCMS Functional Requirements<br>(NDAA)",
           "url": "https://ndaa.org/wp-content/uploads/PCMS-Functional-Specifications.pdf"
         }
       },
@@ -116,80 +125,94 @@
         "items": [
           {
             "title": "Document Management",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Store a wide variety of data files including documents, audio, video, and images in a centralized library for efficient retrieval and review. Document files are uploaded and linked to cases with application/file type, complaint ID, file name, and a system-generated unique file number. Data files can be moved or copied to multiple case files, and multiple users can access the files simultaneously.",
             "images": [
-              "ca2-01-1.jpg"
+              "ca2-01-1.jpg",
+              "ca2-01-2.jpg",
+              "ca2-01-3.jpg"
             ]
           },
           {
-            "title": "Indictment Templates",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "Charge Documents Templates",
+            "desc": "Use a template generator to create charge documents that can be printed and stored electronically within specific cases. Support both standard and agency-specific charging languages.",
             "images": [
-              "ca2-02-1.jpg"
+              "ca2-02-1.jpg",
+              "ca2-02-2.jpg",
+              "ca2-02-3.jpg"
             ]
           },
           {
             "title": "Templates Generator",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Generate agency-specific forms and letters, automatically embedded with current case data. Users can edit, build, and set the approval workflow easily via the form management system.",
             "images": [
-              "ca2-03-1.jpg"
-            ]
+              "ca2-03-1.jpg",
+              "ca2-03-2.jpg"
+            ],
+            "link": "/capabilities/doc-template-generation"
           },
           {
             "title": "eDiscovery",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Reduce time spent on discovery preparation by up to 75% with paperless organization of discovery and evidence. Documents and other multimedia files including transcripts, documents, photos, audio, video, and reports are organized in discovery packages in one central, secure repository. Support redaction, Bates numbering, and billing.",
             "images": [
-              "ca2-04-1.jpg"
-            ]
+              "ca2-04-1.jpg",
+              "ca2-04-2.jpg",
+              "ca2-04-3.png"
+            ],
+            "link": "/justice-courts/ediscovery-with-portal"
           },
           {
-            "title": "eDiscovery Portal",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "eDiscovery with Portal",
+            "desc": "Request, receive, and deliver discovery packages to private attorneys, district attorneys, and public defenders via a secure portal. Registered attorneys can access discovery packages anytime, anywhere.",
             "images": [
               "ca2-05-1.jpg"
-            ]
+            ],
+            "link": "/justice-courts/ediscovery-with-portal"
           },
           {
             "title": "InfoArchive",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Completely eliminate hard copies in the Prosecutor’s office. The benefits of a paperless environment include saving storage space, saving time and effort finding documents, quickly locating information in documents, and delivering documents quickly and safely to stakeholders.",
             "images": [
-              "ca2-06-1.jpg"
+              "ca2-06-1.jpg",
+              "ca2-06-2.jpg"
             ]
           },
           {
             "title": "InfoFile",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Remote desktop application designed to give access to Cellebrite files stored on shared drives. Integrated into the InfoShare™ Documents module, InfoFile allows users to view phone dump files and download exhibits for trial discovery.",
             "images": [
               "ca2-07-1.jpg"
             ]
           },
           {
             "title": "InfoScribe",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Transcribe audio and video with minimal effort using the latest machine learning technology.  Reduce the amount of work in transcribing evidence by at least 50%. Execute transcription processes directly from eDiscovery packages. Finished transcripts are reviewable, searchable, and linked to their corresponding case files.",
             "images": [
               "ca2-08-1.jpg"
-            ]
+            ],
+            "link": "/justice-courts/online-transcription-service"
           },
           {
             "title": "InfoVideo",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Upload and download massive video data with third-party cloud integration (Evidence.com, Wasabi Storage). APIs enable user access to video footage without impacting existing bandwidth. Easily connect video data with case files.",
             "images": [
-              "ca2-09-1.jpg"
+              "ca2-09-1.png"
             ]
           },
           {
             "title": "Wasabi Storage",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Back-end cloud storage solution that integrates seamlessly into the InfoShare™ platform. Handle updates and access security enhancements. Integrate with InfoVideo, InfoRecording, InfoDoc, and eDiscovery with Portal.",
             "images": [
               "ca2-10-1.jpg"
             ]
           },
           {
-            "title": "Digital Recording",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "Interview Recording",
+            "desc": "Conduct live remote interviews and store recordings directly in the case file after the interview is completed. Compatible with most HD cameras and high-quality synchronized audio channels. Manage multiple interviews from one recording station.",
             "images": [
-              "ca2-11-1.jpg"
-            ]
+              "ca2-11-1.jpg",
+              "ca2-11-2.jpg"
+            ],
+            "link": "/justice-courts/interview-recording"
           }
         ]
       },
@@ -200,9 +223,10 @@
         "items": [
           {
             "title": "Investigation",
-            "desc": "Enable prosecutors to manage investigation case files with an extensive range of information variables such as evidence, warrants, arrests, drugs, and more. Handle special investigation cases including but not limited to arson, burglary, computer crime, sex crime, death, robbery, and narcotics.",
+            "desc": "Manage investigation case files with an extensive range of information variables such as evidence, warrants, arrests, drugs, and more. Handle special investigation cases including but not limited to arson, burglary, computer crime, sex crime, death, robbery, and narcotics.",
             "images": [
-              "ca3-01-1.jpg"
+              "ca3-01-1.jpg",
+              "ca3-01-2.png"
             ],
             "link": "/crime-intelligence/investigation"
           },
@@ -210,35 +234,40 @@
             "title": "Crime Analysis",
             "desc": "Advanced data collection and analytics to transform vast amounts of stored data into meaningful and insightful information, revealing crime trends and hidden patterns. Visualize data to draw connections to and between crimes, people, places, and vehicles.",
             "images": [
-              "ca3-02-1.jpg"
+              "ca3-02-1.jpg",
+              "ca3-02-2.jpg",
+              "ca3-02-3.jpg"
             ],
             "link": "/crime-intelligence/analytics"
           },
           {
-            "title": "High-Tech Crime",
-            "desc": "Identify, preserve, analyze, and document digital evidence for investigative management of high-tech/cyber crimes. The application is accredited by the American Association for Laboratory Accreditation (A2LA).",
+            "title": "High Tech Crime",
+            "desc": "Assist in cellular, technology-related, and computer forensic investigations. Identify, preserve, analyze, and document digital evidence for investigative management.",
             "images": [
               "ca3-03-1.jpg"
             ]
           },
           {
             "title": "Duty Referral",
-            "desc": "Need more information.",
+            "desc": "Designed to help record, categorize, review, and track all case information including referral, location, type of incident as well as victim, witness, and suspect data. Assign staff, conduct preliminary assessments, print tracking sheet reports, and perform supervisory reviews to determine the appropriate course of action.",
             "images": [
-              "ca3-04-1.jpg"
+              "ca3-04-1.jpg",
+              "ca3-04-2.png"
             ]
           },
           {
-            "title": "Major Incident",
-            "desc": "Share major incident investigations involving multiple operations, jurisdictions, and/or leads with prosecutors. Robust permission settings ensure that sensitive data is secure.",
+            "title": "Major Incident Management",
+            "desc": "Facilitate major incident investigations involving multiple operations, jurisdictions, and/or leads, including but not limited to terrorist incidents, mass casualty incidents, and crime spree investigations. Robust permission settings ensure that sensitive data is secure and only accessible by authorized personnel.",
             "images": [
-              "ca3-05-1.jpg"
+              "ca3-05-1.jpg",
+              "ca3-05-2.jpg",
+              "ca3-05-3.jpg"
             ],
             "link": "/crime-intelligence/major-incident-management"
           },
           {
             "title": "Professional Standards & IA",
-            "desc": "Manage and document investigations of alleged employee misconduct to maintain agency integrity. Support external user management, early intervention mechanism, customizable workflows, reporting templates, and more. Data is stored in a separate database for increased security.",
+            "desc": "Manage and document investigations of alleged officer and/or employee misconduct to maintain agency integrity. Data is stored in a separate database for increased security. Support external user management, early intervention mechanism, customizable workflows, standardized CALEA disciplinary forms as well as agency-specific forms, and more.",
             "images": [
               "ca3-06-1.jpg"
             ],
@@ -253,41 +282,37 @@
             "link": "/public-safety/internal-affairs"
           },
           {
-            "title": "Drug Screening Random",
+            "title": "Drug Screening Randomizer",
             "desc": "Generate a list of randomly selected personnel eligible for drug screening. Every employee in the office has an equal chance of being selected each and every time a selection takes place. Support all required documentation and archiving needs.",
             "images": [
-              "ca3-08-1.jpg"
+              "ca3-08-1.jpg",
+              "ca3-08-2.png"
             ],
             "link": "/public-safety/internal-affairs"
           },
           {
-            "title": "CI / CW",
-            "desc": "Securely manage information and documents on confidential informants and cooperating witnesses. Document and tabulate payments to CI/CW.",
+            "title": "Confidential Informants/Witnesses",
+            "desc": "Manage information and documents on confidential informants and cooperating witnesses. Let users record contact logs, document and tabulate payments, record intelligence, map confidential sources’ location, and more. Robust permission settings ensure only authorized individuals have access to confidential records.",
             "images": [
               "ca3-09-1.jpg"
             ]
           },
           {
-            "title": "Crime Scene",
-            "desc": "Access crime scene findings and evidence logs linked to specific cases and chain of custody.",
+            "title": "Crime Scene Investigation",
+            "desc": "Collect, process, and document crime scene findings and forensic evidence for investigation and trial preparation. Maintain an ongoing repository of crime scene data linked to cases and chain of custody, keeping all data organized and updated for quick access.",
             "images": [
-              "ca3-10-1.jpg"
-            ],
-            "link": "/crime-intelligence/csi"
-          },
-          {
-            "title": "Rolmes™ App",
-            "desc": "Provide crime scene investigation units with an innovative integration of hardware, software, and robotic technology to identify, process, and collect evidence. Features include tagging, real-time synchronization, deleted items recovery, offline mode, barcode generation, reporting, and much more. Rolmes™ was conceived in collaboration with world-renowned forensic scientist, Dr. Henry Lee.",
-            "images": [
-              "ca3-011-1.jpg"
+              "ca3-10-1.jpg",
+              "ca3-10-2.jpg"
             ],
             "link": "/crime-intelligence/csi"
           },
           {
             "title": "Intelligence",
-            "desc": "Forward data and reports to RISS-inclusive intelligence module for crime activity analysis and investigation support.",
+            "desc": "A 28CFR23 criminal intelligence system to store, access, and analyze intelligence at the local, state, and federal level for crime prevention and investigative purposes. Interfaces with RISSNET and associated partnerships such as N-DEX and INTERPOL. Extensive capabilities in linking and searching for information.",
             "images": [
-              "ca3-12-1.jpg"
+              "ca3-11-1.jpg",
+              "ca3-11-2.jpg",
+              "ca3-11-3.jpg"
             ],
             "link": "/crime-intelligence/intelligence"
           }
@@ -300,7 +325,7 @@
         "items": [
           {
             "title": "Juvenile",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Case and document management designed specifically for Juvenile Units to screen, investigate, and prosecute juvenile offenders. Enhance communication and data sharing among assistant prosecutors, investigators, clerical staff, victim-witness advocates, and special units. Also supports additional security and privacy requirements for juvenile cases.",
             "images": [
               "ca4-01-1.jpg",
               "ca4-01-2.jpg"
@@ -308,14 +333,14 @@
           },
           {
             "title": "DV Family",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Assist Domestic Violence Units in investigating and prosecuting cases of domestic violence from inception to disposition. Handle evidence, warrants, victim services, events, orders of protection, and more.",
             "images": [
               "ca4-02-1.jpg"
             ]
           },
           {
             "title": "JV Screening",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Upload juvenile case information and supporting documents from local police departments or municipal court systems (e.g. eCDR) to prosecutor’s offices, shortening the time to receive arrest information while speeding up time to trial. The workflow can be customized to include Juvenile Probation and/or Family Court Staff.",
             "images": [
               "ca4-03-1.jpg",
               "ca4-03-2.jpg"
@@ -323,7 +348,7 @@
           },
           {
             "title": "JV ePetition",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Electronic filing of juvenile petitions with Juvenile and Family Courts describing the charges filed against the juvenile offender. ",
             "images": [
               "ca4-04-1.jpg",
               "ca4-04-2.jpg"
@@ -333,26 +358,26 @@
       },
       {
         "id": 5,
-        "name": "Special Case Types (Units)",
+        "name": "Special Case Types",
         "icon": "icon-built_in_compliance_solid",
         "items": [
           {
             "title": "Appellate",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Handle case information and activities through the appellate process. Enter appeal type, update appeal and disposition information, record or schedule events, add appeal motions, and assign staff. In addition, case information can be easily shared from one system to another if the case is transferred to another agency.",
             "images": [
               "ca5-01-1.jpg"
             ]
           },
           {
             "title": "Motion",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Track and manage all case facts in preparation of motion workflows. Enter motion type, update motion and disposition information, track filing dates, organize oral arguments, assign staff, and provide alerts and notifications to ensure smooth motion proceedings.",
             "images": [
               "ca5-02-1.jpg"
             ]
           },
           {
             "title": "Evidence",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Comprehensive, automated evidence management customized to fit the protocols of each agency. Manage the evidence process, add related persons and related police officers, log evidence, and use barcode technology to ensure accuracy in tracking chain of custody.",
             "images": [
               "ca5-03-1.jpg",
               "ca5-03-2.jpg"
@@ -360,23 +385,23 @@
           },
           {
             "title": "LIMS",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Manage laboratory-related discovery including but not limited to toxicology, seized drugs, firearms, latent prints, and trace. Log lab evidence, manage the lab evidence process, track chain of custody, and record lab analysis results. Also, generate a wide variety of lab and ballistics analysis reports.",
             "images": [
               "ca5-04-1.jpg"
             ]
           },
           {
             "title": "Forfeiture",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Create itemized lists of asset forfeitures including property, vehicles, and contraband according to the state attorney’s general guidelines. Track funds’ account statement, cash distribution, disposition, and expenditures. Automatically generate quarterly reports on seizures and forfeiture activity.",
             "images": [
               "ca5-05-1.jpg",
-              "ca5-05-2.webp",
-              "ca5-05-3.webp"
+              "ca5-05-2.png",
+              "ca5-05-3.png"
             ]
           },
           {
             "title": "Megan's Law",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Manage sex offender profile, registration status, and case information for organized input, display, and search retrieval. The module includes a tier assessment tool for prosecutor proposal and court approval. Send notifications based on a tier rating system to applicable schools and organizations.",
             "images": [
               "ca5-06-1.jpg",
               "ca5-06-2.jpg"
@@ -384,28 +409,28 @@
           },
           {
             "title": "DV Weapon",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Enter and track weapons seized from domestic violence incidents. Allow authorized local police departments to enter weapons prior to delivery to the prosecutor’s office. Track the legal life cycle of the weapons to include owners, destruction, etc., and link to related DV Family cases.",
             "images": [
               "ca5-07-1.jpg"
             ]
           },
           {
             "title": "Fugitive",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Special case management module for warrants, fugitives, and extraditions. Manage fugitive documentation including charges, plea offers, parole/probation, restraining orders, aliases, vehicles, associations, and much more.",
             "images": [
               "ca5-08-1.jpg"
             ]
           },
           {
             "title": "Civil Module",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Handle civil cases in which plaintiffs seek monetary compensation. Create events and send events to Outlook Calendar. Complete integration with InfoShare™ eDiscovery with Portal.",
             "images": [
               "ca5-09-1.jpg"
             ]
           },
           {
             "title": "Finance Module",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Track budget, grant, fund, and billing with purchase requisition and purchase order process. Use CSI’s proprietary data migration process to convert data from existing databases.",
             "images": [
               "ca5-10-1.jpg",
               "ca5-10-2.jpg"
@@ -413,25 +438,26 @@
           },
           {
             "title": "Personnel & Scheduling",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Support all aspects of personnel management such as training, time off, overtime, document tracking, and scheduling. Extensive searching and analytical reporting for both attendance and payroll purposes provide an easy way to manage any contractual rules offices may have.",
             "images": [
               "ca5-11-1.jpg",
               "ca5-11-2.jpg"
-            ]
+            ],
+            "link": "/public-safety/personnel-scheduling"
           },
           {
             "title": "Pawn Shop",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Record and track pawn stores, sellers, tickets, articles, and success stories. Multiple kinds of seller alerts and stolen items alerts are utilized for tracking burglary.",
             "images": [
               "ca5-12-1.jpg"
             ]
           },
           {
             "title": "Marijuana / Alcohol",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Provide a platform for local police departments to generate juvenile warning forms as well as host warning data and forms in the prosecutor’s offices to complete the purge/review function as required by law.",
             "images": [
               "ca5-13-1.jpg",
-              "ca5-13-2.webp"
+              "ca5-13-2.png"
             ]
           }
         ]
@@ -442,101 +468,105 @@
         "icon": "icon-vw_solid",
         "items": [
           {
-            "title": "VW Service Tab / Module",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "VW Services",
+            "desc": "Easily track services provided to victims of crime. Services provided include supporting victims’ needs, educating victims about their rights, assisting with forms, and navigating criminal justice proceedings. All information is confidential and populated into VOCA reports.",
             "images": [
               "ca6-01-1.jpg",
-              "ca6-01-2.webp"
-            ]
+              "ca6-01-2.png"
+            ],
+            "link": "/justice-courts/vw-portal"
           },
           {
-            "title": "VW Stat Tracker Addon",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "VW Stat Tracker",
+            "desc": "Designed to simplify state and federal statistical reporting requirements. Forms and reports such as VOCA, SANE, and VAWA are automatically updated when information is added to a case, streamlining the reporting process and saving valuable time when applying for grants.",
             "images": [
               "ca6-02-1.jpg",
-              "ca6-02-2.webp",
-              "ca6-02-3.webp"
-            ]
+              "ca6-02-2.png",
+              "ca6-02-3.png"
+            ],
+            "link": "/justice-courts/vw-portal"
           },
           {
             "title": "VW Info Portal",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Secure website for victims and witnesses to receive court notifications, submit forms and letters, check case status, access services, upload documents and images, and securely communicate with advocates using the Portal note feature.",
             "images": [
               "ca6-03-1.jpg",
               "ca6-03-2.jpg",
               "ca6-03-3.jpg"
-            ]
+            ],
+            "link": "/justice-courts/vw-portal"
           },
           {
             "title": "Adult VW Letter",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Generate a series of Victim/Witness Letters produced and printed overnight. Letter type and production command are made on the basis of staff entry, case add, events, and dispositions from automated interfaces with Courts.",
             "images": [
               "ca6-04-1.jpg",
-              "ca6-04-2.webp"
+              "ca6-04-2.png"
             ]
           },
           {
             "title": "JV VW Letter",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Set of victim and victim survivor letters produced and printed in batch overnight. Letter type and production based upon daily input into the Juvenile module in key fields of events, charges, dispositions, warrants, and fugitive status.",
             "images": [
               "ca6-05-1.jpg",
-              "ca6-05-2.webp"
+              "ca6-05-2.png"
             ]
           },
           {
             "title": "DV VW Letter",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Generate a series of DVF Victim Witness letters produced and printed overnight. Letter type and production command made on the basis of case add, events, and dispositions from the automated FACTS interface with the system.",
             "images": [
               "ca6-06-1.jpg",
-              "ca6-06-2.webp"
+              "ca6-06-2.png"
             ]
           },
           {
-            "title": "CAC",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "Child Advocacy Center",
+            "desc": "Support multidisciplinary teams comprised of child advocates, victim-witness advocates, and detectives to investigate crime and deliver services as well as resources to victims and their families. Track CAC cases, add suspect information, assign CAC staff, prepare investigation reports, and export data to NCA Stats Reports and VOCA Reports.",
             "images": [
               "ca6-07-1.jpg",
-              "ca6-07-2.webp"
+              "ca6-07-2.png"
             ]
           },
           {
-            "title": "Sex Assault",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "title": "Sexual Assault",
+            "desc": "Specialized investigation services for sexual assault cases. Includes additional data fields, additional search capabilities, and report templates consistent with Sexual Assault Nurse Examiner (SANE) PMT and Sexual Assault Response and Referrals requirements.",
             "images": [
               "ca6-08-1.jpg",
-              "ca6-08-2.webp"
+              "ca6-08-2.png"
             ]
           },
           {
             "title": "Project Direct",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Establish a county-wide tracking system for victim assistance program(s) to provide direct services and increase community engagement at local police departments. Project Direct staff can customize each report/grant based on agency requirements and services provided. ",
             "images": [
-              "ca6-09-1.webp",
-              "ca6-09-2.webp"
+              "ca6-09-1.png",
+              "ca6-09-2.png"
             ]
           },
           {
             "title": "PMT Report",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Collect information required to prepare Performance Measurement Tool (PMT) reports for compliance, decision-making, and reporting purposes. Entries are automatically updated when information is added to the case. Can be combined with Investigation sex crime submodule to enhance search, populate reports, and track services.",
             "images": [
               "ca6-10-1.jpg",
-              "ca6-10-2.webp"
+              "ca6-10-2.png"
             ]
           },
           {
             "title": "VAWA / Muskie Report",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Support the submission of the VAWA/Muskie Report. Categories in Section D (Victim Services/Legal Services) are automatically entered into the report from the system.",
             "images": [
               "ca6-11-1.jpg",
-              "ca6-11-2.webp"
+              "ca6-11-2.png"
             ]
           },
           {
             "title": "InfoVNS Mobile App",
-            "desc": "Incididunt aliqua Lorem dolor eiusmod et. Amet pariatur do proident qui fugiat labore exercitation quis dolore consectetur labore magna cupidatat. Ad eiusmod consectetur magna mollit eu do fugiat ipsum culpa cupidatat.",
+            "desc": "Allow mobile access to vital case information, guidance, notifications, direct services, and resources anytime, anywhere. Mapping and navigation capabilities help victims and witnesses quickly find resources.",
             "images": [
-              "ca6-12-1.webp"
-            ]
+              "ca6-12-1.png"
+            ],
+            "link": "/justice-courts/vw-portal"
           }
         ]
       }
@@ -551,7 +581,7 @@
         "icon": "ecdr.svg"
       },
       {
-        "title": "Facts Interface",
+        "title": "FACTS Interface",
         "icon": "facts.svg"
       },
       {
@@ -605,7 +635,7 @@
         "link": "crime-intelligence/intelligence"
       },
       {
-        "title": "Victim / Witness with Portal",
+        "title": "Victim/Witness with Portal",
         "icon": "icon-vw_solid",
         "link": "justice-courts/vw-portal"
       }
@@ -659,7 +689,7 @@
     "title": "Courts",
     "subtitle": "Complete Case and Document Management Solution",
     "icon": "court.svg",
-    "coverImg": "courts.webp",
+    "coverImg": "courts.png",
     "brochure": "",
     "descHeading": "Comprehensive case handling system from docketing to disposition",
     "descContent": "InfoShare™ Courts is a case and document management tool offering court staff a workflow-based case handling platform. Docketing, assignments, document handling, notifications, calendaring, and dispositions are all recorded clearly and conveniently. Online order generation and opinion publishing along with extensive search capabilities, reporting, notifications, and analytics are all built in.",
@@ -772,7 +802,7 @@
     "title": "Courts eFiling",
     "subtitle": "Secure Portal for Electronic Case and Payment Handling",
     "icon": "efiling.svg",
-    "coverImg": "courts_efiling.webp",
+    "coverImg": "courts_efiling.png",
     "brochure": "",
     "descHeading": "Process submitted cases, documents, communications, and filing fees electronically",
     "descContent": "Fully integrated with InfoShare™ Court Case Management, the Courts eFiling module provides an easy to use and convenient 24x7 system for filers of all case types. Carefully crafted to guide filers through case creation, supplemental document filing, attorney substitutions, and all aspects of today’s cases. Electronic notifications and communications are provided, and filing fees are handled through a secure online payment process.",
@@ -886,7 +916,7 @@
     "title": "Attorney Ethics",
     "subtitle": "Enforcing Good Attorney Standards",
     "icon": "attorney_ethics.svg",
-    "coverImg": "attorney_ethics.webp",
+    "coverImg": "attorney_ethics.png",
     "brochure": "",
     "descHeading": "Full application suite to maintain ethical attorney behavior",
     "descContent": "In certain circumstances, attorney actions may be challenged by clients, and InfoShare™ Attorney Ethics provides a way of adjudicating these matters. For attorneys found to have contravened ethical practices, or to have committed felonies, disciplinary action can be taken. Additionally, fee disputes can be reviewed and settled. A random audit system reviews attorney accounting to make sure that client funds are managed properly.",
@@ -1015,10 +1045,10 @@
     "title": "eDiscovery with Portal",
     "subtitle": "Efficient Preparation and Delivery of Discovery Files",
     "icon": "ediscovery.svg",
-    "coverImg": "e-discovery.webp",
+    "coverImg": "e-discovery.png",
     "brochure": "Discovery with Portal.pdf",
     "descHeading": "Reduce time spent on discovery preparation by up to 75%",
-    "descContent": "A strategic and tactical approach in this evolving world for the creation, viewing, transmission, and delivery of Discovery documents. Manually copying, redacting, and sending documents is a thing of the past. Now, agencies can do all those tasks electronically. Staff can be more effective and productive in other assignments needed in the office. And registered attorneys can use the Portal to securely request and receive discovery files.",
+    "descContent": "A modern, paperless approach to creating, viewing, organizing, and delivering discovery files. Documents and other multimedia files including transcripts, documents, photos, audio, video, and reports are organized in discovery packages in one central, secure repository. With the eDiscovery Portal, registered attorneys can easily request and receive discovery packages.",
     "carousels": [
       {
         "title": "PDF Conversion",
@@ -1043,7 +1073,7 @@
       {
         "title": "eDiscovery Portal",
         "img": "eDiscovery-5.jpg",
-        "desc": "Efficient delivery of discovery packages to registered attorneys for Public Defender's Offices, Private Attorneys, and District Attorneys via the Portal."
+        "desc": "Request, receive, and deliver discovery packages to registered private attorneys, district attorneys, and public defenders via a secure portal."
       },
       {
         "title": "Video Discovery",
@@ -1087,7 +1117,7 @@
     "title": "Victim Witness Suite with Portal",
     "subtitle": "Full Service Suite for Victim Advocates and Crime Victims",
     "icon": "vw.svg",
-    "coverImg": "vw_portal.webp",
+    "coverImg": "vw_portal.png",
     "brochure": "VW Portal.pdf",
     "descHeading": "Expedite services and communication for victims",
     "descContent": "The Victims of Crime Act (VOCA) of 1984 was established to ensure victims are treated with fairness, compassion, and respect. The Victim Witness Suite with Portal serves as an invaluable resource for Victim Advocates and Crime Victims. Benefits include helping monitor and manage advocate caseloads, meeting the needs of victims, educating victims of their rights, enhancing communication, complying with state and federal regulations, and many more. Ultimately, advocates spend less time on paperwork and more time focusing on victim support.",
@@ -1199,7 +1229,7 @@
     "title": "Interview Recording",
     "subtitle": "Integrated Interview Room A/V Recording Software",
     "icon": "info_recording.svg",
-    "coverImg": "interview_recording.webp",
+    "coverImg": "interview_recording.png",
     "brochure": "InfoRecording.pdf",
     "descHeading": "Conduct remote interviews and store recordings directly in the case file",
     "descContent": "Equipped with comprehensive features for managing interview recordings, the application seamlessly integrates with InfoShare™ so recordings are stored directly in the case file after the interview is completed. The Windows-based application launches right from the user’s computer, requires no special housing/recording system, and is compatible with most HD cameras and high-quality synchronized audio. Live interviews can also be viewed from the web and from iOS-supported smartphones and tablets.",
@@ -1276,7 +1306,7 @@
     "title": "Online Transcription Service",
     "subtitle": "Transcription with Minimal Effort and Complete Integration",
     "icon": "online_trans.svg",
-    "coverImg": "online_transcription_service.webp",
+    "coverImg": "online_transcription_service.png",
     "brochure": "InfoScrIbe.pdf",
     "descHeading": "Save thousands of hours with automated audio and video transcriptions",
     "descContent": "A voice-to-text transcription module utilizing the latest innovations in transcription technology reduces the amount of work in transcribing evidence by at least 50%. Because this module is fully integrated into the InfoShare™ platform, transcription tasks can be directly executed for multimedia files stored in eDiscovery folders. Finished transcripts are reviewable, searchable, and linked to their corresponding files.",

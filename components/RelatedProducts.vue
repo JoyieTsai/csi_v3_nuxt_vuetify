@@ -30,8 +30,8 @@
               v-if="item.link"
               :to="'/' + item.link"
               class="
-                tw-relative tw-z-10 tw-pt-5
-                2xl:tw-pt-7
+                tw-relative tw-z-10 tw-pt-3
+                2xl:tw-pt-5
                 tw-flex
                 tw-flex-col
                 tw-items-center
@@ -51,15 +51,22 @@
               >
                 <i :class="item.icon"></i>
               </div>
-              <div class="tw-text-sm lg:tw-text-base tw-leading-tight">
+              <div
+                class="
+                  tw-text-sm
+                  lg:tw-text-base
+                  2xl:tw-text-lg
+                  tw-leading-tight
+                "
+              >
                 {{ item.title }}
               </div>
             </nuxt-link>
             <div
               v-else
               class="
-                tw-relative tw-z-10 tw-pt-5
-                2xl:tw-pt-7
+                tw-relative tw-z-10 tw-pt-3
+                2xl:tw-pt-5
                 tw-flex
                 tw-flex-col
                 tw-items-center
@@ -79,7 +86,14 @@
               >
                 <i :class="item.icon"></i>
               </div>
-              <div class="tw-text-sm lg:tw-text-base tw-leading-tight">
+              <div
+                class="
+                  tw-text-sm
+                  lg:tw-text-base
+                  2xl:tw-text-lg
+                  tw-leading-tight
+                "
+              >
                 {{ item.title }}
               </div>
             </div>
@@ -188,10 +202,15 @@ $badgeHeight: 175px;
     width: ceil($badgeWidth * 0.8);
     height: ceil($badgeHeight * 0.8);
   }
-  @media only screen and (max-width: $breakpoints-xs) {
-    margin: 16px;
-    width: ceil($badgeWidth * 0.7);
-    height: ceil($badgeHeight * 0.7);
+  @media only screen and (max-width: $breakpoints-md) {
+    margin: 22px;
+    width: ceil($badgeWidth * 0.75);
+    height: ceil($badgeHeight * 0.75);
+  }
+  @media only screen and (max-width: $breakpoints-sm) {
+    margin: 14px;
+    width: ceil($badgeWidth * 0.67);
+    height: ceil($badgeHeight * 0.67);
   }
 
   &:before,

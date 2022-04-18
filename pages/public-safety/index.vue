@@ -23,211 +23,65 @@
 </template>
 
 <script>
+import publicSafety from '~/data/public-safety-overview.json'
+
 export default {
   data: () => ({
     btnGroup: true,
     category: 'public-safety',
-    title: 'Public Safety Overview',
-    subtitle: 'United in Serving Citizens and Communities',
-    icon: 'public_safety.svg',
-    coverimg: 'public-safety.webp',
-    descHeading:
-      'Support Police, Fire, and EMS personnel in their day-to-day operations',
-    descContent:
-      'Today, government agencies have to cooperate in dynamic, complex environments and respond to emergent matters—all in an efficient manner. But that’s easier said than done. In reality, they face numerous challenges from budgetary constraints to inefficient communication to data silos. By leveraging our industry-leading technology and public sector expertise, CSI works closely with agencies, responders, and public safety personnel to tackle these issues head-on and build the future of public safety.',
-    benefits: [
-      {
-        icon: 'enterprise_application.svg',
-        title: 'Enterprise Application Integration',
-        desc: 'Single integrated software suite with application to Police, Fire, and EMS dispatch, records and data management, mobile operations, reporting, evidence tracking, mapping, and analytics.',
-      },
-      {
-        icon: 'data_share.svg',
-        title: 'Data Exchange',
-        desc: 'Full integration with other public safety systems, external data sources, regional databases, and national databases, as well as prosecution, courts, and fusion centers.',
-      },
-      {
-        icon: 'agency_control.svg',
-        title: 'Agency Control',
-        desc: 'Agencies can customize the system to fit their policies, processes, and mission. Patented intake form technology and low-code development solutions reduce custom coding requirements.',
-      },
-      {
-        icon: 'compliance.svg',
-        title: 'Compliance',
-        desc: 'Systems and processes designed to comply with legal regulations, functional requirements (LEITSC, UCADFR), data exchange standards (NIEM, GJXML, ODBC), data encryption (CJIS), and reporting protocols (NIBRS, NFIRS).',
-      },
-      {
-        icon: 'productivity.svg',
-        title: 'Productivity & Agility',
-        desc: 'Workflow-optimized user experience and automation increase productivity and reduce administrative burdens by eliminating manual and duplicative tasks.',
-      },
-      {
-        icon: 'technology.svg',
-        title: 'Technology',
-        desc: 'Web-based, mobile, and cloud-ready technology ensures platform independence and maximum accessibility, security, and robustness. The hybrid cloud solution is hosted on the CJIS-compliant MS Azure or AWS GovCloud platform.',
-      },
-    ],
-    solutions: [
-      {
-        product: 'RMS',
-        name: 'Law Enforcement Records Management',
-        icon: 'icon-rms_solid',
-        diagram: 'solution-rms.webp',
-        // modules: [
-        //   {
-        //     type: 'Base Features',
-        //     items: [
-        //       'Administration Reports',
-        //       'Instant Call Log',
-        //       'Mapping Comp.',
-        //       'Admin Comp.',
-        //       'Center APP',
-        //       'Roll Call',
-        //       'Bolo',
-        //       'Server with Web Service',
-        //       'Pre-Assignment',
-        //       'Patrol Features',
-        //       'Master Name Index & Lookup',
-        //       'Staff, Unit & Support File Management',
-        //       'Queue Server',
-        //       'Chat',
-        //     ],
-        //   },
-        //   {
-        //     type: 'MDT Application',
-        //     items: [
-        //       'Bolo',
-        //       'Officer Initiated CFS',
-        //       'Roll Call',
-        //       'AVL Add-on',
-        //       'NCIC / DMV / NLETS',
-        //       'MV Stop',
-        //       'Text-to-Speech',
-        //       'Chat',
-        //     ],
-        //   },
-        //   {
-        //     type: 'Add-On Modules',
-        //     items: [
-        //       'NCIC Gateway',
-        //       'eTicket Gateway',
-        //       'Mapping with Real Time Traffic',
-        //       'Master Location and Data Import',
-        //       'Q & A',
-        //     ],
-        //   },
-        // ],
-      },
-      {
-        product: 'CAD',
-        name: 'Computer Aided Dispatch',
-        icon: 'icon-cad_solid',
-        diagram: 'solution-cad.webp',
-        // modules: [
-        //   {
-        //     type: 'Base Features',
-        //     items: [
-        //       'Administration Reports',
-        //       'Instant Call Log',
-        //       'Mapping Comp.',
-        //       'Admin Comp.',
-        //       'Center APP',
-        //       'Roll Call',
-        //       'Bolo',
-        //       'Server with Web Service',
-        //       'Pre-Assignment',
-        //       'Patrol Features',
-        //       'Master Name Index & Lookup',
-        //       'Staff, Unit & Support File Management',
-        //       'Queue Server',
-        //       'Chat',
-        //     ],
-        //   },
-        //   {
-        //     type: 'MDT Application',
-        //     items: [
-        //       'Bolo',
-        //       'Officer Initiated CFS',
-        //       'Roll Call',
-        //       'AVL Add-on',
-        //       'NCIC / DMV / NLETS',
-        //       'MV Stop',
-        //       'Text-to-Speech',
-        //       'Chat',
-        //     ],
-        //   },
-        //   {
-        //     type: 'Add-On Modules',
-        //     items: [
-        //       'NCIC Gateway',
-        //       'eTicket Gateway',
-        //       'Mapping with Real Time Traffic',
-        //       'Master Location and Data Import',
-        //       'Q & A',
-        //     ],
-        //   },
-        // ],
-        // interfaces: [
-        //   'ePro',
-        //   'Fingerprint',
-        //   'Mapping',
-        //   '911 ANI/ALI',
-        //   'Traffic Cam',
-        //   'NFIRS',
-        //   'NBIRS',
-        // ],
-      },
-      {
-        product: 'Fire & EMS',
-        name: 'Fire & EMS Solutions',
-        icon: 'icon-fire_ems_solid',
-        diagram: 'solution-fireems.webp',
-        // modules: [
-        //   {
-        //     type: 'Base Features',
-        //     items: [
-        //       'Administration Reports',
-        //       'Instant Call Log',
-        //       'Mapping Comp.',
-        //       'Admin Comp.',
-        //       'Center APP',
-        //       'Roll Call',
-        //       'Bolo',
-        //       'Server with Web Service',
-        //       'Pre-Assignment',
-        //       'Patrol Features',
-        //       'Master Name Index & Lookup',
-        //       'Staff, Unit & Support File Management',
-        //       'Queue Server',
-        //       'Chat',
-        //     ],
-        //   },
-        //   {
-        //     type: 'MDT Application',
-        //     items: [
-        //       'Bolo',
-        //       'Officer Initiated CFS',
-        //       'Roll Call',
-        //       'AVL Add-on',
-        //       'NCIC / DMV / NLETS',
-        //       'MV Stop',
-        //       'Text-to-Speech',
-        //       'Chat',
-        //     ],
-        //   },
-        //   {
-        //     type: 'Add-On Modules',
-        //     items: [
-        //       'NCIC Gateway',
-        //       'eTicket Gateway',
-        //       'Mapping with Real Time Traffic',
-        //       'Master Location and Data Import',
-        //       'Q & A',
-        //     ],
-        //   },
-        // ],
-      },
-    ],
+    title: String,
+    subtitle: String,
+    icon: String,
+    coverimg: String,
+    descHeading: String,
+    descContent: String,
+    benefits: Object,
+    solutions: Object,
   }),
+  head() {
+    return {
+      titleTemplate: '%s | ' + this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.subtitle },
+        { name: 'keywords', content: this.title },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.subtitle },
+        {
+          property: 'og:image:secure_url',
+          content:
+            'https://www.csitech.com/images/covers/public-safety/' +
+            this.coverimg,
+        },
+        {
+          property: 'og:url',
+          content: 'https://www.csitech.com/public-safety',
+        },
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:description', content: this.subtitle },
+        {
+          property: 'twitter:image',
+          content:
+            'https://www.csitech.com/images/covers/public-safety/' +
+            this.coverimg,
+        },
+      ],
+    }
+  },
+  created() {
+    this.getData()
+  },
+  methods: {
+    getData() {
+      this.title = publicSafety.title
+      this.subtitle = publicSafety.subtitle
+      this.icon = publicSafety.icon
+      this.coverimg = publicSafety.coverImg
+      this.descHeading = publicSafety.descHeading
+      this.descContent = publicSafety.descContent
+      this.benefits = publicSafety.benefits
+      this.solutions = publicSafety.solutions
+    },
+  },
 }
 </script>

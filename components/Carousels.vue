@@ -43,7 +43,7 @@
             >
               {{ item.title }}
             </div>
-            <div>{{ item.desc }}</div>
+            <div class="tw-text-base">{{ item.desc }}</div>
           </v-card-text>
         </v-card>
       </div>

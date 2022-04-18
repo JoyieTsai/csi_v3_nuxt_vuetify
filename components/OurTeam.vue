@@ -138,48 +138,91 @@
       :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'"
       data-aos-duration="1500"
     >
-      <div
-        v-for="(adv, k) in advisor"
-        :key="k"
-        class="
-          tw-bg-white
-          shadow-1
-          tw-flex tw-flex-col tw-items-center tw-relative
-        "
-      >
-        <div class="tw-absolute tw--top-28">
-          <img
-            :src="'images/team/' + adv.src"
-            alt=""
-            class="tw-w-48 lg:tw-w-64"
-          />
-        </div>
-        <div class="tw-p-8 lg:tw-p-16">
-          <div
-            class="
-              tw-text-lg
-              lg:tw-text-xl
-              xl:tw-text-2xl
-              tw-font-semibold tw-mt-10
-              lg:tw-mt-20
-              tw-text-center
-            "
-          >
-            {{ adv.name }}
+      <div v-for="(adv, k) in advisor" :key="k">
+        <div
+          v-if="$vuetify.breakpoint.mdAndUp"
+          class="
+            tw-bg-white
+            shadow-1
+            tw-flex tw-flex-col tw-items-center tw-relative
+          "
+        >
+          <div class="tw-absolute tw--top-28">
+            <img
+              :src="'images/team/' + adv.src"
+              alt=""
+              class="tw-w-48 lg:tw-w-64"
+            />
           </div>
-          <div
-            class="
-              tw-text-base
-              lg:tw-text-lg
-              xl:tw-text-xl
-              tw-opacity-70 tw-text-center
-            "
-            v-html="$options.filters.positionSplit(adv.position)"
-          ></div>
-          <div
-            class="tw-mt-8 tw-text-base lg:tw-text-lg"
-            v-html="adv.desc"
-          ></div>
+          <div class="tw-p-8 lg:tw-p-16">
+            <div
+              class="
+                tw-text-lg
+                lg:tw-text-xl
+                xl:tw-text-2xl
+                tw-font-semibold tw-mt-10
+                lg:tw-mt-20
+                tw-text-center
+              "
+            >
+              {{ adv.name }}
+            </div>
+            <div
+              class="
+                tw-text-base
+                lg:tw-text-lg
+                xl:tw-text-xl
+                tw-opacity-70 tw-text-center
+              "
+              v-html="$options.filters.positionSplit(adv.position)"
+            ></div>
+            <div
+              class="tw-mt-8 tw-text-base lg:tw-text-lg"
+              v-html="adv.desc"
+            ></div>
+          </div>
+        </div>
+
+        <!-- Mobile Only -->
+        <div
+          v-else
+          class="
+            tw-bg-white
+            shadow-1
+            tw-flex tw-flex-col tw-items-center tw-relative
+          "
+          @click="openModel(adv)"
+        >
+          <div class="tw-absolute tw--top-28">
+            <img
+              :src="'images/team/' + adv.src"
+              alt=""
+              class="tw-w-48 lg:tw-w-64"
+            />
+          </div>
+          <div class="tw-p-8 lg:tw-p-16">
+            <div
+              class="
+                tw-text-lg
+                lg:tw-text-xl
+                xl:tw-text-2xl
+                tw-font-semibold tw-mt-10
+                lg:tw-mt-20
+                tw-text-center
+              "
+            >
+              {{ adv.name }}
+            </div>
+            <div
+              class="
+                tw-text-base
+                lg:tw-text-lg
+                xl:tw-text-xl
+                tw-opacity-70 tw-text-center
+              "
+              v-html="$options.filters.positionSplit(adv.position)"
+            ></div>
+          </div>
         </div>
       </div>
     </div>

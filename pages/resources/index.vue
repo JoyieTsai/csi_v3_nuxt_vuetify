@@ -51,7 +51,7 @@
       <!-- Latest Story -->
       <FeaturedArticle class="tw-mb-12 xl:tw-mb-28" />
       <!-- Articles -->
-      <div class="main-container tw-mx-auto tw-mb-12 xl:tw-mb-28">
+      <div id="News" class="main-container tw-mx-auto tw-mb-12 xl:tw-mb-28">
         <div class="header-2 tw-text-center">Explore All Articles</div>
         <v-container fluid pa-0>
           <div class="tw-w-80 tw-ml-auto">
@@ -138,7 +138,7 @@
                 :footer-props="{
                   'items-per-page-options': [6, 12, 18, -1],
                 }"
-                :page="page"
+                :page.sync="page"
                 :search="keyword"
                 no-data-text="No data found."
               >
@@ -263,9 +263,43 @@ export default {
     page: 1,
     itemsPerPageArray: [6, 12, 18],
     itemsPerPage: 12,
+    duration: 600,
+    easing: 'easeInOutCubic',
   }),
+  head() {
+    return {
+      titleTemplate: '%s | ' + this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.subtitle },
+        { name: 'keywords', content: this.title },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.subtitle },
+        {
+          property: 'og:image:secure_url',
+          content: 'https://www.csitech.com/images/post/' + this.coverimg,
+        },
+        {
+          property: 'og:url',
+          content: 'https://www.csitech.com/resources',
+        },
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:description', content: this.subtitle },
+        {
+          property: 'twitter:image',
+          content: 'https://www.csitech.com/images/post/' + this.coverimg,
+        },
+      ],
+    }
+  },
   computed: {
-    ...mapState(['articleList', 'tags', 'filterTag']),
+    ...mapState([
+      'articleList',
+      'tags',
+      'filterType',
+      'filterTag',
+      'currentPage',
+    ]),
     ...mapGetters(['filterArticles']),
     numberOfPages() {
       return Math.ceil(this.filterArticles.length / this.itemsPerPage)
@@ -285,25 +319,43 @@ export default {
       }
       return this.articleList
     },
+    options() {
+      return {
+        duration: this.duration,
+        easing: this.easing,
+      }
+    },
   },
   watch: {
     async $route(to, from) {
       await this.changeType(this.$route.query.id)
     },
-  },
-  created() {
-    this.changeTag(this.selected)
+    filterArticles() {
+      this.selected = this.filterTag
+    },
   },
   mounted() {
     const id = this.$route.query.id
     if (id) {
       this.changeType(id)
+      this.selected = this.filterTag
+    }
+    if (this.currentPage > 1) {
+      this.page = this.currentPage
     } else {
-      this.changeType(this.radioGroup)
+      this.page = 1
+    }
+    if (this.filterTag) {
+      this.changeTag(this.filterTag)
+      this.selected = this.filterTag
     }
   },
   methods: {
-    ...mapActions(['changeFilteredType', 'changeFilteredTag']),
+    ...mapActions([
+      'changeFilteredType',
+      'changeFilteredTag',
+      'changeCurrentPage',
+    ]),
     changeType(type) {
       if (type) {
         this.radioGroup = type
@@ -311,11 +363,18 @@ export default {
         this.radioGroup = 'all'
       }
       this.changeFilteredType(this.radioGroup)
+      this.page = 1
+      this.$router.push({ name: 'resources', query: { id: type } })
+      this.$vuetify.goTo('#News')
     },
     changeTag(tag) {
       this.changeFilteredTag(tag)
     },
+    changePage(page) {
+      this.changeCurrentPage(page)
+    },
     routerToArticle(id) {
+      this.changePage(this.page)
       this.$router.push({ path: '/resources/' + id })
     },
     nextPage() {

@@ -4,13 +4,13 @@
     "title": "Interfaces",
     "subtitle": "Powerful Integration and Extension",
     "icon": "interfaces.svg",
-    "coverImg": "interfaces.webp",
+    "coverImg": "interfaces.png",
     "brochure": "",
     "descHeading": "Seamless Data Exchange with Internal and External Systems",
     "descContent": "CSI has considerable experience in interfacing its solutions with a range of internal and external data sources to promote data sharing on multiple levels⏤local, regional, state, and federal. Without interfaces to exchange data across systems, redundant data entry, data silos, and duplicate entries are inevitable. With interfaces, agencies can access multiple systems from a single workstation, generate inquiries to other external or regional databases, submit data automatically or based on agency rules, and much more.",
     "diagram": {
       "img": "interfaces.jpg",
-      "desc": "CSI provides an adaptable and scalable total solution platform as well as expert interfacing on demand to facilitate interagency access and data sharing. Interfaces can be easily integrated into the existing InfoShare™ system depending on the unique requirements of each agency. Agencies can operate their own preferred systems and at the same time access data from external sources.  To ensure data security, our interfacing capabilities are fully complaint with criminal justice standards including NIEM, GJ-XML, CJIS, and FIPS."
+      "desc": "CSI provides an adaptable and scalable total solution platform as well as expert interfacing on demand to facilitate interagency access and data sharing. Interfaces can be easily integrated into the existing InfoShare™ system depending on the unique requirements of each agency. Agencies can operate their own preferred systems and at the same time access data from external sources. To ensure data security, our interfacing capabilities are fully compliant with criminal justice standards including NIEM, GJ-XML, CJIS, and FIPS."
     },
     "lists": [
       {
@@ -204,7 +204,7 @@
     "title": "Data Sharing",
     "subtitle": "Break Down Information Silos to Promote Inter-Agency Collaboration",
     "icon": "data_share.svg",
-    "coverImg": "data-sharing.webp",
+    "coverImg": "data-sharing.png",
     "descHeading": "Maximum interoperability and sharing of mission-critical information",
     "descContent": "Data silos prevent agencies from accessing data in a timely manner. They create separations between data sets across departments, agencies, and geographic jurisdictions. Our systems are designed to optimize the usage of data through expert interfacing, vertical integration, and cloud integration so that data flows smoothly and securely between systems in real-time. Seamless data sharing allows agencies to expand their situational awareness and collect every piece of the puzzle.",
     "diagram": {
@@ -325,7 +325,7 @@
     "title": "Data Migration",
     "subtitle": "Comprehensive, Structured Data Conversion Services",
     "icon": "data_migration.svg",
-    "coverImg": "data-migration.webp",
+    "coverImg": "data-migration.png",
     "descHeading": "Fully searchable, cleansed, and standardized legacy data",
     "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. Users don’t need to search a separate database or log in to a different system to access the legacy data. Everything is unified under one database in the InfoShare™ system. Over the years, CSI has developed a systematic data migration strategy and successfully converted legacy data for more than thirty systems.",
     "diagram": {
@@ -428,7 +428,7 @@
     "title": "Data Analytics",
     "subtitle": "Transforming Data and Analysis into Actionable Insights ",
     "icon": "analytics.svg",
-    "coverImg": "data-analytics.webp",
+    "coverImg": "data-analytics.png",
     "descHeading": "Data-driven decision making, resource tracking, and reporting",
     "descContent": "Government agencies generate and collect enormous amounts of data every single day. In order to make sense of all this information, CSI transforms this raw data into actionable insights using data statistics, custom query reporting, and data visualization tools. Analytics also reveals relationships, trends, and patterns of criminal activity to assist agencies in intelligent decision-making and efficient resource allocation.",
     "diagram": {
@@ -505,7 +505,7 @@
     "title": "Mapping",
     "subtitle": "Location Intelligence with GIS Technology",
     "icon": "mapping.svg",
-    "coverImg": "mapping.webp",
+    "coverImg": "mapping.png",
     "descHeading": "Integrated mapping capability for accurate location verification, real-time tracking, and better data analysis",
     "descContent": "Interactive GIS mapping technology assist with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
     "diagram": {
@@ -605,7 +605,7 @@
     "title": "Cloud Integration",
     "subtitle": "Mature Hybrid Cloud-Ready Applications for Speed and Security",
     "icon": "cloud_integration.svg",
-    "coverImg": "cloud-integration.webp",
+    "coverImg": "cloud-integration.png",
     "descHeading": "Cloud-based software suite with scaled up resources, enhanced data sharing, and low-cost operations",
     "descContent": "CSI has considerable expertise in cloud migration services. We leverage the power of cloud computing to help agencies transfer their operations to CJIS-compliant cloud platforms. But CSI’s cloud integration isn’t limited to scaling up resources and improving government capabilities. InfoShare™ Cloud also enhances data sharing and application design. All products and modules within InfoShare™ are integrated and cloud-deployable, creating a cohesive enterprise application platform designed specifically for the unique needs of the public sector.",
     "diagram": {
@@ -705,7 +705,7 @@
     "title": "Low Code Development",
     "subtitle": "Proprietary Low-Code Technology to Facilitate Application Development",
     "icon": "lowcode.svg",
-    "coverImg": "low-code.webp",
+    "coverImg": "low-code.png",
     "descHeading": "Rapid application development with high customization and quick deployment",
     "descContent": "U.S. Patent 10,649,743 B2 entitled \"Application Developing Method and System\" was designed to facilitate and streamline application development for government agencies and beyond. With a low-code development solution, users don't need any expertise in programming or software architecture. The patent removes complexity from building modern applications that can be easily and quickly adapted to fulfill each agency’s missions and requirements.",
     "diagram": {
@@ -826,7 +826,7 @@
     "title": "Vertical Integration",
     "subtitle": "From Public Safety to Municipal Services to Judiciary and Regulatory Agencies",
     "icon": "vertical_integration.svg",
-    "coverImg": "vertical-integration.webp",
+    "coverImg": "vertical-integration.png",
     "descHeading": "Vertically integrated solutions for end-to-end service from call handling to case disposition",
     "descContent": "Eliminate information silos, improve data sharing, and take full control of the incident workflow with CSI’s unified software suite. The law enforcement and criminal justice process is complex and dynamic: call handling, dispatch, intelligence, field response, reporting, evidence, investigation, analysis, arrest, indictment, trial, sentencing, and potential imprisonment. With vertical integration, information is transferred and exchanged seamlessly among public servants and government agencies.",
     "diagram": {
@@ -924,7 +924,7 @@
     "title": "InfoShare Engine®",
     "subtitle": "Low Code Development Platform for Government ERP Application",
     "icon": "engine.svg",
-    "coverImg": "infoshare-engine.webp",
+    "coverImg": "infoshare-engine.png",
     "descHeading": "Patented total solution software architecture for maximum integration",
     "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare Engine® benefit from seamless integration, scalability, and adaptability. ",
     "diagram": {
@@ -1045,7 +1045,7 @@
     "title": "Security",
     "subtitle": "Robust Data Encryption, Permission, and Protection",
     "icon": "permission_security.svg",
-    "coverImg": "security.webp",
+    "coverImg": "security.png",
     "descHeading": "Integrated security methodology compliant with industry security standards",
     "descContent": "CSI’s security policy ensures continuity of criminal justice information protection, from creation through dissemination, at rest or in transit and passes the stringent third-party penetration test. Integrated GovCloud security features are fully compliant with CJIS (Criminal Justice Information Services), FIPS (Federal Information Processing Standards), IRS Safeguards Audit, and other government security standards.",
     "diagram": {
@@ -1142,7 +1142,7 @@
     "title": "Document Template Generation",
     "subtitle": "Web-based Form Management System for Efficient Workflow",
     "icon": "doc_management.svg",
-    "coverImg": "dtg.webp",
+    "coverImg": "dtg.png",
     "descHeading": "Patented Intake Form Technology for Report Generation and Approval",
     "descContent": "U.S. Patent 10,706,225 B2 “Form Management System and Method” converts existing paper forms into web-based electronic forms with all layout information and corresponding fields and data types stored in a common library. Users can maintain form layouts, edit input fields, set element types, design dropdown lists, create access permissions, and export the forms to various formats. In addition, forms can be easily modified and managed without any programming or support from software developers.",
     "diagram": {

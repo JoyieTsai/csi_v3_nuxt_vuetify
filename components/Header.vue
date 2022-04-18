@@ -30,7 +30,17 @@
               {{ data.title }}
             </v-btn> -->
             <v-btn
-              v-if="data.url"
+              v-if="data.url && data.url === 'resources'"
+              text
+              class="capitalize"
+              v-bind="attrs"
+              @click="routerToArticle()"
+              v-on="on"
+            >
+              {{ data.title }}
+            </v-btn>
+            <v-btn
+              v-else-if="data.url"
               text
               class="capitalize"
               v-bind="attrs"
@@ -63,11 +73,23 @@
                     class="font-medium"
                   >
                     <nuxt-link
-                      v-if="tab.id"
+                      v-if="tab.id && tab.id !== 'resource'"
                       :to="'/' + data.category + '/' + tab.id"
                       class="text-base text-link tw-p-2"
-                      >{{ tab.title }}</nuxt-link
                     >
+                      <span v-if="tab.id === 'cad' || tab.id === 'rms'">
+                        {{ tab.title }}
+                        <span class="tw-uppercase">({{ tab.id }})</span>
+                      </span>
+                      <span v-else> {{ tab.title }}</span>
+                    </nuxt-link>
+                    <div
+                      v-else-if="tab.id === 'resource'"
+                      class="text-base text-link tw-p-2"
+                      @click="routerToArticle(tab.query)"
+                    >
+                      {{ tab.title }}
+                    </div>
                     <nuxt-link
                       v-else
                       :to="'/' + data.category"
@@ -147,11 +169,23 @@
                   class="font-medium"
                 >
                   <nuxt-link
-                    v-if="tab.id"
+                    v-if="tab.id && tab.id !== 'resource'"
                     :to="'/' + data.category + '/' + tab.id"
                     class="text-base text-link tw-p-2"
-                    >{{ tab.title }}</nuxt-link
                   >
+                    <span v-if="tab.id === 'cad' || tab.id === 'rms'">
+                      {{ tab.title }}
+                      <span class="tw-uppercase">({{ tab.id }})</span>
+                    </span>
+                    <span v-else> {{ tab.title }} </span>
+                  </nuxt-link>
+                  <div
+                    v-else-if="tab.id === 'resource'"
+                    class="text-base text-link tw-p-2"
+                    @click="routerToArticle(tab.query)"
+                  >
+                    {{ tab.title }}
+                  </div>
                   <nuxt-link
                     v-else
                     :to="'/' + data.category"
@@ -169,6 +203,7 @@
 </template>
 
 <script>
+import { mapActions } from 'vuex'
 import Links from '~/data/heading.json'
 
 export default {
@@ -183,7 +218,13 @@ export default {
       this.onClose()
     },
   },
+
   methods: {
+    ...mapActions([
+      'changeFilteredType',
+      'changeFilteredTag',
+      'changeCurrentPage',
+    ]),
     routerTo(id) {
       this.$router.push({ path: id })
     },
@@ -192,6 +233,12 @@ export default {
     },
     onChange(e) {
       this.placement = e.target.value
+    },
+    routerToArticle(query) {
+      // Reset tag
+      this.changeFilteredTag([])
+      this.changeCurrentPage(1)
+      this.$router.push({ name: 'resources', query: { id: query } })
     },
   },
 }

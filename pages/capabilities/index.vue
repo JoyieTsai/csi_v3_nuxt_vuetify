@@ -204,6 +204,36 @@ export default {
     items: Object,
     timelines: Object,
   }),
+  head() {
+    return {
+      titleTemplate: '%s | ' + this.title,
+      meta: [
+        { hid: 'description', name: 'description', content: this.subtitle },
+        { name: 'keywords', content: this.title },
+        { property: 'og:title', content: this.title },
+        { property: 'og:description', content: this.subtitle },
+        {
+          property: 'og:image:secure_url',
+          content:
+            'https://www.csitech.com/images/covers/capabilities/' +
+            this.coverimg,
+        },
+        {
+          property: 'og:url',
+          content: 'https://www.csitech.com/capabilities',
+        },
+        { property: 'twitter:card', content: 'summary_large_image' },
+        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:description', content: this.subtitle },
+        {
+          property: 'twitter:image',
+          content:
+            'https://www.csitech.com/images/covers/capabilities/' +
+            this.coverimg,
+        },
+      ],
+    }
+  },
   created() {
     this.getData()
   },

@@ -9,8 +9,8 @@
 
   @media (max-width: $breakpoints-xs - 1) {
     max-width: 100%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
   }
   @media (min-width: $breakpoints-sm) {
     max-width: 100%;
@@ -39,14 +39,19 @@
 
     &.lg {
       height: $hero-lg;
+      background-position: center;
       background-size: cover;
     }
     &.md {
       height: $hero-md;
       align-items: flex-end;
+      background-position: center;
+      background-size: cover;
     }
     &.sm {
       height: $hero-sm;
+      background-size: cover;
+      background-position: center;
     }
   }
 }
