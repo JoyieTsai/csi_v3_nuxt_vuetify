@@ -508,7 +508,7 @@ export default {
     subtitle: 'Last Updated: April 10, 2022',
     coverimg: 'blue.jpg',
     links: [
-      { title: 'Terms of Service', url: 'terms' },
+      { title: 'Terms of Use', url: 'terms' },
       { title: 'Privacy Policy', url: 'policy' },
     ],
   }),

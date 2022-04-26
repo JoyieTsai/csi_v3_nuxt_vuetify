@@ -251,6 +251,7 @@
 <script>
 import { mapState } from 'vuex'
 import Products from '~/data/allproducts.json'
+import Articles from '~/data/articles.json'
 
 export default {
   data: () => ({
@@ -278,6 +279,28 @@ export default {
     ],
     hasCurrentPost: Boolean,
   }),
+  fetch({ params, redirect }) {
+    switch (params.id) {
+      case 'Warren-County-Police-Chiefs-Association-A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes':
+        redirect(
+          301,
+          '/resources/A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes'
+        )
+        break
+      case 'Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer-of-CSI-InfoShare':
+        redirect(
+          301,
+          '/resources/Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade'
+        )
+        break
+    }
+    const art = Articles.filter((res) => {
+      return res.id === params.id
+    })
+    if (art.length < 1) {
+      redirect(404, '/404')
+    }
+  },
   head() {
     return {
       titleTemplate: this.article.title + ' - %s',

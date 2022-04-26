@@ -101,10 +101,7 @@
       >
         <ContactForm class="tw-w-4/5 xl:tw-w-3/5 tw-mx-auto tw-text-white">
           <div slot="title">Get In Touch</div>
-          <div
-            slot="content"
-            class="md:tw-w-3/4 tw-mx-auto tw-text-xl xl:tw-text-2xl"
-          >
+          <div slot="content" class="md:tw-w-3/4 tw-mx-auto">
             Have more questions? Need more information? We are here to help.
           </div>
         </ContactForm>

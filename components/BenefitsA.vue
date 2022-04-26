@@ -6,7 +6,7 @@
       <div
         class="
           tw-grid
-          md:tw-grid-cols-2
+          sm:tw-grid-cols-2
           lg:tw-grid-cols-3
           tw-gap-8
           2xl:tw-px-20

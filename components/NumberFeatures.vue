@@ -29,6 +29,10 @@
       </div>
     </div>
     <div
+      data-aos="fade-down"
+      data-aos-offset="200"
+      data-aos-easing="linear"
+      data-aos-duration="600"
       class="
         lg:tw-w-4/5
         tw-grid tw-grid-cols-1

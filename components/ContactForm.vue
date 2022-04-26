@@ -3,7 +3,7 @@
     <div class="header-2 tw-text-white tw-text-center">
       <slot name="title"></slot>
     </div>
-    <div class="tw-text-xl tw-text-white tw-text-center">
+    <div class="md:tw-text-lg lg:tw-text-xl tw-text-white tw-text-center">
       <slot name="content"></slot>
     </div>
 
@@ -37,6 +37,7 @@
         <v-textarea
           v-model="message"
           :rules="[rules.required]"
+          multi-line
           solo
           placeholder="Message"
           :rows="4"
@@ -103,6 +104,10 @@ export default {
     },
     async sendMail() {
       const url = 'https://genie.csitech.com/AspSoft/ExternalService.ashx'
+      const arr = []
+      this.message
+        .split('\n')
+        .forEach((item) => arr.push(`<p>${item.trim()}</p>`))
 
       const content = await axios
         .post(
@@ -114,7 +119,7 @@ export default {
             email: this.email,
             phone: this.phone,
             agency: this.agency,
-            message: this.message,
+            message: arr.join(''),
           },
           {
             crossDomain: true,

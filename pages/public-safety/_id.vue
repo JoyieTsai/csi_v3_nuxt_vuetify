@@ -33,13 +33,13 @@
       <Capabilities
         v-if="capabilities"
         :data="capabilities"
-        class="tw-my-16 xl:tw-my-28"
+        class="tw-my-14 xl:tw-my-28"
       />
       <SysFeatures
         v-if="sysFeatures"
         :tagline="sysTitle"
         :data="sysFeatures"
-        class="tw-my-16 xl:tw-my-28"
+        class="tw-my-14 xl:tw-my-28"
       />
       <div v-if="extending" class="header-2 tw-text-center">
         Extending <span v-if="name">{{ name }}</span>

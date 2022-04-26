@@ -20,96 +20,115 @@
             md:tw-w-3/5
           "
         >
-          <div class="text-primary lg:tw-text-2xl xl:tw-text-3xl">
+          <div
+            class="text-primary lg:tw-text-2xl xl:tw-text-3xl"
+            data-aos="fade-left"
+            data-aos-easing="linear"
+            data-aos-duration="1000"
+          >
             {{ tagline.title }}
           </div>
         </div>
       </div>
     </div>
 
-    <div class="bg-sysfeature lg:tw-mt-10 xl:tw-mt-16">
-      <div class="main-container tw-mx-auto">
-        <div
-          v-for="(item, index) in data"
-          :key="index"
-          class="tw-flex tw-flex-col lg:tw-flex-row tw-pt-5 xl:tw-pt-10"
-        >
+    <v-lazy
+      v-model="isActive"
+      :options="{
+        threshold: 0.5,
+      }"
+      transition="fade-transition"
+    >
+      <div class="bg-sysfeature lg:tw-mt-10 xl:tw-mt-16">
+        <div class="main-container tw-mx-auto">
           <div
-            :class="[
-              index % 2 == 0
-                ? 'tw-order-last'
-                : 'tw-order-last lg:tw-order-first',
-              'tw-flex-1 tw-flex tw-flex-col tw-justify-center',
-            ]"
+            v-for="(item, index) in data"
+            :key="index"
+            class="tw-flex tw-flex-col lg:tw-flex-row tw-pt-5 xl:tw-pt-10"
           >
-            <div class="sys-content tw-flex tw-items-center tw-justify-center">
-              <div class="xl:tw-w-10/12">
-                <div
-                  class="
-                    tw-text-lg
-                    lg:tw-text-xl
-                    xl:tw-text-2xl
-                    tw-font-semibold
-                  "
-                  v-html="item.title"
-                ></div>
-                <div
-                  class="
-                    tw-text-sm
-                    sm:tw-text-base
-                    xl:tw-text-lg
-                    tw-my-2 tw-opacity-70
-                  "
-                  v-html="item.desc"
-                ></div>
-                <ul class="dot-list">
-                  <li
-                    v-for="(list, i) in item.list"
-                    :key="i"
+            <div
+              :class="[
+                index % 2 == 0
+                  ? 'tw-order-last'
+                  : 'tw-order-last lg:tw-order-first',
+                'tw-flex-1 tw-flex tw-flex-col tw-justify-center',
+              ]"
+            >
+              <div
+                class="sys-content tw-flex tw-items-center tw-justify-center"
+              >
+                <div class="xl:tw-w-10/12">
+                  <div
+                    class="
+                      tw-text-lg
+                      lg:tw-text-xl
+                      xl:tw-text-2xl
+                      tw-font-semibold
+                    "
+                    v-html="item.title"
+                  ></div>
+                  <div
                     class="
                       tw-text-sm
                       sm:tw-text-base
                       xl:tw-text-lg
-                      tw-leading-snug tw-opacity-70
-                      lg:tw-mt-1
+                      tw-my-2 tw-opacity-70
                     "
-                  >
-                    <span v-html="list"></span>
-                  </li>
-                </ul>
+                    v-html="item.desc"
+                  ></div>
+                  <ul class="dot-list">
+                    <li
+                      v-for="(list, i) in item.list"
+                      :key="i"
+                      class="
+                        tw-text-sm
+                        sm:tw-text-base
+                        xl:tw-text-lg
+                        tw-leading-snug tw-opacity-70
+                        lg:tw-mt-1
+                      "
+                    >
+                      <span v-html="list"></span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div
-            v-if="$vuetify.breakpoint.xsOnly"
-            class="tw-w-full tw-flex-1 tw-pb-5"
-          >
-            <zoom-on-hover
-              :img-normal="'images/sysfeatures/2x/' + item.img"
-              :disabled="$vuetify.breakpoint.smAndDown ? 'true' : item.zoomoff"
+            <div
+              v-if="$vuetify.breakpoint.xsOnly"
+              class="tw-w-full tw-flex-1 tw-pb-5"
             >
-            </zoom-on-hover>
-          </div>
+              <zoom-on-hover
+                :img-normal="'images/sysfeatures/2x/' + item.img"
+                :disabled="
+                  $vuetify.breakpoint.smAndDown ? 'true' : item.zoomoff
+                "
+              >
+              </zoom-on-hover>
+            </div>
 
-          <div
-            v-else
-            class="tw-w-full tw-flex-1 tw-px-5"
-            :data-aos="index % 2 == 0 ? 'fade-right' : 'fade-left'"
-            data-aos-duration="1500"
-            data-aos-once="true"
-          >
-            <zoom-on-hover
-              :img-normal="'images/sysfeatures/1x/' + item.img"
-              :img-zoom="'images/sysfeatures/2x/' + item.img"
-              :scale="2"
-              :disabled="$vuetify.breakpoint.smAndDown ? 'true' : item.zoomoff"
+            <div
+              v-else
+              class="tw-w-full tw-flex-1 tw-px-5"
+              :data-aos="index % 2 == 0 ? 'fade-right' : 'fade-left'"
+              data-aos-duration="1500"
+              data-aos-once="true"
             >
-            </zoom-on-hover>
+              <zoom-on-hover
+                :img-normal="'images/sysfeatures/1x/' + item.img"
+                :img-zoom="'images/sysfeatures/2x/' + item.img"
+                :scale="2"
+                :disabled="
+                  $vuetify.breakpoint.smAndDown ? 'true' : item.zoomoff
+                "
+              >
+              </zoom-on-hover>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    </v-lazy>
   </div>
 </template>
 
@@ -120,7 +139,9 @@ export default {
     tagline: { type: Object, required: false },
     data: { type: Array, required: true },
   },
-  data: () => ({}),
+  data: () => ({
+    isActive: false,
+  }),
 }
 </script>
 

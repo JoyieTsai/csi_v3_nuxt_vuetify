@@ -20,6 +20,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
+      'ipad': '1367px',
       '2xl': '1536px',
     },
     fontFamily: {

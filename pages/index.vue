@@ -62,15 +62,16 @@
       </carousel>
       <IndexCoreSolutions />
       <IndexVideos class="tw-my-12 xl:tw-my-20" />
-      <IndexAbout class="tw-my-12 xl:tw-my-20" />
-      <IndexFeatures class="tw-my-14 xl:tw-my-28" />
-      <FeaturedArticle class="tw-mt-14 xl:tw-mt-28" />
-      <RelatedNews
+      <LazyIndexAbout v-if="show" class="tw-my-12 xl:tw-my-20" />
+      <LazyIndexFeatures v-if="show" class="tw-my-14 xl:tw-my-28" />
+      <LazyFeaturedArticle v-if="show" class="tw-mt-14 xl:tw-mt-28" />
+      <LazyRelatedNews
+        v-if="show"
         title="false"
         class="tw-mt-8 xl:tw-mt-16 tw-mb-14 xl:tw-mb-28"
       />
-      <Testimonials class="tw-my-14 xl:tw-my-28" />
-      <Contact />
+      <LazyTestimonials v-if="show" class="tw-my-14 xl:tw-my-28" />
+      <LazyContact v-if="show" />
     </v-main>
   </v-app>
 </template>
@@ -84,6 +85,7 @@ export default {
     Slide,
   },
   data: () => ({
+    show: false,
     covers: [
       {
         id: 1,
@@ -128,11 +130,24 @@ export default {
   //     !val && this.stop()
   //   },
   // },
-  // methods: {
-  //   stop() {
-  //     this.$refs.youtube.player.stopVideo()
-  //   },
-  // },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+    this.handleScroll()
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
+  methods: {
+    handleScroll() {
+      // Your scroll handling here
+      if (window.scrollY > 10) {
+        this.show = true
+      }
+    },
+    // stop() {
+    //   this.$refs.youtube.player.stopVideo()
+    // },
+  },
 }
 </script>
 

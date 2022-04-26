@@ -5,7 +5,7 @@
     <div
       class="
         tw-grid
-        md:tw-grid-cols-2
+        sm:tw-grid-cols-2
         lg:tw-grid-cols-3
         tw-gap-6
         xl:tw-gap-8
@@ -16,7 +16,7 @@
       <div
         v-for="(item, index) in data"
         :key="index"
-        class="tw-flex tw-items-center"
+        class="tw-flex tw-items-center zoomin"
       >
         <div
           class="

@@ -15,9 +15,13 @@
         <template v-slot:desc-content>{{ descContent }}</template>
       </Hero>
       <BenefitsA class="tw-my-12 xl:tw-my-28" :data="benefits" />
-      <TotalSolution class="tw-my-12 xl:tw-my-28" :solutions="solutions" />
-      <SuccessStories class="tw-my-12 xl:tw-my-28" />
-      <Contact />
+      <LazyTotalSolution
+        v-if="show"
+        class="tw-my-12 xl:tw-my-28"
+        :solutions="solutions"
+      />
+      <LazySuccessStories v-if="show" class="tw-my-12 xl:tw-my-28" />
+      <LazyContact v-if="show" />
     </v-main>
   </v-app>
 </template>
@@ -27,6 +31,7 @@ import publicSafety from '~/data/public-safety-overview.json'
 
 export default {
   data: () => ({
+    show: false,
     btnGroup: true,
     category: 'public-safety',
     title: String,
@@ -71,7 +76,20 @@ export default {
   created() {
     this.getData()
   },
+  mounted() {
+    window.addEventListener('scroll', this.handleScroll)
+    this.handleScroll()
+  },
+  beforeDestroy() {
+    window.removeEventListener('scroll', this.handleScroll)
+  },
   methods: {
+    handleScroll() {
+      // Your scroll handling here
+      if (window.scrollY > 10) {
+        this.show = true
+      }
+    },
     getData() {
       this.title = publicSafety.title
       this.subtitle = publicSafety.subtitle

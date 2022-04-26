@@ -188,7 +188,7 @@ export default {
   data: () => ({
     datas: Links,
     footerLinks: [
-      { title: 'Terms of Service', url: 'terms' },
+      { title: 'Terms of Use', url: 'terms' },
       { title: 'Privacy Policy', url: 'policy' },
     ],
   }),

@@ -14,9 +14,9 @@
             tw-justify-between
             tw-text-center
             tw-p-6
-            xl:tw-p-10
-            tw-m-3
-            md:tw-m-5
+            2xl:tw-p-8
+            tw-m-2
+            2xl:tw-m-4
             tw-box-content
           "
         >
@@ -26,20 +26,50 @@
               :src="require('~/assets/images/2x/' + patent.cover)"
               contain
               class="
-                tw-mb-6 tw-h-32
-                sm:tw-h-42
-                md:tw-h-48
-                lg:tw-h-56
-                xl:tw-h-72
+                tw-mb-3
+                lg:tw-mb-6
+                tw-h-32
+                md:tw-h-42
+                lg:tw-h-48
+                2xl:tw-h-56
+                slow-zoom
               "
             ></v-img>
-            <div class="tw-text-lg xl:tw-text-xl tw-font-semibold">
+            <div
+              class="
+                tw-text-base
+                md:tw-text-lg
+                2xl:tw-text-xl
+                tw-font-semibold tw-mb-1
+              "
+            >
               {{ patent.title }}
             </div>
-            <div class="tw-text-lg xl:tw-text-xl tw-font-semibold">
-              {{ patent.no }}
-            </div>
-            <div class="tw-text-lg xl:tw-text-xl tw-leading-tight tw-my-4">
+            <a
+              :href="
+                'http://patft1.uspto.gov/netacgi/nph-Parser?patentnumber=' +
+                patent.patentNo
+              "
+              target="_blank"
+              class="
+                text-primary
+                tw-text-base
+                md:tw-text-lg
+                2xl:tw-text-xl
+                tw-font-semibold
+                hover:tw-underline
+              "
+            >
+              {{ patent.patent }}
+            </a>
+            <div
+              class="
+                tw-text-base
+                md:tw-text-lg
+                2xl:tw-text-xl
+                tw-leading-tight tw-my-4
+              "
+            >
               {{ patent.date }}
             </div>
             <div
@@ -61,7 +91,11 @@
           </nuxt-link>
         </div>
       </swiper-slide>
-      <div slot="pagination" class="swiper-pagination"></div>
+      <div
+        v-show="$vuetify.breakpoint.mdAndDown"
+        slot="pagination"
+        class="swiper-pagination"
+      ></div>
     </swiper>
   </div>
 </template>
@@ -73,7 +107,8 @@ export default {
       {
         cover: 'engine-2.jpg',
         title: 'Application Developing Method and System',
-        no: 'US Patent No. 10,649,743 B2',
+        patent: 'US Patent No. 10,649,743 B2',
+        patentNo: '10649743',
         date: 'May 12, 2020',
         desc: 'Proprietary low code technology facilitates application development for government agencies and beyond. Users can design applications and plan business processes efficiently without building any infrastructure or writing any program code.',
         url: '/capabilities/low-code',
@@ -81,7 +116,8 @@ export default {
       {
         cover: 'patent-1.jpg',
         title: 'Form Management System and Method',
-        no: 'US Patent No. 10,706,225 B2',
+        patent: 'US Patent No. 10,706,225 B2',
+        patentNo: '10706225',
         date: 'July 7, 2020',
         desc: 'Patented form management system with form building and common library building modules. Converts existing files into online fillable forms with all layout information and corresponding fields and data types stored in a common library. Users can modify and manage the form—edit input fields, set element types, design dropdown lists, create access permissions—without any programming or support from developers.',
         url: '/capabilities/doc-template-generation',
@@ -89,14 +125,15 @@ export default {
       {
         cover: 'patent-2.jpg',
         title: 'Development Platform Of Mobile Native Applications',
-        no: 'US Patent No. US 10,394,529 B2',
+        patent: 'US Patent No. US 10,394,529 B2',
+        patentNo: '10394529',
         date: 'Aug. 27, 2019',
         desc: 'Cloud or local development platform for a developer to develop mobile native applications without the need to write program code. Supports the development of cross-platform (iOS, Android) and cross-industry mobile native applications, and provides various templates for designing screen interactions and business processes. Updates made through the development platform are simultaneously applied to all mobile native applications.',
         url: '/capabilities/low-code',
       },
     ],
     swiperOption: {
-      slidesPerView: 2,
+      slidesPerView: 1,
       spaceBetween: 0,
       freeMode: true,
       lazy: true,
@@ -109,8 +146,11 @@ export default {
         320: {
           slidesPerView: 1,
         },
-        768: {
+        667: {
           slidesPerView: 2,
+        },
+        1366: {
+          slidesPerView: 3,
         },
       },
     },
@@ -119,15 +159,10 @@ export default {
 </script>
 <style lang="scss">
 .patent-card {
-  height: 650px;
+  height: 635px;
+
   @media only screen and (max-width: $breakpoints-lg) {
-    height: 585px;
-  }
-  @media only screen and (max-width: $breakpoints-md) {
-    height: 565px;
-  }
-  @media only screen and (max-width: $breakpoints-sm) {
-    height: 550px;
+    height: 555px;
   }
 }
 </style>

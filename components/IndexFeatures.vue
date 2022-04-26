@@ -62,16 +62,14 @@
             class="tabs-content-item"
           >
             <img
-              class="
-                animate__animated animate__fadeIn
-                tw-mx-auto tw-w-full
-                md:tw-w-4/5
-                xl:tw-w-2/3
-                tw-my-5
-              "
+              class="tw-mx-auto tw-w-full md:tw-w-4/5 xl:tw-w-2/3 tw-my-5"
               :lazy-src="require('@/assets/images/1x/' + feature.img)"
               :src="require('@/assets/images/2x/' + feature.img)"
               alt="Feature image"
+              data-aos="fade-down"
+              data-aos-offset="200"
+              data-aos-easing="linear"
+              data-aos-duration="600"
             />
           </li>
         </ul>

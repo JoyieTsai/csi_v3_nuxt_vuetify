@@ -100,6 +100,7 @@
                   <v-textarea
                     v-model="message"
                     :rules="[rules.required]"
+                    multi-line
                     solo
                     placeholder="Message"
                     rows="6"
@@ -196,6 +197,10 @@ export default {
     },
     async sendMail() {
       const url = 'https://genie.csitech.com/AspSoft/ExternalService.ashx'
+      const arr = []
+      this.message
+        .split('\n')
+        .forEach((item) => arr.push(`<p>${item.trim()}</p>`))
 
       const content = await axios
         .post(url, {
@@ -205,7 +210,7 @@ export default {
           email: this.email,
           phone: this.phone,
           agency: this.agency,
-          message: this.message,
+          message: arr.join(''),
         })
         .then((response) => {
           alert(

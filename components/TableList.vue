@@ -58,6 +58,8 @@
                 md:tw-px-5
                 tw-leading-none
                 md:tw-leading-tight
+                hover:tw-shadow-md
+                zoomin
               "
               v-html="con"
             ></li>
@@ -76,6 +78,8 @@
                 md:tw-px-5
                 tw-leading-none
                 md:tw-leading-tight
+                hover:tw-shadow-lg
+                zoomin
               "
               v-html="con"
             ></li>
@@ -170,6 +174,7 @@ export default {
   li {
     height: 6rem;
     justify-content: center;
+    background-color: $white;
     @media only screen and (max-width: $breakpoints-sm) {
       height: 7rem;
     }
@@ -181,7 +186,7 @@ export default {
   &.lightblue {
     li {
       &:nth-child(even) {
-        background-color: rgba($primary-light-color, 0.1);
+        background-color: #eaf1f8;
       }
     }
   }

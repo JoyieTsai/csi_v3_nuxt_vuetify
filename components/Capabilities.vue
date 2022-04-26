@@ -32,18 +32,18 @@
 
       <v-tabs-items v-model="tabIndex">
         <v-tab-item v-for="(item, j) in data" :key="j">
-          <div class="tw-mt-8">
-            <v-row>
+          <div class="tw-mt-10">
+            <v-row class="tw--m-5">
               <v-col
                 xs="12"
                 sm="6"
                 cols="12"
-                class="tw-flex tw-items-center tw-justify-center"
+                class="tw-flex tw-items-center tw-justify-center tw-p-5"
               >
                 <div
                   class="
-                    sm:tw-p-5
-                    xl:tw-p-10
+                    tw-px-0
+                    lg:tw-px-10
                     tw-flex tw-flex-col tw-text-xl tw-opacity-2
                   "
                 >
@@ -63,7 +63,12 @@
                   ></div>
                 </div>
               </v-col>
-              <v-col xs="12" sm="6" cols="12" class="tw-flex tw-items-center">
+              <v-col
+                xs="12"
+                sm="6"
+                cols="12"
+                class="tw-flex tw-items-center tw-p-5"
+              >
                 <div class="tw-w-full img-shadow zoomin tw-overflow-hidden">
                   <v-img
                     :src="require('@/assets/images/capabilities/' + item.img)"

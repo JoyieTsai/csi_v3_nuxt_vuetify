@@ -137,8 +137,8 @@
                 <use xlink:href="#path-2"></use>
             </mask>
             <use id="Rectangle" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
-            <polygon id="Rectangle" fill="url(#linearGradient-4)" opacity="0.502208891" mask="url(#mask-3)" points="315 -80.0951145 1191.46468 -588 2852 378.095115 1975.53532 886"></polygon>
-            <polygon id="Rectangle-Copy-3" fill="url(#linearGradient-5)" opacity="0.15" mask="url(#mask-3)" points="1242.58684 1837.97964 2105.37534 1338 3740 2289.02036 2877.2115 2789"></polygon>
+            <polygon id="Rectangle" fill="url(#linearGradient-4)" opacity="0.502208891" mask="url(#mask-3)" points="323 -80.0951145 1199.46468 -588 2860 378.095115 1983.53532 886"></polygon>
+            <polygon id="Rectangle-Copy-3" fill="url(#linearGradient-5)" opacity="0.15" mask="url(#mask-3)" points="1242.58684 1897.97964 2105.37534 1398 3740 2349.02036 2877.2115 2849"></polygon>
             <polygon id="Rectangle-Copy-4" fill="url(#linearGradient-6)" opacity="0.30322193" mask="url(#mask-3)" points="-1060 1851.29149 -445.058286 1495 720 2172.70851 105.058286 2529"></polygon>
             <polygon id="Rectangle-Copy-2" fill="url(#linearGradient-6)" mask="url(#mask-3)" points="-1060 253.291487 -445.058286 -103 720 574.708513 105.058286 931"></polygon>
             <polygon id="Rectangle-Copy" fill="url(#linearGradient-7)" mask="url(#mask-3)" transform="translate(865.000000, 323.500000) scale(1, -1) translate(-865.000000, -323.500000) " points="36 173.826598 608.794023 -158 1694 473.173402 1121.20598 805"></polygon>
@@ -191,7 +191,7 @@
                 </g>
             </g>
             <g id="Group-29-Copy-4" mask="url(#mask-3)">
-                <g transform="translate(1645.500000, 1461.000000)">
+                <g transform="translate(1645.500000, 1528.000000)">
                     <polygon id="Fill-19" stroke="none" opacity="0.502162388" points="345 523.696734 414 564 483 523.696734 483 442.300844 414 402 345 442.300844"></polygon>
                     <polygon id="Fill-21" stroke="none" points="69 523.696734 138.001208 564 207 523.696734 207 442.300844 138.001208 402 69 442.300844"></polygon>
                     <polygon id="Fill-27" stroke="none" opacity="0.5" points="138 241.142463 275.25 321 412.5 241.142463 412.5 79.8575367 275.25 0 138 79.8575367"></polygon>
@@ -226,16 +226,16 @@
                 </g>
             </g>
             <g id="lines" mask="url(#mask-3)" stroke="#FFFFFF" stroke-width="3">
-                <g transform="translate(1225.903678, 1165.000000)">
-                    <line x1="18.8673807" y1="687.444062" x2="672.341025" y2="225.954955" id="t-line-3" stroke-linecap="round" stroke-linejoin="round" transform="translate(345.604203, 456.699509) scale(-1, -1) rotate(5.000000) translate(-345.604203, -456.699509) "></line>
-                    <polygon id="Polygon-Copy-12" transform="translate(838.093980, 171.000000) rotate(-180.000000) translate(-838.093980, -171.000000) " points="838.09398 0 984.450245 85.5 984.450245 256.5 838.09398 342 691.737715 256.5 691.737715 85.5"></polygon>
+                <g transform="translate(1412.128610, 1217.000000)">
+                    <line x1="13.7841429" y1="571.018775" x2="491.199331" y2="233.863773" id="t-line-3" stroke-linecap="round" stroke-linejoin="round" transform="translate(252.491737, 402.441274) scale(-1, -1) rotate(5.000000) translate(-252.491737, -402.441274) "></line>
+                    <polygon id="Polygon-Copy-12" transform="translate(651.869048, 171.000000) rotate(-180.000000) translate(-651.869048, -171.000000) " points="651.869048 0 798.225313 85.5 798.225313 256.5 651.869048 342 505.512783 256.5 505.512783 85.5"></polygon>
                 </g>
             </g>
-            <line x1="1595.13277" y1="849.80406" x2="1988.2459" y2="630.801629" id="t-line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)" transform="translate(1791.689335, 740.302845) scale(-1, 1) rotate(-1.000000) translate(-1791.689335, -740.302845) "></line>
-            <line x1="563.5" y1="498.5" x2="841.801448" y2="660.835683" id="t-line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)"></line>
+            <line x1="1361.35602" y1="847.763921" x2="1989.44888" y2="492.953848" id="t-line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)" transform="translate(1675.402452, 670.358884) scale(-1, 1) rotate(-1.000000) translate(-1675.402452, -670.358884) "></line>
+            <line x1="563.5" y1="498.5" x2="804.4444" y2="639.044988" id="t-line-2" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)"></line>
             <line x1="456" y1="175" x2="887" y2="-78" id="Line-9" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)"></line>
             <line x1="252.5" y1="435.732429" x2="455.005871" y2="316.5" id="Line-9-Copy" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)" transform="translate(353.752936, 376.116214) scale(1, -1) translate(-353.752936, -376.116214) "></line>
-            <line x1="360.5" y1="2125.34301" x2="575.931778" y2="1998.5" id="Line-9-Copy-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)" transform="translate(468.215889, 2061.921505) scale(1, -1) translate(-468.215889, -2061.921505) "></line>
+            <line x1="347.5" y1="2123.34301" x2="562.931778" y2="1996.5" id="Line-9-Copy-3" stroke="#FFFFFF" stroke-width="3" stroke-linecap="square" mask="url(#mask-3)" transform="translate(455.215889, 2059.921505) scale(1, -1) translate(-455.215889, -2059.921505) "></line>
         </g>
     </g>
 </svg>

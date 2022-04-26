@@ -4,7 +4,13 @@
     <div
       class="main-container tw-px-0 md:tw-px-6 tw-mx-auto tw-py-16 xl:tw-py-28"
     >
-      <div class="header-2 tw-text-white tw-text-center tw-mb-12 xl:tw-mb-24">
+      <div
+        data-aos="fade-down"
+        data-aos-offset="200"
+        data-aos-easing="linear"
+        data-aos-duration="600"
+        class="header-2 tw-text-white tw-text-center tw-mb-12 xl:tw-mb-24"
+      >
         Explore our Powerful eProsecution System
       </div>
 
@@ -113,22 +119,24 @@
                         >
                         </v-img>
                       </swiper-slide>
+                      <!-- Pagination -->
                       <div
                         v-show="item.images.length > 1"
                         slot="pagination"
                         class="swiper-pagination light"
                       ></div>
+                      <!-- Arrow buttons -->
                       <div
                         v-show="item.images.length > 1"
                         slot="button-prev"
-                        class="swiper-button-prev_1 xl:tw-hidden"
+                        class="swiper-button-prev_1 ipad:tw-hidden"
                       >
                         <v-icon color="white">mdi-arrow-left</v-icon>
                       </div>
                       <div
                         v-show="item.images.length > 1"
                         slot="button-next"
-                        class="swiper-button-next_1 xl:tw-hidden"
+                        class="swiper-button-next_1 ipad:tw-hidden"
                       >
                         <v-icon color="white">mdi-arrow-right</v-icon>
                       </div>
@@ -168,12 +176,15 @@
 export default {
   props: ['data'],
   data: () => ({
+    slider: null,
     tabIndex: 0,
     subtabIndex: 0,
     swiperOption: {
       slidesPerView: 1,
       spaceBetween: 20,
       autoHeight: false,
+      observer: true,
+      observerParents: true,
       pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
@@ -183,6 +194,7 @@ export default {
         nextEl: '.swiper-button-next_1',
         prevEl: '.swiper-button-prev_1',
       },
+      initialSlide: 0,
     },
   }),
   computed: {
@@ -227,7 +239,9 @@ export default {
       this.subtabIndex = 0
     },
     gotoTab(index) {
-      // this.$refs.mySwiper.swiper.slideTo(0, 10, false)
+      for (let i = 0; i < this.$refs.mySwiper.length; i++) {
+        this.$refs.mySwiper[i].swiperInstance.slideTo(0)
+      }
       this.subtabIndex = index
     },
     routeTo(url) {

@@ -75,7 +75,7 @@
                   "
                 >
                   <nuxt-link
-                    :to="item.link"
+                    :to="'/' + item.link"
                     class="text-primary hover:tw-underline"
                     >{{ item.title }}</nuxt-link
                   >

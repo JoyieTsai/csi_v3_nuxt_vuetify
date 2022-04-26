@@ -57,7 +57,15 @@
       >
         <div class="xl:tw-mx-5">
           <div v-for="(item, i) in getLatestArticles.testimonials" :key="i">
-            <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">
+            <div
+              class="
+                tw-text-sm
+                md:tw-text-base
+                xl:tw-text-lg
+                tw-opacity-70 tw-mt-5
+                lg:tw-mt-0
+              "
+            >
               {{ item.body }}
             </div>
             <div

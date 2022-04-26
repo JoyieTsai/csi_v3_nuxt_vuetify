@@ -60,7 +60,7 @@
                       {{ func.title }}
                     </div>
 
-                    <ul class="tw-list-disc tw-mb-10 tw-text-lg">
+                    <ul class="tw-list-disc tw-mb-10 tw-text-lg tw-pl-10">
                       <li
                         v-for="(item, j) in func.content"
                         :key="j"

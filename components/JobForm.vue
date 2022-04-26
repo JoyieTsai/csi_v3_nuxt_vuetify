@@ -43,6 +43,7 @@
         <v-textarea
           v-model="message"
           :rules="[rules.required]"
+          multi-line
           solo
           placeholder="Message"
           rows="4"

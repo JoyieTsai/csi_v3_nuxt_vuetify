@@ -65,6 +65,8 @@
           xl:tw-grid-cols-1
           tw-gap-8 tw-pt-10
           xl:tw-pt-0
+          tw-mx-5
+          xl:tw-mx-0
         "
       >
         <div

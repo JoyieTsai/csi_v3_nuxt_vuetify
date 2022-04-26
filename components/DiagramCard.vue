@@ -2,7 +2,12 @@
 <template>
   <div class="main-container tw-mx-auto">
     <div class="tw-text-center">
-      <div v-if="data.img">
+      <div
+        v-if="data.img"
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="600"
+      >
         <img
           class="lg:tw-w-5/6 xl:tw-w-3/4 tw-mx-auto"
           :src="require('~/assets/images/diagram/' + data.img)"

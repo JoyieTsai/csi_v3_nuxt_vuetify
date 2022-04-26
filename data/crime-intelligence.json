@@ -7,7 +7,7 @@
     "coverImg": "investigation.png",
     "brochure": "Investigation.pdf",
     "descHeading": "Complete case management system to support the investigation process",
-    "descContent": "Collect, store, edit, view, and archive case subject recordsets with an extensive range of information variables such as evidence, warrants, arrests, drugs, and more. InfoShare™ Investigation also includes advanced analytics tools, extensive search capabilities, and investigative reporting features.  With mobile features embedded in the application, users can now access caseloads from any smartphone or tablet.",
+    "descContent": "Manage investigations with an extensive range of information such as reports, evidence, contacts, assignments, arrests, warrants, and more. Document specialized investigation data including arson, burglary, death, narcotics, robbery, sexual assault, and vehicle crashes.",
     "highlightVideo": "Investigation_highlight.mp4",
     "highlightImg": "Investigation_thumb.jpg",
     "highlights": [
@@ -834,7 +834,7 @@
     "sysFeatures": [
       {
         "title": "Physical Evidence Record Collection",
-        "desc": "Maintain an ongoing repository of crime scene data linked to cases and chain of custody, keeping all data organized and updated for quick access.",
+        "desc": "Manage chain of custody and current repository of crime scene data linked to cases, keeping all data organized and updated for quick access.",
         "list": [
           "Data collection",
           "Evidence log",

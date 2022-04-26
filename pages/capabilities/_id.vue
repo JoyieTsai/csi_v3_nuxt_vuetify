@@ -32,7 +32,7 @@
       <NumberFeatures
         v-if="features"
         :data="features"
-        class="tw-my-16 xl:tw-my-28"
+        class="tw-my-14 xl:tw-my-28"
       />
       <div v-if="extending" class="header-2 tw-text-center">
         Featured Interfaces

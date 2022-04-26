@@ -47,7 +47,7 @@
     >
       <ContactForm>
         <div slot="title">Send CSI a Message</div>
-        <div slot="content" class="tw-w-3/4 tw-mx-auto">
+        <div slot="content" class="md:tw-w-3/4 tw-mx-auto">
           We love hearing from you. If you have any questions, feedback or would
           like to schedule a demo, please fill out this form. We will quickly
           get back to you.

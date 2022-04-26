@@ -125,7 +125,7 @@
         "items": [
           {
             "title": "Document Management",
-            "desc": "Store a wide variety of data files including documents, audio, video, and images in a centralized library for efficient retrieval and review. Document files are uploaded and linked to cases with application/file type, complaint ID, file name, and a system-generated unique file number. Data files can be moved or copied to multiple case files, and multiple users can access the files simultaneously.",
+            "desc": "Store a wide variety of data files including documents, audio, video, and images in a configurable array of folders for efficient retrieval and review. Document files are uploaded and linked to cases with application/file type, complaint ID, file name, and a system-generated unique file number. Data files can be moved or copied to multiple case files, and multiple users can access the files simultaneously.",
             "images": [
               "ca2-01-1.jpg",
               "ca2-01-2.jpg",
@@ -152,7 +152,7 @@
           },
           {
             "title": "eDiscovery",
-            "desc": "Reduce time spent on discovery preparation by up to 75% with paperless organization of discovery and evidence. Documents and other multimedia files including transcripts, documents, photos, audio, video, and reports are organized in discovery packages in one central, secure repository. Support redaction, Bates numbering, and billing.",
+            "desc": "Reduce time spent on discovery preparation by up to 75%. Documents and multimedia files including transcripts, reports, photos, audio, and video are organized in discovery packages in one central, secure repository. Create a permanent detailed record of each discovery package and its routing. Support redaction, Bates numbering, and billing.",
             "images": [
               "ca2-04-1.jpg",
               "ca2-04-2.jpg",
@@ -170,7 +170,7 @@
           },
           {
             "title": "InfoArchive",
-            "desc": "Completely eliminate hard copies in the Prosecutor’s office. The benefits of a paperless environment include saving storage space, saving time and effort finding documents, quickly locating information in documents, and delivering documents quickly and safely to stakeholders.",
+            "desc": "Minimize the use of hard copies in the prosecuting agency. Digitize multiple types of office files, both case and office administration related. Digitized documents can be quickly located and returned to stakeholders for review.",
             "images": [
               "ca2-06-1.jpg",
               "ca2-06-2.jpg"
@@ -178,14 +178,14 @@
           },
           {
             "title": "InfoFile",
-            "desc": "Remote desktop application designed to give access to Cellebrite files stored on shared drives. Integrated into the InfoShare™ Documents module, InfoFile allows users to view phone dump files and download exhibits for trial discovery.",
+            "desc": "Remote desktop application designed to give access to Cellebrite or other formatted document types stored on shared drives. Integrated into the InfoShare™ Documents module, InfoFile allows users to view phone dump files and download exhibits for trial discovery.",
             "images": [
               "ca2-07-1.jpg"
             ]
           },
           {
             "title": "InfoScribe",
-            "desc": "Transcribe audio and video with minimal effort using the latest machine learning technology.  Reduce the amount of work in transcribing evidence by at least 50%. Execute transcription processes directly from eDiscovery packages. Finished transcripts are reviewable, searchable, and linked to their corresponding case files.",
+            "desc": "Leverage the latest in AI technology to transcribe audio and video with minimal effort, reducing the amount of work in transcribing statements by at least 50%. Execute transcription processes directly from eDiscovery packages. Finished transcripts are reviewable, searchable, and linked to their corresponding case files.",
             "images": [
               "ca2-08-1.jpg"
             ],
@@ -207,7 +207,7 @@
           },
           {
             "title": "Interview Recording",
-            "desc": "Conduct live remote interviews and store recordings directly in the case file after the interview is completed. Compatible with most HD cameras and high-quality synchronized audio channels. Manage multiple interviews from one recording station.",
+            "desc": "Conduct live remote interviews and store recordings directly in the case file after the interview is completed. Compatible with most HD cameras and high-quality synchronized audio channels. Manage multiple interviews from one recording station. Users can add additional metadata to the files.",
             "images": [
               "ca2-11-1.jpg",
               "ca2-11-2.jpg"
@@ -223,7 +223,7 @@
         "items": [
           {
             "title": "Investigation",
-            "desc": "Manage investigation case files with an extensive range of information variables such as evidence, warrants, arrests, drugs, and more. Handle special investigation cases including but not limited to arson, burglary, computer crime, sex crime, death, robbery, and narcotics.",
+            "desc": "Manage investigations with an extensive range of information such as reports, evidence, contacts, assignments, arrests, warrants, and more. Document specialized investigation data including arson, burglary, death, narcotics, robbery, sexual assault, and vehicle crashes.",
             "images": [
               "ca3-01-1.jpg",
               "ca3-01-2.png"
@@ -242,14 +242,14 @@
           },
           {
             "title": "High Tech Crime",
-            "desc": "Assist in cellular, technology-related, and computer forensic investigations. Identify, preserve, analyze, and document digital evidence for investigative management.",
+            "desc": "Document computer forensic and other technology-related investigations. Identify, preserve, analyze, and document digital evidence for investigative management.",
             "images": [
               "ca3-03-1.jpg"
             ]
           },
           {
             "title": "Duty Referral",
-            "desc": "Designed to help record, categorize, review, and track all case information including referral, location, type of incident as well as victim, witness, and suspect data. Assign staff, conduct preliminary assessments, print tracking sheet reports, and perform supervisory reviews to determine the appropriate course of action.",
+            "desc": "Designed to help record, categorize, review, and track all case information including initial referral, location, type of incident as well as victim, witness, and suspect data. Assign staff, conduct preliminary assessments, generate tracking reports, and perform supervisory reviews to determine the appropriate course of action.",
             "images": [
               "ca3-04-1.jpg",
               "ca3-04-2.png"
@@ -257,7 +257,7 @@
           },
           {
             "title": "Major Incident Management",
-            "desc": "Facilitate major incident investigations involving multiple operations, jurisdictions, and/or leads, including but not limited to terrorist incidents, mass casualty incidents, and crime spree investigations. Robust permission settings ensure that sensitive data is secure and only accessible by authorized personnel.",
+            "desc": "Facilitate large scale investigations involving multiple operations, jurisdictions, and/or leads, including but not limited to terrorist incidents, mass casualty incidents, and crime spree investigations. Robust permission settings ensure that sensitive data is secure and only accessible by authorized personnel.",
             "images": [
               "ca3-05-1.jpg",
               "ca3-05-2.jpg",
@@ -267,7 +267,7 @@
           },
           {
             "title": "Professional Standards & IA",
-            "desc": "Manage and document investigations of alleged officer and/or employee misconduct to maintain agency integrity. Data is stored in a separate database for increased security. Support external user management, early intervention mechanism, customizable workflows, standardized CALEA disciplinary forms as well as agency-specific forms, and more.",
+            "desc": "Manage and document investigations of alleged officer and/or employee misconduct to maintain agency integrity. Data is stored in a separate database for increased security. Supports external user management, early intervention mechanism, customizable workflows, standardized disciplinary forms, and more.",
             "images": [
               "ca3-06-1.jpg"
             ],
@@ -275,7 +275,7 @@
           },
           {
             "title": "Brady-Giglio",
-            "desc": "Designed to assist in complying with the United States Supreme Court decision in Brady v. Maryland, 373 U.S. 83, 87 (1963). Provide a mechanism to classify and track staff subject to Brady-Giglio reporting. Add a permission-controlled Master Officer Search to access records in the Police Maintenance database.",
+            "desc": "Designed to assist in complying with the United States Supreme Court decision in Brady v. Maryland, 373 U.S. 83, 87 (1963). Provide a mechanism to classify and track personnel subject to Brady-Giglio reporting. A permission-controlled Master Officer Search controls access to records in the database.",
             "images": [
               "ca3-07-1.jpg"
             ],
@@ -283,7 +283,7 @@
           },
           {
             "title": "Drug Screening Randomizer",
-            "desc": "Generate a list of randomly selected personnel eligible for drug screening. Every employee in the office has an equal chance of being selected each and every time a selection takes place. Support all required documentation and archiving needs.",
+            "desc": "Generate lists of randomly selected personnel who are eligible for drug screening. All employees in the agency have an equal chance of being selected each and every time a selection takes place. Support all required documentation and archiving needs.",
             "images": [
               "ca3-08-1.jpg",
               "ca3-08-2.png"
@@ -292,14 +292,14 @@
           },
           {
             "title": "Confidential Informants/Witnesses",
-            "desc": "Manage information and documents on confidential informants and cooperating witnesses. Let users record contact logs, document and tabulate payments, record intelligence, map confidential sources’ location, and more. Robust permission settings ensure only authorized individuals have access to confidential records.",
+            "desc": "Manage information and documents on confidential informants and cooperating witnesses. Record contact logs, intelligence, payments, and more. Robust permission settings ensure that only authorized individuals have access to confidential records.",
             "images": [
               "ca3-09-1.jpg"
             ]
           },
           {
             "title": "Crime Scene Investigation",
-            "desc": "Collect, process, and document crime scene findings and forensic evidence for investigation and trial preparation. Maintain an ongoing repository of crime scene data linked to cases and chain of custody, keeping all data organized and updated for quick access.",
+            "desc": "Document the collection, processing, and findings of forensic evidence for investigations and court proceedings. Manage chain of custody and current repository of crime scene data linked to cases, keeping all data organized and updated for quick access.",
             "images": [
               "ca3-10-1.jpg",
               "ca3-10-2.jpg"
@@ -308,7 +308,7 @@
           },
           {
             "title": "Intelligence",
-            "desc": "A 28CFR23 criminal intelligence system to store, access, and analyze intelligence at the local, state, and federal level for crime prevention and investigative purposes. Interfaces with RISSNET and associated partnerships such as N-DEX and INTERPOL. Extensive capabilities in linking and searching for information.",
+            "desc": "A 28 CFR Part 23 compliant criminal intelligence system to store, access, and analyze intelligence at the local, state, and federal level for crime prevention and investigative purposes. Global Search and ALPR data interfaces provide extensive capabilities in searching and linking information.",
             "images": [
               "ca3-11-1.jpg",
               "ca3-11-2.jpg",
@@ -333,7 +333,7 @@
           },
           {
             "title": "DV Family",
-            "desc": "Assist Domestic Violence Units in investigating and prosecuting cases of domestic violence from inception to disposition. Handle evidence, warrants, victim services, events, orders of protection, and more.",
+            "desc": "Assist Domestic Violence Units in investigating and prosecuting cases of domestic violence from inception to disposition. Handle contacts, staff assignments, warrants, victim services, events, orders of protection, and more.",
             "images": [
               "ca4-02-1.jpg"
             ]
@@ -392,7 +392,7 @@
           },
           {
             "title": "Forfeiture",
-            "desc": "Create itemized lists of asset forfeitures including property, vehicles, and contraband according to the state attorney’s general guidelines. Track funds’ account statement, cash distribution, disposition, and expenditures. Automatically generate quarterly reports on seizures and forfeiture activity.",
+            "desc": "Create itemized lists of asset forfeitures including property, vehicles, and contraband according to the state guidelines. Track funds’ account statement, cash distribution, disposition, and expenditures. Automatically generate quarterly reports on seizures and forfeiture activity.",
             "images": [
               "ca5-05-1.jpg",
               "ca5-05-2.png",
@@ -454,7 +454,7 @@
           },
           {
             "title": "Marijuana / Alcohol",
-            "desc": "Provide a platform for local police departments to generate juvenile warning forms as well as host warning data and forms in the prosecutor’s offices to complete the purge/review function as required by law.",
+            "desc": "Record and track marijuana and alcohol usage and generate warning forms for underage persons as well as host warning data and forms in the prosecutor’s office to complete the purge/review function as required by law.",
             "images": [
               "ca5-13-1.jpg",
               "ca5-13-2.png"
@@ -478,7 +478,7 @@
           },
           {
             "title": "VW Stat Tracker",
-            "desc": "Designed to simplify state and federal statistical reporting requirements. Forms and reports such as VOCA, SANE, and VAWA are automatically updated when information is added to a case, streamlining the reporting process and saving valuable time when applying for grants.",
+            "desc": "Designed to simplify state and federal statistical reporting requirements. Forms and reports such as VOCA, PMT, and VAWA are automatically updated when information is added to a case, streamlining the reporting process and saving valuable time when applying for grants.",
             "images": [
               "ca6-02-1.jpg",
               "ca6-02-2.png",
@@ -1309,7 +1309,7 @@
     "coverImg": "online_transcription_service.png",
     "brochure": "InfoScrIbe.pdf",
     "descHeading": "Save thousands of hours with automated audio and video transcriptions",
-    "descContent": "A voice-to-text transcription module utilizing the latest innovations in transcription technology reduces the amount of work in transcribing evidence by at least 50%. Because this module is fully integrated into the InfoShare™ platform, transcription tasks can be directly executed for multimedia files stored in eDiscovery folders. Finished transcripts are reviewable, searchable, and linked to their corresponding files.",
+    "descContent": "Leverage the latest in AI technology to transcribe audio and video with minimal effort, reducing the amount of work in transcribing statements by at least 50%. Execute transcription processes directly from eDiscovery packages. Finished transcripts are reviewable, searchable, and linked to their corresponding case files.",
     "sysFeatures": [
       {
         "title": "Rapid First Draft",

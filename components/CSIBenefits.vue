@@ -7,6 +7,7 @@
         tw-bg-white
         shadow-1
         tw-flex tw-flex-col tw-items-center tw-text-center tw-p-5
+        zoomin
       "
     >
       <img

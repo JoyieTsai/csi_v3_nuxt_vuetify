@@ -1,17 +1,22 @@
 <template>
   <div class="bg-solution tw-overflow-hidden">
-    <div class="main-container tw-mx-auto tw-py-12 xl:tw-py-24 tw-relative">
-      <!-- <img
-        class="solution-line"
-        :src="require('~/assets/vectors/t-lines.svg')"
-      /> -->
+    <div
+      class="
+        main-container
+        tw-mx-auto tw-py-6
+        md:tw-py-12
+        xl:tw-py-24
+        tw-relative
+      "
+    >
       <!-- Header -->
-      <div class="tw-flex tw-flex-col md:tw-flex-row">
+      <div class="tw-flex tw-flex-col sm:tw-flex-row">
         <div>
           <v-img
             :src="require('~/assets/vectors/solution-logo.svg')"
             class="
-              tw-w-40
+              tw-w-44
+              sm:tw-w-56
               md:tw-w-64
               lg:tw-w-72
               xl:tw-w-96
@@ -24,7 +29,7 @@
           ></v-img>
         </div>
         <div class="tw-text-white">
-          <div class="header-2 tw-mt-5 lg:tw-mt-16 xl:tw-mt-24">
+          <div class="header-2 tw-mt-5 md:tw-mt-10 lg:tw-mt-16 xl:tw-mt-24">
             Total Solution
           </div>
           <div class="lg:tw-text-xl xl:tw-text-2xl">
@@ -56,10 +61,22 @@
             :ripple="false"
             :href="'#tab-' + i"
           >
-            <div class="tab-text tw-mt-2 tw-hidden md:tw-block">
+            <div
+              class="
+                tab-text
+                tw-text-xs
+                md:tw-text-base
+                lg:tw-text-lg
+                xl:tw-text-xl
+                tw-mt-2 tw-tracking-normal
+              "
+            >
               {{ sol.product }}
             </div>
-            <i :class="[sol.icon, 'tab-icon']"></i>
+            <i
+              v-show="$vuetify.breakpoint.smAndUp"
+              :class="[sol.icon, 'tab-icon']"
+            ></i>
           </v-tab>
         </v-tabs>
 
@@ -71,32 +88,47 @@
           >
             <div class="tw-flex tw-justify-center">
               <img
-                :src="require('~/assets/images/diagram/' + sol.diagram)"
+                :src="'images/solutions/' + sol.diagram"
                 alt=""
                 :class="'solution-diagram-' + j"
               />
             </div>
             <!-- Interface -->
-            <div v-if="sol.interfaces" class="tw-mt-20">
+            <div v-if="sol.interfaces" class="tw-mt-5 xl:tw-mt-20">
               <div class="tw-flex tw-justify-center">
-                <div class="solution-interface tw-mr-5">
-                  <i class="icon-interfaces_solid tab-icon"></i> Interfaces
-                </div>
-                <div
-                  class="
-                    tw-flex tw-flex-wrap tw-items-center tw-justify-center
-                    bg-hud-horizontal
-                    tw-w-1/2 tw-mt-32
-                  "
-                >
+                <div class="solution-tabs interface tw-mr-5">
+                  <i
+                    v-show="$vuetify.breakpoint.smAndUp"
+                    class="icon-interfaces_solid tab-icon"
+                  ></i>
                   <div
-                    v-for="(inter, index) in sol.interfaces"
-                    :key="index"
-                    class="hexagon vertical"
+                    class="
+                      tab-text
+                      tw-text-xs
+                      md:tw-text-base
+                      lg:tw-text-lg
+                      xl:tw-text-xl
+                      tw-tracking-normal
+                    "
                   >
-                    {{ inter }}
+                    Interfaces
                   </div>
                 </div>
+                <img
+                  :src="'images/solutions/' + sol.interfaces"
+                  alt=""
+                  class="
+                    tw-mt-6
+                    lg:tw-mt-12
+                    tw--ml-5
+                    md:tw--ml-10
+                    tw-h-20
+                    sm:tw-h-40
+                    md:tw-h-44
+                    lg:tw-h-64
+                    xl:tw-h-80
+                  "
+                />
               </div>
             </div>
             <!-- Interface end-->
@@ -119,13 +151,13 @@ export default {
     tabHeight() {
       switch (this.$vuetify.breakpoint.name) {
         case 'xs':
-          return 120
+          return 110
         case 'sm':
-          return 250
+          return 210
         case 'md':
-          return 250
+          return 260
         case 'lg':
-          return 300
+          return 320
         case 'xl':
           return 335
       }
@@ -137,41 +169,59 @@ export default {
 
 <style lang="scss">
 .solution {
-  &-line {
-    position: absolute;
-    top: 490px;
-    left: 450px;
-  }
   &-tabs {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 230px;
-    height: 230px;
+    width: 235px;
+    height: 235px;
     margin: auto 1rem;
-
-    .tab-text {
-      font-size: 1.1rem;
-    }
+    color: $white;
 
     .tab-icon {
       font-size: 3rem;
     }
 
+    &.interface {
+      position: relative;
+      margin: 0;
+
+      &:hover {
+        transition: none;
+        color: white !important;
+      }
+    }
+
     @media only screen and (max-width: $breakpoints-lg) {
-      width: 180px;
-      height: 180px;
-      .tab-text {
-        font-size: 1rem;
+      width: 200px;
+      height: 200px;
+      .tab-icon {
+        font-size: 3rem;
+      }
+    }
+    @media only screen and (max-width: ($breakpoints-lg - 1px)) {
+      width: 185px;
+      height: 185px;
+    }
+    @media only screen and (max-width: $breakpoints-md) {
+      width: 175px;
+      height: 175px;
+      margin: auto 10px;
+    }
+    @media only screen and (max-width: ($breakpoints-md - 1px)) {
+      width: 150px;
+      height: 150px;
+      .tab-icon {
+        font-size: 2rem;
       }
     }
     @media only screen and (max-width: $breakpoints-sm) {
+      width: 90px;
+      height: 90px;
       margin: auto 5px;
-      width: 80px;
-      height: 80px;
-      .tab-icon {
-        font-size: 1.5rem;
+      .tab-text {
+        transform: scale(0.9);
       }
     }
     &::before {
@@ -202,30 +252,42 @@ export default {
       transition: all 0.5s cubic-bezier(0.2, 0.4, 0.7, 0.8);
 
       .tab-text {
-        font-size: 1.4rem;
         font-weight: bold;
+        transform: scale(1.15);
       }
 
       .tab-icon {
-        font-size: 3.5rem;
+        font-size: 4rem;
       }
 
       @media only screen and (max-width: $breakpoints-lg) {
         width: 200px;
         height: 200px;
-        .tab-text {
-          font-size: 1.2rem;
-        }
 
         .tab-icon {
           font-size: 3rem;
         }
       }
-      @media only screen and (max-width: $breakpoints-sm) {
-        width: 80px;
-        height: 80px;
+      @media only screen and (max-width: ($breakpoints-lg - 1px)) {
+        width: 185px;
+        height: 185px;
+      }
+      @media only screen and (max-width: $breakpoints-md) {
+        width: 175px;
+        height: 175px;
+      }
+      @media only screen and (max-width: ($breakpoints-md - 1px)) {
+        width: 150px;
+        height: 150px;
         .tab-icon {
           font-size: 2rem;
+        }
+      }
+      @media only screen and (max-width: $breakpoints-sm) {
+        width: 90px;
+        height: 90px;
+        .tab-text {
+          transform: scale(1);
         }
       }
 
@@ -254,8 +316,20 @@ export default {
         transition: all 0.5s cubic-bezier(0.2, 0.4, 0.7, 0.8);
         transform: scale(1);
         @media only screen and (max-width: $breakpoints-lg) {
-          width: 225px;
-          height: 225px;
+          width: 220px;
+          height: 220px;
+        }
+        @media only screen and (max-width: ($breakpoints-lg - 1px)) {
+          width: 210px;
+          height: 210px;
+        }
+        @media only screen and (max-width: $breakpoints-md) {
+          width: 200px;
+          height: 200px;
+        }
+        @media only screen and (max-width: ($breakpoints-md - 1px)) {
+          width: 175px;
+          height: 175px;
         }
         @media only screen and (max-width: $breakpoints-sm) {
           width: 100px;
@@ -277,42 +351,27 @@ export default {
       margin-left: 6rem;
     }
     &-1 {
-      margin-right: 3rem;
+      margin-right: 5rem;
+    }
+    &-2 {
+      margin-right: 5rem;
     }
     &-0,
     &-1,
     &-2 {
       @media only screen and (max-width: $breakpoints-lg) {
+        height: 550px;
         margin: 0;
       }
-    }
-  }
-
-  &-interface {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 260px;
-    height: 260px;
-    margin: auto 0;
-    color: white;
-    font-size: 1.4rem;
-    position: relative;
-
-    .tab-icon {
-      font-size: 3.6rem;
-    }
-
-    &::before {
-      content: '';
-      position: absolute;
-      background-color: transparent;
-      opacity: 1;
-      width: 100%;
-      height: 100%;
-      background: url('../assets/vectors/circle-base.svg') center no-repeat;
-      background-size: contain;
+      @media only screen and (max-width: ($breakpoints-lg - 1px)) {
+        height: 485px;
+      }
+      @media only screen and (max-width: $breakpoints-md) {
+        height: 450px;
+      }
+      @media only screen and (max-width: $breakpoints-sm) {
+        height: 200px;
+      }
     }
   }
 }

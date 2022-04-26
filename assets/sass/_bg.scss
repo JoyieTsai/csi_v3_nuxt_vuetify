@@ -58,13 +58,19 @@
     background-position: center top;
 
     @media only screen and (max-width: $breakpoints-lg) {
-      background-size: 1450px;
+      background-size: 1480px;
     }
-    @media only screen and (max-width: $breakpoints-md) {
+    @media only screen and (max-width: ($breakpoints-lg - 1px)) {
       background-size: 1350px;
     }
+    @media only screen and (max-width: $breakpoints-md) {
+      background-size: 1300px;
+    }
+    @media only screen and (max-width: ($breakpoints-md - 1px)) {
+      background-size: 1220px;
+    }
     @media only screen and (max-width: $breakpoints-sm) {
-      background-size: 780px;
+      background-size: 850px;
     }
   }
   &-categories {

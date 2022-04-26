@@ -22,9 +22,17 @@
         :key="index"
         class="tw-flex tw-flex-col xl:tw-flex-row tw-items-center effectbg"
       >
-        <div :class="['effectbg-' + (index + 1), 'tw-flex-none']">
+        <div
+          :class="['effectbg-' + (index + 1), 'tw-flex-none']"
+          data-aos="flip-down"
+          data-aos-offset="300"
+          :data-aos-delay="index * 200"
+        >
           <i
             :class="[item.icon, 'tw-text-white tw-text-6xl xl:tw-text-7xl']"
+            data-aos="fade-down"
+            data-aos-offset="500"
+            :data-aos-delay="index * 200"
           ></i>
         </div>
         <div

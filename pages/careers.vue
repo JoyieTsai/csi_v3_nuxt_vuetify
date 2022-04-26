@@ -46,7 +46,7 @@
         </div>
 
         <!-- Benefit -->
-        <div class="tw-my-16 xl:tw-my-28 tw-text-center">
+        <div class="tw-my-14 xl:tw-my-28 tw-text-center">
           <div class="header-2 tw-font-semibold tw-mb-12">Benefits</div>
           <CSIBenefits />
         </div>

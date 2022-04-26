@@ -479,11 +479,11 @@
 export default {
   data: () => ({
     category: 'page',
-    title: 'Terms of Service',
+    title: 'Terms of Use',
     subtitle: 'Last Updated: April 10, 2022',
     coverimg: 'blue.jpg',
     links: [
-      { title: 'Terms of Service', url: 'terms' },
+      { title: 'Terms of Use', url: 'terms' },
       { title: 'Privacy Policy', url: 'policy' },
     ],
   }),

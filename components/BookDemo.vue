@@ -4,8 +4,17 @@
       <div class="tw-flex-1 tw-text-white">
         <div class="tw-flex tw-flex-row lg:tw-flex-col tw-mb-5 lg:tw-mb-0">
           <div>
-            <div class="header-2">Book a Demo</div>
-            <div class="tw-text-lg lg:tw-text-xl lg:tw-mr-10">
+            <div class="header-2 tw-text-center md:tw-text-left">
+              Book a Demo
+            </div>
+            <div
+              class="
+                md:tw-text-lg
+                lg:tw-text-xl lg:tw-mr-10
+                tw-text-center
+                md:tw-text-left
+              "
+            >
               Want to learn more about our total solution software?<br />Contact
               us today to schedule a demo with one of our account managers.
             </div>
@@ -61,6 +70,7 @@
             <v-textarea
               v-model="message"
               :rules="[rules.required]"
+              multi-line
               solo
               placeholder="Message"
               rows="4"
@@ -129,6 +139,10 @@ export default {
     },
     async sendMail() {
       const url = 'https://genie.csitech.com/AspSoft/ExternalService.ashx'
+      const arr = []
+      this.message
+        .split('\n')
+        .forEach((item) => arr.push(`<p>${item.trim()}</p>`))
 
       const content = await axios
         .post(url, {
@@ -138,7 +152,7 @@ export default {
           email: this.email,
           phone: this.phone,
           agency: this.agency,
-          message: this.message,
+          message: arr.join(''),
         })
         .then((response) => {
           alert(
