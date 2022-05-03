@@ -8,8 +8,9 @@
     </div>
     <div
       class="
-        tw-grid tw-gap-8
-        sm:tw-grid-cols-2
+        tw-grid tw-gap-4
+        md:tw-gap-8
+        tw-grid-cols-2
         xl:tw-grid-cols-4
         tw-mt-8
         xl:tw-mt-16
@@ -47,7 +48,7 @@
           News
         </div>
         <div v-else class="text-grey tw-text-sm sm:tw-text-base">Event</div>
-        <div class="tw-text-sm sm:tw-text-base lg:tw-text-lg">
+        <div class="tw-text-sm sm:tw-text-base lg:tw-text-lg tw-font-medium">
           {{ article.title }}
         </div>
       </div>

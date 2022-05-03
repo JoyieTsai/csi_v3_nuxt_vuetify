@@ -24,6 +24,8 @@ export default {
           redirect(301, '/public-safety/rms')
           break
       }
+    } else {
+      redirect(301, '/public-safety')
     }
   },
 }

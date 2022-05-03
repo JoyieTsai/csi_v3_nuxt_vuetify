@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main id="story">
       <!-- Cover -->
       <div
         class="hero-section md:tw-items-center"
@@ -172,6 +172,22 @@ export default {
         }
       })
       return members
+    },
+  },
+  watch: {
+    async $route(to, from) {
+      await this.goToHash(this.$route.hash)
+    },
+  },
+  mounted() {
+    this.goToHash(this.$route.hash)
+  },
+  methods: {
+    goToHash(hash) {
+      console.log(hash)
+      if (hash) {
+        this.$vuetify.goTo(hash)
+      }
     },
   },
 }

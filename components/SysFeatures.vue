@@ -51,7 +51,7 @@
                 index % 2 == 0
                   ? 'tw-order-last'
                   : 'tw-order-last lg:tw-order-first',
-                'tw-flex-1 tw-flex tw-flex-col tw-justify-center',
+                'tw-flex-1 tw-flex tw-flex-col tw-justify-center tw-mb-8 md:tw-mb-0',
               ]"
             >
               <div

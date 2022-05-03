@@ -6,7 +6,7 @@
       <div
         v-for="(partner, index) in partners"
         :key="index"
-        class="tw-my-5 xl:tw-my-10"
+        class="tw-my-5 xl:tw-my-10 tw-max-w-full"
       >
         <v-img
           :src="'images/partnerships/' + partner"

@@ -11,14 +11,7 @@
           </div>
           <div class="border-primary tw-my-2 lg:tw-my-5"></div>
           <div
-            class="
-              tw-text-sm
-              md:tw-text-base
-              lg:tw-text-lg
-              tw-leading-relaxed
-              lg:tw-pr-10
-              tw-mb-5
-            "
+            class="tw-text-sm md:tw-text-base lg:tw-text-lg tw-leading-relaxed lg:tw-pr-10 tw-mb-5"
             v-html="desc"
           ></div>
         </div>
@@ -29,70 +22,30 @@
             <nuxt-link
               v-if="item.link"
               :to="'/' + item.link"
-              class="
-                tw-relative tw-z-10 tw-pt-3
-                2xl:tw-pt-5
-                tw-flex
-                tw-flex-col
-                tw-items-center
-                tw-justify-center
-                tw-text-white
-                hover:tw-text-white
-                tw-w-full
-              "
+              class="tw-relative tw-z-10 tw-pt-3 2xl:tw-pt-5 tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-white hover:tw-text-white tw-w-full"
             >
               <div
-                class="
-                  tw-text-4xl
-                  md:tw-text-5xl
-                  xl:tw-text-6xl
-                  tw-leading-tight
-                "
+                class="tw-text-4xl md:tw-text-5xl xl:tw-text-6xl tw-leading-tight"
               >
                 <i :class="item.icon"></i>
               </div>
               <div
-                class="
-                  tw-text-sm
-                  lg:tw-text-base
-                  2xl:tw-text-lg
-                  tw-leading-tight
-                "
+                class="tw-text-sm lg:tw-text-base 2xl:tw-text-lg tw-leading-tight"
               >
                 {{ item.title }}
               </div>
             </nuxt-link>
             <div
               v-else
-              class="
-                tw-relative tw-z-10 tw-pt-3
-                2xl:tw-pt-5
-                tw-flex
-                tw-flex-col
-                tw-items-center
-                tw-justify-center
-                tw-text-white
-                hover:tw-text-white
-                tw-w-full
-              "
+              class="tw-relative tw-z-10 tw-pt-3 2xl:tw-pt-5 tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-white hover:tw-text-white tw-w-full"
             >
               <div
-                class="
-                  tw-text-4xl
-                  md:tw-text-5xl
-                  xl:tw-text-6xl
-                  tw-leading-tight
-                "
+                class="tw-text-4xl md:tw-text-5xl xl:tw-text-6xl tw-leading-tight"
               >
                 <i :class="item.icon"></i>
               </div>
               <div
-                class="
-                  tw-text-sm
-                  lg:tw-text-base
-                  2xl:tw-text-lg
-                  tw-leading-tight
-                "
+                class="tw-text-sm lg:tw-text-base 2xl:tw-text-lg tw-leading-tight"
               >
                 {{ item.title }}
               </div>
@@ -157,18 +110,19 @@ $badgeHeight: 175px;
     top: 90px;
   }
 
-  @media only screen and (max-width: $breakpoints-sm) {
-    max-width: 380px;
-    & > *:nth-child(4) {
-      top: 180px;
-      transform: translateX(-480px);
-    }
-    & > *:nth-child(5) {
-      top: -45px;
-      transform: translateX(80px);
-    }
-  }
-  @media only screen and (max-width: $breakpoints-xs) {
+  // @media only screen and (max-width: $breakpoints-sm) {
+  //   max-width: 380px;
+  //   & > *:nth-child(4) {
+  //     top: 180px;
+  //     transform: translateX(-480px);
+  //   }
+  //   & > *:nth-child(5) {
+  //     top: -45px;
+  //     transform: translateX(80px);
+  //   }
+  // }
+  @media only screen and (max-width: 650px) {
+    max-width: 350px;
     & > *:nth-child(4) {
       top: 34px;
       transform: translateX(-49px);
@@ -207,10 +161,15 @@ $badgeHeight: 175px;
     width: ceil($badgeWidth * 0.75);
     height: ceil($badgeHeight * 0.75);
   }
-  @media only screen and (max-width: $breakpoints-sm) {
+  @media only screen and (max-width: 650px) {
     margin: 14px;
     width: ceil($badgeWidth * 0.67);
     height: ceil($badgeHeight * 0.67);
+  }
+  @media only screen and (max-width: 345px) {
+    margin: 14px;
+    width: ceil($badgeWidth * 0.65);
+    height: ceil($badgeHeight * 0.65);
   }
 
   &:before,

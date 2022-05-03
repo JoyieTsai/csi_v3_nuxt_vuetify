@@ -128,6 +128,7 @@
           Login
         </v-btn> -->
       </div>
+
       <!-- Mobile Menu -->
       <div :class="[$vuetify.breakpoint.mdAndDown ? '' : 'tw-hidden']">
         <!-- <v-btn icon @click.prevent="routerTo('/search')">
@@ -155,7 +156,7 @@
           </template>
 
           <v-list-item v-for="(link, j) in data.links" :key="j" class="tw-p-0">
-            <v-list-item-content>
+            <v-list-item-content class="tw-pt-0">
               <div v-if="link.sub" class="tw-pl-12">
                 <div class="text-base text-primary-light tw-mb-1">
                   {{ link.sub }}
@@ -163,6 +164,13 @@
                 <v-divider></v-divider>
               </div>
               <v-list dense flat>
+                <v-list-item v-if="data.category === 'resources'">
+                  <nuxt-link
+                    :to="'/' + data.category"
+                    class="text-base text-link tw-p-2"
+                    >Overview</nuxt-link
+                  >
+                </v-list-item>
                 <v-list-item
                   v-for="(tab, k) in link.tabs"
                   :key="k"
@@ -179,12 +187,13 @@
                     </span>
                     <span v-else> {{ tab.title }} </span>
                   </nuxt-link>
-                  <div
-                    v-else-if="tab.id === 'resource'"
-                    class="text-base text-link tw-p-2"
-                    @click="routerToArticle(tab.query)"
-                  >
-                    {{ tab.title }}
+                  <div v-else-if="tab.id === 'resource'">
+                    <div
+                      class="text-base text-link tw-p-2"
+                      @click="routerToArticle(tab.query)"
+                    >
+                      {{ tab.title }}
+                    </div>
                   </div>
                   <nuxt-link
                     v-else

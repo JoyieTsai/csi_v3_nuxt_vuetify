@@ -67,7 +67,8 @@
   [data-aos='fade-up'],
   [data-aos='fade-down'],
   [data-aos='fade-right'],
-  [data-aos='fade-left'] {
+  [data-aos='fade-left'],
+  [data-aos='flip-down'] {
     transform: none !important;
   }
 }

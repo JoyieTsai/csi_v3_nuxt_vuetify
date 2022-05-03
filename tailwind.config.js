@@ -22,6 +22,7 @@ module.exports = {
       xl: '1280px',
       'ipad': '1367px',
       '2xl': '1536px',
+      '3xl': '1680px',
     },
     fontFamily: {
       sans: ['Lato', 'Segoe UI', 'sans-serif'],

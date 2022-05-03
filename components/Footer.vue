@@ -1,8 +1,10 @@
 <template>
-  <div class="tw-pb-5 tw-pt-10 lg:tw-pt-20 footer-line">
+  <div class="tw-pb-5 tw-pt-10 lg:tw-pt-16 footer-line">
     <div class="tw-flex tw-items-stretch tw-flex-col lg:tw-flex-row">
       <!-- Info -->
-      <div class="tw-flex tw-flex-col tw-px-12 xl:tw-px-20 tw-justify-between">
+      <div
+        class="tw-flex tw-flex-col tw-px-12 xl:tw-px-16 2xl:tw-px-20 tw-justify-between tw-mt-5"
+      >
         <div>
           <img
             src="images/csi-logo-vertical.svg"
@@ -67,16 +69,9 @@
       <!-- Headings -->
       <div class="tw-flex-auto">
         <div
-          class="
-            tw-hidden
-            lg:tw-grid
-            2xl:tw-grid-cols-6
-            xl:tw-grid-cols-4
-            lg:tw-grid-cols-3
-            2xl:tw-flex 2xl:tw-flex-wrap
-          "
+          class="tw-hidden 3xl:tw-flex xl:tw-flex-wrap lg:tw-grid 3xl:tw-grid-cols-6 xl:tw-grid-cols-4 lg:tw-grid-cols-3"
         >
-          <div v-for="(data, i) in datas" :key="i" class="tw-flex-auto">
+          <div v-for="(data, i) in datas" :key="i" class="tw-flex-auto tw-mt-5">
             <div>
               <div class="tw-text-lg xl:tw-text-xl text-primary">
                 {{ data.title }}
@@ -94,30 +89,18 @@
                 <div
                   v-for="(tab, k) in link.tabs"
                   :key="k"
-                  class="item-link tw-pr-3"
+                  class="item-link tw-pr-5"
                 >
                   <nuxt-link
                     v-if="tab.id && tab.id !== 'resource'"
                     :to="'/' + data.category + '/' + tab.id"
-                    class="
-                      tw-block
-                      footer-link
-                      tw-text-sm
-                      xl:tw-text-base
-                      tw-mb-2
-                    "
+                    class="tw-block footer-link tw-text-sm xl:tw-text-base tw-mb-2"
                   >
                     {{ tab.title }}
                   </nuxt-link>
                   <a
                     v-else-if="tab.id === 'resource'"
-                    class="
-                      tw-block
-                      footer-link
-                      tw-text-sm
-                      xl:tw-text-base
-                      tw-mb-2
-                    "
+                    class="tw-block footer-link tw-text-sm xl:tw-text-base tw-mb-2"
                     @click="routerToArticle(tab.query)"
                   >
                     {{ tab.title }}
@@ -125,13 +108,7 @@
                   <nuxt-link
                     v-else
                     :to="'/' + data.category"
-                    class="
-                      tw-block
-                      footer-link
-                      tw-text-sm
-                      lg:tw-text-base
-                      tw-mb-2
-                    "
+                    class="tw-block footer-link tw-text-sm lg:tw-text-base tw-mb-2"
                   >
                     {{ tab.title }}
                   </nuxt-link>
@@ -142,19 +119,10 @@
         </div>
         <!-- Copyright -->
         <div
-          class="
-            tw-flex tw-flex-col
-            md:tw-flex-row
-            tw-justify-between tw-mt-10 tw-text-center
-            lg:tw-text-left
-          "
+          class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-mt-10 tw-text-center lg:tw-text-left"
         >
           <div
-            class="
-              tw-text-sm tw-opacity-50 tw-order-last
-              lg:tw-order-first
-              md:tw-mr-4
-            "
+            class="tw-text-sm tw-opacity-50 tw-order-last lg:tw-order-first md:tw-mr-4"
           >
             Copyright © CSI Technology Group.
           </div>
@@ -163,14 +131,7 @@
               v-for="(link, i) in footerLinks"
               :key="i"
               :to="'/' + link.url"
-              class="
-                tw-text-sm
-                xl:tw-text-base
-                text-link
-                tw-opacity-50 tw-mx-2
-                md:tw-ml-4
-                hover:tw-opacity-100
-              "
+              class="tw-text-sm xl:tw-text-base text-link tw-opacity-50 tw-mx-2 md:tw-ml-4 hover:tw-opacity-100"
               >{{ link.title }}
             </nuxt-link>
           </div>

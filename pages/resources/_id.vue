@@ -190,7 +190,7 @@
             <div
               class="
                 tw-w-full tw-grid tw-grid-cols-1
-                md:tw-grid-cols-3
+                sm:tw-grid-cols-3
                 lg:tw-grid-cols-1
                 tw-gap-4
                 lg:tw-gap-8
@@ -201,7 +201,7 @@
                 :key="i"
                 class="
                   tw-flex
-                  md:tw-flex-col
+                  sm:tw-flex-col
                   2xl:tw-flex-row
                   bg-light
                   tw-cursor-pointer
@@ -216,15 +216,20 @@
                   <img
                     :src="require('~/assets/duotone/' + item[0].icon)"
                     alt=""
-                    class="tw-mb-3 2xl:tw-mb-3 2xl:tw-mr-5 tw-w-16"
+                    class="
+                      tw-mb-3
+                      2xl:tw-mb-3
+                      tw-mr-5
+                      sm:tw-mr-0
+                      2xl:tw-mr-5
+                      tw-w-16
+                    "
                   />
                 </div>
                 <div
                   class="
-                    tw-flex-auto
-                    md:tw-pt-5
-                    xl:tw-pt-0
-                    tw-text-center
+                    tw-flex-auto tw-text-left
+                    sm:tw-text-center
                     2xl:tw-text-left
                   "
                 >
@@ -404,6 +409,9 @@ export default {
     display: flex;
     justify-content: center;
     margin-bottom: 3rem;
+    img {
+      margin: 0 auto;
+    }
   }
 
   ol,
