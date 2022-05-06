@@ -77,7 +77,8 @@
         "id": "county-prosecution",
         "category": "justice-courts",
         "icon": "prosecution.svg",
-        "title": "County Prosecution"
+        "title": "County Prosecution",
+        "subtitle": "Web-based Prosecutor Case and Document Management"
     },
     {
         "id": "attorney-general",

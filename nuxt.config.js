@@ -50,7 +50,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'CSI-V2.1-05032022',
+    dir: 'Test-V2.1-05062022',
     routes: dynamicRoutes,
   },
 

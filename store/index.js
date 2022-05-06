@@ -44,7 +44,8 @@ export const mutations = {
 
 export const actions = {
   async getArticles({ commit }) {
-    const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')
+    // For test use > articles-test.json
+    const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles-test.json')
     const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
     commit('setArticles', payload)
   },
@@ -58,7 +59,7 @@ export const actions = {
     commit('setCurrentPage', payload)
   },
   async getArticleByID({ commit }, id) {
-    const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')
+    const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles-test.json')
     const payload = api.data.filter((res) => res.id === id)
     commit('setCurrentArticle', payload[0])
   },
