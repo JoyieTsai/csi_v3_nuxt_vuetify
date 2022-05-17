@@ -63,6 +63,24 @@
         "order": 4
     },
     {
+        "id": "warrant",
+        "tag": "rms",
+        "category": "public-safety",
+        "icon": "warrants.svg",
+        "title": "Warrant",
+        "subtitle": "Coming soon",
+        "order": 5
+    },
+    {
+        "id": "analytics-crime-mapping",
+        "tag": "rms",
+        "category": "public-safety",
+        "icon": "analytics.svg",
+        "title": "Analytics & Crime Mapping",
+        "subtitle": "Coming soon",
+        "order": 6
+    },
+    {
         "id": "internal-affairs",
         "tag": "rms",
         "category": "public-safety",
@@ -72,12 +90,30 @@
         "order": 7
     },
     {
+        "id": "municipal-solutions",
+        "tag": "municipal",
+        "category": "public-safety",
+        "icon": "municipal.svg",
+        "title": "Municipal Solutions",
+        "subtitle": "Coming soon",
+        "order": 1
+    },
+    {
         "id": "county-prosecution",
         "tag": "epro",
         "category": "justice-courts",
         "icon": "prosecution.svg",
         "title": "County Prosecution",
         "subtitle": "Web-based Prosecutor Case and Document Management",
+        "order": 1
+    },
+    {
+        "id": "attorney-general",
+        "tag": "state",
+        "category": "justice-courts",
+        "icon": "attorney_general.svg",
+        "title": "Attorney General",
+        "subtitle": "Coming soon",
         "order": 1
     },
     {
@@ -99,6 +135,15 @@
         "order": 4
     },
     {
+        "id": "public-defender",
+        "tag": "state",
+        "category": "justice-courts",
+        "icon": "public_defender.svg",
+        "title": "Public Defender",
+        "subtitle": "Coming soon",
+        "order": 3
+    },
+    {
         "id": "attorney-ethics",
         "tag": "state",
         "category": "justice-courts",
@@ -106,6 +151,15 @@
         "title": "Attorney Ethics",
         "subtitle": "Enforcing Good Attorney Standards",
         "order": 5
+    },
+    {
+        "id": "municipal-attorney",
+        "tag": "municipal",
+        "category": "justice-courts",
+        "icon": "justice_court.svg",
+        "title": "Municipal Attorney",
+        "subtitle": "Coming soon",
+        "order": 2
     },
     {
         "id": "ediscovery-with-portal",
@@ -213,6 +267,15 @@
         "icon": "mim.svg",
         "title": "Major Incident Management",
         "subtitle": "Inter-Agency Collaboration for Complex Investigations",
+        "order": 4
+    },
+    {
+        "id": "high-tech-crime",
+        "tag": "epro",
+        "category": "crime-intelligence",
+        "icon": "hacker.svg",
+        "title": "High-Tech Crime",
+        "subtitle": "Coming soon",
         "order": 4
     },
     {

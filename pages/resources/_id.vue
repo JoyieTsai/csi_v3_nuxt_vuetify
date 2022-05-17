@@ -11,12 +11,7 @@
       >
         <div class="main-container tw-mx-auto">
           <div
-            class="
-              tw-flex tw-text-white tw-mt-4
-              md:tw-mt-8
-              xl:tw-mt-10
-              tw-cursor-pointer
-            "
+            class="tw-flex tw-text-white tw-mt-4 md:tw-mt-8 xl:tw-mt-10 tw-cursor-pointer"
             @click="goToPrev()"
           >
             <img
@@ -31,25 +26,10 @@
 
       <div class="main-container tw-mx-auto">
         <div
-          class="
-            tw-flex tw-flex-wrap tw--mt-20
-            md:tw--mt-36
-            xl:tw--mt-44
-            tw-mb-12
-            lg:tw-mb-28
-          "
+          class="tw-flex tw-flex-wrap tw--mt-20 md:tw--mt-36 xl:tw--mt-44 tw-mb-12 lg:tw-mb-28"
         >
           <div
-            class="
-              tw-hidden
-              md:tw-block
-              lg:tw-w-24
-              xl:tw-w-40
-              2xl:tw-mt-96
-              tw-mt-24
-              md:tw-mt-52
-              tw-px-2 tw-mr-5
-            "
+            class="tw-hidden md:tw-block lg:tw-w-24 xl:tw-w-40 2xl:tw-mt-96 tw-mt-24 md:tw-mt-52 tw-px-2 tw-mr-5"
           >
             <div class="tw-text-center tw-mb-3 tw-mt-20">Share to</div>
             <div class="tw-flex tw-flex-col tw-items-center">
@@ -83,57 +63,28 @@
                     <div class="tw-flex tw-flex-wrap tw-opacity-70">
                       <div class="mr-3">Tags:</div>
                       <div
-                        class="
-                          tw-bg-gray-200
-                          tw-px-3
-                          tw-py-1
-                          tw-mb-2
-                          tw-uppercase
-                          tw-mr-2
-                          tw-rounded
-                          tw-text-xs
-                          sm:tw-text-sm
-                        "
+                        class="tw-bg-gray-200 tw-px-3 tw-py-1 tw-mb-2 tw-uppercase tw-mr-2 tw-rounded tw-text-xs sm:tw-text-sm"
                       >
                         {{ article.type }}
                       </div>
                       <div
                         v-for="(item, t) in article.tags"
                         :key="t"
-                        class="
-                          tw-bg-gray-200
-                          tw-px-3
-                          tw-py-1
-                          tw-mb-2
-                          tw-uppercase
-                          tw-mr-2
-                          tw-rounded
-                          tw-text-xs
-                          sm:tw-text-sm
-                        "
+                        class="tw-bg-gray-200 tw-px-3 tw-py-1 tw-mb-2 tw-uppercase tw-mr-2 tw-rounded tw-text-xs sm:tw-text-sm"
                       >
                         {{ item.name }}
                       </div>
                     </div>
                   </div>
                   <div
-                    class="
-                      tw-text-right tw-opacity-50 tw-text-xs
-                      sm:tw-text-sm
-                      md:tw-text-base
-                    "
+                    class="tw-text-right tw-opacity-50 tw-text-xs sm:tw-text-sm md:tw-text-base"
                   >
                     {{ article.date }}
                   </div>
                 </div>
 
                 <div
-                  class="
-                    tw-text-2xl
-                    xl:tw-text-3xl
-                    2xl:tw-text-4xl
-                    tw-font-semibold tw-my-5
-                  "
+                  class="tw-text-2xl xl:tw-text-3xl 2xl:tw-text-4xl tw-font-semibold tw-my-5"
                 >
                   {{ article.title }}
                 </div>
@@ -158,11 +109,7 @@
                 </div>
 
                 <div
-                  class="
-                    tw-text-base
-                    lg:tw-text-lg
-                    tw-leading-relaxed tw-text-gray-500
-                  "
+                  class="tw-text-base lg:tw-text-lg tw-leading-relaxed tw-text-gray-500"
                 >
                   <div
                     class="news-body lg:tw-text-xl"
@@ -175,69 +122,40 @@
 
           <!-- Related Products -->
           <div
-            class="
-              tw-w-full
-              lg:tw-w-3/12
-              tw-mt-20
-              lg:tw-mt-40
-              xl:tw-mt-52
-              tw-pl-0
-              2xl:tw-pl-16
-              lg:tw-pl-10
-            "
+            class="tw-w-full lg:tw-w-3/12 tw-mt-20 lg:tw-mt-40 xl:tw-mt-52 tw-pl-0 2xl:tw-pl-16 lg:tw-pl-10"
           >
-            <div class="tw-text-lg lg:tw-text-xl tw-mb-5">Related Products</div>
             <div
-              class="
-                tw-w-full tw-grid tw-grid-cols-1
-                sm:tw-grid-cols-3
-                lg:tw-grid-cols-1
-                tw-gap-4
-                lg:tw-gap-8
-              "
+              v-show="relatedProducts.length"
+              class="tw-text-lg lg:tw-text-xl tw-mb-5"
+            >
+              Related Products
+            </div>
+            <div
+              class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-4 lg:tw-gap-8"
             >
               <div
                 v-for="(item, i) in relatedProducts"
                 :key="i"
-                class="
-                  tw-flex
-                  sm:tw-flex-col
-                  2xl:tw-flex-row
-                  bg-light
-                  tw-cursor-pointer
-                  hover:tw-bg-white hover:tw-shadow-xl
-                  tw-p-5
-                "
-                @click.prevent="routerToProduct(item[0].category, item[0].id)"
+                class="tw-flex sm:tw-flex-col 2xl:tw-flex-row bg-light tw-cursor-pointer hover:tw-bg-white hover:tw-shadow-xl tw-p-5"
+                @click.prevent="routerToProduct(item.category, item.id)"
               >
                 <div
                   class="tw-flex-none tw-flex tw-items-center tw-justify-center"
                 >
                   <img
-                    :src="require('~/assets/duotone/' + item[0].icon)"
+                    :src="require('~/assets/duotone/' + item.icon)"
                     alt=""
-                    class="
-                      tw-mb-3
-                      2xl:tw-mb-3
-                      tw-mr-5
-                      sm:tw-mr-0
-                      2xl:tw-mr-5
-                      tw-w-16
-                    "
+                    class="tw-mb-3 2xl:tw-mb-3 tw-mr-5 sm:tw-mr-0 2xl:tw-mr-5 tw-w-16"
                   />
                 </div>
                 <div
-                  class="
-                    tw-flex-auto tw-text-left
-                    sm:tw-text-center
-                    2xl:tw-text-left
-                  "
+                  class="tw-flex-auto tw-text-left sm:tw-text-center 2xl:tw-text-left"
                 >
                   <div class="tw-text-base lg:tw-text-lg tw-font-semibold">
-                    {{ item[0].title }}
+                    {{ item.title }}
                   </div>
                   <div class="tw-opacity-70 tw-text-sm lg:tw-text-base">
-                    {{ item[0].subtitle }}
+                    {{ item.subtitle }}
                   </div>
                 </div>
               </div>
@@ -340,14 +258,29 @@ export default {
       const resultArr = []
       if (arr) {
         arr.filter((tag) => {
-          const result = Products.filter((res) => res.id === tag.name)
+          const result = Products.filter((res) => res.tag === tag.name)
           if (result.length > 0) {
             resultArr.push(result)
           }
           return 1
         })
       }
-      return resultArr
+      const finalArr = resultArr.flat()
+
+      finalArr.sort((a, b) => {
+        return a.order - b.order
+      })
+
+      // Check special tag
+      if (this.article.special) {
+        const special = Products.find((res) => res.id === this.article.special)
+        finalArr.unshift(special)
+
+        const speciarArr = [...new Set(finalArr)]
+        return speciarArr.slice(0, 5)
+      } else {
+        return finalArr.slice(0, 5)
+      }
     },
   },
   mounted() {

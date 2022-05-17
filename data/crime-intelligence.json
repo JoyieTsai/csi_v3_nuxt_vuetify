@@ -1,6 +1,7 @@
 [
   {
     "id": "investigation",
+    "tag": "epro",
     "title": "Investigation",
     "subtitle": "Manage Investigative Case Data, Documents, and Evidence",
     "icon": "investigation.svg",
@@ -167,6 +168,7 @@
   },
   {
     "id": "intelligence",
+    "tag": "intelligence",
     "title": "Intelligence",
     "subtitle": "Manage Intelligence Data in a 28 CFR Part 23 Database",
     "icon": "intelligence.svg",
@@ -291,6 +293,7 @@
   },
   {
     "id": "sar",
+    "tag": "intelligence",
     "title": "Suspicious Activity Reporting",
     "subtitle": "Reporting Function of the SAR Initiative",
     "icon": "sars.svg",
@@ -369,6 +372,7 @@
   },
   {
     "id": "fusion-center",
+    "tag": "intelligence",
     "title": "Fusion Center (iLog)",
     "subtitle": "Comprehensive Toolkit for Information Sharing and Intelligence",
     "icon": "fusion_center.svg",
@@ -483,6 +487,7 @@
   },
   {
     "id": "analytics",
+    "tag": "intelligence",
     "title": "Analytics",
     "subtitle": "Meaningful Insight and Actionable Intelligence",
     "icon": "analytics.svg",
@@ -563,6 +568,7 @@
   },
   {
     "id": "alpr",
+    "tag": "intelligence",
     "title": "Automated License Plate Reader",
     "subtitle": "Real-Time Crime and Historical Investigations",
     "icon": "alpr.svg",
@@ -650,6 +656,7 @@
   },
   {
     "id": "global-search",
+    "tag": "intelligence",
     "title": "Global Search Broker",
     "subtitle": "Power-Packed Search Engine with Advanced Features",
     "icon": "global_search.svg",
@@ -735,6 +742,7 @@
   },
   {
     "id": "major-incident-management",
+    "tag": "intelligence",
     "title": "Major Incident Management",
     "subtitle": "Inter-Agency Collaboration for Complex Investigations",
     "icon": "mim.svg",
@@ -824,6 +832,7 @@
   },
   {
     "id": "csi",
+    "tag": "epro",
     "title": "Crime Scene Investigation",
     "subtitle": "Rolmes™ Revolutionizes Crime Scene Investigations",
     "icon": "rolmes.svg",

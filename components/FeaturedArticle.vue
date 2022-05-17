@@ -3,29 +3,13 @@
   <div class="main-container tw-mx-auto">
     <div class="2xl:tw-mx-20 tw-relative">
       <div
-        class="
-          header-2
-          tw-w-full
-          lg:tw-w-72 lg:tw-ml-24
-          xl:tw-ml-52
-          2xl:tw-ml-60
-          tw-text-center
-          lg:tw-text-right
-        "
+        class="header-2 tw-w-full lg:tw-w-72 lg:tw-ml-24 xl:tw-ml-52 2xl:tw-ml-60 tw-text-center lg:tw-text-right"
       >
         Featured Article
       </div>
       <!-- Story -->
       <div
-        class="
-          tw-relative
-          lg:tw-absolute
-          tw-shadow-lg tw-w-full
-          lg:tw-w-7/12
-          tw-right-0 tw-top-0 tw-z-0
-          bg-primary
-          tw-cursor-pointer
-        "
+        class="tw-relative lg:tw-absolute tw-shadow-lg tw-w-full lg:tw-w-7/12 tw-right-0 tw-top-0 tw-z-0 bg-primary tw-cursor-pointer"
         data-aos="fade-left"
         data-aos-duration="1500"
         data-aos-once="true"
@@ -35,15 +19,7 @@
           <img :src="'images/news/' + getLatestArticles.cover" alt="" />
         </div>
         <div
-          class="
-            tw-pl-4 tw-pr-4
-            lg:tw-pl-20
-            tw-pt-3 tw-pb-4 tw-font-semibold tw-text-sm
-            md:tw-text-lg
-            lg:tw-text-xl
-            xl:tw-text-2xl
-            tw-text-white
-          "
+          class="tw-pl-4 tw-pr-4 lg:tw-pl-20 tw-pt-3 tw-pb-4 tw-font-semibold tw-text-sm md:tw-text-lg lg:tw-text-xl xl:tw-text-2xl tw-text-white"
         >
           {{ getLatestArticles.title }}
         </div>
@@ -58,23 +34,12 @@
         <div class="xl:tw-mx-5">
           <div v-for="(item, i) in getLatestArticles.testimonials" :key="i">
             <div
-              class="
-                tw-text-sm
-                md:tw-text-base
-                xl:tw-text-lg
-                tw-opacity-70 tw-mt-5
-                lg:tw-mt-0
-              "
+              class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70 tw-mt-5 lg:tw-mt-0"
             >
               {{ item.body }}
             </div>
             <div
-              class="
-                tw-text-sm
-                md:tw-text-base
-                lg:tw-text-lg
-                tw-font-semibold tw-mt-5
-              "
+              class="tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
             >
               {{ item.name }}
             </div>
@@ -97,15 +62,9 @@ export default {
   computed: {
     ...mapState(['articleList']),
     getLatestArticles() {
-      if (this.articleList.length > 0) {
-        const filtered = this.articleList.filter((art) => art.type === 'story') // Get all story articles
-        const finalArr = []
-        filtered.forEach((element) => {
-          if (element.testimonials) {
-            finalArr.push(element)
-          }
-        }) // Filtered has testimonial story
-        return finalArr[0]
+      if (this.articleList) {
+        const filtered = this.articleList.find((art) => art.rating === 0) // Get the latest story
+        return filtered
       }
       return 0
     },

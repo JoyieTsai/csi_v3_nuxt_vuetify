@@ -1,6 +1,7 @@
 [
   {
     "id": "cad",
+    "tag": "cad",
     "name": "CAD",
     "title": "Computer Aided Dispatch (CAD)",
     "subtitle": "Advanced Public Safety Communication and Response",
@@ -205,6 +206,7 @@
   },
   {
     "id": "rms",
+    "tag": "rms",
     "name": "RMS",
     "title": "Law Enforcement Records Management (RMS)",
     "subtitle": "Revolutionize Public Safety Data Collection, Management, and Reporting",
@@ -491,6 +493,7 @@
   },
   {
     "id": "fire-ems",
+    "tag": "fire-ems",
     "name": "Fire & EMS",
     "title": "Fire & EMS",
     "subtitle": "Integrated Fire & EMS Solutions in a Single Platform",
@@ -685,6 +688,7 @@
   },
   {
     "id": "mobile-operations",
+    "tag": "cad",
     "title": "Mobile Operations",
     "subtitle": "Real-time Situational Awareness for Public Safety",
     "icon": "mobile_operations.svg",
@@ -774,6 +778,7 @@
   },
   {
     "id": "citation-management",
+    "tag": "rms",
     "title": "Citation Management",
     "subtitle": "Modern Ticketing Process in an Integrated Public Safety System",
     "icon": "eticket.svg",
@@ -853,6 +858,7 @@
   },
   {
     "id": "evidence",
+    "tag": "rms",
     "title": "Evidence",
     "subtitle": "Comprehensive Evidence Management across Cases and Agencies",
     "icon": "evidence.svg",
@@ -952,6 +958,7 @@
   },
   {
     "id": "personnel-scheduling",
+    "tag": "rms",
     "title": "Personnel & Scheduling",
     "subtitle": "Comprehensive Paperless Solution to Streamline HR Functions",
     "icon": "personnel.svg",
@@ -1080,6 +1087,7 @@
   },
   {
     "id": "internal-affairs",
+    "tag": "rms",
     "title": "Professional Standards & Internal Affairs",
     "subtitle": "Case Management for Allegations of Employee Misconduct",
     "icon": "internal_affairs.svg",

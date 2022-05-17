@@ -1,6 +1,7 @@
 [
   {
     "id": "county-prosecution",
+    "tag": "epro",
     "title": "County Prosecution",
     "subtitle": "Web-based Prosecutor Case and Document Management",
     "icon": "prosecution.svg",
@@ -646,6 +647,7 @@
   },
   {
     "id": "attorney-general",
+    "tag": "state",
     "title": "Attorney General",
     "subtitle": "coming soon...",
     "icon": "attorney_general.svg",
@@ -686,6 +688,7 @@
   },
   {
     "id": "courts",
+    "tag": "state",
     "title": "Courts",
     "subtitle": "Complete Case and Document Management Solution",
     "icon": "court.svg",
@@ -799,6 +802,7 @@
   },
   {
     "id": "courts-efiling",
+    "tag": "state",
     "title": "Courts eFiling",
     "subtitle": "Secure Portal for Electronic Case and Payment Handling",
     "icon": "efiling.svg",
@@ -873,6 +877,7 @@
   },
   {
     "id": "public-defender",
+    "tag": "state",
     "title": "Public Defender",
     "subtitle": "coming soon...",
     "icon": "public_defender.svg",
@@ -913,6 +918,7 @@
   },
   {
     "id": "attorney-ethics",
+    "tag": "state",
     "title": "Attorney Ethics",
     "subtitle": "Enforcing Good Attorney Standards",
     "icon": "attorney_ethics.svg",
@@ -1002,6 +1008,7 @@
   },
   {
     "id": "municipal-attorney",
+    "tag": "municipal",
     "title": "Municipal Attorney",
     "subtitle": "coming soon...",
     "icon": "justice_court.svg",
@@ -1042,6 +1049,7 @@
   },
   {
     "id": "ediscovery-with-portal",
+    "tag": "epro",
     "title": "eDiscovery with Portal",
     "subtitle": "Efficient Preparation and Delivery of Discovery Files",
     "icon": "ediscovery.svg",
@@ -1114,6 +1122,7 @@
   },
   {
     "id": "vw-portal",
+    "tag": "vw",
     "title": "Victim Witness Suite with Portal",
     "subtitle": "Full Service Suite for Victim Advocates and Crime Victims",
     "icon": "vw.svg",
@@ -1226,6 +1235,7 @@
   },
   {
     "id": "interview-recording",
+    "tag": "epro",
     "title": "Interview Recording",
     "subtitle": "Integrated Interview Room A/V Recording Software",
     "icon": "info_recording.svg",
@@ -1303,6 +1313,7 @@
   },
   {
     "id": "online-transcription-service",
+    "tag": "epro",
     "title": "Online Transcription Service",
     "subtitle": "Transcription with Minimal Effort and Complete Integration",
     "icon": "online_trans.svg",

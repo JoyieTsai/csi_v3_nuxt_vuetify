@@ -48,7 +48,7 @@
       <Partnerships v-if="id === 'fire-ems'" class="tw-my-12 xl:tw-my-28" />
       <RelatedProducts :data="relatedProducts" />
       <TheTeam :pid="id" :quote="quote" class="tw-my-12 xl:tw-my-28" />
-      <RelatedNews :pid="id" class="tw-my-12 xl:tw-my-28" />
+      <RelatedNews :tag="tag" class="tw-my-12 xl:tw-my-28" />
       <Contact />
     </v-main>
   </v-app>
@@ -62,6 +62,7 @@ export default {
     btnGroup: true,
     category: 'public-safety',
     id: String,
+    tag: String,
     name: String,
     title: String,
     subtitle: String,
@@ -126,6 +127,7 @@ export default {
       for (let i = 0; i < Products.length; i++) {
         if (id && id === Products[i].id) {
           this.id = Products[i].id
+          this.tag = Products[i].tag
           this.name = Products[i].name
           this.title = Products[i].title
           this.subtitle = Products[i].subtitle

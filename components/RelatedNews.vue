@@ -7,14 +7,7 @@
       Related Articles
     </div>
     <div
-      class="
-        tw-grid tw-gap-4
-        md:tw-gap-8
-        tw-grid-cols-2
-        xl:tw-grid-cols-4
-        tw-mt-8
-        xl:tw-mt-16
-      "
+      class="tw-grid tw-gap-4 md:tw-gap-8 tw-grid-cols-2 xl:tw-grid-cols-4 tw-mt-8 xl:tw-mt-16"
     >
       <div
         v-for="(article, i) in getRelatedNews"
@@ -25,15 +18,7 @@
         <v-img
           aspect-ratio="2"
           :src="'images/news/' + article.cover"
-          class="
-            tw-shadow-md
-            tw-mb-2
-            tw-transition
-            tw-duration-500
-            tw-ease-in-out
-            tw-transform
-            hover:tw-scale-105
-          "
+          class="tw-shadow-md tw-mb-2 tw-transition tw-duration-500 tw-ease-in-out tw-transform hover:tw-scale-105"
         ></v-img>
         <div
           v-if="article.type === 'story'"
@@ -60,7 +45,7 @@
 import { mapState } from 'vuex'
 
 export default {
-  props: ['title', 'pid', 'aid'],
+  props: ['title', 'tag', 'aid'],
   data: () => ({}),
   computed: {
     ...mapState(['articleList', 'tags', 'currentArticle']),
@@ -68,79 +53,79 @@ export default {
       return this.currentArticle
     },
     getRelatedNews() {
-      const arr = this.article.tags
+      const arr = this.article.tags // Get current article's tags
       const resultArr = []
-      const latestNews = this.articleList.filter(
-        (item) => item.id !== this.article.id
-      )
+      const allNews = this.articleList // All article
+      const allNewsNoRating0 = this.articleList.filter(
+        (item) => item.rating !== 0
+      ) // Remove rating is 0's article
 
-      if (this.pid) {
-        // sort by a product
-        const filtered = this.articleList.filter((art) => art.tags)
+      const sortedNews = allNewsNoRating0.sort((a, b) => {
+        return a.rating - b.rating
+      })
+
+      // sort by a product, tag is from the product
+      if (this.tag) {
+        const filtered = allNews.filter((art) => art.tags)
+
         filtered.forEach((item) => {
           item.tags.forEach((res) => {
-            if (res.name === this.pid) {
+            if (res.name === this.tag) {
               resultArr.push(item)
             }
           })
         })
-
         const finalArr = [...new Set(resultArr)]
 
         finalArr.sort((a, b) => {
-          if (a.rating === b.rating) {
-            if (new Date(a.date) > new Date(b.date)) {
-              return 1
-            }
-            return 0
-          } else if (a.rating > b.rating) {
-            return 1
-          } else {
-            return 0
-          }
+          return a.rating - b.rating
         })
 
-        if (!finalArr.length) {
-          return latestNews.slice(0, 4)
+        if (finalArr.length >= 4) {
+          return finalArr.slice(0, 4)
+        } else {
+          return finalArr.concat(sortedNews.slice(0, 4 - finalArr.length))
         }
-        return finalArr.slice(0, 4)
       } else if (this.aid) {
         // sort by a article
-        const filtered = this.articleList.filter((art) => art.tags)
-        arr.forEach((tag) => {
-          filtered.forEach((item) => {
-            if (item.id !== this.article.id) {
-              item.tags.forEach((res) => {
-                if (res.name === tag.name) {
-                  resultArr.push(item)
-                }
-              })
-            }
+        const filtered = allNews.filter((art) => art.tags) // get all articles with tags
+        const filteredDupliicate = filtered.filter(
+          (item) => item.id !== this.article.id
+        ) // remove duplicate article
+
+        if (arr) {
+          // If have tags
+          arr.forEach((tag) => {
+            filteredDupliicate.forEach((item) => {
+              if (item.id !== this.article.id) {
+                item.tags.forEach((res) => {
+                  if (res.name === tag.name) {
+                    resultArr.push(item)
+                  }
+                })
+              }
+            })
           })
-        })
+          const finalArr = [...new Set(resultArr)]
 
-        const finalArr = [...new Set(resultArr)]
+          finalArr.sort((a, b) => {
+            return a.rating - b.rating
+          })
 
-        finalArr.sort((a, b) => {
-          if (a.rating === b.rating) {
-            if (new Date(a.date) > new Date(b.date)) {
-              return 1
-            }
-            return 0
-          } else if (a.rating > b.rating) {
-            return 1
+          if (finalArr.length >= 4) {
+            return finalArr.slice(0, 4)
           } else {
-            return 0
+            const mixArr = [...new Set(finalArr.concat(sortedNews))]
+            console.log(mixArr)
+            return mixArr.slice(0, 4)
           }
-        })
-
-        if (finalArr.length <= 1) {
-          return latestNews.slice(0, 4)
+        } else {
+          // No tags, show the latest articles without rating 0
+          return sortedNews.slice(0, 4)
         }
-        return finalArr.slice(0, 4)
       } else {
-        // sort by latest
-        return latestNews.slice(0, 4)
+        // sort by rating and date but no rating 0's article
+        return sortedNews.slice(0, 4)
       }
     },
   },

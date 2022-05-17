@@ -702,6 +702,7 @@
   },
   {
     "id": "low-code",
+    "tag": "low-code",
     "title": "Low Code Development",
     "subtitle": "Proprietary Low-Code Technology to Facilitate Application Development",
     "icon": "lowcode.svg",
