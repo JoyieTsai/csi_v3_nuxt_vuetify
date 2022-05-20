@@ -2,6 +2,7 @@ import axios from 'axios'
 
 export const state = () => ({
   articleList: [],
+  jobList: [],
   publicSafetyList: [],
   justiceCourtList: [],
   crimeIntelligenceList: [],
@@ -27,6 +28,9 @@ export const mutations = {
   },
   setCurrentPage(state, payload) {
     state.currentPage = payload
+  },
+  setJobs(state, payload) {
+    state.jobList = payload
   },
   setPublicSafety(state, payload) {
     state.publicSafetyList = payload
@@ -62,6 +66,10 @@ export const actions = {
     const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')
     const payload = api.data.filter((res) => res.id === id)
     commit('setCurrentArticle', payload[0])
+  },
+  async getJobs({ commit }) {
+    const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json')
+    commit('setJobs', payload)
   },
   async getPublicSafety({ commit }) {
     const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json')

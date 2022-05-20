@@ -17,18 +17,12 @@
           </div>
         </div>
       </div>
-
       <div class="main-container tw-mx-auto tw-mt-10 xl:tw-mt-20">
         <div class="tw-grid tw-gap-5 lg:tw-gap-10">
           <nuxt-link
-            v-for="(data, i) in datas"
+            v-for="(data, i) in getJobs"
             :key="i"
-            class="
-              tw-flex tw-flex-col
-              md:tw-flex-row
-              tw-justify-between tw-text-white tw-p-4
-              bg-primary
-            "
+            class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-text-white tw-p-4 bg-primary"
             :to="'job?id=' + data.id"
           >
             <div class="lg:tw-text-xl xl:tw-text-2xl tw-font-semibold">
@@ -67,7 +61,7 @@
 </template>
 
 <script>
-import Jobs from '../data/jobs.json'
+import { mapState } from 'vuex'
 
 export default {
   data: () => ({
@@ -78,7 +72,6 @@ export default {
     coverimg: 'careers.jpg',
     fileList: [],
     uploading: false,
-    datas: Jobs,
     files: [],
   }),
   head() {
@@ -87,7 +80,15 @@ export default {
       meta: [{ name: 'description', content: this.title }],
     }
   },
+
   computed: {
+    ...mapState(['jobList']),
+    getJobs() {
+      if (this.jobList) {
+        return this.jobList.data
+      }
+      return 0
+    },
     tabPosition() {
       const screen = document.body.clientWidth
       if (screen <= 768) {
@@ -96,6 +97,9 @@ export default {
         return 'left'
       }
     },
+  },
+  mounted() {
+    this.$store.dispatch('getJobs')
   },
 }
 </script>

@@ -55,12 +55,15 @@ export default {
     getRelatedNews() {
       const arr = this.article.tags // Get current article's tags
       const resultArr = []
-      const allNews = this.articleList // All article
+      const allNews = this.articleList.filter((art) => art.rating >= 0) // All article
+      const sortedNews = allNews.sort((a, b) => {
+        return a.rating - b.rating
+      })
+
       const allNewsNoRating0 = this.articleList.filter(
         (item) => item.rating !== 0
-      ) // Remove rating is 0's article
-
-      const sortedNews = allNewsNoRating0.sort((a, b) => {
+      )
+      const sortedNewsNoRating0 = allNewsNoRating0.sort((a, b) => {
         return a.rating - b.rating
       })
 
@@ -116,7 +119,6 @@ export default {
             return finalArr.slice(0, 4)
           } else {
             const mixArr = [...new Set(finalArr.concat(sortedNews))]
-            console.log(mixArr)
             return mixArr.slice(0, 4)
           }
         } else {
@@ -125,7 +127,7 @@ export default {
         }
       } else {
         // sort by rating and date but no rating 0's article
-        return sortedNews.slice(0, 4)
+        return sortedNewsNoRating0.slice(0, 4)
       }
     },
   },

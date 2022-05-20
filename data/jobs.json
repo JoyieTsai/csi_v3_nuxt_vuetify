@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": 0,
         "position": "Software Engineer",
         "location": "Keasbey, NJ",
         "functions": [
@@ -39,6 +39,49 @@
                 "content": [
                     "Bachelor or MS’s degree in MIS or Computer Science preferred.",
                     "Experience with Cloud environments."
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "position": "Network Engineer",
+        "location": "Keasbey, NJ",
+        "functions": [
+            {
+                "title": "Objectives",
+                "content": [
+                    "Seeking Network Engineer to support in-house development and client site troubleshooting in Microsoft Windows Server and Cloud environments."
+                ]
+            },
+            {
+                "title": "Responsibilities",
+                "content": [
+                    "Day to Day Maintenance of a Windows AD Infrastructure and Microsoft Windows Server Platform.",
+                    "Establishes networking environment by designing system configuration; directing system installation; defining, documenting, and enforcing system standards.",
+                    "Design and configure AWS and Azure cloud environment and services to deliver resilient and reliable application infrastructure service to customers.",
+                    "Maximizes network performance by monitoring performance; troubleshooting network problems and outages; scheduling upgrades; collaborating with network architects on network optimization.",
+                    "Sets and supports Virtualization environments.",
+                    "Sets and supports Microsoft SQL Server environments.",
+                    "Plans and implements of database maintenance and recurring tasks with the SQL Scheduling service.",
+                    "Performs client consultation: plan, design, documents, implement, and support LAN/WAN networks.",
+                    "Plans and implements network security, including maintaining firewalls, developing VPN, remote solutions and maintaining company security policies.",
+                    "Troubleshoot, maintain, upgrade, and provide solutions to complex hardware/software problems."
+                ]
+            },
+            {
+                "title": "Qualifications",
+                "content": [
+                    "Must be familiar with Windows Server environment, SQL Server, High Performance Cluster, TCP/IP networking desired and Virtualization environment.",
+                    "2+ years of hands-on experience with server applications in a Microsoft networked environment and high level of Active Directory Management.",
+                    "Familiar with AWS and Azure cloud services and infrastructures.",
+                    "Expertise in the following areas: MS Windows Server, MS SQL Server, Recovery TCP/IP networking, LAN/WAN, Routing and Switching.",
+                    "Excellent knowledge of server hardware and strong problem-solving skills. ",
+                    "Expertise with Data Backup and Disaster Recovery plan.",
+                    "Solid programming and scripting abilities.",
+                    "Project management and documentation skills.",
+                    "High level of initiative and dedication.",
+                    "Bachelor’s degree in computer science, Engineering, Mathematics or a related discipline."
                 ]
             }
         ]

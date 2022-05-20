@@ -18,24 +18,14 @@
             ></v-img>
           </div>
           <div
-            class="
-              tw-text-lg
-              md:tw-text-xl
-              lg:tw-text-2xl
-              tw-text-white tw-px-2
-              md:tw-px-7
-              tw-py-2
-            "
+            class="tw-text-lg md:tw-text-xl lg:tw-text-2xl tw-text-white tw-px-2 md:tw-px-7 tw-py-2"
           >
             {{ getLatestArticles.title }}
           </div>
         </div>
 
         <div
-          class="
-            tw-relative tw-shadow-lg tw-bg-white tw-w-full tw-p-6
-            md:tw-p-10
-          "
+          class="tw-relative tw-shadow-lg tw-bg-white tw-w-full tw-p-6 md:tw-p-10"
         >
           <div class="tw-mb-4">
             <img :src="require('~/assets/icons/icon-quotes.svg')" alt="" />
@@ -59,15 +49,7 @@
 
       <!-- Related news -->
       <div
-        class="
-          tw-grid
-          md:tw-grid-cols-3
-          xl:tw-grid-cols-1
-          tw-gap-8 tw-pt-10
-          xl:tw-pt-0
-          tw-mx-5
-          xl:tw-mx-0
-        "
+        class="tw-grid md:tw-grid-cols-3 xl:tw-grid-cols-1 tw-gap-8 tw-pt-10 xl:tw-pt-0 tw-mx-5 xl:tw-mx-0"
       >
         <div
           v-for="(art, i) in articles"
@@ -95,19 +77,19 @@ export default {
   computed: {
     ...mapState(['articleList', 'tags', 'currentArticle']),
     articles() {
-      return this.articleList.slice(0, 3)
+      const allNewsNoRating0 = this.articleList.filter(
+        (item) => item.rating !== 0
+      ) // Remove rating is 0's article
+
+      const sortedNews = allNewsNoRating0.sort((a, b) => {
+        return a.rating - b.rating
+      })
+      return sortedNews.slice(0, 3)
     },
     getLatestArticles() {
-      if (this.articleList.length > 0) {
-        const filtered = this.articleList.filter((art) => art.type === 'story') // Get all story articles
-        const finalArr = []
-        filtered.forEach((element) => {
-          if (element.testimonials) {
-            finalArr.push(element)
-          }
-          return 0
-        }) // Filtered has testimonial story
-        return finalArr[0]
+      if (this.articleList) {
+        const filtered = this.articleList.find((art) => art.rating === 0) // Get the latest story
+        return filtered
       }
       return 0
     },

@@ -26,32 +26,18 @@
           :vertical="$vuetify.breakpoint.xsOnly ? false : true"
         >
           <v-tab
-            v-for="(data, i) in datas"
+            v-for="(data, i) in getJobs"
             :key="i"
-            class="
-              tw-justify-start
-              tw-text-xl
-              tw-capitalize
-              tw-tracking-normal
-              tw-break-word
-              tw-whitespace-normal
-              tw-my-2
-              tw-text-left
-            "
+            class="tw-justify-start tw-text-xl tw-capitalize tw-tracking-normal tw-break-word tw-whitespace-normal tw-my-2 tw-text-left"
           >
             {{ data.position }}
           </v-tab>
           <v-tabs-items v-model="tabIndex">
-            <v-tab-item v-for="(data, j) in datas" :key="j">
+            <v-tab-item v-for="(data, j) in getJobs" :key="j">
               <v-card flat>
                 <v-card-text class="md:tw-pl-10">
                   <div
-                    class="
-                      header-5
-                      tw-font-semibold tw-mt-10
-                      md:tw-mt-0
-                      tw-mb-10
-                    "
+                    class="header-5 tw-font-semibold tw-mt-10 md:tw-mt-0 tw-mb-10"
                   >
                     Work Location: {{ data.location }}
                   </div>
@@ -62,8 +48,8 @@
 
                     <ul class="tw-list-disc tw-mb-10 tw-text-lg tw-pl-10">
                       <li
-                        v-for="(item, j) in func.content"
-                        :key="j"
+                        v-for="(item, k) in func.content"
+                        :key="k"
                         class="tw-text-base lg:tw-text-lg opacity-1 tw-my-2"
                       >
                         <span v-html="item"></span>
@@ -100,15 +86,9 @@
 </template>
 
 <script>
-import axios from 'axios'
+import { mapState } from 'vuex'
 
 export default {
-  async asyncData({ params }) {
-    const jobs = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json'
-    )
-    return { jobs }
-  },
   data: () => ({
     tabIndex: null,
     category: 'page',
@@ -116,7 +96,6 @@ export default {
     coverimg: 'job.jpg',
     fileList: [],
     uploading: false,
-    datas: [],
     files: [],
   }),
   head() {
@@ -126,6 +105,13 @@ export default {
     }
   },
   computed: {
+    ...mapState(['jobList']),
+    getJobs() {
+      if (this.jobList) {
+        return this.jobList.data
+      }
+      return 0
+    },
     tabPosition() {
       const screen = document.body.clientWidth
       if (screen <= 768) {
@@ -135,9 +121,11 @@ export default {
       }
     },
   },
+  mounted() {
+    this.$store.dispatch('getJobs')
+  },
   created() {
     this.checkTabIndex(this.$route.query.id)
-    this.datas = this.jobs.data
   },
   methods: {
     checkTabIndex(id) {
