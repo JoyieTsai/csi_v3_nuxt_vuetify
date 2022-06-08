@@ -23,7 +23,7 @@
             v-for="(data, i) in getJobs"
             :key="i"
             class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-text-white tw-p-4 bg-primary"
-            :to="'job?id=' + data.id"
+            :to="'/job?id=' + data.id"
           >
             <div class="lg:tw-text-xl xl:tw-text-2xl tw-font-semibold">
               {{ data.position }}
