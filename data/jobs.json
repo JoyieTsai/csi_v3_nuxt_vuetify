@@ -88,41 +88,6 @@
     },
     {
         "id": 2,
-        "position": "Data Analyst (Entry Level)",
-        "location": "Keasbey, NJ",
-        "functions": [
-            {
-                "title": "Objectives",
-                "content": [
-                    "Understand company and client challenges and how integrating Low-Code Development Platform capabilities can help create solutions.",
-                    "Assist cross-functional teams to identify and prioritize key areas of the partner’s business where A Low-Code Development Platform and Big Data solutions can drive significant business benefit.",
-                    "Analyze and explain Low-Code Development Platform and Big Data solutions while setting and maintaining high ethical standards."
-                ]
-            },
-            {
-                "title": "Responsibilities",
-                "content": [
-                    "Work on functional design, process design (including scenario design, flow mapping), prototyping, testing, training, and defining support.",
-                    "procedures, working with an advanced engineering team and executive leadership.",
-                    "Document and articulate solution architecture and lessons learned for each exploration and accelerated incubation.",
-                    "Customize and manage integration tools, databases, and analytical systems.",
-                    "Manage and structure data.",
-                    "Serve as liaison between management and project teams, delivering feedback and enabling them to make necessary changes to product performance or presentation."
-                ]
-            },
-            {
-                "title": "Required Skills and Qualifications",
-                "content": [
-                    "Solid skill on MS SQL.",
-                    "Strong interests in project management skills.",
-                    "Good communication skills.",
-                    "Fast Learner who can easily absorb new information and apply it to work."
-                ]
-            }
-        ]
-    },
-    {
-        "id": 3,
         "position": "Assistant Network Engineer (Entry Level)",
         "location": "Keasbey, NJ",
         "functions": [

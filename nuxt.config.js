@@ -50,7 +50,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'CSI-V2.3-05202022',
+    dir: 'CSI-V2.5-06272022',
     routes: dynamicRoutes,
   },
 
@@ -145,7 +145,8 @@ export default {
     { src: "@/plugins/aos", ssr: false },
     { src: '~/plugins/vue-zoom-on-hover.js', ssr: false },
     { src: '~/plugins/vue-swiper.js', ssr: false },
-    { src: "~plugins/ga.js", mode: "client" }
+    // { src: "~plugins/ga.js", mode: "client" },
+    { src: "~plugins/gtag.js", mode: "client" }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

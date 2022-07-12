@@ -19,7 +19,7 @@
               alt="back"
               class="tw-mr-3 tw-w-5"
             />
-            <div class="tw-text-lg xl:tw-text-xl">All</div>
+            <div class="tw-text-lg xl:tw-text-xl">Back</div>
           </div>
         </div>
       </div>
@@ -61,7 +61,7 @@
                 <div class="tw-flex tw-justify-between">
                   <div class="tips">
                     <div class="tw-flex tw-flex-wrap tw-opacity-70">
-                      <div class="mr-3">Tags:</div>
+                      <div class="tw-mr-3">Tags:</div>
                       <div
                         class="tw-bg-gray-200 tw-px-3 tw-py-1 tw-mb-2 tw-uppercase tw-mr-2 tw-rounded tw-text-xs sm:tw-text-sm"
                       >
@@ -389,7 +389,7 @@ export default {
     background: url('../../assets/vectors/testimonial-bg.svg');
     background-size: cover;
     color: white;
-    margin: 2em 0 3em;
+    margin: 3em 0 3em;
     padding: 3em 3em 2em;
     quotes: '\201C''\201D';
     font-size: 1em;

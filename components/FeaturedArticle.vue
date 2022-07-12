@@ -26,29 +26,41 @@
       </div>
       <!-- Testimonial -->
       <div
-        class="tw-relative tw-shadow-lg tw-bg-white w-quotes tw-p-10 tw-z-10"
+        class="tw-relative tw-shadow-lg tw-bg-white w-quotes tw-px-5 lg:tw-px-10 tw-pt-10 tw-pb-5 tw-z-10"
         data-aos="fade-right"
         data-aos-duration="1500"
         data-aos-once="true"
       >
-        <div class="xl:tw-mx-5">
-          <div v-for="(item, i) in getLatestArticles.testimonials" :key="i">
-            <div
-              class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70 tw-mt-5 lg:tw-mt-0"
-            >
-              {{ item.body }}
+        <carousel
+          loop
+          :per-page="perPage"
+          pagination-enabled
+          :navigate-to="currentIndex"
+          pagination-active-color="#0d63ba"
+        >
+          <slide
+            v-for="(item, i) in getLatestArticles.testimonials"
+            :key="i"
+            class="tw-self-center"
+          >
+            <div class="tw-flex tw-flex-col tw-self-center md:tw-mx-5">
+              <div
+                class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70 tw-mt-5 lg:tw-mt-0"
+              >
+                {{ item.body }}
+              </div>
+              <div
+                class="tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
+              >
+                {{ item.name }}
+              </div>
+              <div
+                class="tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+                v-html="item.agency"
+              ></div>
             </div>
-            <div
-              class="tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
-            >
-              {{ item.name }}
-            </div>
-            <div
-              class="tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
-              v-html="item.agency"
-            ></div>
-          </div>
-        </div>
+          </slide>
+        </carousel>
       </div>
     </div>
   </div>
@@ -56,9 +68,20 @@
 
 <script>
 import { mapState } from 'vuex'
+import { Carousel, Slide } from 'vue-carousel'
 
 export default {
-  data: () => ({}),
+  components: {
+    Carousel,
+    Slide,
+  },
+  data: () => ({
+    currentIndex: 0,
+    perPage: 1,
+    paginationEnabled: false,
+    nextLabel: "<img src='images/chevron-right.svg' />",
+    prevLabel: "<img src='images/chevron-left.svg' />",
+  }),
   computed: {
     ...mapState(['articleList']),
     getLatestArticles() {

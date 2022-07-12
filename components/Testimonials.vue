@@ -14,21 +14,16 @@
             {{ item.author }}
           </div>
           <div
-            class="
-              tw-text-xs
-              lg:tw-text-lg
-              xl:tw-text-xl
-              tw-opacity-60 tw-relative tw-z-10
-            "
+            class="tw-text-xs lg:tw-text-lg xl:tw-text-xl tw-opacity-60 tw-relative tw-z-10"
             v-html="item.agency"
           ></div>
         </div>
       </swiper-slide>
       <div slot="pagination" class="swiper-pagination"></div>
-      <div class="swiper-button-prev" slot="button-prev">
+      <div slot="button-prev" class="swiper-button-prev">
         <i class="el-icon-caret-left"></i>
       </div>
-      <div class="swiper-button-next" slot="button-next">
+      <div slot="button-next" class="swiper-button-next">
         <i class="el-icon-caret-right"></i>
       </div>
     </swiper>
@@ -36,11 +31,11 @@
 </template>
 
 <script>
-import Testimonials from '~/data/testimonials.json'
+import axios from 'axios'
 
 export default {
   data: () => ({
-    testimonials: Testimonials,
+    testimonials: Object,
     swiperOption: {
       slidesPerView: 1,
       spaceBetween: 20,
@@ -57,6 +52,17 @@ export default {
       },
     },
   }),
+  mounted() {
+    this.fetchData()
+  },
+  methods: {
+    async fetchData() {
+      const tms = await axios.get(
+        'https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json'
+      )
+      this.testimonials = tms.data
+    },
+  },
 }
 </script>
 
