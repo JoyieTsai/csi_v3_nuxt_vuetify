@@ -1,5 +1,9 @@
 import Vue from 'vue';
 import VueGtag from 'vue-gtag';
-Vue.use(VueGtag, {
-    config: { id: 'UA-148357857-1' }
-});
+
+export default ({ app }) => {
+    Vue.use(VueGtag, {
+      config: { id: 'G-TMJYKCXML3' },
+      appName: 'app-name',
+    }, app.router);
+  }
