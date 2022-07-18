@@ -186,7 +186,6 @@
           </v-row>
         </v-container>
       </div>
-      <Testimonials class="tw-my-14 xl:tw-my-28" />
       <Contact />
     </v-main>
   </v-app>

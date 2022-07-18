@@ -222,10 +222,6 @@
                         "id": "resource",
                         "query": "event",
                         "title": "Events"
-                    },
-                    {
-                        "id": "testimonial",
-                        "title": "Testimonial"
                     }
                 ]
             }
