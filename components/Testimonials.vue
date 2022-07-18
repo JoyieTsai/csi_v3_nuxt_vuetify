@@ -31,11 +31,11 @@
 </template>
 
 <script>
-import axios from 'axios'
+// import axios from 'axios'
+import { mapState } from 'vuex'
 
 export default {
   data: () => ({
-    testimonials: Object,
     swiperOption: {
       slidesPerView: 1,
       spaceBetween: 20,
@@ -52,16 +52,22 @@ export default {
       },
     },
   }),
+  computed: {
+    ...mapState(['testimonialList']),
+    testimonials() {
+      return this.testimonialList.data
+    },
+  },
   mounted() {
-    this.fetchData()
+    this.$store.dispatch('getTestimonials')
   },
   methods: {
-    async fetchData() {
-      const tms = await axios.get(
-        'https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json'
-      )
-      this.testimonials = tms.data
-    },
+    // async fetchData() {
+    //   const tms = await axios.get(
+    //     'https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json'
+    //   )
+    //   this.testimonials = tms.data
+    // },
   },
 }
 </script>

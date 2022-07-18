@@ -181,48 +181,12 @@
                     </div>
                   </div>
                 </template>
-                <!-- <template v-slot:footer>
-                  <v-row class="ma-0" align="center" justify="center">
-                    <span class="grey--text">Items</span>
-                    <v-menu offset-y>
-                      <template v-slot:activator="{ on, attrs }">
-                        <v-btn
-                          dark
-                          text
-                          color="primary"
-                          class="ml-2"
-                          v-bind="attrs"
-                          v-on="on"
-                        >
-                          {{ itemsPerPage }}
-                          <v-icon>mdi-chevron-down</v-icon>
-                        </v-btn>
-                      </template>
-                      <v-list>
-                        <v-list-item
-                          v-for="(number, index) in itemsPerPageArray"
-                          :key="index"
-                          @click="updateItemsPerPage(number)"
-                        >
-                          <v-list-item-title>{{ number }}</v-list-item-title>
-                        </v-list-item>
-                      </v-list>
-                    </v-menu>
-
-                    <v-spacer></v-spacer>
-
-                    <v-pagination
-                      v-model="page"
-                      :length="numberOfPages"
-                      :total-visible="7"
-                    ></v-pagination>
-                  </v-row>
-                </template> -->
               </v-data-iterator>
             </v-col>
           </v-row>
         </v-container>
       </div>
+      <Testimonials class="tw-my-14 xl:tw-my-28" />
       <Contact />
     </v-main>
   </v-app>
