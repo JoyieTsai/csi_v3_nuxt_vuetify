@@ -1,47 +1,62 @@
 import colors from 'vuetify/es5/util/colors'
-import axios from "axios";
+import axios from 'axios'
 
 const dynamicRoutes = async () => {
-  const resArticles = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')
-  const resPS = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json')
-  const resJC = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json')
-  const resCI = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/crime-intelligence.json')
-  const resCapabilities = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/capabilities.json')
+  const resArticles = await axios.get(
+    'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
+  )
+  const resPS = await axios.get(
+    'https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json'
+  )
+  const resJC = await axios.get(
+    'https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json'
+  )
+  const resCI = await axios.get(
+    'https://csi-web3-resources-default-rtdb.firebaseio.com/crime-intelligence.json'
+  )
+  const resCapabilities = await axios.get(
+    'https://csi-web3-resources-default-rtdb.firebaseio.com/capabilities.json'
+  )
 
-  const routesForArticles = resArticles.data.map(art => {
-      return {
-          route: `/resources/${art.id}`,
-          payload: art
-      }
+  const routesForArticles = resArticles.data.map((art) => {
+    return {
+      route: `/resources/${art.id}`,
+      payload: art,
+    }
   })
-  const routesForPS = resPS.data.map(pro => {
-      return {
-          route: `/public-safety/${pro.id}`,
-          payload: pro
-      }
+  const routesForPS = resPS.data.map((pro) => {
+    return {
+      route: `/public-safety/${pro.id}`,
+      payload: pro,
+    }
   })
-  const routesForJC = resJC.data.map(pro => {
-      return {
-          route: `/justice-courts/${pro.id}`,
-          payload: pro
-      }
+  const routesForJC = resJC.data.map((pro) => {
+    return {
+      route: `/justice-courts/${pro.id}`,
+      payload: pro,
+    }
   })
-  const routesForCI = resCI.data.map(pro => {
-      return {
-          route: `/crime-intelligence/${pro.id}`,
-          payload: pro
-      }
+  const routesForCI = resCI.data.map((pro) => {
+    return {
+      route: `/crime-intelligence/${pro.id}`,
+      payload: pro,
+    }
   })
-  const routesForCapabilities = resCapabilities.data.map(cap => {
-      return {
-          route: `/capabilities/${cap.id}`,
-          payload: cap
-      }
+  const routesForCapabilities = resCapabilities.data.map((cap) => {
+    return {
+      route: `/capabilities/${cap.id}`,
+      payload: cap,
+    }
   })
 
-  const routes = routesForArticles.concat(routesForPS, routesForJC, routesForCI, routesForCapabilities)
+  const routes = routesForArticles.concat(
+    routesForPS,
+    routesForJC,
+    routesForCI,
+    routesForCapabilities
+  )
   return routes
-};
+}
 
 export default {
   server: {
@@ -50,7 +65,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'CSI-V2.6-07122022',
+    dir: 'Test-V2.7-07192022',
     routes: dynamicRoutes,
   },
 
@@ -115,7 +130,12 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'CSI provides complete technology solutions to all types of public sector agencies. From the state courts and state police to municipal parking authorities.' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'CSI provides complete technology solutions to all types of public sector agencies. From the state courts and state police to municipal parking authorities.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
       { property: 'og:site_name', content: 'CSI' },
     ],
@@ -142,11 +162,11 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/myfilter',
-    { src: "@/plugins/aos", ssr: false },
+    { src: '@/plugins/aos', ssr: false },
     { src: '~/plugins/vue-zoom-on-hover.js', ssr: false },
     { src: '~/plugins/vue-swiper.js', ssr: false },
     // { src: "~plugins/ga.js", mode: "client" },
-    { src: "~plugins/gtag.js", mode: "client" }
+    { src: '~plugins/gtag.js', mode: 'client' },
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -161,51 +181,44 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    'vue-social-sharing/nuxt',
-    '@nuxtjs/firebase',
-    '@nuxtjs/sitemap',
-  ],
+  modules: ['vue-social-sharing/nuxt', '@nuxtjs/firebase', '@nuxtjs/sitemap'],
   firebase: {
     config: {
-      apiKey: "AIzaSyAxEz3yuTKF7dmGWNQGHzIz4sieAPFV6GY",
-      authDomain: "csi-web3-resources.firebaseapp.com",
-      databaseURL: "https://csi-web3-resources-default-rtdb.firebaseio.com",
-      projectId: "csi-web3-resources",
-      storageBucket: "csi-web3-resources.appspot.com",
-      messagingSenderId: "569732863480",
-      appId: "1:569732863480:web:bdfdea53ed5d7afbaaf20d",
-      measurementId: "G-HNE5XD0V2E"
+      apiKey: 'AIzaSyAxEz3yuTKF7dmGWNQGHzIz4sieAPFV6GY',
+      authDomain: 'csi-web3-resources.firebaseapp.com',
+      databaseURL: 'https://csi-web3-resources-default-rtdb.firebaseio.com',
+      projectId: 'csi-web3-resources',
+      storageBucket: 'csi-web3-resources.appspot.com',
+      messagingSenderId: '569732863480',
+      appId: '1:569732863480:web:bdfdea53ed5d7afbaaf20d',
+      measurementId: 'G-HNE5XD0V2E',
     },
     services: {
-      realtimeDb: true // this is the realtime database service
-    }
+      realtimeDb: true, // this is the realtime database service
+    },
   },
 
   /*
    ** Axios module configuration
    */
-   axios: {
-    proxy: true
+  axios: {
+    proxy: true,
   },
   proxy: {
-    "/api": {
-      target: "https://www.csitech.com",
+    '/api': {
+      target: 'https://www.csitech.com',
       pathRewrite: {
-        "^/api": "/"
+        '^/api': '/',
       },
-      changeOrigin: true
-    }
+      changeOrigin: true,
+    },
   },
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://www.csitech.com',
     gzip: true,
     generate: true,
-    exclude: [
-      '/sweepstakes',
-      '/sweepstakes-rules',
-    ],
+    exclude: ['/sweepstakes', '/sweepstakes-rules'],
     routes: [
       '/about',
       '/careers',
@@ -242,17 +255,17 @@ export default {
       '/capabilities',
       '/capabilities/interfaces',
       '/capabilities/data-analytics',
-      '/capabilities/data-mapping', 
-      '/capabilities/cloud-integration', 
-      '/capabilities/low-code', 
-      '/capabilities/vertical-integration', 
-      '/capabilities/infoshare-engine', 
-      '/capabilities/doc-template-generation', 
-      '/capabilities/security', 
-      '/capabilities/data-sharing', 
-      '/capabilities/data-migration', 
+      '/capabilities/data-mapping',
+      '/capabilities/cloud-integration',
+      '/capabilities/low-code',
+      '/capabilities/vertical-integration',
+      '/capabilities/infoshare-engine',
+      '/capabilities/doc-template-generation',
+      '/capabilities/security',
+      '/capabilities/data-sharing',
+      '/capabilities/data-migration',
       '/resources',
-    ]
+    ],
   },
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify

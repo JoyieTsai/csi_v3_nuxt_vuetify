@@ -43,7 +43,7 @@
     "@nuxtjs/tailwindcss": "^4.2.1",
     "@nuxtjs/vuetify": "^1.12.3",
     "@tailwindcss/aspect-ratio": "^0.2.2",
-    "autoprefixer": "^10.4.4",
+    "autoprefixer": "^10.4.7",
     "eslint": "^7.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^2.0.0",
@@ -51,10 +51,10 @@
     "less": "^4.1.2",
     "less-loader": "^10.2.0",
     "material-design-icons-iconfont": "^6.6.0",
-    "postcss": "^8.4.12",
+    "postcss": "^8.4.14",
     "prettier": "^2.6.2",
     "sass": "^1.50.0",
     "sass-loader": "^10.2.1",
-    "tailwindcss": "^3.0.23"
+    "tailwindcss": "^3.1.6"
   }
 }

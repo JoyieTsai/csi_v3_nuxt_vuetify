@@ -3,6 +3,7 @@
         "id": 1,
         "quote": "Words cannot express what I witnessed today. I had serious doubts that we would meet today’s guidelines due to all the obstacles that were placed in our way. Not only did you succeed, you did so almost effortlessly and seamlessly. Your staff is tremendous and a gift to work with. As I look back I’m still amazed at what we accomplished! All this is above and beyond the services you extended to the Jersey City Department of Public Safety!",
         "author": "Robert A. Baker, Sr., MBA, CFE, DRCC",
+        "logo": "NJ_pd.jpg",
         "agency": "Jersey City Public Safety Communications & Information Technology",
         "url": "Jersey-City-NJ-Public-Safety-Police-and-Fire-Departments-Implement-a-Unified-Total-Solution"
     },
@@ -15,6 +16,7 @@
         ],
         "quote": "Our experience with the men and women of CSI has been nothing short of exceptional. The implementation of our statewide RMS & CAD project was seamless, and the customer service provided was always timely and on-point. We have found CSI to be professional, mission-focused, and true to their word. The New Hampshire State Police would highly recommend them to other law enforcement agencies looking to take their organization to the next level.",
         "author": "Colonel Nathan A. Noyes",
+        "logo": "NH_pd.jpg",
         "agency": "New Hampshire State Police",
         "url": "New-Hampshire-State-Police-Working-Together-to-Build-an-Integrated-New-Hampshire-Centric-System",
         "highlight": true
@@ -28,6 +30,7 @@
         ],
         "quote": "Our Fire Prevention Bureau contracted with CSI InfoShare™ to generate a new, state-of-the-art, fire prevention system with an eye toward customization and fulfilling our specific needs. CSI was able to collaboratively create a new system which was tailored to our operations and with the continuous recommendations and input of our leadership. We persevered as a team and now enjoy the multi-faceted features of the InfoShare™ system. In our humble opinion, InfoShare™ is the true “Cadillac” of the fire prevention system software arena.",
         "author": "Andrew Chiurazzi, Fire Official & Michael Valente, Chief Fire Inspector",
+        "logo": "BPP_fd.jpg",
         "agency": "Palisades Park Bureau of Fire Prevention",
         "url": "InfoShare-Fire-Inspection-Module-Paperless-Inspection-and-Report-Document-Management-System",
         "highlight": true
@@ -40,6 +43,7 @@
         ],
         "quote": "InfoShare™ has given us a tremendous benefit in answering and responding to emergency calls and sharing information with one another.",
         "author": "Director of Communications Frank DelVecchio",
+        "logo": "Bergen.jpg",
         "agency": "Bergen County PSOC",
         "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center"
     },
@@ -52,6 +56,7 @@
         ],
         "quote": "CSI has been very accommodating working in concert with the NHSP team to configure our RMS and MDT platforms to match our unique agency needs and continue to refine the platform and work as a cohesive team on future phases of the project.",
         "author": "Captain Vic Muzzey",
+        "logo": "NH_pd.jpg",
         "agency": "New Hampshire State Police",
         "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center",
         "highlight": true
@@ -60,6 +65,7 @@
         "id": 6,
         "quote": "The Regional Data Sharing features have given our officers the ability to access a larger amount of critical information, which they rely on to do their jobs effectively and safely.",
         "author": "Captain Scott Knoedler",
+        "logo": "CapeMay.jpg",
         "agency": "Cape May County Sheriff’s Office",
         "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project"
     },
@@ -67,6 +73,7 @@
         "id": 7,
         "quote": "During my time in law enforcement, I have had an opportunity to experience several different types of record management systems. As technology has improved over the years, each system offered new features. While the new features of these systems were welcomed, I always felt there was something missing. When I was introduced to lnfoShare™, I was blown away by seeing what their system offered. There are countless examples of where regional information sharing has helped in closing cases.",
         "author": "OIC Lt. Christopher Prell",
+        "logo": "IT_pd.jpg",
         "agency": "Independence Township Police Department",
         "url": "A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes"
     },
@@ -74,6 +81,7 @@
         "id": 8,
         "quote": "InfoShare™ has been utilized in various investigations for several years and proven to be a valuable investigation tool. Specifically, the Detective Bureau has utilized it to aid in locating individuals, locations, phone numbers, and even known associates. Customer service has been excellent. InfoShare™ is an excellent tool and an asset to any investigation.",
         "author": "Chief of Police Jason Garcia",
+        "logo": "Lopatcong_pd.jpg",
         "agency": "Lopatcong Police Department",
         "url": "A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes"
     },
@@ -81,6 +89,7 @@
         "id": 9,
         "quote": "The ability to search an individual’s name for all police contacts including those that do not end in an arrest. This is especially important when conducting background investigations of any kind i.e. personnel and firearms applications. In the past this information was only identified by calling another agency. Through InfoShare™ you can obtain reports and related discovery during an active investigation that can be immediately downloaded, negating the need to call the other (participating) agency and saving valuable time.",
         "author": "Lt. Charles Brady (Retired)",
+        "logo": "Morris.jpg",
         "agency": "Morris County Prosecutors Office",
         "url": "Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer"
     },
@@ -88,6 +97,7 @@
         "id": 10,
         "quote": "The Demarest Fire Department is dispatched through the Bergen County dispatch center, and we are using the CAD system from CSI. The system has improved our capabilities to have all pertinent information regarding any call for service, which greatly improves our ability to operate at an address. CSI has also provided great customer service from our rep, who is available 24/7 with any assistance we may need.",
         "author": "Fire Chief Richard Motta",
+        "logo": "Demarest_fd.jpg",
         "agency": "Demarest Fire Department",
         "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center"
     },
@@ -95,6 +105,7 @@
         "id": 11,
         "quote": "From the dashboard inbox, to report writing, to evidence documentation, a user-friendly RMS that automatically submits to LEJIS, which then submits to N-DEx.",
         "author": "Chief Medwid",
+        "logo": "LS_township.jpg",
         "agency": "Lower Salford Township",
         "url": "Montgomery-County-Successfully-Deploys-a-Countywide-Law-Enforcement-Solution"
     },
@@ -102,6 +113,7 @@
         "id": 12,
         "quote": "… a great advantage in time saving during report writing, one entry (Persons and Vehicles) and it’s available to populate on any report for the case.",
         "author": "Detective Lukashunas",
+        "logo": "RB_pd.jpg",
         "agency": "Rockledge Borough Police Department",
         "url": "Montgomery-County-Successfully-Deploys-a-Countywide-Law-Enforcement-Solution"
     },
@@ -109,6 +121,7 @@
         "id": 13,
         "quote": "…the design of the application made the transition from our previous RMS to InfoShare™ RMS seamless and our personnel adapted quickly.",
         "author": "Chief Jackson",
+        "logo": "LP_pd.jpg",
         "agency": "Lower Providence Township Police Department",
         "url": "Montgomery-County-Successfully-Deploys-a-Countywide-Law-Enforcement-Solution"
     },
@@ -116,6 +129,7 @@
         "id": 14,
         "quote": "CSI has been with us from the beginning, and we could not have asked for a better partner.",
         "author": "Director Martin Pagliughi",
+        "logo": "CapeMay_OEM.jpg",
         "agency": "Cape May County Office of Emergency Management",
         "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project"
     },
@@ -123,6 +137,7 @@
         "id": 15,
         "quote": "Crime data analysis is a difficult task when you are not sharing real-time RMS data. CSI and InfoShare™ have made this possible. The accessibility to real-time data has helped our detectives piece together cases that probably would never have been solved. Our agency recently has also assisted a neighboring Union County city with a robbery case. A phone call and a simple inquiry, returned data in the InfoShare™ System from another Township which immediately identified the suspect. An arrest was made an hour later. It is amazing all the benefits the system has provided to date.",
         "author": "Lt. Joseph Longo",
+        "logo": "Madison_pd.jpg",
         "agency": "Madison Police Department",
         "url": "Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer"
     },
@@ -130,6 +145,7 @@
         "id": 16,
         "quote": "InfoShare™ RMS has greatly expanded our information sharing capability throughout Morris County. Officers can quickly and efficiently import Driver’s License and Vehicle Registration Data to reports by querying the NJMVC Interface. It is also a great investigative tool for our officers because they can query a suspect's name to find out previous addresses, phone numbers, and any prior dealings with law enforcement in Morris County.",
         "author": "Chief Thomas Wiliver",
+        "logo": "Chester_pd.jpg",
         "agency": "Chester Police Department",
         "url": "Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer"
     }
