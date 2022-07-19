@@ -10,8 +10,8 @@
             <div class="slick-track">
                 <div v-for="(item, i) in testimonials" :key="i" class="slick-slide">
                     <div
-                        :class="[item.quote.length > 300 ? 'w-500' : 'w-400',item.highlight ? 'highlight' : '', 'tw-p-8 xl:tw-p-10 quote-card']">
-                        <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-mt-5 lg:tw-mt-0">
+                        :class="[item.quote.length > 300 ? 'w-500' : 'w-350',item.highlight ? 'highlight' : '', 'tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card']">
+                        <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
                             {{ item.quote }}
                         </div>
                         <div class="middle-divider tw-mt-4">
@@ -30,6 +30,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="main-container tw-mx-auto tw-text-right">
+            <v-btn text class="tw-capitalize" to="/resources/testimonial">
+                <v-icon>mdi-arrow-right-thin</v-icon> View All
+            </v-btn>
         </div>
 
         <!-- <swiper class="mySwiper" :options="swiperOption">
@@ -92,15 +97,22 @@ export default {
         testimonials() {
             return TMS
         },
-        position() {
-            const pos = document.getElementsByClassName('slick-track').styly.transform.translateX = '6050px'
-            return pos
-        }
     },
     methods: {
         onIntersect(entries, observer) {
             this.isIntersecting = entries[0].isIntersecting
+            if (this.isIntersecting === true) {
+                this.moveRight()
+            }
         },
+        moveRight() {
+            const track = document.querySelector('.slick-track')
+            track.style.transform = 'translateX(-5750px)'
+        },
+        moveLeft() {
+            const track = document.querySelector('.slick-track')
+            track.style.transform = 'translateX(100px)'
+        }
     }
 }
 </script>
@@ -108,29 +120,48 @@ export default {
 <style lang="scss">
 .swiper-wrapper {
     padding: 2rem;
-    transition: transform 2s linear 0s;
 }
-.slick-list {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    margin: 0;
-    padding: 2rem;
+.slick {
+    &-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    &-track {
+        width: 8000px;
+        transform: translateX(100px);
+        transition: transform 300s linear 3s;
+    }
+    &-slide {
+        float: left;
+        height: 100%;
+        margin-right: 40px;
+    }
+    @media only screen and (max-width: $breakpoints-lg) {
+        &-track {
+            transform: translateX(50px);
+        }
+        &-slide {
+            margin-right: 30px;
+        }
+    }
 }
-.slick-track {
-    width: 10000px;
-    transform: translateX(0px);
-    transition: transform 30s linear 0s;
-}
-.slick-slide {
-    float: left;
-    height: 100%;
-    margin-right: 40px;
-}
-.w-400 {
-    width: 400px;
+
+.w-350 {
+    width: 350px;
 }
 .w-500 {
     width: 500px;
+}
+@media only screen and (max-width: $breakpoints-md) {
+    .w-350 {
+        width: 250px;
+    }
+    .w-500 {
+        width: 350px;
+    }
 }
 </style>

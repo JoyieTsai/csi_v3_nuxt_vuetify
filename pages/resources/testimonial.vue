@@ -4,6 +4,7 @@
             <!-- Cover -->
             <div class="hero-section lg tw-items-center" :style="{
           backgroundImage: `url(images/covers/${category}/${coverimg})`,
+          backgroundPosition: `center`,
         }">
                 <div class="main-container tw-mx-auto">
                     <div class="tw-flex tw-mb-12">
@@ -21,9 +22,8 @@
                         <div v-for="(item, index) in testimonials" :key="index"
                             class="flex-group-card">
                             <div
-                                :class="[ item.highlight ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-10 quote-card', ]">
-                                <div
-                                    class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-mt-5 lg:tw-mt-0">
+                                :class="[ item.highlight ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card', ]">
+                                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
                                     {{ item.quote }}
                                 </div>
                                 <div class="middle-divider tw-mt-4">

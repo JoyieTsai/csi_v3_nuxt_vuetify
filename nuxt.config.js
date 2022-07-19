@@ -3,7 +3,7 @@ import axios from 'axios'
 
 const dynamicRoutes = async () => {
   const resArticles = await axios.get(
-    'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
+    'https://csi-web3-resources-default-rtdb.firebaseio.com/articles-test.json'
   )
   const resPS = await axios.get(
     'https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json'
