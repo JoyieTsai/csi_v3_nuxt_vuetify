@@ -1093,5 +1093,21 @@
       }
     ],
     "rating": 0
+  },
+  {
+    "no": 68,
+    "id": "CIO-Review-names-CSI-Technology-Group-as-one-of-2022's-10-Most-Promising-Low-Code",
+    "title": "CIO Review names CSI Technology Group as one of 2022’s“10 Most Promising Low Code No Code Platform Solution Providers”",
+    "date": "07/16/2022",
+    "type": "news",
+    "tags": [
+      {
+        "name": "low-code"
+      }
+    ],
+    "cover": "news-2022-0716.jpg",
+    "brief": "“This was by far the most professional and thorough review process that I have ever gone through in my 14 years with the company,” explained Richard Norcross, Executive Vice President of CSI Technology Group, “they did their homework.”",
+    "body": "CSI Technology Group is pleased to announce the company has been recognized by CIO Review as one of <a href='https://low-code-platform.cioreview.com/vendor/2022/csi_technology_group' target='blank' class='primary-link'>2022’s Most Promising Low Code No Code Platform Solution Providers</a>. CIO Review interviewed Richard Norcross, Executive Vice President of CSI Technology Group, to learn how low code development solutions can benefit public sector agencies.<br><br>CSI Technology Group’s patented low code development platform, InfoShare Engine®, empowers government ERP application development across multiple products including police, fire, and EMS dispatch, records and case management, mobile operations, investigations, intelligence, and much more. The InfoShare Engine® was built from the ground up, so all products, modules, and submodules are integrated and natively designed to communicate with one another. Moreover, the system can be easily and affordably adapted to meet the evolving needs of every agency.<br><br>“We are challenging the status quo. Our platform drastically reduces application implementation, customization, maintenance, upgrade, upscale, and deployment costs—all at once,” explains Richard Norcross.<br><br>The next phase in innovation is deploying Rosigner®, short for robotic designer, a cloud-based software design platform. Clients can develop and configure software applications themselves without any vendor support. After collecting the software requirements, Rosigner® recommends an optimal application template that best satisfies the client’s needs from a template library. Clients can then modify standard components and variables to customize the application with the support of the Rosigner® AI. <br><br>“I’d like to take this opportunity to thank all of our employees at CSI for their hard work and dedication. We’re extremely proud to be recognized for our efforts to revolutionize the public sector. Innovation at CSI is collaborative, so I would also like to thank our clients for playing such a key role in our success,” says Richard Norcross.<br><br><h3>About CIO Review</h3>CIO Review is a leading technology magazine that is at the forefront of guiding enterprises through the continuously varying business environment with information about the solutions and services. For additional information, visit <a href='http://www.cioreview.com/' target='blank' class='primary-link'>www.cioreview.com</a>.",
+    "rating": 1
   }
 ]
