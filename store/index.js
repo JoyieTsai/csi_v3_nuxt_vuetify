@@ -53,7 +53,9 @@ export const mutations = {
 export const actions = {
   async getArticles({ commit }) {
     // For test use > articles-test.json
-    const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')
+    const api = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
+    )
     const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
     commit('setArticles', payload)
   },
@@ -67,40 +69,56 @@ export const actions = {
     commit('setCurrentPage', payload)
   },
   async getArticleByID({ commit }, id) {
-    const api = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json')
+    const api = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
+    )
     const payload = api.data.filter((res) => res.id === id)
     commit('setCurrentArticle', payload[0])
   },
   async getJobs({ commit }) {
-    const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json')
+    const payload = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json'
+    )
     commit('setJobs', payload)
   },
   async getPublicSafety({ commit }) {
-    const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json')
+    const payload = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json'
+    )
     commit('setPublicSafety', payload)
   },
   async getJusticeCourt({ commit }) {
-    const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json')
+    const payload = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json'
+    )
     commit('setJusticeCourt', payload)
   },
   async getCrimeIntelligence({ commit }) {
-    const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/crime-intelligence.json')
+    const payload = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/crime-intelligence.json'
+    )
     commit('setCrimeIntelligence', payload)
   },
   async getCapabilities({ commit }) {
-    const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/capabilities.json')
+    const payload = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/capabilities.json'
+    )
     commit('setCapabilities', payload)
   },
   async getTestimonials({ commit }) {
-    const payload = await axios.get('https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json')
+    const payload = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json'
+    )
     commit('setTestimonials', payload)
   },
 }
 
 export const getters = {
   filterArticles: (state) => {
-    if (state.filterType === 'all') { // type = all
-      if (state.filterTag.length > 0) { // have selected tags
+    if (state.filterType === 'all') {
+      // type = all
+      if (state.filterTag.length > 0) {
+        // have selected tags
         const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
         const result = []
         filtered.forEach((item) => {
@@ -114,12 +132,16 @@ export const getters = {
         })
         const final = [...new Set(result)]
         return final
-      } else { // no selected tags
+      } else {
+        // no selected tags
         return state.articleList
       }
-    } else if (state.filterTag.length > 0) { // type = others
+    } else if (state.filterTag.length > 0) {
+      // type = others
       const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
-      const filteredType = filtered.filter((filtered) => filtered.type === state.filterType) // get all articles with tags
+      const filteredType = filtered.filter(
+        (filtered) => filtered.type === state.filterType
+      ) // get all articles with tags
       const result = []
       filteredType.forEach((item) => {
         item.tags.forEach((res) => {
