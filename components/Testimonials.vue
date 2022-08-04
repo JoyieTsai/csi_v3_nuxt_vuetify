@@ -5,8 +5,7 @@
         <div class="header-2 tw-text-center">Testimonials</div>
 
         <!-- Testimonial -->
-
-        <div class="slick-list">
+        <!-- <div class="slick-list">
             <div class="slick-track">
                 <div v-for="(item, i) in testimonials" :key="i" class="slick-slide">
                     <div
@@ -35,11 +34,11 @@
             <v-btn text class="tw-capitalize" to="/resources/testimonial">
                 <v-icon>mdi-arrow-right-thin</v-icon> View All
             </v-btn>
-        </div>
+        </div> -->
 
-        <!-- <swiper class="mySwiper" :options="swiperOption">
-            <swiper-slide v-for="(item, i) in testimonials" :key="i">
-                <div :class="[item.highlight ? 'highlight' : '', 'tw-p-8 xl:tw-p-10 quote-card']">
+        <swiper class="mySwiper" :options="swiperOption">
+            <swiper-slide v-for="(item, index) in testimonials" :key="index">
+                <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-8 xl:tw-p-10 quote-card']">
                     <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-mt-5 lg:tw-mt-0">
                         {{ item.quote }}
                     </div>
@@ -58,7 +57,15 @@
                     </div>
                 </div>
             </swiper-slide>
-        </swiper> -->
+            <div slot="pagination" class="swiper-pagination"></div>
+            <div slot="button-prev" class="swiper-button-prev">
+                <i class="el-icon-caret-left"></i>
+            </div>
+            <div slot="button-next" class="swiper-button-next">
+                <i class="el-icon-caret-right"></i>
+            </div>
+
+        </swiper>
     </div>
 </template>
 
@@ -89,7 +96,17 @@ export default {
             },
             autoplay: {
                 delay: 3000,
-            }
+                disableOnInteraction: false
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
         },
         isIntersecting: false,
     }),
