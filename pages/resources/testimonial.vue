@@ -21,8 +21,27 @@
                     <div class="flex-group">
                         <div v-for="(item, index) in testimonials" :key="index"
                             class="flex-group-card">
-                            <div
-                                :class="[ index % 2 == 0 ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card', ]">
+                            <div v-if="index <= 10"
+                                :class="[ index % 2 == 0 ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card' ]">
+                                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
+                                    {{ item.quote }}
+                                </div>
+                                <div class="middle-divider tw-mt-4">
+                                    <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+                                        :style=" 'background-image: url(images/agency/' + item.logo + ')' ">
+                                    </div>
+                                </div>
+                                <div
+                                    class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+                                    {{ item.author }}
+                                </div>
+                                <div
+                                    class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60">
+                                    {{ item.agency }}
+                                </div>
+                            </div>
+                            <div v-else
+                                :class="[ index % 2 == 1 ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card' ]">
                                 <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
                                     {{ item.quote }}
                                 </div>
@@ -101,7 +120,7 @@ export default {
             column3All.push(
                 TMS[0], TMS[3], TMS[6], TMS[9], TMS[12],
                 TMS[1], TMS[4], TMS[7], TMS[10], TMS[13], TMS[15],
-                TMS[2], TMS[5], TMS[8], TMS[11], TMS[14]
+                TMS[2], TMS[5], TMS[8], TMS[11], TMS[14],
             )
             if (this.showAll) {
                 switch (this.$vuetify.breakpoint.name) {
