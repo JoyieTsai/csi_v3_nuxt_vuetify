@@ -1,145 +1,185 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
-  <div class="main-container tw-mx-auto tw-px-0 lg:tw-px-6">
-    <div class="header-2 tw-text-center">Testimonials</div>
+    <div>
+        <div v-intersect="onIntersect"></div>
+        <div class="header-2 tw-text-center">Testimonials</div>
 
-    <!-- Testimonial -->
-    <swiper class="mySwiper" :options="swiperOption">
-      <swiper-slide v-for="(item, i) in testimonials" :key="i">
-        <div class="tw-p-8 xl:tw-p-14 testimonials">
-          <div class="lg:tw-text-xl xl:tw-text-2xl">
-            {{ item.quote }}
-          </div>
-          <div class="lg:tw-text-lg xl:tw-text-xl tw-font-semibold tw-mt-5">
-            {{ item.author }}
-          </div>
-          <div
-            class="tw-text-xs lg:tw-text-lg xl:tw-text-xl tw-opacity-60 tw-relative tw-z-10"
-            v-html="item.agency"
-          ></div>
+        <!-- Testimonial -->
+        <!-- <div class="slick-list">
+            <div class="slick-track">
+                <div v-for="(item, i) in testimonials" :key="i" class="slick-slide">
+                    <div
+                        :class="[item.quote.length > 300 ? 'w-500' : 'w-350',item.highlight ? 'highlight' : '', 'tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card']">
+                        <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
+                            {{ item.quote }}
+                        </div>
+                        <div class="middle-divider tw-mt-4">
+                            <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+                                :style="{ backgroundImage: `url(images/agency/${item.logo})`, }">
+                            </div>
+                        </div>
+                        <div
+                            class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+                            {{ item.author }}
+                        </div>
+                        <div
+                            class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60">
+                            {{ item.agency }}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </swiper-slide>
-      <div slot="pagination" class="swiper-pagination"></div>
-      <div slot="button-prev" class="swiper-button-prev">
-        <i class="el-icon-caret-left"></i>
-      </div>
-      <div slot="button-next" class="swiper-button-next">
-        <i class="el-icon-caret-right"></i>
-      </div>
-    </swiper>
-  </div>
+        <div class="main-container tw-mx-auto tw-text-right">
+            <v-btn text class="tw-capitalize" to="/resources/testimonial">
+                <v-icon>mdi-arrow-right-thin</v-icon> View All
+            </v-btn>
+        </div> -->
+
+        <swiper class="mySwiper" :options="swiperOption">
+            <swiper-slide v-for="(item, index) in testimonials" :key="index">
+                <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-8 xl:tw-p-10 quote-card']">
+                    <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-mt-5 lg:tw-mt-0">
+                        {{ item.quote }}
+                    </div>
+                    <div class="middle-divider tw-mt-4">
+                        <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+                            :style="{ backgroundImage: `url(images/agency/${item.logo})`, }">
+                        </div>
+                    </div>
+                    <div
+                        class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+                        {{ item.author }}
+                    </div>
+                    <div
+                        class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60">
+                        {{ item.agency }}
+                    </div>
+                </div>
+            </swiper-slide>
+            <div slot="pagination" class="swiper-pagination"></div>
+            <div slot="button-prev" class="swiper-button-prev">
+                <i class="el-icon-caret-left"></i>
+            </div>
+            <div slot="button-next" class="swiper-button-next">
+                <i class="el-icon-caret-right"></i>
+            </div>
+
+        </swiper>
+    </div>
 </template>
 
 <script>
-// import axios from 'axios'
-import { mapState } from 'vuex'
+import TMS from '~/data/testimonials.json'
 
 export default {
-  data: () => ({
-    swiperOption: {
-      slidesPerView: 1,
-      spaceBetween: 20,
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      loop: true,
-      autoHeight: false,
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-      },
+    data: () => ({
+        swiperOption: {
+            loop: true,
+            centeredSlides: true,
+            breakpoints: {
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 0
+                },
+                600: {
+                    slidesPerView: 2,
+                    spaceBetween: 0
+                },
+                1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 0
+                },
+                1600: {
+                    slidesPerView: 4,
+                    spaceBetween: 10
+                }
+            },
+            // autoplay: {
+            //     delay: 3000,
+            //     disableOnInteraction: false
+            // },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                clickable: true,
+            },
+        },
+        isIntersecting: false,
+    }),
+    computed: {
+        testimonials() {
+            return TMS
+        },
     },
-  }),
-  computed: {
-    ...mapState(['testimonialList']),
-    testimonials() {
-      return this.testimonialList.data
-    },
-  },
-  mounted() {
-    this.$store.dispatch('getTestimonials')
-  },
-  methods: {
-    // async fetchData() {
-    //   const tms = await axios.get(
-    //     'https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json'
-    //   )
-    //   this.testimonials = tms.data
-    // },
-  },
+    methods: {
+        onIntersect(entries, observer) {
+            this.isIntersecting = entries[0].isIntersecting
+            if (this.isIntersecting === true) {
+                this.moveRight()
+            }
+        },
+        moveRight() {
+            const track = document.querySelector('.slick-track')
+            track.style.transform = 'translateX(-5750px)'
+        },
+        moveLeft() {
+            const track = document.querySelector('.slick-track')
+            track.style.transform = 'translateX(100px)'
+        }
+    }
 }
 </script>
 
 <style lang="scss">
 .swiper-wrapper {
-  align-items: center;
+    padding: 2rem 0;
+}
+.slick {
+    &-list {
+        position: relative;
+        display: block;
+        overflow: hidden;
+        margin: 0;
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+    &-track {
+        width: 8000px;
+        transform: translateX(100px);
+        transition: transform 300s linear 3s;
+    }
+    &-slide {
+        float: left;
+        height: 100%;
+        margin-right: 40px;
+    }
+    @media only screen and (max-width: $breakpoints-lg) {
+        &-track {
+            transform: translateX(50px);
+        }
+        &-slide {
+            margin-right: 30px;
+        }
+    }
 }
 
-.testimonials {
-  position: relative;
-  margin: 3rem auto 4rem;
-  max-width: 1000px;
-  background: url('../assets/vectors/testimonial-bg.svg');
-  background-size: cover;
-  color: $white;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
-    0 4px 6px -2px rgba(0, 0, 0, 0.05);
-
-  @media only screen and (max-width: $breakpoints-lg) {
-    max-width: 80%;
-  }
-  @media only screen and (max-width: $breakpoints-sm) {
-    margin: 2rem 0.6rem 4rem;
-  }
-
-  &::before {
-    content: '';
-    background: url('../assets/vectors/testimonial-quotes.svg') no-repeat;
-    background-size: contain;
-    position: absolute;
-    top: -28px;
-    left: -14px;
-    width: 65px;
-    height: 52px;
-    display: block;
-
-    @media only screen and (max-width: $breakpoints-lg) {
-      top: -22px;
-      left: -11px;
-      width: 55px;
-      height: 42px;
+.w-350 {
+    width: 350px;
+}
+.w-500 {
+    width: 500px;
+}
+@media only screen and (max-width: $breakpoints-md) {
+    .w-350 {
+        width: 250px;
     }
-    @media only screen and (max-width: $breakpoints-sm) {
-      top: -17px;
-      left: -8px;
-      width: 45px;
-      height: 32px;
+    .w-500 {
+        width: 350px;
     }
-  }
-
-  &::after {
-    content: '';
-    background: url('../assets/vectors/testimonial-vector.svg') no-repeat;
-    background-size: contain;
-    position: absolute;
-    bottom: -32px;
-    right: 0;
-    width: 169px;
-    height: 173px;
-    display: block;
-
-    @media only screen and (max-width: $breakpoints-lg) {
-      bottom: -26px;
-      width: 130px;
-      height: 130px;
-    }
-    @media only screen and (max-width: $breakpoints-sm) {
-      bottom: -24px;
-      width: 110px;
-      height: 112px;
-    }
-  }
 }
 </style>

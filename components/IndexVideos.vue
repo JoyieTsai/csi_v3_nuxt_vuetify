@@ -36,7 +36,7 @@
             </div> -->
                         <img src="videos/index-video-2.jpg" />
                     </div>
-                    <!-- <img class="active" src="videos/ending.gif" /> -->
+                    <img class="active" src="videos/index-video-2.jpg" />
                 </div>
             </div>
 
@@ -69,7 +69,7 @@
             </div> -->
                         <img src="videos/index-video-3.jpg" />
                     </div>
-                    <!-- <img class="active" src="videos/ending.gif" /> -->
+                    <img class="active" src="videos/index-video-3.jpg" />
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
 export default {
     data: () => ({
         modalVideo: false,
-        videoid: 'KFStrU7S2B8',
+        videoid: 'RPYlUFbNweY',
     }),
     methods: {
         currentVideo(id) {
