@@ -48,7 +48,7 @@
                 tw-leading-snug
                 xl:tw-mx-5
               ">
-                            {{ dir.desc | getBrief(145) }}
+                            {{ dir.desc | getBrief(140) }}
                         </div>
                     </div>
                 </div>
@@ -94,7 +94,7 @@
                 tw-leading-snug
                 xl:tw-mx-5
               ">
-                            {{ pm.desc | getBrief(135) }}
+                            {{ pm.desc | getBrief(130) }}
                         </div>
                     </div>
                 </div>

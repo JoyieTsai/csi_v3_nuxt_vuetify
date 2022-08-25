@@ -21,7 +21,7 @@
                     <div class="flex-group">
                         <div v-for="(item, index) in testimonials" :key="index"
                             class="flex-group-card">
-                            <div v-if="index <= 10"
+                            <div v-if="testimonials.length <= 9"
                                 :class="[ index % 2 == 0 ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card' ]">
                                 <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
                                     {{ item.quote }}
@@ -41,7 +41,7 @@
                                 </div>
                             </div>
                             <div v-else
-                                :class="[ index % 2 == 1 ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card' ]">
+                                :class="[ item.highlight ? 'highlight' : '', 'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card' ]">
                                 <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
                                     {{ item.quote }}
                                 </div>
@@ -60,6 +60,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div v-show="showAll" class="tw-h-80"></div>
                     </div>
                     <div class="tw-text-center">
                         <v-btn outlined color="primary" @click="toggleAll()">
@@ -109,8 +110,8 @@ export default {
                 TMS[0], TMS[2], TMS[5], TMS[6], TMS[8], TMS[1], TMS[3], TMS[4], TMS[7], TMS[9]
             )
             column2All.push(
-                TMS[0], TMS[2], TMS[4], TMS[6], TMS[8], TMS[10], TMS[12], TMS[14],
-                TMS[1], TMS[3], TMS[5], TMS[7], TMS[9], TMS[11], TMS[13], TMS[15]
+                TMS[0], TMS[2], TMS[4], TMS[6], TMS[8], TMS[10], TMS[12], TMS[14], TMS[16],
+                TMS[1], TMS[3], TMS[5], TMS[7], TMS[9], TMS[11], TMS[13], TMS[15],
             )
             column3.push(
                 TMS[0], TMS[3], TMS[6],
@@ -118,8 +119,8 @@ export default {
                 TMS[2], TMS[5], TMS[8]
             )
             column3All.push(
-                TMS[0], TMS[3], TMS[6], TMS[9], TMS[12],
-                TMS[1], TMS[4], TMS[7], TMS[10], TMS[13], TMS[15],
+                TMS[0], TMS[3], TMS[6], TMS[9], TMS[12], TMS[15],
+                TMS[1], TMS[4], TMS[7], TMS[10], TMS[13], TMS[16],
                 TMS[2], TMS[5], TMS[8], TMS[11], TMS[14],
             )
             if (this.showAll) {
