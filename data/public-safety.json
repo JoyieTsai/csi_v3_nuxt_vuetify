@@ -1183,5 +1183,95 @@
     "quote": {
       "content": "For every minute you are angry, you lose sixty seconds of happiness"
     }
+  },
+  {
+    "id": "analytics-crime-mapping",
+    "tag": "rms",
+    "title": "Analytics and Crime Mapping",
+    "subtitle": "Tools for Tactical and Strategic Decision Making",
+    "icon": "analytics_cm.svg",
+    "coverImg": "analytics_cm.png",
+    "brochure": "",
+    "descHeading": "Real-time analytical reporting and mapping to support command staff in strategic planning",
+    "descContent": "InfoShare™ Analytics and Crime Mapping module provides real-time CompStat analysis and reporting, an Ad Hoc search engine, crime mapping, and analytical capabilities with graph generation. This module helps agencies systematically collect data, identify emerging trends, and use the power of advanced analytics to implement data-driven crime prevention strategies.",
+    "sysFeatures": [
+      {
+        "title": "Auto-Generated CompStat Reporting",
+        "desc": "Systematically collect and analyze crime data for data-driven policing. All Ad Hoc and CompStat reports can be generated for a specific time period, detailing exactly the number of crimes, quality of life offenses, accidents, and traffic citations in a jurisdiction. ",
+        "list": [
+          "Crime statistics comparison",
+          "Percentage increase/decrease visualization",
+          "Time period (hour, day, week, month, year)",
+          "Arrests against Crimes comparison",
+          "Reporting by agency, district, sector or post"
+        ],
+        "img": "analytics_cm-1.jpg"
+      },
+      {
+        "title": "Exclusive Ad Hoc Search Engine",
+        "desc": "Deliver comprehensive statistics and analytical reports without having to run multiple queries in different databases. Simply enter the search criteria, and the relevant information can be parsed out into countless reports and formats with a click of a button.",
+        "list": [
+          "Reusable template generation",
+          "Crime type search",
+          "Arrested people search",
+          "CAD history search",
+          "Directed patrol search"
+        ],
+        "img": "analytics_cm-2.jpg"
+      },
+      {
+        "title": "Next-level Crime Mapping",
+        "desc": "Visualize criminal activity patterns, identify crime hot spots, and deploy proactive policing efforts. Drill down on individual incidents and easily access any linked reports. Configurable search features ensure users find the needed data as quickly as possible.",
+        "list": [
+          "Multidimensional incident analysis",
+          "Hot spot and heat mapping",
+          "Incident clustering",
+          "Quality of life complaints",
+          "Polygon map search"
+        ],
+        "img": "analytics_cm-3.jpg"
+      },
+      {
+        "title": "Chart and Graph Generation",
+        "desc": "Generate a wide variety of charts and graphs to create a comprehensive picture of crime. Charts and graphs displays complex data in a simple format, allowing agencies to visualize relationships, trends, and patterns of criminal activity and uncover investigative insights.",
+        "list": [
+          "CFS classification & crime type",
+          "Timeline of crime data",
+          "Time (day, day of week, month, year)",
+          "Multi-tab display"
+        ],
+        "img": "analytics_cm-4.jpg"
+      }
+    ],
+    "relatedProducts": [
+      {
+        "title": "CAD",
+        "icon": "icon-cad_solid",
+        "link": "public-safety/cad"
+      },
+      {
+        "title": "RMS",
+        "icon": "icon-rms_solid",
+        "link": "public-safety/rms"
+      },
+      {
+        "title": "Fire & EMS",
+        "icon": "icon-fire_ems_solid",
+        "link": "public-safety/fire-ems"
+      },
+      {
+        "title": "Intelligence",
+        "icon": "icon-intelligence_solid",
+        "link": "crime-intelligence/intelligence"
+      },
+      {
+        "title": "Investigation",
+        "icon": "icon-investigation_solid",
+        "link": "crime-intelligence/investigation"
+      }
+    ],
+    "quote": {
+      "content": "Always focus on developing others"
+    }
   }
 ]

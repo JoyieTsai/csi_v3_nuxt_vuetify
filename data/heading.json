@@ -50,6 +50,10 @@
                     {
                         "id": "internal-affairs",
                         "title": "Professional Standards & IA"
+                    },
+                    {
+                        "id": "analytics-crime-mapping",
+                        "title": "Analytics & Crime Mapping"
                     }
                 ]
             }
