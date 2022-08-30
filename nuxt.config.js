@@ -65,7 +65,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'Test-V3.0-08252022',
+    dir: 'CSI-V3.5-08292022',
     routes: dynamicRoutes,
   },
 
@@ -235,6 +235,7 @@ export default {
       '/public-safety/personnel-scheduling',
       '/public-safety/evidence',
       '/public-safety/internal-affairs',
+      '/public-safety/analytics-crime-mapping',
       '/justice-courts/county-prosecution',
       '/justice-courts/courts-efiling',
       '/justice-courts/ediscovery-with-portal',

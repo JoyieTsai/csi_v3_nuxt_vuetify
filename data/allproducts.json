@@ -72,6 +72,15 @@
         "order": 7
     },
     {
+        "id": "analytics-crime-mapping",
+        "tag": "rms",
+        "category": "public-safety",
+        "icon": "analytics_cm.svg",
+        "title": "Analytics & Crime Mapping",
+        "subtitle": "Tools for Tactical and Strategic Decision Making",
+        "order": 7
+    },
+    {
         "id": "county-prosecution",
         "tag": "epro",
         "category": "justice-courts",
