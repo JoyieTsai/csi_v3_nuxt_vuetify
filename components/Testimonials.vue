@@ -38,8 +38,8 @@
 
         <swiper class="mySwiper" :options="swiperOption">
             <swiper-slide v-for="(item, index) in testimonials" :key="index">
-                <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-8 xl:tw-p-10 quote-card']">
-                    <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-mt-5 lg:tw-mt-0">
+                <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-6 xl:tw-p-10 quote-card']">
+                    <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
                         {{ item.quote }}
                     </div>
                     <div class="middle-divider tw-mt-4">
@@ -66,6 +66,11 @@
             </div>
 
         </swiper>
+        <div class="tw-text-center tw-mt-10">
+            <nuxt-link class="btn-lg btn-primary hover:shadow-xl" to="/resources/testimonial">
+                Read More
+            </nuxt-link>
+        </div>
     </div>
 </template>
 

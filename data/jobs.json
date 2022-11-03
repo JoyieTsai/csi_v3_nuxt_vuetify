@@ -88,37 +88,35 @@
     },
     {
         "id": 2,
-        "position": "Assistant Network Engineer (Entry Level)",
+        "position": "Data Analyst (Entry Level)",
         "location": "Keasbey, NJ",
         "functions": [
             {
                 "title": "Objectives",
                 "content": [
-                    "Seeking Network Engineer to support in-house development and client site troubleshooting in Microsoft Windows Server and Cloud environments."
+                    "Understand company and client challenges and how integrating Low-Code Development Platform capabilities can help create solutions.",
+                    "Assist cross-functional teams to identify and prioritize key areas of the partner’s business where A Low-Code Development Platform and Big Data solutions can drive significant business benefit.",
+                    "Analyze and explain Low-Code Development Platform and Big Data solutions while setting and maintaining high ethical standards."
                 ]
             },
             {
                 "title": "Responsibilities",
                 "content": [
-                    "Day to Day Maintenance of a Windows AD Infrastructure and Microsoft Windows Server Platform.",
-                    "Establishes networking environment by designing system configuration; directing system installation; defining, documenting, and enforcing system standards.",
-                    "Design and configure AWS and Azure cloud environment and services to deliver resilient and reliable application infrastructure service to customers.",
-                    "Maximizes network performance by monitoring performance; troubleshooting network problems and outages; scheduling upgrades; collaborating with network architects on network optimization.",
-                    "Sets and supports Virtualization environments.",
-                    "Sets and supports Microsoft SQL Server environments.",
-                    "Plans and implements of database maintenance and recurring tasks with the SQL Scheduling service.",
-                    "Performs client consultation: plan, design, documents, implement, and support LAN/WAN networks.",
-                    "Plans and implements network security, including maintaining firewalls, developing VPN, remote solutions and maintaining company security policies.",
-                    "Troubleshoot, maintain, upgrade, and provide solutions to complex hardware/software problems."
+                    "Work on functional design, process design (including scenario design, flow mapping), prototyping, testing, training, and defining support.",
+                    "procedures, working with an advanced engineering team and executive leadership.",
+                    "Document and articulate solution architecture and lessons learned for each exploration and accelerated incubation.",
+                    "Customize and manage integration tools, databases, and analytical systems.",
+                    "Manage and structure data.",
+                    "Serve as liaison between management and project teams, delivering feedback and enabling them to make necessary changes to product performance or presentation."
                 ]
             },
             {
                 "title": "Required Skills and Qualifications",
                 "content": [
-                    "Basic Knowledge in Windows Server environment, SQL Server, High Performance Cluster, TCP/IP networking desired and Virtualization environment.",
-                    "Project management and documentation skills.",
-                    "Bachelor’s degree in computer science, Engineering, Mathematics or a related discipline.",
-                    "Fast Learner who can easily absorb new information and apply it to work"
+                    "Solid skill on MS SQL.",
+                    "Strong interests in project management skills.",
+                    "Good communication skills.",
+                    "Fast Learner who can easily absorb new information and apply it to work."
                 ]
             }
         ]

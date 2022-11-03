@@ -8,7 +8,7 @@ module.exports = {
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'media', // or 'media' or 'class'
   theme: {
     extend: {},
     backgroundColor: (theme) => ({
@@ -20,7 +20,7 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      'ipad': '1367px',
+      ipad: '1367px',
       '2xl': '1536px',
       '3xl': '1680px',
     },

@@ -1233,7 +1233,7 @@
       },
       {
         "title": "Chart and Graph Generation",
-        "desc": "Generate a wide variety of charts and graphs to create a comprehensive picture of crime. Charts and graphs displays complex data in a simple format, allowing agencies to visualize relationships, trends, and patterns of criminal activity and uncover investigative insights.",
+        "desc": "Generate a wide variety of charts and graphs to create a comprehensive picture of crime. Charts and graphs display complex data in a simple format, allowing agencies to visualize relationships, trends, and patterns of criminal activity and uncover investigative insights.",
         "list": [
           "CFS classification & crime type",
           "Timeline of crime data",
