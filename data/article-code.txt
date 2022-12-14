@@ -1,0 +1,21 @@
+<!-- Next line -->
+<br><br>
+
+<!-- Title -->
+<h3>Searching for a Fully Integrated Solution</h3>
+
+<!-- Image -->
+<div class='img-area'><img src='../images/news/news-2022-0622-1.jpg' style='max-width: 100%' /><p>NHSP Communication Center CAD Stations</p></div>
+
+<!-- Testimonial -->
+<blockquote> <p> CSI has been very accommodating working in concert with the NHSP team to configure our RMS and MDT platforms to match our unique agency needs and continue to refine the platform and work as a cohesive team on future phases of the project. </p> <footer><b>Captain Vic Muzzy</b><br />New Hampshire State Police</footer> </blockquote>
+
+<!-- Link -->
+<a href='/capabilities/data-migration' class='primary-link'>data conversion service</a>
+
+<!-- Items -->
+<ul>
+  <li>Paperless reporting with electronic signatures</li>
+  <li>Report, document, and permit management</li>
+  <li>Customizable inspection worksheets/checklists</li>
+</ul>

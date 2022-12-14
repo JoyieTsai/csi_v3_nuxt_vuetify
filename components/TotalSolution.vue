@@ -36,7 +36,7 @@
             CSI solutions are powered by the
             <a href="/capabilities/infoshare-engine" class="white-link"
               >InfoShare Engine®</a
-            >, a low-code development platform for government ERP application.
+            >, a low-code development platform for government ERP applications.
             Our complete solution provides seamless integration, scalability,
             and adaptability across all product lines.
           </div>

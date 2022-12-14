@@ -34,18 +34,7 @@
             <div class="tw-flex tw-flex-col">
               <span :class="['tabicon', cate.icon]"></span>
               <div
-                class="
-                  tw-text-sm
-                  lg:tw-text-base
-                  xl:tw-text-lg
-                  2xl:tw-text-xl
-                  tw-font-semibold
-                  tw-my-3
-                  tw-capitalize
-                  tw-tracking-wide
-                  tw-hidden
-                  sm:tw-block
-                "
+                class="tw-text-sm lg:tw-text-base xl:tw-text-lg 2xl:tw-text-xl tw-font-semibold tw-my-3 tw-capitalize tw-tracking-wide tw-hidden sm:tw-block"
               >
                 {{ cate.name }}
               </div>
@@ -71,17 +60,7 @@
               <v-tab
                 v-for="(item, k) in cate.items"
                 :key="k"
-                class="
-                  tw-w-max
-                  lg:tw-w-72
-                  xl:tw-w-80
-                  2xl:tw-w-96
-                  tab-btn
-                  tw-text-sm
-                  lg:tw-text-base
-                  xl:tw-text-lg
-                  tw-normal-case
-                "
+                class="tw-w-max lg:tw-w-72 xl:tw-w-80 2xl:tw-w-96 tab-btn tw-text-sm lg:tw-text-base xl:tw-text-lg tw-normal-case"
                 @click="gotoTab(k)"
               >
                 {{ item.title }}
@@ -94,11 +73,7 @@
                 >
                   <div :class="[cate.link.icon, 'tw-text-5xl']"></div>
                   <div
-                    class="
-                      tw-text-base tw-mt-2
-                      hover:tw-underline
-                      tw-text-center
-                    "
+                    class="tw-text-base tw-mt-2 hover:tw-underline tw-text-center"
                     v-html="cate.link.title"
                   ></div>
                 </a>
@@ -143,24 +118,17 @@
                     </swiper>
                   </div>
                   <div
-                    class="
-                      tw-mx-8
-                      lg:tw-mx-10
-                      tw-text-white tw-text-sm
-                      md:tw-text-base
-                      lg:tw-text-lg
-                      xl:tw-text-xl
-                    "
+                    class="tw-mx-8 lg:tw-mx-10 tw-text-white tw-text-sm md:tw-text-base lg:tw-text-lg xl:tw-text-xl"
                     v-html="item.desc"
                   ></div>
                   <div v-show="item.link" class="tw-text-center tw-mt-10">
-                    <button
-                      class="btn-lg btn-primary-inverse hover:tw-shadow-xl"
-                      html-type="submit"
-                      @click.prevent="routeTo(item.link)"
+                    <a
+                      class="btn-lg btn-primary-inverse hover:tw-shadow-xl tw-inline-block"
+                      target="_blank"
+                      :href="item.link"
                     >
                       Learn more
-                    </button>
+                    </a>
                   </div>
                 </div>
               </v-tab-item>

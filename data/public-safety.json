@@ -24,7 +24,7 @@
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Interoperability",
@@ -83,7 +83,7 @@
       },
       {
         "title": "Tactical Mapping",
-        "desc": "Multi-layer mapping with Google Maps and Bing. Dispatchers gain a tactical view of the city and dispatch area. Integration with third-party location services is also supported.",
+        "desc": "Multi-layer mapping with Google and Bing Maps. Dispatchers gain a tactical view of the city and dispatch area. Integration with third-party location services is also supported.",
         "list": [
           "Immediate display and centering",
           "Address verification by location or area",
@@ -101,7 +101,7 @@
           "Prominent cautions, alerts, and notifications",
           "Flags (address, gun permits, warrants)",
           "Medical and HazMat alerts",
-          "Visual information (floor maps, points of interest)",
+          "Visual information (floor plans, points of interest)",
           "Emergency contact information"
         ],
         "img": "cad-4.jpg"
@@ -126,7 +126,7 @@
           "Web-based and installed application architecture",
           "ESRI and other GIS shape file import wizard",
           "Audit logs for post-incident analysis",
-          "Multi-tiered, clustered, and replicate server environments"
+          "Multi-tiered and clustered server environments"
         ],
         "img": "cad-6.jpg"
       },
@@ -135,10 +135,10 @@
         "desc": "CSI Technology Group specializes in interfacing its solutions to a range of internal and external systems for added functionality. To overcome the information gap inherent in public safety, we leverage our technology to enable a high level of <a href='/capabilities/data-sharing' class='primary-link'>data sharing</a> across systems and jurisdictions.",
         "list": [
           "NCIC/DMV/NLETS interface",
-          "UCR/NIBRS interface",
-          "Messaging subsystems",
-          "Traffic cam interface",
-          "GIS mapping interface",
+          "CAD-to-CAD interface",
+          "Rapid SOS interface",
+          "GIS (ESRI ArcGIS/WTH) interface",
+          "Traffic Cam interface",
           "<a href='/capabilities/interfaces' class='primary-link'>And many more</a>"
         ],
         "img": "cad-7.jpg",
@@ -147,7 +147,7 @@
     ],
     "extending": [
       {
-        "title": "eTicket Gateway",
+        "title": "Citation Management",
         "icon": "eticket.svg",
         "desc": "Modernize the ticketing process with automated form filling and data capture following a simple swipe of the driver’s license.",
         "link": "public-safety/citation-management"
@@ -247,7 +247,7 @@
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare™ Engine</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare™ Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
@@ -330,10 +330,10 @@
         "desc": "CSI Technology Group has considerable experience in interfacing its solutions with internal and external systems to promote data sharing and exchange on multiple levels—local, regional, state, and federal.",
         "list": [
           "UCR/NIBRS interface",
-          "Live Scan interface",
-          "NJ MVC and NCIC interface",
-          "CLEAN interface",
-          "ALPR Search interface",
+          "NCIC/DMV interface",
+          "AFIS Live Scan interface",
+          "E911 (ANI/ALI) interface",
+          "GIS (ESRI ArcGIS/WTH) interface",
           "<a href='/capabilities/interfaces' class='primary-link'>And many more</a>"
         ],
         "img": "rms-6.jpg",
@@ -344,7 +344,8 @@
       {
         "title": "Evidence",
         "icon": "evidence.svg",
-        "desc": "Comprehensive evidence management across cases and agencies for evidence tracking and information sharing."
+        "desc": "Comprehensive evidence management across cases and agencies for evidence tracking and information sharing.",
+        "link": "public-safety/evidence"
       },
       {
         "title": "Permits and Licenses",
@@ -373,7 +374,7 @@
         "desc": "Link active and expired warrants plus relevant information to RMS records."
       },
       {
-        "title": "eTicket Gateway",
+        "title": "Citation Management",
         "icon": "eticket.svg",
         "desc": "Modernize the ticketing process with automated form filling and data capture following a simple  swipe of the driver’s license.",
         "link": "public-safety/citation-management"
@@ -403,7 +404,7 @@
         "title": "Crime Mapping",
         "icon": "mapping.svg",
         "desc": "Help agencies provide the public with information on the magnitude and trend of recent criminal activity by neighborhood.",
-        "link": ""
+        "link": "public-safety/analytics-crime-mapping"
       },
       {
         "title": "ABC",
@@ -516,7 +517,7 @@
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
@@ -593,7 +594,6 @@
         "list": [
           "NFIRS with validation and error reporting",
           "Field validation checks (mandatory fields, data type, format, range)",
-          "NFIRS & ePCR Mobile reporting",
           "Auto-route reports for approval",
           "Narrative and multimedia attachment functions",
           "User-definable fields and labels"
@@ -653,6 +653,16 @@
         "title": "Fire Inspection Billing Module",
         "icon": "fire_inspection.svg",
         "desc": "Maintain accounting and invoice/billing services for permits or inspections in the Fire Inspection Application."
+      },
+      {
+        "title": "NFIRS",
+        "icon": "nfirs.svg",
+        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
+      },
+      {
+        "title": "GIS (ESRI ArcGIS/WTH)",
+        "icon": "map.svg",
+        "desc": "Interface with GIS providers to maintain map layers, create geofiles, enable mobile navigation, and add real-time traffic mapping."
       }
     ],
     "relatedProducts": [

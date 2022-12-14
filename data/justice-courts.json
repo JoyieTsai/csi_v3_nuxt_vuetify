@@ -20,7 +20,7 @@
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "InfoShareEngine.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application. Various specialized modules enhance the capabilities of the eProsecution case and document management system. All applications and modules are unified under a single web-based system accessible via desktop and mobile platforms to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP applications. Various specialized modules enhance the capabilities of the eProsecution case and document management system. All applications and modules are unified under a single web-based system accessible via desktop and mobile platforms to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Integration",
@@ -106,7 +106,7 @@
           },
           {
             "title": "Nonfunctional Requirements",
-            "desc": "County Prosecution is powered by the <a href='/capabilities/infoshare-engine' class='white-link'>InfoShare Engine®</a>, a low-code development platform for government ERP application providing robust data encryption, stringent permission settings, cloud integration, configurable support files and business rules, streamlined reporting, template generation, and a whole suite of other features.",
+            "desc": "County Prosecution is powered by the <a href='/capabilities/infoshare-engine' class='white-link'>InfoShare Engine®</a>, a low-code development platform for government ERP applications providing robust data encryption, stringent permission settings, cloud integration, configurable support files and business rules, streamlined reporting, template generation, and a whole suite of other features.",
             "images": [
               "ca1-08-1.jpg",
               "ca1-08-2.jpg"

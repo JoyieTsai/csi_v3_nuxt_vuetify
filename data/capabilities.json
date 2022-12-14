@@ -302,7 +302,7 @@
     "relatedCapabilities": [
       {
         "title": "InfoShare Engine®",
-        "desc": "Low Code Development Platform for Government ERP Application",
+        "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
       },
@@ -488,7 +488,7 @@
       },
       {
         "title": "InfoShare Engine®",
-        "desc": "Low Code Development Platform for Government ERP Application",
+        "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
       },
@@ -507,7 +507,7 @@
     "icon": "mapping.svg",
     "coverImg": "mapping.png",
     "descHeading": "Integrated mapping capability for accurate location verification, real-time tracking, and better data analysis",
-    "descContent": "Interactive GIS mapping technology assist with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
+    "descContent": "Interactive GIS mapping technology assists with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
     "diagram": {
       "img": "mapping.jpg",
       "desc": "Mapping technology has a wide range of applications that facilitate better decision-making. Traditional systems without GIS assistance lack valuable location intelligence and data visualization. Mapping in InfoShare™ is used by a range of different products including CAD (incident location, unit recommendation, GPS, AVL), RMS (crime analysis, master location index), FIRE & EMS (unit monitoring, location information), and Analytics (heat mapping, multidimensional analysis), to name a few. "
@@ -588,7 +588,7 @@
       },
       {
         "title": "InfoShare Engine®",
-        "desc": "Low Code Development Platform for Government ERP Application",
+        "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
       },
@@ -682,7 +682,7 @@
     "relatedCapabilities": [
       {
         "title": "InfoShare Engine®",
-        "desc": "Low Code Development Platform for Government ERP Application",
+        "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
       },
@@ -804,7 +804,7 @@
     "relatedCapabilities": [
       {
         "title": "InfoShare Engine®",
-        "desc": "Low Code Development Platform for Government ERP Application",
+        "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
       },
@@ -902,7 +902,7 @@
     "relatedCapabilities": [
       {
         "title": "InfoShare Engine®",
-        "desc": "Low Code Development Platform for Government ERP Application",
+        "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
       },
@@ -923,7 +923,7 @@
   {
     "id": "infoshare-engine",
     "title": "InfoShare Engine®",
-    "subtitle": "Low Code Development Platform for Government ERP Application",
+    "subtitle": "Low Code Development Platform for Government ERP Applications",
     "icon": "engine.svg",
     "coverImg": "infoshare-engine.png",
     "descHeading": "Patented total solution software architecture for maximum integration",
@@ -1120,7 +1120,7 @@
     "relatedCapabilities": [
       {
         "title": "InfoShare Engine®",
-        "desc": "Low Code Development Platform for Government ERP Application",
+        "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
       },

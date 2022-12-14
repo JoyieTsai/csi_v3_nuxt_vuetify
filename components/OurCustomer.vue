@@ -17,11 +17,12 @@
             <p>
               Each agency is supported by a dedicated account manager and
               experienced engineering staff to handle any client request or
-              issue. We respond to calls for service on the same business day.
-              Our anticipated duration of the partnership is forever. That’s why
-              our technology is designed not only to meet an agency’s current
-              needs but also to address its future needs. Longevity is our
-              priority.
+              issue. Our dedicated professionals get to know the nuances and
+              unique functions related to each agency. We respond to calls for
+              service on the same business day. Our anticipated duration of the
+              partnership is forever. That’s why our technology is designed not
+              only to meet an agency’s current needs but also to address its
+              future needs. Longevity is our priority.
             </p>
           </div>
         </div>
@@ -103,93 +104,93 @@ export default {
 
   &-points {
     &--0 {
-      top: 120px;
-      left: 730px;
+      top: 110px;
+      left: 710px;
     }
     &--1 {
-      top: 175px;
-      left: 765px;
+      top: 160px;
+      left: 745px;
     }
     &--2 {
-      top: 170px;
-      left: 710px;
+      top: 175px;
+      left: 690px;
     }
     &--3 {
       top: 285px;
-      left: 725px;
+      left: 705px;
     }
     &--4 {
-      top: 315px;
+      top: 335px;
       left: 410px;
     }
     &--5 {
-      top: 325px;
+      top: 355px;
       left: 265px;
     }
     &--6 {
-      top: 215px;
-      left: 585px;
+      top: 225px;
+      left: 570px;
     }
     &--7 {
-      top: 110px;
-      left: 800px;
+      top: 90px;
+      left: 765px;
     }
     &--8 {
-      top: 225px;
-      left: 755px;
+      top: 206px;
+      left: 715px;
     }
     &--9 {
       top: 200px;
-      left: 750px;
+      left: 740px;
     }
     &--10 {
-      top: 90px;
-      left: 785px;
+      top: 73px;
+      left: 745px;
     }
     @media only screen and (max-width: $breakpoints-md) {
       &--0 {
-        top: 17%;
-        left: 84.5%;
+        top: 16.5%;
+        left: 85.5%;
       }
       &--1 {
-        top: 25%;
-        left: 88%;
+        top: 24.5%;
+        left: 89.5%;
       }
       &--2 {
-        top: 25%;
-        left: 82.5%;
+        top: 25.5%;
+        left: 84.5%;
       }
       &--3 {
-        top: 42%;
+        top: 44%;
         left: 82.5%;
       }
       &--4 {
-        top: 47%;
-        left: 47.5%;
+        top: 51.5%;
+        left: 48.5%;
       }
       &--5 {
-        top: 48%;
-        left: 30.5%;
+        top: 53.5%;
+        left: 31.5%;
       }
       &--6 {
-        top: 31%;
-        left: 67.5%;
+        top: 33.5%;
+        left: 69%;
       }
       &--7 {
-        top: 16%;
+        top: 13.5%;
         left: 92.5%;
       }
       &--8 {
-        top: 33%;
-        left: 86.5%;
-      }
-      &--9 {
-        top: 29%;
+        top: 31.5%;
         left: 86%;
       }
+      &--9 {
+        top: 29.5%;
+        left: 88.5%;
+      }
       &--10 {
-        top: 13%;
-        left: 91%;
+        top: 11%;
+        left: 89.5%;
       }
     }
   }

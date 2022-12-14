@@ -70,12 +70,12 @@
                   <v-list-item
                     v-for="(tab, k) in link.tabs"
                     :key="k"
-                    class="font-medium"
+                    class="font-medium tw-block"
                   >
                     <nuxt-link
                       v-if="tab.id && tab.id !== 'resource'"
                       :to="'/' + data.category + '/' + tab.id"
-                      class="text-base text-link tw-p-2"
+                      class="text-base text-link tw-p-2 tw-block"
                     >
                       <span v-if="tab.id === 'cad' || tab.id === 'rms'">
                         {{ tab.title }}
@@ -93,7 +93,7 @@
                     <nuxt-link
                       v-else
                       :to="'/' + data.category"
-                      class="text-base text-link tw-p-2"
+                      class="text-base text-link tw-p-2 tw-block"
                       >{{ tab.title }}</nuxt-link
                     >
                   </v-list-item>

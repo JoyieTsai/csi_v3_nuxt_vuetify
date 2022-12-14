@@ -76,7 +76,8 @@
         "list": [
           "Crime mapping",
           "Link analysis",
-          "Wildcard search"
+          "Wildcard search",
+          "Chart and Graph Generation"
         ],
         "img": "investigation-5.jpg"
       }

@@ -365,6 +365,10 @@ export default {
 
   ul {
     margin: 1.5em 0 1.5em 1.2em;
+
+    li {
+      margin-bottom: 0.75em;
+    }
   }
 
   p {
