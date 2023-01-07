@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/center_app</title>
-    <g id="duotone/center_app" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M37,83 L37,108 L12,108 L12,83 L37,83 Z M72,83 L72,108 L47,108 L47,83 L72,83 Z M107,83 L107,108 L82,108 L82,83 L107,83 Z M37,48 L37,73 L12,73 L12,48 L37,48 Z M107,48 L107,73 L82,73 L82,48 L107,48 Z M37,13 L37,38 L12,38 L12,13 L37,13 Z M72,13 L72,38 L47,38 L47,13 L72,13 Z M107,13 L107,38 L82,38 L82,13 L107,13 Z" id="Shape" fill="#0D63BA" fill-rule="nonzero" opacity="0.304460798"></path>
-        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="72 48 72 73 47 73 47 48"></polygon>
-    </g>
-</svg>

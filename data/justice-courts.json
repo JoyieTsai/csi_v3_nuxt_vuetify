@@ -693,7 +693,7 @@
     "subtitle": "Complete Case and Document Management Solution",
     "icon": "court.svg",
     "coverImg": "courts.png",
-    "brochure": "",
+    "brochure": "CSI_Courts.pdf",
     "descHeading": "Comprehensive case handling system from docketing to disposition",
     "descContent": "InfoShare™ Courts is a case and document management tool offering court staff a workflow-based case handling platform. Docketing, assignments, document handling, notifications, calendaring, and dispositions are all recorded clearly and conveniently. Online order generation and opinion publishing along with extensive search capabilities, reporting, notifications, and analytics are all built in.",
     "highlightVideo": "Courts_highlight.mp4",
@@ -807,7 +807,7 @@
     "subtitle": "Secure Portal for Electronic Case and Payment Handling",
     "icon": "efiling.svg",
     "coverImg": "courts_efiling.png",
-    "brochure": "",
+    "brochure": "CSI_Courts eFiling.pdf",
     "descHeading": "Process submitted cases, documents, communications, and filing fees electronically",
     "descContent": "Fully integrated with InfoShare™ Court Case Management, the Courts eFiling module provides an easy to use and convenient 24x7 system for filers of all case types. Carefully crafted to guide filers through case creation, supplemental document filing, attorney substitutions, and all aspects of today’s cases. Electronic notifications and communications are provided, and filing fees are handled through a secure online payment process.",
     "sysFeatures": [
@@ -923,7 +923,7 @@
     "subtitle": "Enforcing Good Attorney Standards",
     "icon": "attorney_ethics.svg",
     "coverImg": "attorney_ethics.png",
-    "brochure": "",
+    "brochure": "CSI_Attorney Ethics.pdf",
     "descHeading": "Full application suite to maintain ethical attorney behavior",
     "descContent": "In certain circumstances, attorney actions may be challenged by clients, and InfoShare™ Attorney Ethics provides a way of adjudicating these matters. For attorneys found to have contravened ethical practices, or to have committed felonies, disciplinary action can be taken. Additionally, fee disputes can be reviewed and settled. A random audit system reviews attorney accounting to make sure that client funds are managed properly.",
     "sysFeatures": [
@@ -1054,7 +1054,7 @@
     "subtitle": "Efficient Preparation and Delivery of Discovery Files",
     "icon": "ediscovery.svg",
     "coverImg": "e-discovery.png",
-    "brochure": "Discovery with Portal.pdf",
+    "brochure": "CSI_eDiscovery with Portal.pdf",
     "descHeading": "Reduce time spent on discovery preparation by up to 75%",
     "descContent": "A modern, paperless approach to creating, viewing, organizing, and delivering discovery files. Documents and other multimedia files including transcripts, documents, photos, audio, video, and reports are organized in discovery packages in one central, secure repository. With the eDiscovery Portal, registered attorneys can easily request and receive discovery packages.",
     "carousels": [
@@ -1117,7 +1117,7 @@
       }
     ],
     "quote": {
-      "content": "It’s not IF i can, it’s HOW i can"
+      "content": "It’s not IF I can, it’s HOW I can"
     }
   },
   {
@@ -1127,7 +1127,7 @@
     "subtitle": "Full Service Suite for Victim Advocates and Crime Victims",
     "icon": "vw.svg",
     "coverImg": "vw_portal.png",
-    "brochure": "VW Portal.pdf",
+    "brochure": "CSI_Victim Witness Suite with Portal.pdf",
     "descHeading": "Expedite services and communication for victims",
     "descContent": "The Victims of Crime Act (VOCA) of 1984 was established to ensure victims are treated with fairness, compassion, and respect. The Victim Witness Suite with Portal serves as an invaluable resource for Victim Advocates and Crime Victims. Benefits include helping monitor and manage advocate caseloads, meeting the needs of victims, educating victims of their rights, enhancing communication, complying with state and federal regulations, and many more. Ultimately, advocates spend less time on paperwork and more time focusing on victim support.",
     "sysFeatures": [
@@ -1240,7 +1240,7 @@
     "subtitle": "Integrated Interview Room A/V Recording Software",
     "icon": "info_recording.svg",
     "coverImg": "interview_recording.png",
-    "brochure": "InfoRecording.pdf",
+    "brochure": "CSI_Interview Recording.pdf",
     "descHeading": "Conduct remote interviews and store recordings directly in the case file",
     "descContent": "Equipped with comprehensive features for managing interview recordings, the application seamlessly integrates with InfoShare™ so recordings are stored directly in the case file after the interview is completed. The Windows-based application launches right from the user’s computer, requires no special housing/recording system, and is compatible with most HD cameras and high-quality synchronized audio. Live interviews can also be viewed from the web and from iOS-supported smartphones and tablets.",
     "sysFeatures": [
@@ -1318,7 +1318,7 @@
     "subtitle": "Transcription with Minimal Effort and Complete Integration",
     "icon": "online_trans.svg",
     "coverImg": "online_transcription_service.png",
-    "brochure": "InfoScrIbe.pdf",
+    "brochure": "CSI_Online transcription Service.pdf",
     "descHeading": "Save thousands of hours with automated audio and video transcriptions",
     "descContent": "Leverage the latest in AI technology to transcribe audio and video with minimal effort, reducing the amount of work in transcribing statements by at least 50%. Execute transcription processes directly from eDiscovery packages. Finished transcripts are reviewable, searchable, and linked to their corresponding case files.",
     "sysFeatures": [

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="120px" height="120px" viewBox="0 0 120 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>duotone/crash</title>
-    <g id="duotone/crash" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M69.7201044,12.9458313 L86.093,87 L107,87 L107,107.789615 L13,107.789615 L13,87 L33.906,87 L50.2798956,12.9458313 L69.7201044,12.9458313 Z M75.206,55.939 L42.255,66.748 L38.095,84.468 L78.788,71.198 L75.206,55.939 Z M66.946,16.4458313 L53.053,16.4458313 L48.273,41.111 L70.087,34.13 L66.946,16.4458313 Z" id="Combined-Shape" fill="#0D63BA" fill-rule="nonzero" opacity="0.3"></path>
-        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="79.591 74.618 41.62 87 82.498 87"></polygon>
-        <polygon id="Path" fill="#0D63BA" fill-rule="nonzero" points="70.889 37.549 47.341 45.085 43.192 62.757 74.403 52.52"></polygon>
-    </g>
-</svg>
