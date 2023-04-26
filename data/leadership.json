@@ -304,6 +304,30 @@
         "product": []
     },
     {
+        "name": "Michael Bernard",
+        "src": "michael.jpg",
+        "type": "Account Management",
+        "position": "Account Management Team",
+        "desc": "Mike joined the CSI team following a 25-year career in law enforcement, retiring as the Administrative Division Commander/Lieutenant for the Bedford, New Hampshire Police Department. In his career, Mike worked as a patrol officer, motorcycle officer, field training officer, patrol sergeant, patrol lieutenant and administrative lieutenant. In his last assignment, he was responsible for internal investigations, training, recruitment, highway safety grants, records division, communications, promotional processes, field training program, and community policing.<br><br>Mike served on the New Hampshire Police Association’s Board of Directors and President of the Bedford Police Association. Mike has a degree in criminal justice and is a certified C.R.A.S.E Instructor with Texas State University.  He lives in Bedford, NH with his family.",
+        "product": []
+    },
+    {
+        "name": "Keith McDermott",
+        "src": "keith.jpg",
+        "type": "Account Management",
+        "position": "Account Management Team",
+        "desc": "Prior to becoming a member of the CSI Team, Keith retired as Captain of the Internal Affairs Bureau after a 29-year career with the Wayne Township New Jersey Police Department.<br><br>Keith was a proactive patrol officer, member of the police marine squad and county rapid deployment team and was a first responder to the World Trade Center during the events of 9/11. He was promoted to the rank of Sergeant and supervised staff in multiple bureaus including patrol, investigations, and communications. Before his assignment with Internal Affairs, Keith commanded the communications center as Lieutenant and then the operations division as Captain. Keith managed Wayne Township's public safety CAD and RMS for most of his career.<br><br>Keith was a member of the Wayne Township Volunteer Fire Department for 30 years where he attained the rank of Chief and is a founding member of the Passaic County Emerald Society Pipes and Drums. Keith earned his bachelor's degree in marketing from Rutgers University, and lives in New Jersey with his wife and two daughters.",
+        "product": []
+    },
+    {
+        "name": "Christopher DeHagara",
+        "src": "chris.jpg",
+        "type": "Account Management",
+        "position": "Account Management Team",
+        "desc": "Chris joins the CSI team after serving 31 years with the East Orange Police Department, ultimately retiring as Lieutenant. He has over 12 years of experience as Narcotics Detective and has taken up numerous roles in law enforcement such as Commander of Criminal Investigations, Supervisor of Information Technology, Supervisor of Strategic Decision Support Center CompStat Unit, and Supervisor of the Evidence Unit.<br><br>While with the East Orange Police Department, he was the administrator over several systems, such as InfoShare, AVL, body cameras, and E-ticket. Chris’ expertise in a diverse range of systems allows him to better understand his users' visions and needs to streamline their communication and workflow efficiency.",
+        "product": []
+    },
+    {
         "name": "Dr. Henry Lee",
         "src": "henry-lee.png",
         "type": "Advisor",

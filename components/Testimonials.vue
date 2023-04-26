@@ -51,9 +51,8 @@
                         class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
                         {{ item.author }}
                     </div>
-                    <div
-                        class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60">
-                        {{ item.agency }}
+                    <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+                        v-html="item.agency">
                     </div>
                 </div>
             </swiper-slide>
@@ -66,7 +65,7 @@
             </div>
 
         </swiper>
-        <div class="tw-text-center tw-mt-10">
+        <div class="tw-flex tw-justify-center tw-mt-10">
             <nuxt-link class="btn-lg btn-primary hover:shadow-xl" to="/resources/testimonial">
                 Read More
             </nuxt-link>
@@ -142,7 +141,7 @@ export default {
 
 <style lang="scss">
 .swiper-wrapper {
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 .slick {
     &-list {

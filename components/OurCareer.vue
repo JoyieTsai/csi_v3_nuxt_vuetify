@@ -23,39 +23,19 @@
           </p>
         </div>
         <button
-          class="
-            tw-my-5
-            lg:tw-my-10 lg:tw-mb-0
-            btn-lg btn-primary
-            hover:tw-shadow-xl
-            tw-flex tw-mx-auto
-            lg:tw-ml-0
-          "
+          class="tw-my-5 lg:tw-my-10 lg:tw-mb-0 btn-lg btn-primary hover:tw-shadow-xl tw-flex tw-mx-auto lg:tw-ml-0"
           @click.prevent="routerTo('careers')"
         >
           View Career Opportunities
         </button>
       </div>
       <div
-        class="
-          tw-my-5
-          lg:tw-w-2/3 lg:tw-pl-16
-          tw-grid
-          sm:tw-grid-cols-2
-          lg:tw-grid-cols-3
-          tw-gap-4
-          md:tw-gap-6
-        "
+        class="tw-my-5 lg:tw-w-2/3 lg:tw-pl-16 tw-grid sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-4 md:tw-gap-6"
       >
         <div
           v-for="(career, i) in benefits"
           :key="i"
-          class="
-            tw-bg-white
-            shadow-1
-            tw-flex tw-flex-col tw-items-center tw-text-center tw-p-6
-            zoomin
-          "
+          class="tw-bg-white shadow-1 tw-flex tw-flex-col tw-items-center tw-text-center tw-p-6 zoomin"
         >
           <img
             :src="require('~/assets/duotone/' + career.icon)"
@@ -72,6 +52,22 @@
           </div>
         </div>
       </div>
+    </div>
+    <!-- Disclaimer -->
+    <hr class="my-5" />
+    <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70">
+      Computer Square, Inc. (d/b/a CSI Technology Group) is an Affirmative
+      Action and Equal Opportunity Employer. All qualified applicants will
+      receive consideration for employment without regard to race, color,
+      religion, sex, sexual orientation, gender identity, age, national origin,
+      or protected veteran status and will not be discriminated against on the
+      basis of disability.
+      <a
+        href="https://www.eeoc.gov/sites/default/files/2022-10/22-088_EEOC_KnowYourRights_10_20.pdf"
+        target="blank"
+        class="btn-link"
+        >“Know Your Rights: Workplace Discrimination is Illegal” poster.</a
+      >
     </div>
   </div>
 </template>

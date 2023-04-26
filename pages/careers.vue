@@ -17,12 +17,43 @@
           </div>
         </div>
       </div>
-      <div class="main-container tw-mx-auto tw-mt-10 xl:tw-mt-20">
-        <div class="tw-grid tw-gap-5 lg:tw-gap-10">
+      <div class="main-container tw-mx-auto">
+        <div class="tw-flex-col">
+          <div
+            v-if="$vuetify.breakpoint.mobile"
+            class="tw-text-sm tw-border-dotted tw-border-2 tw-p-2 tw-mb-5 tw-text-orange-400"
+          >
+            <!-- <img src="images/desktop.svg" alt="" class="tw-mb-5" /> -->
+            Note: The application form does not support mobile devices, please
+            access this page from desktop.
+
+            <div
+              class="tw-mt-3 btn-lg btn-primary tw-opacity-40 tw-text-center"
+            >
+              <img
+                src="images/arrow.svg"
+                alt=""
+                class="tw-inline tw-mr-2 tw-w-4"
+              />
+              Click to Apply
+            </div>
+          </div>
+          <div v-else class="tw-mb-16">
+            <a
+              class="tw-w-80 btn-xl btn-primary tw-shadow-xl tw-mx-auto"
+              href="https://genie.csitech.com/Include/External/EmploymentApplication.aspx"
+              target="_blank"
+            >
+              <img src="images/arrow.svg" alt="" class="tw-inline tw-mr-2" />
+              Click to Apply
+            </a>
+          </div>
+        </div>
+        <div class="tw-grid tw-gap-4 lg:tw-gap-8">
           <nuxt-link
             v-for="(data, i) in getJobs"
             :key="i"
-            class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-text-white tw-p-4 bg-primary"
+            class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-text-primary tw-py-3 tw-px-5 bg-primary btn-primary-inverse hover:tw-bg-slate-100"
             :to="'/job?id=' + data.id"
           >
             <div class="lg:tw-text-xl xl:tw-text-2xl tw-font-semibold">
@@ -43,17 +74,6 @@
         <div class="tw-my-14 xl:tw-my-28 tw-text-center">
           <div class="header-2 tw-font-semibold tw-mb-12">Benefits</div>
           <CSIBenefits />
-        </div>
-      </div>
-
-      <div class="bg-primary-light bg-contact-full">
-        <div class="main-container tw-mx-auto tw-py-10 xl:tw-py-20">
-          <div class="tw-w-4/5 lg:tw-w-2/3 tw-mx-auto">
-            <!-- Form -->
-            <JobForm>
-              <div slot="title">Apply Now</div>
-            </JobForm>
-          </div>
         </div>
       </div>
     </v-main>

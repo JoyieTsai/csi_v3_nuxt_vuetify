@@ -15,7 +15,10 @@
 
 <!-- Items -->
 <ul>
-  <li>Paperless reporting with electronic signatures</li>
-  <li>Report, document, and permit management</li>
-  <li>Customizable inspection worksheets/checklists</li>
+  <li>Modern, reliable, and future-proof system</li>
+  <li>County-wide data sharing with other agencies</li>
+  <li>Easy access to data with no duplicate entries</li>
+  <li>NIBRS reporting</li>
+  <li>Expert data conversion and interfacing services</li>
+  <li>And more</li>
 </ul>
