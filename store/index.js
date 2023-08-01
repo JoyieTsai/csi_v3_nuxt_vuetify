@@ -2,6 +2,7 @@ import axios from 'axios'
 
 export const state = () => ({
   articleList: [],
+  ourTeams: [],
   jobList: [],
   publicSafetyList: [],
   justiceCourtList: [],
@@ -26,6 +27,9 @@ export const mutations = {
   },
   setFilteredTag(state, payload) {
     state.filterTag = payload
+  },
+  setTeams(state, payload) {
+    state.ourTeams = payload
   },
   setCurrentPage(state, payload) {
     state.currentPage = payload
@@ -58,6 +62,14 @@ export const actions = {
     )
     const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
     commit('setArticles', payload)
+  },
+  async getTeams({ commit }) {
+    // For test use > articles-test.json
+    const api = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/leadership.json'
+    )
+    const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
+    commit('setTeams', payload)
   },
   changeFilteredType({ commit }, payload) {
     commit('setFilteredType', payload)

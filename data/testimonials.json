@@ -5,7 +5,7 @@
         "author": "Major Larry Williams, Commanding Officer",
         "logo": "NJ_roic.jpg",
         "agency": "New Jersey Regional Operations & Intelligence Center<br>New Jersey State Police",
-        "url": ""
+        "url": "Somerset-County-Sheriffs-Office-Modernizes-Records-Management-System-to-Support-County-Wide-Data-Sharing"
     },
     {
         "id": 1,
@@ -13,27 +13,16 @@
         "author": "Robert A. Baker, Sr., MBA, CFE, DRCC",
         "logo": "NJ_pd.jpg",
         "agency": "Jersey City Public Safety Communications & Information Technology",
-        "url": "Jersey-City-NJ-Public-Safety-Police-and-Fire-Departments-Implement-a-Unified-Total-Solution"
-    },
-    {
-        "id": 2,
-        "product": [
-            "CAD",
-            "RMS",
-            "Customer Service"
-        ],
-        "quote": "Our experience with the men and women of CSI has been nothing short of exceptional. The implementation of our statewide RMS & CAD project was seamless, and the customer service provided was always timely and on-point. We have found CSI to be professional, mission-focused, and true to their word. The New Hampshire State Police would highly recommend them to other law enforcement agencies looking to take their organization to the next level.",
-        "author": "Colonel Nathan A. Noyes",
-        "logo": "NH_pd.jpg",
-        "agency": "New Hampshire State Police",
-        "url": "New-Hampshire-State-Police-Working-Together-to-Build-an-Integrated-New-Hampshire-Centric-System"
+        "url": "Jersey-City-NJ-Public-Safety-Police-and-Fire-Departments-Implement-a-Unified-Total-Solution",
+        "highlight": true
     },
     {
         "id": 3,
         "quote": "The staff at CSI Technology Group has made the InfoShare™ transition incredibly easy from the start. They have worked with our department and town IT staff to ensure that every officer and dispatcher was properly trained prior to change over and the system was tailored to our needs. The support staff has been great, and the system is very user friendly.",
         "author": "Stanley Titterington, Administrative Lieutenant",
         "logo": "Harrison_pd.jpg",
-        "agency": "Harrison Police Department"
+        "agency": "Harrison Police Department",
+        "highlight": true
     },
     {
         "id": 4,
@@ -53,7 +42,8 @@
         "author": "Andrew Chiurazzi, Fire Official & Michael Valente, Chief Fire Inspector",
         "logo": "BPP_fd.jpg",
         "agency": "Palisades Park Bureau of Fire Prevention",
-        "url": "InfoShare-Fire-Inspection-Module-Paperless-Inspection-and-Report-Document-Management-System"
+        "url": "InfoShare-Fire-Inspection-Module-Paperless-Inspection-and-Report-Document-Management-System",
+        "highlight": true
     },
     {
         "id": 6,
@@ -78,7 +68,8 @@
         "author": "Captain Vic Muzzey",
         "logo": "NH_pd.jpg",
         "agency": "New Hampshire State Police",
-        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center"
+        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center",
+        "highlight": true
     },
     {
         "id": 8,
@@ -94,7 +85,8 @@
         "author": "OIC Lt. Christopher Prell",
         "logo": "IT_pd.jpg",
         "agency": "Independence Township Police Department",
-        "url": "A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes"
+        "url": "A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes",
+        "highlight": true
     },
     {
         "id": 10,
@@ -110,7 +102,8 @@
         "author": "Director Martin Pagliughi",
         "logo": "CapyMay_County.jpg",
         "agency": "Cape May County Office of Emergency Management",
-        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project/"
+        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project/",
+        "highlight": true
     },
     {
         "id": 12,
@@ -126,7 +119,8 @@
         "author": "Fire Chief Richard Motta",
         "logo": "Demarest_fd.jpg",
         "agency": "Demarest Fire Department",
-        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center"
+        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center",
+        "highlight": true
     },
     {
         "id": 14,
@@ -142,7 +136,8 @@
         "author": "Detective Lukashunas",
         "logo": "RB_pd.jpg",
         "agency": "Rockledge Borough Police Department",
-        "url": "Montgomery-County-Successfully-Deploys-a-Countywide-Law-Enforcement-Solution"
+        "url": "Montgomery-County-Successfully-Deploys-a-Countywide-Law-Enforcement-Solution",
+        "highlight": true
     },
     {
         "id": 16,
@@ -158,7 +153,8 @@
         "author": "Director Martin Pagliughi",
         "logo": "CapeMay_OEM.jpg",
         "agency": "Cape May County Office of Emergency Management",
-        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project"
+        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project",
+        "highlight": true
     },
     {
         "id": 18,
@@ -174,6 +170,32 @@
         "author": "Chief Thomas Wiliver",
         "logo": "Chester_pd.jpg",
         "agency": "Chester Police Department",
-        "url": "Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer"
+        "url": "Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer",
+        "highlight": true
+    },
+    {
+        "id": 20,
+        "quote": "In 2019, Hanover began to search for a replacement for our 20-year-old CAD/RMS system. Some of our requirements were simple: (1) connection to NH J-ONE, (2) cloud-based platform with remote access, and (3) connectivity to neighboring agencies and the NHSP. After reviewing several software packages, their costs, their features, and their functionality, we, in conjunction with the regional consortium, decided on a shared system utilizing CSI’s InfoShareTM platform... We’re excited to continue to grow our system with CSI in the future.",
+        "author": "E. Douglas Hackett",
+        "logo": "Hanover.jpg",
+        "agency": "Communications Coordinator<br>Hanover Police Department",
+        "url": "New-Hampshire-North-Country-Interoperability-Consortium-Creating-a-Fully-Interoperable-CAD-to-CAD-System"
+    },
+    {
+        "id": 21,
+        "quote": "As part of a large regional consortium, we serve multiple police, fire, and EMS agencies across four counties in two states. We went live a year ago and thousands of CFS have been processed in CAD, shared to a solid MDT platform, and processed in the RMS. CSI has met our expectations for our initial project and more. They invested in our future success by hiring five local people who are dedicated to our little, rural part of the country and are always available for not only any issue that may come up, but also to ensure development is based on actual field-user needs and experience. Support is immediate, and working relationships are built and maintained.",
+        "author": "Tom Andross",
+        "logo": "Grafton.jpg",
+        "agency": "Director of Communications<br>Grafton County Sheriff’s Department",
+        "url": "New-Hampshire-North-Country-Interoperability-Consortium-Creating-a-Fully-Interoperable-CAD-to-CAD-System",
+        "highlight": true
+    },
+    {
+        "id": 22,
+        "quote": "Our experience with CSI couldn’t have been more successful. From sales to training, CSI staff have been thorough, informative, and especially knowledgeable! The 2-week training was organized and extremely helpful, including their willingness to stay after hours to help those on later shifts. The greatest part is the client support. CSI believes in their product and supports it well. The communication between user and support is clear and timely. We would recommend this product to other agencies. No matter the size of the agency, you feel like a priority to them.",
+        "author": "Kara Baker",
+        "logo": "Lincoln.jpg",
+        "agency": "Lincoln Police Department",
+        "url": "New-Hampshire-North-Country-Interoperability-Consortium-Creating-a-Fully-Interoperable-CAD-to-CAD-System"
     }
 ]

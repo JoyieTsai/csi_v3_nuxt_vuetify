@@ -65,7 +65,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'CSI-V4.1-04262023',
+    dir: 'CSI-V4.5-07112023',
     routes: dynamicRoutes,
   },
 

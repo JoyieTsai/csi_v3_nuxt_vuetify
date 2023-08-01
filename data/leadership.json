@@ -1,337 +1,341 @@
-﻿[
-    {
-        "name": "William Yeh",
-        "src": "william.jpg",
-        "type": "Director",
-        "position": "President & CEO",
-        "desc": "William Yeh founded CSI Technology Group over thirty years ago to offer superior information technology to law enforcement, judiciary and regulatory government agencies. He has led the operations and strategic direction of his company to realize this vision and has successfully provided fully integrated, multi-jurisdictional information sharing systems for police and fire departments, homeland security, prosecutors and attorneys general offices, judiciary and other criminal justice organizations.<br><br> Mr. Yeh has partnered with forensic experts, law enforcement leaders and legal scholars to develop solutions that help these agencies fully utilize and share critical information across horizontal and vertical boundaries at all levels of government. He contributes to law enforcement technology forums and associations and brings the latest advances in technology, data sharing, communication and analysis to his clients.<br><br> “Our goal is to make society safer,” he explains, as he continues to guide CSI to be a company that makes a difference in the public safety and judicial communities."
-    },
-    {
-        "name": "Richard Norcross",
-        "src": "rich.jpg",
-        "type": "Director",
-        "position": "Executive Vice President",
-        "desc": "Prior to retirement from 25 years in law enforcement and joining CSI, Richard Norcross was the Commander of the Intelligence Services Team for the Camden County Prosecutor’s Office. Commander Norcross joined the Prosecutor’s Office after retiring from his Detective post at the Haddon Heights Police Department due to significant gunshot wounds sustained in the line of duty. Prior to that, he was a police officer with the National Park Boro Police Dept.<br><br> During his career, Rich has received numerous medals and commendations for law enforcement actions, including the prestigious New Jersey Gold Medal of Valor as well as the Combat Cross and Wounded in Combat Medal. Commander Norcross is the President of the East Coast Gang Investigator’s Association and has also served as a Policy Board Member & Secretary for the Mid Atlantic Great Lakes Organized Crime Law Enforcement Network (MAGLOCLEN). He is still a Trustee for the Camden County Detectives Association and is one of the founding members of the Police Intelligence Group of South Jersey.<br><br> Rich also volunteers to work with law enforcement professionals and their families in the aftermath of tragedies that have resulted in serious injury or death to officers.",
-        "product": [
-            "cad",
-            "rms",
-            "fire-ems",
-            "mobile-operations",
-            "personnel-scheduling",
-            "municipal-solutions",
-            "attorney-general",
-            "public-defender",
-            "municipal-attorney",
-            "investigation",
-            "intelligence",
-            "sar",
-            "fusion-center",
-            "analytics",
-            "alpr",
-            "global-search",
-            "major-incident-management",
-            "high-tech-crime",
-            "csi"
-        ]
-    },
-    {
-        "name": "Andrew Chang",
-        "src": "andrew.jpg",
-        "type": "Director",
-        "position": "Chief Operating Officer",
-        "desc": "Before being named as the Chief Operating Officer in July 2019, Mr. Yu-Chen (Andrew) Chang held the Division Administrator position in CSI’s Research & Development (R&D) Division.  This Division was organized and built under the direction and management of Mr. Chang.  The R&D Division has also been recognized and received numerous awards for its technological innovation.   The R&D Team plays a crucial role keeping our products at the forefront of the latest technology.  In addition, during Andrew’s leadership, the R&D Team acquired crucial patents for software technology in our targeted markets to maximize and secure the company’s core product value and benefits.<br><br>Andrew earned a Master’s Degree in electrical engineering from the University of Pennsylvania and the EMBA certification from National Taiwan University. Since joining CSI Technology Group in 2008, Andrew has consistently focused his career in the field of law enforcement and public safety technology.  He has held a number of positions ranging from software engineer, project manager, to Division Administrator. Going forward as the Chief Operating Officer of the company, he will continue to uphold the mission statement of our founder Mr. Yeh, “Our goal is to make society safer”."
-    },
-    {
-        "name": "Joshua Ottenberg",
-        "src": "josh.jpg",
-        "type": "Director",
-        "position": "Director - County/State Agency Division",
-        "desc": "A retired Assistant Prosecutor at the Camden County (NJ) Prosecutor’s Office, Joshua Ottenberg served in most of the major investigative and administrative roles of the Prosecutor’s Office during his twenty-five years of service there. His responsibilities included Acting Camden County Prosecutor(November, 2006 to July, 2008), First Assistant Prosecutor, Deputy First Assistant Prosecutor, Section Chief of the Homicide/SMASH unit, Police Legal Advisor, and Section Chief of the Major Crimes Unit.<br><br> Josh played a significant role in the development of the Camden County Intelligence Services Team, the Camden County Sexual Assault Nurse Examiner (SANE) program, and other major projects affecting county-wide law enforcement. He played a key role in developing a Pre-trial Services program within the county jail system to relieve jail overcrowding and served as a Policy Board member for the Mid-Atlantic Great Lakes Organized Crime Law Enforcement Network (MAGLOCLEN.) Mr. Ottenberg received his J.D. from McGeorge School of Law in Sacramento, California in 1985 and his Bachelor’s and Master’s degrees from the University of Chicago in 1981 and 1982, respectively.",
-        "product": [
-            "internal-affairs",
-            "municipal-solutions",
-            "county-prosecution",
-            "attorney-general",
-            "courts",
-            "courts-efiling",
-            "public-defender",
-            "attorney-ethics",
-            "municipal-attorney",
-            "ediscovery-with-portal",
-            "vw-portal",
-            "interview-recording",
-            "online-transcription-service",
-            "investigation",
-            "major-incident-management"
-        ]
-    },
-    {
-        "name": "Peter Ugalde",
-        "src": "peter.jpg",
-        "type": "Director",
-        "position": "Director - CAD/RMS Division",
-        "desc": "Prior to his retirement and joining CSI Technology Group, Captain Peter Ugalde was a 27 year law enforcement veteran of the Town of Dover Police Department in Dover, New Jersey. Captain Ugalde has served in various positions in the police department from police officer, detective, sergeant, lieutenant and captain. He also served as the executive officer, supervising both investigative and patrol functions of the Town of Dover Police Department. He obtained his Bachelor of Arts degree in Criminal Justice and a Masters Degree in Business Management from the College of Saint Elizabeth in Florham Park, New Jersey.<br><br> He is a graduate of the Federal Bureau of Investigations National Academy 238th Class and also a graduate of the State of New Jersey Certified Public Manager Course. He also holds various certifications in network support and administration from the Dover Business College located in Dover, New Jersey. He resides in Randolph, New Jersey with his wife and children.",
-        "product": [
-            "cad",
-            "rms",
-            "fire-ems",
-            "mobile-operations",
-            "citation-management",
-            "evidence",
-            "personnel-scheduling",
-            "warrant",
-            "analytics-crime-mapping"
-        ]
-    },
-    {
-        "name": "John A. Porter",
-        "src": "john-p.jpg",
-        "type": "Director",
-        "position": "Deputy Director – County/State Agency Division",
-        "desc": "Prior to joining the CSI Technology Group, John Porter served a 25-year law enforcement career that included four years in local law enforcement with the Deptford Township (NJ) Police Department and twenty-one years with the Gloucester County (NJ) Prosecutor’s Office where he retired as Chief of County Investigators.<br><br> During his career with the Prosecutor’s Office, John was assigned to the Major Crimes and Special Investigations Units before becoming part of the agency’s command staff.<br><br> As Chief of County Investigators, he headed the Investigation Division where he oversaw criminal investigations, policy development and implementation, internal affairs investigations, agency accreditation, and managed critical incident scenes as the on-scene supervisor of the Gloucester County SWAT Team.  John received his undergraduate degree in Public Administration from Fairleigh Dickinson University and resides in Mantua, New Jersey with his wife and two children.",
-        "product": [
-            "internal-affairs",
-            "county-prosecution",
-            "attorney-general",
-            "public-defender",
-            "interview-recording",
-            "online-transcription-service",
-            "investigation"
-        ]
-    },
-    {
-        "name": "Thomas H. Koundry",
-        "src": "thomas.jpg",
-        "type": "Director",
-        "position": "Deputy Director – CAD/RMS Division",
-        "desc": "Thomas Koundry joins CSI Technology Group with over thirty years of experience in law enforcement and operations. He has experience in leadership roles, in directing and training of law enforcement and civilian personnel.<br><br>Most recently, Thomas Koundry served as Chief of Staff for the Union County Prosecutor’s Office. Prior to that, he attained the rank of Deputy Chief at the East Orange Police Department.<br><br>During his tenure at the Union County Prosecutor’s Office, Tom’s duties included financial and asset management, police agency liaison, which included regular interfacing with 26 municipal and state law enforcement agencies, Infoshare and Evidence.com county-wide administrator. Tom also served as Interim Director of Union County Prosecutor’s Forensic Laboratory.<br><br>In 2014, Tom took on the lead role in managing a project that integrated UCPO case management, document management and all prosecution functionality into the Infoshare system.<br><br>During his 26 years with the East Orange Police Department, Deputy Chief Koundry served in many positions in the police department from police officer, detective, sergeant, lieutenant, captain and inspector. Most notably, as the commander of the Violent Crimes Task force.<br><br>Tom also served as a volunteer Emergency Management Coordinator for the Township of Byram, where he lives.",
-        "product": [
-            "cad",
-            "rms",
-            "fire-ems",
-            "mobile-operations",
-            "analytics-crime-mapping",
-            "csi"
-        ]
-    },
-    {
-        "name": "John Emmerson-Bolt",
-        "src": "john.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "With over 20 years in the Information Technology field before joining CSI, John Emmerson-Bolt’s diverse technical career has given him experience handling many aspects of software development, implementation and support. As a web developer, John developed and supported websites and software for various businesses.<br><br> John also has experience as a business analyst and software engineer, as well as a manager of new business development for several software firms. Well-versed in many IT roles, John brings his comprehensive IT experience to CSI as he supports key CSI projects for the New Jersey Judiciary.<br><br> John has implemented and supports the case and document management systems for the Supreme and Appellate courts, including the electronic filing component. He holds a BA degree from the University of East Anglia in Norwich, England.",
-        "product": [
-            "courts",
-            "courts-efiling",
-            "attorney-ethics"
-        ]
-    },
-    {
-        "name": "James Parent",
-        "src": "james.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Jim brings over 26 years of law enforcement experience to CSI. Twenty-five years of his extensive career of conducting and managing criminal investigations was spent at the Cumberland County Prosecutor’s Office (CCPO). He retired as Captain of Detectives, the executive officer overseeing all the investigative divisions within the office. A key player in the Major Crimes and Narcotics Units for over 20 years, he worked closely with federal, state and local agencies to solve crimes within the county.<br><br> While serving at the CCPO, he managed their InfoShare™ Records Management database. His knowledge of using InfoShare™ products from a police officer and prosecutor’s office perspective gives him a keen understanding of his users’ needs and goals, as he helps them benefit from using InfoShare™ to enhance their workflow and save resources. Jim is a graduate of the FBI National Academy class #236 and is an active member of the New Jersey Chapter of the FBINAA. He received his undergraduate degree in Sociology from Catawba College in Salisbury, North Carolina and makes his home in Millville, New Jersey, with his wife and three kids.",
-        "product": [
-            "county-prosecution",
-            "interview-recording",
-            "online-transcription-service"
-        ]
-    },
-    {
-        "name": "John P. Denmark",
-        "src": "john-denmark.jpg",
-        "type": "Product Management",
-        "position": "Product Management Team",
-        "desc": "Prior to joining CSI Technology Group, Sr. Investigator John P. Denmark retired from the Camden County (NJ) Prosecutor’s Office after a 25-year law enforcement career that included thirteen years with the Prosecutor’s Office in 2012 and twelve years in local and campus law enforcement with the Woodbury (NJ) Police Department and the Rutgers University Police (Camden Division). While serving at the Camden County Prosecutor’s Office, Sr. Investigator Denmark was assigned to the Crime Scene Unit for over eleven years.<br><br>In addition to his Crime Scene responsibilities, Denmark established countywide services for analog and digital surveillance videos. In recognition, Sr. Investigator Denmark received numerous awards and commendations for his crime scene work as well as his contributions related to audio and video services. His investigations have resulted in numerous court appearances involving crime scene and video testimony. The technical services initiated by Denmark have been continued after his retirement by the CCPO High Tech Crimes Unit. John received his undergraduate degree in Computer Science in 1995 from Rutgers, The State University of New Jersey, Camden Campus. He resides in South Jersey with his wife.",
-        "product": [
-            "mobile-operations",
-            "evidence"
-        ]
-    },
-    {
-        "name": "Kimberly Mikell Petty",
-        "src": "kim.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Kim started her 27-year law enforcement career as a dispatcher for the Phillipsburg Police Department. After two years there, she then went on to serve the Somerset County Prosecutor’s Office (SCPO), first in the Intelligence Unit and then as a systems manager. Kim worked with the prosecutor, attorneys and investigative staff to implement policies and procedures that improved office operations.<br><br> She led the training and deployment of InfoShare™ modules and saw first- hand how InfoShare™ products supported the efficiency and productivity initiatives that she and SCPO management were working to implement. Retiring after serving 25 years with the SCPO, Kim brings her expertise to CSI, and now shares her knowledge and experience with prosecutors’ offices and police departments across New Jersey.",
-        "product": [
-            "county-prosecution",
-            "ediscovery-with-portal",
-            "vw-portal"
-        ]
-    },
-    {
-        "name": "Matthew Edwards",
-        "src": "matt.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "After serving 25 years with the Morristown Police Department, Matt retired as a lieutenant and brought his experience and knowledge of police records management to CSI. His extensive law enforcement background covered work in criminal investigations, legal considerations and emergency response services. He was a records management expert and a technology leader within the police department, spearheading a new database implementation and developing policies, procedures and strategies for records management protocols, the analysis of data retention and securing confidential data. <br><br>This first-hand knowledge of records management leadership within a police department provides Matt a keen insight to support his CSI clients’ requirements. He now leads the implementation of many of CSI’s regional and local police records management system deployments.",
-        "product": [
-            "personnel-scheduling"
-        ]
-    },
-    {
-        "name": "Steven J. LaPorta",
-        "src": "steve.jpg",
-        "type": "Product Management",
-        "position": "Product Management Team",
-        "desc": "Sergeant Steve LaPorta retired from the Gloucester County Prosecutor’s Office, where one of his assignments was to be the Infoshare™ System Administrator. His career spans twenty-five years of law enforcement experience, from crash reconstruction to crime scene investigations and forensics. Serving in the Clayton and the Franklin Township Police Departments, he has experience as a detective, patrol officer, a D.A.R.E. instructor, supervisor and special officer and has been assigned to the New Jersey State Police Internet Crimes Against Children Task Force, the US Secret Service Philadelphia Area Electronic Crimes Task Force and the FBI’s Child Exploitation Task Force, just to name a few. He was also the Logistics Coordinator for the Gloucester County Prosecutor’s Office Swat Team.<br><br> Steve continues to serve as a volunteer fire fighter for the Minotola Fire Department, where he lives. Over the years, Steve has shared his vast experiences with others as a presenter, instructor and lecturer. He was also a member of the Gloucester County Prosecutor’s Office Speaker’s Bureau. Steve holds a BA in Public Administration from Fairleigh Dickinson University and Masters in Human Resource Training and Development from Seton Hall. He continues to serve the public safety sector as he calls upon his vast law enforcement experience and InfoShare™ expertise to help his clients use CSI products effectively and increase their efficiency on the job.",
-        "product": [
-            "fire-ems",
-            "municipal-solutions",
-            "high-tech-crime"
-        ]
-    },
-    {
-        "name": "Russell D. Christiana",
-        "src": "russ.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Russ Christiana comes to CSI after 16 years of service with the Bergen County Prosecutor’s Office (BCPO), where he was an avid user of InfoShare™ products to support his work. During his tenure at the BCPO, he served in the Special Victims Unit, the Recruit Police Training Unit and the Major Crimes Unit. He assisted in over 100 homicide investigations and conducted over 50 crime scene investigations. He was dedicated to serving victims of sex crimes and child abuse cases, working cooperatively with Sexual Assault Nurse Examiner (SANE) professionals and counselors of Rape Crisis, the Division of Youth and Family Services and Victim/Witness Advocates.<br><br> He conducted hundreds of interviews of victims, suspects and witnesses, conducted crime scene investigations and testified in numerous high profile homicide and SVU cases in the NJ Superior Court. Through his investigative work, he relied heavily on InfoShare™ products, utilizing InfoShare™ RMS to record and track his cases and the InfoShare™ Major Incident Module (MIM) in complex cases and other high profile investigations. He rose to be the Commanding Officer of all Investigations in the Major Crimes Unit and in the Special Victims Unit. As Russ well knows the value of InfoShare™ products to support all types of police and investigative work, he is happy to join our team and help others learn to use these products in their agencies to make their jobs more efficient and effective.",
-        "product": [
-            "citation-management",
-            "warrant"
-        ]
-    },
-    {
-        "name": "Tom Kenny",
-        "src": "tom.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "With over 25 years in the commercial software industry before joining CSI, for the last 12 years, Tom Kenny worked at a law enforcement records management software provider in Pennsylvania. As a manager in the software provider, Tom has extensive experience in application support, training, product development, sales support and sales. He also has successful history of building and maintaining customer satisfaction and collaborative relationships.<br><br> Also, Tom used to play a key role in a small team, which provides software support to over 500 clients via phone and email.  Well-versed in many roles, such as customer relations, application support, customer support manager, Tom brings his comprehensive experience to CSI as he supports key CSI projects to customers in Pennsylvania. Tom received his undergraduate degree major in Criminal Justice from LaSalle College, Philadelphia, PA. ",
-        "product": [
-            "evidence"
-        ]
-    },
-    {
-        "name": "Gregory Ferry",
-        "src": "gregory.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Greg joined the CSI Team following a 25-year career with the New Hampshire State Police where he retired as a Captain-Field Area Commander, overseeing multiple troop barracks as well as the Mobile Enforcement Team (MET), a specialized trained unit of troopers tasked with the enforcement of all threats and all hazards encountered throughout the state.<br><br>Greg began his career as an active road trooper, quickly gaining a reputation and skillset in the area of enhanced criminal enforcement while appropriately applying search and seizure laws. Greg was a K-9 handler for 14 years, working dual purpose patrol/narcotics detections dogs, gaining strong collaborative partnerships with his local, county, federal law enforcement partners as well as the State Fusion Center and HIDTA.  Additionally, he filled roles as an FTO, patrol sergeant, Assistant Troop Commander and Lieutenant- Troop Commander, prior to his promotion to Captain.<br><br>Greg served in the U.S. Army as a Military Police Officer after graduating high school, serving in Europe and in the Middle East. He went on to earn his BA in Criminology from the University of Southern Maine. He has been actively involved with Special Olympics throughout his career. Greg lives in Hooksett, NH with his wife and 3 children.",
-        "product": [
-            "cad",
-            "rms"
-        ]
-    },
-    {
-        "name": "Jimmy Calderella",
-        "src": "jimmy.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Jimmy joins CSI Technology after more than 24 years with the New Jersey State Police where he served in assignments from road duty, where he proudly spent six years patrolling the New Jersey Turnpike, to eventually being administrator of the NJSP Confidential Source database and all of the Infoshare modules that the NJSP used including the Intelligence Module, iLog Module, and the Major Incident Module (MIM).<br><br>During the course of his career he gained experience being in the Casino Operation Unit, and  he worked narcotic and street gang investigations with Philadelphia/Camden High Intensity Drug Trafficking Area (PC HIDTA) where he was a monitor room supervisor on numerous wiretaps and used the Infoshare Intelligence Module.<br><br>Jimmy’s last assignment was at the Regional Operations Intelligence Center (ROIC), New Jersey’s fusion center, where he was a Detective Sergeant First Class, and Assistant Unit Head of the Information Sharing Unit. While at the ROIC, he was also assigned to various units, including the Intelligence Watch and Warning (IWW) Unit, that fields calls from law enforcement agencies around the world. As the Division's Duty Officer and the State's Watch Officer, he was responsible for monitoring all events that had a nexus to New Jersey.",
-        "product": [
-            "intelligence",
-            "sar",
-            "fusion-center",
-            "analytics",
-            "alpr",
-            "global-search"
-        ]
-    },
-    {
-        "name": "Gerald Dezenzo",
-        "src": "garry.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Gerald joined CSI’s team after almost 30 years of leadership experience in Hudson County law enforcement. A graduate of New York’s John Jay College of Criminal Justice, Gerald began his career with the Hudson County Prosecutor’s Office (HCPO) as an Investigator with the Narcotics Task Force, participating in both national and international investigations with the US Drug Enforcement Administration High Intensity Drug Trafficking Area (H.I.D.T.A) Task Force. Becoming proficient in the area of lawful intercepts and technical investigations, he was assigned as the Commander of the Computer and Technical Services Section and held responsibility for all data generated by the Prosecutors’ Office.<br><br> Under Gerald’s direction, the HCPO ushered in the era of digital photography, complying with the NJ Supreme Court ruling that required video recordation of certain crimes, document scanning and preservation. He led the advances from analog to digital in the telephone intercept realm, expanded data intercept capabilities and designed and deployed a wireless infrastructure in Hudson County to support law enforcement efforts. Gerald was associated with the Communication Assistance for Law Enforcement Act (CALEA) state and local working group, under the auspices of the United States Federal Bureau of Investigation. He retired as Captain of Detectives, after having led many other projects for Hudson County Law Enforcement, including the New Jersey Data Exchange (NJDEx) in conjunction with the New Jersey State Office of Homeland Security (OHSP) and the OHSP Automatic License Plate Reader (ALPR) initiative, management of In-Court Detectives, Property and Evidence, Fugitive Task Force, communication infrastructure, Mobile Command Center operations and Administrative Services under the Chief of Investigations.",
-        "product": [
-            "intelligence",
-            "alpr"
-        ]
-    },
-    {
-        "name": "Scott Plumer",
-        "src": "scott.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Scott joined the CSI team following a 26-year career in law enforcement retiring as the Patrol Operations Division Commander for the Bedford, New Hampshire Police Department. In his career, he worked as a patrol officer, field training officer, detective, prosecutor, patrol sergeant, and as a lieutenant was the commander of the communications and records division. In his last assignment, he was responsible for leading and managing all police operations, the mountain bike and motorcycle units as well as officers assigned to the Southern New Hampshire Special Operations Unit. <br><br> Scott served in the United States Army and was deployed to Operation Joint Guard in Bosnia and Herzegovina in 1997-1998. His unit was responsible for public affairs in the headquarters located in Tuzla and Sarajevo. He has been an adjunct faculty instructor since 2009 at Great Bay Community College and since 2019 at Southern New Hampshire University in the Criminal Justice and Homeland Security programs. He has also been a member of the International Association of Approved Basketball Officials since 2003. Scott is also an active member of the New Hampshire Police Association Pipes and Drum as a tenor drummer. He lives in Bedford, NH with his wife Jill.",
-        "product": [
-            "citation-management"
-        ]
-    },
-    {
-        "name": "Arthur May",
-        "src": "arthur.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Arthur joined CSI Technology Group after over 31 years of experience with the Bergen County Prosecutor’s Office. For 17 years, Arthur was assigned to the Administration Section where he worked with Prosecutors and Detectives dealing with interviews, interrogations and confession statements relating to Homicide, Burglary, Sex Crimes and Arson offenses. Also part of his duties were the generating of Investigative Reports, Search Warrants and other Court Authorized Orders.<br><br>Arthur was transferred into the Bureau of Information Technology, Data Control Unit, over 14 years ago where his duties included the generating of Victim Witness Letters, Expungements and the Processing of Indictments and Accusations. During this time he became a Terminal Agency Coordinator (TAC) Officer certified by the New Jersey State Police.  As a result, he was tasked with handling all of the administrative CJIS duties.  He was also active with the Bergen County CJIS Control Group that consisted of all the Law Enforcement entities in Bergen County. <br><br>In 2011 Arthur became an Administrator for the InfoShare Records Management System for the Bergen County Prosecutor’s Office. He was responsible for the day to day operation of InfoShare, including the training of users,  the daily administration and system maintenance. He also provided administrative support, technical assistance and training for all 70 Law Enforcement Agencies located within Bergen County for the eScreening and Internal Affairs Modules.  His technological expertise and exceptional understanding of the InfoShare Product line make him an excellent addition to the CSI Team.",
-        "product": [
-            "citation-management"
-        ]
-    },
-    {
-        "name": "James V. DeHart III",
-        "src": "james-v.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Jim joins the CSI team after retiring from the Monroe Township Police Department after 27 years of service. He began his career at Monroe Township as a dispatcher. After being hired as a police officer, he served in the patrol division where he was also a field training officer, a bicycle patrol officer, and a supervisor. He also served as a terminal agency coordinator, court liaison officer, and he was part of the tactical entry team. He was also the Deputy Coordinator and Coordinator in the Emergency Management Division. Jim was promoted to the rank of Chief before retiring. <br><br> Jim continues to serve with the Williamstown Volunteer Fire Department where he has been a member for over 30 years. During his tenure with WFD, he has served in many positions including Chief of Department. He has instructed several disciplines to include law enforcement, fire, and emergency management. Jim has an AAS from Rowan College at Gloucester County, along with a BA and MAS from Fairleigh Dickinson University. He is also a Certified Public Manager through Rutgers University. He continues to serve the public safety community using his education, training, and experience to help his clients use CSI’s products effectively and efficiently.",
-        "product": [
-            "citation-management"
-        ]
-    },
-    {
-        "name": "Richard Nilsen",
-        "src": "rich-nilsen.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Prior to his retirement and joining CSI, Richard Nilsen served the citizens of Montgomery County, Pennsylvania for thirty-five years. He most recently served with the Montgomery County District Attorney’s Office where, after serving eleven years in the Homicide Unit, he was promoted to Detective Lieutenant and given command of the agency’s Forensic Services Unit. He was responsible for several major projects, including overhaul of the Detective Bureau’s policy manual, drafting of the Officer Involved Shooting Protocol, and establishment of the Bureau’s Rapid DNA program. <br><br>Prior to working with the District Attorney’s Office, Lt. Nilsen served twelve years with the Lower Merion Township Police Department. His assignments included Patrolman, Field Training Officer, Platoon Investigator, SWAT team member, and Detective. During his time with Lower Merion, Lt. Nilsen earned his law degree and was sworn as a Special Assistant District Attorney. He frequently was detached from the police department to work in the District Attorney’s Office. <br><br>Lt. Nilsen obtained his undergraduate and graduate degrees from Villanova University and his law degree from Widener University School of Law. He is also a graduate of Northwestern University’s School of Police Staff and Command.",
-        "product": []
-    },
-    {
-        "name": "Brian D. Womer",
-        "src": "brian.jpg",
-        "type": "Director",
-        "position": "Special Assistant to the EVP",
-        "desc": "Brian Womer joins the CSI Technology Group team with nearly 40 years in the IT field serving the Technical, Financial, and Government sectors. <br><br> Prior to joining CSI, Brian Womer served over 25 years with the New Jersey Department of Law and Public Safety in several capacities, most recently as the Deputy Director of IT. In this role, he led the Project Management and Software Development teams to deploy large scale enterprise solutions for the Department. <br><br>Brian has extensive knowledge with projects scaled to meet State Government needs as well as hands on experience with networking, software development, and project management. He has a comprehensive background regarding information and procedures for the handling of Mass Casualty events. <br><br>In 2016, Brian was awarded the ‘Solutions Award’ from The Public Safety Technology Institute and the New Jersey Office of Information Technology for his work on the state-wide Alcoholic Beverage Control Licensing System.",
-        "product": []
-    },
-    {
-        "name": "Paul Genovese",
-        "src": "paul.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Paul joins the CSI team following a 32-year career in law enforcement retiring as the Administrative Bureau Commander for the City of Bridgeton Police Department. He has experience in leadership roles, in directing and training law enforcement and civilian personnel, and in police department operations. <br><br>During his time at the Bridgeton Police Department, Paul’s duties included implementation and administration of the InfoShare™ RMS/CAD systems, development of department policy & procedure, training employees on best practices and protocols, police academy instructor, certified crime analyst, and liaison to the Cumberland County Prosecutor’s Office Intelligence Unit and Entry Team Commander.<br><br>Paul will utilize his years of training and experience to assist clients in using CSI’s products effectively and efficiently.",
-        "product": []
-    },
-    {
-        "name": "Sean Faherty",
-        "src": "sean.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Sean joins the CSI Team following a 25-year career in law enforcement with over 23 years with the New Hampshire State Police. While with the New Hampshire State Police, Sean served in multiple Troop barracks and with the State Police Aviation Unit. Sean was an instrumental part of the records management project from the onset. He was an active user with the InfoShare™ systems and has significant hands-on experience.<br><br>Sean began his career as an active road trooper in northern New Hampshire. After a number of years, he moved to the capital of the State to work within another Troop barracks. After 10 years at that Troop, Sean was transferred into the State Police Aviation Unit.  Throughout his career, Sean has fulfilled roles as a Field Training Officer, Drug Recognition Expert Instructor, Emergency Vehicle Operator Course Instructor, Tech Team Lead, HGN/FST Instructor, LIDAR Instructor, Certified Tactical Flight Officer, Stop Stick Instructor, Assistant Project Manager – Records Management and a Body Camera Project Lead. He concluded his career as the Assistant Unit Commander for the State Police Aviation Unit.<br><br>Sean also served as a Marine in the United State Marine Corp – Reserves. He is an active professional photographer, living in Concord, NH with his wife and 2 children.",
-        "product": []
-    },
-    {
-        "name": "Michael Bernard",
-        "src": "michael.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Mike joined the CSI team following a 25-year career in law enforcement, retiring as the Administrative Division Commander/Lieutenant for the Bedford, New Hampshire Police Department. In his career, Mike worked as a patrol officer, motorcycle officer, field training officer, patrol sergeant, patrol lieutenant and administrative lieutenant. In his last assignment, he was responsible for internal investigations, training, recruitment, highway safety grants, records division, communications, promotional processes, field training program, and community policing.<br><br>Mike served on the New Hampshire Police Association’s Board of Directors and President of the Bedford Police Association. Mike has a degree in criminal justice and is a certified C.R.A.S.E Instructor with Texas State University.  He lives in Bedford, NH with his family.",
-        "product": []
-    },
-    {
-        "name": "Keith McDermott",
-        "src": "keith.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Prior to becoming a member of the CSI Team, Keith retired as Captain of the Internal Affairs Bureau after a 29-year career with the Wayne Township New Jersey Police Department.<br><br>Keith was a proactive patrol officer, member of the police marine squad and county rapid deployment team and was a first responder to the World Trade Center during the events of 9/11. He was promoted to the rank of Sergeant and supervised staff in multiple bureaus including patrol, investigations, and communications. Before his assignment with Internal Affairs, Keith commanded the communications center as Lieutenant and then the operations division as Captain. Keith managed Wayne Township's public safety CAD and RMS for most of his career.<br><br>Keith was a member of the Wayne Township Volunteer Fire Department for 30 years where he attained the rank of Chief and is a founding member of the Passaic County Emerald Society Pipes and Drums. Keith earned his bachelor's degree in marketing from Rutgers University, and lives in New Jersey with his wife and two daughters.",
-        "product": []
-    },
-    {
-        "name": "Christopher DeHagara",
-        "src": "chris.jpg",
-        "type": "Account Management",
-        "position": "Account Management Team",
-        "desc": "Chris joins the CSI team after serving 31 years with the East Orange Police Department, ultimately retiring as Lieutenant. He has over 12 years of experience as Narcotics Detective and has taken up numerous roles in law enforcement such as Commander of Criminal Investigations, Supervisor of Information Technology, Supervisor of Strategic Decision Support Center CompStat Unit, and Supervisor of the Evidence Unit.<br><br>While with the East Orange Police Department, he was the administrator over several systems, such as InfoShare, AVL, body cameras, and E-ticket. Chris’ expertise in a diverse range of systems allows him to better understand his users' visions and needs to streamline their communication and workflow efficiency.",
-        "product": []
-    },
-    {
-        "name": "Dr. Henry Lee",
-        "src": "henry-lee.png",
-        "type": "Advisor",
-        "position": "Former Commissioner of Public Safety, State of Connecticut",
-        "desc": "Dr. Henry C. Lee, former Commissioner and Lab Chief of the Department of Public Safety for the State of Connecticut, is currently a distinguished professor at the University of New Haven, Chief Emeritus of Forensic Science Services of Connecticut, and the Director of the Institute of Forensic Research and Training Center.<br><br> Dr. Lee came to national prominence as an expert witness during the O.J. Simpson trial. He has assisted law enforcement agencies throughout the US and abroad on special missions. A graduate of John Jay College of Criminal Justice, Dr. Lee also received a doctorate in biochemistry from New York University.<br><br> He has also been awarded honorary doctoral degrees from Bridgeport University, the University of New Haven, St. Joseph's College, and William College Law School. Dr. Lee resides in Branford, Connecticut and his office is located at the University of New Haven. You can contact Dr. Lee at <a href='http://www.henryleeinstitute.com' target='_blank' class='primary-link'>www.henryleeinstitute.com</a>."
-    }
+[
+  {
+    "id": 1,
+    "name": "William Yeh",
+    "src": "william.jpg",
+    "type": "Director",
+    "position": "President & CEO",
+    "desc": "William Yeh founded CSI Technology Group over thirty years ago to offer superior information technology to law enforcement, judiciary and regulatory government agencies. He has led the operations and strategic direction of his company to realize this vision and has successfully provided fully integrated, multi-jurisdictional information sharing systems for police and fire departments, homeland security, prosecutors and attorneys general offices, judiciary and other criminal justice organizations.<br><br> Mr. Yeh has partnered with forensic experts, law enforcement leaders and legal scholars to develop solutions that help these agencies fully utilize and share critical information across horizontal and vertical boundaries at all levels of government. He contributes to law enforcement technology forums and associations and brings the latest advances in technology, data sharing, communication and analysis to his clients.<br><br> “Our goal is to make society safer,” he explains, as he continues to guide CSI to be a company that makes a difference in the public safety and judicial communities."
+  },
+  {
+    "id": 2,
+    "name": "Richard Norcross",
+    "src": "rich.jpg",
+    "type": "Director",
+    "position": "Executive Vice President",
+    "desc": "Prior to retirement from 25 years in law enforcement and joining CSI, Richard Norcross was the Commander of the Intelligence Services Team for the Camden County Prosecutor’s Office. Commander Norcross joined the Prosecutor’s Office after retiring from his Detective post at the Haddon Heights Police Department due to significant gunshot wounds sustained in the line of duty. Prior to that, he was a police officer with the National Park Boro Police Dept.<br><br> During his career, Rich has received numerous medals and commendations for law enforcement actions, including the prestigious New Jersey Gold Medal of Valor as well as the Combat Cross and Wounded in Combat Medal. Commander Norcross is the President of the East Coast Gang Investigator’s Association and has also served as a Policy Board Member & Secretary for the Mid Atlantic Great Lakes Organized Crime Law Enforcement Network (MAGLOCLEN). He is still a Trustee for the Camden County Detectives Association and is one of the founding members of the Police Intelligence Group of South Jersey.<br><br> Rich also volunteers to work with law enforcement professionals and their families in the aftermath of tragedies that have resulted in serious injury or death to officers.",
+    "product": [
+      "cad",
+      "rms",
+      "fire-ems",
+      "mobile-operations",
+      "personnel-scheduling",
+      "municipal-solutions",
+      "attorney-general",
+      "public-defender",
+      "municipal-attorney",
+      "investigation",
+      "intelligence",
+      "sar",
+      "fusion-center",
+      "analytics",
+      "alpr",
+      "global-search",
+      "major-incident-management",
+      "high-tech-crime",
+      "csi"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Andrew Chang",
+    "src": "andrew.jpg",
+    "type": "Director",
+    "position": "Chief Operating Officer",
+    "desc": "Before being named as the Chief Operating Officer in July 2019, Mr. Yu-Chen (Andrew) Chang held the Division Administrator position in CSI’s Research & Development (R&D) Division.  This Division was organized and built under the direction and management of Mr. Chang.  The R&D Division has also been recognized and received numerous awards for its technological innovation.   The R&D Team plays a crucial role keeping our products at the forefront of the latest technology.  In addition, during Andrew’s leadership, the R&D Team acquired crucial patents for software technology in our targeted markets to maximize and secure the company’s core product value and benefits.<br><br>Andrew earned a Master’s Degree in electrical engineering from the University of Pennsylvania and the EMBA certification from National Taiwan University. Since joining CSI Technology Group in 2008, Andrew has consistently focused his career in the field of law enforcement and public safety technology.  He has held a number of positions ranging from software engineer, project manager, to Division Administrator. Going forward as the Chief Operating Officer of the company, he will continue to uphold the mission statement of our founder Mr. Yeh, “Our goal is to make society safer”."
+  },
+  {
+    "id": 4,
+    "name": "Joshua Ottenberg",
+    "src": "josh.jpg",
+    "type": "Director",
+    "position": "Director - County/State Agency Division",
+    "desc": "A retired Assistant Prosecutor at the Camden County (NJ) Prosecutor’s Office, Joshua Ottenberg served in most of the major investigative and administrative roles of the Prosecutor’s Office during his twenty-five years of service there. His responsibilities included Acting Camden County Prosecutor(November, 2006 to July, 2008), First Assistant Prosecutor, Deputy First Assistant Prosecutor, Section Chief of the Homicide/SMASH unit, Police Legal Advisor, and Section Chief of the Major Crimes Unit.<br><br> Josh played a significant role in the development of the Camden County Intelligence Services Team, the Camden County Sexual Assault Nurse Examiner (SANE) program, and other major projects affecting county-wide law enforcement. He played a key role in developing a Pre-trial Services program within the county jail system to relieve jail overcrowding and served as a Policy Board member for the Mid-Atlantic Great Lakes Organized Crime Law Enforcement Network (MAGLOCLEN.) Mr. Ottenberg received his J.D. from McGeorge School of Law in Sacramento, California in 1985 and his Bachelor’s and Master’s degrees from the University of Chicago in 1981 and 1982, respectively.",
+    "product": [
+      "internal-affairs",
+      "municipal-solutions",
+      "county-prosecution",
+      "attorney-general",
+      "courts",
+      "courts-efiling",
+      "public-defender",
+      "attorney-ethics",
+      "municipal-attorney",
+      "ediscovery-with-portal",
+      "vw-portal",
+      "interview-recording",
+      "online-transcription-service",
+      "investigation",
+      "major-incident-management"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Peter Ugalde",
+    "src": "peter.jpg",
+    "type": "Director",
+    "position": "Director - CAD/RMS Division",
+    "desc": "Prior to his retirement and joining CSI Technology Group, Captain Peter Ugalde was a 27 year law enforcement veteran of the Town of Dover Police Department in Dover, New Jersey. Captain Ugalde has served in various positions in the police department from police officer, detective, sergeant, lieutenant and captain. He also served as the executive officer, supervising both investigative and patrol functions of the Town of Dover Police Department. He obtained his Bachelor of Arts degree in Criminal Justice and a Masters Degree in Business Management from the College of Saint Elizabeth in Florham Park, New Jersey.<br><br> He is a graduate of the Federal Bureau of Investigations National Academy 238th Class and also a graduate of the State of New Jersey Certified Public Manager Course. He also holds various certifications in network support and administration from the Dover Business College located in Dover, New Jersey. He resides in Randolph, New Jersey with his wife and children.",
+    "product": [
+      "cad",
+      "rms",
+      "fire-ems",
+      "mobile-operations",
+      "citation-management",
+      "evidence",
+      "personnel-scheduling",
+      "warrant",
+      "analytics-crime-mapping"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Nathan Noyes",
+    "src": "nathan.jpg",
+    "type": "Director",
+    "position": "New England Regional Director",
+    "desc": "Prior to his retirement from a 22-year career in law enforcement and joining CSI, Nathan Noyes was the Colonel of the New Hampshire State Police. As Colonel, Nate was responsible for an agency of over 600 sworn and civilian personnel. He served as the Co-Director of the New Hampshire Information & Analysis Center, was responsible for the state’s only forensic laboratory, and oversaw all administrative, investigative, operational, and personnel matters for his entire organization. <br><br>Throughout his career, Nate held numerous positions of leadership. As State Police Director, he served as a board member for the Police Standards & Training Council, the New England State Police Information Network, the New England State Police Administrators Compact, and was the Chairman for the New England HIDTA.<br><br>Nate obtained his Bachelor’s degree in Political Science and Sociology from Quinnipiac University and his Master’s degree in Public Administration from the University of New Hampshire. He is also a graduate of the 274th Session of the Federal Bureau of Investigation’s National Academy and participated in the 45th Session of their National Executive Institute. Nate lives in New Hampshire with his wife and children."
+  },
+  {
+    "id": 6,
+    "name": "John A. Porter",
+    "src": "john-p.jpg",
+    "type": "Director",
+    "position": "Deputy Director – County/State Agency Division",
+    "desc": "Prior to joining the CSI Technology Group, John Porter served a 25-year law enforcement career that included four years in local law enforcement with the Deptford Township (NJ) Police Department and twenty-one years with the Gloucester County (NJ) Prosecutor’s Office where he retired as Chief of County Investigators.<br><br> During his career with the Prosecutor’s Office, John was assigned to the Major Crimes and Special Investigations Units before becoming part of the agency’s command staff.<br><br> As Chief of County Investigators, he headed the Investigation Division where he oversaw criminal investigations, policy development and implementation, internal affairs investigations, agency accreditation, and managed critical incident scenes as the on-scene supervisor of the Gloucester County SWAT Team.  John received his undergraduate degree in Public Administration from Fairleigh Dickinson University and resides in Mantua, New Jersey with his wife and two children.",
+    "product": [
+      "internal-affairs",
+      "county-prosecution",
+      "attorney-general",
+      "public-defender",
+      "interview-recording",
+      "online-transcription-service",
+      "investigation"
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Thomas H. Koundry",
+    "src": "thomas.jpg",
+    "type": "Director",
+    "position": "Deputy Director – CAD/RMS Division",
+    "desc": "Thomas Koundry joins CSI Technology Group with over thirty years of experience in law enforcement and operations. He has experience in leadership roles, in directing and training of law enforcement and civilian personnel.<br><br>Most recently, Thomas Koundry served as Chief of Staff for the Union County Prosecutor’s Office. Prior to that, he attained the rank of Deputy Chief at the East Orange Police Department.<br><br>During his tenure at the Union County Prosecutor’s Office, Tom’s duties included financial and asset management, police agency liaison, which included regular interfacing with 26 municipal and state law enforcement agencies, Infoshare and Evidence.com county-wide administrator. Tom also served as Interim Director of Union County Prosecutor’s Forensic Laboratory.<br><br>In 2014, Tom took on the lead role in managing a project that integrated UCPO case management, document management and all prosecution functionality into the Infoshare system.<br><br>During his 26 years with the East Orange Police Department, Deputy Chief Koundry served in many positions in the police department from police officer, detective, sergeant, lieutenant, captain and inspector. Most notably, as the commander of the Violent Crimes Task force.<br><br>Tom also served as a volunteer Emergency Management Coordinator for the Township of Byram, where he lives.",
+    "product": [
+      "cad",
+      "rms",
+      "fire-ems",
+      "mobile-operations",
+      "analytics-crime-mapping",
+      "csi"
+    ]
+  },
+  {
+    "id": 8,
+    "name": "John Emmerson-Bolt",
+    "src": "john.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "With over 20 years in the Information Technology field before joining CSI, John Emmerson-Bolt’s diverse technical career has given him experience handling many aspects of software development, implementation and support. As a web developer, John developed and supported websites and software for various businesses.<br><br> John also has experience as a business analyst and software engineer, as well as a manager of new business development for several software firms. Well-versed in many IT roles, John brings his comprehensive IT experience to CSI as he supports key CSI projects for the New Jersey Judiciary.<br><br> John has implemented and supports the case and document management systems for the Supreme and Appellate courts, including the electronic filing component. He holds a BA degree from the University of East Anglia in Norwich, England.",
+    "product": [
+      "courts",
+      "courts-efiling",
+      "attorney-ethics"
+    ]
+  },
+  {
+    "id": 9,
+    "name": "James Parent",
+    "src": "james.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Jim brings over 26 years of law enforcement experience to CSI. Twenty-five years of his extensive career of conducting and managing criminal investigations was spent at the Cumberland County Prosecutor’s Office (CCPO). He retired as Captain of Detectives, the executive officer overseeing all the investigative divisions within the office. A key player in the Major Crimes and Narcotics Units for over 20 years, he worked closely with federal, state and local agencies to solve crimes within the county.<br><br> While serving at the CCPO, he managed their InfoShare™ Records Management database. His knowledge of using InfoShare™ products from a police officer and prosecutor’s office perspective gives him a keen understanding of his users’ needs and goals, as he helps them benefit from using InfoShare™ to enhance their workflow and save resources. Jim is a graduate of the FBI National Academy class #236 and is an active member of the New Jersey Chapter of the FBINAA. He received his undergraduate degree in Sociology from Catawba College in Salisbury, North Carolina and makes his home in Millville, New Jersey, with his wife and three kids.",
+    "product": [
+      "county-prosecution",
+      "interview-recording",
+      "online-transcription-service"
+    ]
+  },
+  {
+    "id": 10,
+    "name": "John P. Denmark",
+    "src": "john-denmark.jpg",
+    "type": "Product Management",
+    "position": "Product Management Team",
+    "desc": "Prior to joining CSI Technology Group, Sr. Investigator John P. Denmark retired from the Camden County (NJ) Prosecutor’s Office after a 25-year law enforcement career that included thirteen years with the Prosecutor’s Office in 2012 and twelve years in local and campus law enforcement with the Woodbury (NJ) Police Department and the Rutgers University Police (Camden Division). While serving at the Camden County Prosecutor’s Office, Sr. Investigator Denmark was assigned to the Crime Scene Unit for over eleven years.<br><br>In addition to his Crime Scene responsibilities, Denmark established countywide services for analog and digital surveillance videos. In recognition, Sr. Investigator Denmark received numerous awards and commendations for his crime scene work as well as his contributions related to audio and video services. His investigations have resulted in numerous court appearances involving crime scene and video testimony. The technical services initiated by Denmark have been continued after his retirement by the CCPO High Tech Crimes Unit. John received his undergraduate degree in Computer Science in 1995 from Rutgers, The State University of New Jersey, Camden Campus. He resides in South Jersey with his wife.",
+    "product": [
+      "mobile-operations",
+      "evidence"
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Kimberly Mikell Petty",
+    "src": "kim.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Kim started her 27-year law enforcement career as a dispatcher for the Phillipsburg Police Department. After two years there, she then went on to serve the Somerset County Prosecutor’s Office (SCPO), first in the Intelligence Unit and then as a systems manager. Kim worked with the prosecutor, attorneys and investigative staff to implement policies and procedures that improved office operations.<br><br> She led the training and deployment of InfoShare™ modules and saw first- hand how InfoShare™ products supported the efficiency and productivity initiatives that she and SCPO management were working to implement. Retiring after serving 25 years with the SCPO, Kim brings her expertise to CSI, and now shares her knowledge and experience with prosecutors’ offices and police departments across New Jersey.",
+    "product": [
+      "county-prosecution",
+      "ediscovery-with-portal",
+      "vw-portal"
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Matthew Edwards",
+    "src": "matt.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "After serving 25 years with the Morristown Police Department, Matt retired as a lieutenant and brought his experience and knowledge of police records management to CSI. His extensive law enforcement background covered work in criminal investigations, legal considerations and emergency response services. He was a records management expert and a technology leader within the police department, spearheading a new database implementation and developing policies, procedures and strategies for records management protocols, the analysis of data retention and securing confidential data. <br><br>This first-hand knowledge of records management leadership within a police department provides Matt a keen insight to support his CSI clients’ requirements. He now leads the implementation of many of CSI’s regional and local police records management system deployments.",
+    "product": [
+      "personnel-scheduling"
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Steven J. LaPorta",
+    "src": "steve.jpg",
+    "type": "Product Management",
+    "position": "Product Management Team",
+    "desc": "Sergeant Steve LaPorta retired from the Gloucester County Prosecutor’s Office, where one of his assignments was to be the Infoshare™ System Administrator. His career spans twenty-five years of law enforcement experience, from crash reconstruction to crime scene investigations and forensics. Serving in the Clayton and the Franklin Township Police Departments, he has experience as a detective, patrol officer, a D.A.R.E. instructor, supervisor and special officer and has been assigned to the New Jersey State Police Internet Crimes Against Children Task Force, the US Secret Service Philadelphia Area Electronic Crimes Task Force and the FBI’s Child Exploitation Task Force, just to name a few. He was also the Logistics Coordinator for the Gloucester County Prosecutor’s Office Swat Team.<br><br> Steve continues to serve as a volunteer fire fighter for the Minotola Fire Department, where he lives. Over the years, Steve has shared his vast experiences with others as a presenter, instructor and lecturer. He was also a member of the Gloucester County Prosecutor’s Office Speaker’s Bureau. Steve holds a BA in Public Administration from Fairleigh Dickinson University and Masters in Human Resource Training and Development from Seton Hall. He continues to serve the public safety sector as he calls upon his vast law enforcement experience and InfoShare™ expertise to help his clients use CSI products effectively and increase their efficiency on the job.",
+    "product": [
+      "fire-ems",
+      "municipal-solutions",
+      "high-tech-crime"
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Russell D. Christiana",
+    "src": "russ.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Russ Christiana comes to CSI after 16 years of service with the Bergen County Prosecutor’s Office (BCPO), where he was an avid user of InfoShare™ products to support his work. During his tenure at the BCPO, he served in the Special Victims Unit, the Recruit Police Training Unit and the Major Crimes Unit. He assisted in over 100 homicide investigations and conducted over 50 crime scene investigations. He was dedicated to serving victims of sex crimes and child abuse cases, working cooperatively with Sexual Assault Nurse Examiner (SANE) professionals and counselors of Rape Crisis, the Division of Youth and Family Services and Victim/Witness Advocates.<br><br> He conducted hundreds of interviews of victims, suspects and witnesses, conducted crime scene investigations and testified in numerous high profile homicide and SVU cases in the NJ Superior Court. Through his investigative work, he relied heavily on InfoShare™ products, utilizing InfoShare™ RMS to record and track his cases and the InfoShare™ Major Incident Module (MIM) in complex cases and other high profile investigations. He rose to be the Commanding Officer of all Investigations in the Major Crimes Unit and in the Special Victims Unit. As Russ well knows the value of InfoShare™ products to support all types of police and investigative work, he is happy to join our team and help others learn to use these products in their agencies to make their jobs more efficient and effective.",
+    "product": [
+      "citation-management",
+      "warrant"
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Tom Kenny",
+    "src": "tom.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "With over 25 years in the commercial software industry before joining CSI, for the last 12 years, Tom Kenny worked at a law enforcement records management software provider in Pennsylvania. As a manager in the software provider, Tom has extensive experience in application support, training, product development, sales support and sales. He also has successful history of building and maintaining customer satisfaction and collaborative relationships.<br><br> Also, Tom used to play a key role in a small team, which provides software support to over 500 clients via phone and email.  Well-versed in many roles, such as customer relations, application support, customer support manager, Tom brings his comprehensive experience to CSI as he supports key CSI projects to customers in Pennsylvania. Tom received his undergraduate degree major in Criminal Justice from LaSalle College, Philadelphia, PA. ",
+    "product": [
+      "evidence"
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Gregory Ferry",
+    "src": "gregory.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Greg joined the CSI Team following a 25-year career with the New Hampshire State Police where he retired as a Captain-Field Area Commander, overseeing multiple troop barracks as well as the Mobile Enforcement Team (MET), a specialized trained unit of troopers tasked with the enforcement of all threats and all hazards encountered throughout the state.<br><br>Greg began his career as an active road trooper, quickly gaining a reputation and skillset in the area of enhanced criminal enforcement while appropriately applying search and seizure laws. Greg was a K-9 handler for 14 years, working dual purpose patrol/narcotics detections dogs, gaining strong collaborative partnerships with his local, county, federal law enforcement partners as well as the State Fusion Center and HIDTA.  Additionally, he filled roles as an FTO, patrol sergeant, Assistant Troop Commander and Lieutenant- Troop Commander, prior to his promotion to Captain.<br><br>Greg served in the U.S. Army as a Military Police Officer after graduating high school, serving in Europe and in the Middle East. He went on to earn his BA in Criminology from the University of Southern Maine. He has been actively involved with Special Olympics throughout his career. Greg lives in Hooksett, NH with his wife and 3 children.",
+    "product": [
+      "cad",
+      "rms"
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Jimmy Calderella",
+    "src": "jimmy.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Jimmy joins CSI Technology after more than 24 years with the New Jersey State Police where he served in assignments from road duty, where he proudly spent six years patrolling the New Jersey Turnpike, to eventually being administrator of the NJSP Confidential Source database and all of the Infoshare modules that the NJSP used including the Intelligence Module, iLog Module, and the Major Incident Module (MIM).<br><br>During the course of his career he gained experience being in the Casino Operation Unit, and  he worked narcotic and street gang investigations with Philadelphia/Camden High Intensity Drug Trafficking Area (PC HIDTA) where he was a monitor room supervisor on numerous wiretaps and used the Infoshare Intelligence Module.<br><br>Jimmy’s last assignment was at the Regional Operations Intelligence Center (ROIC), New Jersey’s fusion center, where he was a Detective Sergeant First Class, and Assistant Unit Head of the Information Sharing Unit. While at the ROIC, he was also assigned to various units, including the Intelligence Watch and Warning (IWW) Unit, that fields calls from law enforcement agencies around the world. As the Division's Duty Officer and the State's Watch Officer, he was responsible for monitoring all events that had a nexus to New Jersey.",
+    "product": [
+      "intelligence",
+      "sar",
+      "fusion-center",
+      "analytics",
+      "alpr",
+      "global-search"
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Scott Plumer",
+    "src": "scott.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Scott joined the CSI team following a 26-year career in law enforcement retiring as the Patrol Operations Division Commander for the Bedford, New Hampshire Police Department. In his career, he worked as a patrol officer, field training officer, detective, prosecutor, patrol sergeant, and as a lieutenant was the commander of the communications and records division. In his last assignment, he was responsible for leading and managing all police operations, the mountain bike and motorcycle units as well as officers assigned to the Southern New Hampshire Special Operations Unit. <br><br> Scott served in the United States Army and was deployed to Operation Joint Guard in Bosnia and Herzegovina in 1997-1998. His unit was responsible for public affairs in the headquarters located in Tuzla and Sarajevo. He has been an adjunct faculty instructor since 2009 at Great Bay Community College and since 2019 at Southern New Hampshire University in the Criminal Justice and Homeland Security programs. He has also been a member of the International Association of Approved Basketball Officials since 2003. Scott is also an active member of the New Hampshire Police Association Pipes and Drum as a tenor drummer. He lives in Bedford, NH with his wife Jill.",
+    "product": [
+      "citation-management"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Richard Nilsen",
+    "src": "rich-nilsen.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Prior to his retirement and joining CSI, Richard Nilsen served the citizens of Montgomery County, Pennsylvania for thirty-five years. He most recently served with the Montgomery County District Attorney’s Office where, after serving eleven years in the Homicide Unit, he was promoted to Detective Lieutenant and given command of the agency’s Forensic Services Unit. He was responsible for several major projects, including overhaul of the Detective Bureau’s policy manual, drafting of the Officer Involved Shooting Protocol, and establishment of the Bureau’s Rapid DNA program. <br><br>Prior to working with the District Attorney’s Office, Lt. Nilsen served twelve years with the Lower Merion Township Police Department. His assignments included Patrolman, Field Training Officer, Platoon Investigator, SWAT team member, and Detective. During his time with Lower Merion, Lt. Nilsen earned his law degree and was sworn as a Special Assistant District Attorney. He frequently was detached from the police department to work in the District Attorney’s Office. <br><br>Lt. Nilsen obtained his undergraduate and graduate degrees from Villanova University and his law degree from Widener University School of Law. He is also a graduate of Northwestern University’s School of Police Staff and Command."
+  },
+  {
+    "id": 21,
+    "name": "Brian D. Womer",
+    "src": "brian.jpg",
+    "type": "Director",
+    "position": "Special Assistant to the EVP",
+    "desc": "Brian Womer joins the CSI Technology Group team with nearly 40 years in the IT field serving the Technical, Financial, and Government sectors. <br><br> Prior to joining CSI, Brian Womer served over 25 years with the New Jersey Department of Law and Public Safety in several capacities, most recently as the Deputy Director of IT. In this role, he led the Project Management and Software Development teams to deploy large scale enterprise solutions for the Department. <br><br>Brian has extensive knowledge with projects scaled to meet State Government needs as well as hands on experience with networking, software development, and project management. He has a comprehensive background regarding information and procedures for the handling of Mass Casualty events. <br><br>In 2016, Brian was awarded the ‘Solutions Award’ from The Public Safety Technology Institute and the New Jersey Office of Information Technology for his work on the state-wide Alcoholic Beverage Control Licensing System."
+  },
+  {
+    "id": 22,
+    "name": "Paul Genovese",
+    "src": "paul.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Paul joins the CSI team following a 32-year career in law enforcement retiring as the Administrative Bureau Commander for the City of Bridgeton Police Department. He has experience in leadership roles, in directing and training law enforcement and civilian personnel, and in police department operations. <br><br>During his time at the Bridgeton Police Department, Paul’s duties included implementation and administration of the InfoShare™ RMS/CAD systems, development of department policy & procedure, training employees on best practices and protocols, police academy instructor, certified crime analyst, and liaison to the Cumberland County Prosecutor’s Office Intelligence Unit and Entry Team Commander.<br><br>Paul will utilize his years of training and experience to assist clients in using CSI’s products effectively and efficiently."
+  },
+  {
+    "id": 23,
+    "name": "Sean Faherty",
+    "src": "sean.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Sean joins the CSI Team following a 25-year career in law enforcement with over 23 years with the New Hampshire State Police. While with the New Hampshire State Police, Sean served in multiple Troop barracks and with the State Police Aviation Unit. Sean was an instrumental part of the records management project from the onset. He was an active user with the InfoShare™ systems and has significant hands-on experience.<br><br>Sean began his career as an active road trooper in northern New Hampshire. After a number of years, he moved to the capital of the State to work within another Troop barracks. After 10 years at that Troop, Sean was transferred into the State Police Aviation Unit.  Throughout his career, Sean has fulfilled roles as a Field Training Officer, Drug Recognition Expert Instructor, Emergency Vehicle Operator Course Instructor, Tech Team Lead, HGN/FST Instructor, LIDAR Instructor, Certified Tactical Flight Officer, Stop Stick Instructor, Assistant Project Manager – Records Management and a Body Camera Project Lead. He concluded his career as the Assistant Unit Commander for the State Police Aviation Unit.<br><br>Sean also served as a Marine in the United State Marine Corp – Reserves. He is an active professional photographer, living in Concord, NH with his wife and 2 children."
+  },
+  {
+    "id": 24,
+    "name": "Michael Bernard",
+    "src": "michael.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Mike joined the CSI team following a 25-year career in law enforcement, retiring as the Administrative Division Commander/Lieutenant for the Bedford, New Hampshire Police Department. In his career, Mike worked as a patrol officer, motorcycle officer, field training officer, patrol sergeant, patrol lieutenant and administrative lieutenant. In his last assignment, he was responsible for internal investigations, training, recruitment, highway safety grants, records division, communications, promotional processes, field training program, and community policing.<br><br>Mike served on the New Hampshire Police Association’s Board of Directors and President of the Bedford Police Association. Mike has a degree in criminal justice and is a certified C.R.A.S.E Instructor with Texas State University.  He lives in Bedford, NH with his family."
+  },
+  {
+    "id": 25,
+    "name": "Keith McDermott",
+    "src": "keith.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Prior to becoming a member of the CSI Team, Keith retired as Captain of the Internal Affairs Bureau after a 29-year career with the Wayne Township New Jersey Police Department.<br><br>Keith was a proactive patrol officer, member of the police marine squad and county rapid deployment team and was a first responder to the World Trade Center during the events of 9/11. He was promoted to the rank of Sergeant and supervised staff in multiple bureaus including patrol, investigations, and communications. Before his assignment with Internal Affairs, Keith commanded the communications center as Lieutenant and then the operations division as Captain. Keith managed Wayne Township's public safety CAD and RMS for most of his career.<br><br>Keith was a member of the Wayne Township Volunteer Fire Department for 30 years where he attained the rank of Chief and is a founding member of the Passaic County Emerald Society Pipes and Drums. Keith earned his bachelor's degree in marketing from Rutgers University, and lives in New Jersey with his wife and two daughters."
+  },
+  {
+    "id": 26,
+    "name": "Christopher DeHagara",
+    "src": "chris.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Chris joins the CSI team after serving 31 years with the East Orange Police Department, ultimately retiring as Lieutenant. He has over 12 years of experience as Narcotics Detective and has taken up numerous roles in law enforcement such as Commander of Criminal Investigations, Supervisor of Information Technology, Supervisor of Strategic Decision Support Center CompStat Unit, and Supervisor of the Evidence Unit.<br><br>While with the East Orange Police Department, he was the administrator over several systems, such as InfoShare, AVL, body cameras, and E-ticket. Chris’ expertise in a diverse range of systems allows him to better understand his users' visions and needs to streamline their communication and workflow efficiency."
+  },
+  {
+    "id": 27,
+    "name": "Anthony Sgroi",
+    "src": "anthony_s.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Anthony joins our CSI team after dedicating 25 years of his career to the Ridgefield Park Police Department. He began his career in the patrol unit and later transferred to the detective bureau, where he served for nine years, rising to the rank of Sergeant. Afterward, he returned to patrol and commanded a shift until his retirement.<br><br>During his tenure with the department, Anthony was the administrator of the InfoShare CAD/RMS/eTicket system and was responsible for training department users on InfoShare applications since its deployment in 2015. He also served as the TAC officer, responsible for training all police department employees. His expertise and professionalism were instrumental in the administration and implementation of all computerized systems for the department. As a Field Training Officer and Dispatcher Training Officer, Anthony ensured all new hires were adequately trained and equipped to serve the community.<br><br>Throughout his career with the Ridgefield Park Police Department, Anthony demonstrated a strong commitment to excellence and ensured the department had the tools and technology necessary to protect and serve the community. He brings his vast knowledge of InfoShare applications and user experience to our team and his clients."
+  },
+  {
+    "id": 99,
+    "name": "Dr. Henry Lee",
+    "src": "henry-lee.png",
+    "type": "Advisor",
+    "position": "Former Commissioner of Public Safety, State of Connecticut",
+    "desc": "Dr. Henry C. Lee, former Commissioner and Lab Chief of the Department of Public Safety for the State of Connecticut, is currently a distinguished professor at the University of New Haven, Chief Emeritus of Forensic Science Services of Connecticut, and the Director of the Institute of Forensic Research and Training Center.<br><br> Dr. Lee came to national prominence as an expert witness during the O.J. Simpson trial. He has assisted law enforcement agencies throughout the US and abroad on special missions. A graduate of John Jay College of Criminal Justice, Dr. Lee also received a doctorate in biochemistry from New York University.<br><br> He has also been awarded honorary doctoral degrees from Bridgeport University, the University of New Haven, St. Joseph's College, and William College Law School. Dr. Lee resides in Branford, Connecticut and his office is located at the University of New Haven. You can contact Dr. Lee at <a href='http://www.henryleeinstitute.com' target='_blank' class='primary-link'>www.henryleeinstitute.com</a>."
+  }
 ]

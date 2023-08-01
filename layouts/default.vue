@@ -1,15 +1,16 @@
 <template>
-  <v-app>
-    <Header />
-    <Nuxt />
-    <Footer />
-  </v-app>
+    <v-app>
+        <Header />
+        <Nuxt />
+        <Footer />
+    </v-app>
 </template>
 
 <script>
 export default {
-  created() {
-    this.$store.dispatch('getArticles')
-  },
+    created() {
+        this.$store.dispatch('getArticles')
+        this.$store.dispatch('getTeams')
+    },
 }
 </script>

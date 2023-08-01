@@ -40,14 +40,13 @@
                                     class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
                                     {{ item.author }}
                                 </div>
-                                <div
-                                    class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60">
-                                    {{ item.agency }}
+                                <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+                                    v-html="item.agency">
                                 </div>
                             </div>
                             <!-- Show all -->
                             <div v-else :class="[
-                  index % 2 != 0 ? 'highlight' : '',
+                  item.highlight ? 'highlight' : '',
                   'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card',
                 ]">
                                 <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
@@ -68,7 +67,8 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div v-show="showAll" class="tw-h-80"></div> -->
+                        <!-- If the quantity is not divisible -->
+                        <div v-show="showAll" class="tw-h-80"></div>
                     </div>
                     <div class="tw-text-center">
                         <v-btn outlined color="primary" @click="toggleAll()">
@@ -135,6 +135,8 @@ export default {
                 TMS[14],
                 TMS[16],
                 TMS[18],
+                TMS[20],
+                TMS[22],
                 TMS[1],
                 TMS[3],
                 TMS[5],
@@ -145,6 +147,7 @@ export default {
                 TMS[15],
                 TMS[17],
                 TMS[19],
+                TMS[21],
             )
             column3.push(
                 TMS[0],
@@ -165,6 +168,7 @@ export default {
                 TMS[12],
                 TMS[15],
                 TMS[18],
+                TMS[21],
                 TMS[1],
                 TMS[4],
                 TMS[7],
@@ -172,13 +176,14 @@ export default {
                 TMS[13],
                 TMS[16],
                 TMS[19],
+                TMS[22],
                 TMS[2],
                 TMS[5],
                 TMS[8],
                 TMS[11],
                 TMS[14],
                 TMS[17],
-                TMS[19],
+                TMS[20],
             )
             if (this.showAll) {
                 switch (this.$vuetify.breakpoint.name) {

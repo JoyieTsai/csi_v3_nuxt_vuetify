@@ -242,7 +242,7 @@
 </template>
 
 <script>
-import Leadership from '~/data/leadership.json'
+import { mapState } from 'vuex'
 
 export default {
     data: () => ({
@@ -252,27 +252,29 @@ export default {
         popPosition: String,
         popDesc: String,
     }),
+
     computed: {
+        ...mapState(['ourTeams']),
         directors() {
-            const dirarr = Leadership.filter((el) => {
+            const dirarr = this.ourTeams.filter((el) => {
                 return el.type === 'Director'
             })
             return dirarr
         },
         pms() {
-            const pmarr = Leadership.filter((el) => {
+            const pmarr = this.ourTeams.filter((el) => {
                 return el.type === 'Product Management'
             })
             return pmarr
         },
         ams() {
-            const amarr = Leadership.filter((el) => {
+            const amarr = this.ourTeams.filter((el) => {
                 return el.type === 'Account Management'
             })
             return amarr
         },
         advisor() {
-            const advarr = Leadership.filter((el) => {
+            const advarr = this.ourTeams.filter((el) => {
                 return el.type === 'Advisor'
             })
             return advarr
