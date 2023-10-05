@@ -316,7 +316,7 @@
         "title": "Admin, Auditing & Security",
         "desc": "System administrators have access to extensive functions such as unit control, user group setups, permissions, and password policy. Furthermore, agencies can modify support files and business rules to accommodate changes in regulations or business requirements.",
         "list": [
-          "Customizable workflow",
+          "Configurable workflow",
           "Form template generation",
           "Configurable support files and business rules",
           "Flexible group-, role-, or case-based permission settings",
@@ -890,7 +890,7 @@
         "img": "evidence-1.jpg"
       },
       {
-        "title": "Customizable Workflow",
+        "title": "Configurable Workflow",
         "desc": "Seamless RMS integration allows officers to enter property and evidence directly in the casefile. Evidence approval can be sent to supervisor(s) or directly to the evidence room custodian.",
         "list": [
           "Full RMS integration",
@@ -976,14 +976,14 @@
     "coverImg": "personnel_scheduling.png",
     "brochure": "CSI_Personnel and Scheduling.pdf",
     "descHeading": "Support all aspects of personnel management—training, leave, inventory, scheduling, and more",
-    "descContent": "InfoShare™ Personnel & Scheduling module is a fully customizable and paperless application for HR administrators to manage all HR functions such as leave, overtime/compensatory time, training requests, firearms qualifications, and policy and procedures documents. Extensive searching and analytical reporting for both attendance and payroll purposes provide an easy way to manage any contractual rules agencies may have.",
+    "descContent": "InfoShare™ Personnel & Scheduling module is a fully configurable and paperless application for HR administrators to manage all HR functions such as leave, overtime/compensatory time, training requests, firearms qualifications, and policy and procedures documents. Extensive searching and analytical reporting for both attendance and payroll purposes provide an easy way to manage any contractual rules agencies may have.",
     "highlightVideo": "Personnel_highlight.mp4",
     "highlightImg": "Personnel_thumb.jpg",
     "highlights": [
       "Paperless HR management system",
       "Eliminate lost or mislaid requests",
       "Powerful search capabilities and permission settings",
-      "Streamlined and customizable approval workflow",
+      "Streamlined and configurable approval workflow",
       "Management, analytical, and payroll reporting"
     ],
     "sysTitle": {
@@ -1115,7 +1115,7 @@
           "Individual task assignment function",
           "Integrated document templates",
           "Search capabilities for statistical reporting",
-          "Customizable to the agency’s process"
+          "Configurable to the agency’s process"
         ],
         "img": "ia-1.jpg"
       },

@@ -100,7 +100,7 @@ export default {
         subtitle: 'Premier Software Solutions for eGovernment',
         coverimg: 'about.jpg',
         descContent:
-            'CSI Technology Group has over 30 years of experience designing robust, fully customizable eGovernment software. In this time, the company has matured into a successful software and service provider in the criminal justice, intelligence, prosecutorial, and judicial domains. Moreover, CSI has built extensive expertise in data migration, data analytics, and interfacing across disparate systems. As a customer-first organization, we believe the best measure of ROI is a satisfied customer.',
+            'CSI Technology Group has over 30 years of experience designing robust, fully configurable eGovernment software. In this time, the company has matured into a successful software and service provider in the criminal justice, intelligence, prosecutorial, and judicial domains. Moreover, CSI has built extensive expertise in data migration, data analytics, and interfacing across disparate systems. As a customer-first organization, we believe the best measure of ROI is a satisfied customer.',
         missions: {
             title: 'Our Mission',
             desc: 'Integrating information technology solutions for eGovernment to maximize efficiency, collaboration, and safety.',
@@ -126,7 +126,7 @@ export default {
                 {
                     icon: 'icon-cost_efficient_outline',
                     title: 'Cost Effectiveness',
-                    desc: 'Our products are affordable to deploy, upgrade, maintain, and scale. We believe in agency control, so all CSI applications are designed to be easily customizable as regulations or requirements demand. In addition, our cloud platform can accommodate several hosting options at different price points.',
+                    desc: 'Our products are affordable to deploy, upgrade, maintain, and scale. We believe in agency control, so all CSI applications are designed to be easily configurable as regulations or requirements demand. In addition, our cloud platform can accommodate several hosting options at different price points.',
                 },
             ],
         },

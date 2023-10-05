@@ -11,6 +11,7 @@ export default {
     created() {
         this.$store.dispatch('getArticles')
         this.$store.dispatch('getTeams')
+        this.$store.dispatch('getTestimonials')
     },
 }
 </script>

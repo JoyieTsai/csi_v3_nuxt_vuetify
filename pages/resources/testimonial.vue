@@ -21,7 +21,7 @@
                 <div class="tw-inline-block">
                     <div class="flex-group">
                         <div v-for="(item, index) in testimonials" :key="index"
-                            class="flex-group-card">
+                            class="flex-group-card tw-mt-5">
                             <!-- < 9 -->
                             <div v-if="testimonials.length <= 10" :class="[
                   index % 2 != 0 ? 'highlight' : '',
@@ -46,7 +46,7 @@
                             </div>
                             <!-- Show all -->
                             <div v-else :class="[
-                  item.highlight ? 'highlight' : '',
+                  index % 2 != 0 ? 'highlight' : '',
                   'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card',
                 ]">
                                 <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
@@ -87,7 +87,7 @@
 </template>
 
 <script>
-import TMS from '~/data/testimonials.json'
+import { mapState } from 'vuex'
 
 export default {
     data: () => ({
@@ -105,7 +105,9 @@ export default {
         }
     },
     computed: {
+        ...mapState(['testimonialList']),
         testimonials() {
+            const TMS = this.testimonialList.data
             const column1 = TMS.slice(0, 8)
             const column1All = TMS
             const column2 = []

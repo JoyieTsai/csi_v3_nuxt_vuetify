@@ -35,9 +35,8 @@
                 <v-icon>mdi-arrow-right-thin</v-icon> View All
             </v-btn>
         </div> -->
-
         <swiper class="mySwiper" :options="swiperOption">
-            <swiper-slide v-for="(item, index) in testimonials" :key="index">
+            <swiper-slide v-for="(item, index) in testimonialList.data" :key="index">
                 <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-6 xl:tw-p-10 quote-card']">
                     <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
                         {{ item.quote }}
@@ -74,7 +73,7 @@
 </template>
 
 <script>
-import TMS from '~/data/testimonials.json'
+import { mapState } from 'vuex'
 
 export default {
     data: () => ({
@@ -116,9 +115,7 @@ export default {
         isIntersecting: false,
     }),
     computed: {
-        testimonials() {
-            return TMS
-        },
+        ...mapState(['testimonialList']),
     },
     methods: {
         onIntersect(entries, observer) {

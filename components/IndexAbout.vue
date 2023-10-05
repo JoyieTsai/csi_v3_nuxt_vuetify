@@ -42,7 +42,7 @@
 export default {
     data: () => ({
         aboutTitle:
-            'CSI designs robust, fully integrated, and customizable software suites to revolutionize state, county, and local government operations.',
+            'CSI designs robust, fully integrated, and configurable software suites to revolutionize state, county, and local government operations.',
         aboutArr: [
             {
                 title: '30+ Years',

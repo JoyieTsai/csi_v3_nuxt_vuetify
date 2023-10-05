@@ -64,7 +64,6 @@ export const actions = {
     commit('setArticles', payload)
   },
   async getTeams({ commit }) {
-    // For test use > articles-test.json
     const api = await axios.get(
       'https://csi-web3-resources-default-rtdb.firebaseio.com/leadership.json'
     )

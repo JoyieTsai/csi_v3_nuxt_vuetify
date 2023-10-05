@@ -13,16 +13,22 @@
         "author": "Robert A. Baker, Sr., MBA, CFE, DRCC",
         "logo": "NJ_pd.jpg",
         "agency": "Jersey City Public Safety Communications & Information Technology",
-        "url": "Jersey-City-NJ-Public-Safety-Police-and-Fire-Departments-Implement-a-Unified-Total-Solution",
-        "highlight": true
+        "url": "Jersey-City-NJ-Public-Safety-Police-and-Fire-Departments-Implement-a-Unified-Total-Solution"
+    },
+    {
+        "id": 23,
+        "quote": "CSI’s integration of the NHSFTP and NFIRS has eased the reporting process for our department. The process is very intuitive and functional. With two clicks of a mouse, your monthly NFIRS report list is packaged and sent to the State via the secure file transfer protocol. Additionally, you are provided the option to view a comprehensive monthly report list with links to the NFIRS reports prior to sending if the need arises. The CSI team takes customer input very seriously and works diligently to create a product that meets the needs of our department.",
+        "author": "Craig Chabot, Deputy Chief",
+        "logo": "NH-fire.jpg",
+        "agency": "City of Dover Fire and Rescue",
+        "url": "New-Hampshire-North-Country-Interoperability-Consortium-Creating-a-Fully-Interoperable-CAD-to-CAD-System"
     },
     {
         "id": 3,
         "quote": "The staff at CSI Technology Group has made the InfoShare™ transition incredibly easy from the start. They have worked with our department and town IT staff to ensure that every officer and dispatcher was properly trained prior to change over and the system was tailored to our needs. The support staff has been great, and the system is very user friendly.",
         "author": "Stanley Titterington, Administrative Lieutenant",
         "logo": "Harrison_pd.jpg",
-        "agency": "Harrison Police Department",
-        "highlight": true
+        "agency": "Harrison Police Department"
     },
     {
         "id": 4,
@@ -42,8 +48,7 @@
         "author": "Andrew Chiurazzi, Fire Official & Michael Valente, Chief Fire Inspector",
         "logo": "BPP_fd.jpg",
         "agency": "Palisades Park Bureau of Fire Prevention",
-        "url": "InfoShare-Fire-Inspection-Module-Paperless-Inspection-and-Report-Document-Management-System",
-        "highlight": true
+        "url": "InfoShare-Fire-Inspection-Module-Paperless-Inspection-and-Report-Document-Management-System"
     },
     {
         "id": 6,
@@ -68,8 +73,7 @@
         "author": "Captain Vic Muzzey",
         "logo": "NH_pd.jpg",
         "agency": "New Hampshire State Police",
-        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center",
-        "highlight": true
+        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center"
     },
     {
         "id": 8,
@@ -85,8 +89,7 @@
         "author": "OIC Lt. Christopher Prell",
         "logo": "IT_pd.jpg",
         "agency": "Independence Township Police Department",
-        "url": "A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes",
-        "highlight": true
+        "url": "A-Study-in-How-Regionalized-Records-Management-Successfully-Solves-Crimes"
     },
     {
         "id": 10,
@@ -102,8 +105,7 @@
         "author": "Director Martin Pagliughi",
         "logo": "CapyMay_County.jpg",
         "agency": "Cape May County Office of Emergency Management",
-        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project/",
-        "highlight": true
+        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project/"
     },
     {
         "id": 12,
@@ -119,8 +121,7 @@
         "author": "Fire Chief Richard Motta",
         "logo": "Demarest_fd.jpg",
         "agency": "Demarest Fire Department",
-        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center",
-        "highlight": true
+        "url": "Bergen-County-Building-and-Maintaining-a-CAD-RMS-System-for-a-Regional-Dispatch-Center"
     },
     {
         "id": 14,
@@ -136,8 +137,7 @@
         "author": "Detective Lukashunas",
         "logo": "RB_pd.jpg",
         "agency": "Rockledge Borough Police Department",
-        "url": "Montgomery-County-Successfully-Deploys-a-Countywide-Law-Enforcement-Solution",
-        "highlight": true
+        "url": "Montgomery-County-Successfully-Deploys-a-Countywide-Law-Enforcement-Solution"
     },
     {
         "id": 16,
@@ -153,8 +153,7 @@
         "author": "Director Martin Pagliughi",
         "logo": "CapeMay_OEM.jpg",
         "agency": "Cape May County Office of Emergency Management",
-        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project",
-        "highlight": true
+        "url": "Cape-May-County-Continues-to-Grow-its-Regional-CAD-RMS-Project"
     },
     {
         "id": 18,
@@ -170,8 +169,7 @@
         "author": "Chief Thomas Wiliver",
         "logo": "Chester_pd.jpg",
         "agency": "Chester Police Department",
-        "url": "Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer",
-        "highlight": true
+        "url": "Morris-County-Department-of-Law-and-Public-Safety-Celebrates-Nearly-a-Decade-of-Being-the-Foundational-RMS-Customer"
     },
     {
         "id": 20,
@@ -187,8 +185,7 @@
         "author": "Tom Andross",
         "logo": "Grafton.jpg",
         "agency": "Director of Communications<br>Grafton County Sheriff’s Department",
-        "url": "New-Hampshire-North-Country-Interoperability-Consortium-Creating-a-Fully-Interoperable-CAD-to-CAD-System",
-        "highlight": true
+        "url": "New-Hampshire-North-Country-Interoperability-Consortium-Creating-a-Fully-Interoperable-CAD-to-CAD-System"
     },
     {
         "id": 22,

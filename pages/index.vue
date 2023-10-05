@@ -40,7 +40,7 @@
             <IndexVideos class="tw-my-12 xl:tw-my-20" />
             <LazyIndexAbout v-if="show" class="tw-my-12 xl:tw-my-20" />
             <LazyIndexFeatures v-if="show" class="tw-my-14 xl:tw-my-28" />
-            <LazyFeaturedArticle v-if="show" class="tw-mt-14 xl:tw-mt-28" />
+            <LazyFeaturedArticle v-if="show" class="tw-mt-14 xl:tw-my-28" />
             <LazyRelatedNews v-if="show" title="false"
                 class="tw-mt-8 xl:tw-mt-16 tw-mb-14 xl:tw-mb-28" />
             <LazyTestimonials v-if="show" class="tw-my-14 xl:tw-my-28" />

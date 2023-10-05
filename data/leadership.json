@@ -93,7 +93,7 @@
     "name": "Nathan Noyes",
     "src": "nathan.jpg",
     "type": "Director",
-    "position": "New England Regional Director",
+    "position": "Director - New England Region",
     "desc": "Prior to his retirement from a 22-year career in law enforcement and joining CSI, Nathan Noyes was the Colonel of the New Hampshire State Police. As Colonel, Nate was responsible for an agency of over 600 sworn and civilian personnel. He served as the Co-Director of the New Hampshire Information & Analysis Center, was responsible for the state’s only forensic laboratory, and oversaw all administrative, investigative, operational, and personnel matters for his entire organization. <br><br>Throughout his career, Nate held numerous positions of leadership. As State Police Director, he served as a board member for the Police Standards & Training Council, the New England State Police Information Network, the New England State Police Administrators Compact, and was the Chairman for the New England HIDTA.<br><br>Nate obtained his Bachelor’s degree in Political Science and Sociology from Quinnipiac University and his Master’s degree in Public Administration from the University of New Hampshire. He is also a graduate of the 274th Session of the Federal Bureau of Investigation’s National Academy and participated in the 45th Session of their National Executive Institute. Nate lives in New Hampshire with his wife and children."
   },
   {
@@ -329,6 +329,14 @@
     "type": "Account Management",
     "position": "Account Management Team",
     "desc": "Anthony joins our CSI team after dedicating 25 years of his career to the Ridgefield Park Police Department. He began his career in the patrol unit and later transferred to the detective bureau, where he served for nine years, rising to the rank of Sergeant. Afterward, he returned to patrol and commanded a shift until his retirement.<br><br>During his tenure with the department, Anthony was the administrator of the InfoShare CAD/RMS/eTicket system and was responsible for training department users on InfoShare applications since its deployment in 2015. He also served as the TAC officer, responsible for training all police department employees. His expertise and professionalism were instrumental in the administration and implementation of all computerized systems for the department. As a Field Training Officer and Dispatcher Training Officer, Anthony ensured all new hires were adequately trained and equipped to serve the community.<br><br>Throughout his career with the Ridgefield Park Police Department, Anthony demonstrated a strong commitment to excellence and ensured the department had the tools and technology necessary to protect and serve the community. He brings his vast knowledge of InfoShare applications and user experience to our team and his clients."
+  },
+  {
+    "id": 28,
+    "name": "Nicholas Scerbo",
+    "src": "nicholas.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Nick joins the CSI Team after serving a 27-year career in law enforcement that included one year with the Harrison Police Department and 26 years with the Jersey City Police Department, where he retired as a Deputy Chief of Police assigned to the Office of the Chief. <br><br>During his extensive tenure at the Jersey City Police Department, Nick held a range of roles, from his beginnings as a police officer and dispatcher to his progression through detective, sergeant, lieutenant, and captain ranks. His diverse experience equipped him with a multifaceted understanding of law enforcement operations. <br><br>He also held pivotal positions in both the patrol and investigations bureaus, such as Major Case Unit Commander, West Detective Commander, Patrol Bureau Tour Commander, Cease Fire Unit Commander, East District Commander, and Executive Officer to the Chief of Police. These roles reflect his strategic thinking, problem-solving skills, and visionary leadership style. In 2019, while a Captain with the JCPD, he was responsible for overseeing the implementation and administration of the InfoShare™ RMS/CAD systems. <br><br>Nick has taken part in the Police Unity Tour several times. He also served as an executive board member of the Police Superior Officers Association and on their contract negotiating team. Nick obtained his Bachelor’s Degree in Accounting from Rutgers University and lives in North Jersey with his wife and daughter."
   },
   {
     "id": 99,

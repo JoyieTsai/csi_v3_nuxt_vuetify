@@ -499,9 +499,9 @@
     "sysFeatures": [
       {
         "title": "Intelligence Dashboard",
-        "desc": "Provide a visual snapshot of selected data including intelligence reports, analytics, and interactive graphs, customized to user preferences. Each segment can be expanded and explored in detail. Administratively, view which members are creating report and identify approved reports by week.",
+        "desc": "Provide a visual snapshot of selected data including intelligence reports, analytics, and interactive graphs, configured to user preferences. Each segment can be expanded and explored in detail. Administratively, view which members are creating report and identify approved reports by week.",
         "list": [
-          "Customizable display of reports and analytics",
+          "Configurable display of reports and analytics",
           "Multiple datasets and graphs displayed in one window",
           "Interactive graph of new reports",
           "Expandable segments",

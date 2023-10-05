@@ -209,7 +209,7 @@
     "descContent": "Data silos prevent agencies from accessing data in a timely manner. They create separations between data sets across departments, agencies, and geographic jurisdictions. Our systems are designed to optimize the usage of data through expert interfacing, vertical integration, and cloud integration so that data flows smoothly and securely between systems in real-time. Seamless data sharing allows agencies to expand their situational awareness and collect every piece of the puzzle.",
     "diagram": {
       "img": "data-sharing.jpg",
-      "desc": "CSI accomplishes data sharing in three ways: across agencies, across devices, and across products. Our enterprise application fulfills the need for accelerated data interoperability in the public sector. One of the biggest concerns with data sharing is security. But with our fully compliant <a href='/capabilities/security' class='primary-link'>security methodology</a>, data breaches are the last thing government agencies need to worry about. Moreover, agencies can easily customize the extent of data transparency using robust permission settings to ensure only authorized users have access."
+      "desc": "CSI accomplishes data sharing in three ways: across agencies, across devices, and across products. Our enterprise application fulfills the need for accelerated data interoperability in the public sector. One of the biggest concerns with data sharing is security. But with our fully compliant <a href='/capabilities/security' class='primary-link'>security methodology</a>, data breaches are the last thing government agencies need to worry about. Moreover, agencies can easily configure the extent of data transparency using robust permission settings to ensure only authorized users have access."
     },
     "lists": [
       {
@@ -572,7 +572,7 @@
       },
       {
         "icon": "customization.svg",
-        "title": "High Interactivity & Customization"
+        "title": "High Interactivity & Configuration"
       },
       {
         "icon": "mobile_operations.svg",
@@ -619,7 +619,7 @@
         "content": [
           "Storage Space",
           "Data Sharing",
-          "Customization",
+          "Configuration",
           "Maintenance",
           "Security",
           "Deployment",
@@ -645,7 +645,7 @@
         "content": [
           "Unlimited storage space",
           "Break down data silos and improve connectivity for internal and external connections<br>No geographical restrictions",
-          "Flexible customization by updating configuration in the cloud",
+          "Flexible configuration by updating the cloud",
           "Updates and backups are automatic, more frequent, and handled by the provider",
           "Strong identity, access management, data, and cybersecurity protection",
           "Multiple cloud services available for different deployment plans",
@@ -676,7 +676,7 @@
       },
       {
         "icon": "customization.svg",
-        "title": "High Customization"
+        "title": "High Configuration"
       }
     ],
     "relatedCapabilities": [
@@ -707,7 +707,7 @@
     "subtitle": "Proprietary Low-Code Technology to Facilitate Application Development",
     "icon": "lowcode.svg",
     "coverImg": "low-code.png",
-    "descHeading": "Rapid application development with high customization and quick deployment",
+    "descHeading": "Rapid application development with high configuration and quick deployment",
     "descContent": "U.S. Patent 10,649,743 B2 entitled \"Application Developing Method and System\" was designed to facilitate and streamline application development for government agencies and beyond. With a low-code development solution, users don't need any expertise in programming or software architecture. The patent removes complexity from building modern applications that can be easily and quickly adapted to fulfill each agency’s missions and requirements.",
     "diagram": {
       "img": "lowcode.jpg",
@@ -721,7 +721,7 @@
           "Cost",
           "Expertise",
           "Implementation",
-          "Customization",
+          "Configuration",
           "Adaptability",
           "Testing",
           "Maintenance",
@@ -776,7 +776,7 @@
       },
       {
         "icon": "customization.svg",
-        "title": "High Customization"
+        "title": "High Configuration"
       },
       {
         "icon": "limited_expertise.svg",

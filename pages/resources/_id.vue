@@ -225,13 +225,14 @@ export default {
                 return a.order - b.order
             })
 
-            // Check special tag
+            // Check special tag - for special case
             if (this.article.special) {
                 const special = Products.find((res) => res.id === this.article.special)
                 finalArr.unshift(special)
+                const specialArr = finalArr.slice(0, 5)
+                specialArr.push(specialArr.shift())
 
-                const speciarArr = [...new Set(finalArr)]
-                return speciarArr.slice(0, 5)
+                return specialArr
             } else {
                 return finalArr.slice(0, 5)
             }
