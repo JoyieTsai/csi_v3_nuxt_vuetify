@@ -450,11 +450,6 @@
         "desc": "Document incident reports, parking tickets, and other minor offenses for civilian security forces."
       },
       {
-        "title": "School Security",
-        "icon": "school_alert.svg",
-        "desc": "Enhance school security, administration, and communication to keep students and staff safe and informed."
-      },
-      {
         "title": "Rolmes",
         "icon": "rolmes.svg",
         "desc": "Innovative robotic technology with case management integration to revolutionize crime analysis and evidence gathering.",
