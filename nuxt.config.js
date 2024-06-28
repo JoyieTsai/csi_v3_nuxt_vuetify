@@ -65,7 +65,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'CSI-V5.4-03262024',
+    dir: 'CSI-V6-06282024',
     routes: dynamicRoutes,
   },
 
@@ -236,7 +236,7 @@ export default {
       '/public-safety/evidence',
       '/public-safety/internal-affairs',
       '/public-safety/analytics-crime-mapping',
-      '/justice-courts/county-prosecution',
+      '/justice-courts/prosecutor-cdms',
       '/justice-courts/courts-efiling',
       '/justice-courts/ediscovery-with-portal',
       '/justice-courts/attorney-ethics',

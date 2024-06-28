@@ -6,7 +6,7 @@
         <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
           Pioneering
           <a href="/capabilities/infoshare-engine" class="btn-link">
-            InfoShare Engine®</a>, a low-code development platform for Government ERP
+            InfoShare<sup>®</sup> Engine</a>, a low-code development platform for Government ERP
           applications
         </div>
       </div>

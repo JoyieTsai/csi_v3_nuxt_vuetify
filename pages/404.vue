@@ -2,21 +2,15 @@
   <v-app>
     <v-main>
       <!-- Cover -->
-      <div
-        class="hero-section lg"
-        :style="{
+      <div class="hero-section lg" :style="{
           background: `url(images/covers/${category}/${coverimg}) center no-repeat`,
           backgroundSize: `cover`,
-        }"
-      >
-        <div
-          class="
+        }">
+        <div class="
             main-container
             tw-mx-auto tw-flex tw-items-end tw-justify-center
-          "
-        >
-          <div
-            class="
+          ">
+          <div class="
               tw-text-2xl
               md:tw-text-3xl
               xl:tw-text-4xl
@@ -24,24 +18,16 @@
               xl:tw-mb-32
               md:tw-w-1/2
               lg:tw-w-1/3
-            "
-          >
+            ">
             PAGE NOT FOUND
           </div>
         </div>
       </div>
       <div class="main-container tw-mx-auto">
         <div class="tw-text-center">
-          <button
-            class="btn-lg btn-primary hover:tw-shadow-xl"
-            @click.prevent="routerTo('/')"
-          >
+          <button class="btn-lg btn-primary hover:tw-shadow-xl" @click.prevent="routerTo('/')">
             <div class="tw-flex tw-items-center">
-              <img
-                :src="require('~/assets/icons/icon-back.svg')"
-                alt="back"
-                class="tw-mr-3"
-              />
+              <img :src="require('~/assets/icons/icon-back.svg')" alt="back" class="tw-mr-3" />
               <div>Go back to homepage</div>
             </div>
           </button>
@@ -53,41 +39,25 @@
             <div class="border-primary tw-mt-4 tw-mb-8"></div>
           </div>
           <div class="tw-grid lg:tw-grid-cols-3 tw-gap-5">
-            <div
-              v-for="(item, index) in data"
-              :key="index"
-              class="tw-flex tw-flex-row tw-items-center"
-            >
+            <div v-for="(item, index) in data" :key="index" class="tw-flex tw-flex-row tw-items-center">
               <div class="tw-flex-none tw-rounded tw-bg-white shadow-1">
-                <img
-                  class="tw-m-6 xl:tw-m-10 tw-w-12 xl:tw-w-16"
-                  :src="require('~/assets/duotone/' + item.icon)"
-                  alt=""
-                />
+                <img class="tw-m-6 xl:tw-m-10 tw-w-12 xl:tw-w-16" :src="require('~/assets/duotone/' + item.icon)" alt="" />
               </div>
               <div class="tw-px-3 xl:tw-px-6">
-                <div
-                  class="
+                <div class="
                     tw-text-sm
                     md:tw-text-base
                     xl:tw-text-lg
                     tw-font-semibold
-                  "
-                >
-                  <nuxt-link
-                    :to="'/' + item.link"
-                    class="text-primary hover:tw-underline"
-                    >{{ item.title }}</nuxt-link
-                  >
+                  ">
+                  <nuxt-link :to="'/' + item.link" class="text-primary hover:tw-underline">{{ item.title }}</nuxt-link>
                 </div>
-                <div
-                  class="
+                <div class="
                     tw-text-xs
                     sm:tw-text-sm
                     xl:tw-text-base
                     tw-opacity-70 tw-mt-2
-                  "
-                >
+                  ">
                   {{ item.desc }}
                 </div>
               </div>
@@ -125,7 +95,7 @@ export default {
         title: 'Cloud Integration',
         desc: 'Mature hybrid cloud-ready applications for simplicity, speed, and security',
         icon: 'prosecution.svg',
-        link: 'justice-courts/county-prosecution',
+        link: 'justice-courts/prosecutor-cdms',
       },
     ],
   }),

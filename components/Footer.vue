@@ -27,10 +27,13 @@
           </div>
         </div>
         <!-- VERIFIED Seal -->
-        <div class="tw-my-8 md:tw-my-16">
+        <div class="tw-flex tw-justify-center tw-gap-5 tw-flex-row tw-mt-20 tw-mb-5">
           <a href="//www.dandb.com/verified/business/576765318/" target="_blank">
-            <img src="images/verified_logo.png" alt="VERIFIED Seal" class="tw-mx-auto tw-h-16 md:tw-h-20" />
+            <img src="images/verified_logo.png" alt="VERIFIED Seal" class="tw-mx-auto tw-h-20" />
           </a>
+          <div>
+            <img src="images/soc2_logo.jpg" alt="Soc2" class="tw-mx-auto tw-h-20" />
+          </div>
         </div>
       </div>
       <!-- Headings -->
@@ -48,16 +51,11 @@
                 </div>
                 <div v-for="(tab, k) in link.tabs" :key="k" class="item-link tw-pr-5">
                   <nuxt-link v-if="tab.id && tab.id !== 'resource'" :to="'/' + data.category + '/' + tab.id"
-                    class="tw-block footer-link tw-text-sm xl:tw-text-base tw-mb-2">
-                    {{ tab.title }}
-                  </nuxt-link>
+                    class="tw-block footer-link tw-text-sm xl:tw-text-base tw-mb-2" v-html="tab.title"></nuxt-link>
                   <a v-else-if="tab.id === 'resource'" class="tw-block footer-link tw-text-sm xl:tw-text-base tw-mb-2"
-                    @click="routerToArticle(tab.query)">
-                    {{ tab.title }}
-                  </a>
-                  <nuxt-link v-else :to="'/' + data.category" class="tw-block footer-link tw-text-sm lg:tw-text-base tw-mb-2">
-                    {{ tab.title }}
-                  </nuxt-link>
+                    @click="routerToArticle(tab.query)" v-html="tab.title"></a>
+                  <nuxt-link v-else :to="'/' + data.category" class="tw-block footer-link tw-text-sm lg:tw-text-base tw-mb-2"
+                    v-html="tab.title"></nuxt-link>
                 </div>
               </div>
             </div>

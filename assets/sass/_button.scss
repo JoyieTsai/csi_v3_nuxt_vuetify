@@ -108,6 +108,17 @@
     border: 1px solid $primary-light-color;
     background: url('../assets/icons/icon-close.svg') center no-repeat;
   }
+
+  &-outlined {
+    border: 1px solid $grey-color;
+    padding: .35rem 1rem;
+    color: $grey-dark-color !important;
+
+    &:hover {
+      color: $primary-color !important;
+      border-color: $primary-color;
+    }
+  }
 }
 
 .fb-color {

@@ -6,50 +6,28 @@
         {{ title }}
       </div>
       <div class="border-primary tw-my-2 lg:tw-my-5"></div>
-      <div
-        class="
+      <div class="
           tw-text-sm
           md:tw-text-base
           lg:tw-text-lg
           tw-mt-2 tw-leading-relaxed
-        "
-        v-html="desc"
-      ></div>
+        " v-html="desc"></div>
     </div>
     <div class="tw-grid md:tw-grid-cols-3 tw-gap-10 md:tw-gap-5 tw-my-16">
-      <div
-        v-for="(item, index) in data"
-        :key="index"
-        class="tw-flex tw-flex-col xl:tw-flex-row tw-items-center effectbg"
-      >
-        <div
-          :class="['effectbg-' + (index + 1), 'tw-flex-none']"
-          data-aos="flip-down"
-          data-aos-offset="300"
-          :data-aos-delay="index * 200"
-        >
-          <i
-            :class="[item.icon, 'tw-text-white tw-text-6xl xl:tw-text-7xl']"
-            data-aos="fade-down"
-            data-aos-offset="500"
-            :data-aos-delay="index * 200"
-          ></i>
+      <div v-for="(item, index) in data" :key="index" class="tw-flex tw-flex-col xl:tw-flex-row tw-items-center effectbg">
+        <div :class="['effectbg-' + (index + 1), 'tw-flex-none']" data-aos="flip-down" data-aos-offset="300" :data-aos-delay="index * 200">
+          <i :class="[item.icon, 'tw-text-white tw-text-6xl xl:tw-text-7xl']" data-aos="fade-down" data-aos-offset="500"
+            :data-aos-delay="index * 200"></i>
         </div>
-        <div
-          class="xl:tw-pl-6 tw-text-center xl:tw-text-left tw-mt-5 xl:tw-mt-0"
-        >
-          <nuxt-link
-            :to="'/capabilities/' + item.link"
-            class="
+        <div class="xl:tw-pl-6 tw-text-center xl:tw-text-left tw-mt-5 xl:tw-mt-0">
+          <nuxt-link :to="'/capabilities/' + item.link" class="
               tw-text-lg
               lg:tw-text-xl
               xl:tw-text-2xl
               tw-font-semibold
               text-primary
               hover:tw-underline
-            "
-            >{{ item.title }}</nuxt-link
-          >
+            " v-html="item.title"></nuxt-link>
           <div class="tw-opacity-70 tw-mt-2">{{ item.desc }}</div>
         </div>
       </div>

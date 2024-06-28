@@ -2,12 +2,9 @@
   <v-app>
     <v-main>
       <!-- Cover -->
-      <div
-        class="hero-section lg tw-items-center"
-        :style="{
+      <div class="hero-section lg tw-items-center" :style="{
           backgroundImage: `url(images/covers/${category}/${coverimg})`,
-        }"
-      >
+        }">
         <div class="main-container tw-mx-auto">
           <div class="tw-flex tw-mb-12">
             <div class="tw-flex-1 tw-flex-col tw-text-white">
@@ -21,50 +18,25 @@
       <!-- Latest Story -->
       <FeaturedArticle class="tw-mb-12 xl:tw-mb-28" />
       <!-- Articles -->
-      <div id="News" class="main-container tw-mx-auto tw-mb-12 xl:tw-mb-28">
+      <div id="NewsSec" class="main-container tw-mx-auto tw-mb-12 xl:tw-mb-28">
         <div class="header-2 tw-text-center">Explore All Articles</div>
         <v-container fluid pa-0>
           <div class="tw-w-80 tw-ml-auto">
-            <v-text-field
-              v-model="keyword"
-              height="36"
-              placeholder="Search"
-              prepend-inner-icon="mdi-magnify"
-              clear-icon="mdi-close"
-              clearable
-              class="tw-text-lg"
-            ></v-text-field>
+            <v-text-field v-model="keyword" height="36" placeholder="Search" prepend-inner-icon="mdi-magnify" clear-icon="mdi-close" clearable
+              class="tw-text-lg"></v-text-field>
           </div>
           <v-row>
-            <v-col
-              xs="12"
-              sm="3"
-              md="3"
-              lg="2"
-              :class="{ 'd-flex col-12 tw-pb-3': $vuetify.breakpoint.xsOnly }"
-            >
+            <v-col xs="12" sm="3" md="3" lg="2" :class="{ 'd-flex col-12 tw-pb-3': $vuetify.breakpoint.xsOnly }">
               <!-- Resource Type -->
-              <div
-                class="tw-grid tw-gap-3 tw-grid-cols-2 md:tw-grid-cols-1 tw-w-full"
-              >
+              <div class="tw-grid tw-gap-3 tw-grid-cols-2 md:tw-grid-cols-1 tw-w-full">
                 <div>
-                  <div
-                    class="tw-uppercase tw-text-sm xl:tw-text-base tw-opacity-70 tw-border-b tw-border-t tw-py-2"
-                  >
+                  <div class="tw-uppercase tw-text-sm xl:tw-text-base tw-opacity-70 tw-border-b tw-border-t tw-py-2">
                     Resource Type
                   </div>
                   <div>
                     <v-radio-group v-model="radioGroup">
-                      <div
-                        v-for="(tag, index) in tags.type"
-                        :key="index"
-                        class="tw-flex tw-mb-1"
-                      >
-                        <v-radio
-                          color="primary"
-                          :value="tag.value"
-                          @click.prevent="changeType(tag.value)"
-                        >
+                      <div v-for="(tag, index) in tags.type" :key="index" class="tw-flex tw-mb-1">
+                        <v-radio color="primary" :value="tag.value" @click.stop="changeType(tag.value)">
                         </v-radio>
                         <label class="tw-text-sm xl:tw-text-base">{{
                           tag.name
@@ -76,21 +48,13 @@
 
                 <!-- Solution -->
                 <div>
-                  <div
-                    class="tw-uppercase tw-text-sm xl:tw-text-base tw-opacity-70 tw-border-b tw-border-t tw-py-2"
-                  >
+                  <div class="tw-uppercase tw-text-sm xl:tw-text-base tw-opacity-70 tw-border-b tw-border-t tw-py-2">
                     Product & Solution
                   </div>
                   <div>
                     <div v-for="(tag, index) in tags.solution" :key="index">
-                      <v-checkbox
-                        v-model="selected"
-                        color="primary"
-                        :label="tag.name"
-                        :value="tag.value"
-                        hide-details
-                        @click.prevent="changeTag(selected)"
-                      >
+                      <v-checkbox v-model="selected" color="primary" :label="tag.name" :value="tag.value" hide-details
+                        @click.prevent="changeTag(selected)">
                         <template v-slot:label>
                           <label class="tw-text-sm xl:tw-text-base">{{
                             tag.name
@@ -104,37 +68,19 @@
             </v-col>
 
             <v-col xs="12" sm="9" md="9" lg="10">
-              <v-data-iterator
-                :items="filterArticles"
-                :items-per-page.sync="itemsPerPage"
-                :footer-props="{
+              <v-data-iterator :items="filterArticles" :items-per-page.sync="itemsPerPage" :footer-props="{
                   'items-per-page-options': [6, 12, 18, -1],
                   'items-per-page-text': $vuetify.breakpoint.xsOnly
                     ? ''
                     : 'Items per page:',
-                }"
-                :page.sync="page"
-                :search="keyword"
-                no-data-text="No data found."
-              >
+                }" :page.sync="page" :search="keyword" no-data-text="No data found.">
                 <template v-slot:default="props">
-                  <div
-                    class="tw-grid tw-gap-4 lg:tw-gap-8 tw-grid-cols-2 xl:tw-grid-cols-3 tw-mb-5"
-                  >
-                    <div
-                      v-for="item in props.items"
-                      :key="item.name"
+                  <div class="tw-grid tw-gap-4 lg:tw-gap-8 tw-grid-cols-2 xl:tw-grid-cols-3 tw-mb-5">
+                    <div v-for="item in props.items" :key="item.name"
                       class="tw-flex-1 tw-bg-white tw-shadow-md tw-transition tw-duration-500 tw-ease-in-out tw-transform hover:tw-scale-105 tw-cursor-pointer tw-h-full"
-                      @click.prevent="routerToArticle(item.id)"
-                    >
-                      <v-img
-                        v-if="item.cover"
-                        :src="'images/news/' + item.cover"
-                        aspect-ratio="1.9"
-                      ></v-img>
-                      <div
-                        class="tw-px-2 tw-py-2 md:tw-px-5 md:tw-py-3 tw-text-xs sm:tw-text-sm md:tw-text-base lg:tw-text-lg"
-                      >
+                      @click.prevent="routerToArticle(item.id)">
+                      <v-img v-if="item.cover" :src="'images/news/' + item.cover" aspect-ratio="1.9"></v-img>
+                      <div class="tw-px-2 tw-py-2 md:tw-px-5 md:tw-py-3 tw-text-xs sm:tw-text-sm md:tw-text-base lg:tw-text-lg">
                         <div v-if="item.type === 'story'" class="text-grey">
                           Success Stories
                         </div>
@@ -142,9 +88,7 @@
                           News
                         </div>
                         <div v-else class="text-grey">Event</div>
-                        <div class="tw-font-semibold">
-                          {{ item.title }}
-                        </div>
+                        <div class="tw-font-semibold" v-html="item.title"></div>
                         <div v-if="!item.cover" class="tw-mt-3 tw-opacity-70">
                           {{ item.brief | getBrief(155) }}
                         </div>
@@ -186,8 +130,8 @@ export default {
       titleTemplate: '%s | ' + this.title,
       meta: [
         { hid: 'description', name: 'description', content: this.subtitle },
-        { name: 'keywords', content: this.title },
-        { property: 'og:title', content: this.title },
+        { name: 'keywords', content: this.shareTitle },
+        { property: 'og:title', content: this.shareTitle },
         { property: 'og:description', content: this.subtitle },
         {
           property: 'og:image:secure_url',
@@ -198,7 +142,7 @@ export default {
           content: 'https://www.csitech.com/resources',
         },
         { property: 'twitter:card', content: 'summary_large_image' },
-        { property: 'twitter:title', content: this.title },
+        { property: 'twitter:title', content: this.shareTitle },
         { property: 'twitter:description', content: this.subtitle },
         {
           property: 'twitter:image',
@@ -244,6 +188,7 @@ export default {
   watch: {
     async $route(to, from) {
       await this.changeType(this.$route.query.id)
+      this.$vuetify.goTo('#NewsSec')
     },
     filterArticles() {
       this.selected = this.filterTag
@@ -254,6 +199,7 @@ export default {
     if (id) {
       this.changeType(id)
       this.selected = this.filterTag
+      this.$vuetify.goTo('#NewsSec', { offset: 500 })
     }
     if (this.currentPage > 1) {
       this.page = this.currentPage
@@ -280,7 +226,6 @@ export default {
       this.changeFilteredType(this.radioGroup)
       this.page = 1
       this.$router.push({ name: 'resources', query: { id: type } })
-      this.$vuetify.goTo('#News')
     },
     changeTag(tag) {
       this.changeFilteredTag(tag)

@@ -138,9 +138,9 @@
     },
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Major Incident Management",
@@ -184,7 +184,7 @@
       "Exchange and disseminate information across agencies",
       "Powerful search capabilities and permission-based settings",
       "Interactive graph of new intelligence reports in the dashboard",
-      "Complete integration with other InfoShare™ applications to receive Push-to-Intelligence feature"
+      "Complete integration with other InfoShare<sup>®</sup> applications to receive Push-to-Intelligence feature"
     ],
     "sysTitle": {
       "title": "Intelligence analysis and reporting with efficiency and speed",
@@ -230,7 +230,7 @@
       },
       {
         "title": "Global Search",
-        "desc": "Search state, county, local agencies, and participating InfoShare™ systems with <a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a>. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
+        "desc": "Search state, county, local agencies, and participating InfoShare<sup>®</sup> systems with <a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a>. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
         "list": [
           "Advanced filtering and Boolean search",
           "Inter-agency database search (participating agencies)",
@@ -317,7 +317,7 @@
       },
       {
         "title": "Global Search",
-        "desc": "Search state, county, local agencies, and participating InfoShare™ systems with <a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a>. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
+        "desc": "Search state, county, local agencies, and participating InfoShare<sup>®</sup> systems with <a class='primary-link' href='/crime-intelligence/global-search'>Global Search</a>. Confidential information in search results is shared based on permission level, and they can be further searched to return specific results.",
         "list": [
           "Advanced filtering and Boolean search",
           "Inter-agency database search (participating agencies)",
@@ -386,7 +386,7 @@
     "highlights": [
       "Maintain situational awareness of any type of incident",
       "Identify locations and infrastructure involved and assets deployed",
-      "Incidents are easily pushed to <a class='white-link' href='/crime-intelligence/intelligence'>InfoShare™ Intelligence</a> for further analysis and investigation",
+      "Incidents are easily pushed to <a class='white-link' href='/crime-intelligence/intelligence'>InfoShare<sup>®</sup> Intelligence</a> for further analysis and investigation",
       "Control and document information sharing with the Dissemination feature",
       "Customizable levels of incident severity, security setting, and incident priority"
     ],
@@ -802,9 +802,9 @@
     ],
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Investigation",

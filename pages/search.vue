@@ -2,12 +2,9 @@
   <v-app>
     <v-main>
       <!-- Cover -->
-      <div
-        class="hero-section sm tw-items-center"
-        :style="{
+      <div class="hero-section sm tw-items-center" :style="{
           backgroundImage: `url(images/covers/${category}/${coverimg})`,
-        }"
-      >
+        }">
         <div class="main-container tw-mx-auto">
           <div class="tw-flex-1 tw-flex-col tw-text-white tw-text-center">
             <div class="header-1 ltw-eading-snug">{{ title }}</div>
@@ -19,14 +16,8 @@
         <div class="tw-w-full lg:tw-w-4/5 tw-mx-auto">
           <!-- Search Bar -->
           <div>
-            <v-text-field
-              height="44"
-              placeholder="Search keyword"
-              append-outer-icon="mdi-magnify"
-              clear-icon="mdi-close"
-              clearable
-              @click:append-outer="onSearch"
-            ></v-text-field>
+            <v-text-field height="44" placeholder="Search keyword" append-outer-icon="mdi-magnify" clear-icon="mdi-close" clearable
+              @click:append-outer="onSearch"></v-text-field>
           </div>
           <div class="tw-flex tw-flex-wrap">
             <v-chip v-for="(tag, index) in tags" :key="index" class="tw-m-2">
@@ -35,34 +26,21 @@
           </div>
 
           <!-- Product result -->
-          <div
-            class="
+          <div class="
               tw-grid
               xl:tw-grid-cols-3
               md:tw-grid-cols-2
               tw-gap-5 tw-my-10
               xl:tw-my-20
-            "
-          >
-            <div
-              v-for="(item, i) in searchedProducts"
-              :key="i"
-              class="
+            ">
+            <div v-for="(item, i) in searchedProducts" :key="i" class="
                 tw-flex
                 bg-light
                 tw-cursor-pointer
                 hover:tw-bg-white hover:tw-shadow-xl
-              "
-            >
-              <div
-                class="tw-flex-none tw-flex tw-items-center tw-justify-center"
-              >
-                <img
-                  :src="require('~/assets/duotone/' + item.icon)"
-                  width="75"
-                  alt=""
-                  class="tw-m-7"
-                />
+              ">
+              <div class="tw-flex-none tw-flex tw-items-center tw-justify-center">
+                <img :src="require('~/assets/duotone/' + item.icon)" width="75" alt="" class="tw-m-7" />
               </div>
               <div class="tw-flex-auto tw-py-5 tw-pr-5">
                 <div class="tw-text-xl tw-font-semibold tw-mb-2">
@@ -76,10 +54,7 @@
           <v-divider></v-divider>
 
           <!-- Article result -->
-          <div
-            v-for="(item, j) in searchedArticles"
-            :key="j"
-            class="
+          <div v-for="(item, j) in searchedArticles" :key="j" class="
               tw-bg-white
               tw-filter
               tw-drop-shadow-md
@@ -87,8 +62,7 @@
               tw-p-8
               tw-rounded
               tw-mt-10
-            "
-          >
+            ">
             <div class="text-grey">{{ item.date }}</div>
             <div class="tw-text-2xl tw-font-semibold tw-my-2">
               {{ item.title }}
@@ -98,11 +72,7 @@
 
           <!-- Ｐagination -->
           <div class="tw-mt-12 tw-text-right">
-            <v-pagination
-              v-model="page"
-              :length="result"
-              :total-visible="7"
-            ></v-pagination>
+            <v-pagination v-model="page" :length="result" :total-visible="7"></v-pagination>
           </div>
         </div>
       </div>
@@ -143,7 +113,7 @@ export default {
         date: '05/31/2021',
         title:
           'Jersey City, NJ, Public Safety, Police, and Fire Departments Implement a Unified Total Solution',
-        desc: 'CSI Technology is proud to announce that the Jersey City, N.J. Public Safety Department is now part of the growing InfoShare™ family. The Jersey City Public Safety Communications Center now enjoys a unified total solution for both police and fire Computer-Aided Dispatch (CAD) as well as a fully integrated Records Management System (RMS) for both the Police and Fire departments.',
+        desc: 'CSI Technology is proud to announce that the Jersey City, N.J. Public Safety Department is now part of the growing InfoShare<sup>®</sup> family. The Jersey City Public Safety Communications Center now enjoys a unified total solution for both police and fire Computer-Aided Dispatch (CAD) as well as a fully integrated Records Management System (RMS) for both the Police and Fire departments.',
       },
       {
         date: '05/14/2021',
@@ -162,7 +132,7 @@ export default {
     result: 15,
   }),
   methods: {
-    onSearch(value) {},
+    onSearch(value) { },
   },
 }
 </script>

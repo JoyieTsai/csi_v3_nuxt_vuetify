@@ -1,11 +1,11 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
-    <div>
-        <div v-intersect="onIntersect"></div>
-        <div class="header-2 tw-text-center">Testimonials</div>
+  <div>
+    <div v-intersect="onIntersect"></div>
+    <div class="header-2 tw-text-center">Testimonials</div>
 
-        <!-- Testimonial -->
-        <!-- <div class="slick-list">
+    <!-- Testimonial -->
+    <!-- <div class="slick-list">
             <div class="slick-track">
                 <div v-for="(item, i) in testimonials" :key="i" class="slick-slide">
                     <div
@@ -35,152 +35,148 @@
                 <v-icon>mdi-arrow-right-thin</v-icon> View All
             </v-btn>
         </div> -->
-        <swiper class="mySwiper" :options="swiperOption">
-            <swiper-slide v-for="(item, index) in testimonialList.data" :key="index">
-                <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-6 xl:tw-p-10 quote-card']">
-                    <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
-                        {{ item.quote }}
-                    </div>
-                    <div class="middle-divider tw-mt-4">
-                        <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
-                            :style="{ backgroundImage: `url(images/agency/${item.logo})`, }">
-                        </div>
-                    </div>
-                    <div
-                        class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
-                        {{ item.author }}
-                    </div>
-                    <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
-                        v-html="item.agency">
-                    </div>
-                </div>
-            </swiper-slide>
-            <div slot="pagination" class="swiper-pagination"></div>
-            <div slot="button-prev" class="swiper-button-prev">
-                <i class="el-icon-caret-left"></i>
+    <swiper class="mySwiper" :options="swiperOption">
+      <swiper-slide v-for="(item, index) in testimonialList.data" :key="index">
+        <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-6 xl:tw-p-10 quote-card']">
+          <div class="tw-text-sm md:tw-text-base xl:tw-text-lg" v-html="item.quote"></div>
+          <div class="middle-divider tw-mt-4">
+            <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+              :style="{ backgroundImage: `url(images/agency/${item.logo})`, }">
             </div>
-            <div slot="button-next" class="swiper-button-next">
-                <i class="el-icon-caret-right"></i>
-            </div>
-
-        </swiper>
-        <div class="tw-flex tw-justify-center tw-mt-10">
-            <nuxt-link class="btn-lg btn-primary hover:shadow-xl" to="/resources/testimonial">
-                Read More
-            </nuxt-link>
+          </div>
+          <div class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+            {{ item.author }}
+          </div>
+          <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60" v-html="item.agency">
+          </div>
         </div>
+      </swiper-slide>
+      <div slot="pagination" class="swiper-pagination"></div>
+      <div slot="button-prev" class="swiper-button-prev">
+        <i class="el-icon-caret-left"></i>
+      </div>
+      <div slot="button-next" class="swiper-button-next">
+        <i class="el-icon-caret-right"></i>
+      </div>
+
+    </swiper>
+    <div class="tw-flex tw-justify-center tw-mt-10">
+      <nuxt-link class="btn-lg btn-primary hover:shadow-xl" to="/resources/testimonial">
+        Read More
+      </nuxt-link>
     </div>
+  </div>
 </template>
 
 <script>
 import { mapState } from 'vuex'
 
 export default {
-    data: () => ({
-        swiperOption: {
-            loop: true,
-            centeredSlides: true,
-            breakpoints: {
-                320: {
-                    slidesPerView: 1,
-                    spaceBetween: 0
-                },
-                600: {
-                    slidesPerView: 2,
-                    spaceBetween: 0
-                },
-                1024: {
-                    slidesPerView: 3,
-                    spaceBetween: 0
-                },
-                1600: {
-                    slidesPerView: 4,
-                    spaceBetween: 10
-                }
-            },
-            // autoplay: {
-            //     delay: 3000,
-            //     disableOnInteraction: false
-            // },
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                type: 'bullets',
-                clickable: true,
-            },
+  data: () => ({
+    swiperOption: {
+      loop: true,
+      centeredSlides: true,
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+          spaceBetween: 0
         },
-        isIntersecting: false,
-    }),
-    computed: {
-        ...mapState(['testimonialList']),
-    },
-    methods: {
-        onIntersect(entries, observer) {
-            this.isIntersecting = entries[0].isIntersecting
-            if (this.isIntersecting === true) {
-                this.moveRight()
-            }
+        600: {
+          slidesPerView: 2,
+          spaceBetween: 0
         },
-        moveRight() {
-            const track = document.querySelector('.slick-track')
-            track.style.transform = 'translateX(-5750px)'
+        1024: {
+          slidesPerView: 3,
+          spaceBetween: 0
         },
-        moveLeft() {
-            const track = document.querySelector('.slick-track')
-            track.style.transform = 'translateX(100px)'
+        1600: {
+          slidesPerView: 4,
+          spaceBetween: 10
         }
+      },
+      // autoplay: {
+      //     delay: 3000,
+      //     disableOnInteraction: false
+      // },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+        clickable: true,
+      },
+    },
+    isIntersecting: false,
+  }),
+  computed: {
+    ...mapState(['testimonialList']),
+  },
+  methods: {
+    onIntersect(entries, observer) {
+      this.isIntersecting = entries[0].isIntersecting
+      if (this.isIntersecting === true) {
+        this.moveRight()
+      }
+    },
+    moveRight() {
+      const track = document.querySelector('.slick-track')
+      track.style.transform = 'translateX(-5750px)'
+    },
+    moveLeft() {
+      const track = document.querySelector('.slick-track')
+      track.style.transform = 'translateX(100px)'
     }
+  }
 }
 </script>
 
 <style lang="scss">
 .swiper-wrapper {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 .slick {
-    &-list {
-        position: relative;
-        display: block;
-        overflow: hidden;
-        margin: 0;
-        padding-top: 2rem;
-        padding-bottom: 1rem;
-    }
+  &-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+  &-track {
+    width: 8000px;
+    transform: translateX(100px);
+    transition: transform 300s linear 3s;
+  }
+  &-slide {
+    float: left;
+    height: 100%;
+    margin-right: 40px;
+  }
+  @media only screen and (max-width: $breakpoints-lg) {
     &-track {
-        width: 8000px;
-        transform: translateX(100px);
-        transition: transform 300s linear 3s;
+      transform: translateX(50px);
     }
     &-slide {
-        float: left;
-        height: 100%;
-        margin-right: 40px;
+      margin-right: 30px;
     }
-    @media only screen and (max-width: $breakpoints-lg) {
-        &-track {
-            transform: translateX(50px);
-        }
-        &-slide {
-            margin-right: 30px;
-        }
-    }
+  }
 }
 
 .w-350 {
-    width: 350px;
+  width: 350px;
 }
 .w-500 {
-    width: 500px;
+  width: 500px;
 }
 @media only screen and (max-width: $breakpoints-md) {
-    .w-350 {
-        width: 250px;
-    }
-    .w-500 {
-        width: 350px;
-    }
+  .w-350 {
+    width: 250px;
+  }
+  .w-500 {
+    width: 350px;
+  }
 }
 </style>

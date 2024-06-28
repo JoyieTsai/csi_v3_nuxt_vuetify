@@ -4,45 +4,32 @@
     <v-main>
       <Hero :category="category" :coverimg="coverimg" :btns="btnGroup">
         <template v-slot:icon>
-          <img
-            class="tw-w-16 xl:tw-w-20 tw-mb-5"
-            :src="require('~/assets/duotone/' + icon)"
-            :alt="title"
-          />
+          <img class="tw-w-16 xl:tw-w-20 tw-mb-5" :src="require('~/assets/duotone/' + icon)" :alt="title" />
         </template>
-        <template v-slot:title>{{ title }}</template>
-        <template v-slot:subtitle>{{ subtitle }}</template>
-        <template v-slot:desc-heading>{{ descHeading }}</template>
+        <template v-slot:title>
+          <div v-html="title"></div>
+        </template>
+        <template v-slot:subtitle>
+          <div v-html="subtitle"></div>
+        </template>
+        <template v-slot:desc-heading>
+          <div v-html="descHeading"></div>
+        </template>
         <template v-slot:desc-content>
           <div v-html="descContent"></div>
         </template>
       </Hero>
-      <DiagramCard
-        v-if="diagram"
-        :data="diagram"
-        class="tw-my-12 xl:tw-my-28"
-      />
+      <DiagramCard v-if="diagram" :data="diagram" class="tw-my-12 xl:tw-my-28" />
       <TableList v-if="lists" :data="lists" class="tw-py-5" />
-      <BenefitsC
-        v-if="benefits"
-        :data="benefits"
-        class="tw-my-12 xl:tw-my-28"
-      />
+      <Soc v-if="soc" :data="soc" class="tw-my-12 xl:tw-my-28" />
+      <BenefitsC v-if="benefits" :data="benefits" class="tw-my-12 xl:tw-my-28" />
       <Steps v-if="steps" :id="id" :data="steps" class="tw-my-12 xl:tw-my-28" />
-      <NumberFeatures
-        v-if="features"
-        :data="features"
-        class="tw-my-14 xl:tw-my-28"
-      />
+      <NumberFeatures v-if="features" :data="features" class="tw-my-14 xl:tw-my-28" />
       <div v-if="extending" class="header-2 tw-text-center">
         Featured Interfaces
       </div>
       <Extendings v-if="extending" :data="extending" />
-      <RelatedCapabilities
-        v-if="relatedCapabilities"
-        :data="relatedCapabilities"
-        class="tw-my-12 xl:tw-my-28"
-      />
+      <RelatedCapabilities v-if="relatedCapabilities" :data="relatedCapabilities" class="tw-my-12 xl:tw-my-28" />
       <Contact />
     </v-main>
   </v-app>
@@ -64,6 +51,7 @@ export default {
     descContent: String,
     diagram: Object,
     lists: Object,
+    soc: Object,
     benefits: Object,
     steps: Object,
     features: Object,
@@ -124,6 +112,7 @@ export default {
           this.descContent = Products[i].descContent
           this.diagram = Products[i].diagram
           this.lists = Products[i].lists
+          this.soc = Products[i].soc
           this.benefits = Products[i].benefits
           this.steps = Products[i].steps
           this.features = Products[i].features

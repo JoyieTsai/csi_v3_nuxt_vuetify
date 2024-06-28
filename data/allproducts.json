@@ -81,11 +81,11 @@
         "order": 7
     },
     {
-        "id": "county-prosecution",
+        "id": "prosecutor-cdms",
         "tag": "epro",
         "category": "justice-courts",
         "icon": "prosecution.svg",
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "subtitle": "Web-based Prosecutor Case and Document Management",
         "order": 1
     },

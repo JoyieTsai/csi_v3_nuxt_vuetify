@@ -10,7 +10,7 @@
     "descContent": "CSI has considerable experience in interfacing its solutions with a range of internal and external data sources to promote data sharing on multiple levels⏤local, regional, state, and federal. Without interfaces to exchange data across systems, redundant data entry, data silos, and duplicate entries are inevitable. With interfaces, agencies can access multiple systems from a single workstation, generate inquiries to other external or regional databases, submit data automatically or based on agency rules, and much more.",
     "diagram": {
       "img": "interfaces.jpg",
-      "desc": "CSI provides an adaptable and scalable total solution platform as well as expert interfacing on demand to facilitate interagency access and data sharing. Interfaces can be easily integrated into the existing InfoShare™ system depending on the unique requirements of each agency. Agencies can operate their own preferred systems and at the same time access data from external sources. To ensure data security, our interfacing capabilities are fully compliant with criminal justice standards including NIEM, GJ-XML, CJIS, and FIPS."
+      "desc": "CSI provides an adaptable and scalable total solution platform as well as expert interfacing on demand to facilitate interagency access and data sharing. Interfaces can be easily integrated into the existing InfoShare<sup>®</sup> system depending on the unique requirements of each agency. Agencies can operate their own preferred systems and at the same time access data from external sources. To ensure data security, our interfacing capabilities are fully compliant with criminal justice standards including NIEM, GJ-XML, CJIS, and FIPS."
     },
     "lists": [
       {
@@ -301,7 +301,7 @@
     },
     "relatedCapabilities": [
       {
-        "title": "InfoShare Engine®",
+        "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
@@ -327,10 +327,10 @@
     "icon": "data_migration.svg",
     "coverImg": "data-migration.png",
     "descHeading": "Fully searchable, cleansed, and standardized legacy data",
-    "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. Users don’t need to search a separate database or log in to a different system to access the legacy data. Everything is unified under one database in the InfoShare™ system. Over the years, CSI has developed a systematic data migration strategy and successfully converted legacy data for more than thirty systems.",
+    "descContent": "CSI uses an iterative development method to ensure that legacy data appears as if it was entered originally in the new system. Users don’t need to search a separate database or log in to a different system to access the legacy data. Everything is unified under one database in the InfoShare<sup>®</sup> system. Over the years, CSI has developed a systematic data migration strategy and successfully converted legacy data for more than thirty systems.",
     "diagram": {
       "img": "data-migration.jpg",
-      "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare™, a unique person exists as a single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
+      "desc": "CSI offers the most structured and comprehensive data migration services on the market. We use a tried-and-tested proprietary process to analyze and transfer legacy data to the new system. The original data is not simply copied but also cleansed, condensed, and standardized. In InfoShare<sup>®</sup>, a unique person exists as a single consolidated record. Users never have to re-enter old data or remove duplicate entries. Some vendors create independent functions to access the legacy data, whereas others handle the data migration process with much less effort, resulting in inconsistent and messy data. By contrast, CSI develops tools and strategies to offer high quality data migration with data integrity assurance."
     },
     "lists": [
       {
@@ -438,7 +438,7 @@
     "features": {
       "title": "Intelligent Decision Making",
       "subtitle": "ANALYTICS SOLUTIONS",
-      "desc": "Our data analytics solutions are fully integrated into the InfoShare™ platform. From global search to trend analysis to reporting, agencies have access to a comprehensive toolkit to make strategic, intelligence-led decisions.",
+      "desc": "Our data analytics solutions are fully integrated into the InfoShare<sup>®</sup> platform. From global search to trend analysis to reporting, agencies have access to a comprehensive toolkit to make strategic, intelligence-led decisions.",
       "num": false,
       "items": [
         {
@@ -487,7 +487,7 @@
         "link": "data-sharing"
       },
       {
-        "title": "InfoShare Engine®",
+        "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
@@ -510,7 +510,7 @@
     "descContent": "Interactive GIS mapping technology assists with dispatch, unit location tracking, unit recommendations, geo-verification, crime mapping, multidimensional data analysis, search, and other functions. It supports multiple mapping platforms such as Bing, Google, and ArcGIS with several view options and customizable map layers.",
     "diagram": {
       "img": "mapping.jpg",
-      "desc": "Mapping technology has a wide range of applications that facilitate better decision-making. Traditional systems without GIS assistance lack valuable location intelligence and data visualization. Mapping in InfoShare™ is used by a range of different products including CAD (incident location, unit recommendation, GPS, AVL), RMS (crime analysis, master location index), FIRE & EMS (unit monitoring, location information), and Analytics (heat mapping, multidimensional analysis), to name a few. "
+      "desc": "Mapping technology has a wide range of applications that facilitate better decision-making. Traditional systems without GIS assistance lack valuable location intelligence and data visualization. Mapping in InfoShare<sup>®</sup> is used by a range of different products including CAD (incident location, unit recommendation, GPS, AVL), RMS (crime analysis, master location index), FIRE & EMS (unit monitoring, location information), and Analytics (heat mapping, multidimensional analysis), to name a few. "
     },
     "lists": [
       {
@@ -587,7 +587,7 @@
         "link": "data-analytics"
       },
       {
-        "title": "InfoShare Engine®",
+        "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
@@ -607,10 +607,10 @@
     "icon": "cloud_integration.svg",
     "coverImg": "cloud-integration.png",
     "descHeading": "Cloud-based software suite with scaled up resources, enhanced data sharing, and low-cost operations",
-    "descContent": "CSI has considerable expertise in cloud migration services. We leverage the power of cloud computing to help agencies transfer their operations to CJIS-compliant cloud platforms. But CSI’s cloud integration isn’t limited to scaling up resources and improving government capabilities. InfoShare™ Cloud also enhances data sharing and application design. All products and modules within InfoShare™ are integrated and cloud-deployable, creating a cohesive enterprise application platform designed specifically for the unique needs of the public sector.",
+    "descContent": "CSI has considerable expertise in cloud migration services. We leverage the power of cloud computing to help agencies transfer their operations to CJIS-compliant cloud platforms. But CSI’s cloud integration isn’t limited to scaling up resources and improving government capabilities. InfoShare<sup>®</sup> Cloud also enhances data sharing and application design. All products and modules within InfoShare<sup>®</sup> are integrated and cloud-deployable, creating a cohesive enterprise application platform designed specifically for the unique needs of the public sector.",
     "diagram": {
       "img": "ci.jpg",
-      "desc": "InfoShare™ Cloud brings multiple cloud environments together to create scalable, reliable, and low-cost applications operating as a single, cohesive IT infrastructure. Our integration supports public, private, and hybrid cloud requirements hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. Traditional application integration is complex, expensive, and not to mention, resource-intensive. They typically lack flexibility and have limited storage. CSI’s cloud integration with robust security authentication and permission policies yields many advantages including scalability, unlimited storage, improved performance, enhanced user experience, and substantial cost savings in maintenance and deployment."
+      "desc": "InfoShare<sup>®</sup> Cloud brings multiple cloud environments together to create scalable, reliable, and low-cost applications operating as a single, cohesive IT infrastructure. Our integration supports public, private, and hybrid cloud requirements hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. Traditional application integration is complex, expensive, and not to mention, resource-intensive. They typically lack flexibility and have limited storage. CSI’s cloud integration with robust security authentication and permission policies yields many advantages including scalability, unlimited storage, improved performance, enhanced user experience, and substantial cost savings in maintenance and deployment."
     },
     "lists": [
       {
@@ -681,7 +681,7 @@
     ],
     "relatedCapabilities": [
       {
-        "title": "InfoShare Engine®",
+        "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
@@ -803,7 +803,7 @@
     },
     "relatedCapabilities": [
       {
-        "title": "InfoShare Engine®",
+        "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
@@ -901,7 +901,7 @@
     ],
     "relatedCapabilities": [
       {
-        "title": "InfoShare Engine®",
+        "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"
@@ -922,15 +922,15 @@
   },
   {
     "id": "infoshare-engine",
-    "title": "InfoShare Engine®",
+    "title": "InfoShare<sup>®</sup> Engine",
     "subtitle": "Low Code Development Platform for Government ERP Applications",
     "icon": "engine.svg",
     "coverImg": "infoshare-engine.png",
     "descHeading": "Patented total solution software architecture for maximum integration",
-    "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare Engine® benefit from seamless integration, scalability, and adaptability. ",
+    "descContent": "A single development platform powering multiple government applications including Police, Fire, and EMS dispatch; case, records, and data management; mobile operations; field and office reporting; evidence tracking; mapping; analytics; investigations; intelligence; and related components. All applications, modules, and submodules running on the InfoShare<sup>®</sup> Engine benefit from seamless integration, scalability, and adaptability. ",
     "diagram": {
       "img": "engine.jpg",
-      "desc": "InfoShare Engine® is a <a href='/capabilities/low-code' class='primary-link'>low code development</a> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, CSI’s Engine® can be summarized as high speed, low cost."
+      "desc": "InfoShare<sup>®</sup> Engine is a <a href='/capabilities/low-code' class='primary-link'>low code development</a> platform that empowers government application development across multiple categories. Other vendors design and code disparate applications that lack true integration, leading to large overhead expenses, inefficiencies, and additional training down the road. Other complications include high customization costs, limited scalability, and frequent delays. In contrast, InfoShare<sup>®</sup> Engine can be summarized as high speed, low cost."
     },
     "lists": [
       {
@@ -978,7 +978,7 @@
     ],
     "features": {
       "title": "Single Development Platform",
-      "subtitle": "9 PRINCIPLES OF THE INFOSHARE ENGINE®",
+      "subtitle": "9 PRINCIPLES OF THE InfoShare<sup>®</sup> Engine",
       "desc": "All CSI applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies. The following nine principles guide our application development to ensure we’re delivering the maximum value to our clients.",
       "num": true,
       "items": [
@@ -1084,13 +1084,17 @@
         "content": [
           "Integrated, secure ecosystem from GovCloud security services",
           "Eliminate OWASP Top 10 security vulnerabilities<br>Sensitive data is fully encrypted",
-          "Manage user roles and data access permission through InfoShare Engine®",
+          "<div>Manage user roles and data access permission through InfoShare<sup>®</sup> Engine</div>",
           "Comprehensive system event/log for formal security audit",
           "Professional security test and third-party penetration test passed",
           "Strict permission control and safe storage location/cloud"
         ]
       }
     ],
+    "soc": {
+      "content": "SOC 2 is a rigorous framework established by the American Institute of CPAs (AICPA) to assess and validate our commitment to data security. This certification demonstrates that we have implemented robust controls and measures to protect against unauthorized access, ensure system availability, maintain data confidentiality, and adhere to strict privacy standards. By achieving SOC 2 certification, CSI Technology Group affirms our dedication to providing our customers with the utmost confidence in the safety and integrity of their data.",
+      "file": "CSI Letter of Attestation SOC2.pdf"
+    },
     "benefits": [
       {
         "icon": "data_storage.svg",
@@ -1119,7 +1123,7 @@
     ],
     "relatedCapabilities": [
       {
-        "title": "InfoShare Engine®",
+        "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
         "icon": "icon-engine_solid",
         "link": "infoshare-engine"

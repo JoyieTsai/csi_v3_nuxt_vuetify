@@ -2,39 +2,26 @@
 <template>
   <v-app>
     <v-main>
-      <Hero
-        :category="category"
-        :coverimg="coverimg"
-        :brochure="brochure"
-        :btns="btnGroup"
-      >
+      <Hero :category="category" :coverimg="coverimg" :brochure="brochure" :btns="btnGroup">
         <template v-slot:icon>
-          <img
-            class="tw-w-16 xl:tw-w-20"
-            :src="require('~/assets/duotone/' + icon)"
-            :alt="title"
-          />
+          <img class="tw-w-16 xl:tw-w-20" :src="require('~/assets/duotone/' + icon)" :alt="title" />
         </template>
-        <template v-slot:title>{{ title }}</template>
-        <template v-slot:subtitle>{{ subtitle }}</template>
-        <template v-slot:desc-heading>{{ descHeading }}</template>
+        <template v-slot:title>
+          <div v-html="title"></div>
+        </template>
+        <template v-slot:subtitle>
+          <div v-html="subtitle"></div>
+        </template>
+        <template v-slot:desc-heading>
+          <div v-html="descHeading"></div>
+        </template>
         <template v-slot:desc-content>
           <div v-html="descContent"></div>
         </template>
       </Hero>
-      <Highlights
-        v-if="highlights"
-        :data="highlights"
-        :video="highlightVideo"
-        :img="highlightImg"
-        class="tw-my-12 xl:tw-my-28"
-      />
+      <Highlights v-if="highlights" :data="highlights" :video="highlightVideo" :img="highlightImg" class="tw-my-12 xl:tw-my-28" />
       <SysFeatures v-if="sysFeatures" :tagline="sysTitle" :data="sysFeatures" />
-      <BenefitsB
-        v-if="benefits"
-        :data="benefits"
-        class="tw-my-12 xl:tw-my-28"
-      />
+      <BenefitsB v-if="benefits" :data="benefits" class="tw-my-12 xl:tw-my-28" />
       <RelatedProducts :data="relatedProducts" />
       <TheTeam :pid="id" :quote="quote" class="tw-my-12 xl:tw-my-28" />
       <RelatedNews :tag="tag" class="tw-my-12 xl:tw-my-28" />

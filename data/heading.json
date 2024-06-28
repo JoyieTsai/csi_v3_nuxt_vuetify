@@ -66,8 +66,8 @@
             {
                 "tabs": [
                     {
-                        "id": "county-prosecution",
-                        "title": "County Prosecution"
+                        "id": "prosecutor-cdms",
+                        "title": "Prosecution"
                     },
                     {
                         "id": "courts",
@@ -163,7 +163,7 @@
                     },
                     {
                         "id": "infoshare-engine",
-                        "title": "InfoShare Engine®"
+                        "title": "InfoShare<sup>®</sup> Engine"
                     },
                     {
                         "id": "doc-template-generation",

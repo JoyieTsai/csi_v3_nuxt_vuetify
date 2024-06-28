@@ -12,7 +12,7 @@ export default {
     title: 'Justice Courts Overview',
   }),
   fetch({ params, redirect }) {
-    redirect(404, '/justice-courts/county-prosecution')
+    redirect(404, '/justice-courts/prosecutor-cdms')
   },
 }
 </script>

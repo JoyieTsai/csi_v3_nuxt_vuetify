@@ -56,7 +56,7 @@ export const mutations = {
 
 export const actions = {
   async getArticles({ commit }) {
-    // For test use > articles-test.json
+    // For test use > test/articles.json
     const api = await axios.get(
       'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
     )

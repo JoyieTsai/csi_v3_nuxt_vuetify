@@ -1,32 +1,32 @@
 [
   {
-    "id": "county-prosecution",
+    "id": "prosecutor-cdms",
     "tag": "epro",
-    "title": "County Prosecution",
+    "title": "Prosecution",
     "subtitle": "Web-based Prosecutor Case and Document Management",
     "icon": "prosecution.svg",
     "coverImg": "county_prosecution.png",
-    "brochure": "Prosecutor.pdf",
+    "brochure": "CSI_Prosecution.pdf",
     "descHeading": "Support criminal litigation and efficiently handle special case types",
-    "descContent": "Designed in accordance with the National District Attorneys Association’s Functional Requirements for Prosecutor Management Systems, InfoShare™ eProsecution is a powerful and flexible system designed specifically for County Prosecutors’ Offices and District Attorneys’ Offices to manage workloads, streamline workflows, and maintain integrity in the criminal justice process from screening to final sentencing. Expert interfacing enables seamless, NIEM-compliant data exchange and specialized modules enhance the capabilities of the existing system.",
+    "descContent": "Designed in accordance with the National District Attorneys Association’s Functional Requirements for Prosecutor Management Systems, InfoShare<sup>®</sup> eProsecution is a powerful and flexible system designed specifically for Prosecutors’ Offices and District Attorneys’ Offices to manage workloads, streamline workflows, and maintain integrity in the criminal justice process from screening to final sentencing. Expert interfacing enables seamless, NIEM-compliant data exchange and specialized modules enhance the capabilities of the existing system.",
     "capabilities": [
       {
-        "title": "Data Sharing",
+        "title": "Data & Document Sharing",
         "icon": "icon-data_share_outline",
         "img": "DataSharing.jpg",
-        "desc": "CSI has considerable experience in interfacing its County Prosecution applications to internal and external data sources including but not limited to law enforcement agencies, courts, family courts, municipal courts, jails, and state repositories. Our system is fully compliant with NIEM and GJ-XML data exchange standards."
+        "desc": "CSI has considerable experience in interfacing its Prosecution applications to internal and external data sources including but not limited to law enforcement agencies, courts, family courts, municipal courts, jails, and state repositories. Our system is fully compliant with NIEM and GJ-XML data exchange standards."
       },
       {
         "title": "Total Solution",
         "icon": "icon-total_solution_outline",
         "img": "InfoShareEngine.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, a low-code development platform for government ERP applications. Various specialized modules enhance the capabilities of the eProsecution case and document management system. All applications and modules are unified under a single web-based system accessible via desktop and mobile platforms to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications. Various specialized modules enhance the capabilities of the eProsecution case and document management system. All applications and modules are unified under a single web-based system accessible via desktop and mobile platforms to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Integration",
         "icon": "icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare™ Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. Moreover, OneDrive integration enables users to upload documents into the InfoShare™ system through a safe and secure channel."
+        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. Moreover, OneDrive integration enables users to upload documents into the InfoShare<sup>®</sup> system through a safe and secure channel."
       },
       {
         "title": "Security",
@@ -106,7 +106,7 @@
           },
           {
             "title": "Nonfunctional Requirements",
-            "desc": "County Prosecution is powered by the <a href='/capabilities/infoshare-engine' class='white-link'>InfoShare Engine®</a>, a low-code development platform for government ERP applications providing robust data encryption, stringent permission settings, cloud integration, configurable support files and business rules, streamlined reporting, template generation, and a whole suite of other features.",
+            "desc": "Prosecution is powered by the <a href='/capabilities/infoshare-engine' class='white-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications providing robust data encryption, stringent permission settings, cloud integration, configurable support files and business rules, streamlined reporting, template generation, and a whole suite of other features.",
             "images": [
               "ca1-08-1.jpg",
               "ca1-08-2.jpg"
@@ -179,7 +179,7 @@
           },
           {
             "title": "InfoFile",
-            "desc": "Remote desktop application designed to give access to Cellebrite or other formatted document types stored on shared drives. Integrated into the InfoShare™ Documents module, InfoFile allows users to view phone dump files and download exhibits for trial discovery.",
+            "desc": "Remote desktop application designed to give access to Cellebrite or other formatted document types stored on shared drives. Integrated into the InfoShare<sup>®</sup> Documents module, InfoFile allows users to view phone dump files and download exhibits for trial discovery.",
             "images": [
               "ca2-07-1.jpg"
             ]
@@ -201,7 +201,7 @@
           },
           {
             "title": "Wasabi Storage",
-            "desc": "Back-end cloud storage solution that integrates seamlessly into the InfoShare™ platform. Handle updates and access security enhancements. Integrate with InfoVideo, InfoRecording, InfoDoc, and eDiscovery with Portal.",
+            "desc": "Back-end cloud storage solution that integrates seamlessly into the InfoShare<sup>®</sup> platform. Handle updates and access security enhancements. Integrate with InfoVideo, InfoRecording, InfoDoc, and eDiscovery with Portal.",
             "images": [
               "ca2-10-1.jpg"
             ]
@@ -424,7 +424,7 @@
           },
           {
             "title": "Civil Module",
-            "desc": "Handle civil cases in which plaintiffs seek monetary compensation. Create events and send events to Outlook Calendar. Complete integration with InfoShare™ eDiscovery with Portal.",
+            "desc": "Handle civil cases in which plaintiffs seek monetary compensation. Create events and send events to Outlook Calendar. Complete integration with InfoShare<sup>®</sup> eDiscovery with Portal.",
             "images": [
               "ca5-09-1.jpg"
             ]
@@ -574,15 +574,15 @@
     ],
     "extending": [
       {
-        "title": "AOC Interface",
-        "icon": "aoc.svg"
+        "title": "Court Interface",
+        "icon": "court.svg"
       },
       {
-        "title": "eCDR Interface",
-        "icon": "ecdr.svg"
+        "title": "Complaints Interface",
+        "icon": "compliance.svg"
       },
       {
-        "title": "FACTS Interface",
+        "title": "JV/DV Court Interface",
         "icon": "facts.svg"
       },
       {
@@ -590,16 +590,16 @@
         "icon": "rms.svg"
       },
       {
-        "title": "JV ePetition Interface",
-        "icon": "juvenile.svg"
+        "title": "ISO/NICB Interface",
+        "icon": "iso-nicb.svg"
       },
       {
         "title": "JV RMS Interface",
         "icon": "jv_rms.svg"
       },
       {
-        "title": "NJSP Interface",
-        "icon": "police.svg"
+        "title": "State Police Interface",
+        "icon": "state-police.svg"
       },
       {
         "title": "VW eCourt Interface",
@@ -657,9 +657,9 @@
     "descContent": "",
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
@@ -695,7 +695,7 @@
     "coverImg": "courts.png",
     "brochure": "CSI_Courts.pdf",
     "descHeading": "Comprehensive case handling system from docketing to disposition",
-    "descContent": "InfoShare™ Courts is a case and document management tool offering court staff a workflow-based case handling platform. Docketing, assignments, document handling, notifications, calendaring, and dispositions are all recorded clearly and conveniently. Online order generation and opinion publishing along with extensive search capabilities, reporting, notifications, and analytics are all built in.",
+    "descContent": "InfoShare<sup>®</sup> Courts is a case and document management tool offering court staff a workflow-based case handling platform. Docketing, assignments, document handling, notifications, calendaring, and dispositions are all recorded clearly and conveniently. Online order generation and opinion publishing along with extensive search capabilities, reporting, notifications, and analytics are all built in.",
     "highlightVideo": "Courts_highlight.mp4",
     "highlightImg": "CAD_thumb.jpg",
     "highlights": [
@@ -747,7 +747,7 @@
       },
       {
         "title": "Template Generation & Reporting",
-        "desc": "<a href='/capabilities/doc-template-generation' class='primary-link'>Customizable templates</a> generated with one click for a wide variety of reports. Users can create and export reports in PDF or Excel format. InfoShare™ Courts supports templates for automated notifications, orders, and more.",
+        "desc": "<a href='/capabilities/doc-template-generation' class='primary-link'>Customizable templates</a> generated with one click for a wide variety of reports. Users can create and export reports in PDF or Excel format. InfoShare<sup>®</sup> Courts supports templates for automated notifications, orders, and more.",
         "list": [
           "Paperless reports for electronic distribution ",
           "Multiple report formats (PDF, Excel)",
@@ -759,7 +759,7 @@
       },
       {
         "title": "Document Archiving",
-        "desc": "InfoShare™ Courts also includes the option of archiving case materials, providing substantial savings on costly paper storage. Case jackets can be uploaded and retained for any length of time mandated by the state.",
+        "desc": "InfoShare<sup>®</sup> Courts also includes the option of archiving case materials, providing substantial savings on costly paper storage. Case jackets can be uploaded and retained for any length of time mandated by the state.",
         "list": [
           "Bulk upload capability",
           "Off-site transport and warehousing cost savings",
@@ -791,9 +791,9 @@
         "link": ""
       },
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       }
     ],
     "quote": {
@@ -809,7 +809,7 @@
     "coverImg": "courts_efiling.png",
     "brochure": "CSI_Courts eFiling.pdf",
     "descHeading": "Process submitted cases, documents, communications, and filing fees electronically",
-    "descContent": "Fully integrated with InfoShare™ Court Case Management, the Courts eFiling module provides an easy to use and convenient 24x7 system for filers of all case types. Carefully crafted to guide filers through case creation, supplemental document filing, attorney substitutions, and all aspects of today’s cases. Electronic notifications and communications are provided, and filing fees are handled through a secure online payment process.",
+    "descContent": "Fully integrated with InfoShare<sup>®</sup> Court Case Management, the Courts eFiling module provides an easy to use and convenient 24x7 system for filers of all case types. Carefully crafted to guide filers through case creation, supplemental document filing, attorney substitutions, and all aspects of today’s cases. Electronic notifications and communications are provided, and filing fees are handled through a secure online payment process.",
     "sysFeatures": [
       {
         "title": "Electronic Document Filing",
@@ -861,9 +861,9 @@
         "link": ""
       },
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Public Defender",
@@ -887,9 +887,9 @@
     "descContent": "",
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
@@ -925,7 +925,7 @@
     "coverImg": "attorney_ethics.png",
     "brochure": "CSI_Attorney Ethics.pdf",
     "descHeading": "Full application suite to maintain ethical attorney behavior",
-    "descContent": "In certain circumstances, attorney actions may be challenged by clients, and InfoShare™ Attorney Ethics provides a way of adjudicating these matters. For attorneys found to have contravened ethical practices, or to have committed felonies, disciplinary action can be taken. Additionally, fee disputes can be reviewed and settled. A random audit system reviews attorney accounting to make sure that client funds are managed properly.",
+    "descContent": "In certain circumstances, attorney actions may be challenged by clients, and InfoShare<sup>®</sup> Attorney Ethics provides a way of adjudicating these matters. For attorneys found to have contravened ethical practices, or to have committed felonies, disciplinary action can be taken. Additionally, fee disputes can be reviewed and settled. A random audit system reviews attorney accounting to make sure that client funds are managed properly.",
     "sysFeatures": [
       {
         "title": "Disciplinary Hearings with Portal",
@@ -992,9 +992,9 @@
         "link": ""
       },
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "eDiscovery with Portal",
@@ -1018,9 +1018,9 @@
     "descContent": "",
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
@@ -1091,9 +1091,9 @@
     ],
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
@@ -1133,7 +1133,7 @@
     "sysFeatures": [
       {
         "title": "Customizable Automated Letter Generation",
-        "desc": "The Victim Witness Suite is seamlessly integrated with InfoShare™. Case information only needs to be entered once to become available for use in forms, reports, and other documents. Letters can be customized and automatically generated based on court events and their outcomes.",
+        "desc": "The Victim Witness Suite is seamlessly integrated with InfoShare<sup>®</sup>. Case information only needs to be entered once to become available for use in forms, reports, and other documents. Letters can be customized and automatically generated based on court events and their outcomes.",
         "list": [
           "Initial Contact Letters",
           "Victim Impact Statements",
@@ -1203,9 +1203,9 @@
     ],
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
@@ -1242,7 +1242,7 @@
     "coverImg": "interview_recording.png",
     "brochure": "CSI_Interview Recording.pdf",
     "descHeading": "Conduct remote interviews and store recordings directly in the case file",
-    "descContent": "Equipped with comprehensive features for managing interview recordings, the application seamlessly integrates with InfoShare™ so recordings are stored directly in the case file after the interview is completed. The Windows-based application launches right from the user’s computer, requires no special housing/recording system, and is compatible with most HD cameras and high-quality synchronized audio. Live interviews can also be viewed from the web and from iOS-supported smartphones and tablets.",
+    "descContent": "Equipped with comprehensive features for managing interview recordings, the application seamlessly integrates with InfoShare<sup>®</sup> so recordings are stored directly in the case file after the interview is completed. The Windows-based application launches right from the user’s computer, requires no special housing/recording system, and is compatible with most HD cameras and high-quality synchronized audio. Live interviews can also be viewed from the web and from iOS-supported smartphones and tablets.",
     "sysFeatures": [
       {
         "title": "One System Recording",
@@ -1269,7 +1269,7 @@
       },
       {
         "title": "Storage/Playback of Interview",
-        "desc": "With CSI’s patented <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare Engine®</a>, all applications and modules benefit from seamless integration. Interview recordings are linked directly to an agency’s case file or discovery package. They can also be burned to a disc or saved on the local system.",
+        "desc": "With CSI’s patented <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, all applications and modules benefit from seamless integration. Interview recordings are linked directly to an agency’s case file or discovery package. They can also be burned to a disc or saved on the local system.",
         "list": [
           "Direct link to case file",
           "Burn to disc",
@@ -1292,9 +1292,9 @@
         "link": "crime-intelligence/investigation"
       },
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
@@ -1360,9 +1360,9 @@
     ],
     "relatedProducts": [
       {
-        "title": "County Prosecution",
+        "title": "Prosecution",
         "icon": "icon-prosecution_solid",
-        "link": "justice-courts/county-prosecution"
+        "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Investigation",

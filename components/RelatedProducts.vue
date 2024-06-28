@@ -1,8 +1,6 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
-  <div
-    class="main-container tw-m-auto tw-mt-16 xl:tw-mt-24 tw-mb-16 xl:tw-mb-28"
-  >
+  <div class="main-container tw-m-auto tw-mt-16 xl:tw-mt-24 tw-mb-16 xl:tw-mb-28">
     <div class="tw-flex tw-flex-col xl:tw-flex-row">
       <div class="w-full xl:tw-w-1/3 tw-flex tw-items-center">
         <div class="tw-flex tw-flex-col xl:tw-mr-6">
@@ -10,43 +8,27 @@
             {{ title }}
           </div>
           <div class="border-primary tw-my-2 lg:tw-my-5"></div>
-          <div
-            class="tw-text-sm md:tw-text-base lg:tw-text-lg tw-leading-relaxed lg:tw-pr-10 tw-mb-5"
-            v-html="desc"
-          ></div>
+          <div class="tw-text-sm md:tw-text-base lg:tw-text-lg tw-leading-relaxed lg:tw-pr-10 tw-mb-5" v-html="desc"></div>
         </div>
       </div>
       <div>
         <div class="relproduct">
           <div v-for="(item, index) in data" :key="index" class="badge">
-            <nuxt-link
-              v-if="item.link"
-              :to="'/' + item.link"
-              class="tw-relative tw-z-10 tw-pt-3 2xl:tw-pt-5 tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-white hover:tw-text-white tw-w-full"
-            >
-              <div
-                class="tw-text-4xl md:tw-text-5xl xl:tw-text-6xl tw-leading-tight"
-              >
+            <nuxt-link v-if="item.link" :to="'/' + item.link"
+              class="tw-relative tw-z-10 tw-pt-3 2xl:tw-pt-5 tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-white hover:tw-text-white tw-w-full">
+              <div class="tw-text-4xl md:tw-text-5xl xl:tw-text-6xl tw-leading-tight">
                 <i :class="item.icon"></i>
               </div>
-              <div
-                class="tw-text-sm lg:tw-text-base 2xl:tw-text-lg tw-leading-tight"
-              >
+              <div class="tw-text-sm lg:tw-text-base 2xl:tw-text-lg tw-leading-tight">
                 {{ item.title }}
               </div>
             </nuxt-link>
-            <div
-              v-else
-              class="tw-relative tw-z-10 tw-pt-3 2xl:tw-pt-5 tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-white hover:tw-text-white tw-w-full"
-            >
-              <div
-                class="tw-text-4xl md:tw-text-5xl xl:tw-text-6xl tw-leading-tight"
-              >
+            <div v-else
+              class="tw-relative tw-z-10 tw-pt-3 2xl:tw-pt-5 tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-white hover:tw-text-white tw-w-full">
+              <div class="tw-text-4xl md:tw-text-5xl xl:tw-text-6xl tw-leading-tight">
                 <i :class="item.icon"></i>
               </div>
-              <div
-                class="tw-text-sm lg:tw-text-base 2xl:tw-text-lg tw-leading-tight"
-              >
+              <div class="tw-text-sm lg:tw-text-base 2xl:tw-text-lg tw-leading-tight">
                 {{ item.title }}
               </div>
             </div>
@@ -62,7 +44,7 @@ export default {
   props: ['data'],
   data: () => ({
     title: 'Related Products',
-    desc: 'Fully integrated solutions and services installed on the <a href="/capabilities/infoshare-engine" class="primary-link">InfoShare Engine®</a>. Designed to be easily deployed to meet each agency or office’s unique requirements.',
+    desc: 'Fully integrated solutions and services installed on the <a href="/capabilities/infoshare-engine" class="primary-link">InfoShare<sup>®</sup> Engine</a>. Designed to be easily deployed to meet each agency or office’s unique requirements.',
   }),
   methods: {},
 }
