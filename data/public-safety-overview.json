@@ -41,21 +41,21 @@
     {
       "product": "RMS",
       "name": "Law Enforcement Records Management",
-      "icon": "icon-rms_solid",
+      "icon": "csi-icon-rms_solid",
       "diagram": "solution-rms.png",
       "interfaces": "interface-rms.png"
     },
     {
       "product": "CAD",
       "name": "Computer Aided Dispatch",
-      "icon": "icon-cad_solid",
+      "icon": "csi-icon-cad_solid",
       "diagram": "solution-cad.png",
       "interfaces": "interface-cad.png"
     },
     {
       "product": "Fire & EMS",
       "name": "Fire & EMS Solutions",
-      "icon": "icon-fire_ems_solid",
+      "icon": "csi-icon-fire_ems_solid",
       "diagram": "solution-fireems.png",
       "interfaces": "interface-fireems.png"
     }

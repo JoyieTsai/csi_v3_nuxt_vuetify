@@ -182,19 +182,19 @@
       {
         "title": "Data Sharing",
         "desc": "Break down information silos to promote interagency collaboration",
-        "icon": "icon-data_share_solid",
+        "icon": "csi-icon-data_share_solid",
         "link": "data-sharing"
       },
       {
         "title": "Vertical Integration",
         "desc": "From public safety to municipal services to judiciary and regulatory agencies",
-        "icon": "icon-total_solution_solid",
+        "icon": "csi-icon-total_solution_solid",
         "link": "vertical-integration"
       },
       {
         "title": "Security",
         "desc": "Robust data encryption, permission, and privacy",
-        "icon": "icon-security_force_solid",
+        "icon": "csi-icon-security_force_solid",
         "link": "security"
       }
     ]
@@ -303,19 +303,19 @@
       {
         "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
-        "icon": "icon-engine_solid",
+        "icon": "csi-icon-engine_solid",
         "link": "infoshare-engine"
       },
       {
         "title": "Vertical Integration",
         "desc": "From public safety to municipal services to judiciary and regulatory agencies",
-        "icon": "icon-total_solution_solid",
+        "icon": "csi-icon-total_solution_solid",
         "link": "vertical-integration"
       },
       {
         "title": "Cloud Integration",
         "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
-        "icon": "icon-cloud_integration_solid",
+        "icon": "csi-icon-cloud_integration_solid",
         "link": "cloud-integration"
       }
     ]
@@ -406,19 +406,19 @@
       {
         "title": "Data Analytics",
         "desc": "Transforming data and analysis into actionable insights",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "data-analytics"
       },
       {
         "title": "Mapping",
         "desc": "Visualizing data to reveal relationships, trends, and patterns",
-        "icon": "icon-mapping_solid",
+        "icon": "csi-icon-mapping_solid",
         "link": "data-mapping"
       },
       {
         "title": "Data Sharing",
         "desc": "Break down information silos to promote interagency collaboration",
-        "icon": "icon-data_share_solid",
+        "icon": "csi-icon-data_share_solid",
         "link": "data-sharing"
       }
     ]
@@ -442,39 +442,39 @@
       "num": false,
       "items": [
         {
-          "icon": "icon-link_analysis_outline",
+          "icon": "csi-icon-link_analysis_outline",
           "title": "Link Analysis"
         },
         {
-          "icon": "icon-mapping_outline",
+          "icon": "csi-icon-mapping_outline",
           "title": "Crime Mapping"
         },
         {
-          "icon": "icon-global_search_outline",
+          "icon": "csi-icon-global_search_outline",
           "title": "Global Search"
         },
         {
-          "icon": "icon-report_generation_outline",
+          "icon": "csi-icon-report_generation_outline",
           "title": "Ad-hoc Reporting"
         },
         {
-          "icon": "icon-doc_management_outline",
+          "icon": "csi-icon-doc_management_outline",
           "title": "CompStat Reporting"
         },
         {
-          "icon": "icon-report_outline",
+          "icon": "csi-icon-report_outline",
           "title": "Report Templates"
         },
         {
-          "icon": "icon-empowerment_outline",
+          "icon": "csi-icon-empowerment_outline",
           "title": "Data Visualization"
         },
         {
-          "icon": "icon-built_in_compliance_outline",
+          "icon": "csi-icon-built_in_compliance_outline",
           "title": "Configurable Dashboard"
         },
         {
-          "icon": "icon-warehouse_outline",
+          "icon": "csi-icon-warehouse_outline",
           "title": "Data Warehouse"
         }
       ]
@@ -483,19 +483,19 @@
       {
         "title": "Data Sharing",
         "desc": "Break down information silos to promote interagency collaboration",
-        "icon": "icon-data_share_solid",
+        "icon": "csi-icon-data_share_solid",
         "link": "data-sharing"
       },
       {
         "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
-        "icon": "icon-engine_solid",
+        "icon": "csi-icon-engine_solid",
         "link": "infoshare-engine"
       },
       {
         "title": "Security",
         "desc": "Robust data encryption, permission, and privacy",
-        "icon": "icon-security_force_solid",
+        "icon": "csi-icon-security_force_solid",
         "link": "security"
       }
     ]
@@ -583,19 +583,19 @@
       {
         "title": "Data Analytics",
         "desc": "Transforming data and analysis into actionable insights",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "data-analytics"
       },
       {
         "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
-        "icon": "icon-engine_solid",
+        "icon": "csi-icon-engine_solid",
         "link": "infoshare-engine"
       },
       {
         "title": "Security",
         "desc": "Robust data encryption, permission, and privacy",
-        "icon": "icon-security_force_solid",
+        "icon": "csi-icon-security_force_solid",
         "link": "security"
       }
     ]
@@ -683,19 +683,19 @@
       {
         "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
-        "icon": "icon-engine_solid",
+        "icon": "csi-icon-engine_solid",
         "link": "infoshare-engine"
       },
       {
         "title": "Security",
         "desc": "Robust data encryption, permission, and privacy",
-        "icon": "icon-security_force_solid",
+        "icon": "csi-icon-security_force_solid",
         "link": "security"
       },
       {
         "title": "Data Migration",
         "desc": "Comprehensive, structured data conversion services",
-        "icon": "icon-data_migration_solid",
+        "icon": "csi-icon-data_migration_solid",
         "link": "data-migration"
       }
     ]
@@ -805,19 +805,19 @@
       {
         "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
-        "icon": "icon-engine_solid",
+        "icon": "csi-icon-engine_solid",
         "link": "infoshare-engine"
       },
       {
         "title": "Vertical Integration",
         "desc": "From public safety to municipal services to judiciary and regulatory agencies",
-        "icon": "icon-total_solution_solid",
+        "icon": "csi-icon-total_solution_solid",
         "link": "vertical-integration"
       },
       {
         "title": "Cloud Integration",
         "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
-        "icon": "icon-cloud_integration_solid",
+        "icon": "csi-icon-cloud_integration_solid",
         "link": "cloud-integration"
       }
     ]
@@ -903,19 +903,19 @@
       {
         "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
-        "icon": "icon-engine_solid",
+        "icon": "csi-icon-engine_solid",
         "link": "infoshare-engine"
       },
       {
         "title": "Data Sharing",
         "desc": "Break down information silos to promote interagency collaboration",
-        "icon": "icon-data_share_solid",
+        "icon": "csi-icon-data_share_solid",
         "link": "data-sharing"
       },
       {
         "title": "Cloud Integration",
         "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
-        "icon": "icon-cloud_integration_solid",
+        "icon": "csi-icon-cloud_integration_solid",
         "link": "cloud-integration"
       }
     ]
@@ -983,39 +983,39 @@
       "num": true,
       "items": [
         {
-          "icon": "icon-lowcode_outline",
+          "icon": "csi-icon-lowcode_outline",
           "title": "Low Code Development"
         },
         {
-          "icon": "icon-cost_reduce_outline",
+          "icon": "csi-icon-cost_reduce_outline",
           "title": "High Speed, Low Cost"
         },
         {
-          "icon": "icon-cloud_integration_outline",
+          "icon": "csi-icon-cloud_integration_outline",
           "title": "Maximum Integration"
         },
         {
-          "icon": "icon-mobile_operations_outline",
+          "icon": "csi-icon-mobile_operations_outline",
           "title": "Cross-Platform"
         },
         {
-          "icon": "icon-cloud_hosting_outline",
+          "icon": "csi-icon-cloud_hosting_outline",
           "title": "Cloud Compatibility"
         },
         {
-          "icon": "icon-relationship_outline",
+          "icon": "csi-icon-relationship_outline",
           "title": "Client Collaboration"
         },
         {
-          "icon": "icon-security_force_outline",
+          "icon": "csi-icon-security_force_outline",
           "title": "Robust Security"
         },
         {
-          "icon": "icon-components_outline",
+          "icon": "csi-icon-components_outline",
           "title": "Agility & Flexibility"
         },
         {
-          "icon": "icon-empowerment_outline",
+          "icon": "csi-icon-empowerment_outline",
           "title": "Empowerment"
         }
       ]
@@ -1024,19 +1024,19 @@
       {
         "title": "Vertical Integration",
         "desc": "From public safety to municipal services to judiciary and regulatory agencies",
-        "icon": "icon-total_solution_solid",
+        "icon": "csi-icon-total_solution_solid",
         "link": "vertical-integration"
       },
       {
         "title": "Low Code Development",
         "desc": "Proprietary low-code technology to facilitate application development",
-        "icon": "icon-lowcode_solid",
+        "icon": "csi-icon-lowcode_solid",
         "link": "low-code"
       },
       {
         "title": "Cloud Integration",
         "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
-        "icon": "icon-cloud_integration_solid",
+        "icon": "csi-icon-cloud_integration_solid",
         "link": "cloud-integration"
       }
     ]
@@ -1125,19 +1125,19 @@
       {
         "title": "InfoShare<sup>®</sup> Engine",
         "desc": "Low Code Development Platform for Government ERP Applications",
-        "icon": "icon-engine_solid",
+        "icon": "csi-icon-engine_solid",
         "link": "infoshare-engine"
       },
       {
         "title": "Cloud Integration",
         "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
-        "icon": "icon-cloud_integration_solid",
+        "icon": "csi-icon-cloud_integration_solid",
         "link": "cloud-integration"
       },
       {
         "title": "Data Sharing",
         "desc": "Break down information silos to promote interagency collaboration",
-        "icon": "icon-data_share_solid",
+        "icon": "csi-icon-data_share_solid",
         "link": "data-sharing"
       }
     ]
@@ -1228,19 +1228,19 @@
       {
         "title": "Low Code Development",
         "desc": "Proprietary low-code technology to facilitate application development",
-        "icon": "icon-lowcode_solid",
+        "icon": "csi-icon-lowcode_solid",
         "link": "low-code"
       },
       {
         "title": "Cloud Integration",
         "desc": "Mature hybrid cloud-ready applications for simplicity, speed, and security",
-        "icon": "icon-cloud_integration_solid",
+        "icon": "csi-icon-cloud_integration_solid",
         "link": "cloud-integration"
       },
       {
         "title": "Data Sharing",
         "desc": "Break down information silos to promote interagency collaboration",
-        "icon": "icon-data_share_solid",
+        "icon": "csi-icon-data_share_solid",
         "link": "data-sharing"
       }
     ]

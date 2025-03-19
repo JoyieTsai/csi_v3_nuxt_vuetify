@@ -16,7 +16,7 @@
                 </button>
               </template>
               <div class="tw-aspect-w-16 tw-aspect-h-9">
-                <iframe src="https://www.youtube.com/embed/Wh5IBWk1WP0" frameborder="0"
+                <iframe v-if="modalVideo" src="https://www.youtube.com/embed/Wh5IBWk1WP0" frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   allowfullscreen></iframe>
               </div>
@@ -37,6 +37,7 @@
       <LazyFeaturedArticle v-if="show" class="tw-mt-14 xl:tw-my-28" />
       <LazyRelatedNews v-if="show" title="false" class="tw-mt-8 xl:tw-mt-16 tw-mb-14 xl:tw-mb-28" />
       <LazyTestimonials v-if="show" class="tw-my-14 xl:tw-my-28" />
+      <!-- <LazySocialFeed v-if="show" class="tw-my-14 xl:tw-my-28" /> -->
       <LazyContact v-if="show" />
     </v-main>
   </v-app>

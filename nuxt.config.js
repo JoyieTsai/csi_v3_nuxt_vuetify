@@ -65,7 +65,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'CSI-V6-06282024',
+    dir: 'CSI-V6.9-03122025',
     routes: dynamicRoutes,
   },
 
@@ -156,7 +156,7 @@ export default {
   css: [
     { src: '@/assets/tailwind.scss', lang: 'scss' },
     { src: '@/assets/style.scss', lang: 'scss' },
-    '@/assets/fonts/CSI-icon-v2.3/style.css',
+    '@/assets/fonts/csiicon-v8.2/style.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

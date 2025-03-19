@@ -2,37 +2,37 @@
     {
         "id": "1",
         "title": "CAD",
-        "icon": "icon-cad_solid",
+        "icon": "csi-icon-cad_solid",
         "link": "public-safety/cad"
     },
     {
         "id": "2",
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
     },
     {
         "id": "3",
         "title": "Fire EMS",
-        "icon": "icon-fire_rms_solid",
+        "icon": "csi-icon-fire_rms_solid",
         "link": "public-safety/fire-ems"
     },
     {
         "id": "4",
         "title": "Prosecutor",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
     },
     {
         "id": "5",
         "title": "Court",
-        "icon": "icon-court_solid",
+        "icon": "csi-icon-court_solid",
         "link": "justice-courts/courts"
     },
     {
         "id": "6",
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
     }
 ]

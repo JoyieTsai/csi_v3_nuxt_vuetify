@@ -87,51 +87,51 @@
       "desc": "Enhance investigation capabilities with specialized case types",
       "items": [
         {
-          "icon": "icon-arson_outline",
+          "icon": "csi-icon-arson_outline",
           "name": "Arson"
         },
         {
-          "icon": "icon-bias_outline",
+          "icon": "csi-icon-bias_outline",
           "name": "Bias"
         },
         {
-          "icon": "icon-burglary_outline",
+          "icon": "csi-icon-burglary_outline",
           "name": "Burglary"
         },
         {
-          "icon": "icon-hacker_outline",
+          "icon": "csi-icon-hacker_outline",
           "name": "Computer Crime"
         },
         {
-          "icon": "icon-crime_children_outline",
+          "icon": "csi-icon-crime_children_outline",
           "name": "Crime Against Children"
         },
         {
-          "icon": "icon-death_outline",
+          "icon": "csi-icon-death_outline",
           "name": "Death"
         },
         {
-          "icon": "icon-fatal_accident_outline",
+          "icon": "csi-icon-fatal_accident_outline",
           "name": "Fatal Accident"
         },
         {
-          "icon": "icon-internal_affairs_outline",
+          "icon": "csi-icon-internal_affairs_outline",
           "name": "Professional Standards & IA"
         },
         {
-          "icon": "icon-robbery_outline",
+          "icon": "csi-icon-robbery_outline",
           "name": "Robbery"
         },
         {
-          "icon": "icon-sex_crime_outline",
+          "icon": "csi-icon-sex_crime_outline",
           "name": "Sex Crime"
         },
         {
-          "icon": "icon-task_force_outline",
+          "icon": "csi-icon-task_force_outline",
           "name": "Task Force"
         },
         {
-          "icon": "icon-others_outline",
+          "icon": "csi-icon-others_outline",
           "name": "Others"
         }
       ]
@@ -139,27 +139,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Major Incident Management",
-        "icon": "icon-mim_solid",
+        "icon": "csi-icon-mim_solid",
         "link": "crime-intelligence/major-incident-management"
       },
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       },
       {
         "title": "Crime Scene Investigation",
-        "icon": "icon-rolmes_solid",
+        "icon": "csi-icon-rolmes_solid",
         "link": "crime-intelligence/csi"
       }
     ],
@@ -264,27 +264,27 @@
     "relatedProducts": [
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       },
       {
         "title": "Global Search",
-        "icon": "icon-global_search_solid",
+        "icon": "csi-icon-global_search_solid",
         "link": "crime-intelligence/global-search"
       },
       {
         "title": "ALPR Dashboard",
-        "icon": "icon-alpr_solid",
+        "icon": "csi-icon-alpr_solid",
         "link": "crime-intelligence/alpr"
       },
       {
         "title": "Fusion Center (iLog)",
-        "icon": "icon-fusion_center_solid",
+        "icon": "csi-icon-fusion_center_solid",
         "link": "crime-intelligence/fusion-center"
       }
     ],
@@ -343,27 +343,27 @@
     "relatedProducts": [
       {
         "title": "Fusion Center (iLog)",
-        "icon": "icon-fusion_center_solid",
+        "icon": "csi-icon-fusion_center_solid",
         "link": "crime-intelligence/fusion-center"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       },
       {
         "title": "Global Search",
-        "icon": "icon-global_search_solid",
+        "icon": "csi-icon-global_search_solid",
         "link": "crime-intelligence/global-search"
       }
     ],
@@ -458,27 +458,27 @@
     "relatedProducts": [
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       },
       {
         "title": "SAR",
-        "icon": "icon-sars_solid",
+        "icon": "csi-icon-sars_solid",
         "link": "crime-intelligence/sar"
       },
       {
         "title": "Global Search",
-        "icon": "icon-global_search_solid",
+        "icon": "csi-icon-global_search_solid",
         "link": "crime-intelligence/global-search"
       }
     ],
@@ -539,27 +539,27 @@
     "relatedProducts": [
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Fusion Center (iLog)",
-        "icon": "icon-fusion_center_solid",
+        "icon": "csi-icon-fusion_center_solid",
         "link": "crime-intelligence/fusion-center"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "SAR",
-        "icon": "icon-sars_solid",
+        "icon": "csi-icon-sars_solid",
         "link": "crime-intelligence/sar"
       },
       {
         "title": "Global Search",
-        "icon": "icon-global_search_solid",
+        "icon": "csi-icon-global_search_solid",
         "link": "crime-intelligence/global-search"
       }
     ],
@@ -627,27 +627,27 @@
     "relatedProducts": [
       {
         "title": "Fusion Center (iLog)",
-        "icon": "icon-fusion_center_solid",
+        "icon": "csi-icon-fusion_center_solid",
         "link": "crime-intelligence/fusion-center"
       },
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Global Search",
-        "icon": "icon-global_search_solid",
+        "icon": "csi-icon-global_search_solid",
         "link": "crime-intelligence/global-search"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       }
     ],
@@ -713,27 +713,27 @@
     "relatedProducts": [
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Fusion Center (iLog)",
-        "icon": "icon-fusion_center_solid",
+        "icon": "csi-icon-fusion_center_solid",
         "link": "crime-intelligence/fusion-center"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       },
       {
         "title": "SAR",
-        "icon": "icon-sars_solid",
+        "icon": "csi-icon-sars_solid",
         "link": "crime-intelligence/sar"
       }
     ],
@@ -803,27 +803,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       },
       {
         "title": "Crime Scene Investigation",
-        "icon": "icon-rolmes_solid",
+        "icon": "csi-icon-rolmes_solid",
         "link": "crime-intelligence/csi"
       }
     ],
@@ -902,27 +902,27 @@
     "relatedProducts": [
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Mobile Operations",
-        "icon": "icon-mdt_solid",
+        "icon": "csi-icon-mdt_solid",
         "link": "public-safety/mobile-operations"
       },
       {
         "title": "Evidence",
-        "icon": "icon-evidence_solid",
+        "icon": "csi-icon-evidence_solid",
         "link": "public-safety/evidence"
       },
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       }
     ],

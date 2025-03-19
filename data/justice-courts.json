@@ -12,31 +12,31 @@
     "capabilities": [
       {
         "title": "Data & Document Sharing",
-        "icon": "icon-data_share_outline",
+        "icon": "csi-icon-data_share_outline",
         "img": "DataSharing.jpg",
         "desc": "CSI has considerable experience in interfacing its Prosecution applications to internal and external data sources including but not limited to law enforcement agencies, courts, family courts, municipal courts, jails, and state repositories. Our system is fully compliant with NIEM and GJ-XML data exchange standards."
       },
       {
         "title": "Total Solution",
-        "icon": "icon-total_solution_outline",
+        "icon": "csi-icon-total_solution_outline",
         "img": "InfoShareEngine.jpg",
         "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications. Various specialized modules enhance the capabilities of the eProsecution case and document management system. All applications and modules are unified under a single web-based system accessible via desktop and mobile platforms to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Integration",
-        "icon": "icon-cloud_integration_outline",
+        "icon": "csi-icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
         "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. Moreover, OneDrive integration enables users to upload documents into the InfoShare<sup>®</sup> system through a safe and secure channel."
       },
       {
         "title": "Security",
-        "icon": "icon-security_force_outline",
+        "icon": "csi-icon-security_force_outline",
         "img": "Security1.jpg",
         "desc": "CSI’s fully compliant <a href='/capabilities/security' class='primary-link'>security methodology</a> ensures stringent security measures on data encryption, data exchange, wireless networking, and system access. Two-factor authentication is used to increase access security. Data access privileges are established through role- or case-based safeguards, making sure that only legitimate and authorized individuals have access to relevant functions or data."
       },
       {
         "title": "Data Analytics",
-        "icon": "icon-analytics_outline",
+        "icon": "csi-icon-analytics_outline",
         "img": "DataAnalytics.jpg",
         "desc": "Enhance decision-making, generate insights, and allocate resources efficiently to support agencies’ objectives. eProsecution <a href='/capabilities/data-analytics' class='primary-link'>data analytics</a> analyzes internal and external data to track a variety of performance measures and includes tools such as robust search, crime analysis, data visualization, ad-hoc reporting, and much more."
       }
@@ -45,7 +45,7 @@
       {
         "id": 1,
         "name": "Case Management System",
-        "icon": "icon-case_management_solid",
+        "icon": "csi-icon-case_management_solid",
         "items": [
           {
             "title": "Pretrial",
@@ -122,7 +122,7 @@
       {
         "id": 2,
         "name": "Content Management & Discovery",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "items": [
           {
             "title": "Document Management",
@@ -220,7 +220,7 @@
       {
         "id": 3,
         "name": "Investigation & Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "items": [
           {
             "title": "Investigation",
@@ -322,7 +322,7 @@
       {
         "id": 4,
         "name": "Juvenile & DV",
-        "icon": "icon-juvenile_solid",
+        "icon": "csi-icon-juvenile_solid",
         "items": [
           {
             "title": "Juvenile",
@@ -360,7 +360,7 @@
       {
         "id": 5,
         "name": "Special Case Types",
-        "icon": "icon-built_in_compliance_solid",
+        "icon": "csi-icon-built_in_compliance_solid",
         "items": [
           {
             "title": "Appellate",
@@ -466,7 +466,7 @@
       {
         "id": 6,
         "name": "Victim / Witness",
-        "icon": "icon-vw_solid",
+        "icon": "csi-icon-vw_solid",
         "items": [
           {
             "title": "VW Services",
@@ -617,27 +617,27 @@
     "relatedProducts": [
       {
         "title": "Courts",
-        "icon": "icon-court_solid",
+        "icon": "csi-icon-court_solid",
         "link": "justice-courts/courts"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Victim/Witness with Portal",
-        "icon": "icon-vw_solid",
+        "icon": "csi-icon-vw_solid",
         "link": "justice-courts/vw-portal"
       }
     ],
@@ -658,27 +658,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
+        "icon": "csi-icon-public_defender_solid",
         "link": ""
       },
       {
         "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
+        "icon": "csi-icon-attorney_ethics_solid",
         "link": "justice-courts/attorney-ethics"
       },
       {
         "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
+        "icon": "csi-icon-justice_court_solid",
         "link": "justice-courts/municipal-attorney"
       }
     ],
@@ -772,27 +772,27 @@
     "relatedProducts": [
       {
         "title": "Courts eFiling",
-        "icon": "icon-efiling_solid",
+        "icon": "csi-icon-efiling_solid",
         "link": "justice-courts/courts-efiling"
       },
       {
         "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
+        "icon": "csi-icon-attorney_ethics_solid",
         "link": "justice-courts/attorney-ethics"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
+        "icon": "csi-icon-public_defender_solid",
         "link": ""
       },
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       }
     ],
@@ -847,27 +847,27 @@
     "relatedProducts": [
       {
         "title": "Courts",
-        "icon": "icon-court_solid",
+        "icon": "csi-icon-court_solid",
         "link": "justice-courts/courts"
       },
       {
         "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
+        "icon": "csi-icon-attorney_ethics_solid",
         "link": "justice-courts/attorney-ethics"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
+        "icon": "csi-icon-public_defender_solid",
         "link": ""
       }
     ],
@@ -888,27 +888,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
+        "icon": "csi-icon-public_defender_solid",
         "link": "justice-courts/public-defender"
       },
       {
         "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
+        "icon": "csi-icon-attorney_ethics_solid",
         "link": "justice-courts/attorney-ethics"
       },
       {
         "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
+        "icon": "csi-icon-justice_court_solid",
         "link": "justice-courts/municipal-attorney"
       }
     ],
@@ -978,27 +978,27 @@
     "relatedProducts": [
       {
         "title": "Courts",
-        "icon": "icon-court_solid",
+        "icon": "csi-icon-court_solid",
         "link": "justice-courts/courts"
       },
       {
         "title": "Courts eFiling",
-        "icon": "icon-efiling_solid",
+        "icon": "csi-icon-efiling_solid",
         "link": "justice-courts/courts-efiling"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "eDiscovery with Portal",
-        "icon": "icon-ediscovery_solid",
+        "icon": "csi-icon-ediscovery_solid",
         "link": "justice-courts/ediscovery-with-portal"
       }
     ],
@@ -1019,27 +1019,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
+        "icon": "csi-icon-public_defender_solid",
         "link": ""
       },
       {
         "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
+        "icon": "csi-icon-attorney_ethics_solid",
         "link": "justice-courts/attorney-ethics"
       },
       {
         "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
+        "icon": "csi-icon-justice_court_solid",
         "link": "justice-courts/municipal-attorney"
       }
     ],
@@ -1092,27 +1092,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Public Defender",
-        "icon": "icon-public_defender_solid",
+        "icon": "csi-icon-public_defender_solid",
         "link": ""
       },
       {
         "title": "Attorney Ethics",
-        "icon": "icon-attorney_ethics_solid",
+        "icon": "csi-icon-attorney_ethics_solid",
         "link": "justice-courts/attorney-ethics"
       },
       {
         "title": "Municipal Attorney",
-        "icon": "icon-justice_court_solid",
+        "icon": "csi-icon-justice_court_solid",
         "link": ""
       }
     ],
@@ -1204,27 +1204,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "Courts",
-        "icon": "icon-justice_court_solid",
+        "icon": "csi-icon-justice_court_solid",
         "link": "justice-courts/courts"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       }
     ],
@@ -1283,27 +1283,27 @@
     "relatedProducts": [
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Attorney General",
-        "icon": "icon-attorney_general_solid",
+        "icon": "csi-icon-attorney_general_solid",
         "link": ""
       },
       {
         "title": "eDiscovery with Portal",
-        "icon": "icon-ediscovery_solid",
+        "icon": "csi-icon-ediscovery_solid",
         "link": "justice-courts/ediscovery-with-portal"
       }
     ],
@@ -1361,27 +1361,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Courts",
-        "icon": "icon-court_solid",
+        "icon": "csi-icon-court_solid",
         "link": "justice-courts/courts"
       },
       {
         "title": "Interview Recording",
-        "icon": "icon-info_recording_solid",
+        "icon": "csi-icon-info_recording_solid",
         "link": "justice-courts/interview-recording"
       }
     ],

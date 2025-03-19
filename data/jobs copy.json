@@ -1,0 +1,33 @@
+[
+    {
+        "id": 0,
+        "position": "Software Engineer",
+        "location": "Keasbey, NJ",
+        "functions": [
+            {
+                "title": "Job Descriptions",
+                "content": [
+                    "Analyze system requirements and provide functional support.",
+                    "Work on functional design, process design, prototyping, testing, training and defining support procedures.",
+                    "Interact with clients and account managers to acquire and work out feasible requirement plans.",
+                    "Develop, document, and revise system design procedures, test procedures and quality standards.",
+                    "Perform market and competitor analysis.",
+                    "Apply expertise in quantitative analysis in dependent research, data mining and the presentation of data to understand customers’ needs/specifications and how they interact with our business products.",
+                    "Customize and manage integration tools, databases and analytical systems.",
+                    "Manage and structure data.",
+                    "Provide support to the development team with knowledge of data infrastructure and imaging/spatial analysis.",
+                    "Provide technical support to the engineering team for daily maintenance.",
+                    "Initiate customized product testing plans to meet client demand."
+                ]
+            },
+            {
+                "title": "Requirement",
+                "content": [
+                    "Bachelor’s degree in computer science, engineering, mathematics or a related discipline with at least 6 months experiences.",
+                    "Must have skills in Law Enforcement and Public Safety Domain Knowledge, GIXML interface solutions, Low code development and maintenance of Police & Fire RMS systems.",
+                    "Advanced SQL with performance tuning."
+                ]
+            }
+        ]
+    }
+]

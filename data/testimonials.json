@@ -1,5 +1,12 @@
 [
     {
+        "id": 23,
+        "quote": "Once we decided to move on from our legacy CAD and RMS system, we began searching for a vendor that could fully meet our needs. We selected CSI Technology Group’s InfoShare<sup>®</sup> platform, which allowed us to transition smoothly with the support of excellent, effective training by the New England account management team. After our go-live period, CSI continued to support all our officers and staff, both in person and remotely, making the deployment significantly easier. Now, more than two years into using InfoShare<sup>®</sup>, we’re pleased that this high level of service has remained constant. Our partnership with CSI has allowed us to configure the platform to meet our specific needs, enabling us to better serve our community.",
+        "author": "Chief Brian Levesque",
+        "logo": "Merrimack.jpg",
+        "agency": "Merrimack Police Department"
+    },
+    {
         "id": 20,
         "quote": "CSI Technology Group with their InfoShare<sup>®</sup> product line has provided the New Jersey State Police with an integrated, customized set of modules that lets us capture everything from SARS, 28 CFR Part 23 criminal intelligence, ALPR, incidents tracked by our fusion center, product tracking for our Real Time Crime Centers to acting as a repository to store and retrieve documents, files, and images. After over a decade, CSI continues to be attentive and responsive to our changing needs by enhancing or adding products that best suit our agency. We operate with confidence knowing InfoShare<sup>®</sup> empowers our agency to perform at the highest level of response and service.",
         "author": "Major Larry Williams, Commanding Officer",
@@ -92,7 +99,7 @@
     },
     {
         "id": 9,
-        "quote": "During my time in law enforcement, I have had an opportunity to experience several different types of record management systems. As technology has improved over the years, each system offered new features. While the new features of these systems were welcomed, I always felt there was something missing. When I was introduced to lnfoShare™, I was blown away by seeing what their system offered. There are countless examples of where regional information sharing has helped in closing cases.",
+        "quote": "During my time in law enforcement, I have had an opportunity to experience several different types of record management systems. As technology has improved over the years, each system offered new features. While the new features of these systems were welcomed, I always felt there was something missing. When I was introduced to lnfoShare<sup>®</sup>, I was blown away by seeing what their system offered. There are countless examples of where regional information sharing has helped in closing cases.",
         "author": "OIC Lt. Christopher Prell",
         "logo": "IT_pd.jpg",
         "agency": "Independence Township Police Department",
@@ -180,7 +187,7 @@
     },
     {
         "id": 20,
-        "quote": "In 2019, Hanover began to search for a replacement for our 20-year-old CAD/RMS system. Some of our requirements were simple: (1) connection to NH J-ONE, (2) cloud-based platform with remote access, and (3) connectivity to neighboring agencies and the NHSP. After reviewing several software packages, their costs, their features, and their functionality, we, in conjunction with the regional consortium, decided on a shared system utilizing CSI’s InfoShareTM platform... We’re excited to continue to grow our system with CSI in the future.",
+        "quote": "In 2019, Hanover began to search for a replacement for our 20-year-old CAD/RMS system. Some of our requirements were simple: (1) connection to NH J-ONE, (2) cloud-based platform with remote access, and (3) connectivity to neighboring agencies and the NHSP. After reviewing several software packages, their costs, their features, and their functionality, we, in conjunction with the regional consortium, decided on a shared system utilizing CSI’s InfoShare<sup>®</sup> platform... We’re excited to continue to grow our system with CSI in the future.",
         "author": "E. Douglas Hackett",
         "logo": "Hanover.jpg",
         "agency": "Communications Coordinator<br>Hanover Police Department",

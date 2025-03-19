@@ -60,7 +60,7 @@
       </div>
 
     </swiper>
-    <div class="tw-flex tw-justify-center tw-mt-10">
+    <div class="tw-flex tw-justify-center">
       <nuxt-link class="btn-lg btn-primary hover:shadow-xl" to="/resources/testimonial">
         Read More
       </nuxt-link>
@@ -92,21 +92,29 @@ export default {
         1600: {
           slidesPerView: 4,
           spaceBetween: 10
+        },
+        2560: {
+          slidesPerView: 5,
+          spaceBetween: 10
+        },
+        3000: {
+          slidesPerView: 6,
+          spaceBetween: 10
         }
       },
-      // autoplay: {
-      //     delay: 3000,
-      //     disableOnInteraction: false
-      // },
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+      },
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      pagination: {
-        el: '.swiper-pagination',
-        type: 'bullets',
-        clickable: true,
-      },
+      // pagination: {
+      //   el: '.swiper-pagination',
+      //   type: 'bullets',
+      //   clickable: true,
+      // },
     },
     isIntersecting: false,
   }),

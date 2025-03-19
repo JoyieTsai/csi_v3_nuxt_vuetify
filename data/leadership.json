@@ -45,31 +45,6 @@
     "desc": "Before being named as the Chief Operating Officer in July 2019, Mr. Yu-Chen (Andrew) Chang held the Division Administrator position in CSI’s Research & Development (R&D) Division.  This Division was organized and built under the direction and management of Mr. Chang.  The R&D Division has also been recognized and received numerous awards for its technological innovation.   The R&D Team plays a crucial role keeping our products at the forefront of the latest technology.  In addition, during Andrew’s leadership, the R&D Team acquired crucial patents for software technology in our targeted markets to maximize and secure the company’s core product value and benefits.<br><br>Andrew earned a Master’s Degree in electrical engineering from the University of Pennsylvania and the EMBA certification from National Taiwan University. Since joining CSI Technology Group in 2008, Andrew has consistently focused his career in the field of law enforcement and public safety technology.  He has held a number of positions ranging from software engineer, project manager, to Division Administrator. Going forward as the Chief Operating Officer of the company, he will continue to uphold the mission statement of our founder Mr. Yeh, “Our goal is to make society safer”."
   },
   {
-    "id": 4,
-    "name": "Joshua Ottenberg",
-    "src": "josh.jpg",
-    "type": "Director",
-    "position": "Director - County/State Agency Division",
-    "desc": "A retired Assistant Prosecutor at the Camden County (NJ) Prosecutor’s Office, Joshua Ottenberg served in most of the major investigative and administrative roles of the Prosecutor’s Office during his twenty-five years of service there. His responsibilities included Acting Camden County Prosecutor(November, 2006 to July, 2008), First Assistant Prosecutor, Deputy First Assistant Prosecutor, Section Chief of the Homicide/SMASH unit, Police Legal Advisor, and Section Chief of the Major Crimes Unit.<br><br> Josh played a significant role in the development of the Camden County Intelligence Services Team, the Camden County Sexual Assault Nurse Examiner (SANE) program, and other major projects affecting county-wide law enforcement. He played a key role in developing a Pre-trial Services program within the county jail system to relieve jail overcrowding and served as a Policy Board member for the Mid-Atlantic Great Lakes Organized Crime Law Enforcement Network (MAGLOCLEN.) Mr. Ottenberg received his J.D. from McGeorge School of Law in Sacramento, California in 1985 and his Bachelor’s and Master’s degrees from the University of Chicago in 1981 and 1982, respectively.",
-    "product": [
-      "internal-affairs",
-      "municipal-solutions",
-      "prosecutor-cdms",
-      "attorney-general",
-      "courts",
-      "courts-efiling",
-      "public-defender",
-      "attorney-ethics",
-      "municipal-attorney",
-      "ediscovery-with-portal",
-      "vw-portal",
-      "interview-recording",
-      "online-transcription-service",
-      "investigation",
-      "major-incident-management"
-    ]
-  },
-  {
     "id": 5,
     "name": "Peter Ugalde",
     "src": "peter.jpg",
@@ -101,16 +76,24 @@
     "name": "John A. Porter",
     "src": "john-p.jpg",
     "type": "Director",
-    "position": "Deputy Director – County/State Agency Division",
+    "position": "Director – County/State Agency Division",
     "desc": "Prior to joining the CSI Technology Group, John Porter served a 25-year law enforcement career that included four years in local law enforcement with the Deptford Township (NJ) Police Department and twenty-one years with the Gloucester County (NJ) Prosecutor’s Office where he retired as Chief of County Investigators.<br><br> During his career with the Prosecutor’s Office, John was assigned to the Major Crimes and Special Investigations Units before becoming part of the agency’s command staff.<br><br> As Chief of County Investigators, he headed the Investigation Division where he oversaw criminal investigations, policy development and implementation, internal affairs investigations, agency accreditation, and managed critical incident scenes as the on-scene supervisor of the Gloucester County SWAT Team.  John received his undergraduate degree in Public Administration from Fairleigh Dickinson University and resides in Mantua, New Jersey with his wife and two children.",
     "product": [
       "internal-affairs",
+      "municipal-solutions",
       "prosecutor-cdms",
       "attorney-general",
+      "courts",
+      "courts-efiling",
       "public-defender",
+      "attorney-ethics",
+      "municipal-attorney",
+      "ediscovery-with-portal",
+      "vw-portal",
       "interview-recording",
       "online-transcription-service",
-      "investigation"
+      "investigation",
+      "major-incident-management"
     ]
   },
   {
@@ -146,13 +129,17 @@
     "id": 9,
     "name": "James Parent",
     "src": "james.jpg",
-    "type": "Account Management",
-    "position": "Account Management Team",
+    "type": "Director",
+    "position": "Deputy Director – County/State Agency Division",
     "desc": "Jim brings over 26 years of law enforcement experience to CSI. Twenty-five years of his extensive career of conducting and managing criminal investigations was spent at the Cumberland County Prosecutor’s Office (CCPO). He retired as Captain of Detectives, the executive officer overseeing all the investigative divisions within the office. A key player in the Major Crimes and Narcotics Units for over 20 years, he worked closely with federal, state and local agencies to solve crimes within the county.<br><br> While serving at the CCPO, he managed their InfoShare<sup>®</sup> Records Management database. His knowledge of using InfoShare<sup>®</sup> products from a police officer and prosecutor’s office perspective gives him a keen understanding of his users’ needs and goals, as he helps them benefit from using InfoShare<sup>®</sup> to enhance their workflow and save resources. Jim is a graduate of the FBI National Academy class #236 and is an active member of the New Jersey Chapter of the FBINAA. He received his undergraduate degree in Sociology from Catawba College in Salisbury, North Carolina and makes his home in Millville, New Jersey, with his wife and three kids.",
     "product": [
+      "internal-affairs",
       "prosecutor-cdms",
+      "public-defender",
+      "attorney-general",
       "interview-recording",
-      "online-transcription-service"
+      "online-transcription-service",
+      "investigation"
     ]
   },
   {
@@ -301,10 +288,11 @@
   {
     "id": 24,
     "name": "Michael Bernard",
+    "sub": "In Loving Memory",
     "src": "michael.jpg",
     "type": "Account Management",
     "position": "Account Management Team",
-    "desc": "Mike joined the CSI team following a 25-year career in law enforcement, retiring as the Administrative Division Commander/Lieutenant for the Bedford, New Hampshire Police Department. In his career, Mike worked as a patrol officer, motorcycle officer, field training officer, patrol sergeant, patrol lieutenant and administrative lieutenant. In his last assignment, he was responsible for internal investigations, training, recruitment, highway safety grants, records division, communications, promotional processes, field training program, and community policing.<br><br>Mike served on the New Hampshire Police Association’s Board of Directors and President of the Bedford Police Association. Mike has a degree in criminal justice and is a certified C.R.A.S.E Instructor with Texas State University.  He lives in Bedford, NH with his family."
+    "desc": "Mike joined the CSI team following a 25-year career in law enforcement, retiring as the Administrative Division Commander/Lieutenant for the Bedford, New Hampshire Police Department. In his career, Mike worked as a patrol officer, motorcycle officer, field training officer, patrol sergeant, patrol lieutenant and administrative lieutenant. In his last assignment, he was responsible for internal investigations, training, recruitment, highway safety grants, records division, communications, promotional processes, field training program, and community policing.<br><br>Mike served on the New Hampshire Police Association’s Board of Directors and President of the Bedford Police Association. Mike had a degree in criminal justice and was a certified C.R.A.S.E Instructor with Texas State University. <br><br>Mike passed away in February 2025 after almost 3 years of dedicated service at CSI overseeing police and fire departments across the New England region. We are forever grateful to have had him as part of our CSI family. He is survived by his wife and two sons."
   },
   {
     "id": 25,
@@ -331,12 +319,28 @@
     "desc": "Anthony joins our CSI team after dedicating 25 years of his career to the Ridgefield Park Police Department. He began his career in the patrol unit and later transferred to the detective bureau, where he served for nine years, rising to the rank of Sergeant. Afterward, he returned to patrol and commanded a shift until his retirement.<br><br>During his tenure with the department, Anthony was the administrator of the InfoShare CAD/RMS/eTicket system and was responsible for training department users on InfoShare applications since its deployment in 2015. He also served as the TAC officer, responsible for training all police department employees. His expertise and professionalism were instrumental in the administration and implementation of all computerized systems for the department. As a Field Training Officer and Dispatcher Training Officer, Anthony ensured all new hires were adequately trained and equipped to serve the community.<br><br>Throughout his career with the Ridgefield Park Police Department, Anthony demonstrated a strong commitment to excellence and ensured the department had the tools and technology necessary to protect and serve the community. He brings his vast knowledge of InfoShare applications and user experience to our team and his clients."
   },
   {
-    "id": 28,
+    "id": 29,
     "name": "Nicholas Scerbo",
     "src": "nicholas.jpg",
     "type": "Account Management",
     "position": "Account Management Team",
     "desc": "Nick joins the CSI Team after serving a 27-year career in law enforcement that included one year with the Harrison Police Department and 26 years with the Jersey City Police Department, where he retired as a Deputy Chief of Police assigned to the Office of the Chief. <br><br>During his extensive tenure at the Jersey City Police Department, Nick held a range of roles, from his beginnings as a police officer and dispatcher to his progression through detective, sergeant, lieutenant, and captain ranks. His diverse experience equipped him with a multifaceted understanding of law enforcement operations. <br><br>He also held pivotal positions in both the patrol and investigations bureaus, such as Major Case Unit Commander, West Detective Commander, Patrol Bureau Tour Commander, Cease Fire Unit Commander, East District Commander, and Executive Officer to the Chief of Police. These roles reflect his strategic thinking, problem-solving skills, and visionary leadership style. In 2019, while a Captain with the JCPD, he was responsible for overseeing the implementation and administration of the InfoShare<sup>®</sup> RMS/CAD systems. <br><br>Nick has taken part in the Police Unity Tour several times. He also served as an executive board member of the Police Superior Officers Association and on their contract negotiating team. Nick obtained his Bachelor’s Degree in Accounting from Rutgers University and lives in North Jersey with his wife and daughter."
+  },
+  {
+    "id": 30,
+    "name": "Adam Hampton",
+    "src": "adam.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Adam Hampton joins our CSI team with a distinguished career spanning 25 years at the Hillsdale Police Department in Bergen County, NJ. Beginning as a police dispatcher in 1999, Adam transitioned to a patrol officer role in 2001. <br><br>Adam’s extensive background in technology is a cornerstone of his career. He served as the IT manager for the police department, overseeing all hardware, software, and cybersecurity operations. Since 2014, he has been the administrator for InfoShare applications, ensuring the department's technological infrastructure remains cutting-edge and efficient.  <br><br>Beyond his IT responsibilities, Adam dedicated eleven years to the detective bureau, where he held positions as a School Resource Officer, Detective, and Detective Sergeant. These roles showcased his commitment to community policing and public outreach programs. <br><br>Throughout his tenure at the Hillsdale Police Department, Adam remained committed to supporting the needs of the department, the borough, and its residents. His focus on technical innovation and excellence ensured that the department had the tools and technology necessary to effectively protect and serve the community. <br><br>Joining our CSI team, Adam brings a wealth of knowledge and experience, particularly with InfoShare applications. His background in technology and community service will complement our team's capabilities and service offerings to enhance user experience and operational efficiency."
+  },
+  {
+    "id": 31,
+    "name": "Robert Barber",
+    "src": "robert.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Robert brings a wealth of experience to the CSI team after a distinguished 25-year career in law enforcement. He spent four years with the New Shoreham Police Department and 21 years with the Narragansett Police Department in Rhode Island. Over the course of his career, Robert took on a variety of roles, including dispatcher, patrol officer, investigator, and supervisor in both patrol and detective units. He ultimately retired as the department’s Prosecution Lieutenant. Additionally, Robert served as a firearms instructor, Field Training Officer, and was part of both the Accident Reconstruction Unit and the Warrant Service Team.<br><br>He holds a bachelor’s degree in Criminal Justice and a master’s certificate in Computer Forensics from Roger Williams University. Robert currently resides in Rhode Island with his wife and daughter."
   },
   {
     "id": 99,

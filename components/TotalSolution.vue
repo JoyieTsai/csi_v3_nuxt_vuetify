@@ -64,7 +64,7 @@
             <div v-if="sol.interfaces" class="tw-mt-5 xl:tw-mt-20">
               <div class="tw-flex tw-justify-center">
                 <div class="solution-tabs interface tw-mr-5">
-                  <i v-show="$vuetify.breakpoint.smAndUp" class="icon-interfaces_solid tab-icon"></i>
+                  <i v-show="$vuetify.breakpoint.smAndUp" class="csi-icon-interfaces_solid tab-icon"></i>
                   <div class="
                       tab-text
                       tw-text-xs

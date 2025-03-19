@@ -96,116 +96,122 @@ export default {
   computed: {
     ...mapState(['testimonialList']),
     testimonials() {
-      const TMS = this.testimonialList.data
-      const column1 = TMS.slice(0, 8)
-      const column1All = TMS
-      const column2 = []
-      const column2All = []
-      const column3 = []
-      const column3All = []
-      column2.push(
-        TMS[0],
-        TMS[2],
-        TMS[5],
-        TMS[6],
-        TMS[8],
-        TMS[1],
-        TMS[3],
-        TMS[4],
-        TMS[7],
-        TMS[9]
-      )
-      column2All.push(
-        TMS[0],
-        TMS[2],
-        TMS[4],
-        TMS[6],
-        TMS[8],
-        TMS[10],
-        TMS[12],
-        TMS[14],
-        TMS[16],
-        TMS[18],
-        TMS[20],
-        TMS[22],
-        TMS[1],
-        TMS[3],
-        TMS[5],
-        TMS[7],
-        TMS[9],
-        TMS[11],
-        TMS[13],
-        TMS[15],
-        TMS[17],
-        TMS[19],
-        TMS[21],
-        TMS[23],
-      )
-      column3.push(
-        TMS[0],
-        TMS[3],
-        TMS[6],
-        TMS[1],
-        TMS[4],
-        TMS[7],
-        TMS[2],
-        TMS[5],
-        TMS[8]
-      )
-      column3All.push(
-        TMS[0],
-        TMS[3],
-        TMS[6],
-        TMS[9],
-        TMS[12],
-        TMS[15],
-        TMS[18],
-        TMS[21],
-        TMS[1],
-        TMS[4],
-        TMS[7],
-        TMS[10],
-        TMS[13],
-        TMS[16],
-        TMS[19],
-        TMS[22],
-        TMS[2],
-        TMS[5],
-        TMS[8],
-        TMS[11],
-        TMS[14],
-        TMS[17],
-        TMS[20],
-        TMS[23],
-      )
-      if (this.showAll) {
-        switch (this.$vuetify.breakpoint.name) {
-          case 'xs':
-            return column1All
-          case 'sm':
-            return column2All
-          case 'md':
-            return column2All
-          case 'lg':
-            return column3All
-          case 'xl':
-            return column3All
+      if (this.testimonialList.data) {
+        const TMS = this.testimonialList.data
+        const column1 = TMS.slice(0, 8)
+        const column1All = TMS
+        const column2 = []
+        const column2All = []
+        const column3 = []
+        const column3All = []
+        column2.push(
+          TMS[0],
+          TMS[2],
+          TMS[5],
+          TMS[6],
+          TMS[8],
+          TMS[1],
+          TMS[3],
+          TMS[4],
+          TMS[7],
+          TMS[9]
+        )
+        column2All.push(
+          TMS[0],
+          TMS[2],
+          TMS[4],
+          TMS[6],
+          TMS[8],
+          TMS[10],
+          TMS[12],
+          TMS[14],
+          TMS[16],
+          TMS[18],
+          TMS[20],
+          TMS[22],
+          TMS[24],
+          TMS[1],
+          TMS[3],
+          TMS[5],
+          TMS[7],
+          TMS[9],
+          TMS[11],
+          TMS[13],
+          TMS[15],
+          TMS[17],
+          TMS[19],
+          TMS[21],
+          TMS[23],
+        )
+        column3.push(
+          TMS[0],
+          TMS[3],
+          TMS[6],
+          TMS[1],
+          TMS[4],
+          TMS[7],
+          TMS[2],
+          TMS[5],
+          TMS[8]
+        )
+        column3All.push(
+          TMS[0],
+          TMS[3],
+          TMS[6],
+          TMS[9],
+          TMS[12],
+          TMS[15],
+          TMS[18],
+          TMS[21],
+          TMS[1],
+          TMS[4],
+          TMS[7],
+          TMS[10],
+          TMS[13],
+          TMS[16],
+          TMS[19],
+          TMS[22],
+          TMS[2],
+          TMS[5],
+          TMS[8],
+          TMS[11],
+          TMS[14],
+          TMS[17],
+          TMS[20],
+          TMS[23],
+          TMS[24],
+        )
+        if (this.showAll) {
+          switch (this.$vuetify.breakpoint.name) {
+            case 'xs':
+              return column1All
+            case 'sm':
+              return column2All
+            case 'md':
+              return column2All
+            case 'lg':
+              return column3All
+            case 'xl':
+              return column3All
+          }
+        } else {
+          switch (this.$vuetify.breakpoint.name) {
+            case 'xs':
+              return column1
+            case 'sm':
+              return column2
+            case 'md':
+              return column2
+            case 'lg':
+              return column3
+            case 'xl':
+              return column3
+          }
         }
+        return column3
       } else {
-        switch (this.$vuetify.breakpoint.name) {
-          case 'xs':
-            return column1
-          case 'sm':
-            return column2
-          case 'md':
-            return column2
-          case 'lg':
-            return column3
-          case 'xl':
-            return column3
-        }
+        return null
       }
-      return column3
     },
   },
   methods: {

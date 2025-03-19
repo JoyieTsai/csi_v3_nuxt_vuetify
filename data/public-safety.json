@@ -22,31 +22,31 @@
     "capabilities": [
       {
         "title": "Total Solution",
-        "icon": "icon-total_solution_outline",
+        "icon": "csi-icon-total_solution_outline",
         "img": "TotalSolution.jpg",
         "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Interoperability",
-        "icon": "icon-interoperability_outline",
+        "icon": "csi-icon-interoperability_outline",
         "img": "Interoperability.jpg",
         "desc": "InfoShare<sup>®</sup> solutions feature end-to-end interoperability for enhanced coordination and collaboration among multiple jurisdictions, departments, and agencies. Linking disparate systems and external data sources including radio, voice recorders, traffic cameras, and records management solutions facilitates interagency sharing of mission-critical information."
       },
       {
         "title": "Mobile Operations",
-        "icon": "icon-mobile_operations_outline",
+        "icon": "csi-icon-mobile_operations_outline",
         "img": "MobileOperations.jpg",
         "desc": "The integrated <a href='/public-safety/mobile-operations' class='primary-link'>MDT application</a> is specifically optimized for mobile operations and workflow. Streamlined functions in one place offer a better experience on mobile data terminals and tablets. First responders receive real-time information and alerts in the field for enhanced situational awareness. "
       },
       {
         "title": "Cloud Compatibility",
-        "icon": "icon-cloud_integration_outline",
+        "icon": "csi-icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
         "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       },
       {
         "title": "Security",
-        "icon": "icon-security_force_outline",
+        "icon": "csi-icon-security_force_outline",
         "img": "Security.jpg",
         "desc": "Our CJIS-compliant CAD system ensures stringent security measures on data encryption, wireless networking, and system access. Users can log in to multiple applications with a single ID (SSO) combined with two-factor authentication. Data access privileges are established through role- or case-based safeguards, making sure that only authorized individuals have access to relevant functions or data."
       }
@@ -176,27 +176,27 @@
     "relatedProducts": [
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Mobile Operations",
-        "icon": "icon-mdt_solid",
+        "icon": "csi-icon-mdt_solid",
         "link": "public-safety/mobile-operations"
       },
       {
         "title": "Fire & EMS",
-        "icon": "icon-fire_ems_solid",
+        "icon": "csi-icon-fire_ems_solid",
         "link": "public-safety/fire-ems"
       },
       {
         "title": "Evidence",
-        "icon": "icon-evidence_solid",
+        "icon": "csi-icon-evidence_solid",
         "link": "public-safety/evidence"
       },
       {
         "title": "Crime Mapping",
-        "icon": "icon-mapping_solid",
+        "icon": "csi-icon-mapping_solid",
         "link": ""
       }
     ],
@@ -227,31 +227,31 @@
     "capabilities": [
       {
         "title": "Data Migration",
-        "icon": "icon-data_migration_outline",
+        "icon": "csi-icon-data_migration_outline",
         "img": "DataMigration.jpg",
         "desc": "We offer the most comprehensive, structured data conversion services on the market. Legacy data, including Master Indices, is converted to our native RMS data, whereby the original data is not simply copied, but also cleansed, condensed, and standardized. No re-entering old data, no accessing old systems, no removing duplicate entries."
       },
       {
         "title": "Multi-Agency Coverage",
-        "icon": "icon-agencies_outline",
+        "icon": "csi-icon-agencies_outline",
         "img": "Multi-agencyCoverage.jpg",
         "desc": "A regional approach with a local feel. Each agency participating in a regional RMS has access to shared resources but retains control of its own data and its own identity—logos, report formats, protocols, approval process, workflow, and so on. Moreover, each agency can choose to deploy specific modules on a need/affordability basis."
       },
       {
         "title": "Platform Independence",
-        "icon": "icon-mobile_operations_outline",
+        "icon": "csi-icon-mobile_operations_outline",
         "img": "PlatformIndependence.jpg",
         "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare<sup>®</sup> RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
       },
       {
         "title": "Total Solution",
-        "icon": "icon-total_solution_outline",
+        "icon": "csi-icon-total_solution_outline",
         "img": "TotalSolution.jpg",
         "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
-        "icon": "icon-cloud_integration_outline",
+        "icon": "csi-icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
         "desc": "<a href='capabilities/cloud-integration'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       }
@@ -459,27 +459,27 @@
     "relatedProducts": [
       {
         "title": "CAD",
-        "icon": "icon-cad_solid",
+        "icon": "csi-icon-cad_solid",
         "link": "public-safety/cad"
       },
       {
         "title": "Mobile Operations",
-        "icon": "icon-mdt_solid",
+        "icon": "csi-icon-mdt_solid",
         "link": "public-safety/mobile-operations"
       },
       {
         "title": "Fire & EMS",
-        "icon": "icon-fire_ems_solid",
+        "icon": "csi-icon-fire_ems_solid",
         "link": "public-safety/fire-ems"
       },
       {
         "title": "Evidence",
-        "icon": "icon-evidence_solid",
+        "icon": "csi-icon-evidence_solid",
         "link": "public-safety/evidence"
       },
       {
         "title": "Crime Mapping",
-        "icon": "icon-mapping_solid",
+        "icon": "csi-icon-mapping_solid",
         "link": ""
       }
     ],
@@ -497,7 +497,7 @@
     "coverImg": "fire_ems.png",
     "brochure": "CSI_Fire and EMS.pdf",
     "descHeading": "Total solution for Fire & EMS response, administration, communication, prevention, and reporting",
-    "descContent": "Designed to be the most integrated all-in-one application suite on the market, our <a href='https://www.usfa.fema.gov/nfirs/vendors/active-vendors.html' target='_blank'>NFIRS 5.0 compliant</a> system supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
+    "descContent": "Designed to be the most integrated all-in-one application suite on the market, our <a href='https://www.usfa.fema.gov/nfirs/vendors/active-vendors.html' target='_blank'>NFIRS 5.0 compliant</a> and <a href='https://nemsis.org/technical-resources/version-3/v3-compliant-software-and-compliance-testing-status' target='_blank'>NEMSIS 3.5 compliant system</a> supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
     "highlightVideo": "FireEMS_highlight.mp4",
     "highlightImg": "FireEMS_thumb.jpg",
     "highlights": [
@@ -510,31 +510,31 @@
     "capabilities": [
       {
         "title": "Total Solution",
-        "icon": "icon-total_solution_outline",
+        "icon": "csi-icon-total_solution_outline",
         "img": "TotalSolution.jpg",
         "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
-        "icon": "icon-cloud_integration_outline",
+        "icon": "csi-icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
         "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       },
       {
         "title": "Data Migration",
-        "icon": "icon-data_migration_outline",
+        "icon": "csi-icon-data_migration_outline",
         "img": "DataMigration.jpg",
         "desc": "We offer the most comprehensive, structured data conversion services on the market. NFIRS and non-NFIRS data is converted to our native RMS data whereby the original data is not simply copied, but also cleansed, condensed, and standardized. No re-entering old data, no accessing old systems, no removing duplicate entries."
       },
       {
         "title": "Platform Independence",
-        "icon": "icon-mobile_operations_outline",
+        "icon": "csi-icon-mobile_operations_outline",
         "img": "PlatformIndependence.jpg",
         "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare<sup>®</sup> RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
       },
       {
         "title": "Multi-Agency Coverage",
-        "icon": "icon-agencies_outline",
+        "icon": "csi-icon-agencies_outline",
         "img": "Multi-agencyCoverage.jpg",
         "desc": "A regional approach with a local feel. Each agency participating in a regional RMS has access to shared resources but retains control of its own data and its own identity—logos, report formats, protocols, approval process, workflow, and so on. Moreover, each agency can choose to deploy specific modules on a need/affordability basis."
       }
@@ -558,6 +558,31 @@
         "img": "fireems-1.jpg"
       },
       {
+        "title": "Fire & EMS Records Management",
+        "desc": "Support all aspects of records management including data collection, storage, investigation, reporting, as well as department activities such as scheduling-rostering, personnel, training/certifications, permits, inspections, apparatus, inventory, hydrants, and more.",
+        "list": [
+          "Bi-directional CAD, RMS, and MDT integration",
+          "Automatic NFIRS code mapping ",
+          "Incident intake via CAD or RMS",
+          "EMS DEM data sets and diagnosis/procedure codes",
+          "Occupancy, permit, and inspection management",
+          "Fire & Arson Investigation Reports"
+        ],
+        "img": "fireems-3.jpg"
+      },
+      {
+        "title": "NFIRS & ePCR Reporting",
+        "desc": "Paperless reporting and approval with digital signatures, followed by case disposition. Event details are pre-populated in NFIRS and ePCR reports, eliminating duplicate data entry and errors. Reports are physically stored in the system for efficient archiving and viewing.",
+        "list": [
+          "NFIRS and ePCR with vaildation and error reporting",
+          "Field validation checks (mandatory fields, data type, format, range)",
+          "Auto-route reports for approval",
+          "Narrative and multimedia attachment functions",
+          "User-definable fields and labels"
+        ],
+        "img": "fireems-4.jpg"
+      },
+      {
         "title": "Fire & EMS MDT",
         "desc": "All mission-critical information pertaining to the CFS is shared with responders in real-time from the Master Location database. Firefighters and EMS personnel arrive on the scene better prepared with enhanced situational awareness.",
         "list": [
@@ -569,31 +594,6 @@
           "Real-time location information (flags, floor plans, photos, HazMat, recent CFS)"
         ],
         "img": "fireems-2.jpg"
-      },
-      {
-        "title": "Fire & EMS Records Management",
-        "desc": "Support all aspects of records management including data collection, storage, investigation, reporting, as well as department activities such as scheduling-rostering, personnel, training/certifications, permits, inspections, apparatus, inventory, hydrants, and more.",
-        "list": [
-          "Bi-directional CAD, RMS, and MDT integration",
-          "Automatic NFIRS code mapping ",
-          "Incident intake via CAD or RMS",
-          "Apparatus, asset, inventory, and hydrant management",
-          "Occupancy, permit, and inspection management",
-          "Fire & Arson Investigation Reports"
-        ],
-        "img": "fireems-3.jpg"
-      },
-      {
-        "title": "NFIRS & ePCR Reporting",
-        "desc": "Paperless reporting and approval with digital signatures, followed by case disposition. Event details are pre-populated in NFIRS and ePCR reports, eliminating duplicate data entry and errors. Reports are physically stored in the system for efficient archiving and viewing.",
-        "list": [
-          "NFIRS with validation and error reporting",
-          "Field validation checks (mandatory fields, data type, format, range)",
-          "Auto-route reports for approval",
-          "Narrative and multimedia attachment functions",
-          "User-definable fields and labels"
-        ],
-        "img": "fireems-4.jpg"
       },
       {
         "title": "Active Response App",
@@ -624,6 +624,36 @@
     ],
     "extending": [
       {
+        "title": "NFIRS",
+        "icon": "nfirs.svg",
+        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
+      },
+      {
+        "title": "NEMSIS",
+        "icon": "nemsis.svg",
+        "desc": "Pending"
+      },
+      {
+        "title": "Fire Arson Investigation",
+        "icon": "arson.svg",
+        "desc": "Manage case data, documents, and evidence for fire and arson investigations in compliance with NFPA 921 standards."
+      },
+      {
+        "title": "Fire Inspection Billing Module",
+        "icon": "fire_inspection.svg",
+        "desc": "Maintain accounting and invoice/billing services for permits or inspections in the Fire Inspection Application."
+      },
+      {
+        "title": "GIS (ESRI ArcGIS/WTH)",
+        "icon": "map.svg",
+        "desc": "Interface with GIS providers to maintain map layers, create geofiles, enable mobile navigation, and add real-time traffic mapping."
+      },
+      {
+        "title": "Rapid SOS Interface",
+        "icon": "sos.svg",
+        "desc": "Access contextual data from information systems such as smartphones, wearable devices, smart buildings, etc. in emergencies."
+      },
+      {
         "title": "Personnel and Scheduling",
         "icon": "personnel.svg",
         "desc": "Support all aspects of personnel management such as training, time off, overtime, document tracking, and scheduling.",
@@ -633,57 +663,32 @@
         "title": "Policy and Procedure",
         "icon": "policy.svg",
         "desc": "Promote compliance and understanding of organizational policies."
-      },
-      {
-        "title": "Fire Arson Investigation",
-        "icon": "arson.svg",
-        "desc": "Manage case data, documents, and evidence for fire and arson investigations in compliance with NFPA 921 standards."
-      },
-      {
-        "title": "Rapid SOS Interface",
-        "icon": "sos.svg",
-        "desc": "Access contextual data from information systems such as smartphones, wearable devices, smart buildings, etc. in emergencies."
-      },
-      {
-        "title": "Fire Inspection Billing Module",
-        "icon": "fire_inspection.svg",
-        "desc": "Maintain accounting and invoice/billing services for permits or inspections in the Fire Inspection Application."
-      },
-      {
-        "title": "NFIRS",
-        "icon": "nfirs.svg",
-        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
-      },
-      {
-        "title": "GIS (ESRI ArcGIS/WTH)",
-        "icon": "map.svg",
-        "desc": "Interface with GIS providers to maintain map layers, create geofiles, enable mobile navigation, and add real-time traffic mapping."
       }
     ],
     "relatedProducts": [
       {
         "title": "CAD",
-        "icon": "icon-cad_solid",
+        "icon": "csi-icon-cad_solid",
         "link": "public-safety/cad"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Mobile Operations",
-        "icon": "icon-mdt_solid",
+        "icon": "csi-icon-mdt_solid",
         "link": "public-safety/mobile-operations"
       },
       {
         "title": "Personnel & Scheduling",
-        "icon": "icon-personnel_solid",
+        "icon": "csi-icon-personnel_solid",
         "link": "public-safety/personnel-scheduling"
       },
       {
         "title": "Citation Management",
-        "icon": "icon-eticket_solid",
+        "icon": "csi-icon-eticket_solid",
         "link": "public-safety/citation-management"
       }
     ],
@@ -753,27 +758,27 @@
     "relatedProducts": [
       {
         "title": "CAD",
-        "icon": "icon-cad_solid",
+        "icon": "csi-icon-cad_solid",
         "link": "public-safety/cad"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Fire & EMS",
-        "icon": "icon-fire_ems_solid",
+        "icon": "csi-icon-fire_ems_solid",
         "link": "public-safety/fire-ems"
       },
       {
         "title": "Citation Management",
-        "icon": "icon-eticket_solid",
+        "icon": "csi-icon-eticket_solid",
         "link": "public-safety/citation-management"
       },
       {
         "title": "Analytics",
-        "icon": "icon-analytics_solid",
+        "icon": "csi-icon-analytics_solid",
         "link": "crime-intelligence/analytics"
       }
     ],
@@ -833,27 +838,27 @@
     "relatedProducts": [
       {
         "title": "CAD",
-        "icon": "icon-cad_solid",
+        "icon": "csi-icon-cad_solid",
         "link": "public-safety/cad"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Fire & EMS",
-        "icon": "icon-fire_ems_solid",
+        "icon": "csi-icon-fire_ems_solid",
         "link": "public-safety/fire-ems"
       },
       {
         "title": "Personnel & Scheduling",
-        "icon": "icon-personnel_solid",
+        "icon": "csi-icon-personnel_solid",
         "link": "public-safety/personnel-scheduling"
       },
       {
         "title": "Evidence",
-        "icon": "icon-evidence_solid",
+        "icon": "csi-icon-evidence_solid",
         "link": "public-safety/evidence"
       }
     ],
@@ -934,27 +939,27 @@
     "relatedProducts": [
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Crime Scene Investigation",
-        "icon": "icon-rolmes_solid",
+        "icon": "csi-icon-rolmes_solid",
         "link": "crime-intelligence/csi"
       },
       {
         "title": "High Tech Crime",
-        "icon": "icon-hacker_solid",
+        "icon": "csi-icon-hacker_solid",
         "link": ""
       },
       {
         "title": "Major Incident Management",
-        "icon": "icon-mim_solid",
+        "icon": "csi-icon-mim_solid",
         "link": "crime-intelligence/major-incident-management"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       }
     ],
@@ -1063,27 +1068,27 @@
     "relatedProducts": [
       {
         "title": "CAD",
-        "icon": "icon-cad_solid",
+        "icon": "csi-icon-cad_solid",
         "link": "public-safety/cad"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Fire & EMS",
-        "icon": "icon-fire_ems_solid",
+        "icon": "csi-icon-fire_ems_solid",
         "link": "public-safety/fire-ems"
       },
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       }
     ],
@@ -1162,27 +1167,27 @@
     "relatedProducts": [
       {
         "title": "Prosecution",
-        "icon": "icon-prosecution_solid",
+        "icon": "csi-icon-prosecution_solid",
         "link": "justice-courts/prosecutor-cdms"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       },
       {
         "title": "Interview Recording",
-        "icon": "icon-info_recording_solid",
+        "icon": "csi-icon-info_recording_solid",
         "link": "justice-courts/interview-recording"
       },
       {
         "title": "Evidence",
-        "icon": "icon-evidence_solid",
+        "icon": "csi-icon-evidence_solid",
         "link": "public-safety/evidence"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       }
     ],
@@ -1252,27 +1257,27 @@
     "relatedProducts": [
       {
         "title": "CAD",
-        "icon": "icon-cad_solid",
+        "icon": "csi-icon-cad_solid",
         "link": "public-safety/cad"
       },
       {
         "title": "RMS",
-        "icon": "icon-rms_solid",
+        "icon": "csi-icon-rms_solid",
         "link": "public-safety/rms"
       },
       {
         "title": "Fire & EMS",
-        "icon": "icon-fire_ems_solid",
+        "icon": "csi-icon-fire_ems_solid",
         "link": "public-safety/fire-ems"
       },
       {
         "title": "Intelligence",
-        "icon": "icon-intelligence_solid",
+        "icon": "csi-icon-intelligence_solid",
         "link": "crime-intelligence/intelligence"
       },
       {
         "title": "Investigation",
-        "icon": "icon-investigation_solid",
+        "icon": "csi-icon-investigation_solid",
         "link": "crime-intelligence/investigation"
       }
     ],

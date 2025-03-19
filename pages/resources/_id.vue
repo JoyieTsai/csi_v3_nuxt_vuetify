@@ -59,8 +59,8 @@
                   </ShareNetwork>
                 </div>
 
-                <div class="tw-text-base lg:tw-text-lg tw-leading-relaxed tw-text-gray-500">
-                  <div class="news-body lg:tw-text-xl" v-html="article.body">
+                <div class="tw-text-base lg:tw-text-lg tw-leading-relaxed tw-text-gray-600">
+                  <div class="news-body xl:tw-text-xl" v-html="article.body">
                   </div>
                 </div>
               </div>
@@ -69,35 +69,13 @@
 
           <!-- Related Products -->
           <div class="tw-w-full lg:tw-w-3/12 tw-mt-20 lg:tw-mt-40 xl:tw-mt-52 tw-pl-0 2xl:tw-pl-16 lg:tw-pl-10">
-            <div v-show="relatedProducts.length">
-              <div class="tw-text-lg lg:tw-text-xl tw-mb-5">
-                Related Products
-              </div>
-              <div class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-4 lg:tw-gap-8">
-                <div v-for="(item, i) in relatedProducts" :key="i"
-                  class="tw-flex sm:tw-flex-col 2xl:tw-flex-row bg-light tw-cursor-pointer hover:tw-bg-white hover:tw-shadow-xl tw-p-5"
-                  @click.prevent="routerToProduct(item.category, item.id)">
-                  <div class="tw-flex-none tw-flex tw-items-center tw-justify-center">
-                    <img :src="require('~/assets/duotone/' + item.icon)" alt="" class="tw-mb-3 2xl:tw-mb-3 tw-mr-5 sm:tw-mr-0 2xl:tw-mr-5 tw-w-16" />
-                  </div>
-                  <div class="tw-flex-auto tw-text-left sm:tw-text-center 2xl:tw-text-left">
-                    <div class="tw-text-base lg:tw-text-lg tw-font-semibold">
-                      {{ item.title }}
-                    </div>
-                    <div class="tw-opacity-70 tw-text-sm lg:tw-text-base">
-                      {{ item.subtitle }}
-                    </div>
-                  </div>
-                </div>
-              </div>
+            <div class="tw-text-lg lg:tw-text-xl tw-mb-5">
+              Related {{ relatedCapabilities.length ? "Capabilities" : "Products"}}
             </div>
 
             <!-- Related Capabilities -->
-            <div v-show="relatedCapabilities">
-              <div class="tw-text-lg lg:tw-text-xl tw-mb-5">
-                Related Capabilities
-              </div>
-              <div class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-4 lg:tw-gap-8">
+            <div v-if="relatedCapabilities.length">
+              <div class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-3 lg:tw-gap-6">
                 <div v-for="(item, j) in relatedCapabilities" :key="j"
                   class="tw-flex sm:tw-flex-col 2xl:tw-flex-row bg-light tw-cursor-pointer hover:tw-bg-white hover:tw-shadow-xl tw-p-5"
                   @click.prevent="routerToCapabilities(item.id)">
@@ -106,9 +84,27 @@
                   </div>
                   <div class="tw-flex-auto tw-text-left sm:tw-text-center 2xl:tw-text-left">
                     <div class="tw-text-base lg:tw-text-lg tw-font-semibold" v-html="item.title"></div>
-                    <div class="tw-opacity-70 tw-text-sm lg:tw-text-base">
+                    <div class="tw-opacity-70 tw-text-sm xl:tw-text-base">
                       {{ item.subtitle }}
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div v-else class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-3 lg:tw-gap-6">
+              <div v-for="(item, i) in relatedProducts" :key="i"
+                class="tw-flex sm:tw-flex-col 2xl:tw-flex-row bg-light tw-cursor-pointer hover:tw-bg-white hover:tw-shadow-xl tw-p-5"
+                @click.prevent="routerToProduct(item.category, item.id)">
+                <div class="tw-flex-none tw-flex tw-items-center tw-justify-center">
+                  <img :src="require('~/assets/duotone/' + item.icon)" alt="" class="tw-mb-3 2xl:tw-mb-3 tw-mr-5 sm:tw-mr-0 2xl:tw-mr-5 tw-w-16" />
+                </div>
+                <div class="tw-flex-auto tw-text-left sm:tw-text-center 2xl:tw-text-left">
+                  <div class="tw-text-base lg:tw-text-lg tw-font-semibold">
+                    {{ item.title }}
+                  </div>
+                  <div class="tw-opacity-70 tw-text-sm lg:tw-text-base">
+                    {{ item.subtitle }}
                   </div>
                 </div>
               </div>
@@ -321,10 +317,22 @@ export default {
     }
   }
 
-  ol,
   ul {
     list-style: initial;
     padding-left: 24px !important;
+  }
+
+  ol {
+    list-style-type: circle;
+    padding-left: 1rem;
+  }
+
+  ul {
+    margin: 1.5em 0 1.5em 1.2em;
+
+    & > li {
+      margin-bottom: 0.75em;
+    }
   }
 
   h3 {
@@ -334,15 +342,6 @@ export default {
     font-size: $body-1-size;
     @media only screen and (max-width: $breakpoints-md) {
       font-size: $body-3-size;
-    }
-  }
-
-  ol,
-  ul {
-    margin: 1.5em 0 1.5em 1.2em;
-
-    li {
-      margin-bottom: 0.75em;
     }
   }
 
