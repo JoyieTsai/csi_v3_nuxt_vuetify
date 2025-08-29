@@ -497,7 +497,7 @@
     "coverImg": "fire_ems.png",
     "brochure": "CSI_Fire and EMS.pdf",
     "descHeading": "Total solution for Fire & EMS response, administration, communication, prevention, and reporting",
-    "descContent": "Designed to be the most integrated all-in-one application suite on the market, our <a href='https://www.usfa.fema.gov/nfirs/vendors/active-vendors.html' target='_blank'>NFIRS 5.0 compliant</a> and <a href='https://nemsis.org/technical-resources/version-3/v3-compliant-software-and-compliance-testing-status' target='_blank'>NEMSIS 3.5 compliant system</a> supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
+    "descContent": "Designed to be the most integrated all-in-one application suite on the market, our <a href='https://www.usfa.fema.gov/nfirs/vendors/active-vendors.html' target='_blank'>NFIRS 5.0 compliant</a> system supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
     "highlightVideo": "FireEMS_highlight.mp4",
     "highlightImg": "FireEMS_thumb.jpg",
     "highlights": [
@@ -558,31 +558,6 @@
         "img": "fireems-1.jpg"
       },
       {
-        "title": "Fire & EMS Records Management",
-        "desc": "Support all aspects of records management including data collection, storage, investigation, reporting, as well as department activities such as scheduling-rostering, personnel, training/certifications, permits, inspections, apparatus, inventory, hydrants, and more.",
-        "list": [
-          "Bi-directional CAD, RMS, and MDT integration",
-          "Automatic NFIRS code mapping ",
-          "Incident intake via CAD or RMS",
-          "EMS DEM data sets and diagnosis/procedure codes",
-          "Occupancy, permit, and inspection management",
-          "Fire & Arson Investigation Reports"
-        ],
-        "img": "fireems-3.jpg"
-      },
-      {
-        "title": "NFIRS & ePCR Reporting",
-        "desc": "Paperless reporting and approval with digital signatures, followed by case disposition. Event details are pre-populated in NFIRS and ePCR reports, eliminating duplicate data entry and errors. Reports are physically stored in the system for efficient archiving and viewing.",
-        "list": [
-          "NFIRS and ePCR with vaildation and error reporting",
-          "Field validation checks (mandatory fields, data type, format, range)",
-          "Auto-route reports for approval",
-          "Narrative and multimedia attachment functions",
-          "User-definable fields and labels"
-        ],
-        "img": "fireems-4.jpg"
-      },
-      {
         "title": "Fire & EMS MDT",
         "desc": "All mission-critical information pertaining to the CFS is shared with responders in real-time from the Master Location database. Firefighters and EMS personnel arrive on the scene better prepared with enhanced situational awareness.",
         "list": [
@@ -594,6 +569,31 @@
           "Real-time location information (flags, floor plans, photos, HazMat, recent CFS)"
         ],
         "img": "fireems-2.jpg"
+      },
+      {
+        "title": "Fire & EMS Records Management",
+        "desc": "Support all aspects of records management including data collection, storage, investigation, reporting, as well as department activities such as scheduling-rostering, personnel, training/certifications, permits, inspections, apparatus, inventory, hydrants, and more.",
+        "list": [
+          "Bi-directional CAD, RMS, and MDT integration",
+          "Automatic NFIRS code mapping ",
+          "Incident intake via CAD or RMS",
+          "Apparatus, asset, inventory, and hydrant management",
+          "Occupancy, permit, and inspection management",
+          "Fire & Arson Investigation Reports"
+        ],
+        "img": "fireems-3.jpg"
+      },
+      {
+        "title": "NFIRS & ePCR Reporting",
+        "desc": "Paperless reporting and approval with digital signatures, followed by case disposition. Event details are pre-populated in NFIRS and ePCR reports, eliminating duplicate data entry and errors. Reports are physically stored in the system for efficient archiving and viewing.",
+        "list": [
+          "NFIRS with validation and error reporting",
+          "Field validation checks (mandatory fields, data type, format, range)",
+          "Auto-route reports for approval",
+          "Narrative and multimedia attachment functions",
+          "User-definable fields and labels"
+        ],
+        "img": "fireems-4.jpg"
       },
       {
         "title": "Active Response App",
@@ -624,36 +624,6 @@
     ],
     "extending": [
       {
-        "title": "NFIRS",
-        "icon": "nfirs.svg",
-        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
-      },
-      {
-        "title": "NEMSIS",
-        "icon": "nemsis.svg",
-        "desc": "Pending"
-      },
-      {
-        "title": "Fire Arson Investigation",
-        "icon": "arson.svg",
-        "desc": "Manage case data, documents, and evidence for fire and arson investigations in compliance with NFPA 921 standards."
-      },
-      {
-        "title": "Fire Inspection Billing Module",
-        "icon": "fire_inspection.svg",
-        "desc": "Maintain accounting and invoice/billing services for permits or inspections in the Fire Inspection Application."
-      },
-      {
-        "title": "GIS (ESRI ArcGIS/WTH)",
-        "icon": "map.svg",
-        "desc": "Interface with GIS providers to maintain map layers, create geofiles, enable mobile navigation, and add real-time traffic mapping."
-      },
-      {
-        "title": "Rapid SOS Interface",
-        "icon": "sos.svg",
-        "desc": "Access contextual data from information systems such as smartphones, wearable devices, smart buildings, etc. in emergencies."
-      },
-      {
         "title": "Personnel and Scheduling",
         "icon": "personnel.svg",
         "desc": "Support all aspects of personnel management such as training, time off, overtime, document tracking, and scheduling.",
@@ -663,6 +633,31 @@
         "title": "Policy and Procedure",
         "icon": "policy.svg",
         "desc": "Promote compliance and understanding of organizational policies."
+      },
+      {
+        "title": "Fire Arson Investigation",
+        "icon": "arson.svg",
+        "desc": "Manage case data, documents, and evidence for fire and arson investigations in compliance with NFPA 921 standards."
+      },
+      {
+        "title": "Rapid SOS Interface",
+        "icon": "sos.svg",
+        "desc": "Access contextual data from information systems such as smartphones, wearable devices, smart buildings, etc. in emergencies."
+      },
+      {
+        "title": "Fire Inspection Billing Module",
+        "icon": "fire_inspection.svg",
+        "desc": "Maintain accounting and invoice/billing services for permits or inspections in the Fire Inspection Application."
+      },
+      {
+        "title": "NFIRS",
+        "icon": "nfirs.svg",
+        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
+      },
+      {
+        "title": "GIS (ESRI ArcGIS/WTH)",
+        "icon": "map.svg",
+        "desc": "Interface with GIS providers to maintain map layers, create geofiles, enable mobile navigation, and add real-time traffic mapping."
       }
     ],
     "relatedProducts": [

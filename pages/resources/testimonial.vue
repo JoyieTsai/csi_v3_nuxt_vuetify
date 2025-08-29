@@ -3,10 +3,13 @@
   <v-app>
     <v-main>
       <!-- Cover -->
-      <div class="hero-section lg tw-items-center" :style="{
+      <div
+        class="hero-section lg tw-items-center"
+        :style="{
           backgroundImage: `url(images/covers/${category}/${coverimg})`,
           backgroundPosition: `center`,
-        }">
+        }"
+      >
         <div class="main-container tw-mx-auto">
           <div class="tw-flex tw-mb-12">
             <div class="tw-flex-1 tw-flex-col tw-text-white">
@@ -20,49 +23,79 @@
       <div class="main-container tw-mx-auto tw-mt-10 xl:tw-mt-20">
         <div class="tw-inline-block">
           <div class="flex-group">
-            <div v-for="(item, index) in testimonials" :key="index" class="flex-group-card tw-mt-5">
+            <div
+              v-for="(item, index) in testimonials"
+              :key="index"
+              class="flex-group-card tw-mt-5"
+            >
               <!-- < 9 -->
-              <div v-if="testimonials.length <= 10" :class="[
+              <div
+                v-if="testimonials.length <= 10"
+                :class="[
                   index % 2 != 0 ? 'highlight' : '',
                   'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card',
-                ]">
-                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg" v-html="item.quote"></div>
+                ]"
+              >
+                <div
+                  class="tw-text-sm md:tw-text-base xl:tw-text-lg"
+                  v-html="item.quote"
+                ></div>
                 <div class="middle-divider tw-mt-4">
-                  <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain" :style="
+                  <div
+                    class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+                    :style="
                       'background-image: url(images/agency/' + item.logo + ')'
-                    "></div>
+                    "
+                  ></div>
                 </div>
-                <div class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+                <div
+                  class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
+                >
                   {{ item.author }}
                 </div>
-                <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60" v-html="item.agency">
-                </div>
+                <div
+                  class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+                  v-html="item.agency"
+                ></div>
               </div>
               <!-- Show all -->
-              <div v-else :class="[
+              <div
+                v-else
+                :class="[
                   index % 2 != 0 ? 'highlight' : '',
                   'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card',
-                ]">
-                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg" v-html="item.quote"></div>
+                ]"
+              >
+                <div
+                  class="tw-text-sm md:tw-text-base xl:tw-text-lg"
+                  v-html="item.quote"
+                ></div>
                 <div class="middle-divider tw-mt-4">
-                  <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain" :style="
+                  <div
+                    class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+                    :style="
                       'background-image: url(images/agency/' + item.logo + ')'
-                    "></div>
+                    "
+                  ></div>
                 </div>
-                <div class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+                <div
+                  class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
+                >
                   {{ item.author }}
                 </div>
-                <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60" v-html="item.agency">
-                </div>
+                <div
+                  class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+                  v-html="item.agency"
+                ></div>
               </div>
             </div>
             <!-- If the quantity is not divisible -->
-            <!-- <div v-show="showAll" class="tw-h-80"></div> -->
+            <div v-show="showAll" class="tw-h-80"></div>
           </div>
           <div class="tw-text-center">
             <v-btn outlined color="primary" @click="toggleAll()">
               <span v-if="showAll">
-                <v-icon>mdi-chevron-up</v-icon> See More
+                <v-icon>mdi-chevron-up</v-icon> See Less
               </span>
               <span v-else> <v-icon>mdi-chevron-down</v-icon> See More </span>
             </v-btn>
@@ -89,7 +122,7 @@ export default {
   }),
   head() {
     return {
-      titleTemplate: '%s - ' + this.title,
+      titleTemplate: '%s | ' + this.title,
       meta: [{ name: 'description', content: this.title }],
     }
   },
@@ -130,6 +163,8 @@ export default {
           TMS[20],
           TMS[22],
           TMS[24],
+          TMS[26],
+          TMS[28],
           TMS[1],
           TMS[3],
           TMS[5],
@@ -142,6 +177,8 @@ export default {
           TMS[19],
           TMS[21],
           TMS[23],
+          TMS[25],
+          TMS[27]
         )
         column3.push(
           TMS[0],
@@ -152,7 +189,8 @@ export default {
           TMS[7],
           TMS[2],
           TMS[5],
-          TMS[8]
+          TMS[8],
+          TMS[9]
         )
         column3All.push(
           TMS[0],
@@ -163,6 +201,8 @@ export default {
           TMS[15],
           TMS[18],
           TMS[21],
+          TMS[24],
+          TMS[27],
           TMS[1],
           TMS[4],
           TMS[7],
@@ -171,6 +211,7 @@ export default {
           TMS[16],
           TMS[19],
           TMS[22],
+          TMS[25],
           TMS[2],
           TMS[5],
           TMS[8],
@@ -179,7 +220,8 @@ export default {
           TMS[17],
           TMS[20],
           TMS[23],
-          TMS[24],
+          TMS[26],
+          TMS[28]
         )
         if (this.showAll) {
           switch (this.$vuetify.breakpoint.name) {

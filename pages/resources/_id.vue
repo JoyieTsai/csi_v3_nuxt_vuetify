@@ -29,7 +29,7 @@
 
           <div class="tw-w-full tw-flex-1 md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl">
             <div class="tw-bg-white">
-              <img :src="'images/news/' + article.cover" alt="resource" />
+              <img :src="[ !article.cover ? 'images/news/news_temp.svg' : 'images/news/' + article.cover]" alt="resource" />
               <div class="tw-p-5 md:tw-p-10">
                 <div class="tw-flex tw-justify-between">
                   <div class="tips">
@@ -128,6 +128,7 @@ import Articles from '~/data/articles.json'
 
 export default {
   data: () => ({
+    loaded: false,
     category: 'page',
     coverimg: 'blue.jpg',
     networks: [
@@ -331,12 +332,15 @@ export default {
     margin: 1.5em 0 1.5em 1.2em;
 
     & > li {
-      margin-bottom: 0.75em;
+      margin-bottom: 0.5em;
+    }
+    li:last-child {
+      margin-bottom: 0;
     }
   }
 
   h3 {
-    margin-top: 0.5rem;
+    padding-top: 0.5rem;
     margin-bottom: 0.75em;
     font-weight: 600;
     font-size: $body-1-size;

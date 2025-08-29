@@ -28,9 +28,9 @@
         </div>
         <!-- VERIFIED Seal -->
         <div class="tw-flex tw-justify-center tw-gap-5 tw-flex-row tw-mt-20 tw-mb-5">
-          <a href="//www.dandb.com/verified/business/576765318/" target="_blank">
-            <img src="images/verified_logo.png" alt="VERIFIED Seal" class="tw-mx-auto tw-h-20" />
-          </a>
+          <!-- <a href="//www.dandb.com/verified/business/576765318/" target="_blank"> -->
+          <img src="images/verified_logo.png" alt="VERIFIED Seal" class="tw-mx-auto tw-h-20" />
+          <!-- </a> -->
           <div>
             <img src="images/soc2_logo.jpg" alt="Soc2" class="tw-mx-auto tw-h-20" />
           </div>

@@ -240,7 +240,7 @@
             <img :src="'images/team/' + popSrc" alt="" class="tw-w-40 md:tw-w-full tw-pr-5 md:tw-pr-10 tw-mb-5" />
           </div>
           <div class="sm:tw-w-3/4">
-            <div class="header-3 tw-font-semibold">{{ popName }}<span class="tw-text-lg lg:tw-text-xl xl:tw-text-2xl tw-opacity-70"> -
+            <div class="header-3 tw-font-semibold">{{ popName }}<span v-if="popSub" class="tw-text-lg lg:tw-text-xl xl:tw-text-2xl tw-opacity-70"> -
                 {{ popSub }}</span></div>
             <div class="tw-text-base lg:tw-text-lg xl:tw-text-xl tw-opacity-70">
               {{ popPosition }}

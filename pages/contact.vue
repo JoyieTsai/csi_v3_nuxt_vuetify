@@ -113,7 +113,7 @@ export default {
   }),
   head() {
     return {
-      titleTemplate: '%s - ' + this.title,
+      titleTemplate: '%s | ' + this.title,
       meta: [{ name: 'description', content: this.title }],
     }
   },

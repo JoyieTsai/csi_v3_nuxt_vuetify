@@ -286,15 +286,6 @@
     "desc": "Sean joins the CSI Team following a 25-year career in law enforcement with over 23 years with the New Hampshire State Police. While with the New Hampshire State Police, Sean served in multiple Troop barracks and with the State Police Aviation Unit. Sean was an instrumental part of the records management project from the onset. He was an active user with the InfoShare<sup>®</sup> systems and has significant hands-on experience.<br><br>Sean began his career as an active road trooper in northern New Hampshire. After a number of years, he moved to the capital of the State to work within another Troop barracks. After 10 years at that Troop, Sean was transferred into the State Police Aviation Unit.  Throughout his career, Sean has fulfilled roles as a Field Training Officer, Drug Recognition Expert Instructor, Emergency Vehicle Operator Course Instructor, Tech Team Lead, HGN/FST Instructor, LIDAR Instructor, Certified Tactical Flight Officer, Stop Stick Instructor, Assistant Project Manager – Records Management and a Body Camera Project Lead. He concluded his career as the Assistant Unit Commander for the State Police Aviation Unit.<br><br>Sean also served as a Marine in the United State Marine Corp – Reserves. He is an active professional photographer, living in Concord, NH with his wife and 2 children."
   },
   {
-    "id": 24,
-    "name": "Michael Bernard",
-    "sub": "In Loving Memory",
-    "src": "michael.jpg",
-    "type": "Account Management",
-    "position": "Account Management Team",
-    "desc": "Mike joined the CSI team following a 25-year career in law enforcement, retiring as the Administrative Division Commander/Lieutenant for the Bedford, New Hampshire Police Department. In his career, Mike worked as a patrol officer, motorcycle officer, field training officer, patrol sergeant, patrol lieutenant and administrative lieutenant. In his last assignment, he was responsible for internal investigations, training, recruitment, highway safety grants, records division, communications, promotional processes, field training program, and community policing.<br><br>Mike served on the New Hampshire Police Association’s Board of Directors and President of the Bedford Police Association. Mike had a degree in criminal justice and was a certified C.R.A.S.E Instructor with Texas State University. <br><br>Mike passed away in February 2025 after almost 3 years of dedicated service at CSI overseeing police and fire departments across the New England region. We are forever grateful to have had him as part of our CSI family. He is survived by his wife and two sons."
-  },
-  {
     "id": 25,
     "name": "Keith McDermott",
     "src": "keith.jpg",
@@ -341,6 +332,30 @@
     "type": "Account Management",
     "position": "Account Management Team",
     "desc": "Robert brings a wealth of experience to the CSI team after a distinguished 25-year career in law enforcement. He spent four years with the New Shoreham Police Department and 21 years with the Narragansett Police Department in Rhode Island. Over the course of his career, Robert took on a variety of roles, including dispatcher, patrol officer, investigator, and supervisor in both patrol and detective units. He ultimately retired as the department’s Prosecution Lieutenant. Additionally, Robert served as a firearms instructor, Field Training Officer, and was part of both the Accident Reconstruction Unit and the Warrant Service Team.<br><br>He holds a bachelor’s degree in Criminal Justice and a master’s certificate in Computer Forensics from Roger Williams University. Robert currently resides in Rhode Island with his wife and daughter."
+  },
+  {
+    "id": 32,
+    "name": "Maureen Lancaster",
+    "src": "maureen.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Maureen joins the CSI team with extensive experience in intelligence, homeland security, and information sharing. She served as Bureau Chief of the Intelligence Management Bureau at the New Jersey Office of Homeland Security and Preparedness (NJOHSP). In that role, she oversaw the statewide Suspicious Activity Reporting (SAR) system and led New Jersey's <i>See Something, Say Something</i> campaign.<br><br>Maureen also served as the National Chair of the Intelligence and Information Sharing Subcommittee and as Co-Chair of the Statewide Threat Assessment Team (NJ STAT), which is a joint effort between federal, state, county, and local agencies designed to identify, assess, and “off-ramp” individuals at risk of committing targeted acts of violence. She previously served as Chief of the Analysis Bureau and was a project manager for several key information sharing initiatives, including a statewide RMS/CAD program known as NJDEX.<br><br>Prior to her assignment with NJOHSP, Maureen worked with the New Jersey State Police Counterterrorism Bureau and the state’s fusion center, the Regional Operations and Intelligence Center (ROIC), as a Supervising Analyst. She played an active role in evaluating fusion center capabilities and helped develop policies and strategies to enhance information sharing. As a longtime user of the InfoShare® system, she brings insightful expertise and practical user experience to both CSI and clients.<br><br>Maureen obtained a master’s degree in education leadership and management from Seton Hall University and is a certified Crime Analyst."
+  },
+  {
+    "id": 33,
+    "name": "Daniel Sorice",
+    "src": "daniel.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Daniel joins our CSI team after over 20 years of dedicated service in law enforcement. He began his career as a dispatcher with the Johnston, RI Police Department before moving on to the Narragansett Police Department, where he served in various roles, including patrol officer, detective, sergeant, and lieutenant.<br><br>Throughout his career, Daniel also held several specialized positions. He was a Field Training Officer (FTO), a certified instructor in Mental Health First Aid, and BCI Certified. He concluded his law enforcement tenure as the department’s Administrative Lieutenant, where he led the development and management of the Body-Worn Camera program. Additionally, Daniel served as the department’s Accreditation Manager, successfully overseeing two re-accreditations and earning the Rhode Island Accreditation Manager of the Year Award in recognition of his work.<br><br>Daniel holds a master’s degree in criminal justice and a master’s certificate in cybersecurity from Roger Williams University. He currently resides in Rhode Island with his wife and children."
+  },
+  {
+    "id": 34,
+    "name": "Edward Flynn",
+    "src": "edward.jpg",
+    "type": "Account Management",
+    "position": "Account Management Team",
+    "desc": "Ed joins the CSI team after serving over 26 years as a State Trooper with the New Hampshire State Police. Over the course of his career, he spent many years actively patrolling the midnight shift and served as an instructor in Defensive Tactics, Baton, and Taser, training both new recruits and seasoned officers. <br><br>Ed was certified as an explosives detection handler and worked with three explosive detection canines throughout his tenure. After completing specialized training with the Bomb Squad, he was selected to become a Bomb Technician, earning numerous certifications and working alongside bomb squads across New England. He played a key role in the growth and advancement of the Bomb Squad, contributing to improvements in equipment, training, personnel, and response capabilities. He retired as the Assistant Bomb Squad Commander after nearly 18 years of service on the team.<br><br>Ed brings valuable hands-on experience using the InfoShare® System from his time as a New Hampshire Trooper. He also possesses extensive training in software technologies, with expertise ranging from robotics and x-ray platforms to bomb data reporting software."
   },
   {
     "id": 99,

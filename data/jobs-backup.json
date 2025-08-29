@@ -29,5 +29,38 @@
                 ]
             }
         ]
+    },
+    {
+        "id": 0,
+        "position": "Computer Systems Engineer",
+        "location": "Keasbey, NJ",
+        "functions": [
+            {
+                "title": "Job Descriptions",
+                "content": [
+                    "Responsible for the end to end development life cycle and continuous maintenance of Infoshare software products.",
+                    "Gather overall requirements of assigned projects and coordinate the support of UI/UX design, hard code development and QA efforts from specific teams.",
+                    "Develop the deployment flow control strategy to optimize customer satisfaction.",
+                    "Participate in advancing low-code development, optimizing data pipelines and refining document templates and interfaces.",
+                    "Enhance software functionalities, streamline processes, and elevate user experience.",
+                    "Provide support of existing Infoshare web applications including troubleshooting, testing, business rule changes, and routine tasks.",
+                    "Collaborate with cross-functional teams to drive innovation, ensure scalability and maintain a high product standard and excellence."
+                ]
+            },
+            {
+                "title": "Requirement",
+                "content": [
+                    "Bachelor’s degree in Computer Science, Computer Engineering, Data Analytics Engineering or Mathematics or a related discipline with at least12 months experience.",
+                    "Must have training or practical skills in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, and UI/UX design.",
+                    "Advanced SQL. "
+                ]
+            },
+            {
+                "title": "Salary Range",
+                "content": [
+                    "$95,500.00 - $105,000.00 per year"
+                ]
+            }
+        ]
     }
 ]

@@ -1,5 +1,40 @@
 [
     {
+        "id": 29,
+        "quote": "Within weeks of the legislation’s passage, they had a solution in place and a dedicated team to support our transition. Migrating decades of legacy COAH data into the new Affordable Housing Monitoring System (AHMS) using the InfoShare® platform not only ensured historical continuity but also reduced municipal resource expenditures and strengthened the State’s ability to monitor progress over time. Their readiness and deep understanding of government operations made them an invaluable partner throughout this process.",
+        "author": "Director Keith Henderson",
+        "logo": "NJ_DCA.jpg",
+        "agency": "Department of Community Affairs, Local Planning Services"
+    },
+    {
+        "id": 28,
+        "quote": "As part of the project team for Rhode Island, I was introduced to CSI early on and was thoroughly impressed with the system and the team’s approach when developing and integrating their platform.  Throughout the entire process, the CSI team has continuously gone above and beyond my expectations.<br><br>I volunteered Newport PD to be the first municipal department to go live in the state.  Although it is a lot of work, the team at CSI is steadfast in their approach and was always a phone call or email away.  Transitioning from a CAD/RMS system used for 23+ years is a tall task but the New England team has answered the call each step of the way.  Each member of the CSI team has been phenomenal to work with on this project and pays close attention to the needs and concerns of our department.  The hands-on approach the staff takes is second to none.  Regular check-ins and progress updates are the norm and their patience with the nuances of learning a new system has been impressive to say the least. <br><br>I’ve been fortunate to speak with departments and administrations around the state to give a firsthand account of what CSI has to offer.  CSI stands behind their product and delivers great customer service.  I would absolutely recommend this company and their product to other agencies.",
+        "author": "Sergeant Greg Belcher",
+        "logo": "Newport_pd.jpg",
+        "agency": "City of Newport Police Department"
+    },
+    {
+        "id": 27,
+        "quote": "From the very beginning of this project, the team at CSI demonstrated professionalism, technical expertise, and a clear understanding of the needs of our department. Replacing our previous CAD and records system was a significant undertaking, but CSI’s team guided us through every step, making the process smooth, organized, and efficient.<br><br>Their ongoing support has been second to none. Whether it was during the initial system build-up, training sessions, or addressing day-to-day questions, the CSI staff has been responsive, knowledgeable, and committed to ensuring our department’s success. The system itself has provided improved functionality, enhanced reliability, and modern capabilities that have strengthened both our emergency response and internal operations.<br><br>We are proud to have partnered with CSI Technology Group and look forward to continuing that relationship as our department grows and evolves. Their dedication to public safety and customer service has made a real difference for our firefighters and the residents we serve.",
+        "author": "Chief Robert J. McCall",
+        "logo": "Middletown_fd.jpg",
+        "agency": "Middletown Fire Department"
+    },
+    {
+        "id": 26,
+        "quote": "The Rhode Island Department of Environmental Management – Division of Law Enforcement was among the first agencies in the state to transition from its previous Records Management System (RMS) to InfoShare<sup>®</sup>. As with any new system, there was an initial learning curve; however, our officers adapted quickly with the support and guidance of the CSI team. Their responsiveness to inquiries, training needs, and system modifications tailored to our specific requirements has been exceptional. Overall, InfoShare<sup>®</sup> and CSI represent a significant improvement over our former system and is expected to reduce the administrative workload for our officers.",
+        "author": "Deputy Chief Michael Schipritt",
+        "logo": "RI_DEM.jpg",
+        "agency": "RI Department of Environmental Management Division of Law Enforcement"
+    },
+    {
+        "id": 25,
+        "quote": "We truly appreciate the CSI team. When transitioning to a new dispatch center, [the] RMS and CAD system usually will have a plethora of unknown challenges. Your team has been alongside us the entire process and made those challenges non-existent. They are true professionals in every sense.",
+        "author": "Chief Brian Lee",
+        "logo": "NJ_HSP.jpg",
+        "agency": "New Jersey State Human Services Police"
+    },
+    {
         "id": 23,
         "quote": "Once we decided to move on from our legacy CAD and RMS system, we began searching for a vendor that could fully meet our needs. We selected CSI Technology Group’s InfoShare<sup>®</sup> platform, which allowed us to transition smoothly with the support of excellent, effective training by the New England account management team. After our go-live period, CSI continued to support all our officers and staff, both in person and remotely, making the deployment significantly easier. Now, more than two years into using InfoShare<sup>®</sup>, we’re pleased that this high level of service has remained constant. Our partnership with CSI has allowed us to configure the platform to meet our specific needs, enabling us to better serve our community.",
         "author": "Chief Brian Levesque",

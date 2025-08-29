@@ -11,6 +11,7 @@ export const state = () => ({
   testimonialList: [],
   // socialFeedList: [],
   currentArticle: [],
+  currentProduct: [],
   filterType: 'all',
   filterTag: [],
   currentPage: 1,
@@ -40,6 +41,9 @@ export const mutations = {
   },
   setPublicSafety(state, payload) {
     state.publicSafetyList = payload
+  },
+  setCurrentProduct(state, payload) {
+    state.currentProduct = payload
   },
   setJusticeCourt(state, payload) {
     state.justiceCourtList = payload
@@ -102,6 +106,13 @@ export const actions = {
     )
     commit('setPublicSafety', payload)
   },
+  async getPublicSafetyByID({ commit }, id) {
+    const api = await axios.get(
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json'
+    )
+    const payload = api.data.filter((res) => res.id === id)
+    commit('setCurrentProduct', payload[0])
+  },
   async getJusticeCourt({ commit }) {
     const payload = await axios.get(
       'https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json'
@@ -136,11 +147,15 @@ export const actions = {
 
 export const getters = {
   filterArticles: (state) => {
+    const activeArticles = state.articleList.filter(
+      (art) => art.active !== false
+    )
+
     if (state.filterType === 'all') {
       // type = all
       if (state.filterTag.length > 0) {
         // have selected tags
-        const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
+        const filtered = activeArticles.filter((art) => art.tags) // get all articles with tags
         const result = []
         filtered.forEach((item) => {
           item.tags.forEach((res) => {
@@ -155,11 +170,11 @@ export const getters = {
         return final
       } else {
         // no selected tags
-        return state.articleList
+        return activeArticles
       }
     } else if (state.filterTag.length > 0) {
       // type = others
-      const filtered = state.articleList.filter((art) => art.tags) // get all articles with tags
+      const filtered = activeArticles.filter((art) => art.tags) // get all articles with tags
       const filteredType = filtered.filter(
         (filtered) => filtered.type === state.filterType
       ) // get all articles with tags
@@ -176,7 +191,7 @@ export const getters = {
       const final = [...new Set(result)]
       return final
     } else {
-      return state.articleList.filter((art) => art.type === state.filterType)
+      return activeArticles.filter((art) => art.type === state.filterType)
     }
   },
 }

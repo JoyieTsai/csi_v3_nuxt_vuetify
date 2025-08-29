@@ -2,135 +2,97 @@
 <template>
   <v-app>
     <v-main>
-      <Hero :category="category" :coverimg="coverimg" :brochure="brochure" :btns="btnGroup">
+      <Hero :category="category" :coverimg="product.coverImg" :brochure="product.brochure" :btns="btnGroup">
         <template v-slot:icon>
-          <img class="tw-w-16 xl:tw-w-20" :src="require('~/assets/duotone/' + icon)" :alt="title" />
+          <img class="tw-w-16 xl:tw-w-20" :src="require('~/assets/duotone/' + product.icon)" :alt="product.title" />
         </template>
         <template v-slot:title>
-          <div v-html="title"></div>
+          <div v-html="product.title"></div>
         </template>
         <template v-slot:subtitle>
-          <div v-html="subtitle"></div>
+          <div v-html="product.subtitle"></div>
         </template>
         <template v-slot:desc-heading>
-          <div v-html="descHeading"></div>
+          <div v-html="product.descHeading"></div>
         </template>
         <template v-slot:desc-content>
-          <div v-html="descContent"></div>
+          <div v-html="product.descContent"></div>
         </template>
       </Hero>
-      <Highlights v-if="highlights" :data="highlights" :video="highlightVideo" :img="highlightImg" :capabilities="capabilities"
-        class="tw-my-12 xl:tw-my-28" />
-      <Capabilities v-if="capabilities" :data="capabilities" class="tw-my-14 xl:tw-my-28" />
-      <SysFeatures v-if="sysFeatures" :tagline="sysTitle" :data="sysFeatures" class="tw-my-14 xl:tw-my-28" />
-      <div v-if="extending" class="header-2 tw-text-center">
-        Extending <span v-if="name">{{ name }}</span>
+      <Highlights v-if="product.highlights" :data="product.highlights" :video="product.highlightVideo" :img="product.highlightImg"
+        :capabilities="product.capabilities" class="tw-my-12 xl:tw-my-28" />
+      <Capabilities v-if="product.capabilities" :data="product.capabilities" class="tw-my-14 xl:tw-my-28" />
+      <SysFeatures v-if="product.sysFeatures" :tagline="product.sysTitle" :data="product.sysFeatures" class="tw-my-14 xl:tw-my-28" />
+      <div v-if="product.extending" class="header-2 tw-text-center">
+        Extending <span v-if="product.name">{{ product.name }}</span>
       </div>
-      <Extendings v-if="extending" :data="extending" />
-      <Partnerships v-if="id === 'fire-ems'" class="tw-my-12 xl:tw-my-28" />
-      <RelatedProducts :data="relatedProducts" />
-      <TheTeam :pid="id" :quote="quote" class="tw-my-12 xl:tw-my-28" />
-      <RelatedNews :tag="tag" class="tw-my-12 xl:tw-my-28" />
+      <Extendings v-if="product.extending" :data="product.extending" />
+      <Partnerships v-if="product.id === 'fire-ems'" class="tw-my-12 xl:tw-my-28" />
+      <RelatedProducts :data="product.relatedProducts" />
+      <TheTeam :pid="product.id" :quote="product.quote" class="tw-my-12 xl:tw-my-28" />
+      <RelatedNews :tag="product.tag" class="tw-my-12 xl:tw-my-28" />
       <Contact />
     </v-main>
   </v-app>
 </template>
 
 <script>
+import { mapState } from 'vuex'
 import Products from '~/data/public-safety.json'
 
 export default {
   data: () => ({
     btnGroup: true,
     category: 'public-safety',
-    id: String,
-    tag: String,
-    name: String,
-    title: String,
-    subtitle: String,
-    icon: String,
-    coverimg: String,
-    brochure: String,
-    descHeading: String,
-    descContent: String,
-    highlightVideo: String,
-    highlightImg: String,
-    highlights: Array,
-    capabilities: Array,
-    sysTitle: String,
-    sysFeatures: Array,
-    extending: Array,
-    relatedProducts: Array,
-    quote: String,
   }),
   fetch({ params, redirect }) {
-    const product = Products.filter((res) => {
+    const pro = Products.filter((res) => {
       return res.id === params.id
     })
-    if (product.length < 1) {
+    if (pro.length < 1) {
       redirect(404, '/404')
     }
   },
   head() {
     return {
-      titleTemplate: '%s | ' + this.title,
+      titleTemplate: '%s | ' + this.product.title,
       meta: [
-        { hid: 'description', name: 'description', content: this.subtitle },
-        { name: 'keywords', content: this.title },
-        { property: 'og:title', content: this.title },
-        { property: 'og:description', content: this.subtitle },
+        { hid: 'description', name: 'description', content: this.product.subtitle },
+        { name: 'keywords', content: this.product.title },
+        { property: 'og:title', content: this.product.title },
+        { property: 'og:description', content: this.product.subtitle },
         {
           property: 'og:image:secure_url',
           content:
             'https://www.csitech.com/images/covers/public-safety/' +
-            this.coverimg,
+            this.product.coverimg,
         },
         {
           property: 'og:url',
-          content: 'https://www.csitech.com/public-safety/' + this.id,
+          content: 'https://www.csitech.com/public-safety/' + this.product.id,
         },
         { property: 'twitter:card', content: 'summary_large_image' },
-        { property: 'twitter:title', content: this.title },
-        { property: 'twitter:description', content: this.subtitle },
+        { property: 'twitter:title', content: this.product.title },
+        { property: 'twitter:description', content: this.product.subtitle },
         {
           property: 'twitter:image',
           content:
             'https://www.csitech.com/images/covers/public-safety/' +
-            this.coverimg,
+            this.product.coverimg,
         },
       ],
     }
   },
-  created() {
-    this.getData(this.$route.params.id)
+  computed: {
+    ...mapState(['publicSafetyList', 'currentProduct']),
+    product() {
+      return this.currentProduct
+    },
+  },
+  mounted() {
+    this.$store.dispatch('getPublicSafetyByID', this.$route.params.id)
   },
   methods: {
-    getData(id) {
-      for (let i = 0; i < Products.length; i++) {
-        if (id && id === Products[i].id) {
-          this.id = Products[i].id
-          this.tag = Products[i].tag
-          this.name = Products[i].name
-          this.title = Products[i].title
-          this.subtitle = Products[i].subtitle
-          this.icon = Products[i].icon
-          this.coverimg = Products[i].coverImg
-          this.brochure = Products[i].brochure
-          this.descHeading = Products[i].descHeading
-          this.descContent = Products[i].descContent
-          this.highlightVideo = Products[i].highlightVideo
-          this.highlightImg = Products[i].highlightImg
-          this.highlights = Products[i].highlights
-          this.capabilities = Products[i].capabilities
-          this.sysTitle = Products[i].sysTitle
-          this.sysFeatures = Products[i].sysFeatures
-          this.extending = Products[i].extending
-          this.features = Products[i].features
-          this.relatedProducts = Products[i].relatedProducts
-          this.quote = Products[i].quote
-        }
-      }
-    },
     downloadFile(file) {
       const url = '../../brochure/' + file
       window.open(url, '_blank')
