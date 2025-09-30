@@ -79,6 +79,9 @@ export default {
       {
         state: 'Rhode Island',
       },
+      {
+        state: 'Massachusetts',
+      },
     ],
   }),
 }
@@ -98,84 +101,92 @@ export default {
   &-points {
     &--0 {
       top: 110px;
-      left: 710px;
+      left: 700px;
     }
     &--1 {
-      top: 160px;
-      left: 745px;
+      top: 162px;
+      left: 725px;
     }
     &--2 {
-      top: 175px;
-      left: 690px;
+      top: 165px;
+      left: 680px;
     }
     &--3 {
-      top: 285px;
-      left: 705px;
+      top: 280px;
+      left: 685px;
     }
     &--4 {
-      top: 355px;
-      left: 265px;
+      top: 350px;
+      left: 255px;
     }
     &--5 {
-      top: 225px;
-      left: 570px;
+      top: 220px;
+      left: 560px;
     }
     &--6 {
-      top: 90px;
-      left: 765px;
-    }
-    &--7 {
-      top: 206px;
-      left: 715px;
-    }
-    &--8 {
-      top: 73px;
+      top: 86px;
       left: 745px;
     }
+    &--7 {
+      top: 202px;
+      left: 700px;
+    }
+    &--8 {
+      top: 69px;
+      left: 727px;
+    }
     &--9 {
-      top: 126px;
-      left: 777px;
+      top: 124px;
+      left: 764px;
+    }
+    &--10 {
+      top: 108px;
+      left: 750px;
     }
     @media only screen and (max-width: $breakpoints-md) {
       &--0 {
-        top: 17%;
-        left: 87%;
+        top: 16%;
+        left: 82%;
       }
       &--1 {
-        top: 25%;
-        left: 90%;
+        top: 24%;
+        left: 84%;
       }
       &--2 {
-        top: 26%;
-        left: 85%;
+        top: 25%;
+        left: 78%;
       }
       &--3 {
-        top: 45%;
-        left: 83%;
+        top: 41%;
+        left: 79%;
       }
       &--4 {
-        top: 55%;
-        left: 32%;
+        top: 52%;
+        left: 30%;
       }
       &--5 {
-        top: 34%;
-        left: 69%;
+        top: 32%;
+        left: 65%;
       }
       &--6 {
-        top: 14%;
-        left: 93%;
+        top: 12%;
+        left: 86.5%;
       }
       &--7 {
-        top: 32%;
-        left: 86%;
+        top: 29%;
+        left: 80%;
       }
       &--8 {
-        top: 12%;
-        left: 90%;
+        top: 11%;
+        left: 84%;
       }
       &--9 {
         top: 18%;
-        left: 94%;
+        left: 88%;
+      }
+      &--10 {
+        top: 16%;
+        left: 86%;
       }
     }
   }
@@ -188,7 +199,7 @@ export default {
     background-color: rgba($highlight-color, 0.22);
     transition: 0.3s all;
     @media (max-width: $breakpoints-sm) {
-      transform: scale(0.65);
+      transform: scale(0.6);
     }
 
     &::after {
