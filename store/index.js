@@ -96,7 +96,7 @@ export const actions = {
   },
   async getJobs({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/jobs.json'
     )
     commit('setJobs', payload)
   },

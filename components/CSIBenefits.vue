@@ -1,18 +1,8 @@
 <template>
-  <div class="tw-grid tw-grid-cols-2 lg:tw-grid-cols-4 tw-gap-4 xl:tw-gap-8">
-    <div
-      v-for="(benefit, i) in benefits"
-      :key="i"
-      class="tw-bg-white shadow-1 tw-flex tw-flex-col tw-items-center tw-text-center tw-p-5 zoomin"
-    >
-      <img
-        :src="require('~/assets/duotone/' + benefit.icon)"
-        alt=""
-        class="tw-w-16 xl:tw-w-20"
-      />
-      <div
-        class="lg:tw-text-xl xl:tw-text-2xl tw-font-bold tw-leading-tight tw-mt-3 tw-mb-2"
-      >
+  <div class="tw-grid tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-5 xl:tw-gap-6 xl:tw-mx-16">
+    <div v-for="(benefit, i) in benefits" :key="i" class="tw-bg-white shadow-1 tw-flex tw-flex-col tw-items-center tw-text-center tw-p-5 zoomin">
+      <img :src="require('~/assets/duotone/' + benefit.icon)" alt="" class="tw-w-16 xl:tw-w-20" />
+      <div class="lg:tw-text-xl xl:tw-text-2xl tw-font-bold tw-leading-tight tw-mt-3 tw-mb-2">
         {{ benefit.title }}
       </div>
       <div class="text-base tw-opacity-70">{{ benefit.desc }}</div>
@@ -39,11 +29,11 @@ export default {
         title: "Worker's Compensation",
         desc: "Worker's compensation coverage",
       },
-      {
-        icon: 'h1b.svg',
-        title: 'H1B Sponsorship',
-        desc: 'Company-paid H1B Sponsorship',
-      },
+      // {
+      //   icon: 'h1b.svg',
+      //   title: 'H1B Sponsorship',
+      //   desc: 'Company-paid H1B Sponsorship',
+      // },
       {
         icon: 'emergency_care.svg',
         title: 'Disability Insurance',
@@ -59,11 +49,11 @@ export default {
         title: 'AD&D Insurance',
         desc: 'Company-paid accidental death & dismemberment (AD&D) insurance',
       },
-      {
-        icon: 'id.svg',
-        title: 'US Permanent Resident Sponsorship',
-        desc: 'Eligible upon the 1st anniversary as H1B employee',
-      },
+      // {
+      //   icon: 'id.svg',
+      //   title: 'US Permanent Resident Sponsorship',
+      //   desc: 'Eligible upon the 1st anniversary as H1B employee',
+      // },
     ],
   }),
 }

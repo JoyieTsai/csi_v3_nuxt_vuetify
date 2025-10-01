@@ -65,7 +65,7 @@ export default {
   },
   ssr: false,
   generate: {
-    dir: 'Test-V7.9-09012025',
+    dir: 'Test-V8.0-09302025',
     routes: dynamicRoutes,
   },
 
