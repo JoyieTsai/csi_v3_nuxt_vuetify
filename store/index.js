@@ -66,14 +66,14 @@ export const actions = {
   async getArticles({ commit }) {
     // For test use > test/articles.json
     const api = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/articles.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
     )
     const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
     commit('setArticles', payload)
   },
   async getTeams({ commit }) {
     const api = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/leadership.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/leadership.json'
     )
     const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
     commit('setTeams', payload)
@@ -89,33 +89,33 @@ export const actions = {
   },
   async getArticleByID({ commit }, id) {
     const api = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/articles.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
     )
     const payload = api.data.filter((res) => res.id === id)
     commit('setCurrentArticle', payload[0])
   },
   async getJobs({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/jobs.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json'
     )
     commit('setJobs', payload)
   },
   async getPublicSafety({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/public-safety.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json'
     )
     commit('setPublicSafety', payload)
   },
   async getPublicSafetyByID({ commit }, id) {
     const api = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/public-safety.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json'
     )
     const payload = api.data.filter((res) => res.id === id)
     commit('setCurrentProduct', payload[0])
   },
   async getJusticeCourt({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/justice-courts.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json'
     )
     commit('setJusticeCourt', payload)
   },
@@ -133,7 +133,7 @@ export const actions = {
   },
   async getTestimonials({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/testimonials.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json'
     )
     commit('setTestimonials', payload)
   },
