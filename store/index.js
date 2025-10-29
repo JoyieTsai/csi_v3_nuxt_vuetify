@@ -115,7 +115,7 @@ export const actions = {
   },
   async getJusticeCourt({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/justice-courts.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/justice-courts   .json'
     )
     commit('setJusticeCourt', payload)
   },

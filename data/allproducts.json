@@ -241,5 +241,14 @@
         "title": "Low Code Development",
         "subtitle": "Proprietary Low-Code Technology to Facilitate Application Development",
         "order": 1
+    },
+    {
+        "id": "engine",
+        "tag": "engine",
+        "category": "capabilities",
+        "icon": "engine.svg",
+        "title": "InfoShare® Engine",
+        "subtitle": "Low Code Development Platform for Government ERP Applications",
+        "order": 1
     }
 ]

@@ -15,5 +15,6 @@ export const state = () => ({
     { name: 'State', value: 'state' },
     { name: 'Municipal', value: 'municipal' },
     { name: 'Low-code Platform', value: 'low-code' },
+    { name: 'InfoShare® Engine', value: 'engine' },
   ],
 })
