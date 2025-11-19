@@ -497,11 +497,11 @@
     "coverImg": "fire_ems.png",
     "brochure": "CSI_Fire and EMS.pdf",
     "descHeading": "Total solution for Fire & EMS response, administration, communication, prevention, and reporting",
-    "descContent": "Designed to be the most integrated all-in-one application suite on the market, our <a href='https://www.usfa.fema.gov/nfirs/vendors/active-vendors.html' target='_blank'>NFIRS 5.0 compliant</a> and NEMSIS 3.5.1 compliant system supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
+    "descContent": "Designed to be the most integrated all-in-one application suite on the market, our <a href='https://www.usfa.fema.gov/nfirs/vendors/active-vendors.html' target='_blank'>NERIS v1.0 compliant</a> and NEMSIS 3.5.1 compliant system supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
     "highlightVideo": "FireEMS_highlight.mp4",
     "highlightImg": "FireEMS_thumb.jpg",
     "highlights": [
-      "Automatic NFIRS validation and report submission to the State",
+      "Automatic NERIS validation and report submission to the State",
       "Total vertical integration between CAD, MDT, and RMS",
       "Store all incident information in a single Master location",
       "Streamline fire inspections to maintain up-to-date premise records",
@@ -524,7 +524,7 @@
         "title": "Data Migration",
         "icon": "csi-icon-data_migration_outline",
         "img": "DataMigration.jpg",
-        "desc": "We offer the most comprehensive, structured data conversion services on the market. NFIRS and non-NFIRS data is converted to our native RMS data whereby the original data is not simply copied, but also cleansed, condensed, and standardized. No re-entering old data, no accessing old systems, no removing duplicate entries."
+        "desc": "We offer the most comprehensive, structured data conversion services on the market. NERIS and non-NERIS data is converted to our native RMS data whereby the original data is not simply copied, but also cleansed, condensed, and standardized. No re-entering old data, no accessing old systems, no removing duplicate entries."
       },
       {
         "title": "Platform Independence",
@@ -562,7 +562,7 @@
         "desc": "Support all aspects of records management including data collection, storage, investigation, reporting, as well as department activities such as scheduling-rostering, personnel, training/certifications, permits, inspections, apparatus, inventory, hydrants, and more.",
         "list": [
           "Bi-directional CAD, RMS, and MDT integration",
-          "Automatic NFIRS code mapping ",
+          "Automatic NERIS code mapping ",
           "Incident intake via CAD or RMS",
           "EMS DEM data sets and diagnosis/procedure codes",
           "Occupancy, permit, and inspection management",
@@ -571,10 +571,10 @@
         "img": "fireems-3.jpg"
       },
       {
-        "title": "NFIRS & ePCR Reporting",
-        "desc": "Paperless reporting and approval with digital signatures, followed by case disposition. Event details are pre-populated in NFIRS and ePCR reports, eliminating duplicate data entry and errors. Reports are physically stored in the system for efficient archiving and viewing.",
+        "title": "NERIS & ePCR Reporting",
+        "desc": "Paperless reporting and approval with digital signatures, followed by case disposition. Event details are pre-populated in NERIS and ePCR reports, eliminating duplicate data entry and errors. Reports are physically stored in the system for efficient archiving and viewing.",
         "list": [
-          "NFIRS and ePCR with vaildation and error reporting",
+          "NERIS and ePCR with vaildation and error reporting",
           "Field validation checks (mandatory fields, data type, format, range)",
           "Auto-route reports for approval",
           "Narrative and multimedia attachment functions",
@@ -624,9 +624,9 @@
     ],
     "extending": [
       {
-        "title": "NFIRS",
+        "title": "NERIS",
         "icon": "nfirs.svg",
-        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
+        "desc": "Streamlined NERIS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
       },
       {
         "title": "NEMSIS",

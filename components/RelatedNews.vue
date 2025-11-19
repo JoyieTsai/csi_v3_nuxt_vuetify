@@ -48,6 +48,7 @@ export default {
 
       // sort by a product, tag is from the product
       if (this.tag) {
+
         const filtered = allNews.filter((art) => art.tags)
 
         filtered.forEach((item) => {
@@ -71,7 +72,6 @@ export default {
       } else if (this.aid) {
         // sort by a article
         const filtered = allNews.filter((art) => art.tags) // get all articles with tags
-
         if (arr) {
           // If have tags
           arr.forEach((tag) => {

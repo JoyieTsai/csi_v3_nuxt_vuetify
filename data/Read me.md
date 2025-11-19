@@ -1,0 +1,45 @@
+## Next line
+
+<br><br>
+
+## Title
+
+<h3>Searching for a Fully Integrated Solution</h3>
+
+## Image
+
+<div class='img-area'><img src='../images/news/news-2024-0428-1.jpg' style='max-width: 100%' /><p>CSI Staff Collaborates with a Grafton County Dispatch Supervisor</p></div>
+
+## Testimonial
+
+<blockquote> <p>Our experience with CSI couldn’t have been more successful. From sales to training, CSI staff have been thorough, informative, and especially knowledgeable! The 2-week training was organized and extremely helpful, including their willingness to stay after hours to help those on later shifts. The greatest part is the client support. CSI believes in their product and supports it well. The communication between user and support is clear and timely. We would recommend this product to other agencies. No matter the size of the agency, you feel like a priority to them.</p> <footer><b>Kara Baker</b><br />Lincoln Police Department</footer> </blockquote>
+
+## Link
+
+<a href='/capabilities/data-migration' class='primary-link'>data conversion service</a>
+
+## Items
+
+<ul>
+<li>Seamless data sharing between systems</li>
+<li>Improved system stability and performance</li>
+<li>Significant cost savings in storage, maintenance, and deployment</li>
+<li>Vendor hosting, support, backup, updates, and maintenance</li>
+<li>Exceptional redundancy and disaster preparedness and recovery</li>
+<li>FBI CJIS-compliant security and encryption</li>
+</ul>
+
+## OG meta tags
+
+<meta hid="og:title" property="og:title"
+content="Title content" />
+<meta hid="og:description" property="og:description"
+content="Desc content" />
+<meta hid="og:image" property="og:image" content="https://www.csitech.com/images/news/news-2025-1118.jpg" />
+<meta hid="og:url" property="og:url"
+content="https://www.csitech.com/resources/article-id" />
+<meta hid="twitter:card" property="twitter:card" content="summary_large_image" />
+<meta hid="twitter:title" property="twitter:title"
+content="Title content" />
+<meta hid="twitter:description" property="twitter:description"
+content="Desc content" />

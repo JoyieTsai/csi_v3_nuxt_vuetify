@@ -70,11 +70,11 @@
           <!-- Related Products -->
           <div class="tw-w-full lg:tw-w-3/12 tw-mt-20 lg:tw-mt-40 xl:tw-mt-52 tw-pl-0 2xl:tw-pl-16 lg:tw-pl-10">
             <div class="tw-text-lg lg:tw-text-xl tw-mb-5">
-              Related {{ relatedCapabilities.length ? "Capabilities" : "Products"}}
+              Related Products
             </div>
 
             <!-- Related Capabilities -->
-            <div v-if="relatedCapabilities.length">
+            <!-- <div v-if="relatedCapabilities.length">
               <div class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-3 lg:tw-gap-6">
                 <div v-for="(item, j) in relatedCapabilities" :key="j"
                   class="tw-flex sm:tw-flex-col 2xl:tw-flex-row bg-light tw-cursor-pointer hover:tw-bg-white hover:tw-shadow-xl tw-p-5"
@@ -90,9 +90,9 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
 
-            <div v-else class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-3 lg:tw-gap-6">
+            <div v-if="relatedProducts.length" class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-3 lg:tw-gap-6">
               <div v-for="(item, i) in relatedProducts" :key="i"
                 class="tw-flex sm:tw-flex-col 2xl:tw-flex-row bg-light tw-cursor-pointer hover:tw-bg-white hover:tw-shadow-xl tw-p-5"
                 @click.prevent="routerToProduct(item.category, item.id)">
