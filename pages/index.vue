@@ -10,7 +10,7 @@
           <div class="header-4" v-html="slogan"></div>
           <div class="tw-mt-10">
             <v-dialog v-model="modalVideo">
-              <template v-slot:activator="{ on, attrs }">
+              <template #activator="{ on, attrs }">
                 <button class="btn-play" v-bind="attrs" v-on="on">
                   <img src="../assets/icons/icon-play.svg" alt="play" class="tw-w-3 xl:tw-w-6" />
                 </button>
@@ -52,6 +52,8 @@ export default {
     Slide,
   },
   data: () => ({
+    title: "Welcome to CSI",
+    descContent: "CSI's Comprehensive Software Solutions for Public Safety, Judiciary and Other Government Agencies",
     show: false,
     covers: [
       {
@@ -83,12 +85,8 @@ export default {
     return {
       titleTemplate: '%s | Overview',
       meta: [
-        { name: 'keywords', content: 'CSI' },
-        {
-          name: 'description',
-          content:
-            "CSI's Comprehensive Software Solutions for Public Safety, Judiciary and Other Government Agencies",
-        },
+        { name: 'keywords', content: this.title },
+        { name: 'description', content: this.descContent },
       ],
     }
   },
@@ -107,8 +105,10 @@ export default {
   methods: {
     handleScroll() {
       // Your scroll handling here
-      if (window.scrollY > 10) {
-        this.show = true
+      if (process.client) {
+        if (window.scrollY > 10) {
+          this.show = true
+        }
       }
     },
     // stop() {

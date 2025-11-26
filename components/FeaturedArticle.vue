@@ -1,6 +1,6 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
-  <div class="main-container tw-mx-auto">
+  <div v-if="getLatestArticles" class="main-container tw-mx-auto">
     <div class="2xl:tw-mx-20 tw-relative tw-mb-10">
       <div class="header-2 tw-w-full lg:tw-w-72 lg:tw-ml-24 xl:tw-ml-52 2xl:tw-ml-60 tw-text-center lg:tw-text-right">
         Featured Article

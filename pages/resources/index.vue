@@ -80,6 +80,7 @@
                       class="tw-flex-1 tw-bg-white tw-shadow-md tw-transition tw-duration-500 tw-ease-in-out tw-transform hover:tw-scale-105 tw-cursor-pointer tw-h-full"
                       @click.prevent="routerToArticle(item.id)">
                       <v-img v-if="item.cover" :src="'images/news/' + item.cover" aspect-ratio="1.9"></v-img>
+                      <v-img v-else src="images/news/news_temp.svg" aspect-ratio="1.9"></v-img>
                       <div class="tw-px-2 tw-py-2 md:tw-px-5 md:tw-py-3 tw-text-xs sm:tw-text-sm md:tw-text-base lg:tw-text-lg">
                         <div v-if="item.type === 'story'" class="text-grey">
                           Success Stories
@@ -89,9 +90,9 @@
                         </div>
                         <div v-else class="text-grey">Event</div>
                         <div class="tw-font-semibold" v-html="item.title"></div>
-                        <div v-if="!item.cover" class="tw-mt-3 tw-opacity-70">
+                        <!-- <div class="tw-mt-3 tw-opacity-70">
                           {{ item.brief | getBrief(155) }}
-                        </div>
+                        </div> -->
                       </div>
                     </div>
                   </div>

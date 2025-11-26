@@ -1,5 +1,5 @@
 <template>
-  <div class="main-container tw-mx-auto tw-px-0 md:tw-px-5">
+  <div v-if="getMember[0]" class="main-container tw-mx-auto tw-px-0 md:tw-px-5">
     <div class="tw-flex tw-items-start tw-justify-center tw-flex-wrap">
       <div class="w-teambox tw-text-center">
         <img :src="'images/team/' + getMember[0].src" />

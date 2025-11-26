@@ -100,6 +100,7 @@ export default {
     category: 'page',
     title: 'Join Our Team',
     coverimg: 'job.jpg',
+    descContent: 'Join Our Team',
     fileList: [],
     uploading: false,
     files: [],
@@ -107,7 +108,7 @@ export default {
   head() {
     return {
       titleTemplate: '%s | ' + this.title,
-      meta: [{ name: 'description', content: this.title }],
+      meta: [{ name: 'description', content: this.descContent }],
     }
   },
   computed: {

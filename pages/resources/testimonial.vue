@@ -88,7 +88,7 @@ export default {
   head() {
     return {
       titleTemplate: '%s | ' + this.title,
-      meta: [{ name: 'description', content: this.title }],
+      meta: [{ name: 'description', content: this.subtitle }],
     }
   },
   computed: {

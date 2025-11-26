@@ -63,10 +63,15 @@ export default {
     host: 'localhost', // default: localhost
     port: '8000', // default: 3000
   },
-  ssr: false,
+  ssr: false, // Use true mode can generate full meta tags for every page, but it will become big.
+  target: 'static',
   generate: {
-    dir: 'Test-V8.3-11042025',
+    dir: 'Test-V8.7-11252025',
     routes: dynamicRoutes,
+    minify: {
+      collapseWhitespace: true,
+      removeComments: true,
+    },
   },
 
   /*
@@ -74,7 +79,7 @@ export default {
    */
   router: {
     base: process.env.NODE_ENV === 'dev' ? '/' : '',
-    // base: '/test/',
+    prefetchLinks: false,
     extendRoutes(routes, resolve) {
       routes.push({
         name: 'custom',
@@ -82,42 +87,22 @@ export default {
         component: resolve(__dirname, 'pages/404.vue'),
       })
     },
-    // scrollBehavior: async (to, from, savedPosition) => {
-    //   if (savedPosition) {
-    //     return savedPosition;
-    //   }
+  },
 
-    //   const findEl = async (hash, x) => {
-    //     return (
-    //       document.querySelector(hash) ||
-    //       new Promise((resolve, reject) => {
-    //         if (x > 50) {
-    //           return resolve();
-    //         }
-    //         setTimeout(() => {
-    //           resolve(findEl(hash, ++x || 1));
-    //         }, 100);
-    //       })
-    //     );
-    //   };
-
-    //   if (to.hash) {
-    //     const el = await findEl(to.hash);
-    //     if ("scrollBehavior" in document.documentElement.style) {
-    //       return window.scrollTo({
-    //         top: el.offsetTop,
-    //         behavior: "smooth"
-    //       });
-    //     } else {
-    //       return window.scrollTo(0, el.offsetTop);
-    //     }
-    //   }
-
-    //   return {
-    //     x: 0,
-    //     y: 0
-    //   };
-    // }
+  // Build Configuration: https://go.nuxtjs.dev/config-build
+  build: {
+    transpile: ['vee-validate'],
+    productionSourceMap: false,
+    splitChunks: {
+      layouts: true,
+      pages: true,
+      commons: true,
+    },
+    extractCSS: true,
+    optimizeCSS: true,
+    babel: {
+      compact: true,
+    },
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -162,9 +147,10 @@ export default {
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '@/plugins/myfilter',
-    { src: '@/plugins/aos', ssr: false },
-    { src: '~/plugins/vue-zoom-on-hover.js', ssr: false },
-    { src: '~/plugins/vue-swiper.js', ssr: false },
+    { src: '@/plugins/aos', mode: 'client' },
+    { src: '~/plugins/vue-zoom-on-hover.js', mode: 'client' },
+    { src: '~/plugins/vue-swiper.js', mode: 'client' },
+    { src: '~/plugins/firebase.js', mode: 'client' },
     // { src: "~plugins/ga.js", mode: "client" },
     { src: '~plugins/gtag.js', mode: 'client' },
   ],
@@ -286,10 +272,5 @@ export default {
         },
       },
     },
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-    transpile: ['vee-validate'],
   },
 }

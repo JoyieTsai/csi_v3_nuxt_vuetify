@@ -2,24 +2,16 @@
   <v-app>
     <v-main>
       <Hero :category="category" :coverimg="coverimg" :btns="btnGroup">
-        <template v-slot:icon>
-          <img
-            class="tw-w-16 xl:tw-w-20"
-            :src="require('~/assets/duotone/' + icon)"
-            :alt="title"
-          />
+        <template #icon>
+          <img class="tw-w-16 xl:tw-w-20" :src="require('~/assets/duotone/' + icon)" :alt="title" />
         </template>
-        <template v-slot:title>{{ title }}</template>
-        <template v-slot:subtitle>{{ subtitle }}</template>
-        <template v-slot:desc-heading>{{ descHeading }}</template>
-        <template v-slot:desc-content>{{ descContent }}</template>
+        <template #title>{{ title }}</template>
+        <template #subtitle>{{ subtitle }}</template>
+        <template #desc-heading>{{ descHeading }}</template>
+        <template #desc-content>{{ descContent }}</template>
       </Hero>
       <BenefitsA class="tw-my-12 xl:tw-my-28" :data="benefits" />
-      <LazyTotalSolution
-        v-if="show"
-        class="tw-my-12 xl:tw-my-28"
-        :solutions="solutions"
-      />
+      <LazyTotalSolution v-if="show" class="tw-my-12 xl:tw-my-28" :solutions="solutions" />
       <LazySuccessStories v-if="show" class="tw-my-12 xl:tw-my-28" />
       <LazyContact v-if="show" />
     </v-main>
@@ -86,8 +78,10 @@ export default {
   methods: {
     handleScroll() {
       // Your scroll handling here
-      if (window.scrollY > 10) {
-        this.show = true
+      if (process.client) {
+        if (window.scrollY > 10) {
+          this.show = true
+        }
       }
     },
     getData() {

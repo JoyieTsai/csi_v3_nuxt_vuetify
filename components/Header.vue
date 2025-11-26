@@ -1,4 +1,5 @@
-<template>
+<!-- eslint-disable vue/no-v-html -->
+ <template>
   <div>
     <v-app-bar app flat fixed color="white" elevate-on-scroll :height="$vuetify.breakpoint.mdAndDown ? '72' : '100'">
       <nuxt-link to="/">
@@ -7,7 +8,7 @@
 
       <div :class="[$vuetify.breakpoint.mdAndDown ? 'tw-hidden' : '']">
         <v-menu v-for="(data, i) in datas" :key="i" open-on-hover offset-y transition="slide-y-transition">
-          <template v-slot:activator="{ on, attrs }">
+          <template #activator="{ on, attrs }">
             <!-- <v-btn
               v-if="data.category === 'resources'"
               text
@@ -98,7 +99,7 @@
     <v-navigation-drawer v-model="drawer" fixed temporary right width="300">
       <v-list>
         <v-list-group v-for="(data, i) in datas" :key="i" no-action sub-group>
-          <template v-slot:activator>
+          <template #activator>
             <v-list-item-content class="tw-p-0">
               <v-list-item-title>{{ data.title }}</v-list-item-title>
             </v-list-item-content>

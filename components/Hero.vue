@@ -31,14 +31,20 @@
     </div>
     <!-- Description -->
     <div class="bg-primary-light">
-      <div class="main-container tw-mx-auto tw-py-12 xl:tw-py-20">
-        <div class="2xl:tw-w-3/4 white--text">
+      <div class="main-container tw-mx-auto tw-py-12 xl:tw-py-20 d-flex tw-flex-col lg:tw-flex-row">
+        <div class="tw-w-full xl:tw-w-3/4 white--text">
           <div class="tw-text-lg md:tw-text-xl xl:tw-text-2xl tw-mb-2 tw-font-semibold">
             <slot name="desc-heading"></slot>
           </div>
-          <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
-            <slot name="desc-content"></slot>
+          <div class="d-flex">
+            <div class="tw-text-sm md:tw-text-base xl:tw-text-lg">
+              <slot name="desc-content"></slot>
+            </div>
           </div>
+        </div>
+        <!-- Logos section -->
+        <div class="d-flex tw-items-center tw-justify-center tw-mx-auto">
+          <slot name="desc-logos"></slot>
         </div>
       </div>
     </div>
@@ -64,7 +70,9 @@ export default {
   methods: {
     downloadFile(file) {
       const url = 'brochure/' + file
-      window.open(url, '_blank')
+      if (process.client) {
+        window.open(url, '_blank')
+      }
     },
   },
 }

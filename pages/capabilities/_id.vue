@@ -3,19 +3,19 @@
   <v-app>
     <v-main>
       <Hero :category="category" :coverimg="coverimg" :btns="btnGroup">
-        <template v-slot:icon>
+        <template #icon>
           <img class="tw-w-16 xl:tw-w-20 tw-mb-5" :src="require('~/assets/duotone/' + icon)" :alt="title" />
         </template>
-        <template v-slot:title>
+        <template #title>
           <div v-html="title"></div>
         </template>
-        <template v-slot:subtitle>
+        <template #subtitle>
           <div v-html="subtitle"></div>
         </template>
-        <template v-slot:desc-heading>
+        <template #desc-heading>
           <div v-html="descHeading"></div>
         </template>
-        <template v-slot:desc-content>
+        <template #desc-content>
           <div v-html="descContent"></div>
         </template>
       </Hero>

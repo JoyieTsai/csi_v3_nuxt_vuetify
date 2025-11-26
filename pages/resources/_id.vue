@@ -123,10 +123,26 @@
 <script>
 import { mapState } from 'vuex'
 import Products from '~/data/allproducts.json'
-import Capabilities from '~/data/allcapabilities.json'
+// import Capabilities from '~/data/allcapabilities.json'
 import Articles from '~/data/articles.json'
 
 export default {
+  asyncData({ params, redirect, payload }) {
+    // Use payload from generate routes if available
+    if (payload) {
+      return { pageData: payload }
+    }
+
+    // Fallback for dev mode - you'll still need the import for this
+    const art = Articles.filter((res) => {
+      return res.id === params.id
+    })
+    if (art.length < 1) {
+      redirect(404, '/404')
+    }
+
+    return { pageData: art[0] }
+  },
   data: () => ({
     loaded: false,
     category: 'page',
@@ -168,14 +184,22 @@ export default {
         )
         break
     }
-    const art = Articles.filter((res) => {
-      return res.id === params.id
-    })
-    if (art.length < 1) {
-      redirect(404, '/404')
-    }
+    // const art = Articles.filter((res) => {
+    //   return res.id === params.id
+    // })
+    // if (art.length < 1) {
+    //   redirect(404, '/404')
+    // }
   },
   head() {
+    const article = this.pageData || this.currentArticle
+    if (!article) {
+      return {
+        titleTemplate: '%s',
+        meta: []
+      }
+    }
+
     return {
       titleTemplate: this.article.shareTitle + ' - %s',
       meta: [
@@ -183,7 +207,7 @@ export default {
         { property: 'og:description', content: this.article.brief },
         {
           property: 'og:image:secure_url',
-          content: 'https://www.csitech.com/images/news/' + this.article.img,
+          content: 'https://www.csitech.com/images/news/' + this.article.cover,
         },
         {
           property: 'og:url',
@@ -194,7 +218,7 @@ export default {
         { property: 'twitter:description', content: this.article.brief },
         {
           property: 'twitter:image',
-          content: 'https://www.csitech.com/images/news/' + this.article.img,
+          content: 'https://www.csitech.com/images/news/' + this.article.cover,
         },
       ],
     }
@@ -223,6 +247,8 @@ export default {
         return a.order - b.order
       })
 
+      console.log(finalArr)
+
       // Check special tag - for special case
       if (this.article.special) {
         const special = Products.find((res) => res.id === this.article.special)
@@ -235,21 +261,21 @@ export default {
         return finalArr.slice(0, 5)
       }
     },
-    relatedCapabilities() {
-      const arr = this.article.tags
-      const resultArr = []
-      if (arr) {
-        arr.filter((tag) => {
-          const result = Capabilities.filter((res) => res.tag === tag.name)
-          if (result.length > 0) {
-            resultArr.push(result)
-          }
-          return 1
-        })
-      }
-      const finalArr = resultArr.flat()
-      return finalArr.slice(0, 5)
-    },
+    // relatedCapabilities() {
+    //   const arr = this.article.tags
+    //   const resultArr = []
+    //   if (arr) {
+    //     arr.filter((tag) => {
+    //       const result = Capabilities.filter((res) => res.tag === tag.name)
+    //       if (result.length > 0) {
+    //         resultArr.push(result)
+    //       }
+    //       return 1
+    //     })
+    //   }
+    //   const finalArr = resultArr.flat()
+    //   return finalArr.slice(0, 5)
+    // },
   },
   mounted() {
     this.$store.dispatch('getArticleByID', this.$route.params.id)
@@ -265,10 +291,12 @@ export default {
       this.$router.push({ name: 'resources-id', params: { id: val } })
     },
     goToPrev() {
-      if (window.history.length <= 1) {
-        this.$router.push({ name: 'resources' })
-      } else {
-        this.$router.go(-1)
+      if (process.client) {
+        if (window.history.length <= 1) {
+          this.$router.push({ name: 'resources' })
+        } else {
+          this.$router.go(-1)
+        }
       }
     },
   },

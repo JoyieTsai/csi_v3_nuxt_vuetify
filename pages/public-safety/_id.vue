@@ -2,21 +2,26 @@
 <template>
   <v-app>
     <v-main>
-      <Hero :category="category" :coverimg="product.coverImg" :brochure="product.brochure" :btns="btnGroup">
-        <template v-slot:icon>
+      <Hero v-if="product.coverImg" :category="category" :coverimg="product.coverImg" :brochure="product.brochure" :btns="btnGroup">
+        <template #icon>
           <img class="tw-w-16 xl:tw-w-20" :src="require('~/assets/duotone/' + product.icon)" :alt="product.title" />
         </template>
-        <template v-slot:title>
+        <template #title>
           <div v-html="product.title"></div>
         </template>
-        <template v-slot:subtitle>
+        <template #subtitle>
           <div v-html="product.subtitle"></div>
         </template>
-        <template v-slot:desc-heading>
+        <template #desc-heading>
           <div v-html="product.descHeading"></div>
         </template>
-        <template v-slot:desc-content>
+        <template #desc-content>
           <div v-html="product.descContent"></div>
+        </template>
+        <template #desc-logos>
+          <div v-for="(logo, i) in product.descLogos" :key="i" class="d-flex tw-items-center tw-w-32 tw-h-32 tw-mx-2 tw-mt-3">
+            <img :src="`images/${logo}`" alt="logo" />
+          </div>
         </template>
       </Hero>
       <Highlights v-if="product.highlights" :data="product.highlights" :video="product.highlightVideo" :img="product.highlightImg"
@@ -29,7 +34,7 @@
       <Extendings v-if="product.extending" :data="product.extending" />
       <Partnerships v-if="product.id === 'fire-ems'" class="tw-my-12 xl:tw-my-28" />
       <RelatedProducts :data="product.relatedProducts" />
-      <TheTeam :pid="product.id" :quote="product.quote" class="tw-my-12 xl:tw-my-28" />
+      <LazyTheTeam v-if="product.id" :pid="product.id" :quote="product.quote" class="tw-my-12 xl:tw-my-28" />
       <RelatedNews :tag="product.tag" class="tw-my-12 xl:tw-my-28" />
       <Contact />
     </v-main>
@@ -41,44 +46,60 @@ import { mapState } from 'vuex'
 import Products from '~/data/public-safety.json'
 
 export default {
-  data: () => ({
-    btnGroup: true,
-    category: 'public-safety',
-  }),
-  fetch({ params, redirect }) {
+  asyncData({ params, redirect, payload }) {
+    // Use payload from generate routes if available
+    if (payload) {
+      return { pageData: payload }
+    }
+
+    // Fallback for dev mode - you'll still need the import for this
     const pro = Products.filter((res) => {
       return res.id === params.id
     })
     if (pro.length < 1) {
       redirect(404, '/404')
     }
+
+    return { pageData: pro[0] }
   },
+  data: () => ({
+    btnGroup: true,
+    category: 'public-safety',
+  }),
   head() {
+    const product = this.pageData || this.currentProduct
+    if (!product) {
+      return {
+        titleTemplate: '%s',
+        meta: []
+      }
+    }
+
     return {
-      titleTemplate: '%s | ' + this.product.title,
+      titleTemplate: '%s | ' + product.title,
       meta: [
-        { hid: 'description', name: 'description', content: this.product.subtitle },
-        { name: 'keywords', content: this.product.title },
-        { property: 'og:title', content: this.product.title },
-        { property: 'og:description', content: this.product.subtitle },
+        { hid: 'description', name: 'description', content: product.subtitle },
+        { name: 'keywords', content: product.title },
+        { property: 'og:title', content: product.title },
+        { property: 'og:description', content: product.subtitle },
         {
           property: 'og:image:secure_url',
           content:
             'https://www.csitech.com/images/covers/public-safety/' +
-            this.product.coverimg,
+            product.coverImg,
         },
         {
           property: 'og:url',
-          content: 'https://www.csitech.com/public-safety/' + this.product.id,
+          content: 'https://www.csitech.com/public-safety/' + product.id,
         },
         { property: 'twitter:card', content: 'summary_large_image' },
-        { property: 'twitter:title', content: this.product.title },
-        { property: 'twitter:description', content: this.product.subtitle },
+        { property: 'twitter:title', content: product.title },
+        { property: 'twitter:description', content: product.subtitle },
         {
           property: 'twitter:image',
           content:
             'https://www.csitech.com/images/covers/public-safety/' +
-            this.product.coverimg,
+            product.coverImg,
         },
       ],
     }
@@ -95,7 +116,9 @@ export default {
   methods: {
     downloadFile(file) {
       const url = '../../brochure/' + file
-      window.open(url, '_blank')
+      if (process.client) {
+        window.open(url, '_blank')
+      }
     },
   },
 }

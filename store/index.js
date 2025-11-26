@@ -73,7 +73,7 @@ export const actions = {
   },
   async getTeams({ commit }) {
     const api = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/leadership.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/leadership.json'
     )
     const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
     commit('setTeams', payload)
@@ -96,7 +96,7 @@ export const actions = {
   },
   async getJobs({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/jobs.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/jobs.json'
     )
     commit('setJobs', payload)
   },
@@ -115,7 +115,7 @@ export const actions = {
   },
   async getJusticeCourt({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/justice-courts   .json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json'
     )
     commit('setJusticeCourt', payload)
   },
@@ -133,7 +133,7 @@ export const actions = {
   },
   async getTestimonials({ commit }) {
     const payload = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/testimonials.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/testimonials.json'
     )
     commit('setTestimonials', payload)
   },

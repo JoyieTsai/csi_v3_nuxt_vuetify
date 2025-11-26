@@ -81,6 +81,7 @@ export default {
     category: 'page',
     title: 'Contact Us',
     coverimg: 'contact.jpg',
+    descContent: 'We love hearing from you. If you have any questions or want to schedule a demo, please feel free to get in touch.',
     info: {
       title:
         'We love hearing from you. If you have any questions or want to schedule a demo, please feel free to get in touch.',
@@ -114,7 +115,7 @@ export default {
   head() {
     return {
       titleTemplate: '%s | ' + this.title,
-      meta: [{ name: 'description', content: this.title }],
+      meta: [{ name: 'description', content: this.descContent }],
     }
   },
   watch: {

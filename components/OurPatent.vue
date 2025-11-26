@@ -85,7 +85,7 @@ export default {
             {
                 cover: 'engine-2.jpg',
                 title: 'Application Developing Method and System',
-                patent: 'US Patent No. 10,649,743 B2',
+                patent: 'Patent No. US 10,649,743 B2',
                 patentNo: '10649743',
                 date: 'May 12, 2020',
                 desc: 'Proprietary low code technology facilitates application development for government agencies and beyond. Users can design applications and plan business processes efficiently without building any infrastructure or writing any program code.',
@@ -94,7 +94,7 @@ export default {
             {
                 cover: 'patent-1.jpg',
                 title: 'Form Management System and Method',
-                patent: 'US Patent No. 10,706,225 B2',
+                patent: 'Patent No. US 10,706,225 B2',
                 patentNo: '10706225',
                 date: 'July 7, 2020',
                 desc: 'Patented form management system with form building and common library building modules. Converts existing files into online fillable forms with all layout information and corresponding fields and data types stored in a common library. Users can modify and manage the form—edit input fields, set element types, design dropdown lists, create access permissions—without any programming or support from developers.',
@@ -103,7 +103,7 @@ export default {
             {
                 cover: 'patent-2.jpg',
                 title: 'Development Platform Of Mobile Native Applications',
-                patent: 'US Patent No. US 10,394,529 B2',
+                patent: 'Patent No. US 10,394,529 B2',
                 patentNo: '10394529',
                 date: 'Aug. 27, 2019',
                 desc: 'Cloud or local development platform for a developer to develop mobile native applications without the need to write program code. Supports the development of cross-platform (iOS, Android) and cross-industry mobile native applications, and provides various templates for designing screen interactions and business processes. Updates made through the development platform are simultaneously applied to all mobile native applications.',
