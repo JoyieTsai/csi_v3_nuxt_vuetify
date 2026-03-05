@@ -48,7 +48,6 @@ export default {
 
       // sort by a product, tag is from the product
       if (this.tag) {
-
         const filtered = allNews.filter((art) => art.tags)
 
         filtered.forEach((item) => {
@@ -63,6 +62,7 @@ export default {
         finalArr.sort((a, b) => {
           return a.rating - b.rating
         })
+        console.log(finalArr)
 
         if (finalArr.length >= 4) {
           return finalArr.slice(0, 4)

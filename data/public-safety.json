@@ -498,6 +498,10 @@
     "brochure": "CSI_Fire and EMS.pdf",
     "descHeading": "Total solution for Fire & EMS response, administration, communication, prevention, and reporting",
     "descContent": "Designed to be the most integrated all-in-one application suite on the market, our NERIS v1.0 compliant and NEMSIS 3.5.1 compliant system supports all phases of Fire and EMS management from the initial call to the validation and submission of the final report. Information flows seamlessly from dispatchers to responders to departments to investigators and command staff. Moreover, our Fire & EMS solution streamlines inspection processes and permit management.",
+    "descLogos": [
+      "neris-v1.png",
+      "nemsis-v3.png"
+    ],
     "highlightVideo": "FireEMS_highlight.mp4",
     "highlightImg": "FireEMS_thumb.jpg",
     "highlights": [

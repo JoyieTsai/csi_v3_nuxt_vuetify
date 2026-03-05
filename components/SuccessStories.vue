@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="tw-mx-auto deco-hexagon-1">
-    <div class="tw-flex tw-flex-wrap tw-justify-center tw-relative tw-z-10">
+    <div class="tw-flex tw-flex-wrap tw-justify-center tw-relative tw-z-10" style="min-height: 450px;">
       <div class="header-2 lg:tw-w-60 tw-text-right">Featured Article</div>
 
       <!-- Story -->
@@ -20,9 +20,7 @@
           <carousel loop :per-page="perPage" pagination-enabled :navigate-to="currentIndex" pagination-active-color="#0d63ba">
             <slide v-for="(item, i) in getLatestArticles.testimonials" :key="i">
               <div class="tw-flex tw-flex-col tw-self-center">
-                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70 tw-mt-5 lg:tw-mt-0">
-                  {{ item.body }}
-                </div>
+                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg tw-opacity-70 tw-mt-5 lg:tw-mt-0" v-html="item.body"></div>
                 <div class="tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
                   {{ item.name }}
                 </div>

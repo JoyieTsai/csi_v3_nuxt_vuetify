@@ -103,14 +103,14 @@
         "desc": "Request NCIC and DMV data for quick reference and improved situational awareness."
       },
       {
-        "title": "NIBRS",
-        "icon": "nibrs.svg",
-        "desc": "NIBRS reporting and submission with automatic code mapping, built-in data collection, step by step guidance, and embedded reporting rules."
+        "title": "NERIS",
+        "icon": "nfirs.svg",
+        "desc": "Streamlined NERIS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
       },
       {
-        "title": "NFIRS",
-        "icon": "nfirs.svg",
-        "desc": "Streamlined NFIRS reporting with automatic code mapping, pre-populated data, auto-validation, and easy review."
+        "title": "NEMSIS",
+        "icon": "nemsis.svg",
+        "desc": "Streamline ePCR workflows with intuitive data entry, automated compliance checks, and simplified NEMSIS-compliant reporting for faster, more accurate EMS documentation."
       },
       {
         "title": "AFIS LiveScan",

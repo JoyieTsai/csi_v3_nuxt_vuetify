@@ -470,7 +470,7 @@ export default {
   data: () => ({
     category: 'page',
     title: 'Terms of Use',
-    subtitle: 'Last Updated: April 10, 2022',
+    subtitle: 'Last Updated: December 1, 2025',
     coverimg: 'blue.jpg',
     links: [
       { title: 'Terms of Use', url: 'terms' },

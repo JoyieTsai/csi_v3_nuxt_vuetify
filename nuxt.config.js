@@ -17,6 +17,9 @@ const dynamicRoutes = async () => {
   const resCapabilities = await axios.get(
     'https://csi-web3-resources-default-rtdb.firebaseio.com/capabilities.json'
   )
+  const resStaff = await axios.get(
+    'https://csi-web3-resources-default-rtdb.firebaseio.com/staff.json'
+  )
 
   const routesForArticles = resArticles.data.map((art) => {
     return {
@@ -48,12 +51,19 @@ const dynamicRoutes = async () => {
       payload: cap,
     }
   })
+  const routesForStaff = resStaff.data.map((member) => {
+    return {
+      route: `/our-staff/${member.uid}`,
+      payload: member,
+    }
+  })
 
   const routes = routesForArticles.concat(
     routesForPS,
     routesForJC,
     routesForCI,
-    routesForCapabilities
+    routesForCapabilities,
+    routesForStaff
   )
   return routes
 }
@@ -66,7 +76,7 @@ export default {
   ssr: false, // Use true mode can generate full meta tags for every page, but it will become big.
   target: 'static',
   generate: {
-    dir: 'Test-V8.7-11252025',
+    dir: 'CSI-V9.8-03042026',
     routes: dynamicRoutes,
     minify: {
       collapseWhitespace: true,
@@ -134,6 +144,10 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdn.jsdelivr.net/npm/@mdi/font@6.x/css/materialdesignicons.min.css',
       },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200',
+      },
     ],
   },
 
@@ -168,6 +182,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['vue-social-sharing/nuxt', '@nuxtjs/firebase', '@nuxtjs/sitemap'],
+
   firebase: {
     config: {
       apiKey: 'AIzaSyAxEz3yuTKF7dmGWNQGHzIz4sieAPFV6GY',

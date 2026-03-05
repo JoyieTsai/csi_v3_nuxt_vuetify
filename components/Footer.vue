@@ -64,7 +64,7 @@
         <!-- Copyright -->
         <div class="tw-flex tw-flex-col md:tw-flex-row tw-justify-between tw-mt-10 tw-text-center lg:tw-text-left">
           <div class="tw-text-sm tw-opacity-50 tw-order-last lg:tw-order-first md:tw-mr-4">
-            © 2024 CSI Technology Group. All Rights Reserved.
+            © CSI Technology Group. All Rights Reserved.
           </div>
           <div class="tw-mb-2 lg:tw-mb-0 tw-mr-0 xl:tw-mr-16 sm:tw-mr-8">
             <nuxt-link v-for="(link, i) in footerLinks" :key="i" :to="'/' + link.url"

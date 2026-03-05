@@ -88,6 +88,3 @@ sw.*
 
 # Vim swap files
 *.swp
-
-# Meta tags output
-og_tags/

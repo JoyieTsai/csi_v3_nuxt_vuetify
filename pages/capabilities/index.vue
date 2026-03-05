@@ -57,7 +57,7 @@
         ">
         <div class="header-2 tw-text-center">Technology Timeline</div>
         <div class="tw-mt-8 xl:tw-mt-16 tw-mx-0 lg:tw-mx-5 xl:tw-mx-0">
-          <section id="cd-timeline" class="xl:tw-w-5/6 2xl:tw-w-4/5 tw-mx-auto">
+          <section id="cd-timeline" class="cd-timeline xl:tw-w-5/6 2xl:tw-w-4/5 tw-mx-auto">
             <div v-for="(item, index) in timelines" :key="index" :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'" data-aos-duration="1500"
               class="cd-timeline-block">
               <div class="cd-timeline-arrow" :style="{
@@ -68,8 +68,8 @@
                   backgroundSize: `contain`,
                 }">
                 <div class="
-                    lg:tw-mt-3
-                    md:tw-mt-2
+                    lg:tw-mt-4
+                    md:tw-mt-3
                     tw-mt-1 tw-ml-16
                     lg:tw-ml-24
                     md:tw-ml-20
@@ -88,7 +88,7 @@
                     `) center no-repeat`,
                   backgroundSize: `contain`,
                 }"></div>
-              <div v-if="item.img" class="tw-flex tw--mt-12 lg:tw--mt-24 xl:tw--mt-36">
+              <div :class="['tw-flex', item.img ? 'tw--mt-16 md:tw--mt-24 lg:tw--mt-36 xl:tw--mt-48' : '']">
                 <div :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-right'" data-aos-duration="1500" class="tw-flex-1">
                   <div class="md:tw-mr-6 xl:tw-mr-12">
                     <img v-if="item.leftImg" class="tw-ml-auto" :src="require(`~/assets/vectors/${item.leftImg}`)" />
@@ -178,11 +178,12 @@ export default {
 <style lang="scss">
 $blockL: 295px;
 $blockS: 100px;
+$blockXS: 50px;
 $imgWidth: 280px;
 $imgHight: 250px;
-$topH: 52px;
+$topH: 55px;
 $arrowWidth: 250px;
-$arrowHight: 90px;
+$arrowHight: 95px;
 $XL: 0.9;
 $L: 0.7;
 $M: 0.6;
@@ -243,21 +244,13 @@ $S: 0.4;
   }
 }
 
-.cd-timeline-block {
-  position: relative;
-  height: $blockL;
-  &:last-child {
-    height: $blockS;
-  }
-}
-
 .cd-timeline-arrow {
   position: absolute;
   display: flex;
   justify-content: center;
   width: $arrowWidth;
   height: $arrowHight;
-  z-index: 4;
+  z-index: 5;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -272,8 +265,21 @@ $S: 0.4;
   z-index: 4;
 }
 
-.cd-timeline-arrow {
-  z-index: 5;
+.cd-timeline-block {
+  position: relative;
+  height: $blockL;
+
+  &:nth-child(1),
+  &:nth-child(2) {
+    height: $blockXS;
+    .cd-timeline-arrow {
+      height: $blockXS;
+    }
+  }
+
+  &:last-child {
+    height: $blockS;
+  }
 }
 
 @media only screen and (min-width: 1720px) and (max-width: 1880px) {
@@ -368,6 +374,13 @@ $S: 0.4;
 @media only screen and (max-width: $breakpoints-xl) {
   .cd-timeline-block {
     height: ceil($blockL * $XL);
+    &:nth-child(1),
+    &:nth-child(2) {
+      height: ceil($blockXS * $XL);
+      .cd-timeline-arrow {
+        height: ceil($blockXS * $XL);
+      }
+    }
     &:last-child {
       height: ceil($blockS * $XL);
     }
@@ -409,6 +422,13 @@ $S: 0.4;
   }
   .cd-timeline-block {
     height: ceil($blockL * $L);
+    &:nth-child(1),
+    &:nth-child(2) {
+      height: ceil($blockXS * $L);
+      .cd-timeline-arrow {
+        height: ceil($blockXS * $L);
+      }
+    }
     &:last-child {
       height: ceil($blockS * $L);
     }
@@ -452,6 +472,13 @@ $S: 0.4;
   }
   .cd-timeline-block {
     height: ceil($blockL * $M);
+    &:nth-child(1),
+    &:nth-child(2) {
+      height: ceil($blockXS * $M);
+      .cd-timeline-arrow {
+        height: ceil($blockXS * $M);
+      }
+    }
     &:last-child {
       height: ceil($blockS * $M);
     }
@@ -497,6 +524,13 @@ $S: 0.4;
   }
   .cd-timeline-block {
     height: 100px;
+    &:nth-child(1),
+    &:nth-child(2) {
+      height: 20px;
+      .cd-timeline-arrow {
+        height: 20px;
+      }
+    }
     &:last-child {
       height: 40px;
     }
@@ -508,7 +542,7 @@ $S: 0.4;
   .cd-timeline-img {
     width: 90px;
     height: 85px;
-    top: ceil($topH * $S);
+    top: 21px;
   }
 }
 

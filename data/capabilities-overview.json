@@ -109,35 +109,51 @@
   ],
   "timelines": [
     {
-      "year": "1998",
-      "arrow": "t-arrow-1.svg",
-      "img": "t-engine-1.svg",
-      "leftImg": "t-item-2.svg",
-      "rightImg": "t-item-1.svg"
+      "year": "1990",
+      "arrow": "t-arrow-0.svg"
     },
     {
-      "year": "2010",
+      "year": "1998",
+      "arrow": "t-arrow-0.svg",
+      "rightImg": "t-item_1.svg"
+    },
+    {
+      "year": "2001",
+      "arrow": "t-arrow-1.svg",
+      "img": "t-engine1.svg",
+      "rightImg": "t-item_2.svg"
+    },
+    {
+      "year": "2004",
       "arrow": "t-arrow-2.svg",
-      "img": "t-engine-2.svg",
-      "leftImg": "t-item-4.svg",
-      "rightImg": "t-item-3.svg"
+      "img": "t-engine2.svg",
+      "leftImg": "t-item_3.svg",
+      "rightImg": "t-item_4.svg"
     },
     {
       "year": "2014",
       "arrow": "t-arrow-3.svg",
-      "img": "t-engine-3.svg",
-      "leftImg": "t-item-6.svg",
-      "rightImg": "t-item-5.svg"
+      "img": "t-engine3.svg",
+      "leftImg": "t-item_5.svg",
+      "rightImg": "t-item_6.svg"
     },
     {
-      "year": "2018",
+      "year": "2019",
       "arrow": "t-arrow-4.svg",
-      "img": "t-engine-4.svg",
-      "leftImg": "t-item-7.svg"
+      "img": "t-engine4.svg",
+      "leftImg": "t-item_7.svg",
+      "rightImg": "t-item_8.svg"
+    },
+    {
+      "year": "2025",
+      "arrow": "t-arrow-5.svg",
+      "img": "t-engine5.svg",
+      "leftImg": "t-item_9.svg",
+      "rightImg": "t-item_10.svg"
     },
     {
       "year": "Now",
-      "arrow": "t-arrow-5.svg"
+      "arrow": "t-end.svg"
     }
   ]
 }
