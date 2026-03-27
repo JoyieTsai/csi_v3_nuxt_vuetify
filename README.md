@@ -1,5 +1,7 @@
 # csi_v3_nuxt_vuetify
 
+# Node Version 18
+
 ## Build Setup
 
 ```bash

@@ -1,7 +1,8 @@
 [
   {
     "uid": "109220242019261453",
-    "name": "Adam Hampton",
+    "firstname": "Adam",
+    "lastname": "Hampton",
     "cover": "AdamHampton.jpg",
     "email": "ahampton@csitech.com",
     "employeeID": "1092",
@@ -11,7 +12,8 @@
   },
   {
     "uid": "108520236408889509",
-    "name": "Anthony Sgroi",
+    "firstname": "Anthony",
+    "lastname": "Sgroi",
     "cover": "AnthonySgroi.jpg",
     "email": "asgroi@csitech.com",
     "employeeID": "1085",
@@ -21,7 +23,8 @@
   },
   {
     "uid": "107320227323460200",
-    "name": "Anzhenqi Wang",
+    "firstname": "Anzhenqi",
+    "lastname": "Wang",
     "aka": "Ailsa",
     "cover": "AnzhenqiWang-Ailsa.png",
     "email": "awang@csitech.com",
@@ -32,7 +35,8 @@
   },
   {
     "uid": "106420212679467492",
-    "name": "Brian Womer",
+    "firstname": "Brian",
+    "lastname": "Womer",
     "cover": "BrianWomer.jpg",
     "email": "bwomer@csitech.com",
     "employeeID": "1064",
@@ -42,7 +46,8 @@
   },
   {
     "uid": "100119907323460200",
-    "name": "Chenchung Yeh",
+    "firstname": "Chenchung",
+    "lastname": "Yeh",
     "aka": "William",
     "cover": "ChenchungYeh-William.jpg",
     "email": "william@csitech.com",
@@ -53,7 +58,8 @@
   },
   {
     "uid": "102120117323460200",
-    "name": "Chi-Lin Yeh ",
+    "firstname": "Chi-Lin",
+    "lastname": "Yeh",
     "cover": "Chi-LinYeh-Chilin.png",
     "email": "clyeh@csitech.com",
     "employeeID": "1021",
@@ -63,7 +69,8 @@
   },
   {
     "uid": "102920106092340387",
-    "name": "Christopher Rein",
+    "firstname": "Christopher",
+    "lastname": "Rein",
     "cover": "ChristopherRein.png",
     "email": "crein@csitech.com",
     "employeeID": "1029",
@@ -73,7 +80,8 @@
   },
   {
     "uid": "108120239739601801",
-    "name": "Christopher deHagara",
+    "firstname": "Christopher",
+    "lastname": "deHagara",
     "cover": "ChristopherdeHagara.jpg",
     "email": "cdehagara@csitech.com",
     "employeeID": "1081",
@@ -83,7 +91,8 @@
   },
   {
     "uid": "109520254012229835",
-    "name": "Daniel Sorice",
+    "firstname": "Daniel",
+    "lastname": "Sorice",
     "cover": "DanielSorice.png",
     "email": "dsorice@csitech.com",
     "employeeID": "1095",
@@ -93,7 +102,8 @@
   },
   {
     "uid": "200520077323460200",
-    "name": "Dezhen Deng",
+    "firstname": "Dezhen",
+    "lastname": "Deng",
     "aka": "Deng",
     "cover": "DezhenDeng.png",
     "email": "ddeng@csitech.com",
@@ -104,7 +114,8 @@
   },
   {
     "uid": "103420149084455727",
-    "name": "Di Di",
+    "firstname": "Di",
+    "lastname": "Di",
     "cover": "DiDi.png",
     "email": "ddi@csitech.com",
     "employeeID": "1034",
@@ -114,7 +125,8 @@
   },
   {
     "uid": "109620256034961014",
-    "name": "Edward Flynn",
+    "firstname": "Edward",
+    "lastname": "Flynn",
     "cover": "EdwardFlynn.jpg",
     "email": "eflynn@csitech.com",
     "employeeID": "1096",
@@ -124,7 +136,8 @@
   },
   {
     "uid": "105520206033407583",
-    "name": "Gregory Ferry",
+    "firstname": "Gregory",
+    "lastname": "Ferry",
     "cover": "GregoryFerry.jpg",
     "email": "gferry@csitech.com",
     "employeeID": "1055",
@@ -134,7 +147,8 @@
   },
   {
     "uid": "201820117323460200",
-    "name": "Guangzhi Wu",
+    "firstname": "Guangzhi",
+    "lastname": "Wu",
     "aka": "Charles",
     "cover": "GuangzhiWu.png",
     "email": "gzwu@csitech.com",
@@ -145,7 +159,8 @@
   },
   {
     "uid": "201020107323460200",
-    "name": "Hongbo Wang",
+    "firstname": "Hongbo",
+    "lastname": "Wang",
     "cover": "HongboWang.png",
     "email": "hbwang@csitech.com",
     "employeeID": "2010",
@@ -155,7 +170,8 @@
   },
   {
     "uid": "100520007323460200",
-    "name": "Hongyu He",
+    "firstname": "Hongyu",
+    "lastname": "He",
     "aka": "Henry",
     "cover": "HongyuHe-Henry.jpg",
     "email": "hyhe@csitech.com",
@@ -166,7 +182,8 @@
   },
   {
     "uid": "106820228567251960",
-    "name": "James DeHart",
+    "firstname": "James",
+    "lastname": "DeHart",
     "cover": "JamesDeHart.jpg",
     "email": "jdehart@csitech.com",
     "employeeID": "1068",
@@ -176,7 +193,8 @@
   },
   {
     "uid": "103320146095016046",
-    "name": "James Parent",
+    "firstname": "James",
+    "lastname": "Parent",
     "cover": "JamesParent.jpg",
     "email": "jparent@csitech.com",
     "employeeID": "1033",
@@ -186,7 +204,8 @@
   },
   {
     "uid": "106720226034770000",
-    "name": "Jeffrey Blomquist",
+    "firstname": "Jeffrey",
+    "lastname": "Blomquist",
     "cover": "JeffreyBlomquist.png",
     "email": "jblomquist@csitech.com",
     "employeeID": "1067",
@@ -196,7 +215,8 @@
   },
   {
     "uid": "105720207329953780",
-    "name": "James Calderella",
+    "firstname": "James",
+    "lastname": "Calderella",
     "aka": "Jimmy",
     "cover": "JimmyCalderella.jpg",
     "email": "jcalderella@csitech.com",
@@ -207,7 +227,8 @@
   },
   {
     "uid": "104320167323460200",
-    "name": "Jinfan Wang",
+    "firstname": "Jinfan",
+    "lastname": "Wang",
     "aka": "Jean",
     "cover": "JinfanWang-Jean.png",
     "email": "jwang@csitech.com",
@@ -218,7 +239,8 @@
   },
   {
     "uid": "103220147323460200",
-    "name": "John Comparetto",
+    "firstname": "John",
+    "lastname": "Comparetto",
     "cover": "JohnComparetto.png",
     "email": "jcomparetto@csitech.com",
     "employeeID": "1032",
@@ -228,7 +250,8 @@
   },
   {
     "uid": "101620099089077905",
-    "name": "John Emmerson-Bolt",
+    "firstname": "John",
+    "lastname": "Emmerson-Bolt",
     "cover": "JohnEmmerson-Bolt.jpg",
     "email": "jembolt@csitech.com",
     "employeeID": "1016",
@@ -238,7 +261,8 @@
   },
   {
     "uid": "109120246092039963",
-    "name": "John McCarthy",
+    "firstname": "John",
+    "lastname": "McCarthy",
     "aka": "Jack",
     "cover": "JohnMcCarthy-Jack.jpg",
     "email": "jmccarthy@csitech.com",
@@ -249,7 +273,8 @@
   },
   {
     "uid": "102220126097431716",
-    "name": "John P. Denmark",
+    "firstname": "John",
+    "lastname": "P. Denmark",
     "cover": "JohnPDenmark.jpg",
     "email": "jpdenmark@csitech.com",
     "employeeID": "1022",
@@ -259,7 +284,8 @@
   },
   {
     "uid": "105120188562373936",
-    "name": "John Porter",
+    "firstname": "John",
+    "lastname": "Porter",
     "cover": "JohnPorter.jpg",
     "email": "jporter@csitech.com",
     "employeeID": "1051",
@@ -268,8 +294,20 @@
     "title": "Director – County/State Agency Division"
   },
   {
+    "uid": "103120136098207504",
+    "firstname": "Joshua",
+    "lastname": "Ottenberg",
+    "cover": "JoshuaOttenberg.jpg",
+    "email": "jottenberg@csitech.com",
+    "employeeID": "1031",
+    "phone": "609-820-7504",
+    "since": "2013",
+    "title": "Business Consultant"
+  },
+  {
     "uid": "108220232012013759",
-    "name": "Katerina Liu",
+    "firstname": "Katerina",
+    "lastname": "Liu",
     "cover": "KaterinaLiu.jpg",
     "email": "kaliu@csitech.com",
     "employeeID": "1082",
@@ -279,7 +317,8 @@
   },
   {
     "uid": "108020229737033405",
-    "name": "Keith McDermott",
+    "firstname": "Keith",
+    "lastname": "McDermott",
     "cover": "KeithMcDermott.jpg",
     "email": "kmcdermott@csitech.com",
     "employeeID": "1080",
@@ -289,7 +328,8 @@
   },
   {
     "uid": "103720159082856087",
-    "name": "Kimberly Petty",
+    "firstname": "Kimberly",
+    "lastname": "Petty",
     "cover": "KimberlyPetty.jpg",
     "email": "kpetty@csitech.com",
     "employeeID": "1037",
@@ -299,7 +339,8 @@
   },
   {
     "uid": "101920087323460200",
-    "name": "Longhu Dong",
+    "firstname": "Longhu",
+    "lastname": "Dong",
     "aka": "Jack",
     "cover": "LonghuDong-Jack.png",
     "email": "lhdong@csitech.com",
@@ -310,7 +351,8 @@
   },
   {
     "uid": "100319996408886401",
-    "name": "Maggie Lin",
+    "firstname": "Maggie",
+    "lastname": "Lin",
     "cover": "MaggieLin.jpg",
     "email": "mlin@csitech.com",
     "employeeID": "1003",
@@ -320,7 +362,8 @@
   },
   {
     "uid": "103520158622192743",
-    "name": "Matthew Edwards",
+    "firstname": "Matthew",
+    "lastname": "Edwards",
     "cover": "MatthewEdwards.png",
     "email": "medwards@csitech.com",
     "employeeID": "1035",
@@ -330,7 +373,8 @@
   },
   {
     "uid": "20208629029805",
-    "name": "Michael Allman",
+    "firstname": "Michael",
+    "lastname": "Allman",
     "cover": "MichaelAllman.jpg",
     "email": "mallman@csitech.com",
     "employeeID": "",
@@ -339,8 +383,20 @@
     "title": "Business Consultant"
   },
   {
+    "uid": "20216093740694",
+    "firstname": "Michael",
+    "lastname": "Eck",
+    "cover": "MichaelEck.jpg",
+    "email": "meck@csitech.com",
+    "employeeID": "",
+    "phone": "862-902-9805",
+    "since": "2021",
+    "title": "Business Consultant"
+  },
+  {
     "uid": "107120227323460200",
-    "name": "Ming Zhang",
+    "firstname": "Ming",
+    "lastname": "Zhang",
     "cover": "MingZhang.png",
     "email": "mzhang@csitech.com",
     "employeeID": "1071",
@@ -350,7 +406,8 @@
   },
   {
     "uid": "108920237326891198",
-    "name": "Nathan Noyes",
+    "firstname": "Nathan",
+    "lastname": "Noyes",
     "cover": "NathanNoyes.jpg",
     "email": "nnoyes@csitech.com",
     "employeeID": "1089",
@@ -360,7 +417,8 @@
   },
   {
     "uid": "109020232019205906",
-    "name": "Nicholas Scerbo",
+    "firstname": "Nicholas",
+    "lastname": "Scerbo",
     "cover": "NicholasScerbo.jpg",
     "email": "nscerbo@csitech.com",
     "employeeID": "1090",
@@ -370,7 +428,8 @@
   },
   {
     "uid": "107520226099299566",
-    "name": "Paul Genovese",
+    "firstname": "Paul",
+    "lastname": "Genovese",
     "cover": "PaulGenovese.jpg",
     "email": "pgenovese@csitech.com",
     "employeeID": "1075",
@@ -380,7 +439,8 @@
   },
   {
     "uid": "100920067323460200",
-    "name": "Peng Cheng",
+    "firstname": "Peng",
+    "lastname": "Cheng",
     "aka": "CP",
     "cover": "PengCheng.png",
     "email": "pcheng@csitech.com",
@@ -391,7 +451,8 @@
   },
   {
     "uid": "102820129735833550",
-    "name": "Peter Ugalde",
+    "firstname": "Peter",
+    "lastname": "Ugalde",
     "cover": "PeterUgalde.jpg",
     "email": "pugalde@csitech.com",
     "employeeID": "1028",
@@ -401,7 +462,8 @@
   },
   {
     "uid": "100219977323460200",
-    "name": "Qiang Mi",
+    "firstname": "Qiang",
+    "lastname": "Mi",
     "aka": "John",
     "cover": "QiangMi-John.png",
     "email": "qmi@csitech.com",
@@ -412,7 +474,8 @@
   },
   {
     "uid": "20247323460200",
-    "name": "Richard Bailey",
+    "firstname": "Richard",
+    "lastname": "Bailey",
     "aka": "Rick",
     "cover": "RichardBailey-Rick.jpg",
     "email": "",
@@ -423,7 +486,8 @@
   },
   {
     "uid": "106920226109600417",
-    "name": "Richard Nilsen",
+    "firstname": "Richard",
+    "lastname": "Nilsen",
     "cover": "RichardNilsen.jpg",
     "email": "rnilsen@csitech.com",
     "employeeID": "1069",
@@ -433,7 +497,8 @@
   },
   {
     "uid": "101420086097435629",
-    "name": "Richard Norcross",
+    "firstname": "Richard",
+    "lastname": "Norcross",
     "cover": "RichardNorcross.jpg",
     "email": "rnorcross@csitech.com",
     "employeeID": "1014",
@@ -443,7 +508,8 @@
   },
   {
     "uid": "109320244012284517",
-    "name": "Robert Barber",
+    "firstname": "Robert",
+    "lastname": "Barber",
     "cover": "RobertBarber.jpg",
     "email": "rbarber@csitech.com",
     "employeeID": "1093",
@@ -453,7 +519,8 @@
   },
   {
     "uid": "104720172016914314",
-    "name": "Russell Christiana",
+    "firstname": "Russell",
+    "lastname": "Christiana",
     "cover": "RussellChristiana.jpg",
     "email": "rchristiana@csitech.com",
     "employeeID": "1047",
@@ -463,7 +530,8 @@
   },
   {
     "uid": "110720267329836193",
-    "name": "Sara Luckus",
+    "firstname": "Sara",
+    "lastname": "Luckus",
     "cover": "SaraLuckus.png",
     "email": "sluckus@csitech.com",
     "employeeID": "1107",
@@ -473,7 +541,8 @@
   },
   {
     "uid": "20239737251870",
-    "name": "Scott McDermott",
+    "firstname": "Scott",
+    "lastname": "McDermott",
     "cover": "ScottMcDermott.jpg",
     "email": "smcdermott@csitech.com",
     "employeeID": "",
@@ -483,7 +552,8 @@
   },
   {
     "uid": "106220216033656425",
-    "name": "Scott Plumer",
+    "firstname": "Scott",
+    "lastname": "Plumer",
     "cover": "ScottPlumer.jpg",
     "email": "splumer@csitech.com",
     "employeeID": "1062",
@@ -493,7 +563,8 @@
   },
   {
     "uid": "107820226035681939",
-    "name": "Sean Faherty",
+    "firstname": "Sean",
+    "lastname": "Faherty",
     "cover": "SeanFaherty.jpg",
     "email": "sfaherty@csitech.com",
     "employeeID": "1078",
@@ -503,7 +574,8 @@
   },
   {
     "uid": "109720256039986520",
-    "name": "Sean McCarty",
+    "firstname": "Sean",
+    "lastname": "McCarty",
     "cover": "SeanMcCarty.png",
     "email": "smccarty@csitech.com",
     "employeeID": "1097",
@@ -513,7 +585,8 @@
   },
   {
     "uid": "110220257323460200",
-    "name": "Shuyu Xiao",
+    "firstname": "Shuyu",
+    "lastname": "Xiao",
     "aka": "Victoria",
     "cover": "ShuyuXiao-Victoria.jpg",
     "email": "vxiao@csitech.com",
@@ -524,7 +597,8 @@
   },
   {
     "uid": "104620178564037888",
-    "name": "Steven LaPorta",
+    "firstname": "Steven",
+    "lastname": "LaPorta",
     "cover": "StevenLaPorta.jpg",
     "email": "slaporta@csitech.com",
     "employeeID": "1046",
@@ -534,7 +608,8 @@
   },
   {
     "uid": "105220186102235415",
-    "name": "Thomas Kenny",
+    "firstname": "Thomas",
+    "lastname": "Kenny",
     "cover": "ThomasKenny.jpg",
     "email": "tkenny@csitech.com",
     "employeeID": "1052",
@@ -544,7 +619,8 @@
   },
   {
     "uid": "105420199084161126",
-    "name": "Thomas Koundry",
+    "firstname": "Thomas",
+    "lastname": "Koundry",
     "cover": "ThomasKoundry.jpg",
     "email": "tkoundry@csitech.com",
     "employeeID": "1054",
@@ -554,7 +630,8 @@
   },
   {
     "uid": "107020227323460200",
-    "name": "Ting-Kai Liu",
+    "firstname": "Ting-Kai",
+    "lastname": "Liu",
     "aka": "Kevin",
     "cover": "Ting-KaiLiu-Kevin.png",
     "email": "kliu@csitech.com",
@@ -565,7 +642,8 @@
   },
   {
     "uid": "305920167323460200",
-    "name": "Ting-Wei Chang",
+    "firstname": "Ting-Wei",
+    "lastname": "Chang",
     "aka": "Tim",
     "cover": "Ting-WeiChang-Tim.png",
     "email": "tchang@csitech.com",
@@ -576,7 +654,8 @@
   },
   {
     "uid": "108720237323460200",
-    "name": "Ting-Yu Chang",
+    "firstname": "Ting-Yu",
+    "lastname": "Chang",
     "aka": "Tiffany",
     "cover": "Ting-YuChang-Tiffany.png",
     "email": "tichang@csitech.com",
@@ -587,7 +666,8 @@
   },
   {
     "uid": "107420227323460200",
-    "name": "Tzu-Chieh Chen",
+    "firstname": "Tzu-Chieh",
+    "lastname": "Chen",
     "aka": "Alex",
     "cover": "Tzu-ChiehChen-Alex.png",
     "email": "achen@csitech.com",
@@ -598,7 +678,8 @@
   },
   {
     "uid": "108420237323460200",
-    "name": "Wang-Han Li",
+    "firstname": "Wang-Han",
+    "lastname": "Li",
     "aka": "Josh",
     "cover": "Wang-HanLi-JoshLi.png",
     "email": "jli@csitech.com",
@@ -609,7 +690,8 @@
   },
   {
     "uid": "300720127323460200",
-    "name": "Wanshin Chang",
+    "firstname": "Wanshin",
+    "lastname": "Chang",
     "aka": "Verola",
     "cover": "WanshinChang-Verola.png",
     "email": "vchang@csitech.com",
@@ -620,7 +702,8 @@
   },
   {
     "uid": "108820237323460200",
-    "name": "Wei-Chu Liao",
+    "firstname": "Wei-Chu",
+    "lastname": "Liao",
     "cover": "Wei-ChuLiao-Weichu.png",
     "email": "wcliao@csitech.com",
     "employeeID": "1088",
@@ -630,9 +713,10 @@
   },
   {
     "uid": "109820257323460200",
-    "name": "Wei-Wei Tseng",
+    "firstname": "Wei-Wei",
+    "lastname": "Tseng",
     "aka": "Vivian",
-    "cover": "",
+    "cover": "Wei-WeiTseng-Vivian.jpg",
     "email": "vtseng@csitech.com",
     "employeeID": "1098",
     "phone": "",
@@ -641,7 +725,8 @@
   },
   {
     "uid": "110120257323460200",
-    "name": "Xianjing Huang",
+    "firstname": "Xianjing",
+    "lastname": "Huang",
     "aka": "Jin",
     "cover": "XianjingHuang-Jin.jpg",
     "email": "jhuang@csitech.com",
@@ -652,7 +737,8 @@
   },
   {
     "uid": "110620257323460200",
-    "name": "Xuehan Wang",
+    "firstname": "Xuehan",
+    "lastname": "Wang",
     "aka": "Cora",
     "cover": "XuehanWang-Cora.jpg",
     "email": "cowang@csitech.com",
@@ -663,7 +749,8 @@
   },
   {
     "uid": "104920187323460200",
-    "name": "Xuemei Wen",
+    "firstname": "Xuemei",
+    "lastname": "Wen",
     "aka": "Kiki",
     "cover": "XuemeiWen-Kiki.jpg",
     "email": "kwen@csitech.com",
@@ -674,7 +761,8 @@
   },
   {
     "uid": "100620057323460200",
-    "name": "Ye-Der Wu",
+    "firstname": "Ye-Der",
+    "lastname": "Wu",
     "aka": "Peter",
     "cover": "Ye-DerWu-PeterWu.png",
     "email": "pwu@csitech.com",
@@ -685,7 +773,8 @@
   },
   {
     "uid": "110420257323460200",
-    "name": "Yitong Wang",
+    "firstname": "Yitong",
+    "lastname": "Wang",
     "aka": "Nicole",
     "cover": "YitongWang-Nicole.jpg",
     "email": "nwang@csitech.com",
@@ -696,7 +785,8 @@
   },
   {
     "uid": "110520257323460200",
-    "name": "Yixuan Zhou",
+    "firstname": "Yixuan",
+    "lastname": "Zhou",
     "aka": "Winnie",
     "cover": "YixuanZhou-Winnie.jpg",
     "email": "wzhou@csitech.com",
@@ -707,7 +797,8 @@
   },
   {
     "uid": "306820197323460200",
-    "name": "Yu-Che Tsai",
+    "firstname": "Yu-Che",
+    "lastname": "Tsai",
     "aka": "Henry",
     "cover": "Yu-CheTsai-Henry.png",
     "email": "htsai@csitech.com",
@@ -718,7 +809,8 @@
   },
   {
     "uid": "300120087323460200",
-    "name": "Yu-Chen Chang",
+    "firstname": "Yu-Chen",
+    "lastname": "Chang",
     "aka": "Andrew",
     "cover": "Yu-ChenChang-Andrew.jpg",
     "email": "achang@csitech.com",

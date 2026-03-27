@@ -73,10 +73,10 @@ export default {
     host: 'localhost', // default: localhost
     port: '8000', // default: 3000
   },
-  ssr: false, // Use true mode can generate full meta tags for every page, but it will become big.
+  ssr: true, // Use true mode to generate full meta tags for the live site.
   target: 'static',
   generate: {
-    dir: 'CSI-V9.8-03042026',
+    dir: 'dist/CSI-V9.8-03272026',
     routes: dynamicRoutes,
     minify: {
       collapseWhitespace: true,

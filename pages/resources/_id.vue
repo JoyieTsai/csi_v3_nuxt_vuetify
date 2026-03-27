@@ -3,75 +3,134 @@
   <v-app>
     <v-main>
       <!-- Cover -->
-      <div class="hero-section sm" :style="{
+      <div
+        class="hero-section sm"
+        :style="{
           backgroundImage: `url(images/covers/${category}/${coverimg})`,
-        }">
+        }"
+      >
         <div class="main-container tw-mx-auto">
-          <div class="tw-flex tw-text-white tw-mt-4 md:tw-mt-8 xl:tw-mt-10 tw-cursor-pointer" @click="goToPrev()">
-            <img :src="require('~/assets/icons/icon-back.svg')" alt="back" class="tw-mr-3 tw-w-5" />
+          <div
+            class="tw-flex tw-text-white tw-mt-4 md:tw-mt-8 xl:tw-mt-10 tw-cursor-pointer"
+            @click="goToPrev()"
+          >
+            <img
+              :src="require('~/assets/icons/icon-back.svg')"
+              alt="back"
+              class="tw-mr-3 tw-w-5"
+            />
             <div class="tw-text-lg xl:tw-text-xl">Back</div>
           </div>
         </div>
       </div>
 
       <div class="main-container tw-mx-auto">
-        <div class="tw-flex tw-flex-wrap tw--mt-20 md:tw--mt-36 xl:tw--mt-44 tw-mb-12 lg:tw-mb-28">
-          <div class="tw-hidden md:tw-block lg:tw-w-24 xl:tw-w-40 2xl:tw-mt-96 tw-mt-24 md:tw-mt-52 tw-px-2 tw-mr-5">
+        <div
+          class="tw-flex tw-flex-wrap tw--mt-20 md:tw--mt-36 xl:tw--mt-44 tw-mb-12 lg:tw-mb-28"
+        >
+          <div
+            class="tw-hidden md:tw-block lg:tw-w-24 xl:tw-w-40 2xl:tw-mt-96 tw-mt-24 md:tw-mt-52 tw-px-2 tw-mr-5"
+          >
             <div class="tw-text-center tw-mb-3 tw-mt-20">Share to</div>
             <div class="tw-flex tw-flex-col tw-items-center">
-              <ShareNetwork v-for="network in networks" :key="network.network" :network="network.network" :style="{ backgroundColor: network.color }"
-                :url="'https://www.csitech.com/resources/' + article.id" :title="article.shareTitle" :description="article.body"
-                hashtags="CSI Technology Group, InfoShare" class="social tw-my-3 tw-flex tw-justify-center">
-                <img :src="require('@/assets/icons/' + network.icon)" alt="Social" />
+              <ShareNetwork
+                v-for="network in networks"
+                :key="network.network"
+                :network="network.network"
+                :style="{ backgroundColor: network.color }"
+                :url="'https://www.csitech.com/resources/' + article.id"
+                :title="article.shareTitle"
+                :description="article.body"
+                hashtags="CSI Technology Group, InfoShare"
+                class="social tw-my-3 tw-flex tw-justify-center"
+              >
+                <img
+                  :src="require('@/assets/icons/' + network.icon)"
+                  alt="Social"
+                />
               </ShareNetwork>
             </div>
           </div>
 
-          <div class="tw-w-full tw-flex-1 md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl">
+          <div
+            class="tw-w-full tw-flex-1 md:tw-w-5/6 lg:tw-w-7/12 tw-shadow-xl"
+          >
             <div class="tw-bg-white">
-              <img :src="[ !article.cover ? 'images/news/news_temp.svg' : 'images/news/' + article.cover]" alt="resource" />
+              <img
+                :src="[
+                  !article.cover
+                    ? 'images/news/news_temp.svg'
+                    : 'images/news/' + article.cover,
+                ]"
+                alt="resource"
+              />
               <div class="tw-p-5 md:tw-p-10">
                 <div class="tw-flex tw-justify-between">
                   <div class="tips">
                     <div class="tw-flex tw-flex-wrap tw-opacity-70">
                       <div class="tw-mr-3">Tags:</div>
-                      <div class="tw-bg-gray-200 tw-px-3 tw-py-1 tw-mb-2 tw-uppercase tw-mr-2 tw-rounded tw-text-xs sm:tw-text-sm">
+                      <div
+                        class="tw-bg-gray-200 tw-px-3 tw-py-1 tw-mb-2 tw-uppercase tw-mr-2 tw-rounded tw-text-xs sm:tw-text-sm"
+                      >
                         {{ article.type }}
                       </div>
-                      <div v-for="(item, t) in article.tags" :key="t"
-                        class="tw-bg-gray-200 tw-px-3 tw-py-1 tw-mb-2 tw-uppercase tw-mr-2 tw-rounded tw-text-xs sm:tw-text-sm">
+                      <div
+                        v-for="(item, t) in article.tags"
+                        :key="t"
+                        class="tw-bg-gray-200 tw-px-3 tw-py-1 tw-mb-2 tw-uppercase tw-mr-2 tw-rounded tw-text-xs sm:tw-text-sm"
+                      >
                         {{ item.name }}
                       </div>
                     </div>
                   </div>
-                  <div class="tw-text-right tw-opacity-50 tw-text-xs sm:tw-text-sm md:tw-text-base">
+                  <div
+                    class="tw-text-right tw-opacity-50 tw-text-xs sm:tw-text-sm md:tw-text-base"
+                  >
                     {{ article.date }}
                   </div>
                 </div>
 
-                <div class="tw-text-2xl xl:tw-text-3xl 2xl:tw-text-4xl tw-font-semibold tw-my-5" v-html="article.title"></div>
+                <div
+                  class="tw-text-2xl xl:tw-text-3xl 2xl:tw-text-4xl tw-font-semibold tw-my-5"
+                  v-html="article.title"
+                ></div>
 
                 <div class="tw-flex md:tw-hidden">
-                  <ShareNetwork v-for="network in networks" :key="network.network" :network="network.network"
-                    :style="{ backgroundColor: network.color }" :url="'https://www.csitech.com/resources/' + article.id" :title="article.shareTitle"
-                    :description="article.body" hashtags="CSI Technology Group, InfoShare" class="social tw-mr-5 tw-mb-5 tw-flex tw-justify-center">
-                    <img :src="require('@/assets/icons/' + network.icon)" alt="Social" />
+                  <ShareNetwork
+                    v-for="network in networks"
+                    :key="network.network"
+                    :network="network.network"
+                    :style="{ backgroundColor: network.color }"
+                    :url="'https://www.csitech.com/resources/' + article.id"
+                    :title="article.shareTitle"
+                    :description="article.body"
+                    hashtags="CSI Technology Group, InfoShare"
+                    class="social tw-mr-5 tw-mb-5 tw-flex tw-justify-center"
+                  >
+                    <img
+                      :src="require('@/assets/icons/' + network.icon)"
+                      alt="Social"
+                    />
                   </ShareNetwork>
                 </div>
 
-                <div class="tw-text-base lg:tw-text-lg tw-leading-relaxed tw-text-gray-600">
-                  <div class="news-body xl:tw-text-xl" v-html="article.body">
-                  </div>
+                <div
+                  class="tw-text-base lg:tw-text-lg tw-leading-relaxed tw-text-gray-600"
+                >
+                  <div
+                    class="news-body xl:tw-text-xl"
+                    v-html="article.body"
+                  ></div>
                 </div>
               </div>
             </div>
           </div>
 
           <!-- Related Products -->
-          <div class="tw-w-full lg:tw-w-3/12 tw-mt-20 lg:tw-mt-40 xl:tw-mt-52 tw-pl-0 2xl:tw-pl-16 lg:tw-pl-10">
-            <div class="tw-text-lg lg:tw-text-xl tw-mb-5">
-              Related Products
-            </div>
+          <div
+            class="tw-w-full lg:tw-w-3/12 tw-mt-20 lg:tw-mt-40 xl:tw-mt-52 tw-pl-0 2xl:tw-pl-16 lg:tw-pl-10"
+          >
+            <div class="tw-text-lg lg:tw-text-xl tw-mb-5">Related Products</div>
 
             <!-- Related Capabilities -->
             <!-- <div v-if="relatedCapabilities.length">
@@ -92,14 +151,28 @@
               </div>
             </div> -->
 
-            <div v-if="relatedProducts.length" class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-3 lg:tw-gap-6">
-              <div v-for="(item, i) in relatedProducts" :key="i"
+            <div
+              v-if="relatedProducts.length"
+              class="tw-w-full tw-grid tw-grid-cols-1 sm:tw-grid-cols-3 lg:tw-grid-cols-1 tw-gap-3 lg:tw-gap-6"
+            >
+              <div
+                v-for="(item, i) in relatedProducts"
+                :key="i"
                 class="tw-flex sm:tw-flex-col 2xl:tw-flex-row bg-light tw-cursor-pointer hover:tw-bg-white hover:tw-shadow-xl tw-p-5"
-                @click.prevent="routerToProduct(item.category, item.id)">
-                <div class="tw-flex-none tw-flex tw-items-center tw-justify-center">
-                  <img :src="require('~/assets/duotone/' + item.icon)" alt="" class="tw-mb-3 2xl:tw-mb-3 tw-mr-5 sm:tw-mr-0 2xl:tw-mr-5 tw-w-16" />
+                @click.prevent="routerToProduct(item.category, item.id)"
+              >
+                <div
+                  class="tw-flex-none tw-flex tw-items-center tw-justify-center"
+                >
+                  <img
+                    :src="require('~/assets/duotone/' + item.icon)"
+                    alt=""
+                    class="tw-mb-3 2xl:tw-mb-3 tw-mr-5 sm:tw-mr-0 2xl:tw-mr-5 tw-w-16"
+                  />
                 </div>
-                <div class="tw-flex-auto tw-text-left sm:tw-text-center 2xl:tw-text-left">
+                <div
+                  class="tw-flex-auto tw-text-left sm:tw-text-center 2xl:tw-text-left"
+                >
                   <div class="tw-text-base lg:tw-text-lg tw-font-semibold">
                     {{ item.title }}
                   </div>
@@ -157,8 +230,8 @@ export default {
       {
         network: 'twitter',
         name: 'Twitter',
-        icon: 'icon-twitter.svg',
-        color: '#1da1f2',
+        icon: 'icon-x.svg',
+        color: '#000000',
       },
       {
         network: 'linkedin',
@@ -192,33 +265,41 @@ export default {
     // }
   },
   head() {
-    const article = this.pageData || this.currentArticle
+    // Use pageData from generate payload first; currentArticle is only set on client after mounted()
+    const article =
+      this.pageData ||
+      (Array.isArray(this.currentArticle) ? null : this.currentArticle)
     if (!article) {
       return {
         titleTemplate: '%s',
-        meta: []
+        meta: [],
       }
     }
 
+    const coverPath = article.cover
+      ? 'https://www.csitech.com/images/news/' + article.cover
+      : 'https://www.csitech.com/images/news/news_temp.svg'
+
     return {
-      titleTemplate: this.article.shareTitle + ' - %s',
+      titleTemplate: article.shareTitle + ' - %s',
       meta: [
-        { property: 'og:title', content: this.article.shareTitle },
-        { property: 'og:description', content: this.article.brief },
+        { hid: 'description', name: 'description', content: article.brief },
+        { property: 'og:title', content: article.shareTitle },
+        { property: 'og:description', content: article.brief },
         {
           property: 'og:image:secure_url',
-          content: 'https://www.csitech.com/images/news/' + this.article.cover,
+          content: coverPath,
         },
         {
           property: 'og:url',
-          content: 'https://www.csitech.com/resources/' + this.article.id,
+          content: 'https://www.csitech.com/resources/' + article.id,
         },
         { property: 'twitter:card', content: 'summary_large_image' },
-        { property: 'twitter:title', content: this.article.shareTitle },
-        { property: 'twitter:description', content: this.article.brief },
+        { property: 'twitter:title', content: article.shareTitle },
+        { property: 'twitter:description', content: article.brief },
         {
           property: 'twitter:image',
-          content: 'https://www.csitech.com/images/news/' + this.article.cover,
+          content: coverPath,
         },
       ],
     }
@@ -226,7 +307,9 @@ export default {
   computed: {
     ...mapState(['articleList', 'tags', 'currentArticle']),
     article() {
-      return this.currentArticle
+      if (this.pageData) return this.pageData
+      const ca = this.currentArticle
+      return Array.isArray(ca) ? null : ca
     },
     relatedProducts() {
       const arr = this.article.tags
@@ -241,7 +324,6 @@ export default {
         })
       }
       const finalArr = resultArr.flat()
-
 
       finalArr.sort((a, b) => {
         return a.order - b.order

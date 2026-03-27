@@ -1,7 +1,7 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
   <v-app>
-    <v-main style="height: 400px">
+    <v-main>
       <!-- Cover -->
       <div
         class="hero-section sm"
@@ -24,7 +24,7 @@
           >
             <div class="tw-text-center lg:tw-text-left">
               <div class="header-1 tw-leading-snug tw-mb-0">
-                {{ member.name }}
+                {{ member.firstname }} {{ member.lastname }}
                 <div class="header-3 tw-opacity-70">{{ member.aka }}</div>
               </div>
               <div class="tw-text-2xl">{{ member.title }}</div>
@@ -38,7 +38,19 @@
       >
         <div class="lg:tw-w-1/3"></div>
         <div>
-          <ul class="tw-pl-0 tw-mb-10 tw-mt-10 tw-mb-16 tw-grid tw-gap-5">
+          <button
+            class="btn btn-block btn-lg btn-primary-dark hover:tw-shadow-xl btn-flex tw-my-10"
+            @click.prevent="downloadVCard"
+          >
+            <div class="tw-flex tw-items-center">
+              <span class="material-symbols-outlined tw-mr-2">
+                arrow_downward
+              </span>
+              <div>SAVE CONTACT</div>
+            </div>
+          </button>
+
+          <ul class="tw-pl-0 tw-mb-16 tw-grid tw-gap-5">
             <li v-if="member.phone">
               <div class="tw-flex">
                 <i
@@ -84,17 +96,6 @@
               </div>
             </li>
           </ul>
-          <button
-            class="btn-lg btn-primary hover:tw-shadow-xl btn-block btn-flex"
-            @click.prevent="downloadVCard"
-          >
-            <div class="tw-flex tw-items-center">
-              <span class="material-symbols-outlined tw-mr-2">
-                arrow_downward
-              </span>
-              <div>Download</div>
-            </div>
-          </button>
         </div>
       </div>
     </v-main>
@@ -123,62 +124,90 @@ export default {
     this.$store.dispatch('getStaffByID', this.$route.params.id)
   },
   methods: {
-    downloadVCard() {
+    async downloadVCard() {
       const m = this.member
-      if (!m || !m.name) return
 
-      // 優化姓名處理
-      const name = m.name.trim()
-      const nameParts = name.split(/\s+/)
-      let firstName = ''
-      let lastName = name
+      // Basic validation: Ensure core identity fields are present
+      if (!m || !m.firstname || !m.lastname) return
 
-      if (nameParts.length > 1) {
-        lastName = nameParts.pop()
-        firstName = nameParts.join(' ')
+      const firstName = m.firstname.trim()
+      const lastName = m.lastname.trim()
+      const aka = m.aka ? m.aka.trim() : ''
+
+      /**
+       * Naming Logic:
+       * If 'aka' exists, it REPLACES 'firstname' in the display name (FN).
+       * Result: "Aka Lastname"
+       * Otherwise: "Firstname Lastname"
+       */
+      const vCardFN = aka ? `${aka} ${lastName}` : `${firstName} ${lastName}`
+      const vCardN = aka ? `${aka}` : `${firstName}`
+
+      // --- Step 1: Handle Profile Photo (Base64 Conversion) ---
+      let photoContent = ''
+      if (m.cover) {
+        try {
+          const imageUrl = `images/team/${m.cover}`
+          const response = await fetch(imageUrl)
+          const blob = await response.blob()
+
+          const base64 = await new Promise((resolve) => {
+            const reader = new FileReader()
+            reader.onloadend = () => resolve(reader.result.split(',')[1])
+            reader.readAsDataURL(blob)
+          })
+
+          // Embed as inline Base64 to ensure the photo works offline
+          photoContent = `PHOTO;ENCODING=b;TYPE=JPEG:${base64}`
+        } catch (err) {
+          console.warn(
+            'VCard Photo Error: Could not fetch or convert image.',
+            err
+          )
+        }
       }
 
-      // 構建 vCard 內容
-      // 加上 CHARSET=UTF-8 確保中文不亂碼
-      const companyPhone = '732-346-0200' // 公司電話
+      // --- Step 2: Define vCard Structure ---
+      const companyPhone = '732-346-0200'
 
       const lines = [
         'BEGIN:VCARD',
         'VERSION:3.0',
-        `FN;CHARSET=UTF-8:${name}`,
-        `N;CHARSET=UTF-8:${lastName};${firstName};;;`,
+        `FN;CHARSET=UTF-8:${vCardFN}`,
+        // N field (Structured Name) stays as "Lastname;Firstname" for correct sorting
+        `N;CHARSET=UTF-8:${lastName};${vCardN};;;`,
         m.title ? `TITLE;CHARSET=UTF-8:${m.title.trim()}` : '',
         'ORG;CHARSET=UTF-8:CSI Technology Group',
 
-        // 1. 公司電話 (Work)
+        // Contact Info
         `TEL;TYPE=WORK,VOICE:${companyPhone}`,
-
-        // 2. 手機 (Cell / Mobile) - 判斷 m.phone 是否存在
         m.phone ? `TEL;TYPE=CELL,VOICE:${m.phone.trim()}` : '',
-
-        // 3. 電子郵件 (Email) - 判斷 m.email 是否存在
         m.email ? `EMAIL;TYPE=WORK:${m.email.trim()}` : '',
+
         'URL:https://www.csitech.com',
+        photoContent,
         'END:VCARD',
       ]
         .filter(Boolean)
         .join('\r\n')
 
+      // --- Step 3: Trigger Browser File Download ---
       const blob = new Blob([lines], { type: 'text/vcard;charset=utf-8' })
       const url = URL.createObjectURL(blob)
 
-      const a = document.createElement('a')
-      a.href = url
-      // 移除檔名中的特殊字元，避免存檔失敗
-      const safeFileName = name.replace(/[\\/:*?"<>|]/g, '_')
-      a.download = `${safeFileName}.vcf`
+      const downloadLink = document.createElement('a')
+      downloadLink.href = url
 
-      document.body.appendChild(a) // 確保在 DOM 中
-      a.click()
+      // Use the generated vCardFN for the filename
+      const fileName = vCardFN.replace(/[\\/:*?"<>|]/g, '_')
+      downloadLink.download = `${fileName}.vcf`
 
-      // 稍微延遲銷毀，確保下載啟動
+      document.body.appendChild(downloadLink)
+      downloadLink.click()
+
+      // Cleanup: Free memory and remove DOM element
       setTimeout(() => {
-        document.body.removeChild(a)
+        document.body.removeChild(downloadLink)
         URL.revokeObjectURL(url)
       }, 100)
     },

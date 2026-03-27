@@ -120,6 +120,7 @@ export default {
       return 0
     },
     tabPosition() {
+      if (!process.client) return 'left'
       const screen = document.body.clientWidth
       if (screen <= 768) {
         return 'top'

@@ -92,7 +92,7 @@ export const actions = {
   },
   async getTeams({ commit }) {
     const api = await axios.get(
-      'https://csi-web3-resources-default-rtdb.firebaseio.com/test/leadership.json'
+      'https://csi-web3-resources-default-rtdb.firebaseio.com/leadership.json'
     )
     const payload = api.data.sort((a, b) => new Date(b.date) - new Date(a.date))
     commit('setTeams', payload)
