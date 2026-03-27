@@ -45,7 +45,7 @@
           >
             <div
               class="tw-text-base xl:tw-text-lg 2xl:tw-text-xl"
-              v-html="item"
+              v-html="superscriptTM(item)"
             ></div>
           </li>
         </ul>
@@ -55,6 +55,7 @@
 </template>
 
 <script>
+import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   props: {
     capabilities: { type: Array, required: false },
@@ -63,6 +64,9 @@ export default {
     data: { type: Array, required: false },
   },
   data: () => ({}),
+  methods: {
+    superscriptTM,
+  },
 }
 </script>
 

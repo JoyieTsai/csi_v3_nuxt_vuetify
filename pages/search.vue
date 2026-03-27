@@ -113,7 +113,7 @@ export default {
         date: '05/31/2021',
         title:
           'Jersey City, NJ, Public Safety, Police, and Fire Departments Implement a Unified Total Solution',
-        desc: 'CSI Technology is proud to announce that the Jersey City, N.J. Public Safety Department is now part of the growing InfoShare<sup>®</sup> family. The Jersey City Public Safety Communications Center now enjoys a unified total solution for both police and fire Computer-Aided Dispatch (CAD) as well as a fully integrated Records Management System (RMS) for both the Police and Fire departments.',
+        desc: 'CSI Technology is proud to announce that the Jersey City, N.J. Public Safety Department is now part of the growing InfoShare® family. The Jersey City Public Safety Communications Center now enjoys a unified total solution for both police and fire Computer-Aided Dispatch (CAD) as well as a fully integrated Records Management System (RMS) for both the Police and Fire departments.',
       },
       {
         date: '05/14/2021',

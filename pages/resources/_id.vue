@@ -92,7 +92,7 @@
 
                 <div
                   class="tw-text-2xl xl:tw-text-3xl 2xl:tw-text-4xl tw-font-semibold tw-my-5"
-                  v-html="article.title"
+                  v-html="superscriptTM(article.title)"
                 ></div>
 
                 <div class="tw-flex md:tw-hidden">
@@ -119,7 +119,7 @@
                 >
                   <div
                     class="news-body xl:tw-text-xl"
-                    v-html="article.body"
+                    v-html="superscriptTM(article.body)"
                   ></div>
                 </div>
               </div>
@@ -174,7 +174,7 @@
                   class="tw-flex-auto tw-text-left sm:tw-text-center 2xl:tw-text-left"
                 >
                   <div class="tw-text-base lg:tw-text-lg tw-font-semibold">
-                    {{ item.title }}
+                    <div v-html="superscriptTM(item.title)"></div>
                   </div>
                   <div class="tw-opacity-70 tw-text-sm lg:tw-text-base">
                     {{ item.subtitle }}
@@ -198,7 +198,7 @@ import { mapState } from 'vuex'
 import Products from '~/data/allproducts.json'
 // import Capabilities from '~/data/allcapabilities.json'
 import Articles from '~/data/articles.json'
-
+import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   asyncData({ params, redirect, payload }) {
     // Use payload from generate routes if available
@@ -363,6 +363,7 @@ export default {
     this.$store.dispatch('getArticleByID', this.$route.params.id)
   },
   methods: {
+    superscriptTM,
     routerToProduct(category, id) {
       this.$router.push({ path: '/' + category + '/' + id })
     },

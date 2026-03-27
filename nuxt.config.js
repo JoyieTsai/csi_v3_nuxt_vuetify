@@ -73,7 +73,7 @@ export default {
     host: 'localhost', // default: localhost
     port: '8000', // default: 3000
   },
-  ssr: true, // Use true mode to generate full meta tags for the live site.
+  ssr: false, // Use true mode to generate full meta tags for the live site. But can't get changes from Firebase Realtime Database.
   target: 'static',
   generate: {
     dir: 'dist/CSI-V9.8-03272026',

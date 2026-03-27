@@ -1,24 +1,43 @@
 <template>
   <v-app>
     <v-main>
-      <carousel autoplay loop autoplay-hover-pause :per-page="perPage" :autoplay-timeout="autoplayTimeout" :pagination-enabled="paginationEnabled">
-        <slide v-for="(cover, index) in covers" :key="index"
-          class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-center tw-text-white cover cover-height tw-px-5" :style="{
+      <carousel
+        autoplay
+        loop
+        autoplay-hover-pause
+        :per-page="perPage"
+        :autoplay-timeout="autoplayTimeout"
+        :pagination-enabled="paginationEnabled"
+      >
+        <slide
+          v-for="(cover, index) in covers"
+          :key="index"
+          class="tw-flex tw-flex-col tw-items-center tw-justify-center tw-text-center tw-text-white cover cover-height tw-px-5"
+          :style="{
             background: `url(images/covers/index/` + cover.img + `) center`,
-          }">
+          }"
+        >
           <div class="header-1 tw-mt-10 xl:tw-mt-20">{{ cover.title }}</div>
-          <div class="header-4" v-html="slogan"></div>
+          <div class="header-4" v-html="sloganHtml"></div>
           <div class="tw-mt-10">
             <v-dialog v-model="modalVideo">
               <template #activator="{ on, attrs }">
                 <button class="btn-play" v-bind="attrs" v-on="on">
-                  <img src="../assets/icons/icon-play.svg" alt="play" class="tw-w-3 xl:tw-w-6" />
+                  <img
+                    src="../assets/icons/icon-play.svg"
+                    alt="play"
+                    class="tw-w-3 xl:tw-w-6"
+                  />
                 </button>
               </template>
               <div class="tw-aspect-w-16 tw-aspect-h-9">
-                <iframe v-if="modalVideo" src="https://www.youtube.com/embed/Wh5IBWk1WP0" frameborder="0"
+                <iframe
+                  v-if="modalVideo"
+                  src="https://www.youtube.com/embed/Wh5IBWk1WP0"
+                  frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen></iframe>
+                  allowfullscreen
+                ></iframe>
               </div>
               <!-- <youtube
                   ref="youtube"
@@ -35,7 +54,11 @@
       <LazyIndexAbout v-if="show" class="tw-my-12 xl:tw-my-20" />
       <LazyIndexFeatures v-if="show" class="tw-my-14 xl:tw-my-28" />
       <LazyFeaturedArticle v-if="show" class="tw-mt-14 xl:tw-my-28" />
-      <LazyRelatedNews v-if="show" title="false" class="tw-mt-8 xl:tw-mt-16 tw-mb-14 xl:tw-mb-28" />
+      <LazyRelatedNews
+        v-if="show"
+        title="false"
+        class="tw-mt-8 xl:tw-mt-16 tw-mb-14 xl:tw-mb-28"
+      />
       <LazyTestimonials v-if="show" class="tw-my-14 xl:tw-my-28" />
       <!-- <LazySocialFeed v-if="show" class="tw-my-14 xl:tw-my-28" /> -->
       <LazyContact v-if="show" />
@@ -45,6 +68,7 @@
 
 <script>
 import { Carousel, Slide } from 'vue-carousel'
+import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
   components: {
@@ -52,8 +76,9 @@ export default {
     Slide,
   },
   data: () => ({
-    title: "Welcome to CSI",
-    descContent: "CSI's Comprehensive Software Solutions for Public Safety, Judiciary and Other Government Agencies",
+    title: 'Welcome to CSI',
+    descContent:
+      "CSI's Comprehensive Software Solutions for Public Safety, Judiciary and Other Government Agencies",
     show: false,
     covers: [
       {
@@ -75,12 +100,17 @@ export default {
         url: '',
       },
     ],
-    slogan: 'InfoShare<sup>®</sup> - Premier Software Solutions for eGovernment',
+    slogan: 'InfoShare® - Premier Software Solutions for eGovernment',
     perPage: 1,
     autoplayTimeout: 4000,
     paginationEnabled: false,
     modalVideo: false,
   }),
+  computed: {
+    sloganHtml() {
+      return superscriptTM(this.slogan)
+    },
+  },
   head() {
     return {
       titleTemplate: '%s | Overview',
@@ -96,23 +126,16 @@ export default {
   //   },
   // },
   mounted() {
-    if (process.client) {
-      window.addEventListener('scroll', this.handleScroll)
-      this.handleScroll()
-    }
+    window.addEventListener('scroll', this.handleScroll)
+    this.handleScroll()
   },
   beforeDestroy() {
-    if (process.client) {
-      window.removeEventListener('scroll', this.handleScroll)
-    }
+    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
     handleScroll() {
-      // Your scroll handling here
-      if (process.client) {
-        if (window.scrollY > 10) {
-          this.show = true
-        }
+      if (window.scrollY > 10) {
+        this.show = true
       }
     },
     // stop() {

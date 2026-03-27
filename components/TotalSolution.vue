@@ -1,27 +1,15 @@
 <template>
   <div class="bg-solution tw-overflow-hidden">
-    <div class="
-        main-container
-        tw-mx-auto tw-py-6
-        md:tw-py-12
-        xl:tw-py-24
-        tw-relative
-      ">
+    <div
+      class="main-container tw-mx-auto tw-py-6 md:tw-py-12 xl:tw-py-24 tw-relative"
+    >
       <!-- Header -->
       <div class="tw-flex tw-flex-col sm:tw-flex-row">
         <div>
-          <v-img :src="require('~/assets/vectors/solution-logo.svg')" class="
-              tw-w-44
-              sm:tw-w-56
-              md:tw-w-64
-              lg:tw-w-72
-              xl:tw-w-96
-              lg:tw-ml-10
-              xl:tw-ml-24
-              2xl:tw-ml-48
-              tw-mr-10
-              xl:tw-mr-20
-            "></v-img>
+          <v-img
+            :src="require('~/assets/vectors/solution-logo.svg')"
+            class="tw-w-44 sm:tw-w-56 md:tw-w-64 lg:tw-w-72 xl:tw-w-96 lg:tw-ml-10 xl:tw-ml-24 2xl:tw-ml-48 tw-mr-10 xl:tw-mr-20"
+          ></v-img>
         </div>
         <div class="tw-text-white">
           <div class="header-2 tw-mt-5 md:tw-mt-10 lg:tw-mt-16 xl:tw-mt-24">
@@ -29,9 +17,9 @@
           </div>
           <div class="lg:tw-text-xl xl:tw-text-2xl">
             CSI solutions are powered by the
-            <a href="/capabilities/infoshare-engine" class="white-link">InfoShare<sup>®</sup> Engine</a>, a low-code development platform for
-            government ERP
-            applications.
+            <a href="/capabilities/infoshare-engine" class="white-link"
+              >InfoShare<sup>®</sup> Engine</a
+            >, a low-code development platform for government ERP applications.
             Our complete solution provides seamless integration, scalability,
             and adaptability across all product lines.
           </div>
@@ -39,54 +27,67 @@
       </div>
       <!-- Body -->
       <div class="tw-mt-8">
-        <v-tabs v-model="tab" icons-and-text fixed-tabs background-color="transparent" dark :height="tabHeight" hide-slider>
-          <v-tab v-for="(sol, i) in solutions" :key="i" class="solution-tabs" active-class="solution-tabs-active" :ripple="false" :href="'#tab-' + i">
-            <div class="
-                tab-text
-                tw-text-xs
-                md:tw-text-base
-                lg:tw-text-lg
-                xl:tw-text-xl
-                tw-mt-2 tw-tracking-normal
-              ">
+        <v-tabs
+          v-model="tab"
+          icons-and-text
+          fixed-tabs
+          background-color="transparent"
+          dark
+          :height="tabHeight"
+          hide-slider
+        >
+          <v-tab
+            v-for="(sol, i) in solutions"
+            :key="i"
+            class="solution-tabs"
+            active-class="solution-tabs-active"
+            :ripple="false"
+            :href="'#tab-' + i"
+          >
+            <div
+              class="tab-text tw-text-xs md:tw-text-base lg:tw-text-lg xl:tw-text-xl tw-mt-2 tw-tracking-normal"
+            >
               {{ sol.product }}
             </div>
-            <i v-show="$vuetify.breakpoint.smAndUp" :class="[sol.icon, 'tab-icon']"></i>
+            <i
+              v-show="$vuetify.breakpoint.smAndUp"
+              :class="[sol.icon, 'tab-icon']"
+            ></i>
           </v-tab>
         </v-tabs>
 
         <v-tabs-items v-model="tab" class="lg:tw--mt-8">
-          <v-tab-item v-for="(sol, j) in solutions" :key="j" :value="'tab-' + j">
+          <v-tab-item
+            v-for="(sol, j) in solutions"
+            :key="j"
+            :value="'tab-' + j"
+          >
             <div class="tw-flex tw-justify-center">
-              <img :src="'images/solutions/' + sol.diagram" alt="" :class="'solution-diagram-' + j" />
+              <img
+                :src="'images/solutions/' + sol.diagram"
+                alt=""
+                :class="'solution-diagram-' + j"
+              />
             </div>
             <!-- Interface -->
             <div v-if="sol.interfaces" class="tw-mt-5 xl:tw-mt-20">
               <div class="tw-flex tw-justify-center">
                 <div class="solution-tabs interface tw-mr-5">
-                  <i v-show="$vuetify.breakpoint.smAndUp" class="csi-icon-interfaces_solid tab-icon"></i>
-                  <div class="
-                      tab-text
-                      tw-text-xs
-                      md:tw-text-base
-                      lg:tw-text-lg
-                      xl:tw-text-xl
-                      tw-tracking-normal
-                    ">
+                  <i
+                    v-show="$vuetify.breakpoint.smAndUp"
+                    class="csi-icon-interfaces_solid tab-icon"
+                  ></i>
+                  <div
+                    class="tab-text tw-text-xs md:tw-text-base lg:tw-text-lg xl:tw-text-xl tw-tracking-normal"
+                  >
                     Interfaces
                   </div>
                 </div>
-                <img :src="'images/solutions/' + sol.interfaces" alt="" class="
-                    tw-mt-6
-                    lg:tw-mt-12
-                    tw--ml-5
-                    md:tw--ml-10
-                    tw-h-20
-                    sm:tw-h-40
-                    md:tw-h-44
-                    lg:tw-h-64
-                    xl:tw-h-80
-                  " />
+                <img
+                  :src="'images/solutions/' + sol.interfaces"
+                  alt=""
+                  class="tw-mt-6 lg:tw-mt-12 tw--ml-5 md:tw--ml-10 tw-h-20 sm:tw-h-40 md:tw-h-44 lg:tw-h-64 xl:tw-h-80"
+                />
               </div>
             </div>
             <!-- Interface end-->

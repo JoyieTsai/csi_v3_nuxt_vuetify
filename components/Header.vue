@@ -1,13 +1,26 @@
 <!-- eslint-disable vue/no-v-html -->
  <template>
   <div>
-    <v-app-bar app flat fixed color="white" elevate-on-scroll :height="$vuetify.breakpoint.mdAndDown ? '72' : '100'">
+    <v-app-bar
+      app
+      flat
+      fixed
+      color="white"
+      elevate-on-scroll
+      :height="$vuetify.breakpoint.mdAndDown ? '72' : '100'"
+    >
       <nuxt-link to="/">
         <Logo />
       </nuxt-link>
 
       <div :class="[$vuetify.breakpoint.mdAndDown ? 'tw-hidden' : '']">
-        <v-menu v-for="(data, i) in datas" :key="i" open-on-hover offset-y transition="slide-y-transition">
+        <v-menu
+          v-for="(data, i) in datas"
+          :key="i"
+          open-on-hover
+          offset-y
+          transition="slide-y-transition"
+        >
           <template #activator="{ on, attrs }">
             <!-- <v-btn
               v-if="data.category === 'resources'"
@@ -17,10 +30,24 @@
             >
               {{ data.title }}
             </v-btn> -->
-            <v-btn v-if="data.url && data.url === 'resources'" text class="capitalize" v-bind="attrs" @click="routerToArticle()" v-on="on">
+            <v-btn
+              v-if="data.url && data.url === 'resources'"
+              text
+              class="capitalize"
+              v-bind="attrs"
+              @click="routerToArticle()"
+              v-on="on"
+            >
               {{ data.title }}
             </v-btn>
-            <v-btn v-else-if="data.url" text class="capitalize" v-bind="attrs" :to="'/' + data.url" v-on="on">
+            <v-btn
+              v-else-if="data.url"
+              text
+              class="capitalize"
+              v-bind="attrs"
+              :to="'/' + data.url"
+              v-on="on"
+            >
               {{ data.title }}
             </v-btn>
             <v-btn v-else text class="capitalize" v-bind="attrs" v-on="on">
@@ -28,7 +55,11 @@
             </v-btn>
           </template>
           <v-list dense max-width="400" class="tw-p-0">
-            <v-list-item v-for="(link, j) in data.links" :key="j" class="tw-p-0">
+            <v-list-item
+              v-for="(link, j) in data.links"
+              :key="j"
+              class="tw-p-0"
+            >
               <v-list-item-content>
                 <div v-if="link.sub" class="tw-px-6">
                   <div class="text-base text-primary-light tw-mb-3">
@@ -37,19 +68,35 @@
                   <v-divider></v-divider>
                 </div>
                 <v-list dense flat>
-                  <v-list-item v-for="(tab, k) in link.tabs" :key="k" class="font-medium tw-block">
-                    <nuxt-link v-if="tab.id && tab.id !== 'resource'" :to="'/' + data.category + '/' + tab.id"
-                      class="text-base text-link tw-p-2 tw-block">
+                  <v-list-item
+                    v-for="(tab, k) in link.tabs"
+                    :key="k"
+                    class="font-medium tw-block"
+                  >
+                    <nuxt-link
+                      v-if="tab.id && tab.id !== 'resource'"
+                      :to="'/' + data.category + '/' + tab.id"
+                      class="text-base text-link tw-p-2 tw-block"
+                    >
                       <span v-if="tab.id === 'cad' || tab.id === 'rms'">
-                        {{ tab.title }}
+                        {{ superscriptTM(tab.title) }}
                         <span class="tw-uppercase">({{ tab.id }})</span>
                       </span>
-                      <span v-else v-html="tab.title"></span>
+                      <span v-else v-html="superscriptTM(tab.title)"></span>
                     </nuxt-link>
-                    <div v-else-if="tab.id === 'resource'" class="text-base text-link tw-p-2" @click="routerToArticle(tab.query)">
-                      {{ tab.title }}
+                    <div
+                      v-else-if="tab.id === 'resource'"
+                      class="text-base text-link tw-p-2"
+                      @click="routerToArticle(tab.query)"
+                    >
+                      {{ superscriptTM(tab.title) }}
                     </div>
-                    <nuxt-link v-else :to="'/' + data.category" class="text-base text-link tw-p-2 tw-block" v-html="tab.title"></nuxt-link>
+                    <nuxt-link
+                      v-else
+                      :to="'/' + data.category"
+                      class="text-base text-link tw-p-2 tw-block"
+                      v-html="superscriptTM(tab.title)"
+                    ></nuxt-link>
                   </v-list-item>
                 </v-list>
               </v-list-item-content>
@@ -60,15 +107,19 @@
 
       <v-spacer></v-spacer>
 
-      <div :class="[
+      <div
+        :class="[
           $vuetify.breakpoint.mdAndDown ? 'tw-hidden' : '',
           'tw-items-center tw-justify-end',
-        ]">
+        ]"
+      >
         <!-- <v-btn icon @click.prevent="routerTo('/search')">
           <v-icon>mdi-magnify</v-icon>
         </v-btn>
         <v-divider vertical class="tw-h-4"></v-divider> -->
-        <v-btn text href="tel:123-456-7890" class="primary-text tw-text-2xl">1-732-346-0200</v-btn>
+        <v-btn text href="tel:123-456-7890" class="primary-text tw-text-2xl"
+          >1-732-346-0200</v-btn
+        >
         <v-divider vertical class="tw-h-4"></v-divider>
         <v-btn text class="capitalize" @click.prevent="routerTo('/contact')">
           Contact Us
@@ -115,10 +166,22 @@
               </div>
               <v-list dense flat>
                 <v-list-item v-if="data.category === 'resources'">
-                  <nuxt-link :to="'/' + data.category" class="text-base text-link tw-p-2">Overview</nuxt-link>
+                  <nuxt-link
+                    :to="'/' + data.category"
+                    class="text-base text-link tw-p-2"
+                    >Overview</nuxt-link
+                  >
                 </v-list-item>
-                <v-list-item v-for="(tab, k) in link.tabs" :key="k" class="font-medium">
-                  <nuxt-link v-if="tab.id && tab.id !== 'resource'" :to="'/' + data.category + '/' + tab.id" class="text-base text-link tw-p-2">
+                <v-list-item
+                  v-for="(tab, k) in link.tabs"
+                  :key="k"
+                  class="font-medium"
+                >
+                  <nuxt-link
+                    v-if="tab.id && tab.id !== 'resource'"
+                    :to="'/' + data.category + '/' + tab.id"
+                    class="text-base text-link tw-p-2"
+                  >
                     <span v-if="tab.id === 'cad' || tab.id === 'rms'">
                       {{ tab.title }}
                       <span class="tw-uppercase">({{ tab.id }})</span>
@@ -126,11 +189,19 @@
                     <span v-else v-html="tab.title"></span>
                   </nuxt-link>
                   <div v-else-if="tab.id === 'resource'">
-                    <div class="text-base text-link tw-p-2" @click="routerToArticle(tab.query)">
+                    <div
+                      class="text-base text-link tw-p-2"
+                      @click="routerToArticle(tab.query)"
+                    >
                       {{ tab.title }}
                     </div>
                   </div>
-                  <nuxt-link v-else :to="'/' + data.category" class="text-base text-link tw-p-2">{{ tab.title }}</nuxt-link>
+                  <nuxt-link
+                    v-else
+                    :to="'/' + data.category"
+                    class="text-base text-link tw-p-2"
+                    >{{ tab.title }}</nuxt-link
+                  >
                 </v-list-item>
               </v-list>
             </v-list-item-content>
@@ -144,6 +215,7 @@
 <script>
 import { mapActions } from 'vuex'
 import Links from '~/data/heading.json'
+import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
   data: () => ({
@@ -179,6 +251,7 @@ export default {
       this.changeCurrentPage(1)
       this.$router.push({ name: 'resources', query: { id: query } })
     },
+    superscriptTM,
   },
 }
 </script>

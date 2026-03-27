@@ -4,32 +4,52 @@
     <v-main>
       <Hero :category="category" :coverimg="coverimg" :btns="btnGroup">
         <template #icon>
-          <img class="tw-w-16 xl:tw-w-20 tw-mb-5" :src="require('~/assets/duotone/' + icon)" :alt="title" />
+          <img
+            class="tw-w-16 xl:tw-w-20 tw-mb-5"
+            :src="require('~/assets/duotone/' + icon)"
+            :alt="title"
+          />
         </template>
         <template #title>
-          <div v-html="title"></div>
+          <div v-html="superscriptTM(title)"></div>
         </template>
         <template #subtitle>
-          <div v-html="subtitle"></div>
+          <div v-html="superscriptTM(subtitle)"></div>
         </template>
         <template #desc-heading>
-          <div v-html="descHeading"></div>
+          <div v-html="superscriptTM(descHeading)"></div>
         </template>
         <template #desc-content>
-          <div v-html="descContent"></div>
+          <div v-html="superscriptTM(descContent)"></div>
         </template>
       </Hero>
-      <DiagramCard v-if="diagram" :data="diagram" class="tw-my-12 xl:tw-my-28" />
+      <DiagramCard
+        v-if="diagram"
+        :data="diagram"
+        class="tw-my-12 xl:tw-my-28"
+      />
       <TableList v-if="lists" :data="lists" class="tw-py-5" />
       <Soc v-if="soc" :data="soc" class="tw-my-12 xl:tw-my-28" />
-      <BenefitsC v-if="benefits" :data="benefits" class="tw-my-12 xl:tw-my-28" />
+      <BenefitsC
+        v-if="benefits"
+        :data="benefits"
+        class="tw-my-12 xl:tw-my-28"
+      />
       <Steps v-if="steps" :id="id" :data="steps" class="tw-my-12 xl:tw-my-28" />
-      <NumberFeatures v-if="features" :data="features" class="tw-my-14 xl:tw-my-28" />
+      <NumberFeatures
+        v-if="features"
+        :data="features"
+        class="tw-my-14 xl:tw-my-28"
+      />
       <div v-if="extending" class="header-2 tw-text-center">
         Featured Interfaces
       </div>
       <Extendings v-if="extending" :data="extending" />
-      <RelatedCapabilities v-if="relatedCapabilities" :data="relatedCapabilities" class="tw-my-12 xl:tw-my-28" />
+      <RelatedCapabilities
+        v-if="relatedCapabilities"
+        :data="relatedCapabilities"
+        class="tw-my-12 xl:tw-my-28"
+      />
       <Contact />
     </v-main>
   </v-app>
@@ -37,7 +57,7 @@
 
 <script>
 import Products from '~/data/capabilities.json'
-
+import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   data: () => ({
     btnGroup: true,
@@ -100,6 +120,7 @@ export default {
     this.getData(this.$route.params.id)
   },
   methods: {
+    superscriptTM,
     getData(id) {
       for (let i = 0; i < Products.length; i++) {
         if (id && id === Products[i].id) {

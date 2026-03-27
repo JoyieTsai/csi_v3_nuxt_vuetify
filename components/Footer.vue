@@ -98,7 +98,7 @@
                     v-if="tab.id && tab.id !== 'resource'"
                     :to="'/' + data.category + '/' + tab.id"
                     class="tw-block footer-link tw-text-sm xl:tw-text-base tw-mb-2"
-                    v-html="tab.title"
+                    v-html="superscriptTM(tab.title)"
                   ></nuxt-link>
                   <a
                     v-else-if="tab.id === 'resource'"
@@ -144,6 +144,7 @@
 <script>
 import { mapActions } from 'vuex'
 import Links from '~/data/heading.json'
+import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
   data: () => ({
@@ -165,6 +166,7 @@ export default {
       this.changeCurrentPage(1)
       this.$router.push({ name: 'resources', query: { id: query } })
     },
+    superscriptTM,
   },
 }
 </script>

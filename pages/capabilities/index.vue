@@ -4,19 +4,23 @@
     <v-main>
       <Hero :category="category" :coverimg="coverimg" :title="title">
         <template #icon>
-          <img class="tw-w-16 xl:tw-w-20 tw-mb-5" :src="require('~/assets/duotone/' + icon)" :alt="title" />
+          <img
+            class="tw-w-16 xl:tw-w-20 tw-mb-5"
+            :src="require('~/assets/duotone/' + icon)"
+            :alt="title"
+          />
         </template>
         <template #title>
-          <div v-html="title"></div>
+          <div v-html="superscriptTM(title)"></div>
         </template>
         <template #subtitle>
-          <div v-html="subtitle"></div>
+          <div v-html="superscriptTM(subtitle)"></div>
         </template>
         <template #desc-heading>
-          <div v-html="descHeading"></div>
+          <div v-html="superscriptTM(descHeading)"></div>
         </template>
         <template #desc-content>
-          <div v-html="descContent"></div>
+          <div v-html="superscriptTM(descContent)"></div>
         </template>
       </Hero>
 
@@ -24,23 +28,37 @@
       <div class="header-2 tw-text-center tw-mt-12 xl:tw-mt-28">
         Our Capabilities
       </div>
-      <div class="
-          capabilities-diagram
-          tw-py-10
-          xl:tw-py-20
-          tw-mx-auto
-          2xl:tw-px-20
-          tw-flex tw-flex-wrap
-        ">
-        <div v-for="(item, index) in items" :key="index" :class="'capabilities-diagram--' + index">
+      <div
+        class="capabilities-diagram tw-py-10 xl:tw-py-20 tw-mx-auto 2xl:tw-px-20 tw-flex tw-flex-wrap"
+      >
+        <div
+          v-for="(item, index) in items"
+          :key="index"
+          :class="'capabilities-diagram--' + index"
+        >
           <div v-if="item.type === 'icon'" class="hexagon-item norm">
-            <img :src="require('@/assets/duotone/' + item.icon)" alt="" class="tw-w-20" />
+            <img
+              :src="require('@/assets/duotone/' + item.icon)"
+              alt=""
+              class="tw-w-20"
+            />
           </div>
-          <div v-else-if="item.type === 'highlight'" class="hexagon-item highlight" @click.prevent="routerTo(item.url)">
-            <div class="tw-text-xl tw-font-semibold" v-html="item.title"></div>
+          <div
+            v-else-if="item.type === 'highlight'"
+            class="hexagon-item highlight"
+            @click.prevent="routerTo(item.url)"
+          >
+            <div
+              class="tw-text-xl tw-font-semibold"
+              v-html="superscriptTM(item.title)"
+            ></div>
             <div>{{ item.desc }}</div>
           </div>
-          <div v-else class="hexagon-item prim" @click.prevent="routerTo(item.url)">
+          <div
+            v-else
+            class="hexagon-item prim"
+            @click.prevent="routerTo(item.url)"
+          >
             <div class="tw-text-xl tw-font-semibold">{{ item.title }}</div>
             <div>{{ item.desc }}</div>
           </div>
@@ -48,55 +66,80 @@
       </div>
 
       <!-- Timeline -->
-      <div class="
-          main-container
-          tw-px-2
-          md:tw-px-10
-          tw-mx-auto tw-relative tw-my-12
-          xl:tw-my-28
-        ">
+      <div
+        class="main-container tw-px-2 md:tw-px-10 tw-mx-auto tw-relative tw-my-12 xl:tw-my-28"
+      >
         <div class="header-2 tw-text-center">Technology Timeline</div>
         <div class="tw-mt-8 xl:tw-mt-16 tw-mx-0 lg:tw-mx-5 xl:tw-mx-0">
-          <section id="cd-timeline" class="cd-timeline xl:tw-w-5/6 2xl:tw-w-4/5 tw-mx-auto">
-            <div v-for="(item, index) in timelines" :key="index" :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'" data-aos-duration="1500"
-              class="cd-timeline-block">
-              <div class="cd-timeline-arrow" :style="{
+          <section
+            id="cd-timeline"
+            class="cd-timeline xl:tw-w-5/6 2xl:tw-w-4/5 tw-mx-auto"
+          >
+            <div
+              v-for="(item, index) in timelines"
+              :key="index"
+              :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-up'"
+              data-aos-duration="1500"
+              class="cd-timeline-block"
+            >
+              <div
+                class="cd-timeline-arrow"
+                :style="{
                   background:
                     `url(` +
                     require(`~/assets/vectors/${item.arrow}`) +
                     `) center no-repeat`,
                   backgroundSize: `contain`,
-                }">
-                <div class="
-                    lg:tw-mt-4
-                    md:tw-mt-3
-                    tw-mt-1 tw-ml-16
-                    lg:tw-ml-24
-                    md:tw-ml-20
-                    tw-text-xs
-                    md:tw-text-sm
-                    lg:tw-text-lg
-                    xl:tw-text-xl
-                  ">
+                }"
+              >
+                <div
+                  class="lg:tw-mt-4 md:tw-mt-3 tw-mt-1 tw-ml-16 lg:tw-ml-24 md:tw-ml-20 tw-text-xs md:tw-text-sm lg:tw-text-lg xl:tw-text-xl"
+                >
                   {{ item.year }}
                 </div>
               </div>
-              <div v-if="item.img" class="cd-timeline-img" :style="{
+              <div
+                v-if="item.img"
+                class="cd-timeline-img"
+                :style="{
                   background:
                     `url(` +
                     require(`~/assets/vectors/${item.img}`) +
                     `) center no-repeat`,
                   backgroundSize: `contain`,
-                }"></div>
-              <div :class="['tw-flex', item.img ? 'tw--mt-16 md:tw--mt-24 lg:tw--mt-36 xl:tw--mt-48' : '']">
-                <div :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-right'" data-aos-duration="1500" class="tw-flex-1">
+                }"
+              ></div>
+              <div
+                :class="[
+                  'tw-flex',
+                  item.img
+                    ? 'tw--mt-16 md:tw--mt-24 lg:tw--mt-36 xl:tw--mt-48'
+                    : '',
+                ]"
+              >
+                <div
+                  :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-right'"
+                  data-aos-duration="1500"
+                  class="tw-flex-1"
+                >
                   <div class="md:tw-mr-6 xl:tw-mr-12">
-                    <img v-if="item.leftImg" class="tw-ml-auto" :src="require(`~/assets/vectors/${item.leftImg}`)" />
+                    <img
+                      v-if="item.leftImg"
+                      class="tw-ml-auto"
+                      :src="require(`~/assets/vectors/${item.leftImg}`)"
+                    />
                   </div>
                 </div>
-                <div :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-left'" data-aos-duration="1500" class="tw-flex-1">
+                <div
+                  :data-aos="$vuetify.breakpoint.smAndDown ? '' : 'fade-left'"
+                  data-aos-duration="1500"
+                  class="tw-flex-1"
+                >
                   <div class="md:tw-ml-6 xl:tw-ml-12">
-                    <img v-if="item.rightImg" :src="require(`~/assets/vectors/${item.rightImg}`)" />
+                    <img
+                      v-if="item.rightImg"
+                      :src="require(`~/assets/vectors/${item.rightImg}`)"
+                    />
                   </div>
                 </div>
               </div>
@@ -111,6 +154,7 @@
 
 <script>
 import Overview from '~/data/capabilities-overview.json'
+import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
   data: () => ({
@@ -171,6 +215,7 @@ export default {
     routerTo(id) {
       this.$router.push({ path: '/capabilities/' + id })
     },
+    superscriptTM,
   },
 }
 </script>

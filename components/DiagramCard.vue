@@ -15,24 +15,20 @@
         />
       </div>
       <div
-        class="
-          tw-text-sm
-          lg:tw-text-base
-          xl:tw-text-lg
-          lg:tw-w-5/6
-          xl:tw-w-3/4
-          tw-mx-auto tw-mt-6
-          xl:tw-mt-12
-        "
-        v-html="data.desc"
+        class="tw-text-sm lg:tw-text-base xl:tw-text-lg lg:tw-w-5/6 xl:tw-w-3/4 tw-mx-auto tw-mt-6 xl:tw-mt-12"
+        v-html="superscriptTM(data.desc)"
       ></div>
     </div>
   </div>
 </template>
 
 <script>
+import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   props: ['data'],
   data: () => ({}),
+  methods: {
+    superscriptTM,
+  },
 }
 </script>

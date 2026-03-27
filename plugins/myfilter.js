@@ -12,7 +12,12 @@ export function positionSplit(text) {
   return text.split('-').join('-<br>')
 }
 
-const filters = { getBrief, nameSplit, positionSplit }
+export function superscriptTM(text) {
+  if (!text) return text
+  return text.replace(/InfoShare®/g, 'InfoShare<sup>®</sup>')
+}
+
+const filters = { getBrief, nameSplit, positionSplit, superscriptTM }
 
 Object.keys(filters).forEach((key) => {
   Vue.filter(key, filters[key])

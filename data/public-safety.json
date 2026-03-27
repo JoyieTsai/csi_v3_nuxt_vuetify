@@ -14,7 +14,7 @@
     "highlightImg": "CAD_thumb.jpg",
     "highlights": [
       "Support Law Enforcement, Fire, and EMS Dispatch",
-      "Integrate with InfoShare<sup>®</sup> MDT and RMS",
+      "Integrate with InfoShare® MDT and RMS",
       "Real-time information sharing for situational awareness and collaboration",
       "Cloud-ready solution with robust security features",
       "Configurable for single, regional, or multi-jurisdictional call centers"
@@ -24,13 +24,13 @@
         "title": "Total Solution",
         "icon": "csi-icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare® Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Interoperability",
         "icon": "csi-icon-interoperability_outline",
         "img": "Interoperability.jpg",
-        "desc": "InfoShare<sup>®</sup> solutions feature end-to-end interoperability for enhanced coordination and collaboration among multiple jurisdictions, departments, and agencies. Linking disparate systems and external data sources including radio, voice recorders, traffic cameras, and records management solutions facilitates interagency sharing of mission-critical information."
+        "desc": "InfoShare® solutions feature end-to-end interoperability for enhanced coordination and collaboration among multiple jurisdictions, departments, and agencies. Linking disparate systems and external data sources including radio, voice recorders, traffic cameras, and records management solutions facilitates interagency sharing of mission-critical information."
       },
       {
         "title": "Mobile Operations",
@@ -42,7 +42,7 @@
         "title": "Cloud Compatibility",
         "icon": "csi-icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare® Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       },
       {
         "title": "Security",
@@ -71,7 +71,7 @@
       },
       {
         "title": "Streamlined Workflow",
-        "desc": "An intuitive user interface enhances workflow, allowing users to quickly access system functions, modify events, and locate mission-critical information. Given that each agency has different requirements and SOPs, InfoShare<sup>®</sup> CAD is designed to be easily configurable.",
+        "desc": "An intuitive user interface enhances workflow, allowing users to quickly access system functions, modify events, and locate mission-critical information. Given that each agency has different requirements and SOPs, InfoShare® CAD is designed to be easily configurable.",
         "list": [
           "Automatic and manual status setting",
           "Command line entry, shortcut keys, and ribbon menu",
@@ -108,7 +108,7 @@
       },
       {
         "title": "RMS Integration & Report Generation",
-        "desc": "Seamless two-way integration with InfoShare<sup>®</sup> RMS or an existing RMS. CAD incident data from the initial call to event disposition is synced with the RMS for management, reporting, and auditing. Other benefits include information sharing and enhanced workflow capabilities.",
+        "desc": "Seamless two-way integration with InfoShare® RMS or an existing RMS. CAD incident data from the initial call to event disposition is synced with the RMS for management, reporting, and auditing. Other benefits include information sharing and enhanced workflow capabilities.",
         "list": [
           "Master Name Index & Lookup",
           "Seamless RMS report generation</li><li>Time/date stamps of events (incident history)",
@@ -241,19 +241,19 @@
         "title": "Platform Independence",
         "icon": "csi-icon-mobile_operations_outline",
         "img": "PlatformIndependence.jpg",
-        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare<sup>®</sup> RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
+        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare® RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
       },
       {
         "title": "Total Solution",
         "icon": "csi-icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare® Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
         "icon": "csi-icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a href='capabilities/cloud-integration'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+        "desc": "<a href='capabilities/cloud-integration'>InfoShare® Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       }
     ],
     "sysTitle": {
@@ -301,7 +301,7 @@
       },
       {
         "title": "Advanced Search & Crime Analysis",
-        "desc": "Robust search capabilities allow authorized users to efficiently retrieve data and generate reports. In addition, InfoShare<sup>®</sup> RMS comes embedded with advanced crime analysis tools, enabling users to run multidimensional crime analysis and advanced queries across disparate datasets.",
+        "desc": "Robust search capabilities allow authorized users to efficiently retrieve data and generate reports. In addition, InfoShare® RMS comes embedded with advanced crime analysis tools, enabling users to run multidimensional crime analysis and advanced queries across disparate datasets.",
         "list": [
           "Preloaded search pages",
           "Ad hoc reporting and search",
@@ -516,13 +516,13 @@
         "title": "Total Solution",
         "icon": "csi-icon-total_solution_outline",
         "img": "TotalSolution.jpg",
-        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare<sup>®</sup> Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
+        "desc": "CSI solutions are powered by the <a href='/capabilities/infoshare-engine' class='primary-link'>InfoShare® Engine</a>, a low-code development platform for government ERP applications designed to be adaptable and scalable (single, regional, or multi-jurisdictional). All applications are unified under a single system and come equipped with specialized functionality to meet the demands of today’s public sector agencies."
       },
       {
         "title": "Cloud Compatibility",
         "icon": "csi-icon-cloud_integration_outline",
         "img": "CloudCompatibility.jpg",
-        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare<sup>®</sup> Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
+        "desc": "<a href='/capabilities/cloud-integration' class='primary-link'>InfoShare® Cloud</a> supports public, private, or hybrid cloud requirements, hosted on the CJIS-compliant AWS GovCloud or Azure Government—both designed for maximum government security. With cloud-deployable applications, agencies are protected from advanced cyber attacks and benefit from robustness against unexpected disasters."
       },
       {
         "title": "Data Migration",
@@ -534,7 +534,7 @@
         "title": "Platform Independence",
         "icon": "csi-icon-mobile_operations_outline",
         "img": "PlatformIndependence.jpg",
-        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare<sup>®</sup> RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
+        "desc": "Modern, web-based technology allows any device with an internet connection—desktop, <a href='/public-safety/mobile-operations' class='primary-link'>MDT</a>, tablet, smartphone—to access InfoShare® RMS. No compatibility issues, no hardware restrictions, no software maintenance. The system also supports an offline mode, automatically syncing data when the connection is restored."
       },
       {
         "title": "Multi-Agency Coverage",
@@ -799,7 +799,7 @@
     "coverImg": "citation_management.png",
     "brochure": "CSI_Citation Management.pdf",
     "descHeading": "Create professional electronic citations with accurate and automated data entry",
-    "descContent": "With the ease of a MDT, license scanner, and printer, users create, print, and issue eTickets for motor vehicle violations on the go. Our citation management solution simplifies and automates the ticketing process, issuing citations in minutes. An intuitive workflow guides users every step of the way. All data and eTickets can be sent to <a href='/public-safety/rms'>InfoShare<sup>®</sup> RMS</a> case for permanent documentation.",
+    "descContent": "With the ease of a MDT, license scanner, and printer, users create, print, and issue eTickets for motor vehicle violations on the go. Our citation management solution simplifies and automates the ticketing process, issuing citations in minutes. An intuitive workflow guides users every step of the way. All data and eTickets can be sent to <a href='/public-safety/rms'>InfoShare® RMS</a> case for permanent documentation.",
     "sysFeatures": [
       {
         "title": "Streamlined Data Input & Workflow",
@@ -879,7 +879,7 @@
     "coverImg": "evidence.png",
     "brochure": "CSI_Evidence.pdf",
     "descHeading": "Robust property/evidence tracking and chain of custody",
-    "descContent": "By tracking items from collection to final disposition, InfoShare<sup>®</sup> Evidence maintains the integrity of the chain of custody. Evidence can be linked or directly created from the RMS to ensure only a single entry exists in the system. The user inbox provides easy tracking of items incoming, transferred, pending destruction and expungement from the custodian’s homepage. Other functions such as search and reporting increases the productivity of custodians during their everyday duties.",
+    "descContent": "By tracking items from collection to final disposition, InfoShare® Evidence maintains the integrity of the chain of custody. Evidence can be linked or directly created from the RMS to ensure only a single entry exists in the system. The user inbox provides easy tracking of items incoming, transferred, pending destruction and expungement from the custodian’s homepage. Other functions such as search and reporting increases the productivity of custodians during their everyday duties.",
     "sysFeatures": [
       {
         "title": "Comprehensive Evidence Management",
@@ -980,7 +980,7 @@
     "coverImg": "personnel_scheduling.png",
     "brochure": "CSI_Personnel and Scheduling.pdf",
     "descHeading": "Support all aspects of personnel management—training, leave, inventory, scheduling, and more",
-    "descContent": "InfoShare<sup>®</sup> Personnel & Scheduling module is a fully configurable and paperless application for HR administrators to manage all HR functions such as leave, overtime/compensatory time, training requests, firearms qualifications, and policy and procedures documents. Extensive searching and analytical reporting for both attendance and payroll purposes provide an easy way to manage any contractual rules agencies may have.",
+    "descContent": "InfoShare® Personnel & Scheduling module is a fully configurable and paperless application for HR administrators to manage all HR functions such as leave, overtime/compensatory time, training requests, firearms qualifications, and policy and procedures documents. Extensive searching and analytical reporting for both attendance and payroll purposes provide an easy way to manage any contractual rules agencies may have.",
     "highlightVideo": "Personnel_highlight.mp4",
     "highlightImg": "Personnel_thumb.jpg",
     "highlights": [
@@ -1163,7 +1163,7 @@
           "Flag system alerts permissioned users to potential issues of credibility",
           "Dedicated search function to review Brady-Giglio records",
           "View log provides a historical account of staff activity",
-          "Total integration with the InfoShare<sup>®</sup> application suite"
+          "Total integration with the InfoShare® application suite"
         ],
         "img": "ia-5.jpg"
       }
@@ -1208,7 +1208,7 @@
     "coverImg": "analytics_cm.png",
     "brochure": "CSI_Analytics and Crime Mapping.pdf",
     "descHeading": "Real-time analytical reporting and mapping to support command staff in strategic planning",
-    "descContent": "InfoShare<sup>®</sup> Analytics and Crime Mapping module provides real-time CompStat analysis and reporting, an Ad Hoc search engine, crime mapping, and analytical capabilities with graph generation. This module helps agencies systematically collect data, identify emerging trends, and use the power of advanced analytics to implement data-driven crime prevention strategies.",
+    "descContent": "InfoShare® Analytics and Crime Mapping module provides real-time CompStat analysis and reporting, an Ad Hoc search engine, crime mapping, and analytical capabilities with graph generation. This module helps agencies systematically collect data, identify emerging trends, and use the power of advanced analytics to implement data-driven crime prevention strategies.",
     "sysFeatures": [
       {
         "title": "Auto-Generated CompStat Reporting",

@@ -10,24 +10,15 @@
         <div v-for="(item, index) in data" :key="index" class="badge">
           <nuxt-link
             :to="'/' + item.link"
-            class="
-              relative
-              z-10
-              pt-8
-              flex flex-col
-              items-center
-              justify-center
-              text-white
-              hover:text-white
-              w-32
-              transform
-              -translate-x-3
-            "
+            class="relative z-10 pt-8 flex flex-col items-center justify-center text-white hover:text-white w-32 transform -translate-x-3"
           >
             <div class="header-1 leading-3">
               <i :class="item.icon"></i>
             </div>
-            <div class="tw-text-lg leading-tight">{{ item.title }}</div>
+            <div
+              class="tw-text-lg leading-tight"
+              v-html="superscriptTM(item.title)"
+            ></div>
           </nuxt-link>
         </div>
       </div>
@@ -37,6 +28,7 @@
 
 <script>
 import Products from '~/data/heading.json'
+import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
   data: () => ({
@@ -54,5 +46,8 @@ export default {
     datas: Products,
     title: 'Related Products',
   }),
+  methods: {
+    superscriptTM,
+  },
 }
 </script>

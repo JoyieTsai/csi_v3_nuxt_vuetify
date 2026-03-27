@@ -12,17 +12,7 @@
           <div class="tw-flex tw-flex-col tw-items-center">
             <span :class="['tabicon', item.icon]"></span>
             <div
-              class="
-                tw-text-base
-                xl:tw-text-lg
-                2xl:tw-text-xl
-                tw-font-semibold
-                tw-my-3
-                tw-capitalize
-                tw-tracking-wide
-                tw-hidden
-                lg:tw-block
-              "
+              class="tw-text-base xl:tw-text-lg 2xl:tw-text-xl tw-font-semibold tw-my-3 tw-capitalize tw-tracking-wide tw-hidden lg:tw-block"
             >
               {{ item.title }}
             </div>
@@ -41,25 +31,15 @@
                 class="tw-flex tw-items-center tw-justify-center tw-p-5"
               >
                 <div
-                  class="
-                    tw-px-0
-                    lg:tw-px-10
-                    tw-flex tw-flex-col tw-text-xl tw-opacity-2
-                  "
+                  class="tw-px-0 lg:tw-px-10 tw-flex tw-flex-col tw-text-xl tw-opacity-2"
                 >
                   <div class="tw-text-2xl lg:tw-text-4xl tw-font-semibold">
                     {{ item.title }}
                   </div>
                   <div class="border-primary tw-my-3 lg:tw-my-5"></div>
                   <div
-                    class="
-                      tw-text-sm
-                      md:tw-text-base
-                      xl:tw-text-lg
-                      2xl:tw-text-xl
-                      xl:tw-mr-10
-                    "
-                    v-html="item.desc"
+                    class="tw-text-sm md:tw-text-base xl:tw-text-lg 2xl:tw-text-xl xl:tw-mr-10"
+                    v-html="superscriptTM(item.desc)"
                   ></div>
                 </div>
               </v-col>
@@ -92,11 +72,15 @@
 </template>
 
 <script>
+import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   props: ['data'],
   data: () => ({
     tabIndex: 0,
   }),
+  methods: {
+    superscriptTM,
+  },
 }
 </script>
 

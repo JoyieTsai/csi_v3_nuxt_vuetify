@@ -1,7 +1,6 @@
 <!-- eslint-disable vue/no-v-html -->
 <template>
   <div>
-    <div v-intersect="onIntersect"></div>
     <div class="header-2 tw-text-center">Testimonials</div>
 
     <!-- Testimonial -->
@@ -37,18 +36,31 @@
         </div> -->
     <swiper class="mySwiper" :options="swiperOption">
       <swiper-slide v-for="(item, index) in testimonialList.data" :key="index">
-        <div :class="[index % 2 == 0 ? 'highlight' : '', 'tw-p-6 xl:tw-p-10 quote-card']">
-          <div class="tw-text-sm md:tw-text-base xl:tw-text-lg" v-html="item.quote"></div>
+        <div
+          :class="[
+            index % 2 == 0 ? 'highlight' : '',
+            'tw-p-6 xl:tw-p-10 quote-card',
+          ]"
+        >
+          <div
+            class="tw-text-sm md:tw-text-base xl:tw-text-lg"
+            v-html="superscriptTM(item.quote)"
+          ></div>
           <div class="middle-divider tw-mt-4">
-            <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
-              :style="{ backgroundImage: `url(images/agency/${item.logo})`, }">
-            </div>
+            <div
+              class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+              :style="{ backgroundImage: `url(images/agency/${item.logo})` }"
+            ></div>
           </div>
-          <div class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+          <div
+            class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
+          >
             {{ item.author }}
           </div>
-          <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60" v-html="item.agency">
-          </div>
+          <div
+            class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+            v-html="item.agency"
+          ></div>
         </div>
       </swiper-slide>
       <div slot="pagination" class="swiper-pagination"></div>
@@ -58,10 +70,12 @@
       <div slot="button-next" class="swiper-button-next">
         <i class="el-icon-caret-right"></i>
       </div>
-
     </swiper>
     <div class="tw-flex tw-justify-center">
-      <nuxt-link class="btn-lg btn-primary hover:shadow-xl" to="/resources/testimonial">
+      <nuxt-link
+        class="btn-lg btn-primary hover:shadow-xl"
+        to="/resources/testimonial"
+      >
         Read More
       </nuxt-link>
     </div>
@@ -70,6 +84,7 @@
 
 <script>
 import { mapState } from 'vuex'
+import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
   data: () => ({
@@ -79,32 +94,32 @@ export default {
       breakpoints: {
         320: {
           slidesPerView: 1,
-          spaceBetween: 0
+          spaceBetween: 0,
         },
         600: {
           slidesPerView: 2,
-          spaceBetween: 0
+          spaceBetween: 0,
         },
         1024: {
           slidesPerView: 3,
-          spaceBetween: 0
+          spaceBetween: 0,
         },
         1600: {
           slidesPerView: 4,
-          spaceBetween: 10
+          spaceBetween: 10,
         },
         2560: {
           slidesPerView: 5,
-          spaceBetween: 10
+          spaceBetween: 10,
         },
         3000: {
           slidesPerView: 6,
-          spaceBetween: 10
-        }
+          spaceBetween: 10,
+        },
       },
       autoplay: {
         delay: 3000,
-        disableOnInteraction: false
+        disableOnInteraction: false,
       },
       navigation: {
         nextEl: '.swiper-button-next',
@@ -116,27 +131,13 @@ export default {
       //   clickable: true,
       // },
     },
-    isIntersecting: false,
   }),
   computed: {
     ...mapState(['testimonialList']),
   },
   methods: {
-    onIntersect(entries, observer) {
-      this.isIntersecting = entries[0].isIntersecting
-      if (this.isIntersecting === true) {
-        this.moveRight()
-      }
-    },
-    moveRight() {
-      const track = document.querySelector('.slick-track')
-      track.style.transform = 'translateX(-5750px)'
-    },
-    moveLeft() {
-      const track = document.querySelector('.slick-track')
-      track.style.transform = 'translateX(100px)'
-    }
-  }
+    superscriptTM,
+  },
 }
 </script>
 

@@ -2,29 +2,56 @@
 <template>
   <v-app>
     <v-main>
-      <Hero :category="category" :coverimg="coverimg" :brochure="brochure" :btns="btnGroup">
+      <Hero
+        :category="category"
+        :coverimg="coverimg"
+        :brochure="brochure"
+        :btns="btnGroup"
+      >
         <template #icon>
-          <img class="tw-w-16 xl:tw-w-20" :src="require('~/assets/duotone/' + icon)" :alt="title" />
+          <img
+            class="tw-w-16 xl:tw-w-20"
+            :src="require('~/assets/duotone/' + icon)"
+            :alt="title"
+          />
         </template>
         <template #title>
-          <div v-html="title"></div>
+          <div v-html="superscriptTM(title)"></div>
         </template>
         <template #subtitle>
-          <div v-html="subtitle"></div>
+          <div v-html="superscriptTM(subtitle)"></div>
         </template>
         <template #desc-heading>
-          <div v-html="descHeading"></div>
+          <div v-html="superscriptTM(descHeading)"></div>
         </template>
         <template #desc-content>
-          <div v-html="descContent"></div>
+          <div v-html="superscriptTM(descContent)"></div>
         </template>
       </Hero>
-      <Highlights v-if="highlights" :data="highlights" :video="highlightVideo" :img="highlightImg" :capabilities="capabilities"
-        class="tw-my-12 xl:tw-my-28" />
-      <Capabilities v-if="capabilities" :data="capabilities" class="tw-my-14 xl:tw-my-28" />
-      <Categories v-if="categories" :data="categories" class="tw-my-14 xl:tw-my-28" />
+      <Highlights
+        v-if="highlights"
+        :data="highlights"
+        :video="highlightVideo"
+        :img="highlightImg"
+        :capabilities="capabilities"
+        class="tw-my-12 xl:tw-my-28"
+      />
+      <Capabilities
+        v-if="capabilities"
+        :data="capabilities"
+        class="tw-my-14 xl:tw-my-28"
+      />
+      <Categories
+        v-if="categories"
+        :data="categories"
+        class="tw-my-14 xl:tw-my-28"
+      />
       <SysFeatures v-if="sysFeatures" :tagline="sysTitle" :data="sysFeatures" />
-      <Carousels v-if="carousels" :data="carousels" class="tw-my-12 xl:tw-my-28" />
+      <Carousels
+        v-if="carousels"
+        :data="carousels"
+        class="tw-my-12 xl:tw-my-28"
+      />
       <div v-if="extending" class="header-2 tw-text-center">Interfaces</div>
       <Extendings v-if="extending" :data="extending" />
       <RelatedProducts :data="relatedProducts" />
@@ -37,6 +64,7 @@
 
 <script>
 import Products from '~/data/justice-courts.json'
+import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
   data: () => ({
@@ -137,6 +165,7 @@ export default {
         window.open(url, '_blank')
       }
     },
+    superscriptTM,
   },
 }
 </script>

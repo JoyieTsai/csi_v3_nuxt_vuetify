@@ -6,15 +6,19 @@
         <div data-aos="fade-up" data-aos-duration="1500" data-aos-once="true">
           Pioneering
           <a href="/capabilities/infoshare-engine" class="btn-link">
-            InfoShare<sup>®</sup> Engine</a>, a low-code development platform for Government ERP
-          applications
+            InfoShare<sup>®</sup> Engine</a
+          >, a low-code development platform for Government ERP applications
         </div>
       </div>
       <div class="tw-order-2 index-video tw-ml-5">
         <div class="index-video--1" @click="currentVideo('RPYlUFbNweY')">
           <div class="default">
             <div class="tw-absolute absolute-center btn-play primary">
-              <img src="../assets/icons/icon-play.svg" alt="play" class="tw-w-3 xl:tw-w-6" />
+              <img
+                src="../assets/icons/icon-play.svg"
+                alt="play"
+                class="tw-w-3 xl:tw-w-6"
+              />
             </div>
             <img src="videos/index-video-1.jpg" />
           </div>
@@ -60,7 +64,11 @@
         <div class="index-video--3" @click="currentVideo('jRt6Fca1rHc')">
           <div class="default">
             <div class="tw-absolute absolute-center btn-play primary">
-              <img src="../assets/icons/icon-play.svg" alt="play" class="tw-w-3 xl:tw-w-6" />
+              <img
+                src="../assets/icons/icon-play.svg"
+                alt="play"
+                class="tw-w-3 xl:tw-w-6"
+              />
             </div>
             <img src="videos/index-video-3.jpg" />
           </div>
@@ -70,10 +78,20 @@
     </div>
 
     <!-- Modal -->
-    <v-dialog v-model="modalVideo" overlay-color="white" width="100%" @ok="() => (modalVideo = false)">
+    <v-dialog
+      v-model="modalVideo"
+      overlay-color="white"
+      width="100%"
+      @ok="() => (modalVideo = false)"
+    >
       <div class="tw-aspect-w-16 tw-aspect-h-9">
-        <iframe v-if="modalVideo" :src="'https://www.youtube.com/embed/' + videoid" frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe
+          v-if="modalVideo"
+          :src="'https://www.youtube.com/embed/' + videoid"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
       </div>
     </v-dialog>
   </div>

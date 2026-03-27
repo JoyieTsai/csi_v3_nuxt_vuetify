@@ -119,7 +119,7 @@
                   </div>
                   <div
                     class="tw-mx-8 lg:tw-mx-10 tw-text-white tw-text-sm md:tw-text-base lg:tw-text-lg xl:tw-text-xl"
-                    v-html="item.desc"
+                    v-html="superscriptTM(item.desc)"
                   ></div>
                   <div v-show="item.link" class="tw-text-center tw-mt-10">
                     <a
@@ -141,6 +141,7 @@
 </template>
 
 <script>
+import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   props: ['data'],
   data: () => ({
@@ -215,6 +216,7 @@ export default {
     routeTo(url) {
       this.$router.push({ path: url })
     },
+    superscriptTM,
   },
 }
 </script>
