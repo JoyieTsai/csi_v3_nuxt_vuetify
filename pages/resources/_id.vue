@@ -194,22 +194,22 @@
 </template>
 
 <script>
+import axios from 'axios'
 import { mapState } from 'vuex'
+import { API } from '~/config/api'
 import Products from '~/data/allproducts.json'
 // import Capabilities from '~/data/allcapabilities.json'
-import Articles from '~/data/articles.json'
 import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
-  asyncData({ params, redirect, payload }) {
+  async asyncData({ params, redirect, payload }) {
     // Use payload from generate routes if available
     if (payload) {
       return { pageData: payload }
     }
 
-    // Fallback for dev mode - you'll still need the import for this
-    const art = Articles.filter((res) => {
-      return res.id === params.id
-    })
+    // Fallback: fetch from Firebase directly
+    const api = await axios.get(API.articles)
+    const art = api.data.filter((res) => res.id === params.id)
     if (art.length < 1) {
       redirect(404, '/404')
     }

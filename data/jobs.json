@@ -1,53 +1,115 @@
 [
-    {
-        "id": 0,
-        "position": "Software Engineer",
-        "location": "Keasbey, NJ",
-        "functions": [
-            {
-                "title": "Responsibilities",
-                "content": [
-                    "Participate in new application development and existing system enhancements",
-                    "Troubleshoot and resolve online issues regarding InfoShare® application and data",
-                    "Conduct deployment of InfoShare® application updates/release and data remediation",
-                    "Identify and document business/technical requirement specifications for specific InfoShare® application design/development, interfaces, process, and other relevant changes",
-                    "Assist with the setup of applications, including 3rd party interface implementation and testing",
-                    "May assist account managers to solve urgent online issues during non-business hours"
-                ]
-            },
-            {
-                "title": "Requirement",
-                "content": [
-                    "Bachelor’s degree in Computer Science, Computer Engineering, or a related field in Science/Engineering",
-                    "Proficiency in SQL programming",
-                    "Familiarity with .Net Framework, C#, Java Script"
-                ]
-            }
+  {
+    "id": 0,
+    "location": "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832",
+    "position": "Computer Systems Analyst",
+    "functions": [
+      {
+        "title": "Offer Range",
+        "content": [
+          "$103,210~ $105,000 per year with benefits include PTO & Federal holidays, employee health/dental insurance & others."
         ]
-    },
-    {
-        "id": 1,
-        "position": "Data Analyst",
-        "location": "Keasbey, NJ",
-        "functions": [
-            {
-                "title": "Responsibilities",
-                "content": [
-                    "Design, develop, and execute procedures to convert client data in various environments (SQL) into InfoShare® application",
-                    "Troubleshoot and resolve online issues regarding InfoShare® data",
-                    "Conduct deployment of data conversion and data remediation",
-                    "Perform in-depth data analysis to identify data patterns and anomalies",
-                    "May conduct deployment of data conversion during non-business hours"
-                ]
-            },
-            {
-                "title": "Requirement",
-                "content": [
-                    "Bachelor’s degree in any field",
-                    "Proficiency in SQL programming",
-                    "Knowledge of basic data modeling"
-                ]
-            }
+      },
+      {
+        "title": "Schedule",
+        "content": ["Monday through Friday"]
+      },
+      {
+        "title": "Job Duties",
+        "content": [
+          "Participate in the development of information technology solutions for government operations;",
+          "Responsible for the end-to-end development life cycle and maintenance of Infoshare software products;",
+          "Gather overall requirements of assigned projects and coordinate the support of UI/UX design as well as hard code development and QA efforts of specific teams;",
+          "Participate in advancing low-code development, optimizing data pipelines and refining document templates and interfaces;",
+          "Enhance software functionalities, streamline processes and elevate user experience;",
+          "Provide support of existing Infoshare applications including troubleshooting, testing, business rule changes and routine tasks;",
+          "Collaborate with cross-functional teams to drive innovation, ensure scalability and maintain a high product standard and excellence. "
         ]
-    }
+      },
+      {
+        "title": "Requirements",
+        "content": [
+          "Bachelor’s degree in Computer Science, Information Systems, Data Analytics Engineering, Mathematics or a related field in Engineering;",
+          "At least 12 months experience; Experience gained before or after baccalaureate graduation is acceptable;",
+          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills."
+        ]
+      },
+      {
+        "title": "Others",
+        "content": [
+          "This position is eligible for the employee referral program."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "location": "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832",
+    "position": "Web Developer (Computer & Information Science)",
+    "functions": [
+      {
+        "title": "Offer Range",
+        "content": ["$84,000 ~ $100,000"]
+      },
+      {
+        "title": "Job Duties",
+        "content": [
+          "Use the company’s patented low-code development platform to configure Web applications and GJXML interface.",
+          "Maintain understanding of current Web technologies or programming practices in the company’s interface engine based on the latest trends in computer and information science.",
+          "Analyze user needs to determine technical requirements.",
+          "Create Web models or prototypes that include physical, interface, logical, or data models.",
+          "Confer with management or development teams to prioritize needs, resolve conflicts, develop content criteria, or choose solutions.",
+          "Provide clear, detailed descriptions of Web site specifications, such as product features, activities, software, communication protocols, programming languages, and operating systems software and hardware.",
+          "Incorporate technical considerations into Web site design plans, such as budgets, equipment, performance requirements, and legal issues including accessibility and privacy.",
+          "Perform Web site tests according to planned schedules, or after any Web site or product revision.",
+          "Develop, deploy, and implement procedures for ongoing Web site maintenance and revision.",
+          "Recommend and implement performance improvements.",
+          "Document technical factors such as server load, bandwidth, database performance, and browser and device types.",
+          "Communicate with network personnel to address hardware or software issues affecting Web sites."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "content": [
+          "Bachelor’s degree in Computer Science, Information Systems, or a related field in Engineering.",
+          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "location": "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832",
+    "position": "Web Developer (Data Science)",
+    "functions": [
+      {
+        "title": "Offer Range",
+        "content": ["$84,000 ~ $100,000"]
+      },
+      {
+        "title": "Job Duties",
+        "content": [
+          "Use the company’s patented low-code development platform to configure data-driven Web applications,",
+          "Maintain understanding of current Web technologies or programming practices in the company’s data-driven Web development platform based on the latest trends in data science.",
+          "Analyze the user needs to determine technical requirements and confirm data contents.",
+          "Create Web models or prototypes that include physical, interface, logical, or data models.",
+          "Confer with management and development teams to prioritize needs, resolve data conflicts, develop website data criteria, and assist in finalizing solutions.",
+          "Provide clear, detailed descriptions of Web site specifications, such as product features, activities, software, communication protocols, programming languages, and operating systems software and hardware.",
+          "Incorporate technical considerations into Web site design plans, such as budgets, equipment, performance requirements, and legal issues including accessibility and privacy.",
+          "Perform Web site tests according to planned schedules, or after any Web site or product revision.",
+          "Develop, deploy, and implement procedures for ongoing Web site maintenance and revision.",
+          "Recommend and implement performance improvements.",
+          "Document technical factors such as server load, bandwidth, database performance, and browser and device types.",
+          "Communicate with network personnel to address data performance issues affecting web sites."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "content": [
+          "Bachelor’s degree in Data Science, or a related field in Engineering.",
+          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills."
+        ]
+      }
+    ]
+  }
 ]

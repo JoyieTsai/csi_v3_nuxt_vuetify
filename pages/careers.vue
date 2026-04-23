@@ -3,8 +3,8 @@
     <v-main>
       <!-- Cover -->
       <div class="hero-section lg tw-items-center" :style="{
-          backgroundImage: `url(images/covers/${category}/${coverimg})`,
-        }">
+        backgroundImage: `url(images/covers/${category}/${coverimg})`,
+      }">
         <div class="main-container tw-mx-auto">
           <div class="tw-flex tw-mb-12">
             <div class="tw-flex-1 tw-flex-col tw-text-white">
@@ -16,7 +16,8 @@
       </div>
       <div class="main-container tw-mx-auto">
         <div class="tw-flex-col">
-          <div v-if="$vuetify.breakpoint.mobile" class="tw-text-sm tw-border-dotted tw-border-2 tw-p-2 tw-mb-5 tw-text-orange-400">
+          <div v-if="$vuetify.breakpoint.mobile"
+            class="tw-text-sm tw-border-dotted tw-border-2 tw-p-2 tw-mb-5 tw-text-orange-400">
             <!-- <img src="images/desktop.svg" alt="" class="tw-mb-5" /> -->
             Note: The application form does not support mobile devices, please
             access this page from desktop.
@@ -27,8 +28,8 @@
             </div>
           </div>
           <div v-else class="tw-mb-16">
-            <a class="tw-w-80 btn-xl btn-primary tw-shadow-xl tw-mx-auto" href="https://genie.csitech.com/Include/External/EmploymentApplication.aspx"
-              target="_blank">
+            <a class="tw-w-80 btn-xl btn-primary tw-shadow-xl tw-mx-auto"
+              href="https://genie.csitech.com/Include/External/EmploymentApplication.aspx" target="_blank">
               <img src="images/arrow.svg" alt="" class="tw-inline tw-mr-2" />
               Click to Apply
             </a>
@@ -57,9 +58,9 @@
               {{ data.position }}
             </div>
             <div class="tw-flex tw-items-center">
-              <span class="lg:tw-text-xl xl:tw-text-2xl">{{
+              <span class="lg:tw-text-lg xl:tw-text-xl">{{
                 data.location
-              }}</span>
+                }}</span>
               <span class="csi-icon-location_solid tw-text-2xl lg:tw-text-3xl tw-ml-3"></span>
             </div>
           </nuxt-link>

@@ -1,25 +1,14 @@
 import colors from 'vuetify/es5/util/colors'
 import axios from 'axios'
+import { API } from './config/api'
 
 const dynamicRoutes = async () => {
-  const resArticles = await axios.get(
-    'https://csi-web3-resources-default-rtdb.firebaseio.com/articles.json'
-  )
-  const resPS = await axios.get(
-    'https://csi-web3-resources-default-rtdb.firebaseio.com/public-safety.json'
-  )
-  const resJC = await axios.get(
-    'https://csi-web3-resources-default-rtdb.firebaseio.com/justice-courts.json'
-  )
-  const resCI = await axios.get(
-    'https://csi-web3-resources-default-rtdb.firebaseio.com/crime-intelligence.json'
-  )
-  const resCapabilities = await axios.get(
-    'https://csi-web3-resources-default-rtdb.firebaseio.com/capabilities.json'
-  )
-  const resStaff = await axios.get(
-    'https://csi-web3-resources-default-rtdb.firebaseio.com/staff.json'
-  )
+  const resArticles = await axios.get(API.articles)
+  const resPS = await axios.get(API.publicSafety)
+  const resJC = await axios.get(API.justiceCourts)
+  const resCI = await axios.get(API.crimeIntelligence)
+  const resCapabilities = await axios.get(API.capabilities)
+  const resStaff = await axios.get(API.staff)
 
   const routesForArticles = resArticles.data.map((art) => {
     return {
@@ -76,7 +65,7 @@ export default {
   ssr: false, // Use true mode to generate full meta tags for the live site. But can't get changes from Firebase Realtime Database.
   target: 'static',
   generate: {
-    dir: 'dist/CSI-V9.8-03272026',
+    dir: 'dist/Test-V10-04232026',
     routes: dynamicRoutes,
     minify: {
       collapseWhitespace: true,
@@ -164,7 +153,6 @@ export default {
     { src: '@/plugins/aos', mode: 'client' },
     { src: '~/plugins/vue-zoom-on-hover.js', mode: 'client' },
     { src: '~/plugins/vue-swiper.js', mode: 'client' },
-    { src: '~/plugins/firebase.js', mode: 'client' },
     // { src: "~plugins/ga.js", mode: "client" },
     { src: '~plugins/gtag.js', mode: 'client' },
   ],
@@ -181,23 +169,7 @@ export default {
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['vue-social-sharing/nuxt', '@nuxtjs/firebase', '@nuxtjs/sitemap'],
-
-  firebase: {
-    config: {
-      apiKey: 'AIzaSyAxEz3yuTKF7dmGWNQGHzIz4sieAPFV6GY',
-      authDomain: 'csi-web3-resources.firebaseapp.com',
-      databaseURL: 'https://csi-web3-resources-default-rtdb.firebaseio.com',
-      projectId: 'csi-web3-resources',
-      storageBucket: 'csi-web3-resources.appspot.com',
-      messagingSenderId: '569732863480',
-      appId: '1:569732863480:web:bdfdea53ed5d7afbaaf20d',
-      measurementId: 'G-HNE5XD0V2E',
-    },
-    services: {
-      realtimeDb: true, // this is the realtime database service
-    },
-  },
+  modules: ['vue-social-sharing/nuxt', '@nuxtjs/sitemap'],
 
   /*
    ** Axios module configuration
@@ -287,5 +259,17 @@ export default {
         },
       },
     },
+  },
+
+  // Environment variables (injected at build time via webpack)
+  env: {
+    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
+    FIREBASE_AUTH_DOMAIN: process.env.FIREBASE_AUTH_DOMAIN,
+    FIREBASE_DATABASE_URL: process.env.FIREBASE_DATABASE_URL,
+    FIREBASE_PROJECT_ID: process.env.FIREBASE_PROJECT_ID,
+    FIREBASE_STORAGE_BUCKET: process.env.FIREBASE_STORAGE_BUCKET,
+    FIREBASE_MESSAGING_SENDER_ID: process.env.FIREBASE_MESSAGING_SENDER_ID,
+    FIREBASE_APP_ID: process.env.FIREBASE_APP_ID,
+    FIREBASE_MEASUREMENT_ID: process.env.FIREBASE_MEASUREMENT_ID,
   },
 }
