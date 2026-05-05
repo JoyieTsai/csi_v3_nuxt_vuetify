@@ -4,9 +4,9 @@
     <v-main>
       <!-- Cover -->
       <div class="hero-section md" :style="{
-          background: `url(images/covers/${category}/${coverimg}) center`,
-          backgroundSize: `cover`,
-        }">
+        background: `url(images/covers/${category}/${coverimg}) center`,
+        backgroundSize: `cover`,
+      }">
         <div class="main-container tw-mx-auto">
           <div class="tw-flex tw-mb-12">
             <div class="tw-flex-1 tw-flex-col tw-text-white">
@@ -39,7 +39,8 @@
                     </div>
 
                     <ul class="tw-list-disc tw-mb-10 tw-text-lg tw-pl-10">
-                      <li v-for="(item, k) in func.content" :key="k" class="tw-text-base lg:tw-text-lg opacity-1 tw-my-2">
+                      <li v-for="(item, k) in func.content" :key="k"
+                        class="tw-text-base lg:tw-text-lg opacity-1 tw-my-2">
                         <span v-html="item"></span>
                       </li>
                     </ul>
@@ -60,7 +61,8 @@
       </div>
 
       <div class="main-container tw-mx-auto">
-        <div v-if="$vuetify.breakpoint.mobile" class="tw-text-sm tw-border-dotted tw-border-2 tw-p-2 tw-mb-5 tw-text-orange-400">
+        <div v-if="$vuetify.breakpoint.mobile"
+          class="tw-text-sm tw-border-dotted tw-border-2 tw-p-2 tw-mb-5 tw-text-orange-400">
           <!-- <img src="images/desktop.svg" alt="" class="tw-mb-5" /> -->
           Note: The application form does not support mobile devices, please
           access this page from desktop.
@@ -71,8 +73,8 @@
           </div>
         </div>
         <div v-else class="tw-mb-16">
-          <a class="tw-w-80 btn-xl btn-primary tw-shadow-xl tw-mx-auto" href="https://genie.csitech.com/Include/External/EmploymentApplication.aspx"
-            target="_blank">
+          <a class="tw-w-80 btn-xl btn-primary tw-shadow-xl tw-mx-auto"
+            href="https://genie.csitech.com/Include/External/EmploymentApplication.aspx" target="_blank">
             <img src="images/arrow.svg" alt="" class="tw-inline tw-mr-2" />
             Click to Apply
           </a>
@@ -142,3 +144,54 @@ export default {
   },
 }
 </script>
+
+<style>
+@media print {
+  @page {
+    size: A4 landscape;
+    margin: 10mm;
+  }
+
+  /* Force all backgrounds and images to print */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Scale entire page to fit */
+  body {
+    zoom: 0.72;
+  }
+
+  /* Flatten v-tabs: hide tab sidebar, show all content */
+  .v-tabs {
+    display: block !important;
+  }
+
+  .v-tabs>.v-tabs-bar {
+    display: none !important;
+  }
+
+  .v-tabs-items {
+    display: block !important;
+  }
+
+  .v-tab-item--selected,
+  .v-window-item {
+    display: block !important;
+    transform: none !important;
+  }
+
+  /* Force all tab panels visible, not just the active one */
+  .v-window-item:not(.v-window-item--active) {
+    display: block !important;
+    position: relative !important;
+    height: auto !important;
+  }
+
+  /* Page break between jobs */
+  .v-tab-item {
+    page-break-after: always;
+  }
+}
+</style>

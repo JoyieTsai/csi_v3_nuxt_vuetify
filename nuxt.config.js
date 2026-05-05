@@ -2,6 +2,13 @@ import colors from 'vuetify/es5/util/colors'
 import axios from 'axios'
 import { API } from './config/api'
 
+const GENERATE_VERSION = 'CSI-V10.1'
+const now = new Date()
+const mm = String(now.getMonth() + 1).padStart(2, '0')
+const dd = String(now.getDate()).padStart(2, '0')
+const yyyy = now.getFullYear()
+const generateDir = `dist/${GENERATE_VERSION}-${mm}${dd}${yyyy}`
+
 const dynamicRoutes = async () => {
   const resArticles = await axios.get(API.articles)
   const resPS = await axios.get(API.publicSafety)
@@ -65,7 +72,7 @@ export default {
   ssr: false, // Use true mode to generate full meta tags for the live site. But can't get changes from Firebase Realtime Database.
   target: 'static',
   generate: {
-    dir: 'dist/Test-V10-04232026',
+    dir: generateDir,
     routes: dynamicRoutes,
     minify: {
       collapseWhitespace: true,
