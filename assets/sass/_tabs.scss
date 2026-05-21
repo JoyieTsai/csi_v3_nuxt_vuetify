@@ -63,6 +63,15 @@
   }
 }
 
+.v-tabs--vertical {
+  @media only screen and (max-width: $breakpoints-lg) {
+    display: inline;
+    & > .v-tabs-bar .v-tabs-bar__content {
+      flex-direction: row;
+    }
+  }
+}
+
 .v-tabs--vertical > .v-tabs-bar .v-tab {
   @media only screen and (max-width: $breakpoints-lg) {
     height: auto !important;

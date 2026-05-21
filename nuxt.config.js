@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 import axios from 'axios'
 import { API } from './config/api'
 
-const GENERATE_VERSION = 'CSI-V10.1'
+const GENERATE_VERSION = 'CSI-V10.3' // CSI-V9.7-02252026
 const now = new Date()
 const mm = String(now.getMonth() + 1).padStart(2, '0')
 const dd = String(now.getDate()).padStart(2, '0')

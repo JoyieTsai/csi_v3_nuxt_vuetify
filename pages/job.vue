@@ -20,7 +20,7 @@
       <div class="main-container tw-mx-auto tw-my-10 xl:tw-my-28">
         <v-tabs v-model="tabIndex" :vertical="$vuetify.breakpoint.xsOnly ? false : true">
           <v-tab v-for="(data, i) in getJobs" :key="i"
-            class="tw-justify-start tw-text-xl tw-capitalize tw-tracking-normal tw-break-word tw-whitespace-normal tw-my-2 tw-text-left tw-py-3">
+            class="tw-justify-start tw-text-base lg:tw-text-lg xl:tw-text-xl tw-capitalize tw-tracking-normal tw-break-word tw-whitespace-normal tw-my-2 tw-text-left tw-py-3">
             {{ data.position }}
           </v-tab>
           <v-tabs-items v-model="tabIndex">
@@ -147,51 +147,22 @@ export default {
 
 <style>
 @media print {
-  @page {
-    size: A4 landscape;
-    margin: 10mm;
-  }
-
-  /* Force all backgrounds and images to print */
   * {
     -webkit-print-color-adjust: exact !important;
     print-color-adjust: exact !important;
   }
 
-  /* Scale entire page to fit */
   body {
     zoom: 0.72;
   }
 
-  /* Flatten v-tabs: hide tab sidebar, show all content */
-  .v-tabs {
-    display: block !important;
+  /* Hide navigation and footer */
+  .v-app-bar.v-app-bar--fixed {
+    position: relative;
   }
 
-  .v-tabs>.v-tabs-bar {
-    display: none !important;
-  }
-
-  .v-tabs-items {
-    display: block !important;
-  }
-
-  .v-tab-item--selected,
-  .v-window-item {
-    display: block !important;
-    transform: none !important;
-  }
-
-  /* Force all tab panels visible, not just the active one */
-  .v-window-item:not(.v-window-item--active) {
-    display: block !important;
-    position: relative !important;
-    height: auto !important;
-  }
-
-  /* Page break between jobs */
-  .v-tab-item {
-    page-break-after: always;
+  .v-tabs-bar {
+    display: none;
   }
 }
 </style>

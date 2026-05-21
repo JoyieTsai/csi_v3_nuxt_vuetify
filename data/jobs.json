@@ -52,6 +52,10 @@
         "content": ["$84,000 ~ $100,000"]
       },
       {
+        "title": "Schedule",
+        "content": ["Monday through Friday"]
+      },
+      {
         "title": "Job Duties",
         "content": [
           "Use the company’s patented low-code development platform to configure Web applications and GJXML interface.",
@@ -72,7 +76,14 @@
         "title": "Requirements",
         "content": [
           "Bachelor’s degree in Computer Science, Information Systems, or a related field in Engineering.",
-          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills."
+          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills.",
+          "A minimum of 2 years of experience is required; experience gained either before or after completion of a bachelor’s degree will be considered acceptable."
+        ]
+      },
+      {
+        "title": "Others",
+        "content": [
+          "This position is eligible for the employee referral program."
         ]
       }
     ]
@@ -85,6 +96,10 @@
       {
         "title": "Offer Range",
         "content": ["$84,000 ~ $100,000"]
+      },
+      {
+        "title": "Schedule",
+        "content": ["Monday through Friday"]
       },
       {
         "title": "Job Duties",
@@ -107,7 +122,14 @@
         "title": "Requirements",
         "content": [
           "Bachelor’s degree in Data Science, or a related field in Engineering.",
-          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills."
+          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills.",
+          "A minimum of 2 years of experience is required; experience gained either before or after completion of a bachelor’s degree will be considered acceptable."
+        ]
+      },
+      {
+        "title": "Others",
+        "content": [
+          "This position is eligible for the employee referral program."
         ]
       }
     ]
