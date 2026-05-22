@@ -1,0 +1,66 @@
+---
+description: 靜態站打包流程 — 自動遞增版號並執行 nuxt generate
+alwaysApply: false
+---
+
+# 靜態站打包（Generate）
+
+此專案為 Nuxt 2 靜態站（`ssr: false`, `target: 'static'`），打包指令為 `nuxt generate`，內容從 Firebase Realtime Database 於 build 時抓取。
+
+## 版號規則
+
+版號定義在 `nuxt.config.js` 的 `GENERATE_VERSION`：
+
+```js
+const GENERATE_VERSION = 'CSI-V10.4'   // 正式版
+// const GENERATE_VERSION = 'Test-V10.4' // 測試版
+const generateDir = `dist/${GENERATE_VERSION}-${mm}${dd}${yyyy}`
+```
+
+- 格式：`{前綴}-V{major}.{minor}`
+- 前綴依打包類型決定：
+  - **正式版**：`CSI`（例：`CSI-V10.4`）
+  - **測試版**：`Test`（例：`Test-V10.4`）
+- 輸出目錄：`dist/CSI-V10.4-05212026` 或 `dist/Test-V10.4-05212026`
+- **每次打包前，將 minor 版自動加 1**（`V10.4` → `V10.5`）
+- 僅修改 `GENERATE_VERSION` 常數，日期由程式自動產生
+
+## 打包類型
+
+| 使用者意圖 | GENERATE_VERSION 前綴 | 指令 |
+|-----------|----------------------|------|
+| 正式版 / 預設打包 | `CSI` | `npm run generate` 或 `npm run generate:prod` |
+| 測試版 | `Test` | `npm run generate:test` |
+
+打包測試版時，須將 `GENERATE_VERSION` 的前綴由 `CSI` 改為 `Test`（版號數字維持同一套遞增規則）。
+
+## 打包步驟
+
+1. 判斷使用者要打包正式版或測試版
+2. 讀取 `nuxt.config.js` 中目前的 `GENERATE_VERSION`
+3. 將 minor 版加 1，並依打包類型設定正確前綴（`CSI` 或 `Test`），寫回 `nuxt.config.js`
+4. 執行對應的 generate 指令（需 network 權限）
+5. generate 完成後自動執行 `scripts/inject-meta-tags.js`，將 SEO meta tag 注入 HTML
+6. 確認 `dist/` 下產生新的輸出目錄，且 HTML 含 og/twitter meta
+
+## SEO Meta Tag 注入（方案 B）
+
+- 維持 `ssr: false`，generate 完成後由 hook 自動注入 meta tag
+- 邏輯在 `scripts/meta/build-meta-map.js`（從 Firebase 與靜態頁設定建立 meta）
+- 可單獨重跑：`npm run inject-meta dist/CSI-V10.5-MMDDYYYY`
+- Firebase 更新 meta 後需重新 generate 才會反映到 HTML
+
+## Generate 指令
+
+| 指令 | 用途 |
+|------|------|
+| `npm run generate` | 預設 production 資料 |
+| `npm run generate:test` | 測試環境（`DATA_ENV=test`，僅 articles、leadership 走 `/test` 路徑） |
+| `npm run generate:prod` | 明確指定 production |
+
+## 注意事項
+
+- 不要修改 `package.json` 的 `version`（維持 `1.0.0`，與打包版號無關）
+- 不要 commit `dist/` 目錄，除非使用者明確要求
+- generate 會從 Firebase 抓取動態路由（articles、products、capabilities、staff 等）
+- 打包完成後回報：打包類型（正式/測試）、新版號、輸出目錄路徑、是否成功

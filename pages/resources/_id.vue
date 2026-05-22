@@ -198,7 +198,6 @@ import axios from 'axios'
 import { mapState } from 'vuex'
 import { API } from '~/config/api'
 import Products from '~/data/allproducts.json'
-// import Capabilities from '~/data/allcapabilities.json'
 import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   async asyncData({ params, redirect, payload }) {
@@ -257,12 +256,6 @@ export default {
         )
         break
     }
-    // const art = Articles.filter((res) => {
-    //   return res.id === params.id
-    // })
-    // if (art.length < 1) {
-    //   redirect(404, '/404')
-    // }
   },
   head() {
     // Use pageData from generate payload first; currentArticle is only set on client after mounted()

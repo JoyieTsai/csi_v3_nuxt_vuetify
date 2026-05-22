@@ -427,6 +427,17 @@
     "title": "Account Manager"
   },
   {
+    "uid": "110820264013393517",
+    "firstname": "Norman",
+    "lastname": "Galipeau",
+    "cover": "NormanGalipeau.png",
+    "email": "ngalipeau@csitech.com",
+    "employeeID": "1108",
+    "phone": "401-339-3517",
+    "since": "2026",
+    "title": "Account Manager"
+  },
+  {
     "uid": "107520226099299566",
     "firstname": "Paul",
     "lastname": "Genovese",

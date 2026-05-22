@@ -2,7 +2,7 @@ import colors from 'vuetify/es5/util/colors'
 import axios from 'axios'
 import { API } from './config/api'
 
-const GENERATE_VERSION = 'CSI-V10.3' // CSI-V9.7-02252026
+const GENERATE_VERSION = 'CSI-V10.5' // CSI-V9.7-02252026
 const now = new Date()
 const mm = String(now.getMonth() + 1).padStart(2, '0')
 const dd = String(now.getDate()).padStart(2, '0')
@@ -69,7 +69,7 @@ export default {
     host: 'localhost', // default: localhost
     port: '8000', // default: 3000
   },
-  ssr: false, // Use true mode to generate full meta tags for the live site. But can't get changes from Firebase Realtime Database.
+  ssr: false,
   target: 'static',
   generate: {
     dir: generateDir,
@@ -77,6 +77,12 @@ export default {
     minify: {
       collapseWhitespace: true,
       removeComments: true,
+    },
+  },
+  hooks: {
+    'generate:done'(generator) {
+      const { injectMetaTags } = require('./scripts/inject-meta-tags')
+      return injectMetaTags(generator.nuxt.options.generate.dir)
     },
   },
 
@@ -97,7 +103,7 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    transpile: ['vee-validate'],
+    transpile: [],
     productionSourceMap: false,
     splitChunks: {
       layouts: true,
@@ -160,7 +166,6 @@ export default {
     { src: '@/plugins/aos', mode: 'client' },
     { src: '~/plugins/vue-zoom-on-hover.js', mode: 'client' },
     { src: '~/plugins/vue-swiper.js', mode: 'client' },
-    // { src: "~plugins/ga.js", mode: "client" },
     { src: '~plugins/gtag.js', mode: 'client' },
   ],
 
@@ -178,21 +183,6 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: ['vue-social-sharing/nuxt', '@nuxtjs/sitemap'],
 
-  /*
-   ** Axios module configuration
-   */
-  axios: {
-    proxy: true,
-  },
-  proxy: {
-    '/api': {
-      target: 'https://www.csitech.com',
-      pathRewrite: {
-        '^/api': '/',
-      },
-      changeOrigin: true,
-    },
-  },
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://www.csitech.com',
@@ -270,13 +260,7 @@ export default {
 
   // Environment variables (injected at build time via webpack)
   env: {
-    FIREBASE_API_KEY: process.env.FIREBASE_API_KEY,
-    FIREBASE_AUTH_DOMAIN: process.env.FIREBASE_AUTH_DOMAIN,
-    FIREBASE_DATABASE_URL: process.env.FIREBASE_DATABASE_URL,
-    FIREBASE_PROJECT_ID: process.env.FIREBASE_PROJECT_ID,
-    FIREBASE_STORAGE_BUCKET: process.env.FIREBASE_STORAGE_BUCKET,
-    FIREBASE_MESSAGING_SENDER_ID: process.env.FIREBASE_MESSAGING_SENDER_ID,
-    FIREBASE_APP_ID: process.env.FIREBASE_APP_ID,
-    FIREBASE_MEASUREMENT_ID: process.env.FIREBASE_MEASUREMENT_ID,
+    DATA_ENV: process.env.DATA_ENV || 'production',
+    FIREBASE_TEST_COLLECTIONS: process.env.FIREBASE_TEST_COLLECTIONS,
   },
 }

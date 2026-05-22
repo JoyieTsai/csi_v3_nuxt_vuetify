@@ -20,6 +20,81 @@ $ npm run start
 $ npm run generate
 ```
 
+## Firebase Data Upload
+
+Local JSON files in `/data/` are fallbacks for dev mode. Production reads from Firebase Realtime Database. After editing data locally, upload the matching collection before running `npm run generate`.
+
+| Local file | Firebase collection |
+|------------|---------------------|
+| `data/staff.json` | `staff` |
+| `data/leadership.json` | `leadership` |
+| `data/articles.json` | `articles` |
+| `data/jobs.json` | `jobs` |
+| `data/public-safety.json` | `public-safety` |
+| `data/justice-courts.json` | `justice-courts` |
+| `data/crime-intelligence.json` | `crime-intelligence` |
+| `data/capabilities.json` | `capabilities` |
+| `data/testimonials.json` | `testimonials` |
+
+```bash
+# Upload one collection (production)
+npm run upload:firebase -- staff
+
+# Upload multiple collections
+npm run upload:firebase -- staff leadership
+
+# Upload all supported collections
+npm run upload:firebase -- --all
+
+# Preview without writing to Firebase
+npm run upload:firebase -- staff --dry-run
+
+# Upload to test path (/test/) for configured collections
+npm run upload:firebase:test -- articles
+```
+
+Upload replaces the entire Firebase collection with the local JSON file (REST `PUT`).
+
+### Upload Log
+
+Each run appends one entry to `logs/firebase-uploads.jsonl` (gitignored). Use it to track who uploaded what and when.
+
+```bash
+# View the latest upload entries
+tail -n 5 logs/firebase-uploads.jsonl
+
+# Pretty-print the latest entry (requires jq)
+tail -n 1 logs/firebase-uploads.jsonl | jq .
+```
+
+Example log entry:
+
+```json
+{
+  "timestamp": "2026-05-22T08:30:00.000Z",
+  "dataEnv": "production",
+  "dryRun": false,
+  "status": "success",
+  "user": "joyietsai",
+  "host": "MacBook-Pro.local",
+  "command": "node scripts/upload-to-firebase.js staff",
+  "collections": [
+    {
+      "name": "staff",
+      "file": "data/staff.json",
+      "count": 73,
+      "url": "https://csi-web3-resources-default-rtdb.firebaseio.com/staff.json",
+      "env": "production",
+      "fileModifiedAt": "2026-05-22T08:25:00.000Z",
+      "uploaded": true
+    }
+  ],
+  "error": null
+}
+```
+
+`status` values: `success`, `dry-run`, or `failed`.
+
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories

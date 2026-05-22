@@ -39,12 +39,6 @@
                   allowfullscreen
                 ></iframe>
               </div>
-              <!-- <youtube
-                  ref="youtube"
-                  video-id="VRckuuKA1JE"
-                  width="100%"
-                  height="720"
-                ></youtube> -->
             </v-dialog>
           </div>
         </slide>
@@ -60,7 +54,6 @@
         class="tw-mt-8 xl:tw-mt-16 tw-mb-14 xl:tw-mb-28"
       />
       <LazyTestimonials v-if="show" class="tw-my-14 xl:tw-my-28" />
-      <!-- <LazySocialFeed v-if="show" class="tw-my-14 xl:tw-my-28" /> -->
       <LazyContact v-if="show" />
     </v-main>
   </v-app>
@@ -120,11 +113,6 @@ export default {
       ],
     }
   },
-  // watch: {
-  //   modalVideo(val) {
-  //     !val && this.stop()
-  //   },
-  // },
   mounted() {
     window.addEventListener('scroll', this.handleScroll)
     this.handleScroll()
@@ -138,9 +126,6 @@ export default {
         this.show = true
       }
     },
-    // stop() {
-    //   this.$refs.youtube.player.stopVideo()
-    // },
   },
 }
 </script>

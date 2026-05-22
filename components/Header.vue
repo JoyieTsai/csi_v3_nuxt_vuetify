@@ -9,14 +9,6 @@
       <div :class="[$vuetify.breakpoint.mdAndDown ? 'tw-hidden' : '']">
         <v-menu v-for="(data, i) in datas" :key="i" open-on-hover offset-y transition="slide-y-transition">
           <template #activator="{ on, attrs }">
-            <!-- <v-btn
-              v-if="data.category === 'resources'"
-              text
-              class="capitalize"
-              :to="'/' + data.url"
-            >
-              {{ data.title }}
-            </v-btn> -->
             <v-btn v-if="data.url && data.url === 'resources'" text class="capitalize" v-bind="attrs"
               @click="routerToArticle()" v-on="on">
               {{ data.title }}
@@ -67,29 +59,15 @@
         $vuetify.breakpoint.mdAndDown ? 'tw-hidden' : '',
         'tw-items-center tw-justify-end',
       ]">
-        <!-- <v-btn icon @click.prevent="routerTo('/search')">
-          <v-icon>mdi-magnify</v-icon>
-        </v-btn>
-        <v-divider vertical class="tw-h-4"></v-divider> -->
         <v-btn text href="tel:123-456-7890" class="primary-text tw-text-2xl">1-732-346-0200</v-btn>
         <v-divider vertical class="tw-h-4"></v-divider>
         <v-btn text class="capitalize" @click.prevent="routerTo('/contact')">
           Contact Us
         </v-btn>
-        <!-- <v-divider vertical class="tw-h-4"></v-divider> -->
-        <!-- <v-btn text class="capitalize" href="/login" target="_blank">
-          Login
-        </v-btn> -->
       </div>
 
       <!-- Mobile Menu -->
       <div :class="[$vuetify.breakpoint.mdAndDown ? '' : 'tw-hidden']">
-        <!-- <v-btn icon @click.prevent="routerTo('/search')">
-          <v-icon>mdi-magnify</v-icon>
-        </v-btn> -->
-        <!-- <v-btn icon href="/login" target="_blank">
-          <v-icon>mdi-account-outline</v-icon>
-        </v-btn> -->
         <v-btn icon @click.prevent="routerTo('/contact')">
           <v-icon>mdi-message-processing-outline</v-icon>
         </v-btn>

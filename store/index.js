@@ -11,7 +11,6 @@ export const state = () => ({
   crimeIntelligenceList: [],
   capabilityList: [],
   testimonialList: [],
-  // socialFeedList: [],
   currentArticle: [],
   currentStaff: [],
   currentProduct: [],
@@ -70,9 +69,6 @@ export const mutations = {
   setTestimonials(state, payload) {
     state.testimonialList = payload
   },
-  // setSocialFeed(state, payload) {
-  //   state.socialFeedList = payload
-  // },
 }
 
 export const actions = {
@@ -144,12 +140,6 @@ export const actions = {
     const payload = await axios.get(API.testimonials)
     commit('setTestimonials', payload)
   },
-  // async getSocialFeed({ commit }) {
-  //   const payload = await axios.get(
-  //     'https://csi-web3-resources-default-rtdb.firebaseio.com/social-feed.json'
-  //   )
-  //   commit('setSocialFeed', payload)
-  // },
 }
 
 export const getters = {
