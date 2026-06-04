@@ -9,6 +9,8 @@ CSI 官網（Nuxt 2 靜態站）。**交接與教學文件** → [docs/HANDOVER.
 | [docs/content-operations.md](docs/content-operations.md) | 內容編輯：JSON、Firebase 上傳 |
 | [docs/release-checklist.md](docs/release-checklist.md) | 發佈檢查清單、部署 SOP |
 | [docs/teaching-outline.md](docs/teaching-outline.md) | 4 場交接教學大綱 |
+| [docs/teaching-slides.md](docs/teaching-slides.md) | **教學簡報**（Marp → PDF/PPTX） |
+| [docs/git-workflow.md](docs/git-workflow.md) | Git：`handover` 分支工作流程 |
 | [docs/FAQ.md](docs/FAQ.md) | 常見問題 |
 
 # Node Version 18

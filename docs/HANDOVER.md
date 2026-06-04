@@ -134,6 +134,8 @@ Firebase 根 URL：`https://csi-web3-resources-default-rtdb.firebaseio.com`（�
 | [content-operations.md](./content-operations.md) | 內容編輯：JSON、Firebase、各類型內容慣例 |
 | [release-checklist.md](./release-checklist.md) | 發佈前後檢查、部署 SOP（需團隊補齊） |
 | [teaching-outline.md](./teaching-outline.md) | 講師：4 場教學 agenda 與簽核練習 |
+| [teaching-slides.md](./teaching-slides.md) | 教學簡報（Marp）；匯出見 [teaching-slides-export.md](./teaching-slides-export.md) |
+| [git-workflow.md](./git-workflow.md) | **Git 分支**：接手人在 `handover` 工作，PR 合併 `master` |
 | [FAQ.md](./FAQ.md) | 常見問題 |
 | [../.cursor/skills/maintain-staff-data/SKILL.md](../.cursor/skills/maintain-staff-data/SKILL.md) | 維護 `staff.json` 完整規範 |
 | [../data/Read me.md](../data/Read%20me.md) | 文章 HTML 區塊慣例 |
@@ -156,6 +158,7 @@ Firebase 根 URL：`https://csi-web3-resources-default-rtdb.firebaseio.com`（�
 
 ## 建議學習順序
 
+0. 閱讀 [git-workflow.md](./git-workflow.md)，checkout **`handover`** 分支（勿直接在 `master` 提交）
 1. 依 [environment-setup.md](./environment-setup.md) 完成安裝與 §7 簽核
 2. 閱讀本文件 + 跑通 `npm run dev`
 3. 內容軌：[content-operations.md](./content-operations.md) + dry-run 上傳

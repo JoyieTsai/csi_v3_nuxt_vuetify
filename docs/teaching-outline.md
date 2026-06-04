@@ -136,7 +136,14 @@
 
 ---
 
-## 可選：簡報結構（10–15 頁）
+## 簡報檔案
+
+- **投影片原始檔：** [teaching-slides.md](./teaching-slides.md)（Marp，約 35 頁，含 4 場完整內容）
+- **匯出 PDF / PPTX：** 見 [teaching-slides-export.md](./teaching-slides-export.md)
+
+## 可選：簡報結構（10–15 頁精簡版）
+
+以下已併入 `teaching-slides.md`；若需更短版本可自行刪減場次投影片。
 
 1. 專案是什麼（靜態 + Firebase）
 2. 資料流圖（mermaid）
