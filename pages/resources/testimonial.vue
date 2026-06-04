@@ -3,10 +3,13 @@
   <v-app>
     <v-main>
       <!-- Cover -->
-      <div class="hero-section lg tw-items-center" :style="{
+      <div
+        class="hero-section lg tw-items-center"
+        :style="{
           backgroundImage: `url(images/covers/${category}/${coverimg})`,
           backgroundPosition: `center`,
-        }">
+        }"
+      >
         <div class="main-container tw-mx-auto">
           <div class="tw-flex tw-mb-12">
             <div class="tw-flex-1 tw-flex-col tw-text-white">
@@ -20,38 +23,70 @@
       <div class="main-container tw-mx-auto tw-mt-10 xl:tw-mt-20">
         <div class="tw-inline-block">
           <div class="flex-group">
-            <div v-for="(item, index) in testimonials" :key="index" class="flex-group-card tw-mt-5">
+            <div
+              v-for="(item, index) in testimonials"
+              :key="index"
+              class="flex-group-card tw-mt-5"
+            >
               <!-- < 9 -->
-              <div v-if="testimonials.length <= 10" :class="[
+              <div
+                v-if="testimonials.length <= 10"
+                :class="[
                   index % 2 != 0 ? 'highlight' : '',
                   'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card',
-                ]">
-                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg" v-html="item.quote"></div>
+                ]"
+              >
+                <div
+                  class="tw-text-sm md:tw-text-base xl:tw-text-lg"
+                  v-html="item.quote"
+                ></div>
                 <div class="middle-divider tw-mt-4">
-                  <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain" :style="
+                  <div
+                    class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+                    :style="
                       'background-image: url(images/agency/' + item.logo + ')'
-                    "></div>
+                    "
+                  ></div>
                 </div>
-                <div class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+                <div
+                  class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
+                >
                   {{ item.author }}
                 </div>
-                <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60" v-html="item.agency"></div>
+                <div
+                  class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+                  v-html="item.agency"
+                ></div>
               </div>
               <!-- Show all -->
-              <div v-else :class="[
+              <div
+                v-else
+                :class="[
                   index % 2 != 0 ? 'highlight' : '',
                   'tw-mb-10 tw-mx-2 tw-p-5 md:tw-p-8 xl:tw-p-10 quote-card',
-                ]">
-                <div class="tw-text-sm md:tw-text-base xl:tw-text-lg" v-html="item.quote"></div>
+                ]"
+              >
+                <div
+                  class="tw-text-sm md:tw-text-base xl:tw-text-lg"
+                  v-html="item.quote"
+                ></div>
                 <div class="middle-divider tw-mt-4">
-                  <div class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain" :style="
+                  <div
+                    class="tw-z-10 tw-w-16 tw-h-16 tw-rounded-full tw-bg-no-repeat tw-bg-contain"
+                    :style="
                       'background-image: url(images/agency/' + item.logo + ')'
-                    "></div>
+                    "
+                  ></div>
                 </div>
-                <div class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5">
+                <div
+                  class="tw-text-center tw-text-sm md:tw-text-base lg:tw-text-lg tw-font-semibold tw-mt-5"
+                >
                   {{ item.author }}
                 </div>
-                <div class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60" v-html="item.agency"></div>
+                <div
+                  class="tw-text-center tw-text-xs md:tw-text-sm xl:tw-text-base tw-opacity-60"
+                  v-html="item.agency"
+                ></div>
               </div>
             </div>
             <!-- If the quantity is not divisible -->
@@ -94,8 +129,8 @@ export default {
   computed: {
     ...mapState(['testimonialList']),
     testimonials() {
-      if (this.testimonialList.data) {
-        const TMS = this.testimonialList.data
+      if (this.testimonialList && this.testimonialList.length) {
+        const TMS = this.testimonialList
         const column1 = TMS.slice(0, 8)
         const column1All = TMS
         const column2 = []
@@ -144,7 +179,7 @@ export default {
           TMS[23],
           TMS[25],
           TMS[27],
-          TMS[29],
+          TMS[29]
         )
         column3.push(
           TMS[0],
@@ -155,7 +190,7 @@ export default {
           TMS[7],
           TMS[2],
           TMS[5],
-          TMS[8],
+          TMS[8]
         )
         column3All.push(
           TMS[0],
@@ -192,33 +227,33 @@ export default {
         if (this.showAll) {
           switch (this.$vuetify.breakpoint.name) {
             case 'xs':
-              return column1All
+              return column1All.filter(Boolean)
             case 'sm':
-              return column2All
+              return column2All.filter(Boolean)
             case 'md':
-              return column2All
+              return column2All.filter(Boolean)
             case 'lg':
-              return column3All
+              return column3All.filter(Boolean)
             case 'xl':
-              return column3All
+              return column3All.filter(Boolean)
           }
         } else {
           switch (this.$vuetify.breakpoint.name) {
             case 'xs':
-              return column1
+              return column1.filter(Boolean)
             case 'sm':
-              return column2
+              return column2.filter(Boolean)
             case 'md':
-              return column2
+              return column2.filter(Boolean)
             case 'lg':
-              return column3
+              return column3.filter(Boolean)
             case 'xl':
-              return column3
+              return column3.filter(Boolean)
           }
         }
-        return column3
+        return column3.filter(Boolean)
       } else {
-        return null
+        return []
       }
     },
   },

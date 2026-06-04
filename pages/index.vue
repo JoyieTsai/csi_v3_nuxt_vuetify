@@ -18,7 +18,9 @@
           }"
         >
           <div class="header-1 tw-mt-10 xl:tw-mt-20">{{ cover.title }}</div>
-          <div class="header-4" v-html="sloganHtml"></div>
+          <div class="header-4">
+            InfoShare<sup>®</sup> - Premier Software Solutions for eGovernment
+          </div>
           <div class="tw-mt-10">
             <v-dialog v-model="modalVideo">
               <template #activator="{ on, attrs }">
@@ -61,8 +63,6 @@
 
 <script>
 import { Carousel, Slide } from 'vue-carousel'
-import { superscriptTM } from '~/plugins/myfilter.js'
-
 export default {
   components: {
     Carousel,
@@ -93,17 +93,11 @@ export default {
         url: '',
       },
     ],
-    slogan: 'InfoShare® - Premier Software Solutions for eGovernment',
     perPage: 1,
     autoplayTimeout: 4000,
     paginationEnabled: false,
     modalVideo: false,
   }),
-  computed: {
-    sloganHtml() {
-      return superscriptTM(this.slogan)
-    },
-  },
   head() {
     return {
       titleTemplate: '%s | Overview',

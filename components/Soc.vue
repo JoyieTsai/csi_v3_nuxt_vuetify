@@ -27,7 +27,12 @@
 
 <script>
 export default {
-  props: ['data'],
+  props: {
+    data: {
+      type: Object,
+      default: () => ({}),
+    },
+  },
   data: () => ({}),
 }
 </script>

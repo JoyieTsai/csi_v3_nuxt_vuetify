@@ -59,7 +59,12 @@
 
 <script>
 export default {
-  props: ['data'],
+  props: {
+    data: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data: () => ({
     title: 'Related Products',
     desc: 'Fully integrated solutions and services installed on the <a href="/capabilities/infoshare-engine" class="primary-link">InfoShare<sup>®</sup> Engine</a>. Designed to be easily deployed to meet each agency or office’s unique requirements.',

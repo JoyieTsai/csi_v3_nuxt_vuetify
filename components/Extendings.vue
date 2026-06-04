@@ -1,15 +1,7 @@
 <template>
   <div class="main-container tw-mx-auto">
     <div
-      class="
-        tw-mt-8
-        lg:tw-mt-16
-        tw-pb-3 tw-grid tw-grid-cols-2
-        lg:tw-grid-cols-4
-        2xl:tw-grid-cols-5
-        tw-gap-3
-        md:tw-gap-5
-      "
+      class="tw-mt-8 lg:tw-mt-16 tw-pb-3 tw-grid tw-grid-cols-2 lg:tw-grid-cols-4 2xl:tw-grid-cols-5 tw-gap-3 md:tw-gap-5"
     >
       <div
         v-for="(item, index) in data"
@@ -42,7 +34,16 @@
 
 <script>
 export default {
-  props: ['name', 'data'],
+  props: {
+    name: {
+      type: String,
+      default: '',
+    },
+    data: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data: () => ({}),
 }
 </script>

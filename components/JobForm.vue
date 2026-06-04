@@ -162,8 +162,8 @@ export default {
           )
           this.reset(response)
         })
-        .catch((error) => {
-          console.log(error)
+        .catch(() => {
+          alert('Your message could not be sent. Please try again later.')
         })
       return {
         content,

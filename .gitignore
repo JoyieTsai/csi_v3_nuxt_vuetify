@@ -71,6 +71,9 @@ typings/
 # Nuxt generate
 dist
 
+# Generated icon font demo files
+assets/fonts/**/demo-files/**
+
 # vuepress build output
 .vuepress/dist
 

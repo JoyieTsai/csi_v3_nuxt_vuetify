@@ -23,23 +23,12 @@
       <div v-for="(item, j) in data" :key="j">
         <v-card
           tile
-          class="
-            tw-h-full tw-px-3
-            deco-vertical
-            zoomin
-            tw-cursor-pointer tw-shadow-lg
-          "
+          class="tw-h-full tw-px-3 deco-vertical zoomin tw-cursor-pointer tw-shadow-lg"
           @mouseover="changeIndex(j)"
         >
           <v-card-text class="tw-h-full">
             <div
-              class="
-                tw-text-xl
-                xl:tw-text-2xl
-                tw-font-semibold
-                text-primary
-                tw-mb-3
-              "
+              class="tw-text-xl xl:tw-text-2xl tw-font-semibold text-primary tw-mb-3"
             >
               {{ item.title }}
             </div>
@@ -59,7 +48,12 @@ export default {
     Carousel,
     Slide,
   },
-  props: ['data'],
+  props: {
+    data: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data() {
     return {
       currentIndex: 0,

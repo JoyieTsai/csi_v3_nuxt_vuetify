@@ -31,7 +31,7 @@
         <div class="client-map tw-transform tw-mt-0 xl:tw-mt-20 lg:tw-mb-10">
           <div v-for="(item, i) in states" :key="i" :class="['tw-absolute', 'client-map-points--' + i]">
             <v-tooltip top color="white">
-              <template v-slot:activator="{ on, attrs }">
+              <template #activator="{ on, attrs }">
                 <div v-bind="attrs" class="point" v-on="on"></div>
               </template>
               <span class="text-primary tw-text-lg tw-font-semibold">

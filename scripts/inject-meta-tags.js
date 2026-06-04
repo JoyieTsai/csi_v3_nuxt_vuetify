@@ -1,7 +1,7 @@
+/* eslint-disable no-console */
 const fs = require('fs')
 const path = require('path')
 const { buildMetaMap } = require('./meta/build-meta-map')
-const { DEFAULT_DESCRIPTION } = require('./meta/constants')
 
 function escapeHtml(value) {
   return String(value)
@@ -20,13 +20,19 @@ function buildMetaTagStrings(meta) {
 
   tags.push(`<meta property="og:title" content="${escapeHtml(meta.ogTitle)}">`)
   tags.push(
-    `<meta property="og:description" content="${escapeHtml(meta.ogDescription)}">`
+    `<meta property="og:description" content="${escapeHtml(
+      meta.ogDescription
+    )}">`
   )
 
   if (meta.ogImage) {
-    tags.push(`<meta property="og:image" content="${escapeHtml(meta.ogImage)}">`)
     tags.push(
-      `<meta property="og:image:secure_url" content="${escapeHtml(meta.ogImage)}">`
+      `<meta property="og:image" content="${escapeHtml(meta.ogImage)}">`
+    )
+    tags.push(
+      `<meta property="og:image:secure_url" content="${escapeHtml(
+        meta.ogImage
+      )}">`
     )
   }
 
@@ -36,7 +42,9 @@ function buildMetaTagStrings(meta) {
     `<meta property="twitter:title" content="${escapeHtml(meta.ogTitle)}">`
   )
   tags.push(
-    `<meta property="twitter:description" content="${escapeHtml(meta.ogDescription)}">`
+    `<meta property="twitter:description" content="${escapeHtml(
+      meta.ogDescription
+    )}">`
   )
 
   if (meta.ogImage) {
@@ -67,7 +75,9 @@ function injectMetaIntoHtml(html, meta) {
     } else {
       result = result.replace(
         /<head[^>]*>/i,
-        `$&\n    <meta name="description" content="${escapeHtml(meta.description)}">`
+        `$&\n    <meta name="description" content="${escapeHtml(
+          meta.description
+        )}">`
       )
     }
   }

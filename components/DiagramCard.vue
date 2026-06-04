@@ -25,7 +25,12 @@
 <script>
 import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
-  props: ['data'],
+  props: {
+    data: {
+      type: Object,
+      default: () => ({}),
+    },
+  },
   data: () => ({}),
   methods: {
     superscriptTM,

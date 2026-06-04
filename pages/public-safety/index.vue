@@ -3,7 +3,11 @@
     <v-main>
       <Hero :category="category" :coverimg="coverimg" :btns="btnGroup">
         <template #icon>
-          <img class="tw-w-16 xl:tw-w-20" :src="require('~/assets/duotone/' + icon)" :alt="title" />
+          <img
+            class="tw-w-16 xl:tw-w-20"
+            :src="require('~/assets/duotone/' + icon)"
+            :alt="title"
+          />
         </template>
         <template #title>{{ title }}</template>
         <template #subtitle>{{ subtitle }}</template>
@@ -11,7 +15,11 @@
         <template #desc-content>{{ descContent }}</template>
       </Hero>
       <BenefitsA class="tw-my-12 xl:tw-my-28" :data="benefits" />
-      <LazyTotalSolution v-if="show" class="tw-my-12 xl:tw-my-28" :solutions="solutions" />
+      <LazyTotalSolution
+        v-if="show"
+        class="tw-my-12 xl:tw-my-28"
+        :solutions="solutions"
+      />
       <LazySuccessStories v-if="show" class="tw-my-12 xl:tw-my-28" />
       <LazyContact v-if="show" />
     </v-main>
@@ -69,23 +77,16 @@ export default {
     this.getData()
   },
   mounted() {
-    if (process.client) {
-      window.addEventListener('scroll', this.handleScroll)
-      this.handleScroll()
-    }
+    window.addEventListener('scroll', this.handleScroll)
+    this.handleScroll()
   },
   beforeDestroy() {
-    if (process.client) {
-      window.removeEventListener('scroll', this.handleScroll)
-    }
+    window.removeEventListener('scroll', this.handleScroll)
   },
   methods: {
     handleScroll() {
-      // Your scroll handling here
-      if (process.client) {
-        if (window.scrollY > 10) {
-          this.show = true
-        }
+      if (window.scrollY > 10) {
+        this.show = true
       }
     },
     getData() {

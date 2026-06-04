@@ -8,12 +8,7 @@
               Book a Demo
             </div>
             <div
-              class="
-                md:tw-text-lg
-                lg:tw-text-xl lg:tw-mr-10
-                tw-text-center
-                md:tw-text-left
-              "
+              class="md:tw-text-lg lg:tw-text-xl lg:tw-mr-10 tw-text-center md:tw-text-left"
             >
               Want to learn more about our total solution software?<br />Contact
               us today to schedule a demo with one of our account managers.
@@ -160,8 +155,8 @@ export default {
           )
           this.reset(response)
         })
-        .catch((error) => {
-          console.log(error)
+        .catch(() => {
+          alert('Your message could not be sent. Please try again later.')
         })
       return {
         content,

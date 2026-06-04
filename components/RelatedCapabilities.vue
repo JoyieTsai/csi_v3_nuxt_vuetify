@@ -48,7 +48,12 @@
 <script>
 import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
-  props: ['data'],
+  props: {
+    data: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data: () => ({
     title: 'Related Capabilities',
     desc: 'Core competencies, innovations, and technological services to revolutionize eGovernment operations',

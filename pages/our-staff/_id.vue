@@ -107,13 +107,13 @@ import { mapState } from 'vuex'
 
 export default {
   layout: 'simple',
-  async fetch() {
-    await this.$store.dispatch('getStaffByID', this.$route.params.id)
-  },
   data: () => ({
     category: 'page',
     coverimg: 'blue.jpg',
   }),
+  async fetch() {
+    await this.$store.dispatch('getStaffByID', this.$route.params.id)
+  },
   computed: {
     ...mapState(['currentStaff']),
     member() {
@@ -160,10 +160,7 @@ export default {
           // Embed as inline Base64 to ensure the photo works offline
           photoContent = `PHOTO;ENCODING=b;TYPE=JPEG:${base64}`
         } catch (err) {
-          console.warn(
-            'VCard Photo Error: Could not fetch or convert image.',
-            err
-          )
+          photoContent = ''
         }
       }
 

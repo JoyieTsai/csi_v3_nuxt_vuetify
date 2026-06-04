@@ -4,13 +4,7 @@
 
     <div class="tw-mt-10">
       <div
-        class="
-          tw-grid
-          sm:tw-grid-cols-2
-          lg:tw-grid-cols-3
-          tw-gap-8
-          2xl:tw-px-20
-        "
+        class="tw-grid sm:tw-grid-cols-2 lg:tw-grid-cols-3 tw-gap-8 2xl:tw-px-20"
       >
         <div
           v-for="(item, index) in data"
@@ -32,7 +26,12 @@
 
 <script>
 export default {
-  props: ['data'],
+  props: {
+    data: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data: () => ({}),
 }
 </script>

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="main-container tw-mx-auto">
     <div
@@ -10,24 +11,24 @@
       class="tw-grid tw-gap-4 md:tw-gap-8 tw-grid-cols-2 xl:tw-grid-cols-4 tw-mt-8 xl:tw-mt-16"
     >
       <div
-        v-for="(article, i) in getRelatedNews"
+        v-for="(relatedArticle, i) in getRelatedNews"
         :key="i"
         class="tw-flex-1 tw-cursor-pointer"
-        @click.prevent="routerToArticle(article.id)"
+        @click.prevent="routerToArticle(relatedArticle.id)"
       >
         <v-img
           aspect-ratio="2"
-          :src="'images/news/' + article.cover"
+          :src="'images/news/' + relatedArticle.cover"
           class="tw-shadow-md tw-mb-2 tw-transition tw-duration-500 tw-ease-in-out tw-transform hover:tw-scale-105"
         ></v-img>
         <div
-          v-if="article.type === 'story'"
+          v-if="relatedArticle.type === 'story'"
           class="text-primary tw-text-sm sm:tw-text-base"
         >
           Success Stories
         </div>
         <div
-          v-else-if="article.type === 'news'"
+          v-else-if="relatedArticle.type === 'news'"
           class="text-secondary tw-text-sm sm:tw-text-base"
         >
           News
@@ -35,7 +36,7 @@
         <div v-else class="text-grey tw-text-sm sm:tw-text-base">Event</div>
         <div
           class="tw-text-sm sm:tw-text-base lg:tw-text-lg tw-font-medium"
-          v-html="superscriptTM(article.title)"
+          v-html="superscriptTM(relatedArticle.title)"
         ></div>
       </div>
     </div>
@@ -47,7 +48,20 @@ import { mapState } from 'vuex'
 import { superscriptTM } from '~/plugins/myfilter.js'
 
 export default {
-  props: ['title', 'tag', 'aid'],
+  props: {
+    title: {
+      type: String,
+      default: '',
+    },
+    tag: {
+      type: String,
+      default: '',
+    },
+    aid: {
+      type: String,
+      default: '',
+    },
+  },
   data: () => ({}),
   computed: {
     ...mapState(['articleList', 'tags', 'currentArticle']),
@@ -85,8 +99,6 @@ export default {
         finalArr.sort((a, b) => {
           return a.rating - b.rating
         })
-        console.log(finalArr)
-
         if (finalArr.length >= 4) {
           return finalArr.slice(0, 4)
         } else {

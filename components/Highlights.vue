@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="main-container tw-mx-auto">
     <div
@@ -58,10 +59,10 @@
 import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   props: {
-    capabilities: { type: Array, required: false },
-    video: { type: String, required: false },
-    img: { type: String, required: false },
-    data: { type: Array, required: false },
+    capabilities: { type: Array, default: () => [] },
+    video: { type: String, default: '' },
+    img: { type: String, default: '' },
+    data: { type: Array, default: () => [] },
   },
   data: () => ({}),
   methods: {

@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <v-app>
     <v-main>
@@ -91,7 +92,7 @@
                         hide-details
                         @click.prevent="changeTag(selected)"
                       >
-                        <template v-slot:label>
+                        <template #label>
                           <label class="tw-text-sm xl:tw-text-base">{{
                             tag.name
                           }}</label>
@@ -117,7 +118,7 @@
                 :search="keyword"
                 no-data-text="No data found."
               >
-                <template v-slot:default="props">
+                <template #default="props">
                   <div
                     class="tw-grid tw-gap-4 lg:tw-gap-8 tw-grid-cols-2 xl:tw-grid-cols-3 tw-mb-5"
                   >

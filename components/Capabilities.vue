@@ -1,3 +1,4 @@
+<!-- eslint-disable vue/no-v-html -->
 <template>
   <div class="main-container tw-m-auto">
     <v-card flat :class="$vuetify.breakpoint.smAndDown ? 'tw-pa-0' : ''">
@@ -74,7 +75,12 @@
 <script>
 import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
-  props: ['data'],
+  props: {
+    data: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data: () => ({
     tabIndex: 0,
   }),

@@ -144,7 +144,11 @@ export default {
   computed: {
     ...mapState(['publicSafetyList', 'currentProduct']),
     product() {
-      return this.currentProduct
+      return (
+        this.pageData ||
+        (Array.isArray(this.currentProduct) ? {} : this.currentProduct) ||
+        {}
+      )
     },
   },
   mounted() {

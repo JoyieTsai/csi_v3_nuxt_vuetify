@@ -3,65 +3,45 @@
   <div class="main-container tw-px-2 sm:tw-px-7 md:tw-mx-auto">
     <div class="tw-flex xl:tw-w-4/5 lg:tw-mx-10 xl:tw-mx-auto">
       <div v-for="(item, i) in data" :key="i" class="table-card">
-        <div v-if="item.title === 'CSI'" class="tw-flex tw-items-center tw-justify-center table-card-title">
-          <img src="images/company_logo.svg" alt="" class="tw-px-2 md:tw-px-5" />
+        <div
+          v-if="item.title === 'CSI'"
+          class="tw-flex tw-items-center tw-justify-center table-card-title"
+        >
+          <img
+            src="images/company_logo.svg"
+            alt=""
+            class="tw-px-2 md:tw-px-5"
+          />
         </div>
-        <div v-else class="
-            tw-text-base
-            md:tw-text-lg
-            xl:tw-text-xl
-            tw-font-semibold tw-flex tw-items-center tw-justify-center
-            table-card-title
-            tw-leading-tight
-          ">
+        <div
+          v-else
+          class="tw-text-base md:tw-text-lg xl:tw-text-xl tw-font-semibold tw-flex tw-items-center tw-justify-center table-card-title tw-leading-tight"
+        >
           {{ item.title }}
         </div>
-        <div class="
-            tw-text-sm tw-font-semibold
-            md:tw-text-base
-            lg:tw-text-lg
-            xl:tw-text-xl
-            tw-uppercase
-            tw-h-20
-            tw-flex
-            tw-items-center
-            tw-justify-center
-            tw-text-white
-            table-card-type
-            tw-px-2
-            md:tw-px-5
-            tw-leading-tight
-          ">
+        <div
+          class="tw-text-sm tw-font-semibold md:tw-text-base lg:tw-text-lg xl:tw-text-xl tw-uppercase tw-h-20 tw-flex tw-items-center tw-justify-center tw-text-white table-card-type tw-px-2 md:tw-px-5 tw-leading-tight"
+        >
           {{ item.type }}
         </div>
         <div v-if="item.title === 'CSI'">
           <ul class="table-list lightblue">
-            <li v-for="(con, j) in item.content" :key="j" class="
-                tw-text-xs
-                sm:tw-text-base
-                xl:tw-text-lg
-                tw-flex tw-items-center tw-px-2
-                md:tw-px-5
-                tw-leading-none
-                md:tw-leading-tight
-                hover:tw-shadow-md
-                zoomin
-              " v-html="con"></li>
+            <li
+              v-for="(con, j) in item.content"
+              :key="j"
+              class="tw-text-xs sm:tw-text-base xl:tw-text-lg tw-flex tw-items-center tw-px-2 md:tw-px-5 tw-leading-none md:tw-leading-tight hover:tw-shadow-md zoomin"
+              v-html="con"
+            ></li>
           </ul>
         </div>
         <div v-else>
           <ul class="table-list">
-            <li v-for="(con, j) in item.content" :key="j" class="
-                tw-text-xs
-                sm:tw-text-base
-                xl:tw-text-lg
-                tw-flex tw-items-center tw-px-2
-                md:tw-px-5
-                tw-leading-none
-                md:tw-leading-tight
-                hover:tw-shadow-lg
-                zoomin
-              " v-html="con"></li>
+            <li
+              v-for="(con, j) in item.content"
+              :key="j"
+              class="tw-text-xs sm:tw-text-base xl:tw-text-lg tw-flex tw-items-center tw-px-2 md:tw-px-5 tw-leading-none md:tw-leading-tight hover:tw-shadow-lg zoomin"
+              v-html="con"
+            ></li>
           </ul>
         </div>
       </div>
@@ -71,7 +51,12 @@
 
 <script>
 export default {
-  props: ['data'],
+  props: {
+    data: {
+      type: Array,
+      default: () => [],
+    },
+  },
   data: () => ({}),
 }
 </script>

@@ -107,12 +107,12 @@ export const actions = {
     commit('setCurrentStaff', payload[0])
   },
   async getJobs({ commit }) {
-    const payload = await axios.get(API.jobs)
-    commit('setJobs', payload)
+    const api = await axios.get(API.jobs)
+    commit('setJobs', api.data)
   },
   async getPublicSafety({ commit }) {
-    const payload = await axios.get(API.publicSafety)
-    commit('setPublicSafety', payload)
+    const api = await axios.get(API.publicSafety)
+    commit('setPublicSafety', api.data)
   },
   async getPublicSafetyByID({ commit }, id) {
     const api = await axios.get(API.publicSafety)
@@ -125,20 +125,20 @@ export const actions = {
     commit('setCurrentCapability', payload[0])
   },
   async getJusticeCourt({ commit }) {
-    const payload = await axios.get(API.justiceCourts)
-    commit('setJusticeCourt', payload)
+    const api = await axios.get(API.justiceCourts)
+    commit('setJusticeCourt', api.data)
   },
   async getCrimeIntelligence({ commit }) {
-    const payload = await axios.get(API.crimeIntelligence)
-    commit('setCrimeIntelligence', payload)
+    const api = await axios.get(API.crimeIntelligence)
+    commit('setCrimeIntelligence', api.data)
   },
   async getCapabilities({ commit }) {
-    const payload = await axios.get(API.capabilities)
-    commit('setCapabilities', payload)
+    const api = await axios.get(API.capabilities)
+    commit('setCapabilities', api.data)
   },
   async getTestimonials({ commit }) {
-    const payload = await axios.get(API.testimonials)
-    commit('setTestimonials', payload)
+    const api = await axios.get(API.testimonials)
+    commit('setTestimonials', api.data)
   },
 }
 

@@ -322,8 +322,6 @@ export default {
         return a.order - b.order
       })
 
-      console.log(finalArr)
-
       // Check special tag - for special case
       if (this.article.special) {
         const special = Products.find((res) => res.id === this.article.special)

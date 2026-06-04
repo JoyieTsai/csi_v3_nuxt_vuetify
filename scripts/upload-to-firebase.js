@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /**
  * Upload local /data/*.json files to Firebase Realtime Database.
  *
@@ -7,6 +8,7 @@
  *   node scripts/upload-to-firebase.js --all
  *   node scripts/upload-to-firebase.js staff --dry-run
  *   DATA_ENV=test node scripts/upload-to-firebase.js articles
+ *   DATA_ENV=production node scripts/upload-to-firebase.js staff --confirm-production
  *
  * Logs append to logs/firebase-uploads.jsonl (gitignored).
  */
@@ -18,7 +20,9 @@ const axios = require('axios')
 
 const BASE_URL = 'https://csi-web3-resources-default-rtdb.firebaseio.com'
 const DATA_ENV = process.env.DATA_ENV || 'production'
-const TEST_COLLECTIONS = (process.env.FIREBASE_TEST_COLLECTIONS || 'articles,leadership')
+const TEST_COLLECTIONS = (
+  process.env.FIREBASE_TEST_COLLECTIONS || 'articles,leadership'
+)
   .split(',')
   .map((collection) => collection.trim())
   .filter(Boolean)
@@ -47,9 +51,11 @@ const COLLECTION_FILES = {
 
 const args = process.argv.slice(2)
 const dryRun = args.includes('--dry-run')
+const confirmProduction = args.includes('--confirm-production')
+const uploadAll = args.includes('--all')
 const collections = args.filter((arg) => !arg.startsWith('--'))
 
-if (collections.includes('--all')) {
+if (uploadAll) {
   collections.length = 0
   collections.push(...Object.keys(COLLECTION_FILES))
 }
@@ -62,6 +68,7 @@ Usage:
   node scripts/upload-to-firebase.js <collection> [collection...]
   node scripts/upload-to-firebase.js --all
   node scripts/upload-to-firebase.js staff --dry-run
+  DATA_ENV=production node scripts/upload-to-firebase.js staff --confirm-production
 
 Collections:
   ${Object.keys(COLLECTION_FILES).join(', ')}
@@ -72,6 +79,18 @@ Environment:
 
 Log file:
   ${LOG_FILE}
+`)
+  process.exit(1)
+}
+
+if (DATA_ENV !== 'test' && !dryRun && !confirmProduction) {
+  console.error(`
+Refusing to upload to production Firebase without confirmation.
+
+Use one of these commands:
+  DATA_ENV=test node scripts/upload-to-firebase.js <collection>
+  DATA_ENV=production node scripts/upload-to-firebase.js <collection> --confirm-production
+  node scripts/upload-to-firebase.js <collection> --dry-run
 `)
   process.exit(1)
 }
@@ -91,7 +110,7 @@ const readCollection = (collection) => {
   const data = JSON.parse(raw)
 
   if (!Array.isArray(data)) {
-    throw new Error(`${COLLECTION_FILES[collection]} must be a JSON array`)
+    throw new TypeError(`${COLLECTION_FILES[collection]} must be a JSON array`)
   }
 
   const stats = fs.statSync(filePath)
@@ -114,6 +133,7 @@ const buildLogEntry = ({ status, results, error }) => ({
   timestamp: new Date().toISOString(),
   dataEnv: DATA_ENV,
   dryRun,
+  confirmProduction,
   status,
   user: process.env.USER || process.env.USERNAME || 'unknown',
   host: os.hostname(),
@@ -158,7 +178,9 @@ const uploadCollection = async (collection) => {
 }
 
 const main = async () => {
-  console.log(`Firebase upload — DATA_ENV=${DATA_ENV}${dryRun ? ' (dry-run)' : ''}`)
+  console.log(
+    `Firebase upload — DATA_ENV=${DATA_ENV}${dryRun ? ' (dry-run)' : ''}`
+  )
 
   const results = []
 
@@ -182,9 +204,7 @@ const main = async () => {
 
 main().catch((error) => {
   const message =
-    error.response?.data?.error ||
-    error.response?.statusText ||
-    error.message
+    error.response?.data?.error || error.response?.statusText || error.message
 
   appendUploadLog(
     buildLogEntry({

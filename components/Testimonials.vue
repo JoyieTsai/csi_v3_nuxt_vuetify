@@ -35,7 +35,7 @@
             </v-btn>
         </div> -->
     <swiper class="mySwiper" :options="swiperOption">
-      <swiper-slide v-for="(item, index) in testimonialList.data" :key="index">
+      <swiper-slide v-for="(item, index) in testimonials" :key="index">
         <div
           :class="[
             index % 2 == 0 ? 'highlight' : '',
@@ -134,6 +134,9 @@ export default {
   }),
   computed: {
     ...mapState(['testimonialList']),
+    testimonials() {
+      return this.testimonialList || []
+    },
   },
   methods: {
     superscriptTM,
