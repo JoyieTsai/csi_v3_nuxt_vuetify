@@ -2,7 +2,7 @@
 
 4 場 × 60–90 分鐘；每場保留 **15 分鐘 Q&A**。學員文件：[environment-setup.md](./environment-setup.md)、[HANDOVER.md](./HANDOVER.md)。
 
-**課前作業：** 學員先完成 [environment-setup.md](./environment-setup.md) §7 簽核，第 1 場才能專注架構而非裝環境。
+**課前作業：** 完成 [environment-setup.md](./environment-setup.md) §7 簽核；clone 後 `git checkout handover`（見 [git-workflow.md](./git-workflow.md)）
 
 ---
 

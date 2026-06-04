@@ -83,7 +83,12 @@ git stash pop
 ## 維護者（Joyie）
 
 - Review 來自 `handover`（或子分支）的 PR，確認後 merge 到 `master`
-- 可在 GitHub **Settings → Branches** 為 `master` 啟用 branch protection（要求 PR、禁止直接 push）
+- **建議在 GitHub 保護 `master`**（需 repo 管理員）：
+  1. 開啟 https://github.com/JoyieTsai/csi_v3_nuxt_vuetify/settings/branches
+  2. **Add branch protection rule** → Branch name: `master`
+  3. 勾選 **Require a pull request before merging**
+  4. （可選）**Require approvals**、**Do not allow bypassing**
+  5. Save changes
 - 交接結束後，可將 `handover` 與 `master` 同步：`git checkout handover && git merge master`
 
 ---
