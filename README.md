@@ -1,6 +1,19 @@
 # csi_v3_nuxt_vuetify
 
+CSI 官網（Nuxt 2 靜態站）。**交接與教學文件** → [docs/HANDOVER.md](docs/HANDOVER.md)
+
+| 文件 | 說明 |
+|------|------|
+| [docs/environment-setup.md](docs/environment-setup.md) | **環境安裝**（Node 18、依賴、dev 啟動） |
+| [docs/HANDOVER.md](docs/HANDOVER.md) | 架構、路由、指令總覽 |
+| [docs/content-operations.md](docs/content-operations.md) | 內容編輯：JSON、Firebase 上傳 |
+| [docs/release-checklist.md](docs/release-checklist.md) | 發佈檢查清單、部署 SOP |
+| [docs/teaching-outline.md](docs/teaching-outline.md) | 4 場交接教學大綱 |
+| [docs/FAQ.md](docs/FAQ.md) | 常見問題 |
+
 # Node Version 18
+
+首次設定請依 [docs/environment-setup.md](docs/environment-setup.md) 安裝 Git、Node 18 與專案依賴。
 
 ## Build Setup
 
@@ -9,7 +22,7 @@
 $ npm install
 $ npm install --legacy-peer-deps
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:8000
 $ npm run dev
 
 # build for production and launch server
