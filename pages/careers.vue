@@ -78,12 +78,17 @@
             <div class="lg:tw-text-xl xl:tw-text-2xl tw-font-semibold">
               {{ data.position }}
             </div>
-            <div class="tw-flex tw-items-center">
-              <span class="lg:tw-text-lg xl:tw-text-xl">{{
-                data.location
-              }}</span>
+            <div class="tw-flex tw-items-center tw-shrink-0 tw-max-w-full md:tw-max-w-[55%] lg:tw-max-w-[50%]">
+              <div class="lg:tw-text-lg xl:tw-text-xl tw-leading-snug">
+                <div
+                  v-for="(line, k) in jobLocation(data)"
+                  :key="k"
+                >
+                  {{ line }}
+                </div>
+              </div>
               <span
-                class="csi-icon-location_solid tw-text-2xl lg:tw-text-3xl tw-ml-3"
+                class="csi-icon-location_solid tw-text-2xl lg:tw-text-3xl tw-ml-3 tw-flex-shrink-0"
               ></span>
             </div>
           </nuxt-link>
@@ -137,6 +142,22 @@ export default {
   },
   mounted() {
     this.$store.dispatch('getJobs')
+  },
+  methods: {
+    jobLocation(data) {
+      const loc = data.location
+      if (Array.isArray(loc)) return loc
+      if (typeof loc === 'string') {
+        if (/<br\s*\/?>/i.test(loc)) {
+          return loc
+            .split(/<br\s*\/?>/i)
+            .map((s) => s.trim())
+            .filter(Boolean)
+        }
+        return [loc]
+      }
+      return []
+    },
   },
 }
 </script>

@@ -1,37 +1,61 @@
 [
   {
     "id": 0,
-    "location": "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832",
-    "position": "Computer Systems Analyst",
+    "location": [
+      "Remote/Work-from-Home, with periodic on-site visits to customer locations.",
+      "Applicants must be based in the Greater Richmond, VA area."
+    ],
+    "position": "Network Engineer",
     "functions": [
       {
         "title": "Offer Range",
         "content": [
-          "$103,210~ $105,000 per year with benefits include PTO & Federal holidays, employee health/dental insurance & others."
+          "$65,000 ~ $75,000"
         ]
       },
       {
         "title": "Schedule",
-        "content": ["Monday through Friday"]
+        "content": [
+          "Monday through Friday"
+        ]
       },
       {
         "title": "Job Duties",
         "content": [
-          "Participate in the development of information technology solutions for government operations;",
-          "Responsible for the end-to-end development life cycle and maintenance of Infoshare software products;",
-          "Gather overall requirements of assigned projects and coordinate the support of UI/UX design as well as hard code development and QA efforts of specific teams;",
-          "Participate in advancing low-code development, optimizing data pipelines and refining document templates and interfaces;",
-          "Enhance software functionalities, streamline processes and elevate user experience;",
-          "Provide support of existing Infoshare applications including troubleshooting, testing, business rule changes and routine tasks;",
-          "Collaborate with cross-functional teams to drive innovation, ensure scalability and maintain a high product standard and excellence. "
+          "Day to Day Maintenance of a Microsoft Windows AD Infrastructure, Microsoft Azure AD Infrastructure, and Microsoft Windows Server Platform.",
+          "Establishes networking environment by designing system configuration; directing system installation; defining, documenting, and enforcing system standards.",
+          "Design and configure AWS and Azure cloud environment and services to deliver resilient and reliable application infrastructure service to customers.",
+          "Manage organization LAN, WAN, servers, storage, compute, identity, and security.",
+          "Manage organization's cloud infrastructure, including virtual networks, storage, compute, identity, and security.",
+          "Maximizes network performance by monitoring performance; troubleshooting network problems and outages; scheduling upgrades; collaborating with network architects on network optimization.",
+          "Sets and supports Virtualization environments",
+          "Sets and supports Microsoft SQL Server environments",
+          "Plans and implements of database maintenance and recurring tasks with the SQL Scheduling service.",
+          "Performs client consultation: plan, design, documents, implement, and support LAN/WAN networks.",
+          "Plans and implement network security, including maintaining firewalls, developing VPN, remote solutions and maintaining company security policies.",
+          "Troubleshoot, maintain, upgrade, and provide solutions to complex hardware/software problems."
         ]
       },
       {
         "title": "Requirements",
         "content": [
-          "Bachelor’s degree in Computer Science, Information Systems, Data Analytics Engineering, Mathematics or a related field in Engineering;",
-          "At least 12 months experience; Experience gained before or after baccalaureate graduation is acceptable;",
-          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills."
+          "2+ years of hands-on experience with server applications in a Microsoft networked environment and high level of Active Directory Management.",
+          "Must be familiar with Windows Server environment, SQL Server, High Performance Cluster, TCP/IP networking desired and Virtualization environment.",
+          "Familiar with AWS and Azure cloud services and infrastructures.",
+          "Expertise in the following areas: MS Windows Server, MS SQL Server, Recovery TCP/IP networking, LAN/WAN, Routing and Switching.",
+          "Excellent knowledge of server hardware and strong problem-solving skills.",
+          "Expertise with Data Backup and Disaster Recovery plan.",
+          "Solid programming and scripting abilities.",
+          "Project management and documentation skills.",
+          "High level of initiative and dedication.",
+          "Bachelor's degree in computer science, Engineering, Mathematics or a related discipline."
+        ]
+      },
+      {
+        "title": "Travel Requirements",
+        "content": [
+          "This role requires travel to client sites in the Richmond area and other locations throughout Virginia at least one day per week.",
+          "A valid driver's license and reliable transportation are required; candidates without a valid driver's license will not be considered for this position."
         ]
       },
       {
@@ -44,16 +68,130 @@
   },
   {
     "id": 1,
-    "location": "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832",
+    "location": [
+      "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832"
+    ],
+    "position": "Marketing Specialist (Content & Communications)",
+    "functions": [
+      {
+        "title": "Offer Range",
+        "content": [
+          "$75,000 ~ $90,000"
+        ]
+      },
+      {
+        "title": "Schedule",
+        "content": [
+          "Monday through Friday"
+        ]
+      },
+      {
+        "title": "Job Duties",
+        "content": [
+          "Develop social media content, case studies, white papers, website copy, and other marketing content.",
+          "Translate client success stories into compelling marketing narratives.",
+          "Develop content that highlights company expertise and strengthens market presence.",
+          "Create and maintain brochures, product sheets, presentations, and promotional materials.",
+          "Ensure all marketing materials are accurate, consistent, and aligned with company branding.",
+          "Assist in developing proposal content and messaging.",
+          "Support the preparation of estimates and Statements of Work (SOWs).",
+          "Ensure sales and client-facing materials are clear, professional, and client-ready."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "content": [
+          "Bachelor's degree in Marketing, Communications, Journalism, Business, or related field. Equivalent experience will be considered.",
+          "3–5 years of experience in marketing, communications, or a related field.",
+          "Strong writing, editing, and communication skills (required).",
+          "Experience creating materials that support marketing and sales efforts.",
+          "Ability to translate technical concepts into clear, simple messaging.",
+          "Highly organized with strong attention to detail.",
+          "Experience working with public sector or government-focused organizations preferred.",
+          "Experience in SaaS or technical product marketing preferred.",
+          "Experience supporting sales teams and/or proposal development preferred.",
+          "Event planning and coordination experience preferred.",
+          "Experience creating video content, including client success stories, product announcements, and testimonials preferred."
+        ]
+      },
+      {
+        "title": "Others",
+        "content": [
+          "This position is eligible for the employee referral program."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "location": [
+      "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832"
+    ],
+    "position": "Web Developer (Data Science)",
+    "functions": [
+      {
+        "title": "Offer Range",
+        "content": [
+          "$84,000 ~ $100,000"
+        ]
+      },
+      {
+        "title": "Schedule",
+        "content": [
+          "Monday through Friday"
+        ]
+      },
+      {
+        "title": "Job Duties",
+        "content": [
+          "Use the company’s patented low-code development platform to configure data-driven Web applications,",
+          "Maintain understanding of current Web technologies or programming practices in the company’s data-driven Web development platform based on the latest trends in data science.",
+          "Analyze the user needs to determine technical requirements and confirm data contents.",
+          "Create Web models or prototypes that include physical, interface, logical, or data models.",
+          "Confer with management and development teams to prioritize needs, resolve data conflicts, develop website data criteria, and assist in finalizing solutions.",
+          "Provide clear, detailed descriptions of Web site specifications, such as product features, activities, software, communication protocols, programming languages, and operating systems software and hardware.",
+          "Incorporate technical considerations into Web site design plans, such as budgets, equipment, performance requirements, and legal issues including accessibility and privacy.",
+          "Perform Web site tests according to planned schedules, or after any Web site or product revision.",
+          "Develop, deploy, and implement procedures for ongoing Web site maintenance and revision.",
+          "Recommend and implement performance improvements.",
+          "Document technical factors such as server load, bandwidth, database performance, and browser and device types.",
+          "Communicate with network personnel to address data performance issues affecting web sites."
+        ]
+      },
+      {
+        "title": "Requirements",
+        "content": [
+          "Bachelor’s degree in Data Science, or a related field in Engineering.",
+          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills.",
+          "A minimum of 2 years of experience is required; experience gained either before or after completion of a bachelor’s degree will be considered acceptable."
+        ]
+      },
+      {
+        "title": "Others",
+        "content": [
+          "This position is eligible for the employee referral program."
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "location": [
+      "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832"
+    ],
     "position": "Web Developer (Computer & Information Science)",
     "functions": [
       {
         "title": "Offer Range",
-        "content": ["$84,000 ~ $100,000"]
+        "content": [
+          "$84,000 ~ $100,000"
+        ]
       },
       {
         "title": "Schedule",
-        "content": ["Monday through Friday"]
+        "content": [
+          "Monday through Friday"
+        ]
       },
       {
         "title": "Job Duties",
@@ -89,41 +227,42 @@
     ]
   },
   {
-    "id": 2,
-    "location": "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832",
-    "position": "Web Developer (Data Science)",
+    "id": 4,
+    "location": [
+      "Computer Square Inc., 330 Mac Lane, Keasbey, NJ 08832"
+    ],
+    "position": "Computer Systems Analyst",
     "functions": [
       {
         "title": "Offer Range",
-        "content": ["$84,000 ~ $100,000"]
+        "content": [
+          "$103,210~ $105,000 per year with benefits include PTO & Federal holidays, employee health/dental insurance & others."
+        ]
       },
       {
         "title": "Schedule",
-        "content": ["Monday through Friday"]
+        "content": [
+          "Monday through Friday"
+        ]
       },
       {
         "title": "Job Duties",
         "content": [
-          "Use the company’s patented low-code development platform to configure data-driven Web applications,",
-          "Maintain understanding of current Web technologies or programming practices in the company’s data-driven Web development platform based on the latest trends in data science.",
-          "Analyze the user needs to determine technical requirements and confirm data contents.",
-          "Create Web models or prototypes that include physical, interface, logical, or data models.",
-          "Confer with management and development teams to prioritize needs, resolve data conflicts, develop website data criteria, and assist in finalizing solutions.",
-          "Provide clear, detailed descriptions of Web site specifications, such as product features, activities, software, communication protocols, programming languages, and operating systems software and hardware.",
-          "Incorporate technical considerations into Web site design plans, such as budgets, equipment, performance requirements, and legal issues including accessibility and privacy.",
-          "Perform Web site tests according to planned schedules, or after any Web site or product revision.",
-          "Develop, deploy, and implement procedures for ongoing Web site maintenance and revision.",
-          "Recommend and implement performance improvements.",
-          "Document technical factors such as server load, bandwidth, database performance, and browser and device types.",
-          "Communicate with network personnel to address data performance issues affecting web sites."
+          "Participate in the development of information technology solutions for government operations;",
+          "Responsible for the end-to-end development life cycle and maintenance of Infoshare software products;",
+          "Gather overall requirements of assigned projects and coordinate the support of UI/UX design as well as hard code development and QA efforts of specific teams;",
+          "Participate in advancing low-code development, optimizing data pipelines and refining document templates and interfaces;",
+          "Enhance software functionalities, streamline processes and elevate user experience;",
+          "Provide support of existing Infoshare applications including troubleshooting, testing, business rule changes and routine tasks;",
+          "Collaborate with cross-functional teams to drive innovation, ensure scalability and maintain a high product standard and excellence. "
         ]
       },
       {
         "title": "Requirements",
         "content": [
-          "Bachelor’s degree in Data Science, or a related field in Engineering.",
-          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills.",
-          "A minimum of 2 years of experience is required; experience gained either before or after completion of a bachelor’s degree will be considered acceptable."
+          "Bachelor’s degree in Computer Science, Information Systems, Data Analytics Engineering, Mathematics or a related field in Engineering;",
+          "At least 12 months experience; Experience gained before or after baccalaureate graduation is acceptable;",
+          "Demonstrated skills or experience in Law Enforcement & Public Safety domain knowledge, GJXML interface, low code development, UI/UX design and Advanced SQL skills."
         ]
       },
       {

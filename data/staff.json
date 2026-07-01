@@ -135,6 +135,17 @@
     "title": "Account Manager"
   },
   {
+    "uid": "110920268569067543",
+    "firstname": "Frank",
+    "lastname": "Sabella",
+    "cover": "FrankSabella.png",
+    "email": "fsabella@csitech.com",
+    "employeeID": "1109",
+    "phone": "856-906-7543",
+    "since": "2026",
+    "title": "Account Manager"
+  },
+  {
     "uid": "105520206033407583",
     "firstname": "Gregory",
     "lastname": "Ferry",

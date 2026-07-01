@@ -41,11 +41,18 @@
                   >
                     Position: {{ data.position }}
                   </div>
-                  <div
-                    class="header-5 tw-font-semibold tw-mt-10 md:tw-mt-0 tw-mb-10"
-                  >
-                    Work Location: {{ data.location }}
+                  <div class="header-5 tw-font-semibold tw-mb-4">
+                    Work Location
                   </div>
+                  <ul class="tw-list-disc tw-mb-10 tw-text-lg tw-pl-10">
+                    <li
+                      v-for="(line, k) in jobLocation(data)"
+                      :key="k"
+                      class="tw-text-base lg:tw-text-lg opacity-1 tw-my-2"
+                    >
+                      {{ line }}
+                    </li>
+                  </ul>
                   <div v-for="(func, i) in data.functions" :key="i">
                     <div class="header-5 tw-font-semibold tw-mb-4">
                       {{ func.title }}
@@ -162,6 +169,20 @@ export default {
   methods: {
     checkTabIndex(id) {
       this.tabIndex = Number(id)
+    },
+    jobLocation(data) {
+      const loc = data.location
+      if (Array.isArray(loc)) return loc
+      if (typeof loc === 'string') {
+        if (/<br\s*\/?>/i.test(loc)) {
+          return loc
+            .split(/<br\s*\/?>/i)
+            .map((s) => s.trim())
+            .filter(Boolean)
+        }
+        return [loc]
+      }
+      return []
     },
   },
 }
