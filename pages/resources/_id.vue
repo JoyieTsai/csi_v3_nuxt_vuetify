@@ -198,6 +198,7 @@ import axios from 'axios'
 import { mapState } from 'vuex'
 import { API } from '~/config/api'
 import Products from '~/data/allproducts.json'
+import Articles from '~/data/articles.json'
 import { superscriptTM } from '~/plugins/myfilter.js'
 export default {
   async asyncData({ params, redirect, payload }) {
@@ -206,7 +207,16 @@ export default {
       return { pageData: payload }
     }
 
-    // Fallback: fetch from Firebase directly
+    // Dev: use local JSON so content edits preview without uploading Firebase
+    if (process.dev) {
+      const local = Articles.filter((res) => res.id === params.id)
+      if (local.length < 1) {
+        redirect(404, '/404')
+      }
+      return { pageData: local[0] }
+    }
+
+    // Production SPA fallback: fetch from Firebase
     const api = await axios.get(API.articles)
     const art = api.data.filter((res) => res.id === params.id)
     if (art.length < 1) {
