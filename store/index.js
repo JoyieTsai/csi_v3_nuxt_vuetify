@@ -1,5 +1,6 @@
 import axios from 'axios'
 import { API } from '~/config/api'
+import localJobs from '~/data/jobs.json'
 
 export const state = () => ({
   articleList: [],
@@ -107,6 +108,10 @@ export const actions = {
     commit('setCurrentStaff', payload[0])
   },
   async getJobs({ commit }) {
+    if (process.dev) {
+      commit('setJobs', localJobs)
+      return
+    }
     const api = await axios.get(API.jobs)
     commit('setJobs', api.data)
   },

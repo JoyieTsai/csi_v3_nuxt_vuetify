@@ -66,9 +66,13 @@ export default {
   computed: {
     ...mapState(['articleList', 'tags', 'currentArticle']),
     article() {
-      return this.currentArticle
+      const ca = this.currentArticle
+      return ca && !Array.isArray(ca) ? ca : null
     },
     getRelatedNews() {
+      if (!this.article) {
+        return []
+      }
       const arr = this.article.tags // Get current article's tags
       const resultArr = []
       const allNews = this.articleList.filter((art) => art.rating >= 0) // All article

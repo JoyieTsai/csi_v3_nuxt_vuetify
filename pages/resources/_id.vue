@@ -186,7 +186,11 @@
         </div>
       </div>
 
-      <RelatedNews :aid="article.id" class="tw-my-12 xl:tw-my-28" />
+      <RelatedNews
+        v-if="article"
+        :aid="article.id"
+        class="tw-my-12 xl:tw-my-28"
+      />
 
       <Contact />
     </v-main>
@@ -315,6 +319,9 @@ export default {
       return Array.isArray(ca) ? null : ca
     },
     relatedProducts() {
+      if (!this.article) {
+        return []
+      }
       const arr = this.article.tags
       const resultArr = []
       if (arr) {
@@ -361,6 +368,10 @@ export default {
     // },
   },
   mounted() {
+    if (this.pageData) {
+      this.$store.commit('setCurrentArticle', this.pageData)
+      return
+    }
     this.$store.dispatch('getArticleByID', this.$route.params.id)
   },
   methods: {
@@ -419,6 +430,84 @@ export default {
       font-style: italic;
       font-size: 16px;
     }
+  }
+
+  .img-float-right {
+    float: right;
+    width: calc(50% - 0.625em);
+    max-width: none;
+    margin: 0.15em 0 1em 1.25em;
+    text-align: center;
+
+    img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      display: block;
+    }
+
+    @media only screen and (max-width: $breakpoints-md) {
+      float: none;
+      width: 100%;
+      max-width: 100%;
+      margin: 1.5em 0;
+    }
+  }
+
+  .img-area.img-float-right {
+    margin-top: 0.15em;
+    margin-bottom: 1em;
+  }
+
+  .news-aside-block {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+    gap: 1.25em;
+    margin: 0 0 1.5em;
+
+    &__text {
+      flex: 1;
+      min-width: 0;
+    }
+
+    &__img {
+      flex: 0 0 52%;
+      max-width: 560px;
+      align-self: flex-start;
+
+      img {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0;
+      }
+    }
+
+    @media only screen and (max-width: $breakpoints-md) {
+      flex-direction: column;
+      gap: 1em;
+
+      &__img {
+        flex: none;
+        width: 100%;
+        max-width: 100%;
+
+        img {
+          height: auto;
+        }
+      }
+    }
+  }
+
+  .clear-float {
+    clear: both;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    clear: both;
   }
 
   .member {
